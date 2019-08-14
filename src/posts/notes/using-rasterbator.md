@@ -3,7 +3,7 @@ title: "How to use the Rasterbator to print out a wall sized owl"
 date: 2008-04-06
 path: /notes/using-rasterbator/
 excerpt: "A quick tutorial and time lapse video of how to assemble a wall sized poster using The Rasterbator."
-image: ../../assets/images/owl-rasterbator-feature.jpg
+image: ../../images/owl-rasterbator-feature.jpg
 categories: [notes]
 tags: [tech geek, time lapse]
 last_modified_at: 2017-09-08T09:15:00-04:00
@@ -27,17 +27,17 @@ Anyways. After cutting out all the pages I setup my JVC mini-DV camcorder and re
 {% endfigure %}
 
 {% figure caption:"Measure twice, cut once, and hopefully not a finger or two" %}
-![Trimming pages printed out by the Rasterbator](../../assets/images/rasterbator-trimming-pages.jpg)
+![Trimming pages printed out by the Rasterbator](../../images/rasterbator-trimming-pages.jpg)
 {% endfigure %}
 
 {% figure caption:"First row up..." %}
-![First Rasterbator row assembled](../../assets/images/rasterbator-firstrow-owl.jpg)
+![First Rasterbator row assembled](../../images/rasterbator-firstrow-owl.jpg)
 {% endfigure %}
 
 {% figure caption:"Halfway there" %}
-![Halfway assembled Rasterbator owl](../../assets/images/rasterbator-halfway-owl.jpg)
+![Halfway assembled Rasterbator owl](../../images/rasterbator-halfway-owl.jpg)
 {% endfigure %}
 
 {% figure caption:"Finished" %}
-![Finished Rasterbated owl](../../assets/images/rasterbator-finished-owl.jpg)
+![Finished Rasterbated owl](../../images/rasterbator-finished-owl.jpg)
 {% endfigure %}

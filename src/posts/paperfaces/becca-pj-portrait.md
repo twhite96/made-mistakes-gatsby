@@ -4,7 +4,7 @@ date: 2015-05-22
 path: /paperfaces/becca-pj-portrait/
 excerpt: "PaperFaces portrait of the Becca P.J. drawn with Paper for iOS on an iPad."
 last_modified_at: 2016-10-10T15:18:53-04:00
-image: ../../assets/images/paperfaces-becca-pj.jpg
+image: ../../images/paperfaces-becca-pj.jpg
 gallery:
   - url: /assets/images/paperfaces-becca-pj-process-1-lg.jpg
     image_path: /assets/images/paperfaces-becca-pj-process-1-600.jpg

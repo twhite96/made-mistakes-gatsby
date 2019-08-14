@@ -3,7 +3,7 @@ title: "Blurry foliage portrait"
 date: 2013-07-25
 path: /paperfaces/jackmcdade-portrait/
 excerpt: "PaperFaces portrait of @jackmcdade drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-jackmcdade-twitter.jpg
+image: ../../images/paperfaces-jackmcdade-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, bokeh]
 ---
@@ -13,14 +13,14 @@ PaperFaces portrait of [@jackmcdade](https://twitter.com/jackmcdade). Went all c
 {% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Pencil sketch to rough out the composition." %}
-[![Work in process screenshot](../../assets/images/paperfaces-jackmcdade-process-1-600.jpg)](../../assets/images/paperfaces-jackmcdade-process-1-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-jackmcdade-process-1-600.jpg)](../../images/paperfaces-jackmcdade-process-1-lg.jpg)
 {% endfigure %}
 
 {% figure caption:"Short and controlled watercolor strokes to avoid sharp edges and keep the trees nice and blurry." class:"gallery-2-col" %}
-[![Work in process screenshot](../../assets/images/paperfaces-jackmcdade-process-2-600.jpg)](../../assets/images/paperfaces-jackmcdade-process-2-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-jackmcdade-process-3-600.jpg)](../../assets/images/paperfaces-jackmcdade-process-3-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-jackmcdade-process-2-600.jpg)](../../images/paperfaces-jackmcdade-process-2-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-jackmcdade-process-3-600.jpg)](../../images/paperfaces-jackmcdade-process-3-lg.jpg)
 {% endfigure %}
 
 {% figure caption:"Here comes the face..." %}
-[![Work in process screenshot](../../assets/images/paperfaces-jackmcdade-process-4-600.jpg)](../../assets/images/paperfaces-jackmcdade-process-4-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-jackmcdade-process-4-600.jpg)](../../images/paperfaces-jackmcdade-process-4-lg.jpg)
 {% endfigure %}

@@ -3,7 +3,7 @@ title: "Glasses wearing houndstooth"
 date: 2013-04-03
 path: /paperfaces/a-erza-portrait/
 excerpt: "PaperFaces portrait of @A_Erza drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-a-erza-twitter.jpg
+image: ../../images/paperfaces-a-erza-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

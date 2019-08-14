@@ -4,7 +4,7 @@ date: 2015-01-07
 path: /paperfaces/mi-mo-portrait/
 excerpt: "PaperFaces portrait of the Mi Mo drawn with Paper for iOS on an iPad."
 last_modified_at: 
-image: ../../assets/images/paperfaces-mi-mo.jpg
+image: ../../images/paperfaces-mi-mo.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---
@@ -16,5 +16,5 @@ The original illustration is [available on Mix](https://mix.fiftythree.com/11098
 {% include_cached boilerplate/paperfaces-3.md %}
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-2-col" %}
-[![Work in process screenshot](../../assets/images/paperfaces-mi-mo-process-1-600.jpg)](../../assets/images/paperfaces-mi-mo-process-1-lg.jpg) [![Work in process screenshot](../../assets/images/paperfaces-mi-mo-process-2-600.jpg)](../../assets/images/paperfaces-mi-mo-process-2-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-mi-mo-process-1-600.jpg)](../../images/paperfaces-mi-mo-process-1-lg.jpg) [![Work in process screenshot](../../images/paperfaces-mi-mo-process-2-600.jpg)](../../images/paperfaces-mi-mo-process-2-lg.jpg)
 {% endfigure %}

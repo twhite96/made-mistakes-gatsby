@@ -4,7 +4,7 @@ date: 2015-04-13
 path: /paperfaces/hannah-l-portrait/
 excerpt: "PaperFaces portrait of the Hannah L. drawn with Paper for iOS on an iPad."
 last_modified_at: 
-image: ../../assets/images/paperfaces-hannah-l.jpg
+image: ../../images/paperfaces-hannah-l.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, time lapse]
 ---
@@ -28,7 +28,7 @@ To solve these issues I went with my go to time lapse app, [**Lapse It**](http:/
 This setup worked out pretty well apart from me having to sit in a really awkward position for over an hour. But the real pain turned out to be my ISP and the weak internet plan I was on. I quickly found out 1Mbps upload speeds are garbage for live streaming unless you want to crank the output quality way down.
 
 {% figure caption:"I record iPad drawing time lapse videos with an iPhone 5s clipped to a [reflector holder boom stand](http://www.amazon.com/gp/product/B005XOIFNW/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005XOIFNW&linkCode=as2&tag=mademist-20&linkId=LG5MJOGKZTN62QOH) %}
-![iPad drawing time lapse setup](../../assets/images/ipad-drawing-setup.jpg)
+![iPad drawing time lapse setup](../../images/ipad-drawing-setup.jpg)
 {% endfigure %}
 
 For [my first attempt](https://www.youtube.com/watch?v=FH2H9kHduRs) the stream was completely unwatchable and played more like a stop motion slideshow than a movie. Eventually I bumped up my plan to the next tier to double my upload bandwidth (which is still crazy slow), giving me a smooth and [hiccup free 480p stream](https://www.youtube.com/watch?v=OaLAeb7Pc90).

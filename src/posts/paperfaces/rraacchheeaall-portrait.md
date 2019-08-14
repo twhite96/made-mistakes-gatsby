@@ -3,7 +3,7 @@ title: "Long hair and geometric patterns"
 date: 2012-09-05
 path: /paperfaces/rraacchheeaall-portrait/
 excerpt: "PaperFaces portrait of @rraacchheeaall drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-rraacchheeaall-instagram.jpg
+image: ../../images/paperfaces-rraacchheeaall-instagram.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

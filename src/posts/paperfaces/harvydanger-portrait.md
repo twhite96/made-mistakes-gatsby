@@ -3,7 +3,7 @@ title: "Portrait Winner Number 1"
 date: 2014-09-02
 path: /paperfaces/harvydanger-portrait/
 excerpt: "PaperFaces portrait of @harvydanger drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-harvydanger-twitter.jpg
+image: ../../images/paperfaces-harvydanger-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

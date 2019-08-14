@@ -3,7 +3,7 @@ title: "Long hair and blue striped shirt"
 date: 2013-03-03
 path: /paperfaces/lovisaslife-portrait/
 excerpt: "PaperFaces portrait of @lovisaslife drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-lovisaslife-twitter.jpg
+image: ../../images/paperfaces-lovisaslife-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

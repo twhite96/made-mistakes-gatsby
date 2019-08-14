@@ -3,7 +3,7 @@ title: "Cropped face"
 date: 2012-09-10
 path: /paperfaces/allegedlymark-portrait/
 excerpt: "PaperFaces portrait of @allegedlymark drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-allegedlymark-twitter.jpg
+image: ../../images/paperfaces-allegedlymark-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

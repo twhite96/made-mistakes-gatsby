@@ -6,7 +6,7 @@ last_modified_at: 2018-11-06T12:01:20-05:00
 excerpt: "Learn how to reposition Paper's zoom loupe mid-stroke to help add detail to your drawings."
 categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, Apple]
-image: ../../assets/images/paper-53-zoom-loupe-feature.jpg
+image: ../../images/paper-53-zoom-loupe-feature.jpg
 toc: true
 ---
 
@@ -25,13 +25,13 @@ The loupe shown below has been retired and replaced with a more traditional zoom
 The [1.6 update](http://news.fiftythree.com/post/79379441335/the-paper-ios-7-update-is-here-brighter-fresher) for **Paper by FiftyThree** introduced refinements to each of the tools and their behavior inside of the loupe. The tools now scale appropriately when in zoom --- giving you finer control over line weights. The ability to paint thin strokes without the use of a [Pogo Connect]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) stylus was now possible.
 
 {% figure caption:"Drawing in the loupe with FiftyThree's Pencil stylus." %}
-![drawing in the loupe](../../assets/images/paper-53-zoom-loupe-pencil-ev.jpg)
+![drawing in the loupe](../../images/paper-53-zoom-loupe-pencil-ev.jpg)
 {% endfigure %}
 
 An important characteristic of the watercolor brush is its ability to [apply glazes]({% post_url /mastering-paper/2014-02-09-basics %}#glazing) on top of each other to build 3-dimensional forms. To pull off this effect, [smooth tones]({% post_url /mastering-paper/2014-02-09-basics %}#painting-smooth) are a must and the only way to paint them is by not lifting off the canvas until you've filled the shape.
 
 {% figure caption:"Moving the loupe while glazing is necessary to cover larger shapes evenly." %}
-![glazing in the loupe](../../assets/images/paper-53-zoom-glaze-face.jpg)
+![glazing in the loupe](../../images/paper-53-zoom-glaze-face.jpg)
 {% endfigure %}
 
 I think you can see where I'm going with this. If you're painting a shape that falls outside of the Zoom loupe it becomes necessary to move it around. The problem is, if you begin painting and then try to move the loupe it won't budge. For it to move you need to interrupt your watercolor stroke to reposition it, which will leave you with a uneven glaze if you try to continue painting where you left off.

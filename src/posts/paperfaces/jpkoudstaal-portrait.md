@@ -3,7 +3,7 @@ title: "Slenderman look a like?"
 date: 2013-04-03
 path: /paperfaces/jpkoudstaal-portrait/
 excerpt: "PaperFaces portrait of @JPKoudstaal drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-jpkoudstaal-twitter.jpg
+image: ../../images/paperfaces-jpkoudstaal-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

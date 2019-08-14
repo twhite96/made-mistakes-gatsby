@@ -3,7 +3,7 @@ title: "Smile and blush"
 date: 2014-02-17
 path: /paperfaces/chetterbate-haleymoffatt-portrait/
 excerpt: "PaperFaces portrait of Chad and Haley drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-haley-couple.jpg
+image: ../../images/paperfaces-haley-couple.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, time lapse]
 last_modified_at: 2017-01-17T14:53:27-05:00

@@ -4,7 +4,7 @@ date: 2018-11-12
 path: /notes/autumn-refresh/
 excerpt: "Using CSS Grid Layout Module to redesign a Jekyll site and further improve performance and accessibility."
 layout: post
-image: ../../assets/images/autumn-refresh-feature.jpg
+image: ../../images/autumn-refresh-feature.jpg
 categories: [notes]
 tags: [Jekyll, Gatsby, web development, Netlify]
 comments: true
@@ -42,7 +42,7 @@ To my eye this new layout breaks up the page better. Content comes into view ear
 {% notice %}
 #### ProTip: Use the Firefox DevTools when working with CSS grid layouts
 
-![Firefox Grid Inspector screenshot](../../assets/images/firefox-grid-inspector-screenshot.jpg)
+![Firefox Grid Inspector screenshot](../../images/firefox-grid-inspector-screenshot.jpg)
 {: .browser-frame}
 
 Out of all the major browsers, Firefox's [**Grid Inspector**](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Examine_grid_layouts) is argubly the best for examining, modifying, or debugging grid layouts.
@@ -83,7 +83,7 @@ Digging in, I discovered [**bigfoot.js**](http://bigfootjs.com/)[^bigfoot] didn'
 The color of elements like captions and footer text were too light, so I darkened them. I did the same for links by giving them a contrast ratio of `4.77`.
 
 {% figure caption:"The Color Picker in Chrome's DevTools will show you the contrast ratio of text elements to help make your site more accessible to users with low-vision impairments or color-vision deficiencies." %}
-![link color contrast ratio screenshot](../../assets/images/mm-link-color-contrast-raio.png)
+![link color contrast ratio screenshot](../../images/mm-link-color-contrast-raio.png)
 {% endfigure %}
 
 ## Performance improvements
@@ -120,11 +120,11 @@ Trimming `<div>` fat where I could helped cut page weight down. Some hefty pages
 ## Lighthouse audits comparison
 
 {% figure caption:"**Lighthouse** audit before optimizations." %}
-![Made Mistakes audit results before optimizations](../../assets/images/mm-lighthouse-audit-before.png)
+![Made Mistakes audit results before optimizations](../../images/mm-lighthouse-audit-before.png)
 {% endfigure %}
 
 {% figure caption:"**Lighthouse** audit after optimizations." %}
-![Made Mistakes audit results after optimizations](../../assets/images/mm-lighthouse-audit-after.png)
+![Made Mistakes audit results after optimizations](../../images/mm-lighthouse-audit-after.png)
 {% endfigure %}
 
 Not sure why metrics like *Speed Index* increased. But *Time to Interactive*, *First Meaningful Paint*, and *First CPI Idle* all show improvements, so I guess that's why the site went from a 79 in performance, to an 89. :man_shrugging:

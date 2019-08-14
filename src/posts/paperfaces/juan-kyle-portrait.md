@@ -3,7 +3,7 @@ title: "Best man"
 date: 2013-12-11
 path: /paperfaces/juan-kyle-portrait/
 excerpt: "PaperFaces portrait of Juan and Kyle drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-juan-kyle.jpg
+image: ../../images/paperfaces-juan-kyle.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, time lapse]
 ---

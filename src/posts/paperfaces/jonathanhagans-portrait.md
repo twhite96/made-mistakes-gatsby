@@ -3,7 +3,7 @@ title: "Winter faces"
 date: 2013-12-16
 path: /paperfaces/jonathanhagans-portrait/
 excerpt: "PaperFaces portrait commission drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-jonathanhagans-twitter.jpg
+image: ../../images/paperfaces-jonathanhagans-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---
@@ -17,8 +17,8 @@ PaperFaces portrait commission for [@jonathanhagans](https://twitter.com/jonatha
 {% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screenshots (Paper for iOS)." class:"gallery-2-col" %}
-[![Work in process screenshot](../../assets/images/paperfaces-jonathanhagans-process-1-600.jpg)](../../assets/images/paperfaces-jonathanhagans-process-1-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-jonathanhagans-process-2-600.jpg)](../../assets/images/paperfaces-jonathanhagans-process-2-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-jonathanhagans-process-3-600.jpg)](../../assets/images/paperfaces-jonathanhagans-process-3-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-jonathanhagans-process-4-600.jpg)](../../assets/images/paperfaces-jonathanhagans-process-4-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-jonathanhagans-process-1-600.jpg)](../../images/paperfaces-jonathanhagans-process-1-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-jonathanhagans-process-2-600.jpg)](../../images/paperfaces-jonathanhagans-process-2-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-jonathanhagans-process-3-600.jpg)](../../images/paperfaces-jonathanhagans-process-3-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-jonathanhagans-process-4-600.jpg)](../../images/paperfaces-jonathanhagans-process-4-lg.jpg)
 {% endfigure %}

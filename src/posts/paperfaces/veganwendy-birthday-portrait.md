@@ -3,7 +3,7 @@ title: "A birthday bokeh"
 date: 2013-08-06
 path: /paperfaces/veganwendy-birthday-portrait/
 excerpt: "PaperFaces portrait of @veganwendy for her birthday drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-veganwendy-birthday-twitter.jpg
+image: ../../images/paperfaces-veganwendy-birthday-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---
@@ -13,12 +13,12 @@ PaperFaces portrait of [my wife Wendy](http://2littlerosebuds.com) for her birth
 {% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"It all starts with a pencil sketch followed by many layers of watercolor." class:"gallery-2-col" %}
-[![Work in process screenshot](../../assets/images/paperfaces-veganwendy-birthday-process-1-600.jpg)](../../assets/images/paperfaces-veganwendy-birthday-process-1-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-veganwendy-birthday-process-2-600.jpg)](../../assets/images/paperfaces-veganwendy-birthday-process-2-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-veganwendy-birthday-process-3-600.jpg)](../../assets/images/paperfaces-veganwendy-birthday-process-3-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-veganwendy-birthday-process-4-600.jpg)](../../assets/images/paperfaces-veganwendy-birthday-process-4-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-veganwendy-birthday-process-1-600.jpg)](../../images/paperfaces-veganwendy-birthday-process-1-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-veganwendy-birthday-process-2-600.jpg)](../../images/paperfaces-veganwendy-birthday-process-2-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-veganwendy-birthday-process-3-600.jpg)](../../images/paperfaces-veganwendy-birthday-process-3-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-veganwendy-birthday-process-4-600.jpg)](../../images/paperfaces-veganwendy-birthday-process-4-lg.jpg)
 {% endfigure %}
 
 {% figure caption:"Work in progress screenshot." %}
-[![](../../assets/images/paperfaces-veganwendy-birthday-process-5-750.jpg)](../../assets/images/paperfaces-veganwendy-birthday-process-5-lg.jpg)
+[![](../../images/paperfaces-veganwendy-birthday-process-5-750.jpg)](../../images/paperfaces-veganwendy-birthday-process-5-lg.jpg)
 {% endfigure %}

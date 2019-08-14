@@ -3,7 +3,7 @@ title: "Glasses with red headphones"
 date: 2013-02-08
 path: /paperfaces/ihamzadev-portrait/
 excerpt: "PaperFaces portrait of @ihamzadev drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-ihamzadev-twitter.jpg
+image: ../../images/paperfaces-ihamzadev-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

@@ -4,7 +4,7 @@ date: 2009-01-05
 path: /articles/animal-crossing-city-folk-impressions/
 excerpt: "A lengthy review of Animal Crossing City Folk for the Nintendo Wii, some things never change."
 last_modified_at: 2018-02-09T09:12:50-05:00
-image: ../../assets/images/animal-crossing-stuck-in-hole.jpg
+image: ../../images/animal-crossing-stuck-in-hole.jpg
 categories: [articles]
 tags: [video games, review]
 toc: true
@@ -27,7 +27,7 @@ In City Folk I've been known to TT a day or so to catch events I missed. This ti
 A cool addition is the ability to import your character from *Animal Crossing: Wild World* on the Nintendo DS. Everything you obtained in your catalog makes the move (with the exception of some rare items). You don't bring over the physical items, house expansions, or accumulated bells. But you can re-purchase any of these items from Nook by asking to see your item catalog.
 
 {% figure caption:"She knows where I sleep" %}
-![Wendy's Animal Crossing character lurking over me](../../assets/images/animal-crossing-me-wendy.jpg)
+![Wendy's Animal Crossing character lurking over me](../../images/animal-crossing-me-wendy.jpg)
 {% endfigure %}
 
 If you don't have access to the internet, but do have a DS, you can take your character to a friend's town through a process called **DS Suitcase**. The game essentially saves your character to a DS allowing you to go to a friend's town, mess around, earn bells/trade items/etc, save back to your DS, and then return to your town at home. Pretty handy if you don't have an Internet connection to visit a friend via **Nintendo WFC** and want to nab some foreign fruit.
@@ -39,7 +39,7 @@ At first I thought you could transfer your save from the Wii to a SD card and vi
 For the most part everything functions and looks like it did in Wild World. The exceptions being you can now have a fountain, windmill (helps with perfect town status), or lighthouse (helps bring in rare fish) built by donating enough bells to the town fund.
 
 {% figure caption:"I created a Dharma Initiative flag from LOST." %}
-![Dharma flag from LOST](../../assets/images/animal-crossing-dharma-initiative.jpg)
+![Dharma flag from LOST](../../images/animal-crossing-dharma-initiative.jpg)
 {% endfigure %}
 
 I like how you can still customize the gate's flag and place patterns on the ground --- to do some really creative paths. Pattern making has been enhanced allowing you to create what are called *Pro Designs*. Now you can design clothing and work on the front, back, and sides independently to do elaborate and realistic costumes.
@@ -59,7 +59,7 @@ Using the Wiimote and nun-chuck combo is so much better than the DS d-pad and st
 If you plug in any USB keyboard it is instantly recognized by the Wii and allows you to type letters or chat with friends quickly. The function keys are mapped to your Dr. Shrunk emotions as well, which is convenient if you want to emote anger in a hurry.
 
 {% figure caption:"My neighbors say some foul things." %}
-![I'm so wet](../../assets/images/animal-crossing-im-so-wet.jpg)
+![I'm so wet](../../images/animal-crossing-im-so-wet.jpg)
 {% endfigure %}
 
 ### Hidden commands
@@ -67,7 +67,7 @@ If you plug in any USB keyboard it is instantly recognized by the Wii and allows
 Pressing the 1 button on the Wiimote takes a screenshot and then you can transfer it to a SD card or post it to your Wii Message board to send to friends. Trying to take photos of the screen with a camera while struggling to keep the action in focus is a thing of the past. Now you can document all the inappropriate catch phrases and greetings your neighbors' say or rare Gyroids you may discover.
 
 {% figure caption:"Look at those constellations." %}
-![Constellations](../../assets/images/animal-crossing-constellations.jpg)
+![Constellations](../../images/animal-crossing-constellations.jpg)
 {% endfigure %}
 
 ## To the city
@@ -110,7 +110,7 @@ I wonder with Microsoft trying to make the Xbox 360 appeal to the casual gamer, 
 
 That being said. Feel free to add my friend code and town information if you have **Animal Crossing: City Folk**. Leave a comment with your friend code and I'll add you. Always looking for more people to play with since it can be hard to find open towns late at night.
 
-![My Animal Crossing friend code](../../assets/images/animal-crossing-friend-code.jpg)
+![My Animal Crossing friend code](../../images/animal-crossing-friend-code.jpg)
 
 {% notice %}
 #### La mer in Beetus

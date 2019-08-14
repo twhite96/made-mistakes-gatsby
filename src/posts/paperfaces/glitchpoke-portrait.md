@@ -3,7 +3,7 @@ title: "A pixelated hoodie and face"
 date: 2013-07-22
 path: /paperfaces/glitchpoke-portrait/
 excerpt: "PaperFaces portrait of @Glitchpoke drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-glitchpoke-twitter.jpg
+image: ../../images/paperfaces-glitchpoke-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

@@ -3,7 +3,7 @@ title: "Skinny Bones, a Jekyll starter"
 date: 2014-09-02
 path: /work/skinny-bones-jekyll/
 excerpt: "A responsive, fully realized, and lightweight website starter for Jekyll."
-image: ../../assets/images/skinny-bones-preview-feature.jpg
+image: ../../images/skinny-bones-preview-feature.jpg
 categories: [work]
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"

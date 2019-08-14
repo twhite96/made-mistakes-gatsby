@@ -3,7 +3,7 @@ title: "Everly, 22 months"
 date: 2014-06-23
 path: /paperfaces/everly-autumn-portrait/
 excerpt: "PaperFaces portrait of my daughter Everly drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-everly-autumn.jpg
+image: ../../images/paperfaces-everly-autumn.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white, bokeh, twins]
 ---
@@ -15,5 +15,5 @@ PS. Drawing children is friggin hard. Way too easy to turn them into demons or m
 {% include_cached boilerplate/paperfaces-4.md %}
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
-[![Work in process screenshot](../../assets/images/paperfaces-everly-autumn-process-1-600.jpg)](../../assets/images/paperfaces-everly-autumn-process-1-lg.jpg) [![Work in process screenshot](../../assets/images/paperfaces-everly-autumn-process-2-600.jpg)](../../assets/images/paperfaces-everly-autumn-process-2-lg.jpg) [![Work in process screenshot](../../assets/images/paperfaces-everly-autumn-process-3-600.jpg)](../../assets/images/paperfaces-everly-autumn-process-3-lg.jpg) [![Work in process screenshot](../../assets/images/paperfaces-everly-autumn-process-4-600.jpg)](../../assets/images/paperfaces-everly-autumn-process-4-lg.jpg) [![Work in process screenshot](../../assets/images/paperfaces-everly-autumn-process-5-600.jpg)](../../assets/images/paperfaces-everly-autumn-process-5-lg.jpg) [![Work in process screenshot](../../assets/images/paperfaces-everly-autumn-process-6-600.jpg)](../../assets/images/paperfaces-everly-autumn-process-6-lg.jpg) [![Work in process screenshot](../../assets/images/paperfaces-everly-autumn-process-7-600.jpg)](../../assets/images/paperfaces-everly-autumn-process-7-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-everly-autumn-process-1-600.jpg)](../../images/paperfaces-everly-autumn-process-1-lg.jpg) [![Work in process screenshot](../../images/paperfaces-everly-autumn-process-2-600.jpg)](../../images/paperfaces-everly-autumn-process-2-lg.jpg) [![Work in process screenshot](../../images/paperfaces-everly-autumn-process-3-600.jpg)](../../images/paperfaces-everly-autumn-process-3-lg.jpg) [![Work in process screenshot](../../images/paperfaces-everly-autumn-process-4-600.jpg)](../../images/paperfaces-everly-autumn-process-4-lg.jpg) [![Work in process screenshot](../../images/paperfaces-everly-autumn-process-5-600.jpg)](../../images/paperfaces-everly-autumn-process-5-lg.jpg) [![Work in process screenshot](../../images/paperfaces-everly-autumn-process-6-600.jpg)](../../images/paperfaces-everly-autumn-process-6-lg.jpg) [![Work in process screenshot](../../images/paperfaces-everly-autumn-process-7-600.jpg)](../../images/paperfaces-everly-autumn-process-7-lg.jpg)
 {% endfigure %}

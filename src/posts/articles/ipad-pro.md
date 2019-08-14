@@ -6,7 +6,7 @@ last_modified_at: 2017-10-24T09:18:55-04:00
 excerpt: "Convincing myself that I need an iPad Pro and Apple Pencil to fulfill all my digital illustration needs."
 categories: [articles]
 tags: [Apple, illustration, Procreate, time lapse]
-image: ../../assets/images/procreate-painting-process-feature.jpg
+image: ../../images/procreate-painting-process-feature.jpg
 comments: true
 toc: true
 ---
@@ -23,7 +23,7 @@ Left to my wife that answer would be a firm *"uhh no, we're not spending $1,000 
 
 If money were no object I'd drop the necessary coin to purchase said iPad Pro and Apple Pencil today (or whenever they officially release). But that's not the world I live in and if I want to be an early adopter there's an inherit cost for that luxury.
 
-![iPad Pro and Apple Pencil drawing](../../assets/images/ipad-pro-apple-pencil-drawing.jpg)
+![iPad Pro and Apple Pencil drawing](../../images/ipad-pro-apple-pencil-drawing.jpg)
 
 Spending $99 on Apple's stylus is a *no brainer* --- $799 for an iPad with a larger screen, beefier processor, more RAM, and 4 fancy internal speakers... not so much. Sure, I get it. If an Air 3 debuted with comparable specs and same support for the new stylus, sales would be impacted, but...
 
@@ -37,7 +37,7 @@ Apps like [**Paper by FiftyThree**](http://www.fiftythree.com/paper) sold me on 
 
 For awhile it seemed like Apple wasn't as motivated in advancing the artistic aspects of the iPad; as Microsoft was with their **Surface Pro** line of tablets. Sure there was that "[Start Something New](https://web.archive.org/web/20150127023142/http://www.apple.com/start-something-new/)" promotional campaign they ran showcasing art and photography created on iOS, but nothing pushing the medium further than their competitors were taking it.
 
-[![Apple's Start Something New page](../../assets/images/start-something-new.jpg)](https://web.archive.org/web/20150127023142/http://www.apple.com/start-something-new/)
+[![Apple's Start Something New page](../../images/start-something-new.jpg)](https://web.archive.org/web/20150127023142/http://www.apple.com/start-something-new/)
 
 That all hopefully changes in November when the Apple Pencil hits the market. Until I can get my hands on one I'm trying to absorb as much information about it as I can.
 
@@ -97,7 +97,7 @@ A few more nuggets that make an iPad Pro + Apple Pencil combo even more appealin
 I think a 9.7 inch screen is the sweet spot for tablets, but bigger is always better right? If I'm willing to trade weight for more screen real estate I don't think it would be the end of the world. I do most of my iPad illustration work from the couch and rarely draw on the go.
 
 {% figure caption:"Just look at all of the extra space Paper by FiftyThree can utilize on an iPad Pro. Gimme gimme!" %}
-![Paper by FiftyThree on iPad Pro](../../assets/images/ipad-pro-paper.png)
+![Paper by FiftyThree on iPad Pro](../../images/ipad-pro-paper.png)
 {% endfigure %}
 
 With the new multi-tasking features found in iOS 9 two apps can be tiled together. The fact that the iPad Pro can fit almost two Air's next to each other frees up a ton of space to work with. Once more apps start leveraging **Split View** I can see myself opening a second app off to the side for viewing reference photos as I draw.
@@ -109,7 +109,7 @@ Using FiftyThree's Pencil for the last couple of years has really spoiled me. I 
 Glad to see Apple will continue that trend with a modest 12 hours of life or 30 minutes of juice by quick charging for 15 seconds. The sight of an Apple Pencil jammed into an iPad does make me cringe a bit, but I guess I'll get over it as long as they're not prone to damage.
 
 {% figure caption:"Image from [Apple.com](http://www.apple.com/apple-pencil/)" %}
-![Charging Apple Pencil via the iPad Pro's Lightning port](../../assets/images/apple-pencil-charging.jpg)
+![Charging Apple Pencil via the iPad Pro's Lightning port](../../images/apple-pencil-charging.jpg)
 {% endfigure %}
 
 ## Preparing with Procreate
@@ -129,20 +129,20 @@ After receiving a Pogo Connect as a birthday gift from my wife years ago, one of
 * And much more
 
 {% figure caption:"Procreate file formats. Love me some export options." %}
-![Procreate export formats](../../assets/images/procreate-export-formats.jpg)
+![Procreate export formats](../../images/procreate-export-formats.jpg)
 {% endfigure %}
 
 Starting out as a digital illustration virgin I wanted to ease in with something that felt familiar to the "real" tools I was used to. Paper by FiftyThree fit this criteria perfectly, making the transition from analog art to digital easier. I did experiment with Procreate at the same time, but was never really happy with the results since I didn't understand the medium yet.
 
 {% figure caption:"My early attempts with Procreate weren't all that great. It took me some time to figure out the paint engine as it felt less organic than what I was used to with traditional media." class:"gallery-2-col" %}
-[![Wendy's portrait painted in Procreate with a Pogo Connect stylus](../../assets/images/wendy-portrait-procreate-600.jpg)](../../assets/images/wendy-portrait-procreate-lg.jpg)
-[![Figure drawing experiments in Procreate](../../assets/images/grunge-figure-drawing-procreate-600.jpg)](../../assets/images/grunge-figure-drawing-procreate-lg.jpg)
+[![Wendy's portrait painted in Procreate with a Pogo Connect stylus](../../images/wendy-portrait-procreate-600.jpg)](../../images/wendy-portrait-procreate-lg.jpg)
+[![Figure drawing experiments in Procreate](../../images/grunge-figure-drawing-procreate-600.jpg)](../../images/grunge-figure-drawing-procreate-lg.jpg)
 {% endfigure %}
 
 Not looking for more excuses to become an iPad Pro early adopter, the Procreate 3 tease by Savage Interactive didn't help matters much :wink:. Feeling the urge to try something more "professional" I've recently decided to dive deeper into the app. Partially to see what I could do with more capable tools and partially to prepare for what's to come in November...
 
 {% figure caption:"Procreate 3 features coming this holiday season." %}
-![Procreate 3 coming soon](../../assets/images/procreate-3-coming-soon.png)
+![Procreate 3 coming soon](../../images/procreate-3-coming-soon.png)
 {% endfigure %}
 
 Trading simplicity and minimalism for options and power felt extremely rewarding. Don't get me wrong, Paper's tools can't be matched in a lot of ways. But they're also seriously handicapped in an effort to keep the app simple and intuitive. Procreate on the other hand is built for one thing and one thing alone --- art.
@@ -150,8 +150,8 @@ Trading simplicity and minimalism for options and power felt extremely rewarding
 It's this single purpose that allows Procreate to excel at the sorts of things digital artists require in a workflow. In the five short hours I spent with the app I created a realistic portrait that probably would have taken me 10 hours in Paper. It almost felt like I was cheating by exploiting all of Procreate's hallmark features this easily!
 
 {% figure caption:"Layers, and blending modes, and time lapse recording, oh my!" class:"gallery-2-col" %}
-![Layers in Procreate](../../assets/images/mr-allan-procreate-layers.jpg)
-![Blending modes in Procreate](../../assets/images/mr-allan-procreate-blending-modes.jpg)
+![Layers in Procreate](../../images/mr-allan-procreate-layers.jpg)
+![Blending modes in Procreate](../../images/mr-allan-procreate-blending-modes.jpg)
 {% endfigure %}
 
 ### Time lapse recording

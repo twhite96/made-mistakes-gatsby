@@ -3,7 +3,7 @@ title: "Dark hair and glasses"
 date: 2012-11-05
 path: /paperfaces/laurel-renne-portrait/
 excerpt: "PaperFaces portrait of @Laurel_Renee drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-laurel-renee-twitter.jpg
+image: ../../images/paperfaces-laurel-renee-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

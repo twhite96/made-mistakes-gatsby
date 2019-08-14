@@ -4,7 +4,7 @@ date: 2016-04-15
 path: /work/minimal-mistakes-jekyll-theme/
 excerpt: "A flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or your own server."
 last_modified_at: 2018-02-06T11:15:51-05:00
-image: ../../assets/images/minimal-mistakes-3-feature.jpg
+image: ../../images/minimal-mistakes-3-feature.jpg
 gallery:
   - url: /assets/images/mm-layout-splash.png
     image_path: /assets/images/mm-layout-splash-th.jpg

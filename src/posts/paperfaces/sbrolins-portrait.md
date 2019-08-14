@@ -3,7 +3,7 @@ title: "Sitting on the beach at sunset"
 date: 2013-07-29
 path: /paperfaces/sbrolins-portrait/
 excerpt: "PaperFaces portrait of @sbrolins drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-sbrolins-twitter.jpg
+image: ../../images/paperfaces-sbrolins-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---
@@ -15,15 +15,15 @@ There really wasn't much to this landscape --- just a few layers of light red or
 {% include_cached boilerplate/paperfaces.md %}
 
 {% figure caption:"Work in progress screenshots." class:"gallery-2-col" %}
-[![](../../assets/images/paperfaces-sbrolins-process-1-600.jpg)](../../assets/images/paperfaces-sbrolins-process-1-lg.jpg)
-[![](../../assets/images/paperfaces-sbrolins-process-2-600.jpg)](../../assets/images/paperfaces-sbrolins-process-2-lg.jpg)
+[![](../../images/paperfaces-sbrolins-process-1-600.jpg)](../../images/paperfaces-sbrolins-process-1-lg.jpg)
+[![](../../images/paperfaces-sbrolins-process-2-600.jpg)](../../images/paperfaces-sbrolins-process-2-lg.jpg)
 {% endfigure %}
 
 {% figure caption:"Work in progress screenshot." %}
-[![](../../assets/images/paperfaces-sbrolins-process-3-600.jpg)](../../assets/images/paperfaces-sbrolins-process-3-lg.jpg)
+[![](../../images/paperfaces-sbrolins-process-3-600.jpg)](../../images/paperfaces-sbrolins-process-3-lg.jpg)
 {% endfigure %}
 
 {% figure caption:"Work in progress screenshots." class:"gallery-2-col" %}
-[![](../../assets/images/paperfaces-sbrolins-process-4-600.jpg)](../../assets/images/paperfaces-sbrolins-process-4-lg.jpg)
-[![](../../assets/images/paperfaces-sbrolins-process-5-600.jpg)](../../assets/images/paperfaces-sbrolins-process-5-lg.jpg)
+[![](../../images/paperfaces-sbrolins-process-4-600.jpg)](../../images/paperfaces-sbrolins-process-4-lg.jpg)
+[![](../../images/paperfaces-sbrolins-process-5-600.jpg)](../../images/paperfaces-sbrolins-process-5-lg.jpg)
 {% endfigure %}

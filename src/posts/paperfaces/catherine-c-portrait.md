@@ -3,7 +3,7 @@ title: "Bird cage faux forest"
 date: 2014-01-08
 path: /paperfaces/catherine-c-portrait/
 excerpt: "PaperFaces portrait of Catherine C. drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-catherine-c.jpg
+image: ../../images/paperfaces-catherine-c.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]
 ---
@@ -13,8 +13,8 @@ PaperFaces portrait commission of [Catherine C.](https://sktchy.com/4het8)
 {% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screenshots (Paper for iOS)." class:"gallery-2-col" %}
-[![Work in process screenshot](../../assets/images/paperfaces-catherine-c-process-1-600.jpg)](../../assets/images/paperfaces-catherine-c-process-1-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-catherine-c-process-2-600.jpg)](../../assets/images/paperfaces-catherine-c-process-2-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-catherine-c-process-3-600.jpg)](../../assets/images/paperfaces-catherine-c-process-3-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-catherine-c-process-4-600.jpg)](../../assets/images/paperfaces-catherine-c-process-4-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-catherine-c-process-1-600.jpg)](../../images/paperfaces-catherine-c-process-1-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-catherine-c-process-2-600.jpg)](../../images/paperfaces-catherine-c-process-2-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-catherine-c-process-3-600.jpg)](../../images/paperfaces-catherine-c-process-3-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-catherine-c-process-4-600.jpg)](../../images/paperfaces-catherine-c-process-4-lg.jpg)
 {% endfigure %}

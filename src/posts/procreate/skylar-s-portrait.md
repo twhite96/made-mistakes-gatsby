@@ -4,7 +4,7 @@ date: 2015-12-27
 path: /procreate/skylar-s-portrait/
 excerpt: "Portrait of Skylár S. digitally painted with Procreate on an iPad."
 last_modified_at: 2015-12-27T00:00:00-00:00
-image: ../../assets/images/skylar-s-procreate.jpg
+image: ../../images/skylar-s-procreate.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, time lapse, black and white, Sktchy]
 ---

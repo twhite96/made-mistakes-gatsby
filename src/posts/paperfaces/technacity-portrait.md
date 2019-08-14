@@ -3,7 +3,7 @@ title: "Long walks on the beach"
 date: 2013-07-22
 path: /paperfaces/technacity-portrait/
 excerpt: "PaperFaces portrait of @technacity drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-technacity-twitter.jpg
+image: ../../images/paperfaces-technacity-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---
@@ -13,16 +13,16 @@ PaperFaces portrait of [@technacity](https://twitter.com/technacity). Drawing cl
 {% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Pencil sketch to rough out the composition." %}
-[![Work in process screenshot](../../assets/images/paperfaces-technacity-process-1-600.jpg)](../../assets/images/paperfaces-technacity-process-1-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-technacity-process-1-600.jpg)](../../images/paperfaces-technacity-process-1-lg.jpg)
 {% endfigure %}
 
 {% figure caption:"Watercolor brush to block out shapes to build on." class:"gallery-2-col" %}
-[![Work in process screenshot](../../assets/images/paperfaces-technacity-process-2-600.jpg)](../../assets/images/paperfaces-technacity-process-2-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-technacity-process-3-600.jpg)](../../assets/images/paperfaces-technacity-process-3-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-technacity-process-2-600.jpg)](../../images/paperfaces-technacity-process-2-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-technacity-process-3-600.jpg)](../../images/paperfaces-technacity-process-3-lg.jpg)
 {% endfigure %}
 
 {% figure caption:"Lightly shading with the pencil to create clouds and waves." class:"gallery-3-col" %}
-[![Work in process screenshot](../../assets/images/paperfaces-technacity-process-4-600.jpg)](../../assets/images/paperfaces-technacity-process-4-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-technacity-process-5-600.jpg)](../../assets/images/paperfaces-technacity-process-5-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-technacity-process-6-600.jpg)](../../assets/images/paperfaces-technacity-process-6-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-technacity-process-4-600.jpg)](../../images/paperfaces-technacity-process-4-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-technacity-process-5-600.jpg)](../../images/paperfaces-technacity-process-5-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-technacity-process-6-600.jpg)](../../images/paperfaces-technacity-process-6-lg.jpg)
 {% endfigure %}

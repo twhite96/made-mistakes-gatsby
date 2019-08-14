@@ -3,7 +3,7 @@ title: "In a hat, but not a cowboy"
 date: 2013-01-23
 path: /paperfaces/parisba-2-portrait/
 excerpt: "PaperFaces portrait of @parisba drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-parisba-2-twitter.jpg
+image: ../../images/paperfaces-parisba-2-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

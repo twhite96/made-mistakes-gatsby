@@ -3,7 +3,7 @@ title: "Long flowing fire hair"
 date: 2013-05-06
 path: /paperfaces/du-vs-ich-portrait/
 excerpt: "PaperFaces portrait of @du_vs_ich drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-du-vs-ich-twitter.jpg
+image: ../../images/paperfaces-du-vs-ich-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

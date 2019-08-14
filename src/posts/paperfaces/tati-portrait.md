@@ -3,7 +3,7 @@ title: "Spiderwebs and dew drops"
 date: 2013-12-23
 path: /paperfaces/tati-portrait/
 excerpt: "PaperFaces portrait commission drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-tati.jpg
+image: ../../images/paperfaces-tati.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, bokeh, time lapse]
 ---

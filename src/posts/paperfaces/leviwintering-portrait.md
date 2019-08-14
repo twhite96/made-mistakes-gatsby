@@ -3,7 +3,7 @@ title: "A full face in low contrast"
 date: 2013-07-15
 path: /paperfaces/leviwintering-portrait/
 excerpt: "PaperFaces portrait of @leviwintering drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-leviwintering-twitter.jpg
+image: ../../images/paperfaces-leviwintering-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]
 ---

@@ -4,7 +4,7 @@ date: 2014-08-29
 path: /articles/paperfaces-retrospective/
 excerpt: "A look back at two years of drawing over 800 portraits using an iPad and Paper for iOS."
 last_modified_at: 2018-03-22T10:47:26-04:00
-image: ../../assets/images/paperfaces-800-portraits.jpg
+image: ../../images/paperfaces-800-portraits.jpg
 categories: [articles]
 tags: [illustration, Paper for iOS, Apple]
 comments: false
@@ -16,8 +16,8 @@ toc: true
 Two years ago I felt inspired to start the [**PaperFaces Project**]({% post_url /notes/2012-08-31-paperfaces-ipad-portrait-project %}) as a way to improve drawing skills that had laid dormant for a decade or so. With an iPad, a stylus, and the [Paper by FiftyThree app](https://fiftythree.com), I set out to draw as many portraits as possible before boring of the idea.
 
 {% figure caption:"What a difference two years made." class:"gallery-2-col" %}
-[![first PaperFaces portrait](../../assets/images/paperfaces-veganwendy-twitter-600.jpg)](../../assets/images/paperfaces-veganwendy-twitter.jpg)
-[![last PaperFaces portrait?](../../assets/images/paperfaces-veganwendy-2-twitter-600.jpg)](../../assets/images/paperfaces-veganwendy-2-twitter.jpg)
+[![first PaperFaces portrait](../../images/paperfaces-veganwendy-twitter-600.jpg)](../../images/paperfaces-veganwendy-twitter.jpg)
+[![last PaperFaces portrait?](../../images/paperfaces-veganwendy-2-twitter-600.jpg)](../../images/paperfaces-veganwendy-2-twitter.jpg)
 {% endfigure %}
 
 ## How did i do it?
@@ -25,9 +25,9 @@ Two years ago I felt inspired to start the [**PaperFaces Project**]({% post_url 
 I'm not going to lie, finding the motivation to create something every day is incredibly difficult. Even with the proper motivation, making yourself available can be even more challenging. I'm proof that it can be done while working a full time job, fulfilling husbandly duties, caring for a set of twins, and maintaining healthy eating and sleeping habits.
 
 {% figure caption:"" class:"gallery-3-col" %}
-![The 2 little rosebuds](../../assets/images/paperfaces-retro-03.jpg)
-![Tools of the trade](../../assets/images/paperfaces-retro-02.jpg)
-![Drawing Everly with Pencil by 53](../../assets/images/paperfaces-retro-01.jpg)
+![The 2 little rosebuds](../../images/paperfaces-retro-03.jpg)
+![Tools of the trade](../../images/paperfaces-retro-02.jpg)
+![Drawing Everly with Pencil by 53](../../images/paperfaces-retro-01.jpg)
 {% endfigure %}
 
 ### Start a routine
@@ -49,7 +49,7 @@ Don't start a 365 project just for the sake of starting one. Having a clear obje
 On their own these faceless drawings weren't all that interesting, but assembled together like **Voltron** in [Moleskine book]({% post_url /mastering-paper/2013-11-08-moleskine-book %}) and [gallery](/paperfaces/) forms they became *something stronger*. A quality that is easy to miss when you have your head down, focused only on the drawing at hand.
 
 {% figure caption:"Having my work printed helped give it substance instead of just being 1's and 0's I carried around on a tablet." %}
-[![Photograph of a PaperFaces drawing](../../assets/images/paper-53-book-wendy.jpg)](../../assets/images/paper-53-book-wendy-lg.jpg)
+[![Photograph of a PaperFaces drawing](../../images/paper-53-book-wendy.jpg)](../../images/paper-53-book-wendy-lg.jpg)
 {% endfigure %}
 
 ### Keep it fun
@@ -68,7 +68,7 @@ Easy and simple can turn boring in a hurry. The challenge of capturing portraits
 [blend-first-look]: {% post_url /mastering-paper/2013-11-20-pencil-first-look %}
 
 {% figure caption:"With enough practice I was able to evolve as a creator and produce sketches with greater detail." %}
-![PaperFaces evolution](../../assets/images/paper-53-face-evolution.jpg)
+![PaperFaces evolution](../../images/paper-53-face-evolution.jpg)
 {% endfigure %}
 
 As confidence levels grew I wasn't afraid to change the rules to challenge myself. Over the course of two years I did this numerous times by straying outside my comfort zone. First major change was switching from the ink pens to the watercolor and pencil tools. The next was when I decided to move away from drawing blank faces and attempt something more realistic.
@@ -78,7 +78,7 @@ As confidence levels grew I wasn't afraid to change the rules to challenge mysel
 Initially I planned on drawing a single portrait each day for just one year. When I zipped through 365 days I decided another year wouldn't be that big of a deal and ultimately completed {{ site.categories.paperfaces | size }} finished drawings. 
 
 {% figure caption:"I've gotten through one-third of the 2,805 requests I've received on Twitter since [tweeting for volunteers](https://twitter.com/mmistakes/status/240601384477659136/) two years ago." %}
-![Favstar.fm tweet screenshot](../../assets/images/paperfaces-volunteer-tweet.jpg)
+![Favstar.fm tweet screenshot](../../images/paperfaces-volunteer-tweet.jpg)
 {% endfigure %}
 
 Here's a breakdown of the various types of portraits I've completed.
@@ -142,7 +142,7 @@ Don't get me wrong, drawing strangers for the last two years has been great. But
 
 The positive support I've received in the form of retweets, favs, likes, hearts, reblogs, emails, DMs, and much more --- made the days I thought about quitting tolerable. To the handful of you who supported[^support-thanks] me in the early days with donations and portrait orders I appreciate your generosity so much! And of course a HUGE THANK YOU to the team at [FiftyThree](https://fiftythree.com) for making the tools that rekindled my love for creating.
 
-![Thanks](../../assets/images/thanks-m.png)
+![Thanks](../../images/thanks-m.png)
 
 [^support-thanks]: Big ups to each of these fine humans. Jason D., Leif S., Julio C., Kenn W., Brady R., Sascha G., THe SKuLL, Robin B., Dan K., Kevin K., Kristen L., Kevin W., Kristen L., Ted W., Joss V., Oleksiy C., Amy H., Michael S., Daniel W., Ruth G., Leah S., Alfred K., Richard K., Matt H., Jennifer M., Toropchin A., Carlos F., Paul J., Benjamin M., Liam D., Joel M., Dave B., Christopher K., Jacob L., Zach F., Braden R., Eberth M., Chet Y., Heikki H., Tom B., Brooks S., Graciela H., Ben M., Stef S., Rob L., Michael G., Francesco C., Miguel M., Adeirra A., Jason C., Aaron R., Raúl A, Tim M., Ryan D., Jameson R., Andrew B., Bridget D., Juan R., Kyle K., Nick A., James O., Janis R., Vasileios M., Aaron M., James G,. Ruth P., Ryan F., Chistianna M., Vanessa T., Alexander M., Glenn S., Jessica P., Maria G., Bobby H., Jose A., Nicole D., Wesley F., Peter J., Michael M., Sailesh P., Jayne W., Antonio M., Wakes M., Liese A., Miguel R., Jonathan H., Adam M., Artem T., Glen N., Diako M., Nimesh R., Cherie P., Hristian K., Jens T., Mark E., Bryan C., Matteo F., Lorenzo R., Bill L., Antonio C., Thomas D., Lisa O., Ruben H., Leanne V., Dean M., Jeffrey M., Hoon S., Mieng-Ly S., Arno S., Umberto A., Isabelle V., Marcus E., Matt D., David M., Matthew B., Andi S., Andrew E., Yousef K., Jonas C., Peter B., Patricia H., Daniel-Ray V., Lita S., Charlotte H., David S., Richard M., Stefano D., Christie N., Ronald J., Janet R., Paula L., Angelic P., Chris S., Liesse A., Mary D., Jane D., Ed G., and Elizabeth G. I hope I didn't forget anyone...
 

@@ -3,7 +3,7 @@ title: "Lips in a dull green hoodie"
 date: 2013-03-15
 path: /paperfaces/h3pps-portrait/
 excerpt: "PaperFaces portrait of @h3pps drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-h3pps-twitter.jpg
+image: ../../images/paperfaces-h3pps-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

@@ -3,7 +3,7 @@ title: "Mountains or hill tops?"
 date: 2013-07-29
 path: /paperfaces/jinthagerman-portrait/
 excerpt: "PaperFaces portrait of @jinthagerman drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-jinthagerman-twitter.jpg
+image: ../../images/paperfaces-jinthagerman-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 last_modified_at: 2017-09-07T16:16:05-04:00
@@ -16,8 +16,8 @@ And just so it's recorded, this is the illustration I was working on when my [Po
 {% include_cached boilerplate/paperfaces.md %}
 
 {% figure caption:"Work in progress screenshots." class:"gallery-2-col" %}
-[![](../../assets/images/paperfaces-jinthagerman-process-1-600.jpg)](../../assets/images/paperfaces-jinthagerman-process-1-lg.jpg)
-[![](../../assets/images/paperfaces-jinthagerman-process-2-600.jpg)](../../assets/images/paperfaces-jinthagerman-process-2-lg.jpg)
-[![](../../assets/images/paperfaces-jinthagerman-process-3-600.jpg)](../../assets/images/paperfaces-jinthagerman-process-3-lg.jpg)
-[![](../../assets/images/paperfaces-jinthagerman-process-4-600.jpg)](../../assets/images/paperfaces-jinthagerman-process-4-lg.jpg)
+[![](../../images/paperfaces-jinthagerman-process-1-600.jpg)](../../images/paperfaces-jinthagerman-process-1-lg.jpg)
+[![](../../images/paperfaces-jinthagerman-process-2-600.jpg)](../../images/paperfaces-jinthagerman-process-2-lg.jpg)
+[![](../../images/paperfaces-jinthagerman-process-3-600.jpg)](../../images/paperfaces-jinthagerman-process-3-lg.jpg)
+[![](../../images/paperfaces-jinthagerman-process-4-600.jpg)](../../images/paperfaces-jinthagerman-process-4-lg.jpg)
 {% endfigure %}

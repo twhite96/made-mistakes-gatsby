@@ -2,7 +2,7 @@
 title: "Oil pastels are not pencils"
 date: 2016-10-27
 path: /notes/oil-pastels/
-image: ../../assets/images/oil-pastel-sunset-finished.jpg
+image: ../../images/oil-pastel-sunset-finished.jpg
 gallery:
   - url: /assets/images/oil-pastels-process-1.jpg
     image_path: /assets/images/oil-pastels-process-1-600.jpg

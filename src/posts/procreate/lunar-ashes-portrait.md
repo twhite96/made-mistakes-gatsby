@@ -4,7 +4,7 @@ date: 2017-08-31
 path: /procreate/lunar-ashes-portrait/
 excerpt: "Portrait of Lunar Ashes digitally painted with Procreate on an iPad."
 last_modified_at: 2017-08-31T14:31:18-04:00
-image: ../../assets/images/lunar-ashes-procreate.jpg
+image: ../../images/lunar-ashes-procreate.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, black and white, time lapse]
 ---

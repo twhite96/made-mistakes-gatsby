@@ -3,7 +3,7 @@ title: "In shadows with dramatic lighting"
 date: 2013-04-10
 path: /paperfaces/normanholz-portrait/
 excerpt: "PaperFaces portrait of @normanholz drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-normanholz-twitter.jpg
+image: ../../images/paperfaces-normanholz-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

@@ -3,7 +3,7 @@ title: "My About.me profile"
 date: 2011-05-10
 path: /notes/free-aboutme-business-cards/
 excerpt: "How 5 minutes spent creating an About.me profile nabbed me free Moo business cards of my own design."
-image: ../../assets/images/about-me-featured.jpg
+image: ../../images/about-me-featured.jpg
 categories: [notes]
 tags: [design]
 support: false
@@ -17,9 +17,9 @@ If you weren't aware --- [About.me](https://about.me) is a custom profile and pe
 *[WYSIWYG]: What you see is what you get
 
 {% figure caption:"The QR code looks cool, but I doubt anyone actually scans these things." %}
-![Holding a Made Mistakes business card](../../assets/images/michael-rose-business-card-qr-620x413.jpg)
+![Holding a Made Mistakes business card](../../images/michael-rose-business-card-qr-620x413.jpg)
 {% endfigure %}
 
 {% figure caption:"Screenshot of my About.me page that I created in a whole 5 minutes." %}
-[![Screenshot of my about.me page](../../assets/images/michael-rose-about-me-620x349.jpg)](https://about.me/michael.rose)
+[![Screenshot of my about.me page](../../images/michael-rose-about-me-620x349.jpg)](https://about.me/michael.rose)
 {% endfigure %}

@@ -4,7 +4,7 @@ date: 2012-08-31
 path: /notes/paperfaces-ipad-portrait-project/
 excerpt: "An experiment in humanizing the web — drawing a portrait everyday day using an iPad and Paper for iOS."
 last_modified_at: 2017-09-07T15:53:18-04:00
-image: ../../assets/images/paperfaces-project-feature.jpg
+image: ../../images/paperfaces-project-feature.jpg
 categories: [notes]
 tags: [Paper for iOS, Apple, illustration]
 comments: true
@@ -53,7 +53,7 @@ When the count hit 700, I revised my initial goal of 365 to 730 (that's two a da
 When I began the project I attempted to draw each face as detailed and accurately as possible. Even though I'm classically trained in illustration and the fine arts, photo realism isn't really "my bag." Part of what attracted me to Paper by 53 was its small tool set, lack of zoom, and focused color palettes. Trying to interpret each portrait using these constraints helped me to stumble across the whole "blank face" look and grow as an artist.
 
 {% figure caption:"PaperFaces iPad portrait of my two twin girls." class:"large" %}
-![Rosebud twins' portrait](../../assets/images/paperfaces-rosebud-twins-l.jpg)
+![Rosebud twins' portrait](../../images/paperfaces-rosebud-twins-l.jpg)
 {% endfigure %}
 
 After drawing over 600 portraits with Paper my skills have matured and I've begun drawing the entire face. It has been a fun personal challenge to capture as much detail in as little time possible.

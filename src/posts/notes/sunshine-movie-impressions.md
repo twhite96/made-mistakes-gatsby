@@ -4,7 +4,7 @@ date: 2007-07-28
 path: /notes/sunshine-movie-impressions/
 excerpt: "The film Sunshine directed by Danny Boyle is science fiction without the big bang."
 last_modified_at: 2013-04-26 00:00:00
-image: ../../assets/images/sunshine-feature.jpg
+image: ../../images/sunshine-feature.jpg
 categories: [notes]
 tags: [review]
 support: false

@@ -3,7 +3,7 @@ title: "Ghost faces by spiraling staircases"
 date: 2013-07-03
 path: /paperfaces/pcperini-portrait/
 excerpt: "PaperFaces portrait of @pcperini drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-pcperini-twitter.jpg
+image: ../../images/paperfaces-pcperini-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

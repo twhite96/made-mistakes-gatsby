@@ -3,7 +3,7 @@ title: "Easter egg marriage proposal"
 date: 2012-04-04
 path: /notes/romance-egg-engagement/
 excerpt: "Two years ago on this day, I proposed to my wife Wendy by leading her on an Easter egg scavenger hunt."
-image: ../../assets/images/romance-engagement-feature.jpg
+image: ../../images/romance-engagement-feature.jpg
 categories: [notes]
 tags: [life]
 support: false
@@ -18,6 +18,6 @@ I wrote around ten clues that I sealed in plastic eggs and hid around our house 
 
 Clue after clue, egg after egg, I led Wendy throughout the house until she found the last one…
 
-![Easter egg with the final proposal clue](../../assets/images/final-egg-clue.jpg)
+![Easter egg with the final proposal clue](../../images/final-egg-clue.jpg)
 
 I dropped to one knee, she dropped an F-bomb… and then said yes after realizing what just happened. Six months later, on October 2nd, 2010 we were married at [**The Roycroft Inn**](http://www.roycroftinn.com/) in East Aurora, New York. Come this fall, we're expecting to double the size of our family with the arrival of the twins, and I couldn't be happier!

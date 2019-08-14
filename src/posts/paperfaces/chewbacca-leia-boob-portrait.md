@@ -3,7 +3,7 @@ title: "PaperFaces portrait of Chewbacca and Princess Leia"
 date: 2013-05-04
 path: /paperfaces/chewbacca-leia-boob-portrait/
 excerpt: "PaperFaces portrait of Chewbacca and Princess Leia drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-chewbacca-leia-boob.jpg
+image: ../../images/paperfaces-chewbacca-leia-boob.jpg
 categories: [paperfaces]
 tags: [Star Wars, portrait, illustration, Paper for iOS]
 ---

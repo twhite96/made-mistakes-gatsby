@@ -3,7 +3,7 @@ title: "Sun lights the hair in a bokeh filled afternoon"
 date: 2013-06-10
 path: /paperfaces/jakemoore-portrait/
 excerpt: "PaperFaces portrait of @JakeMoore drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-jakemoore-twitter.jpg
+image: ../../images/paperfaces-jakemoore-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, bokeh]
 ---

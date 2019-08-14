@@ -4,7 +4,7 @@ date: 2007-09-14
 path: /notes/one-week-new-ipod-classic/
 excerpt: "Quick impressions of the new iPod classic 60GB."
 last_modified_at: 2013-05-03
-image: ../../assets/images/ipod-classic-feature.jpg
+image: ../../images/ipod-classic-feature.jpg
 categories: [notes]
 tags: [Apple, review]
 toc: true
@@ -32,12 +32,12 @@ The classic has a few issues, but nothing that has given me buyer's remorse.
 
 ## Photo gallery
 
-* [![iPod classic syncing next to a 40GB iPod](../../assets/images/80t.jpg)](../../assets/images/80.jpg)
-* [![iPod classic thickness compared to an old 40GB iPod](../../assets/images/81t.jpg)](../../assets/images/81.jpg)
-* [![New interface menu](../../assets/images/82t.jpg)](../../assets/images/82.jpg)
-* [![iPod classic games screen](../../assets/images/83t.jpg)](../../assets/images/83.jpg)
-* [![iPod classic coverflow](../../assets/images/84t.jpg)](../../assets/images/84.jpg)
-* [![iPod classic coverflow flip](../../assets/images/85t.jpg)](../../assets/images/85.jpg)
-* [![iPod classic viewing your photos](../../assets/images/86t.jpg)](../../assets/images/86.jpg)
-* [![iPod classic search](../../assets/images/87t.jpg)](../../assets/images/87.jpg)
+* [![iPod classic syncing next to a 40GB iPod](../../images/80t.jpg)](../../images/80.jpg)
+* [![iPod classic thickness compared to an old 40GB iPod](../../images/81t.jpg)](../../images/81.jpg)
+* [![New interface menu](../../images/82t.jpg)](../../images/82.jpg)
+* [![iPod classic games screen](../../images/83t.jpg)](../../images/83.jpg)
+* [![iPod classic coverflow](../../images/84t.jpg)](../../images/84.jpg)
+* [![iPod classic coverflow flip](../../images/85t.jpg)](../../images/85.jpg)
+* [![iPod classic viewing your photos](../../images/86t.jpg)](../../images/86.jpg)
+* [![iPod classic search](../../images/87t.jpg)](../../images/87.jpg)
 {: .gallery-thumbnails}

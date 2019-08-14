@@ -4,7 +4,7 @@ date: 2016-05-18
 path: /procreate/maria-g-portrait/
 excerpt: "Portrait of María G. digitally painted with Procreate on an iPad."
 last_modified_at: 2016-05-18T10:46:46-04:00
-image: ../../assets/images/maria-g-procreate.jpg
+image: ../../images/maria-g-procreate.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, time lapse]
 ---

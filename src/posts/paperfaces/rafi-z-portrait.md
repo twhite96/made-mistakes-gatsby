@@ -4,7 +4,7 @@ date: 2015-03-10
 path: /paperfaces/rafi-z-portrait/
 excerpt: "PaperFaces portrait of the Rafi Z. drawn with Paper for iOS on an iPad."
 last_modified_at: 
-image: ../../assets/images/paperfaces-rafi-z.jpg
+image: ../../images/paperfaces-rafi-z.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, time lapse, black and white]
 ---
@@ -18,7 +18,7 @@ Another experiment in recording my drawing process using on iPad, recorded with 
 {% endfigure %}
 
 {% figure caption:"Work in progress drawings available on Mix." class:"gallery-2-col" %}
-[![Work in process screenshot](../../assets/images/paperfaces-rafi-z-process-1-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2359890) [![Work in process screenshot](../../assets/images/paperfaces-rafi-z-process-2-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2370683)
+[![Work in process screenshot](../../images/paperfaces-rafi-z-process-1-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2359890) [![Work in process screenshot](../../images/paperfaces-rafi-z-process-2-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2370683)
 {% endfigure %}
 
 {% include_cached boilerplate/paperfaces-5.md %}

@@ -3,7 +3,7 @@ title: "Half of this drawing is blonde hair"
 date: 2013-07-19
 path: /paperfaces/luxepain-portrait/
 excerpt: "PaperFaces portrait of @LuxePain drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-luxepain-twitter.jpg
+image: ../../images/paperfaces-luxepain-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---
@@ -13,17 +13,17 @@ PaperFaces portrait of [@luxepain](https://twitter.com/luxepain). Always looking
 {% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Drawing the face pencil first, watercolor second." class:"gallery-3-col" %}
-[![Work in process screenshot](../../assets/images/paperfaces-luxepain-process-1-600.jpg)](../../assets/images/paperfaces-luxepain-process-1-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-luxepain-process-2-600.jpg)](../../assets/images/paperfaces-luxepain-process-2-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-luxepain-process-3-600.jpg)](../../assets/images/paperfaces-luxepain-process-3-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-luxepain-process-1-600.jpg)](../../images/paperfaces-luxepain-process-1-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-luxepain-process-2-600.jpg)](../../images/paperfaces-luxepain-process-2-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-luxepain-process-3-600.jpg)](../../images/paperfaces-luxepain-process-3-lg.jpg)
 {% endfigure %}
 
 {% figure caption:"A well placed stroke of white reflection can add a bunch of realism to an eye." %}
-[![Work in process screenshot](../../assets/images/paperfaces-luxepain-process-4-600.jpg)](../../assets/images/paperfaces-luxepain-process-4-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-luxepain-process-4-600.jpg)](../../images/paperfaces-luxepain-process-4-lg.jpg)
 {% endfigure %}
 
 {% figure caption:"Drawing hair all day every day." class:"gallery-3-col" %}
-[![Work in process screenshot](../../assets/images/paperfaces-luxepain-process-5-600.jpg)](../../assets/images/paperfaces-luxepain-process-5-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-luxepain-process-6-600.jpg)](../../assets/images/paperfaces-luxepain-process-6-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-luxepain-process-7-600.jpg)](../../assets/images/paperfaces-luxepain-process-7-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-luxepain-process-5-600.jpg)](../../images/paperfaces-luxepain-process-5-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-luxepain-process-6-600.jpg)](../../images/paperfaces-luxepain-process-6-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-luxepain-process-7-600.jpg)](../../images/paperfaces-luxepain-process-7-lg.jpg)
 {% endfigure %}

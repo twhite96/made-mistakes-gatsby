@@ -4,7 +4,7 @@ date: 2015-09-14
 path: /procreate/jordan-s-portrait/
 excerpt: "Portrait of Jordan S., digitally painted with Procreate on an iPad."
 last_modified_at: 2015-11-06T10:03:00-05:00
-image: ../../assets/images/jordan-s-procreate.jpg
+image: ../../images/jordan-s-procreate.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, time lapse, Sktchy]
 ---

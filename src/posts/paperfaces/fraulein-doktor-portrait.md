@@ -3,7 +3,7 @@ title: "Drinking from a red plastic cup"
 date: 2013-03-03
 path: /paperfaces/fraulein-doktor-portrait/
 excerpt: "PaperFaces portrait of @fraulein_doktor drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-fraulein-doktor-twitter.jpg
+image: ../../images/paperfaces-fraulein-doktor-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

@@ -3,7 +3,7 @@ title: "Shirtless in gray"
 date: 2013-09-03
 path: /paperfaces/toastroom-portrait/
 excerpt: "PaperFaces portrait of @toastroom drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-toastroom-twitter.jpg
+image: ../../images/paperfaces-toastroom-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white, beard]
 ---
@@ -13,10 +13,10 @@ PaperFaces portrait of [@toastroom](https://twitter.com/toastroom). It's hard to
 {% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screenshots (**Paper for iOS**)." class:"gallery-3-col" %}
-[![](../../assets/images/paperfaces-toastroom-process-1-600.jpg)](../../assets/images/paperfaces-toastroom-process-1-lg.jpg)
-[![](../../assets/images/paperfaces-toastroom-process-2-600.jpg)](../../assets/images/paperfaces-toastroom-process-2-lg.jpg)
-[![](../../assets/images/paperfaces-toastroom-process-3-600.jpg)](../../assets/images/paperfaces-toastroom-process-3-lg.jpg)
-[![](../../assets/images/paperfaces-toastroom-process-4-600.jpg)](../../assets/images/paperfaces-toastroom-process-4-lg.jpg)
-[![](../../assets/images/paperfaces-toastroom-process-5-600.jpg)](../../assets/images/paperfaces-toastroom-process-5-lg.jpg)
-[![](../../assets/images/paperfaces-toastroom-process-6-600.jpg)](../../assets/images/paperfaces-toastroom-process-6-lg.jpg)
+[![](../../images/paperfaces-toastroom-process-1-600.jpg)](../../images/paperfaces-toastroom-process-1-lg.jpg)
+[![](../../images/paperfaces-toastroom-process-2-600.jpg)](../../images/paperfaces-toastroom-process-2-lg.jpg)
+[![](../../images/paperfaces-toastroom-process-3-600.jpg)](../../images/paperfaces-toastroom-process-3-lg.jpg)
+[![](../../images/paperfaces-toastroom-process-4-600.jpg)](../../images/paperfaces-toastroom-process-4-lg.jpg)
+[![](../../images/paperfaces-toastroom-process-5-600.jpg)](../../images/paperfaces-toastroom-process-5-lg.jpg)
+[![](../../images/paperfaces-toastroom-process-6-600.jpg)](../../images/paperfaces-toastroom-process-6-lg.jpg)
 {% endfigure %}

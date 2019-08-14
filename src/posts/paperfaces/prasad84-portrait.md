@@ -3,7 +3,7 @@ title: "Mute colored wall"
 date: 2013-05-05
 path: /paperfaces/prasad84-portrait/
 excerpt: "PaperFaces portrait of @prasad84 drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-prasad84-twitter.jpg
+image: ../../images/paperfaces-prasad84-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

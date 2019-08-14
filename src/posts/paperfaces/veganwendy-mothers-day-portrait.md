@@ -3,7 +3,7 @@ title: "A Mother's Day PaperFaces portrait of @veganwendy"
 date: 2013-05-12
 path: /paperfaces/veganwendy-mothers-day-portrait/
 excerpt: "PaperFaces portrait of new mom @veganwendy and twin girls for Mother's Day."
-image: ../../assets/images/paperfaces-veganwendy-mothers-day.jpg
+image: ../../images/paperfaces-veganwendy-mothers-day.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, twins]
 ---

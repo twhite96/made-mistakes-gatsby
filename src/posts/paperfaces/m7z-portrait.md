@@ -3,7 +3,7 @@ title: "Faking light leakages and green hats"
 date: 2013-07-01
 path: /paperfaces/m7z-portrait/
 excerpt: "PaperFaces portrait of @m7z drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-m7z-twitter.jpg
+image: ../../images/paperfaces-m7z-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

@@ -4,7 +4,7 @@ date: 2015-11-16
 path: /procreate/madison-s-portrait/
 excerpt: "Portrait of Madison S., digitally painted with Procreate on an iPad."
 last_modified_at: 2015-11-16T11:48:50-05:00
-image: ../../assets/images/madison-s-procreate.jpg
+image: ../../images/madison-s-procreate.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, time lapse, Sktchy]
 ---

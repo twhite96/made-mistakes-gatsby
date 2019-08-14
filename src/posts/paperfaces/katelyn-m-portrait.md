@@ -3,7 +3,7 @@ title: "Unstoppable Hand"
 date: 2015-08-25
 path: /paperfaces/katelyn-m-portrait/
 excerpt: "PaperFaces portrait of Katelyn M. drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-katelyn-m.jpg
+image: ../../images/paperfaces-katelyn-m.jpg
 gallery:
   - url: /assets/images/paperfaces-katelyn-m-process-1-lg.jpg
     image_path: /assets/images/paperfaces-katelyn-m-process-1-600.jpg

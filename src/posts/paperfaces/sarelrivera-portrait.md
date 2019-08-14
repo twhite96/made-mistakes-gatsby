@@ -3,7 +3,7 @@ title: "Girl in gray"
 date: 2012-11-21
 path: /paperfaces/sarelrivera-portrait/
 excerpt: "PaperFaces portrait of @sarelrivera drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-sarelrivera-twitter.jpg
+image: ../../images/paperfaces-sarelrivera-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, time lapse]
 ---

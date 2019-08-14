@@ -4,7 +4,7 @@ date: 2018-04-30
 path: /procreate/ale-b-portrait/
 excerpt: "Portrait of Ale B. digitally painted with Procreate on an iPad."
 last_modified_at: 2018-04-30T16:22:39-04:00
-image: ../../assets/images/ale-b-procreate.jpg
+image: ../../images/ale-b-procreate.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, black and white, beard, time lapse]
 ---
@@ -14,7 +14,7 @@ Portrait of Ale B. inspired by a [photograph on Sktchy](https://sktchy.com/pGkOf
 Two hours and 30 minutes of beard scribbling over the last couple of weeks. Because who has time to relax draw in a single sitting?
 
 {% figure caption:"Work in progress" %}
-[![work in progress screenshot](../../assets/images/ale-b-progress-1.jpg)](../../assets/images/ale-b-progress-1-lg.jpg)
+[![work in progress screenshot](../../images/ale-b-progress-1.jpg)](../../images/ale-b-progress-1-lg.jpg)
 {% endfigure %}
 
 <figure>

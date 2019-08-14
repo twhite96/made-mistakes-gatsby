@@ -4,7 +4,7 @@ date: 2015-10-16
 path: /tiny-paintings/ponda-baba-painting/
 excerpt: "Tiny portrait of Ponda Baba painted with watercolor on hot press paper."
 last_modified_at: 2015-11-16T11:22:26-05:00
-image: ../../assets/images/painting-ponda-baba.jpg
+image: ../../images/painting-ponda-baba.jpg
 categories: [tiny-paintings]
 tags: [watercolor, portrait, illustration, Star Wars]
 ---

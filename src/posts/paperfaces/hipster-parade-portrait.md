@@ -3,7 +3,7 @@ title: "A gaggle of big headed hipsters"
 date: 2013-07-29
 path: /paperfaces/hipster-parade-portrait/
 excerpt: "PaperFaces portrait of some random hipsters drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-hipsters.jpg
+image: ../../images/paperfaces-hipsters.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white, beard, time lapse]
 ---

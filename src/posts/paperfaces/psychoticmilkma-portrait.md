@@ -3,7 +3,7 @@ title: "Raiden wins. Flawless victory!"
 date: 2012-12-31
 path: /paperfaces/psychoticmilkma-portrait/
 excerpt: "PaperFaces portrait of @psychoticmilkma drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-psychoticmilkma-twitter.jpg
+image: ../../images/paperfaces-psychoticmilkma-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, beard, time lapse]
 ---

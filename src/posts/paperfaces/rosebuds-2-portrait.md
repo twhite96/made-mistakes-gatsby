@@ -3,7 +3,7 @@ title: "The Twins Turn Two"
 date: 2014-08-03
 path: /paperfaces/rosebuds-2-portrait/
 excerpt: "PaperFaces portrait of the two little rosebuds drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-rosebuds-2.jpg
+image: ../../images/paperfaces-rosebuds-2.jpg
 gallery:
   - url: /assets/images/paperfaces-rosebuds-2-process-1-lg.jpg
     image_path: /assets/images/paperfaces-rosebuds-2-process-1-600.jpg

@@ -6,7 +6,7 @@ last_modified_at: 2018-11-06T12:03:31-05:00
 excerpt: "Learn how to use Paper's eraser tool to correct and cover-up mistakes."
 categories: [mastering-paper]
 tags: [Paper for iOS, Pencil by 53, tutorial, Apple]
-image: ../../assets/images/paper-53-erasing-feature.jpg
+image: ../../images/paper-53-erasing-feature.jpg
 toc: true
 ---
 
@@ -17,13 +17,13 @@ One of those tools that is easily forgotten about is the eraser --- the utensils
 Opening Paper's tool tray you will find that the eraser is the first tool on the left.
 
 {% figure caption:"The eraser tool is located on the far left." %}
-![screenshot of the tool tray in Paper](../../assets/images/paper-53-eraser-tool-tray.jpg)
+![screenshot of the tool tray in Paper](../../images/paper-53-eraser-tool-tray.jpg)
 {% endfigure %}
 
 Owners of [**FiftyThree's Pencil**](http://www.amazon.com/gp/product/B00JP12300/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00JP12300&linkCode=as2&tag=mademist-20&linkId=X4XZAPOX4S2GLXA2) have the added benefit of a dedicated eraser on the top of the stylus. Now you can flow between drawing and erasing by simply flipping Pencil around as you would a *real pencil*. Of course you can still select the eraser from the tool try and use Pencil's pointed tip to erase --- but who does that?
 
 {% figure caption:"Just like the tip, Pencil's eraser is user replaceable." %}
-![detail of Pencil's eraser and replacement](../../assets/images/paper-53-eraser-replacement.jpg)
+![detail of Pencil's eraser and replacement](../../images/paper-53-eraser-replacement.jpg)
 {% endfigure %}
 
 ### How speed affects erasing
@@ -31,7 +31,7 @@ Owners of [**FiftyThree's Pencil**](http://www.amazon.com/gp/product/B00JP12300/
 All of the tools in Paper react to the speed at which you use them --- the eraser is no different. When dragging your finger or stylus across the iPad slowly, the eraser will be at its thinnest width. As you increase the speed at which you move, the wider the eraser's size becomes.
 
 {% figure caption:"The faster the stroke, the larger the eraser." %}
-![erasing from thin to thick](../../assets/images/paper-53-eraser-thick-thin.jpg)
+![erasing from thin to thick](../../images/paper-53-eraser-thick-thin.jpg)
 {% endfigure %}
 
 ### How Surface Pressure affects erasing
@@ -39,14 +39,14 @@ All of the tools in Paper react to the speed at which you use them --- the erase
 In [my review of Pencil]({% post_url /mastering-paper/2014-11-28-pencil-53-review %}#what-about-the-eraser) I dinged the dedicated eraser as a missed opportunity by not adding any new capabilities to the tool. Well when FiftyThree updated Paper to include the new **Surface Pressure**[^pencil-only] feature, Pencil's eraser got a serious upgrade.
 
 {% figure caption:"Erasing with the corner versus the entire width of Pencil's eraser." class:"gallery-2-col" %}
-![erasing with the corner](../../assets/images/paper-53-erasing-corner.jpg)
-![erasing with the entire edge](../../assets/images/paper-53-erasing-wide.jpg)
+![erasing with the corner](../../images/paper-53-erasing-corner.jpg)
+![erasing with the entire edge](../../images/paper-53-erasing-wide.jpg)
 {% endfigure %}
 
 Pencil's eraser now changes size depending on how much of it makes contact with the iPad's screen. Touching the corner of the eraser to the screen will remove a small portion of your drawing. While swipes with the wider edge erase in broader strokes.
 
 {% figure caption:"Pencil's eraser offers way more flexibility in size than the default eraser." %}
-![eraser sizes](../../assets/images/paper-53-eraser-sizes.jpg)
+![eraser sizes](../../images/paper-53-eraser-sizes.jpg)
 {% endfigure %}
 
 A Surface Pressure enabled eraser can be made quite small, allowing you to sneak into tighter spaces. A trick the normal eraser tool wishes it could pull off.
@@ -56,7 +56,7 @@ A Surface Pressure enabled eraser can be made quite small, allowing you to sneak
 Currently the [Pogo Connect]({{ site.url}}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) is the only pressure sensitive stylus Paper supports. When paired to Paper you can vary the size of the eraser (and the other tools) by applying  pressure to the tip as you drag it across the screen.
 
 {% figure caption:"The harder you press the larger the eraser becomes." %}
-![Pogo Connect erasing](../../assets/images/paper-53-eraser-pogo-connect.jpg)
+![Pogo Connect erasing](../../images/paper-53-eraser-pogo-connect.jpg)
 {% endfigure %}
 
 Erasing tends to be one of those modes where you want precise control for fixing mistakes. The Pogo Connect is not a good tool for this unless you have a steady hand. I can't even count the amount of times I'd press too hard on the tip and remove a large chunk of my drawing by mistake.
@@ -68,7 +68,7 @@ Sometimes you just want to clear an entire page and start over. Of course you co
 But the quickest way to clear a page and undo everything is by press and holding on the eraser tool icon. After a few seconds you will be prompted to "**Clear Page**". Easy peasy.
 
 {% figure caption:"Press and hold on the eraser tool to wipe the entire page." %}
-[![animation showing how to erase the entire page](../../assets/images/paper-53-clear-page.gif)](https://www.youtube.com/watch?v=pABqPEzHlsQ)
+[![animation showing how to erase the entire page](../../images/paper-53-clear-page.gif)](https://www.youtube.com/watch?v=pABqPEzHlsQ)
 {% endfigure %}
 
 ---
@@ -82,7 +82,7 @@ I like to compare the line qualities of the eraser to the marker (outline) and f
 The harsh edges produced by the eraser are great for bold illustrations, comics/cartoons, wire-framing, diagrams, and lettering. Basically anything you want to retain smooth edges and keep your line work crisp. 
 
 {% figure caption:"Cartoons and doodles are complemented by the eraser tool's rigid edge." %}
-![examples of crisp line work](../../assets/images/paper-53-erasing-crisp-edge.jpg)
+![examples of crisp line work](../../images/paper-53-erasing-crisp-edge.jpg)
 {% endfigure %}
 
 ### Harsh edges are bad for
@@ -92,7 +92,7 @@ Call me biased, but I don't think the eraser tool works well when trying to achi
 If the eraser removed strokes in a more granular way it might be a different story, but for the most part I avoid the tool like the plague. I've found it much easier to paint with variations of white to "erase" strokes gradually. More on that below...
 
 {% figure caption:"Notice how erasing the fur strokes creates an abrupt edge making it harder to cover-up?" %}
-![erasing fur and hair can ruin the effect](../../assets/images/paper-53-eraser-fur-coverup.jpg)
+![erasing fur and hair can ruin the effect](../../images/paper-53-eraser-fur-coverup.jpg)
 {% endfigure %}
 
 ## Erasing techniques
@@ -106,7 +106,7 @@ Instead of completely erasing a stroke you can partially remove it. By leaving f
 The easiest way to pull this off is by dabbing your finger or stylus repeatedly while using the eraser. This will lift bits and pieces of the original drawing away with each dab.
 
 {% figure caption:"Dabbing the eraser to partially erase a sketch." %}
-![partially erased sketched](../../assets/images/paper-53-eraser-dab-method.jpg)
+![partially erased sketched](../../images/paper-53-eraser-dab-method.jpg)
 {% endfigure %}
 
 This is especially effective during the sketching phase of creation. By leaving part of the drawing on the canvas it allows you to use it as a guide as you continually refine it.
@@ -134,7 +134,7 @@ This method does have a drawback. Using white to "erase" can create more work fo
 Another effective way of softening a sketch, is to smudge it with Blend[^pencil-only]. The slower you glide your finger across the screen the more intense the blur. When done correctly lines can be partially blended away leaving small traces you can more easily draw over --- using them as guides.
 
 {% figure caption:"[Blending away guides](/mastering-paper/grid-method/#removing-the-grid) and rough sketches is great way to disguise them for inking or painting over." %}
-![blending away a sketch](../../assets/images/paper-53-eraser-blend-guides.jpg)
+![blending away a sketch](../../images/paper-53-eraser-blend-guides.jpg)
 {% endfigure %}
 
 There's also the option of using the eraser as you normally would followed with carefully placed Blends. You'll want to be quick with your smudge strokes to avoid pushing pixels too far and ruining any built up textures. But with some practice you can cover-up any ill effects from the eraser.
@@ -150,7 +150,7 @@ Once you get into a rhythm --- bouncing between sketching, erasing, and smudging
 In case you scrolled through all those words up there I put together an erasing cheat sheet and shared it to Mix. Feel free to [download and remix it](https://mix.fiftythree.com/11098-Michael-Rose/624712) directly in Paper for iOS.
 
 {% figure caption:"Paper for iOS How to Erase cheat sheet." %}
-[![Paper for iOS How to Erase cheat sheet](../../assets/images/mastering-paper-erasing-cheatsheet-900.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/624712)
+[![Paper for iOS How to Erase cheat sheet](../../images/mastering-paper-erasing-cheatsheet-900.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/624712)
 {% endfigure %}
 
 ## How do you use the eraser tool?

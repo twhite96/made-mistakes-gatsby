@@ -4,7 +4,7 @@ date: 2007-11-17
 path: /notes/upgrade-imac-g5-osx-leopard/
 excerpt: "What I went through upgrading an iMac G5 to Mac OS X Leopard (10.5)."
 last_modified_at: 2015-02-04T12:02:06-05:00
-image: ../../assets/images/starfield-leopard-feature.jpg
+image: ../../images/starfield-leopard-feature.jpg
 categories: [notes]
 tags: [Apple, tech geek]
 toc: true
@@ -13,7 +13,7 @@ toc: true
 I did my research this time around and checked out various websites and forums to see if all the major applications I use daily would be supported in Mac OS X Leopard. A lot of the Adobe crap, QuarkXpress, and 3rd party software I use for syncing my Palm Centro were up in the air in terms of Leopard compatibility. Came to the decision last Friday that I would just purchase a 500GB external hard drive, clone my startup disk to it, and if problems arose in Leopard I would just downgrade back to Tiger.
 
 {% figure caption:"Migrating all my data over to a fresh OS X Leopard install" %}
-![Mac OS X Leopard](../../assets/images/65.jpg)
+![Mac OS X Leopard](../../images/65.jpg)
 {% endfigure %}
 
 ## Prep the install

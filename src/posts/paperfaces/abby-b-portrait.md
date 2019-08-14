@@ -3,7 +3,7 @@ title: "You Need a Mouth to Mumble"
 date: 2014-11-07
 path: /paperfaces/abby-b-portrait/
 excerpt: "PaperFaces portrait of the Abby B. drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-abby-b.jpg
+image: ../../images/paperfaces-abby-b.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---

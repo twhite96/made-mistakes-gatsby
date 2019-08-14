@@ -3,7 +3,7 @@ title: "3/4 view in rust tones"
 date: 2012-12-13
 path: /paperfaces/mandrl-portrait/
 excerpt: "PaperFaces portrait of @mandrl drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-mandrl-twitter.jpg
+image: ../../images/paperfaces-mandrl-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

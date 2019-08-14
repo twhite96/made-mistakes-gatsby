@@ -3,7 +3,7 @@ title: "Black and white stubble"
 date: 2012-10-29
 path: /paperfaces/jfskjaerbaek-portrait/
 excerpt: "PaperFaces portrait of @JFSkjaerbaek drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-jfskjaerbaek-twitter.jpg
+image: ../../images/paperfaces-jfskjaerbaek-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, beard]
 ---

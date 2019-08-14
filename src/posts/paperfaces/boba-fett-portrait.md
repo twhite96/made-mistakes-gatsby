@@ -3,7 +3,7 @@ title: "PaperFaces portrait of Boba Fett"
 date: 2013-05-04
 path: /paperfaces/boba-fett-portrait/
 excerpt: "PaperFaces portrait of Boba Fett drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-boba-fett.jpg
+image: ../../images/paperfaces-boba-fett.jpg
 categories: [paperfaces]
 tags: [Star Wars, portrait, illustration, Paper for iOS, time lapse]
 ---

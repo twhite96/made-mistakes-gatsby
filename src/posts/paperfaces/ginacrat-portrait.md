@@ -3,7 +3,7 @@ title: "Holding a Twister DVD"
 date: 2013-03-15
 path: /paperfaces/ginacrat-portrait/
 excerpt: "PaperFaces portrait of @ginacrat drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-ginacrat-twitter.jpg
+image: ../../images/paperfaces-ginacrat-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

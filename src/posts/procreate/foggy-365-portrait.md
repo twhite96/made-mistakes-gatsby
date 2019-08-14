@@ -4,7 +4,7 @@ date: 2018-04-03
 path: /procreate/foggy-365-portrait/
 excerpt: "Portrait of Foggy 365 digitally painted with Procreate on an iPad."
 last_modified_at:
-image: ../../assets/images/foggy-365-procreate.jpg
+image: ../../images/foggy-365-procreate.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, black and white, time lapse]
 ---

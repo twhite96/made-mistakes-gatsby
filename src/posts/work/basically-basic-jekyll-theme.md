@@ -4,7 +4,7 @@ date: 2017-03-30
 path: /work/basically-basic-jekyll-theme/
 excerpt: "Your new Jekyll default theme."
 last_modified_at: 2019-02-19T10:05:55-05:00
-image: ../../assets/images/jekyll-theme-basically-basic-feature.jpg
+image: ../../images/jekyll-theme-basically-basic-feature.jpg
 gallery:
   - url: /assets/images/basically-basic-theme-menu.png
     image_path: /assets/images/basically-basic-theme-menu-th.png

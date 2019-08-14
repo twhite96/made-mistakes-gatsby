@@ -3,7 +3,7 @@ title: "Drawing hairs before midnight"
 date: 2013-07-20
 path: /paperfaces/lizziebeth-portrait/
 excerpt: "PaperFaces portrait of @LizzieBeth_ drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-lizziebeth-twitter.jpg
+image: ../../images/paperfaces-lizziebeth-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, time lapse]
 ---

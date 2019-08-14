@@ -3,7 +3,7 @@ title: "Pasta strainer over the head"
 date: 2012-12-13
 path: /paperfaces/f5point6-portrait/
 excerpt: "PaperFaces portrait of @f5point6 drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-f5point6-twitter.jpg
+image: ../../images/paperfaces-f5point6-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

@@ -4,7 +4,7 @@ date: 2015-01-20
 path: /paperfaces/rachel-b-portrait/
 excerpt: "PaperFaces portrait of the Rachel B. drawn with Paper for iOS on an iPad."
 last_modified_at: 
-image: ../../assets/images/paperfaces-rachel-b.jpg
+image: ../../images/paperfaces-rachel-b.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---
@@ -18,5 +18,5 @@ As always, I've shared the original illustration [on Mix](https://mix.fiftythree
 {% include_cached boilerplate/paperfaces-3.md %}
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
-[![Work in process screenshot](../../assets/images/paperfaces-rachel-b-process-1-600.jpg)](../../assets/images/paperfaces-rachel-b-process-1-lg.jpg) [![Work in process screenshot](../../assets/images/paperfaces-rachel-b-process-2-600.jpg)](../../assets/images/paperfaces-rachel-b-process-2-lg.jpg) [![Work in process screenshot](../../assets/images/paperfaces-rachel-b-process-3-600.jpg)](../../assets/images/paperfaces-rachel-b-process-3-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-rachel-b-process-1-600.jpg)](../../images/paperfaces-rachel-b-process-1-lg.jpg) [![Work in process screenshot](../../images/paperfaces-rachel-b-process-2-600.jpg)](../../images/paperfaces-rachel-b-process-2-lg.jpg) [![Work in process screenshot](../../images/paperfaces-rachel-b-process-3-600.jpg)](../../images/paperfaces-rachel-b-process-3-lg.jpg)
 {% endfigure %}

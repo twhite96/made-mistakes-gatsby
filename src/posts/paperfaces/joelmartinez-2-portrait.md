@@ -3,7 +3,7 @@ title: "Wind blowing blue green skies"
 date: 2013-06-26
 path: /paperfaces/joelmartinez-2-portrait/
 excerpt: "PaperFaces portrait of @joelmartinez drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-joelmartinez-2-twitter.jpg
+image: ../../images/paperfaces-joelmartinez-2-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, beard, time lapse]
 ---

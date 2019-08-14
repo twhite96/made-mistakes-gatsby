@@ -3,7 +3,7 @@ title: "A Beard That Hides"
 date: 2014-10-24
 path: /paperfaces/remi-l-portrait/
 excerpt: "PaperFaces portrait of the Remi L. drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-remi-l.jpg
+image: ../../images/paperfaces-remi-l.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, beard]
 ---
@@ -17,5 +17,5 @@ The original drawing is [available on Mix](https://mix.fiftythree.com/11098-Mich
 {% include_cached boilerplate/paperfaces-3.md %}
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-2-col" %}
-[![Work in process screenshot](../../assets/images/paperfaces-remi-l-process-1-600.jpg)](../../assets/images/paperfaces-remi-l-process-1-lg.jpg) [![Work in process screenshot](../../assets/images/paperfaces-remi-l-process-2-600.jpg)](../../assets/images/paperfaces-remi-l-process-2-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-remi-l-process-1-600.jpg)](../../images/paperfaces-remi-l-process-1-lg.jpg) [![Work in process screenshot](../../images/paperfaces-remi-l-process-2-600.jpg)](../../images/paperfaces-remi-l-process-2-lg.jpg)
 {% endfigure %}

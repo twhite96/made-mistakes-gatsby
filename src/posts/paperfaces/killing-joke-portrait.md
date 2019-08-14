@@ -4,7 +4,7 @@ date: 2014-12-04
 path: /paperfaces/killing-joke-portrait/
 excerpt: "PaperFaces portrait of the Joker from The Dark Knight drawn with Paper for iOS on an iPad."
 last_modified_at: 2017-09-07T16:16:56-04:00
-image: ../../assets/images/paperfaces-joker.jpg
+image: ../../images/paperfaces-joker.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---
@@ -20,5 +20,5 @@ The original illustration is [available on Mix](https://mix.fiftythree.com/11098
 {% include_cached boilerplate/paperfaces-3.md %}
 
 {% figure caption:"Original drawing by 赵 志欣 with my work on the right." class:"gallery-2-col" %}
-[![Work in process screenshot](../../assets/images/paperfaces-joker-original-1-600.jpg)](../../assets/images/paperfaces-joker-original-1.jpg) [![Work in process screenshot](../../assets/images/paperfaces-joker-process-1-600.jpg)](../../assets/images/paperfaces-joker-process-1-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-joker-original-1-600.jpg)](../../images/paperfaces-joker-original-1.jpg) [![Work in process screenshot](../../images/paperfaces-joker-process-1-600.jpg)](../../images/paperfaces-joker-process-1-lg.jpg)
 {% endfigure %}

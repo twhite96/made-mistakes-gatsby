@@ -4,7 +4,7 @@ date: 2018-04-14
 path: /procreate/tatha-s-portrait/
 excerpt: "Portrait of Tatha S. digitally painted with Procreate on an iPad."
 last_modified_at: 2018-04-14T14:27:36-04:00
-image: ../../assets/images/tatha-s-procreate.jpg
+image: ../../images/tatha-s-procreate.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, black and white, time lapse]
 ---
@@ -12,8 +12,8 @@ tags: [Procreate, portrait, illustration, Sktchy, black and white, time lapse]
 Portrait of Tatha S. inspired by a [photograph on Sktchy](https://sktchy.com/Eoee2D). Digitally painted with Procreate on a 12.9" iPad Pro.
 
 {% figure caption:"Using Apple Pencil to lay lines." class:"gallery-2-col" %}
-[![work in progress screenshot](../../assets/images/tatha-s-progress-1.jpg)](../../assets/images/tatha-s-progress-1-lg.jpg)
-[![work in progress screenshot](../../assets/images/tatha-s-progress-2.jpg)](../../assets/images/tatha-s-progress-2-lg.jpg)
+[![work in progress screenshot](../../images/tatha-s-progress-1.jpg)](../../images/tatha-s-progress-1-lg.jpg)
+[![work in progress screenshot](../../images/tatha-s-progress-2.jpg)](../../images/tatha-s-progress-2-lg.jpg)
 {% endfigure %}
 
 <figure>

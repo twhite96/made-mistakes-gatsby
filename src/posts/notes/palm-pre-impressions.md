@@ -15,7 +15,7 @@ Three days later I'm still impressed with the **Palm Pre**. As a user of Palm OS
 The experience of having a device that organizes your life, makes phone calls, and connects online --- has remained unchanged. For the most part the Palm Pre meets or exceeds my expectations, with only a few minor back steps. After the break is a full rundown of my Palm Pre likes and dislikes (mostly software related), in no particular order.
 
 {% figure caption:"Palm Pre closed with my sweet wallpaper" %}
-![Palm Pre closed](../../assets/images/palm-pre-wallpaper.jpg)
+![Palm Pre closed](../../images/palm-pre-wallpaper.jpg)
 {% endfigure %}
 
 ## Palm Pre positives
@@ -56,16 +56,16 @@ So there you have it. Can't say that I was excited about the thought of paying a
 
 If you're looking for a more in-depth look at the Palm Pre, check out [Precentral's extensive review](https://web.archive.org/web/20100613121400/http://www.precentral.net/palm-pre-review). They cover every aspect of the phone with a detailed write-up, photos, and video walk-through.
 
-* [![Palm Pre lock screen](../../assets/images/354t.jpg)](../../assets/images/354.jpg)
-* [![Palm Pre closed](../../assets/images/355t.jpg)](../../assets/images/355.jpg)
-* [![Palm Pre open](../../assets/images/356t.jpg)](../../assets/images/356.jpg)
-* [![Palm Pre keyboard close up](../../assets/images/357t.jpg)](../../assets/images/357.jpg)
-* [![Palm Pre camera and mirror](../../assets/images/358t.jpg)](../../assets/images/358.jpg)
-* [![Palm Pre opened up](../../assets/images/359t.jpg)](../../assets/images/359.jpg)
-* [![Palm Pre and Palm Centro comparison](../../assets/images/360t.jpg)](../../assets/images/360.jpg)
-* [![Palm Pre and Palm Centro comparison](../../assets/images/361t.jpg)](../../assets/images/361.jpg)
-* [![Palm Pre Phone](../../assets/images/362t.jpg)](../../assets/images/362.jpg)
-* [![Palm Pre Music App](../../assets/images/363t.jpg)](../../assets/images/363.jpg)
-* [![Palm Pre Tweed App](../../assets/images/364t.jpg)](../../assets/images/364.jpg)
-* [![Palm Pre App Catalog](../../assets/images/365t.jpg)](../../assets/images/365.jpg)
+* [![Palm Pre lock screen](../../images/354t.jpg)](../../images/354.jpg)
+* [![Palm Pre closed](../../images/355t.jpg)](../../images/355.jpg)
+* [![Palm Pre open](../../images/356t.jpg)](../../images/356.jpg)
+* [![Palm Pre keyboard close up](../../images/357t.jpg)](../../images/357.jpg)
+* [![Palm Pre camera and mirror](../../images/358t.jpg)](../../images/358.jpg)
+* [![Palm Pre opened up](../../images/359t.jpg)](../../images/359.jpg)
+* [![Palm Pre and Palm Centro comparison](../../images/360t.jpg)](../../images/360.jpg)
+* [![Palm Pre and Palm Centro comparison](../../images/361t.jpg)](../../images/361.jpg)
+* [![Palm Pre Phone](../../images/362t.jpg)](../../images/362.jpg)
+* [![Palm Pre Music App](../../images/363t.jpg)](../../images/363.jpg)
+* [![Palm Pre Tweed App](../../images/364t.jpg)](../../images/364.jpg)
+* [![Palm Pre App Catalog](../../images/365t.jpg)](../../images/365.jpg)
 {: .gallery-thumbnails}

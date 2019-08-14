@@ -3,7 +3,7 @@ title: "Yellow and blue tones"
 date: 2013-01-06
 path: /paperfaces/chrbutler-portrait/
 excerpt: "PaperFaces portrait of @chrbutler drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-chrbutler-twitter.jpg
+image: ../../images/paperfaces-chrbutler-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

@@ -3,7 +3,7 @@ title: "Inspiring faces want to know"
 date: 2014-04-01
 path: /notes/inspiring-faces/
 excerpt: "Finding inspiration from the faces of strangers on Sktchy for iOS."
-image: ../../assets/images/sktchys-of-me-feature.jpg
+image: ../../images/sktchys-of-me-feature.jpg
 categories: [notes]
 tags: [Sktchy, tech geek]
 ---
@@ -21,6 +21,6 @@ Goofy homeless looking beards help get you noticed. Apparently Sktchy artists en
 {% endnotice %}
 
 {% figure caption:"" class:"gallery-2-col" %}
-![Inspiration tab on Sktchy](../../assets/images/sktchy-inspiration-screenshot.jpg)
-![Profile page on Sktchy](../../assets/images/sktchy-profile-screenshot.jpg)
+![Inspiration tab on Sktchy](../../images/sktchy-inspiration-screenshot.jpg)
+![Profile page on Sktchy](../../images/sktchy-profile-screenshot.jpg)
 {% endfigure %}

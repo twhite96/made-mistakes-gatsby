@@ -3,7 +3,7 @@ title: "Dramatic lighting in a suit"
 date: 2013-10-16
 path: /paperfaces/sailesh-panchal-portrait/
 excerpt: "PaperFaces portrait of @sailesh-panchal drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-sailesh-panchal-twitter.jpg
+image: ../../images/paperfaces-sailesh-panchal-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, time lapse]
 ---

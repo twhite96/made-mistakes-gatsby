@@ -3,7 +3,7 @@ title: "Long hair in black and white"
 date: 2013-06-21
 path: /paperfaces/gustafsonlisa-portrait/
 excerpt: "PaperFaces portrait of @Gustafsonlisa drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-gustafsonlisa-twitter.jpg
+image: ../../images/paperfaces-gustafsonlisa-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]
 ---

@@ -3,7 +3,7 @@ title: "Glitching out"
 date: 2014-01-20
 path: /paperfaces/thenimesh-portrait/
 excerpt: "PaperFaces portrait of @thenimesh drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-thenimesh-twitter.jpg
+image: ../../images/paperfaces-thenimesh-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, time lapse]
 last_modified_at: 2017-01-17T16:17:14-05:00

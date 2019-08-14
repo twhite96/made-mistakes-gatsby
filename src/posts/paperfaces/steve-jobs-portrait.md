@@ -3,7 +3,7 @@ title: "Think Different"
 date: 2013-08-22
 path: /paperfaces/steve-jobs-portrait/
 excerpt: "PaperFaces portrait of Steve Jobs drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-steve-jobs.jpg
+image: ../../images/paperfaces-steve-jobs.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---
@@ -15,6 +15,6 @@ Maybe Apple should bring back this logo, it would feel right at home with iOS 7 
 {% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screenshots (**Paper for iOS**)." class:"gallery-2-col" %}
-[![](../../assets/images/paperfaces-steve-jobs-process-1-600.jpg)](../../assets/images/paperfaces-steve-jobs-process-1-lg.jpg)
-[![](../../assets/images/paperfaces-steve-jobs-process-2-600.jpg)](../../assets/images/paperfaces-steve-jobs-process-2-lg.jpg)
+[![](../../images/paperfaces-steve-jobs-process-1-600.jpg)](../../images/paperfaces-steve-jobs-process-1-lg.jpg)
+[![](../../images/paperfaces-steve-jobs-process-2-600.jpg)](../../images/paperfaces-steve-jobs-process-2-lg.jpg)
 {% endfigure %}

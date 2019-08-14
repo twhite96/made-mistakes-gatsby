@@ -4,7 +4,7 @@ date: 2015-02-23
 path: /paperfaces/emily-d-portrait/
 excerpt: "PaperFaces portrait of the Emily D. drawn with Paper for iOS on an iPad."
 last_modified_at: 
-image: ../../assets/images/paperfaces-emily-d.jpg
+image: ../../images/paperfaces-emily-d.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, time lapse]
 ---
@@ -22,7 +22,7 @@ After I try out some other time lapse iOS apps I plan on sharing what I've learn
 {% endfigure %}
 
 {% figure caption:"Work in progress drawings available on Mix." class:"gallery-2-col" %}
-[![Work in process screenshot](../../assets/images/paperfaces-emily-d-process-1-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2256482) [![Work in process screenshot](../../assets/images/paperfaces-emily-d-process-2-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2298299)
+[![Work in process screenshot](../../images/paperfaces-emily-d-process-1-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2256482) [![Work in process screenshot](../../images/paperfaces-emily-d-process-2-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2298299)
 {% endfigure %}
 
 {% include_cached boilerplate/paperfaces-3.md %}

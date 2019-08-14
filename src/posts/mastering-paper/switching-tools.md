@@ -5,7 +5,7 @@ path: /mastering-paper/switching-tools/
 excerpt: "Switching tools in Paper for iOS may seem obvious to you pros out there, but you'd be surprised how often I'm asked how to do it. Here's the answer."
 categories: [mastering-paper]
 tags: [Paper for iOS, Apple, tutorial]
-image: ../../assets/images/paper-53-full-tools.jpg
+image: ../../images/paper-53-full-tools.jpg
 toc: true
 last_modified_at: 2018-11-06T12:06:36-05:00
 ---
@@ -15,7 +15,7 @@ New to Paper by FiftyThree and just can't seem to figure out how to switch tools
 They may be subtle, but the white dots beneath the row of tools are a big clue to help solve this mystery. Similar to the dots you find at the bottom of your iOS device's home screen, they indicate there are off-screen goodies to be had.
 
 {% figure caption:"There be more tools to the right, don't worry you get them for free." %}
-![indicator dots beneath Paper tools](../../assets/images/paper-53-switch-tools-dots.jpg)
+![indicator dots beneath Paper tools](../../images/paper-53-switch-tools-dots.jpg)
 {% endfigure %}
 
 ## Tool switching (iPad)
@@ -37,7 +37,7 @@ Simply swipe across the row of **Think Kit** tools to reveal another set of five
 And for you iPhone Paper users there are three sets of tools you can swipe through.
 
 {% figure caption:"Switching tools in iPhone version of Paper." %}
-![switching tools in Paper by 53 for the iPhone](../../assets/images/paper-53-switch-tools-iphone.gif)
+![switching tools in Paper by 53 for the iPhone](../../images/paper-53-switch-tools-iphone.gif)
 {% endfigure %}
 
 I know what you're thinking, "wow how could anyone miss this?" Well from the amount of emails I receive a month asking how to change tools... quite a lot :wink:.

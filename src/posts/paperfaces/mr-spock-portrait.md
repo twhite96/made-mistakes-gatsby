@@ -4,7 +4,7 @@ date: 2015-03-02
 path: /paperfaces/mr-spock-portrait/
 excerpt: "PaperFaces portrait tribute of Leonard Nimoy as Mr. Spock drawn with Paper for iOS on an iPad."
 last_modified_at: 
-image: ../../assets/images/paperfaces-mr-spock.jpg
+image: ../../images/paperfaces-mr-spock.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, time lapse, black and white]
 ---
@@ -24,5 +24,5 @@ I've also shared several in-process sketches and the [finished illustration](htt
 {% include_cached boilerplate/paperfaces-5.md %}
 
 {% figure caption:"Work in progress drawings available on Mix." class:"third' %}
-[![Work in process screenshot](../../assets/images/paperfaces-mr-spock-process-1-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2394700) [![Work in process screenshot](../../assets/images/paperfaces-mr-spock-process-2-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2394966) [![Work in process screenshot](../../assets/images/paperfaces-mr-spock-process-3-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2400718)
+[![Work in process screenshot](../../images/paperfaces-mr-spock-process-1-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2394700) [![Work in process screenshot](../../images/paperfaces-mr-spock-process-2-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2394966) [![Work in process screenshot](../../images/paperfaces-mr-spock-process-3-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2400718)
 {% endfigure %}

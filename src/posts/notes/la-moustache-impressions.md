@@ -3,7 +3,7 @@ title: "La Moustache quick review"
 date: 2007-06-05
 path: /notes/la-moustache-impressions/
 excerpt: "My quick impressions of La Moustache --- a French film about a dude shaving his mustache."
-image: ../../assets/images/la-moustache-feature.jpg
+image: ../../images/la-moustache-feature.jpg
 categories: [notes]
 tags: [review]
 support: false

@@ -3,7 +3,7 @@ title: "Dark haired girl in purple"
 date: 2012-11-19
 path: /paperfaces/superbeffie-portrait/
 excerpt: "PaperFaces portrait of @superbeffie drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-superbeffie-twitter.jpg
+image: ../../images/paperfaces-superbeffie-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

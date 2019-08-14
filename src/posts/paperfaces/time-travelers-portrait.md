@@ -3,7 +3,7 @@ title: "Time Travelers"
 date: 2013-12-02
 path: /paperfaces/time-travelers-portrait/
 excerpt: "PaperFaces portrait commission drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-time-travelers.jpg
+image: ../../images/paperfaces-time-travelers.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, time lapse]
 ---

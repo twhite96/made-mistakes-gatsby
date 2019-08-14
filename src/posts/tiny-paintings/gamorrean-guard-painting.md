@@ -4,7 +4,7 @@ date: 2015-10-16
 path: /tiny-paintings/gamorrean-guard-painting/
 excerpt: "Tiny portrait of a Gamorrean Guard from Return of the Jedi, painted with watercolor on hot press paper."
 last_modified_at: 2015-11-16T11:22:01-05:00
-image: ../../assets/images/painting-gamorrean-guard.jpg
+image: ../../images/painting-gamorrean-guard.jpg
 categories: [tiny-paintings]
 tags: [watercolor, portrait, illustration, Star Wars]
 ---

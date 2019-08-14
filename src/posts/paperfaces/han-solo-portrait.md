@@ -3,7 +3,7 @@ title: "I know"
 date: 2014-04-30
 path: /paperfaces/han-solo-portrait/
 excerpt: "PaperFaces portrait Han Solo and Princess Leia drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-han-solo-leia.jpg
+image: ../../images/paperfaces-han-solo-leia.jpg
 last_modified_at: 2014-05-01
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Star Wars, time lapse]
@@ -18,10 +18,10 @@ Last year I stuck to the original trilogy with my [Darth Vader]({% post_url /pap
 {% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
-[![Work in process screenshot](../../assets/images/paperfaces-han-solo-process-1-600.jpg)](../../assets/images/paperfaces-han-solo-process-1-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-han-solo-process-2-600.jpg)](../../assets/images/paperfaces-han-solo-process-2-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-han-solo-process-3-600.jpg)](../../assets/images/paperfaces-han-solo-process-3-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-han-solo-process-4-600.jpg)](../../assets/images/paperfaces-han-solo-process-4-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-han-solo-process-5-600.jpg)](../../assets/images/paperfaces-han-solo-process-5-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-han-solo-process-6-600.jpg)](../../assets/images/paperfaces-han-solo-process-6-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-han-solo-process-1-600.jpg)](../../images/paperfaces-han-solo-process-1-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-han-solo-process-2-600.jpg)](../../images/paperfaces-han-solo-process-2-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-han-solo-process-3-600.jpg)](../../images/paperfaces-han-solo-process-3-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-han-solo-process-4-600.jpg)](../../images/paperfaces-han-solo-process-4-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-han-solo-process-5-600.jpg)](../../images/paperfaces-han-solo-process-5-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-han-solo-process-6-600.jpg)](../../images/paperfaces-han-solo-process-6-lg.jpg)
 {% endfigure %}

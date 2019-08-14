@@ -3,7 +3,7 @@ title: "Brightly colored by the sky"
 date: 2013-05-28
 path: /paperfaces/suhairykz-portrait/
 excerpt: "PaperFaces portrait of @suhairykz drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-suhairykz-twitter.jpg
+image: ../../images/paperfaces-suhairykz-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

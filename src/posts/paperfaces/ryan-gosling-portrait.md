@@ -3,7 +3,7 @@ title: "Only God Forgives"
 date: 2013-11-25
 path: /paperfaces/ryan-gosling-portrait/
 excerpt: "PaperFaces portrait of Ryan Gosling drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-ryan-gosling.jpg
+image: ../../images/paperfaces-ryan-gosling.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

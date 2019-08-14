@@ -4,7 +4,7 @@ date: 2016-05-18
 path: /procreate/jonathan-h-portrait/
 excerpt: "Portrait of Jonathan H. digitally painted with Procreate on an iPad."
 last_modified_at: 2016-05-18T10:46:51-04:00
-image: ../../assets/images/jonathan-h-procreate.jpg
+image: ../../images/jonathan-h-procreate.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, time lapse]
 ---

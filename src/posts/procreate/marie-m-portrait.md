@@ -4,7 +4,7 @@ date: 2018-06-04
 path: /procreate/marie-m-portrait/
 excerpt: "Portrait of Marie M. digitally painted with Procreate on an iPad."
 last_modified_at:
-image: ../../assets/images/marie-m-procreate.jpg
+image: ../../images/marie-m-procreate.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, black and white, time lapse]
 ---

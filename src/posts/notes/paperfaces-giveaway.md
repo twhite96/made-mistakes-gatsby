@@ -6,7 +6,7 @@ last_modified_at: 2019-02-16T10:52:43-05:00
 excerpt: "Enter to win a portrait of your choice drawn by Michael Rose in his signature PaperFaces style."
 categories: [notes]
 tags: [illustration, Paper for iOS]
-image: ../../assets/images/paperfaces-contest.jpg
+image: ../../images/paperfaces-contest.jpg
 ---
 
 To celebrate two years of [drawing portraits every day]({% post_url /notes/2012-08-31-paperfaces-ipad-portrait-project %}), I'm launching a fun giveaway leading up to the special day.
@@ -22,7 +22,7 @@ Entering the PaperFaces Giveaway is simple. **Contest has ended**: <s>Just fill 
 ## Winning portraits
 
 {% figure caption:"Winners of my first PaperFaces portrait giveaway." class:"gallery-3-col" %}
-[![color portrait winner](../../assets/images/paperfaces-harvydanger-twitter-600.jpg)]({% post_url /paperfaces/2014-09-02-harvydanger-portrait %})
-[![black and white portrait winner](../../assets/images/paperfaces-psychoticmilkma-2-600.jpg)]({% post_url /paperfaces/2014-09-06-psychoticmilkma-2-portrait %})
-[![black and white portrait winner](../../assets/images/paperfaces-viktoriaderoy-600.jpg)]({% post_url /paperfaces/2014-09-10-viktoriaderoy-portrait %})
+[![color portrait winner](../../images/paperfaces-harvydanger-twitter-600.jpg)]({% post_url /paperfaces/2014-09-02-harvydanger-portrait %})
+[![black and white portrait winner](../../images/paperfaces-psychoticmilkma-2-600.jpg)]({% post_url /paperfaces/2014-09-06-psychoticmilkma-2-portrait %})
+[![black and white portrait winner](../../images/paperfaces-viktoriaderoy-600.jpg)]({% post_url /paperfaces/2014-09-10-viktoriaderoy-portrait %})
 {% endfigure %}

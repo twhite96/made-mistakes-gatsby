@@ -4,7 +4,7 @@ date: 2015-02-24
 path: /paperfaces/rosebuds-blur-portrait/
 excerpt: "PaperFaces portrait of the my two little rosebuds drawn with Paper for iOS on an iPad."
 last_modified_at: 
-image: ../../assets/images/paperfaces-rosebuds-blur.jpg
+image: ../../images/paperfaces-rosebuds-blur.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, twins, time lapse, black and white, bokeh]
 ---

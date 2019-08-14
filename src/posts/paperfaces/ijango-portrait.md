@@ -3,7 +3,7 @@ title: "Van dyke moustachio drinking cat"
 date: 2013-02-20
 path: /paperfaces/ijango-portrait/
 excerpt: "PaperFaces portrait of @ijango drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-ijango-twitter.jpg
+image: ../../images/paperfaces-ijango-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, time lapse]
 ---

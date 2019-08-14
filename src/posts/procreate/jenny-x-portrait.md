@@ -4,7 +4,7 @@ date: 2016-02-18
 path: /procreate/jenny-x-portrait/
 excerpt: "Portrait of Jenny x. digitally painted with Procreate on an iPad."
 last_modified_at: 
-image: ../../assets/images/jenny-x-procreate.jpg
+image: ../../images/jenny-x-procreate.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, time lapse]
 ---

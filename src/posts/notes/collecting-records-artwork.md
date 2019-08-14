@@ -3,7 +3,7 @@ title: "Collecting records for the artwork"
 date: 2011-04-21
 path: /notes/collecting-records-artwork/
 excerpt: "How the hand crafted aesthetics found in DIY released emo and hardcore records started my collecting addiction."
-image: ../../assets/images/collecting-records-feature.jpg
+image: ../../images/collecting-records-feature.jpg
 categories: [notes]
 tags: [inspiration, design]
 support: false
@@ -26,7 +26,7 @@ Thumbing through boxes of dusty hardcore and emo records, it's easy to see where
 Instead of embarrassing myself with examples of my early fumbles as a graphic designer --- I'd like to share inspirational fragments from my record collection. With over 500 LP's and 45's, I'm sure I can find plenty of material to critique and comment on.
 
 {% figure caption:"Upcoming artwork to be discussed." %}
-![Image of upcoming artwork to be critiqued](../../assets/images/record-art-teaser-620x217.jpg)
+![Image of upcoming artwork to be critiqued](../../images/record-art-teaser-620x217.jpg)
 {% endfigure %}
 
 ## More to come

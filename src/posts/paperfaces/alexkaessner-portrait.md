@@ -3,7 +3,7 @@ title: "Full half face"
 date: 2013-07-03
 path: /paperfaces/alexkaessner-portrait/
 excerpt: "PaperFaces portrait of @alexkaessner drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-alexkaessner-twitter.jpg
+image: ../../images/paperfaces-alexkaessner-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

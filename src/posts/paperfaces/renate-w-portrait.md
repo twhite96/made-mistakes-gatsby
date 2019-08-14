@@ -3,7 +3,7 @@ title: "Let's Get Spooky"
 date: 2014-10-30
 path: /paperfaces/renate-w-portrait/
 excerpt: "PaperFaces portrait of the Renate W. drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-renate-w.jpg
+image: ../../images/paperfaces-renate-w.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]
 ---

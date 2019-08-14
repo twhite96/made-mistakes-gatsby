@@ -3,7 +3,7 @@ title: "She said yes"
 date: 2013-05-30
 path: /paperfaces/thebrady-khollybell-2-portrait/
 excerpt: "Engagement PaperFaces portrait of @theBrady and @khollybell drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-thebrady-khollybell-2-twitter.jpg
+image: ../../images/paperfaces-thebrady-khollybell-2-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, time lapse]
 ---

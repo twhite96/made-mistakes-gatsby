@@ -3,7 +3,7 @@ title: "HPSTR, a Jekyll theme"
 date: 2013-08-26
 path: /work/hpstr-jekyll-theme/
 excerpt: "A responsive Jekyll blog theme designed to give your site a modern and somewhat cliché look."
-image: ../../assets/images/hpstr-preview-feature-2015.jpg
+image: ../../images/hpstr-preview-feature-2015.jpg
 categories: [work]
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
@@ -33,7 +33,7 @@ They say three times the charm, so here is another free Jekyll blog theme for yo
 * Support for Pygments and Coderay syntax highlighting to make your code examples look snazzy.
 * Grunt and Rake tasks for easier site development.
 
-[![Screenshot of HPSTR Theme](../../assets/images/hpstr-jekyll-theme-preview.jpg)](https://mmistakes.github.io/hpstr-jekyll-theme/ "Preview HPSTR")
+[![Screenshot of HPSTR Theme](../../images/hpstr-jekyll-theme-preview.jpg)](https://mmistakes.github.io/hpstr-jekyll-theme/ "Preview HPSTR")
 {: .browser-frame}
 
 <p markdown="0">
@@ -70,7 +70,7 @@ Grunt is no longer needed to build `main.css`. I've ported all of the Less style
 Instead of using bulky JavaScript widgets provided by Facebook, Twitter, and Google I went with lightweight share links. Social sharing links are enabled by default on all posts and pages. To disable add `share: false` to the post's YAML Front Matter.
 
 {% figure caption:"How social sharing buttons look in HPSTR" %}
-![social share button screenshot](../../assets/images/hpstr-social-share-example.jpg)
+![social share button screenshot](../../images/hpstr-social-share-example.jpg)
 {% endfigure %}
 
 [^2]: To me a blog's masthead, logo, title, headline, and navigation are branding elements that can reinforce or distract from a central theme or feeling. I suppose downplaying or removing these elements could be see as a way of branding too… but that's a discussion for another day.

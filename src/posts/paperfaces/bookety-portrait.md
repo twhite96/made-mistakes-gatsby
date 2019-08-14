@@ -3,7 +3,7 @@ title: "Shag cut in plaid"
 date: 2013-04-10
 path: /paperfaces/bookety-portrait/
 excerpt: "PaperFaces portrait of @Bookety drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-bookety-twitter.jpg
+image: ../../images/paperfaces-bookety-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

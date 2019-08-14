@@ -4,7 +4,7 @@ date: 2015-09-07
 path: /procreate/jenell-d-portrait/
 excerpt: "Portrait of Jenell D., digitally painted with Procreate on an iPad."
 last_modified_at: 2015-11-05T16:28:34-05:00
-image: ../../assets/images/jenell-d-procreate.jpg
+image: ../../images/jenell-d-procreate.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, time lapse, Sktchy, black and white]
 ---

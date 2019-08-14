@@ -4,7 +4,7 @@ date: 2018-04-03
 path: /procreate/maya-z-portrait/
 excerpt: "Portrait of Maya Z. digitally painted with Procreate on an iPad."
 last_modified_at:
-image: ../../assets/images/maya-z-procreate.jpg
+image: ../../images/maya-z-procreate.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, black and white, time lapse]
 ---
@@ -12,8 +12,8 @@ tags: [Procreate, portrait, illustration, Sktchy, black and white, time lapse]
 Portrait of Maya Z. inspired by a [photograph on Sktchy](https://sktchy.com/efNbvC). Digitally painted with Procreate on a 12.9" iPad Pro.
 
 {% figure caption:"Slowly building up tones." class:"gallery-2-col" %}
-[![work in progress screenshot](../../assets/images/maya-z-progress-1.jpg)](../../assets/images/maya-z-progress-1-lg.jpg)
-[![work in progress screenshot](../../assets/images/maya-z-progress-2.jpg)](../../assets/images/maya-z-progress-2-lg.jpg)
+[![work in progress screenshot](../../images/maya-z-progress-1.jpg)](../../images/maya-z-progress-1-lg.jpg)
+[![work in progress screenshot](../../images/maya-z-progress-2.jpg)](../../images/maya-z-progress-2-lg.jpg)
 {% endfigure %}
 
 <figure>

@@ -3,7 +3,7 @@ title: "Sun dress"
 date: 2013-11-08
 path: /paperfaces/aurora-portrait/
 excerpt: "PaperFaces portrait of Aurora drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-aurora.jpg
+image: ../../images/paperfaces-aurora.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

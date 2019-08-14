@@ -3,7 +3,7 @@ title: "Triforce of Courage"
 date: 2013-10-22
 path: /paperfaces/ninomh-2-portrait/
 excerpt: "PaperFaces portrait of @ninoMH drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-ninomh-2-twitter.jpg
+image: ../../images/paperfaces-ninomh-2-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---
@@ -13,12 +13,12 @@ They say you never forget your first *Triforce of Courage*. PaperFaces portrait 
 {% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Sketching out the composition with pencil." %}
-[![Work in process screenshot](../../assets/images/paperfaces-ninomh-process-1-750.jpg)](../../assets/images/paperfaces-ninomh-process-1-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-ninomh-process-1-750.jpg)](../../images/paperfaces-ninomh-process-1-lg.jpg)
 {% endfigure %}
 
 {% figure caption:"Work in progress screenshots (Paper for iOS)." class:"gallery-2-col" %}
-[![](../../assets/images/paperfaces-ninomh-process-2-600.jpg)](../../assets/images/paperfaces-ninomh-process-2-lg.jpg)
-[![](../../assets/images/paperfaces-ninomh-process-3-600.jpg)](../../assets/images/paperfaces-ninomh-process-3-lg.jpg)
-[![](../../assets/images/paperfaces-ninomh-process-4-600.jpg)](../../assets/images/paperfaces-ninomh-process-4-lg.jpg)
-[![](../../assets/images/paperfaces-ninomh-process-5-600.jpg)](../../assets/images/paperfaces-ninomh-process-5-lg.jpg)
+[![](../../images/paperfaces-ninomh-process-2-600.jpg)](../../images/paperfaces-ninomh-process-2-lg.jpg)
+[![](../../images/paperfaces-ninomh-process-3-600.jpg)](../../images/paperfaces-ninomh-process-3-lg.jpg)
+[![](../../images/paperfaces-ninomh-process-4-600.jpg)](../../images/paperfaces-ninomh-process-4-lg.jpg)
+[![](../../images/paperfaces-ninomh-process-5-600.jpg)](../../images/paperfaces-ninomh-process-5-lg.jpg)
 {% endfigure %}

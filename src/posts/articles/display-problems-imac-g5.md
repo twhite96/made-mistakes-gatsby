@@ -3,7 +3,7 @@ title: "Three years of problems with an iMac G5"
 date: 2008-07-18
 path: /articles/display-problems-imac-g5/
 excerpt: "Faulty logic boards, ambient sensors, and displays oh my!"
-image: ../../assets/images/imac-glitch-feature.jpg
+image: ../../images/imac-glitch-feature.jpg
 categories: [articles]
 tags: [Apple, tech geek]
 toc: true

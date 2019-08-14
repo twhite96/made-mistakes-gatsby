@@ -4,7 +4,7 @@ date: 2015-10-16
 path: /tiny-paintings/stormtrooper-painting/
 excerpt: "Tiny portrait of a Star Wars Stormtrooper painted with watercolor on hot press paper."
 last_modified_at: 2016-10-10T11:01:54-04:00
-image: ../../assets/images/painting-stormtrooper.jpg
+image: ../../images/painting-stormtrooper.jpg
 gallery:
   - url: /assets/images/painting-stormtrooper-process-1-lg.jpg
     image_path: /assets/images/painting-stormtrooper-process-1-600.jpg

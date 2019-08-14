@@ -3,7 +3,7 @@ title: "Brick wall beards"
 date: 2012-11-26
 path: /paperfaces/jaceanderson-portrait/
 excerpt: "PaperFaces portrait of @jaceanderson drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-jaceanderson-twitter.jpg
+image: ../../images/paperfaces-jaceanderson-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, beard]
 ---

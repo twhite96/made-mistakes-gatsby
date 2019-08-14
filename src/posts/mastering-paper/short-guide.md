@@ -4,7 +4,7 @@ date: 2013-02-13
 path: /mastering-paper/short-guide/
 excerpt: "My simple Paper techniques for drawing faceless portraits and landscapes on an iPad."
 last_modified_at: 2018-11-06T11:46:47-05:00
-image: ../../assets/images/madewithpaper-guide-feature.jpg
+image: ../../images/madewithpaper-guide-feature.jpg
 categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, Apple]
 toc: true
@@ -31,7 +31,7 @@ Since publishing this short guide I've gone through several iPad styli and writt
 [4]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20
 
 {% figure caption:"At first I wasn't a fan of the LunaTik Touch Pen, but it's quickly grown on me and become my non-Bluetooth stylus of choice." %}
-[![Image of a LunaTik Touch Pen Alloy on top of an iPad](../../assets/images/lunatik-touch-pen.jpg)](http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=178&creative=390957&creativeASIN=B00821TR7G)
+[![Image of a LunaTik Touch Pen Alloy on top of an iPad](../../images/lunatik-touch-pen.jpg)](http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=178&creative=390957&creativeASIN=B00821TR7G)
 {% endfigure %}
 
 {% notice %}
@@ -49,7 +49,7 @@ When I begin a new [PaperFaces portrait](/paperfaces/), I start by sketching an 
 Usually I pencil in quick gestural outlines as a guide for painting forms later. Other times I jump right to the background and splash in layer upon layer of watercolor. It really depends on the source material and if the background has enough detail to bother with.
 
 {% figure caption:"Face study using watercolor and some default colors." %}
-![Screenshot of an in progress Paper for iOS drawing](../../assets/images/girl-madewithpaper-in-progress.jpg)
+![Screenshot of an in progress Paper for iOS drawing](../../images/girl-madewithpaper-in-progress.jpg)
 {% endfigure %}
 
 ## Watercolor without water
@@ -69,7 +69,7 @@ To shade existing areas apply a darker hue, gray, or black. For backgrounds I te
 I don't use the fountain pen  or marker tools all that much because I like my illustrations to have a more painterly feel to them. However, these tools are perfect for covering  large irregular shaped areas with a base color --- like hair. They also come in handy when I need to rework or make adjustments (more precise than the eraser) to something I already drew or painted.
 
 {% figure caption:"Filling in shapes using the fountain pen gets the job done quickly." %}
-![Screenshot of a PaperFaces drawing](../../assets/images/madewithpaper-filling-shapes.jpg)
+![Screenshot of a PaperFaces drawing](../../images/madewithpaper-filling-shapes.jpg)
 {% endfigure %}
 
 Two things to keep in mind when working with the marker tool:
@@ -90,7 +90,7 @@ Read in detail [how I draw hair]({% post_url /mastering-paper/2013-05-10-drawing
 {% endnotice %}
 
 {% figure caption:"Paper for iOS's pencil tool works wonders for rendering hair." %}
-![Detail shot of hair drawn using Paper for iOS](../../assets/images/madewithpaper-hair-detail.jpg)
+![Detail shot of hair drawn using Paper for iOS](../../images/madewithpaper-hair-detail.jpg)
 {% endfigure %}
 
 ## Closing thoughts and questions

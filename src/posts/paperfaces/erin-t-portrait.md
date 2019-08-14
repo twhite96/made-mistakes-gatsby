@@ -3,7 +3,7 @@ title: "Stripes and shadow"
 date: 2014-06-04
 path: /paperfaces/erin-t-portrait/
 excerpt: "PaperFaces portrait of a Erin T. drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-erin-t.jpg
+image: ../../images/paperfaces-erin-t.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]
 ---
@@ -13,5 +13,5 @@ PaperFaces portrait of a [Erin T.](https://sktchy.com/SUIJtH) inspired by a phot
 {% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
-[![Work in process screenshot](../../assets/images/paperfaces-erin-t-process-1-600.jpg)](../../assets/images/paperfaces-erin-t-process-1-lg.jpg) [![Work in process screenshot](../../assets/images/paperfaces-erin-t-process-2-600.jpg)](../../assets/images/paperfaces-erin-t-process-2-lg.jpg) [![Work in process screenshot](../../assets/images/paperfaces-erin-t-process-3-600.jpg)](../../assets/images/paperfaces-erin-t-process-3-lg.jpg) [![Work in process screenshot](../../assets/images/paperfaces-erin-t-process-4-600.jpg)](../../assets/images/paperfaces-erin-t-process-4-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-erin-t-process-1-600.jpg)](../../images/paperfaces-erin-t-process-1-lg.jpg) [![Work in process screenshot](../../images/paperfaces-erin-t-process-2-600.jpg)](../../images/paperfaces-erin-t-process-2-lg.jpg) [![Work in process screenshot](../../images/paperfaces-erin-t-process-3-600.jpg)](../../images/paperfaces-erin-t-process-3-lg.jpg) [![Work in process screenshot](../../images/paperfaces-erin-t-process-4-600.jpg)](../../images/paperfaces-erin-t-process-4-lg.jpg)
 {% endfigure %}

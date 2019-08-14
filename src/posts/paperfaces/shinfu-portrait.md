@@ -3,7 +3,7 @@ title: "Jumping really high in the blue sky"
 date: 2013-01-17
 path: /paperfaces/shinfu-portrait/
 excerpt: "PaperFaces portrait of @Shinfu drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-shinfu-twitter.jpg
+image: ../../images/paperfaces-shinfu-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, time lapse]
 ---

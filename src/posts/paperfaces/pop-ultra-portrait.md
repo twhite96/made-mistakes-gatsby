@@ -3,7 +3,7 @@ title: "Lens flared friend"
 date: 2012-09-04
 path: /paperfaces/pop-ultra-portrait/
 excerpt: "PaperFaces portrait of @Pop_Ultra drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-pop-ultra-twitter.jpg
+image: ../../images/paperfaces-pop-ultra-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

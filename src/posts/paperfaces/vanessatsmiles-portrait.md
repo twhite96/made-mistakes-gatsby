@@ -3,7 +3,7 @@ title: "Long hair with a slight curl"
 date: 2013-05-08
 path: /paperfaces/vanessatsmiles-portrait/
 excerpt: "PaperFaces portrait of @VanessaTSmiles drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-vanessatsmiles-twitter.jpg
+image: ../../images/paperfaces-vanessatsmiles-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, time lapse]
 ---

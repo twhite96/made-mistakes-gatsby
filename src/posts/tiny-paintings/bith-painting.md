@@ -4,7 +4,7 @@ date: 2015-10-16
 path: /tiny-paintings/bith-painting/
 excerpt: "Tiny portrait of a Bith painted with watercolor on hot press paper."
 last_modified_at: 2016-10-10T11:22:24-04:00
-image: ../../assets/images/painting-bith.jpg
+image: ../../images/painting-bith.jpg
 gallery:
   - url: /assets/images/painting-bith-process-1-lg.jpg
     image_path: /assets/images/painting-bith-process-1-900.jpg

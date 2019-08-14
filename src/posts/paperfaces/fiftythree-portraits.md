@@ -3,7 +3,7 @@ title: "A PaperFaces Thank You for FiftyThree"
 date: 2013-06-01
 path: /paperfaces/fiftythree-portraits/
 excerpt: "PaperFaces portraits of the makers at FiftyThree using Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-fiftythree.jpg
+image: ../../images/paperfaces-fiftythree.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

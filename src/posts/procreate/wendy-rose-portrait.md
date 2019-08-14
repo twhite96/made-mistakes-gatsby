@@ -4,7 +4,7 @@ date: 2013-09-03
 path: /procreate/wendy-rose-portrait/
 excerpt: "Portrait of Wendy Rose, digitally painted with Procreate on an iPad."
 last_modified_at: 2015-11-06
-image: ../../assets/images/wendy-rose-procreate.jpg
+image: ../../images/wendy-rose-procreate.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, time lapse]
 ---

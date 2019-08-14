@@ -3,7 +3,7 @@ title: "Beard wearing a bowtie"
 date: 2013-04-03
 path: /paperfaces/gaptone-portrait/
 excerpt: "PaperFaces portrait of @gaptone drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-gaptone-twitter.jpg
+image: ../../images/paperfaces-gaptone-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, beard]
 ---

@@ -5,7 +5,7 @@ path: /articles/using-jekyll-2016/
 excerpt: "A brain dump documenting my approach to using Jekyll, how that's evolved over the years, and web development learnings I've picked up along the way."
 categories: [articles]
 tags: [Jekyll, web development, GitHub, open source, tutorial]
-image: ../../assets/images/using-jekyll-2016-feature.jpg
+image: ../../images/using-jekyll-2016-feature.jpg
 comments: true
 last_modified_at: 2017-10-24T09:32:34-04:00
 toc: true
@@ -393,7 +393,7 @@ With a focus on modular CSS, I can build critical and non-critical flavors by `@
 [^assets-tag-example]: Output the source of an asset using `asset_source` Jekyll-Assets tag. Example: `{% raw %}{% asset_source critical.css %}{% endraw %}`
 
 {% figure caption:"Page speed analyzed with [Google's PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) tool." %}
-![Made Mistakes analyzed with PageSpeed Insights](../../assets/images/mm-home-pagespeed-021116.jpg)
+![Made Mistakes analyzed with PageSpeed Insights](../../images/mm-home-pagespeed-021116.jpg)
 {% endfigure %}
 
 {% notice %}
@@ -471,7 +471,7 @@ Currently, this plugin only supports the `<picture>` element which is great for 
 [^picture-polyfill]: [Picturefill](https://scottjehl.github.io/picturefill/) is responsive images polyfill that enables support for the picture element and associated features in browsers that do not yet support them.
 
 {% figure caption:"The bump in page speed has been great with a mobile score of `73/100` improving to `96/100`." %}
-![Page speed before and after using Jekyll-Picture-Tag plugin](../../assets/images/mm-media-pagespeed-021116.jpg)
+![Page speed before and after using Jekyll-Picture-Tag plugin](../../images/mm-media-pagespeed-021116.jpg)
 {% endfigure %}
 
 The one big drawback I've experienced using this plugin has been an increase in build times. If I don't instruct Jekyll to `keep_files: ["images"]`, every time I run Jekyll over 1,000 images will go through the process of being resized into smaller files. This takes forever and even longer when uploading them all to my web server (another reason I disabled MD5 hashed filenames). Baby steps right?
@@ -481,8 +481,8 @@ The one big drawback I've experienced using this plugin has been an increase in 
 Showcasing a post or page's content is still the primary goal of the layouts I designed years ago. It's been a balancing act as I've tried to incorporate navigation systems (*main menu*, *table of contents*, *page breadcrumbs*, *tag archives*), reader submitted comments, related posts, and social sharing links in complimenting and responsive ways.
 
 {% figure caption:"(First) post layout then, (second) post layout now." class:"gallery-2-col" %}
-![Jekyll post layout then](../../assets/images/mm-jekyll-post-then.jpg)
-![Jekyll post layout now](../../assets/images/mm-jekyll-post-now.jpg)
+![Jekyll post layout then](../../images/mm-jekyll-post-then.jpg)
+![Jekyll post layout now](../../images/mm-jekyll-post-now.jpg)
 {% endfigure %}
 
 The core elements have remained unchanged since I originally launched the site:
@@ -500,14 +500,14 @@ The challenge has been finding ways to surface related content and displaying th
 Archive page layouts I've designed over the years have gone through several incarnations. I went from plain text lists, to thumbnail images, to listings with a short excerpt, to something that combined them all.
 
 {% figure caption:"Title/excerpt versus image/date/title/excerpt post lists." class:"gallery-2-col" %}
-![Plain text post list](../../assets/images/mm-text-teasers.png)
-![Visual post list](../../assets/images/mm-visual-teasers.png)
+![Plain text post list](../../images/mm-text-teasers.png)
+![Visual post list](../../images/mm-visual-teasers.png)
 {% endfigure %}
 
 What I'm currently using are tiles for related and featured post modules and a more traditional plain list for archive pages.
 
 {% figure caption:"Archive listing with teaser image, headline, published date, estimated reading time, and excerpt." %}
-![Current archive listing design](../../assets/images/mm-archive-listing-example.jpg)
+![Current archive listing design](../../images/mm-archive-listing-example.jpg)
 {% endfigure %}
 
 Related posts are dynamically pulled from `site.related_posts` and augmented with a [Jekyll plugin][related-posts] to make matches based on `post.tags`. The following tile logic resides in an include file and is ready to be used in layouts or within post/page content.
@@ -534,7 +534,7 @@ Related posts are dynamically pulled from `site.related_posts` and augmented wit
 ```
 
 {% figure caption:"Related posts only appear if there are three or more matches based on `post.tags`." %}
-![Related posts example screenshot](../../assets/images/mm-related-posts-example.jpg)
+![Related posts example screenshot](../../images/mm-related-posts-example.jpg)
 {% endfigure %}
 
 Similar in design to the **related posts** module, I also utilize a set of tiles for featuring posts. Visually they look the same but instead of being dynamically determined by `post.tags` they're manually set and grouped by category.
@@ -585,7 +585,7 @@ Everything is pulled together by adding this to relevant layouts:
 ```
 
 {% figure caption:"How featured posts look when included on a page." %}
-![Featured posts module example](../../assets/images/mm-featured-posts-example.jpg)
+![Featured posts module example](../../images/mm-featured-posts-example.jpg)
 {% endfigure %}
 
 ## Introducing flexibility
@@ -654,7 +654,7 @@ To improve the navigation's UI, `.active` classes are added using the following 
 ```
 
 {% figure caption:"Masthead end-result after some styling." %}
-![Masthead screenshot](../../assets/images/mm-masthead-example.jpg)
+![Masthead screenshot](../../images/mm-masthead-example.jpg)
 {% endfigure %}
 
 I've also used a similar technique to build drop-down navigations with nested lists. An example of one of those is as follows.
@@ -801,7 +801,7 @@ The [`breadcrumbs.html`](https://github.com/mmistakes/made-mistakes-jekyll/blob/
 ```
 
 {% figure caption:"Tada! Properly capitalized and descriptive breadcrumb titles." %}
-![Breadcrumb screenshot](../../assets/images/mm-breadcrumb-example.jpg)
+![Breadcrumb screenshot](../../images/mm-breadcrumb-example.jpg)
 {% endfigure %}
 
 #### Translation keys

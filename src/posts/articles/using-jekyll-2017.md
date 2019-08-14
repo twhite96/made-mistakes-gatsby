@@ -3,7 +3,7 @@ title: "How I'm using Jekyll in 2017"
 date: 2017-08-30
 path: /articles/using-jekyll-2017/
 excerpt: "Lessons learned from building, optimizing, and deploying a huge static site powered by everyone's favorite SSG --- Jekyll."
-image: ../../assets/images/using-jekyll-2017-feature.jpg
+image: ../../images/using-jekyll-2017-feature.jpg
 categories: [articles]
 tags: [Jekyll, web development, GitHub, open source, tutorial]
 comments: true
@@ -291,7 +291,7 @@ After ditching Disqus last year to [roll my own static-based solution]({% post_u
 
 With some research I determined a continuous integration[^ci] platform like **Travis CI**[^ci-platforms] that integrates with GitHub was what I needed.
 
-![Travis CI interface screenshot](../../assets/images/mm-travis-ci-screenshot.png)
+![Travis CI interface screenshot](../../images/mm-travis-ci-screenshot.png)
 {: .browser-frame}
 
 [^ci]: Continuous integration is a DevOps software development practice where developers regularly merge their code changes into a central repository, after which automated builds and tests are run.
@@ -594,7 +594,7 @@ Looking over my site's analytics I came to the conclusion no one was clicking on
 
 On my **Mastering Paper** category page about the iPad app [Paper by FiftyThree](http://www.fiftythree.com/), you'll see related links to tags like *Paper by 53*, *iPad*, *drawing*, etc.
 
-![popular topics screenshot](../../assets/images/mm-popular-tags-screenshot.png)
+![popular topics screenshot](../../images/mm-popular-tags-screenshot.png)
 
 ---
 

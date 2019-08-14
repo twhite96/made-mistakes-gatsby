@@ -3,7 +3,7 @@ title: "Busy streets drawn less chaotic"
 date: 2013-07-01
 path: /paperfaces/mikkelmarius-portrait/
 excerpt: "PaperFaces portrait of @mikkelmarius drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-mikkelmarius-twitter.jpg
+image: ../../images/paperfaces-mikkelmarius-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

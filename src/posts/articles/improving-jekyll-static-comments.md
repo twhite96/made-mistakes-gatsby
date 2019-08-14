@@ -3,7 +3,7 @@ title: "Improving static comments with Jekyll & Staticman"
 date: 2016-12-08
 path: /articles/improving-jekyll-static-comments/
 excerpt: "Using Staticman to add threaded comments and reply notifications to a static-based Jekyll site."
-image: ../../assets/images/improving-jekyll-static-comments-feature.jpg
+image: ../../images/improving-jekyll-static-comments-feature.jpg
 categories: [articles]
 tags: [web development, GitHub, Jekyll, tutorial]
 comments: true
@@ -55,7 +55,7 @@ I'm not entirely sure if doing the following was necessary. I encountered errors
 Either way, let me know about your experience upgrading from Staticman `v1` to `v2` in the comments below.
 
 1. Revoked collaboration rights for Staticman `v1` by removing from my GitHub repository.
-   ![Remove staticmanapp as a collaborator](../../assets/images/staticman-remove-collaborator.png)
+   ![Remove staticmanapp as a collaborator](../../images/staticman-remove-collaborator.png)
 2. Added Staticman back as [collaborator]({% post_url /articles/2016-08-21-jekyll-static-comments %}#setting-up-staticman).
 3. Pinged the version 2 endpoint `https://api.staticman.net/v2/connect/{your GitHub username}/{your repository name}` to accept the collaboration invitation.
 
@@ -140,7 +140,7 @@ As you can see above, the "child" comment has `replying_to` data populated from 
 ```
 
 {% figure caption:"Success, there be parent comments Captain!" %}
-![Parent comments only](../../assets/images/staticman-parent-comments-only.png)
+![Parent comments only](../../images/staticman-parent-comments-only.png)
 {% endfigure %}
 
 {% notice %}
@@ -368,7 +368,7 @@ To start I used an `unless` condition to only show reply links on "top-level" co
 ```
 
 {% figure caption:"Nested comments one-level deep." %}
-![Nested comments](../../assets/images/staticman-nested-comments.png)
+![Nested comments](../../images/staticman-nested-comments.png)
 {% endfigure %}
 
 To give the **reply link** life I added the following `onclick` attribute and [JavaScript](https://github.com/mmistakes/made-mistakes-jekyll/blob/49632d19977e341b51c91dad8e71bf6ef88e79c3/src/assets/javascripts/main.js#L84-L181) to it.
@@ -380,7 +380,7 @@ To give the **reply link** life I added the following `onclick` attribute and [J
 A few minor variable name changes to Wordpress' `comment-reply.js` script was all it took to get everything working with my `form` markup.
 
 {% figure caption:"Hitting a **reply button** moves the comment form into view and populates `<input type='hidden' id='comment-replying-to' name='fields[replying_to]' value=''>` with the correct *parent* `value`. While tapping **Cancel reply** returns the input to its original state of `null`." %}
-![Comment replies in action](../../assets/images/comment-reply-animation.gif)
+![Comment replies in action](../../images/comment-reply-animation.gif)
 {% endfigure %}
 
 ## Add support for email notifications
@@ -432,7 +432,7 @@ Nothing fancy here, `name=options[subscribe]` and `value="email"` are added to t
 If setup correctly a user should receive an email anytime a new comment on the post or page they subscribed to is merged in.
 
 {% figure caption:"Example of a Staticman **New reply** email notification." %}
-![Staticman reply email notification](../../assets/images/staticman-email-notification.png)
+![Staticman reply email notification](../../images/staticman-email-notification.png)
 {% endfigure %}
 
 ---

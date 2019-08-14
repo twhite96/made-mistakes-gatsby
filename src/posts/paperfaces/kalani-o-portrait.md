@@ -4,7 +4,7 @@ date: 2015-02-09
 path: /paperfaces/kalani-o-portrait/
 excerpt: "PaperFaces portrait of the Kalani O. drawn with Paper for iOS on an iPad."
 last_modified_at: 
-image: ../../assets/images/paperfaces-kalani-o.jpg
+image: ../../images/paperfaces-kalani-o.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]
 ---
@@ -18,5 +18,5 @@ Started with dark grays and gradually increased the brightness until I was selec
 {% include_cached boilerplate/paperfaces-3.md %}
 
 {% figure caption:"Work in progress drawings available on Mix." class:"gallery-2-col" %}
-[![Work in process screenshot](../../assets/images/paperfaces-kalani-o-process-1-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2075207) [![Work in process screenshot](../../assets/images/paperfaces-kalani-o-process-2-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2086067)
+[![Work in process screenshot](../../images/paperfaces-kalani-o-process-1-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2075207) [![Work in process screenshot](../../images/paperfaces-kalani-o-process-2-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2086067)
 {% endfigure %}

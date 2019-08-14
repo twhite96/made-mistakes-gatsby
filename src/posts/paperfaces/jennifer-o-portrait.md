@@ -3,7 +3,7 @@ title: "Blood prayers"
 date: 2014-02-25
 path: /paperfaces/jennifer-o-portrait/
 excerpt: "PaperFaces portrait of Jennifer O. drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-jennifer-o.jpg
+image: ../../images/paperfaces-jennifer-o.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]
 last_modified_at: 2017-01-17T14:46:02-05:00
@@ -14,9 +14,9 @@ PaperFaces portrait of [Jennifer O.](https://sktchy.com/nIj9DH) inspired by Sktc
 {% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
-[![Work in process screenshot](../../assets/images/paperfaces-jennifer-o-process-1-600.jpg)](../../assets/images/paperfaces-jennifer-o-process-1-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-jennifer-o-process-2-600.jpg)](../../assets/images/paperfaces-jennifer-o-process-2-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-jennifer-o-process-3-600.jpg)](../../assets/images/paperfaces-jennifer-o-process-3-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-jennifer-o-process-4-600.jpg)](../../assets/images/paperfaces-jennifer-o-process-4-lg.jpg)
-[![Work in process screenshot](../../assets/images/paperfaces-jennifer-o-process-5-600.jpg)](../../assets/images/paperfaces-jennifer-o-process-5-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-jennifer-o-process-1-600.jpg)](../../images/paperfaces-jennifer-o-process-1-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-jennifer-o-process-2-600.jpg)](../../images/paperfaces-jennifer-o-process-2-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-jennifer-o-process-3-600.jpg)](../../images/paperfaces-jennifer-o-process-3-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-jennifer-o-process-4-600.jpg)](../../images/paperfaces-jennifer-o-process-4-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-jennifer-o-process-5-600.jpg)](../../images/paperfaces-jennifer-o-process-5-lg.jpg)
 {% endfigure %}

@@ -3,7 +3,7 @@ title: "Scattering light through a hat"
 date: 2013-10-03
 path: /paperfaces/comicasuperhero-portrait/
 excerpt: "PaperFaces portrait of @comicasuperhero drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-comicasuperhero-twitter.jpg
+image: ../../images/paperfaces-comicasuperhero-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]
 ---
@@ -13,12 +13,12 @@ PaperFaces avatar portrait of <a href="https://twitter.com/comicasuperhero">@com
 {% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Sketching with the pencil." %}
-[![](../../assets/images/paperfaces-comicasuperhero-process-1-750.jpg)](../../assets/images/paperfaces-comicasuperhero-process-1-lg.jpg)
+[![](../../images/paperfaces-comicasuperhero-process-1-750.jpg)](../../images/paperfaces-comicasuperhero-process-1-lg.jpg)
 {% endfigure %}
 
 {% figure caption:"Work in progress screenshots (**Paper for iOS**)." class:"gallery-2-col" %}
-[![](../../assets/images/paperfaces-comicasuperhero-process-2-600.jpg)](../../assets/images/paperfaces-comicasuperhero-process-2-lg.jpg)
-[![](../../assets/images/paperfaces-comicasuperhero-process-3-600.jpg)](../../assets/images/paperfaces-comicasuperhero-process-3-lg.jpg)
-[![](../../assets/images/paperfaces-comicasuperhero-process-4-600.jpg)](../../assets/images/paperfaces-comicasuperhero-process-4-lg.jpg)
-[![](../../assets/images/paperfaces-comicasuperhero-process-5-600.jpg)](../../assets/images/paperfaces-comicasuperhero-process-5-lg.jpg)
+[![](../../images/paperfaces-comicasuperhero-process-2-600.jpg)](../../images/paperfaces-comicasuperhero-process-2-lg.jpg)
+[![](../../images/paperfaces-comicasuperhero-process-3-600.jpg)](../../images/paperfaces-comicasuperhero-process-3-lg.jpg)
+[![](../../images/paperfaces-comicasuperhero-process-4-600.jpg)](../../images/paperfaces-comicasuperhero-process-4-lg.jpg)
+[![](../../images/paperfaces-comicasuperhero-process-5-600.jpg)](../../images/paperfaces-comicasuperhero-process-5-lg.jpg)
 {% endfigure %}

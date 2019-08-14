@@ -3,7 +3,7 @@ title: "Batman and his girl"
 date: 2013-01-03
 path: /paperfaces/thebrady-khollybell-portrait/
 excerpt: "PaperFaces portrait of @theBrady and @khollybell drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-thebrady-khollybell-twitter.jpg
+image: ../../images/paperfaces-thebrady-khollybell-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

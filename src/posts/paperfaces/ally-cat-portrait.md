@@ -4,7 +4,7 @@ date: 2015-03-12
 path: /paperfaces/ally-cat-portrait/
 excerpt: "PaperFaces portrait of the Ally Cat drawn with Paper for iOS on an iPad."
 last_modified_at: 
-image: ../../assets/images/paperfaces-ally-cat.jpg
+image: ../../images/paperfaces-ally-cat.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, time lapse]
 ---
@@ -22,7 +22,7 @@ Continuing on with my time lapse kick, here's another video I recorded over seve
 {% endfigure %}
 
 {% figure caption:"Work in progress drawings available on Mix." class:"gallery-2-col" %}
-[![Work in process screenshot](../../assets/images/paperfaces-ally-cat-process-1-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2483829) [![Work in process screenshot](../../assets/images/paperfaces-ally-cat-process-2-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2494030)
+[![Work in process screenshot](../../images/paperfaces-ally-cat-process-1-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2483829) [![Work in process screenshot](../../images/paperfaces-ally-cat-process-2-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2494030)
 {% endfigure %}
 
 {% include_cached boilerplate/paperfaces-5.md %}

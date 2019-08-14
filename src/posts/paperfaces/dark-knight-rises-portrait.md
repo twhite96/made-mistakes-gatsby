@@ -4,7 +4,7 @@ date: 2015-01-03
 path: /paperfaces/dark-knight-rises-portrait/
 excerpt: "PaperFaces portrait of Batman drawn with Paper for iOS on an iPad."
 last_modified_at: 
-image: ../../assets/images/paperfaces-dark-knight.jpg
+image: ../../images/paperfaces-dark-knight.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---
@@ -16,5 +16,5 @@ The original illustration is [available on Mix](https://mix.fiftythree.com/11098
 {% include_cached boilerplate/paperfaces-3.md %}
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
-[![Work in process screenshot](../../assets/images/paperfaces-dark-knight-process-1-600.jpg)](../../assets/images/paperfaces-dark-knight-process-1-lg.jpg) [![Work in process screenshot](../../assets/images/paperfaces-dark-knight-process-2-600.jpg)](../../assets/images/paperfaces-dark-knight-process-2-lg.jpg) [![Work in process screenshot](../../assets/images/paperfaces-dark-knight-process-3-600.jpg)](../../assets/images/paperfaces-dark-knight-process-3-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-dark-knight-process-1-600.jpg)](../../images/paperfaces-dark-knight-process-1-lg.jpg) [![Work in process screenshot](../../images/paperfaces-dark-knight-process-2-600.jpg)](../../images/paperfaces-dark-knight-process-2-lg.jpg) [![Work in process screenshot](../../images/paperfaces-dark-knight-process-3-600.jpg)](../../images/paperfaces-dark-knight-process-3-lg.jpg)
 {% endfigure %}

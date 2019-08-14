@@ -4,7 +4,7 @@ date: 2016-07-22
 path: /procreate/mahalia-h-portrait/
 excerpt: "Portrait of Mahalia H. digitally painted with Procreate on an iPad."
 last_modified_at: 2016-07-22T10:48:14-04:00
-image: ../../assets/images/mahalia-h-procreate.jpg
+image: ../../images/mahalia-h-procreate.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, time lapse]
 ---

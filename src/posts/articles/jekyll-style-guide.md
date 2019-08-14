@@ -6,7 +6,7 @@ last_modified_at: 2017-12-13T10:40:39-05:00
 excerpt: "How I used collections with Jekyll to build a style guide and pattern library for Made Mistakes."
 categories: [articles]
 tags: [Jekyll, open source, web development, GitHub, tutorial]
-image: ../../assets/images/jekyll-style-guide-feature.jpg
+image: ../../images/jekyll-style-guide-feature.jpg
 comments: true
 toc: true
 ---
@@ -116,7 +116,7 @@ Or you could hack the order sequence by doing something like this with your file
 After creating a handful of components, I started to refine the [Liquid](https://github.com/Shopify/liquid/wiki) needed to display them. Mostly to make sure things were shaping up how I envisioned them before getting too deep into things.
 
 {% figure caption:"Screenshot of my components collection." %}
-![Sublime Text _components screenshot](../../assets/images/jekyll-style-guide-components.png)
+![Sublime Text _components screenshot](../../images/jekyll-style-guide-components.png)
 {% endfigure %}
 
 There's not much magic going on here. Basically what I did was:
@@ -208,7 +208,7 @@ To help expose components that may be buried towards the bottom of the page I ca
 ```
 
 {% figure caption:"Style guide component selector." %}
-![style guide component selector](../../assets/images/style-guide-component-selector.jpg)
+![style guide component selector](../../images/style-guide-component-selector.jpg)
 {% endfigure %}
 
 With the help of some CSS and JavaScript I was able to position a drop down list in the lower right corner as a way of quickly jumping around the page. If and when I get to going full atomic design on the style guide, I may have to rethink this sort of navigation by giving it more precedence in the layout. But for now it does the trick...
@@ -220,7 +220,7 @@ For the most part all of my components displayed correctly on the page. One of t
 There were also a few cases where I needed to add styles specific for the style guide in order for things to display correctly. The `colors` collection is a good example of that.
 
 {% figure caption:"Screenshot of UI color palette." %}
-![UI colors screenshot](../../assets/images/style-guide-ui-colors.png)
+![UI colors screenshot](../../images/style-guide-ui-colors.png)
 {% endfigure %}
 
 My goal here was to avoid hard coding color values into each document, and instead leverage the color variables already set in `/assets/stylesheets/_variables.scss` to keep things [DRY](http://en.wikipedia.org/wiki/Don%27t_repeat_yourself).

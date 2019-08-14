@@ -3,7 +3,7 @@ title: "Playing strings in the forest"
 date: 2013-02-12
 path: /paperfaces/jupiter909-portrait/
 excerpt: "PaperFaces portrait of @jupiter909 drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-jupiter909-twitter.jpg
+image: ../../images/paperfaces-jupiter909-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

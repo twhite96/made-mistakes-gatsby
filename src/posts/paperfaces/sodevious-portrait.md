@@ -3,7 +3,7 @@ title: "Curls in the sun"
 date: 2013-08-08
 path: /paperfaces/sodevious-portrait/
 excerpt: "PaperFaces portrait of @sodevious drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-sodevious-twitter.jpg
+image: ../../images/paperfaces-sodevious-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, time lapse]
 ---

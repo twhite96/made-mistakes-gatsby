@@ -3,7 +3,7 @@ title: "Hoodies and beards, a perfect combination"
 date: 2012-09-24
 path: /paperfaces/timespace-portrait/
 excerpt: "PaperFaces portrait of @timespace drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-timespace-twitter.jpg
+image: ../../images/paperfaces-timespace-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, beard]
 ---

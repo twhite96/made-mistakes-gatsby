@@ -4,7 +4,7 @@ date: 2009-01-25
 path: /notes/blurb-book-quality-printing/
 excerpt: "Using Blurb's BookSmart software was painless and having it printed was equally enjoyable."
 last_modified_at: 2018-02-09T09:04:18-05:00
-image: ../../assets/images/blurb-book-featured.jpg
+image: ../../images/blurb-book-featured.jpg
 categories: [notes]
 tags: [design, review]
 support: false
@@ -22,6 +22,6 @@ They offer some guidance on [color management](http://www.blurb.com/color-manage
 ## Sample pages
 
 {% figure caption:"Detail photographs of a printed book." class:"gallery-2-col" %}
-[![Photograph of interior page spread of book, A Six Month Walk](../../assets/images/six-month-walk-interior-1-320.jpg)](../../assets/images/six-month-walk-interior-1-1024.jpg)
-[![Detail photograph of printed page of book, A Six Month Walk](../../assets/images/six-month-walk-detail-print-320.jpg)](../../assets/images/six-month-walk-detail-print-1024.jpg)
+[![Photograph of interior page spread of book, A Six Month Walk](../../images/six-month-walk-interior-1-320.jpg)](../../images/six-month-walk-interior-1-1024.jpg)
+[![Detail photograph of printed page of book, A Six Month Walk](../../images/six-month-walk-detail-print-320.jpg)](../../images/six-month-walk-detail-print-1024.jpg)
 {% endfigure %}

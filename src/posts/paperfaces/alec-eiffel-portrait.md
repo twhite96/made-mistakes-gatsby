@@ -3,7 +3,7 @@ title: "Shirtless military"
 date: 2013-04-16
 path: /paperfaces/alec-eiffel-portrait/
 excerpt: "PaperFaces portrait of Alec Eiffel drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-alec-eiffel-facebook.jpg
+image: ../../images/paperfaces-alec-eiffel-facebook.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

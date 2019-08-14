@@ -4,7 +4,7 @@ date: 2011-04-12
 path: /notes/typography-urban-outfitters/
 excerpt: "The typography in Urban Outfitters latest catalog has some serious readability issues."
 last_modified_at: 2013-04-26
-image: ../../assets/images/UO11-spring-featured.jpg
+image: ../../images/UO11-spring-featured.jpg
 categories: [notes]
 tags: [design]
 support: false
@@ -14,7 +14,7 @@ toc: true
 I think it is very clear that the April 2011 *Urban Outfitters* catalog was more concerned with style and art direction than typography. Now, I'm not trying to weigh the implications of, or reasons for this. Being a designer who values legibility and hierarchy, this catalog sure is filled with a bunch of head scratching typographic choices.
 
 {% figure caption:"Would it have hurt to move these blocks of type to right a few inches?" %}
-![UO April 2011 inside front cover detail](../../assets/images/UO-bad-type-placement.jpg)
+![UO April 2011 inside front cover detail](../../images/UO-bad-type-placement.jpg)
 {% endfigure %}
 
 ## Violators, mount up
@@ -29,7 +29,7 @@ I'm probably wrong and this isn't suppose to be a catalog. What would be the poi
 
 Oh never mind. At Least one page out of 48 must have read Ellen Lupton's [*Thinking with Type*](http://www.amazon.com/gp/product/1568989695/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1568989695). Away with fully justified type and in with a lovely rag on the right. And would you look at this, size, weight, and placement changes to help lead you from section to section. I might actually be able to figure out what descriptions go with each piece of clothing. Now if I could only tell if that's a 1 or a capital i.    
 
-![Urban Outfitters April 2011 Cover photo](../../assets/images/UO-spring11-cover.png)
+![Urban Outfitters April 2011 Cover photo](../../images/UO-spring11-cover.png)
 {: .align-right}
 
 ## Typography rulez
@@ -41,13 +41,13 @@ At the end of the day I really doubt any one is looking at these pages wondering
 ## Readability no nos
 
 {% figure caption:"Just for giggles I mocked up a type treatment with left justified type and varying font weights. Which one do you think is easier to read? A or B." %}
-![Urban Outfitters type comparison](../../assets/images/UO-product-text.jpg)
+![Urban Outfitters type comparison](../../images/UO-product-text.jpg)
 {% endfigure %}
 
 {% figure caption:"White type on a light gray background is awful for readability." %}
-![Another example of bad type and no regard for readability](../../assets/images/UO-awful-readability.jpg)
+![Another example of bad type and no regard for readability](../../images/UO-awful-readability.jpg)
 {% endfigure %}
 
 {% figure caption:"This page isn't half bad. No justified type, nice rag, and solid use of a grid. A++" %}
-![Urban Outfitters catalog typography](../../assets/images/UO-type-hiearchy.jpg)
+![Urban Outfitters catalog typography](../../images/UO-type-hiearchy.jpg)
 {% endfigure %}

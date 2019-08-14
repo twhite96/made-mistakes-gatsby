@@ -4,7 +4,7 @@ date: 2018-03-22
 path: /procreate/marion-k-portrait/
 excerpt: "Portrait of Marion K. digitally painted with Procreate on an iPad."
 last_modified_at: 2018-03-22T09:21:18-04:00
-image: ../../assets/images/marion-k-procreate.jpg
+image: ../../images/marion-k-procreate.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, black and white, time lapse]
 ---

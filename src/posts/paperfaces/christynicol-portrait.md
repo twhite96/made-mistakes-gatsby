@@ -3,7 +3,7 @@ title: "Put a bird on it"
 date: 2013-05-15
 path: /paperfaces/christynicol-portrait/
 excerpt: "PaperFaces portrait of @christynicol drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-christynicol-twitter.jpg
+image: ../../images/paperfaces-christynicol-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

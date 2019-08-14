@@ -3,7 +3,7 @@ title: "Grayscale mustache"
 date: 2013-04-26
 path: /paperfaces/imnk-portrait/
 excerpt: "PaperFaces portrait of @imnk drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-imnk-twitter.jpg
+image: ../../images/paperfaces-imnk-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

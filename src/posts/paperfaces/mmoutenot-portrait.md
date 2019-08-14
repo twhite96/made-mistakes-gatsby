@@ -3,7 +3,7 @@ title: "Remember to always wear a helmet"
 date: 2013-05-07
 path: /paperfaces/mmoutenot-portrait/
 excerpt: "PaperFaces portrait of @mmoutenot drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-mmoutenot-twitter.jpg
+image: ../../images/paperfaces-mmoutenot-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

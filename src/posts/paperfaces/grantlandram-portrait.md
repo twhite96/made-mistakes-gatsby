@@ -3,7 +3,7 @@ title: "Grayscale and Pencil and Blend oh my!"
 date: 2013-12-09
 path: /paperfaces/grantlandram-portrait/
 excerpt: "PaperFaces portrait of @GrantLandram drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-grantlandram-twitter.jpg
+image: ../../images/paperfaces-grantlandram-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white, time lapse]
 ---

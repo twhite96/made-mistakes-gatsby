@@ -3,7 +3,7 @@ title: "Hair Scarf"
 date: 2015-09-17
 path: /paperfaces/brooke-t-portrait/
 excerpt: "PaperFaces portrait of Brooke T. drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-brooke-t.jpg
+image: ../../images/paperfaces-brooke-t.jpg
 gallery:
   - url: /assets/images/paperfaces-brooke-t-process-1-lg.jpg
     image_path: /assets/images/paperfaces-brooke-t-process-1-600.jpg

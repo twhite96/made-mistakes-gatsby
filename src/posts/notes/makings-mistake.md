@@ -19,7 +19,7 @@ For the last decade I've been fighting "the loop", squeezing my words in and out
 But you know what? I'm alright with that. I've always been alright with that. The first website I created that wasn't some Geocities piece of mess was a personal project I called Faded Leaf Design.
 
 {% figure caption:"**November 2001**: Splash screen for Faded Leaf design website that launched a popup window containing Flash documents. Looking back at this now I can't help but see a huge usability nightmare for visitors." %}
-![Faded Leaf Design Splash Screen](../../assets/images/faded-leaf-design-2001.jpg)
+![Faded Leaf Design Splash Screen](../../images/faded-leaf-design-2001.jpg)
 {% endfigure %}
 
 ## Is it a portfolio or is it a blog?
@@ -29,7 +29,7 @@ Over time I shifted focus and came up with Made Mistakes as a concept to wrap my
 After creating some static HTML pages to use as a framework, I settled on replicating the look and feel into [Movable Type](http://www.movabletype.org/). At the the time it was a popular <abbr title="Content Management System">CMS</abbr> being used by other designers and made the most sense for realizing a gallery focused site with blog components.
 
 {% figure caption:"Made Mistakes started in 2001 with a Flash teaser page and later morphed into a portfolio gallery powered by Movable Type." %}
-![Screenshots of Made Mistakes over the years](../../assets/images/made-mistakes-flash-xhtml.jpg)
+![Screenshots of Made Mistakes over the years](../../images/made-mistakes-flash-xhtml.jpg)
 {% endfigure %}
 
 ## Now what?
@@ -37,9 +37,9 @@ After creating some static HTML pages to use as a framework, I settled on replic
 Now I want to see what I can do to enrich my eye and skills as a designer. I've tired of all the constant reblogging of other's content without attribution or added insight, and feel that I owe it to myself to do more. I suppose the only way to grow is to create often and document the process and inspirations along the way.
 
 {% figure caption:"Circa 2001, my first home on the web looked like this." %}
-![Splash screen for an early personal website](../../assets/images/bleedsapathy-splash-page.jpg)
+![Splash screen for an early personal website](../../images/bleedsapathy-splash-page.jpg)
 {% endfigure %}
 
 {% figure caption:"Redesign sketch that never happened." %}
-![Made Mistakes Website Sketch](../../assets/images/made-mistakes-sketch.jpg)
+![Made Mistakes Website Sketch](../../images/made-mistakes-sketch.jpg)
 {% endfigure %}

@@ -3,7 +3,7 @@ title: "Glasses wearing a pair of headphones"
 date: 2013-04-10
 path: /paperfaces/soulxheart-portrait/
 excerpt: "PaperFaces portrait of @soulxheart drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-soulxheart-twitter.jpg
+image: ../../images/paperfaces-soulxheart-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

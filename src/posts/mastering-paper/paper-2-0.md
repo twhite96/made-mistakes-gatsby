@@ -6,7 +6,7 @@ last_modified_at: 2018-11-06T12:02:59-05:00
 excerpt: "Documented bugs and other strange behaviors found in Paper for iOS version 2.0.0 when using Pencil."
 categories: [mastering-paper]
 tags: [Paper for iOS, Pencil by 53, Pogo Connect, Apple]
-image: ../../assets/images/paper-2-0-0-feature.jpg
+image: ../../images/paper-2-0-0-feature.jpg
 toc: true
 ---
 
@@ -88,7 +88,7 @@ To get around this bug take extra care when using the fountain pen, pencil, and 
 Back before Paper had the Loupe tool, many of us resorted to the *Accessibility Zoom hack* as a crude way of zooming in and doing detail work. By going into the **Settings app**, selecting *General > Accessibility*, you could turn on a 3 finger tap gesture to magnify the screen.
 
 {% figure caption:"Accessibility Zoom enabled in the Settings app." %}
-![iOS 8 Settings app screenshot](../../assets/images/ios-8-accessibility-zoom.jpg)
+![iOS 8 Settings app screenshot](../../images/ios-8-accessibility-zoom.jpg)
 {% endfigure %}
 
 If you use FiftyThree's Pencil, have the 2.0.0 version of Paper, and the zoom accessibility feature enabled, you're in for a rude awakening. When you launch Paper you won't be able to flip pages, draw, open the tool tray, or pretty much anything else. I'm sure there is a good reason for all of this, but for now you need to *disable Zoom* in the Settings app to use Paper properly.

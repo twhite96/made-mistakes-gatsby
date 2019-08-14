@@ -3,7 +3,7 @@ title: "Violet Moon"
 date: 2015-02-02
 path: /paperfaces/asja-k-portrait/
 excerpt: "PaperFaces portrait of the Asja K. drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-asja-k.jpg
+image: ../../images/paperfaces-asja-k.jpg
 gallery:
   - url: https://mix.fiftythree.com/11098-Michael-Rose/1887226
     image_path: /assets/images/paperfaces-asja-k-process-1-600.jpg

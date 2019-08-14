@@ -3,7 +3,7 @@ title: "PaperFaces portrait of Mr. Spock and Captain Kirk"
 date: 2013-05-18
 path: /paperfaces/spock-captain-kirk-portrait/
 excerpt: "PaperFaces portrait of Mr. Spock and Captain Kirk drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-spock-kirk-star-trek.jpg
+image: ../../images/paperfaces-spock-kirk-star-trek.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

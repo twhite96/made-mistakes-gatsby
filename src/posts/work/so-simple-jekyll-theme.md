@@ -4,7 +4,7 @@ date: 2013-06-26
 path: /work/so-simple-jekyll-theme/
 excerpt: "A simple Jekyll theme for words and pictures by designer Michael Rose."
 last_modified_at: 2018-02-06T11:16:06-05:00
-image: ../../assets/images/jekyll-theme-so-simple-feature-2018.jpg
+image: ../../images/jekyll-theme-so-simple-feature-2018.jpg
 gallery:
   - url: /assets/images/so-simple-post.png
     image_path: /assets/images/so-simple-post-th.jpg

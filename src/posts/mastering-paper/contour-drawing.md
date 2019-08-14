@@ -4,7 +4,7 @@ date: 2014-01-13
 path: /mastering-paper/contour-drawing/
 excerpt: "How to use blind contour line drawing and the iPad app Paper for iOS, to improve hand eye coordination and observation skills."
 last_modified_at: 2018-11-06T11:59:47-05:00
-image: ../../assets/images/paper-53-contour-drawing-feature.jpg
+image: ../../images/paper-53-contour-drawing-feature.jpg
 categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, Apple]
 toc: true
@@ -25,7 +25,7 @@ Pay close attention to how the form's contour and shape relate to each other mak
 When you observe a shadow or a dark division, move your stylus faster to produce a thicker line. For highlights and lighter areas move slowly to draw a thinner line.
 
 {% figure caption:"I find drawing with a Pogo Connect allows for greater control over the line's weight." class:"gallery-2-col" %}
-[![blind contour drawing of a hand drawn with a Pogo Connect](../../assets/images/paper-53-contour-hand-pogo.jpg)](../../assets/images/paper-53-contour-hand-pogo-lg.jpg) [![blind contour drawing of a hand drawn with a Pencil by 53](../../assets/images/paper-53-contour-hand-pencil.jpg)](../../assets/images/paper-53-contour-hand-pencil-lg.jpg)
+[![blind contour drawing of a hand drawn with a Pogo Connect](../../images/paper-53-contour-hand-pogo.jpg)](../../images/paper-53-contour-hand-pogo-lg.jpg) [![blind contour drawing of a hand drawn with a Pencil by 53](../../images/paper-53-contour-hand-pencil.jpg)](../../images/paper-53-contour-hand-pencil-lg.jpg)
 {% endfigure %}
 
 Producing sensitive lines becomes infinitely easier with a [Pogo Connect]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) since you can varying their thickness by pressing harder. This added complexity isn't for everyone, but for someone with a background in the fine arts or illustration, it can feel more natural.  
@@ -44,7 +44,7 @@ There's a world of possibilities to explore with this technique. For example, yo
 
 When applying color to a contour line drawing start by looking for the shadows in your subject and brush those in first. If you work from the outside edge in, it is easier to fade your strokes using a sweeping motion. When done right this feathering of color can mimic the *wet on wet* look of traditional watercolors.
 
-![Blind contour drawing of a face](../../assets/images/paper-53-contour-face-color.jpg)
+![Blind contour drawing of a face](../../images/paper-53-contour-face-color.jpg)
 
 If you're feeling overwhelmed by color, try working with just black and white. Limiting the selection simplifies the process and causes you to focus more on contour and line quality before tackling advanced color theory principles. I experienced the most learning by being limited to the 9 colors Paper originally shipped with. This led to many hours of mistakes and experimentation, ending with a higher understanding of how the tools and colors behaved.
 
@@ -58,13 +58,13 @@ For a refresher on watercolor brush techniques take a look at my set of [Masteri
 
 Another variation to try is drawing in white ink over a black background. To start you would select black from the palette and then drag it onto the canvas to fill it in. This color inversion gives the lines new qualities that closely resemble scratch board drawings.
 
-![Scratch board blind contour of a cat](../../assets/images/paper-53-contour-cat-inverse.jpg)
+![Scratch board blind contour of a cat](../../images/paper-53-contour-cat-inverse.jpg)
 
 ### Adding lines
 
 There is no hard fast rule that says the drawing has to be made up of a single line. Breaking it up into multiple lines, made up of different colors and values can produce nice results. Just be mindful of the lines' starts and stops when switching tools or colors, you don't want to kill the free form nature of the drawing.
 
-![Multiple line blind contour](../../assets/images/paper-53-contour-drawing-fashion-show.jpg)
+![Multiple line blind contour](../../images/paper-53-contour-drawing-fashion-show.jpg)
 
 ---
 

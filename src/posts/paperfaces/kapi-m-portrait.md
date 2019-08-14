@@ -4,7 +4,7 @@ date: 2015-02-16
 path: /paperfaces/kapi-m-portrait/
 excerpt: "PaperFaces portrait of the Kapi M. drawn with Paper for iOS on an iPad."
 last_modified_at: 
-image: ../../assets/images/paperfaces-kapi-m.jpg
+image: ../../images/paperfaces-kapi-m.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---

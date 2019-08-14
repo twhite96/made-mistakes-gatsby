@@ -3,7 +3,7 @@ title: RRIICCEE show last night
 date: 2007-12-12
 path: /notes/rriiccee-show-last-night-soundlab/
 excerpt: "Musically --- RRIICCEE is fine, but not something I really want to see live again."
-image: ../../assets/images/rriiccee-feature.jpg
+image: ../../images/rriiccee-feature.jpg
 categories: [notes]
 tags: [life, Buffalo, review]
 support: false

@@ -4,7 +4,7 @@ date: 2016-01-03
 path: /procreate/david-g-portrait/
 excerpt: "Portrait of David G. digitally painted with Procreate on an iPad."
 last_modified_at: 2015-12-27T00:00:00-00:00
-image: ../../assets/images/david-g-procreate.jpg
+image: ../../images/david-g-procreate.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, time lapse, beard, Sktchy]
 ---

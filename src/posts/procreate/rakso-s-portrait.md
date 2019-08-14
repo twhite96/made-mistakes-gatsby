@@ -4,7 +4,7 @@ date: 2016-01-25
 path: /procreate/rakso-s-portrait/
 excerpt: "Portrait of Rakso S. digitally painted with Procreate on an iPad."
 last_modified_at: 2016-10-10T10:49:10-04:00
-image: ../../assets/images/rakso-s-procreate.jpg
+image: ../../images/rakso-s-procreate.jpg
 gallery:
   - url: /assets/images/rakso-s-process-1-lg.jpg
     image_path: /assets/images/rakso-s-process-1-320.jpg

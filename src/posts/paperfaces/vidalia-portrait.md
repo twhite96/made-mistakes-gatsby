@@ -3,7 +3,7 @@ title: "Hungry for a knuckle sandwich?"
 date: 2013-06-10
 path: /paperfaces/vidalia-portrait/
 excerpt: "PaperFaces portrait of @Vidalia drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-vidalia-twitter.jpg
+image: ../../images/paperfaces-vidalia-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---

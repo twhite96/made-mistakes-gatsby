@@ -4,7 +4,7 @@ date: 2016-04-15
 path: /procreate/april-c-portrait/
 excerpt: "Portrait of April C. digitally painted with Procreate on an iPad."
 last_modified_at: 2016-04-15T12:14:37-04:00
-image: ../../assets/images/april-c-procreate.jpg
+image: ../../images/april-c-procreate.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, time lapse]
 ---

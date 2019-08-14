@@ -3,7 +3,7 @@ title: "Low contrast is the best contrast"
 date: 2013-07-29
 path: /paperfaces/syropian-portrait/
 excerpt: "PaperFaces portrait of @syropian drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-syropian-twitter.jpg
+image: ../../images/paperfaces-syropian-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]
 ---
@@ -13,8 +13,8 @@ PaperFaces portrait of [@syropian](https://twitter.com/syropian). Felt like push
 {% include_cached boilerplate/paperfaces.md %}
 
 {% figure caption:"Work in progress screenshots." class:"gallery-2-col" %}
-[![](../../assets/images/paperfaces-syropian-process-1-600.jpg)](../../assets/images/paperfaces-syropian-process-1-lg.jpg)
-[![](../../assets/images/paperfaces-syropian-process-2-600.jpg)](../../assets/images/paperfaces-syropian-process-2-lg.jpg)
-[![](../../assets/images/paperfaces-syropian-process-3-600.jpg)](../../assets/images/paperfaces-syropian-process-3-lg.jpg)
-[![](../../assets/images/paperfaces-syropian-process-4-600.jpg)](../../assets/images/paperfaces-syropian-process-4-lg.jpg)
+[![](../../images/paperfaces-syropian-process-1-600.jpg)](../../images/paperfaces-syropian-process-1-lg.jpg)
+[![](../../images/paperfaces-syropian-process-2-600.jpg)](../../images/paperfaces-syropian-process-2-lg.jpg)
+[![](../../images/paperfaces-syropian-process-3-600.jpg)](../../images/paperfaces-syropian-process-3-lg.jpg)
+[![](../../images/paperfaces-syropian-process-4-600.jpg)](../../images/paperfaces-syropian-process-4-lg.jpg)
 {% endfigure %}

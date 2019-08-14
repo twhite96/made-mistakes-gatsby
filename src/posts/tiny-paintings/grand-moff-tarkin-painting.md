@@ -4,7 +4,7 @@ date: 2015-10-16
 path: /tiny-paintings/grand-moff-tarkin-painting/
 excerpt: "Tiny portrait of a Grand Moff Tarkin painted with watercolor on hot press paper."
 last_modified_at: 2016-10-10T11:21:40-04:00
-image: ../../assets/images/painting-grand-moff-tarkin.jpg
+image: ../../images/painting-grand-moff-tarkin.jpg
 gallery:
   - url: /assets/images/painting-grand-moff-tarkin-process-1-lg.jpg
     image_path: /assets/images/painting-grand-moff-tarkin-process-1-900.jpg

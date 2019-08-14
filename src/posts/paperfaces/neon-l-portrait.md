@@ -4,7 +4,7 @@ date: 2015-08-24
 path: /paperfaces/neon-l-portrait/
 excerpt: "PaperFaces portrait of Neon L. drawn with Paper for iOS on an iPad."
 last_modified_at: 2016-10-10T15:13:08-04:00
-image: ../../assets/images/paperfaces-neon-l.jpg
+image: ../../images/paperfaces-neon-l.jpg
 gallery:
   - url: /assets/images/paperfaces-neon-l-process-1-lg.jpg
     image_path: /assets/images/paperfaces-neon-l-process-1-600.jpg

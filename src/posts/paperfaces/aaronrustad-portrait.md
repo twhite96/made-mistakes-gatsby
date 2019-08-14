@@ -3,7 +3,7 @@ title: "Glasses in front of green water"
 date: 2013-01-10
 path: /paperfaces/aaronrustad-portrait/
 excerpt: "PaperFaces portrait of @aaronrustad drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-aaronrustad-twitter.jpg
+image: ../../images/paperfaces-aaronrustad-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, time lapse]
 ---

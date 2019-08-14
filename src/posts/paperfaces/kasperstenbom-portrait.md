@@ -3,7 +3,7 @@ title: "Another eye and half face"
 date: 2013-07-16
 path: /paperfaces/kasperstenbom-portrait/
 excerpt: "PaperFaces portrait of @KasperStenbom drawn with Paper for iOS on an iPad."
-image: ../../assets/images/paperfaces-kasperstenbom-twitter.jpg
+image: ../../images/paperfaces-kasperstenbom-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---
@@ -13,9 +13,9 @@ PaperFaces portrait of [@KasperStenbom](https://twitter.com/KasperStenbom).
 {% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Using white to lighten and gradually render cheeks and eye sockets." %}
-[![Work in process screenshot](../../assets/images/paperfaces-kasperstenbom-process-1-600.jpg)](../../assets/images/paperfaces-kasperstenbom-process-1-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-kasperstenbom-process-1-600.jpg)](../../images/paperfaces-kasperstenbom-process-1-lg.jpg)
 {% endfigure %}
 
 {% figure caption:"Zooming in to color the eye and pencil in eyebrow hairs." %}
-[![Work in process screenshot](../../assets/images/paperfaces-kasperstenbom-process-2-600.jpg)](../../assets/images/paperfaces-kasperstenbom-process-2-lg.jpg)
+[![Work in process screenshot](../../images/paperfaces-kasperstenbom-process-2-600.jpg)](../../images/paperfaces-kasperstenbom-process-2-lg.jpg)
 {% endfigure %}

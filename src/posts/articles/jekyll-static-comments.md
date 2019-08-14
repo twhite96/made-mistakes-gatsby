@@ -5,7 +5,7 @@ path: /articles/jekyll-static-comments/
 excerpt: "Integrating a static-based commenting system into Jekyll with the help of Staticman and ditching Disqus in the process."
 categories: [articles]
 tags: [Jekyll, web development, GitHub, open source, tutorial]
-image: ../../assets/images/going-static-comments-feature.jpg
+image: ../../images/going-static-comments-feature.jpg
 comments: true
 toc: true
 last_modified_at: 2018-03-22T10:45:51-04:00
@@ -117,7 +117,7 @@ Using Popcorn's [`main.js`](https://github.com/eduardoboucas/popcorn/blob/gh-pag
 To avoid disrupting the flow too much I went with inline alert messaging directly above the **submit button**.
 
 {% figure caption:"Comment form inline alert example." %}
-![Inline comment form alert example](../../assets/images/mm-comment-inline-alert.png)
+![Inline comment form alert example](../../images/mm-comment-inline-alert.png)
 {% endfigure %}
 
 And to improve the user experience upon submission the submit button's text changes to `Loading...`, becomes disabled, and an animated SVG icon inserted for bit of extra flare.
@@ -128,7 +128,7 @@ $('#comment-form-submit').html('<svg class="icon spin"><use xlink:href="#icon-lo
 ```
 
 {% figure caption:"Submit button loading animation." %}
-![Submit button loading animation](../../assets/images/mm-submit-comment-loading.gif)
+![Submit button loading animation](../../images/mm-submit-comment-loading.gif)
 {% endfigure %}
 
 If the form is successfully submitted a message appears notifying the user that the comment has been received and is pending moderation. Since my site takes a bit to generate with Jekyll I felt it necessary to convey this to the user, hopefully avoiding duplicate submissions. 
@@ -136,7 +136,7 @@ If the form is successfully submitted a message appears notifying the user that 
 With smaller sites hosted with GitHub Pages this becomes less of a problem, as they build much faster. Especially true if you decide to go with the auto merge option and skip [moderating comments](https://github.com/eduardoboucas/staticman#moderation-required).
 
 {% figure caption:"The comment form in action." %}
-![Form submit success animation](../../assets/images/mm-submit-comment-success.gif)
+![Form submit success animation](../../images/mm-submit-comment-success.gif)
 {% endfigure %}
 
 ### Displaying comments
@@ -209,7 +209,7 @@ Should populate `_includes/comment.html` and spit out as the following HTML:
 Looking like this when styled with `CSS`:
 
 {% figure caption:"Comment example (rendered HTML)." %}
-![Comment example](../../assets/images/mm-comment-example.png)
+![Comment example](../../images/mm-comment-example.png)
 {% endfigure %}
 
 There's not much magic in the `comment.html` include --- some [structured data](https://schema.org/Comment) markup sprinkled about and a few Liquid conditionals for displaying author avatars and URLs.
@@ -230,7 +230,7 @@ First you need to grant Staticman access to your Jekyll repository on GitHub. Yo
 
 Following the docs I added GitHub username `staticmanapp` as a collaborator and then pinged `https://api.staticman.net/v1/connect/{your GitHub username}/{your repository name}` as instructed to accept the invitation.
 
-![staticmanapp as collaborator](../../assets/images/staticman-collaborator.png)
+![staticmanapp as collaborator](../../images/staticman-collaborator.png)
 
 #### Configuring Staticman
 
@@ -314,11 +314,11 @@ To set a redirect URL for your form after comment submission, simply add a hidde
 If configured correctly you should receive a pull request notification on GitHub each time a comment entry is submitted. Look the commit over (if you're moderating them) and **merge pull request** to accept or **close** to block it.
 
 {% figure caption:"Staticman **pull request** notifications on GitHub." %}
-![Staticman pull request notifications on GitHub](../../assets/images/staticman-github-pull-requests.png)
+![Staticman pull request notifications on GitHub](../../images/staticman-github-pull-requests.png)
 {% endfigure %}
 
 {% figure caption:"Staticman pull request merged and branch auto-deleted via webhook." %}
-![Staticman pull request merge on GitHub](../../assets/images/staticman-pull-request-merge.png)
+![Staticman pull request merge on GitHub](../../images/staticman-pull-request-merge.png)
 {% endfigure %}
 
 ---
@@ -399,7 +399,7 @@ Pulling this off with Disqus required way [more work](https://help.disqus.com/cu
 [^markdown-filter]: The `markdownify` filter is used in `_includes/comment.html` to convert Markdown-formatted strings found in `{% raw %}{{ include.message }}{% endraw %}` into HTML.
 
 {% figure caption:"Syntax highlighted code blocks in comments." %}
-![Syntax highlighted code blocks in comments](../../assets/images/mm-comments-syntax-highlighted.png)
+![Syntax highlighted code blocks in comments](../../images/mm-comments-syntax-highlighted.png)
 {% endfigure %}
 
 ### Troubleshooting
