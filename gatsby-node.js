@@ -18,7 +18,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
     {
       allMarkdownRemark(
         sort: { fields: [frontmatter___date], order: DESC }
-        limit: 1000
+        limit: 2000
       ) {
         edges {
           node {
@@ -120,21 +120,20 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
   })
 }
 
-exports.sourceNodes = ({ actions }) => {
+exports.createSchemaCustomization  = ({ actions }) => {
   const { createTypes } = actions
   const typeDefs = `
     type MarkdownRemark implements Node {
       frontmatter: Frontmatter!
     }
-
     type Frontmatter {
       title: String!
+      date: Date @dateformat
       author: String
-      date: Date!
       path: String!
       tags: [String!]
       excerpt: String
-      image: File
+      image: File @fileByRelativePath
     }
   `
   createTypes(typeDefs)
