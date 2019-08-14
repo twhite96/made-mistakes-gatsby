@@ -23,16 +23,8 @@ module.exports = {
     mainMenu: [
       {
         title: 'About',
-        path: '/about',
-      },
-      {
-        title: 'Showcase',
-        path: '/showcase',
-      },
-      {
-        title: 'Example',
-        path: '/example',
-      },
+        path: '/about/',
+      }
     ],
   },
   plugins: [
@@ -57,13 +49,6 @@ module.exports = {
       options: {
         name: `pages`,
         path: `${__dirname}/src/pages`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/assets/images`,
       },
     },
     {
