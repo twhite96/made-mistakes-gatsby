@@ -22,11 +22,8 @@ In my tests this appears to be limited to styli with smaller nibs. In *Paper 2.0
 
 I tried several styli with rubber nibs to see if it was indeed the tip's size or some other quality. As long as the tip is fat enough Paper will interpret it as a finger touch and Blend --- and sometimes draw ([see bug below](#pencil-nothing-bug)). Anything smaller it ignores as a way of filtering out touches to avoid making errant smudges.
 
-{% notice %}
-#### Dumb stylus woes
-
-I've also observed Paper getting confused when pressing lightly with a capacitive styli. I'd expect it to Blend or not do anything, but instead it begins drawing marks.
-{% endnotice %}
+[[notice | Dumb stylus woes]]
+| I've also observed Paper getting confused when pressing lightly with a capacitive styli. I'd expect it to Blend or not do anything, but instead it begins drawing marks.
 
 {% figure caption:"Paper 2.0.0 Pencil and capacitive styli bugs." %}
 {% youtube cleK43E6M6o %}
@@ -55,11 +52,8 @@ Under ideal conditions, a Pencil stylus paired to Paper should only draw/paint/e
 
 It doesn't always draw and it doesn't happen with every stylus. Capacitive tip styli with smaller tips exhibit it more often than those that are fat and squishy --- but not always.
 
-{% notice %}
-#### Be mindful of how you hold Pencil
-
-If your palm or another finger accidentally depresses the Eraser end of Pencil as you draw it will begin erasing instead.
-{% endnotice %}
+[[notice | Be mindful of how you hold Pencil]]
+| If your palm or another finger accidentally depresses the Eraser end of Pencil as you draw it will begin erasing instead.
 
 ## Pogo Connect bug
 

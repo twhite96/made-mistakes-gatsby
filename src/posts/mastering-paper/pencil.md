@@ -28,13 +28,10 @@ For the uninitiated, Pencil allows you to switch between tools in an intuitive a
 
 Paper's tools have a level of expressiveness that I've yet to see matched by other iPad apps. Pencil augments each of them with improved accuracy, finer controls, and a sort of intelligence that reduces unwanted marks --- allowing you to rest your wrists on the screen as you work.
 
-{% notice %}
-#### Pencil, a year later...
-
-Apart from the addition of **Surface Pressure**, little has changed since first pairing Pencil with Paper over a year ago. It still feels great to use, still has an insanely long battery life, still enables blending, and still lets you rest your wrists on the screen without messing up your drawing.
-
-Looking for more? Read my full [Pencil by FiftyThree Review]({% post_url /mastering-paper/2014-11-28-pencil-53-review %}).
-{% endnotice %}
+[[notice | Pencil, a year later...]]
+| Apart from the addition of **Surface Pressure**, little has changed since first pairing Pencil with Paper over a year ago. It still feels great to use, still has an insanely long battery life, still enables blending, and still lets you rest your wrists on the screen without messing up your drawing.
+|
+| Looking for more? Read my full [Pencil by FiftyThree Review]({% post_url /mastering-paper/2014-11-28-pencil-53-review %}).
 
 ### A different kind of tip
 
@@ -52,11 +49,8 @@ What would a pencil be without an eraser? Well FiftyThree's Pencil has one of th
 
 Size can be controlled by making contact with the eraser's corner (for small mistakes) or the entire surface to remove a larger area. Just like the tip the eraser is replaceable, though I haven't needed to replace mine yet.
 
-{% notice %}
-#### Erasing and undoing
-
-If you're looking for other erasing techniques that don't rely on Pencil's hardware eraser you're in luck. I wrote an entire guide dedicated to [correcting and covering-up mistakes]({% post_url /mastering-paper/2014-10-25-erasing %}) in Paper by FiftyThree.
-{% endnotice %}
+[[notice | Erasing and undoing]]
+| If you're looking for other erasing techniques that don't rely on Pencil's hardware eraser you're in luck. I wrote an entire guide dedicated to [correcting and covering-up mistakes]({% post_url /mastering-paper/2014-10-25-erasing %}) in Paper by FiftyThree.
 
 ### Palm rejection
 
@@ -91,11 +85,8 @@ To view more details about your Pencil (*battery level*, *firmware*, *serial num
 ![Pencil's settings in Paper](../../images/paper-253-pencil-settings.jpg)
 {% endfigure %}
 
-{% notice %}
-#### Finger settings: Blend, Draw, Nothing
-
-You also have the option to toggle whether your finger **Blends**, **Draws**, or does **Nothing** when Pencil is connected to Paper. If you find Paper mistakenly smudging as you draw, switching to Nothing is a great way to prevent that.
-{% endnotice %}
+[[notice | Finger settings: Blend, Draw, Nothing]]
+| You also have the option to toggle whether your finger **Blends**, **Draws**, or does **Nothing** when Pencil is connected to Paper. If you find Paper mistakenly smudging as you draw, switching to Nothing is a great way to prevent that.
 
 For even more information on how to setup Pencil, change tips, and performing maintenance like updating the firmware --- check out [FiftyThree's Support pages](https://wetransfer.zendesk.com/hc/en-us/articles/360001368883-Pencil-by-FiftyThree). It's where I first learned about this little fix:
 
@@ -148,11 +139,8 @@ Wide strokes made with the pencil tool overlap differently than the ink, marker,
 ![animation showing overlapping wide pencil strokes](../../images/pencil-surface-pressure-overlap.gif)
 {% endfigure %}
 
-{% notice %}
-#### ProTip: shade in circles
-
-Reduce color banding by holding Pencil on its side and moving in a circular motion to evenly fill things in.
-{% endnotice %}
+[[notice | ProTip: shade in circles]]
+| Reduce color banding by holding Pencil on its side and moving in a circular motion to evenly fill things in.
 
 {% figure caption:"Spread pencil tones evenly by overlapping them with a circular motion." %}
 {% youtube ChJ3LSCOyoM %}
@@ -207,11 +195,8 @@ Another great way to loosen up your arm and hand is to draw ovals over and over 
 
 The same layering principles used when glazing can be applied to the pencil tool with Surface Pressure.
 
-{% notice %}
-#### Painting with watercolor
-
-If you're new to Paper and the color tool, learn all about glazing with my [**Mastering Paper: Back to Basics**]({% post_url /mastering-paper/2014-02-09-basics %}#watercolor-brush-techniques) guide.
-{% endnotice %}
+[[notice | Painting with watercolor]]
+| If you're new to Paper and the color tool, learn all about glazing with my [**Mastering Paper: Back to Basics**]({% post_url /mastering-paper/2014-02-09-basics %}#watercolor-brush-techniques) guide.
 
 Surface Pressure enabled shading does most of the hard work by automatically making marks that fade into the canvas. If you've had trouble painting smoothly with the watercolor brush, give the sketch tool a try --- it's way more forgiving.
 
@@ -227,11 +212,8 @@ Remember, each pass with Pencil's angled tip leaves a noticeable edge when overl
 
 ![Surface Pressure tomato drawings in grayscale and color](../../images/pencil-surface-pressure-tomatoes.jpg)
 
-{% notice %}
-#### ProTip: zoom In
-
-For even more granularity over how fast a shade darkens, zoom in! You can get a few more levels of variation to help make a more nuanced gradation.
-{% endnotice %}
+[[notice | ProTip: zoom In]]
+| For even more granularity over how fast a shade darkens, zoom in! You can get a few more levels of variation to help make a more nuanced gradation.
 
 ## Blend, the smudge tool
 
@@ -249,11 +231,8 @@ It's not a tool you select like the others, triggering it is way more intuitive 
 {% youtube nzfTY5rw9Q0 %}
 {% endfigure %}
 
-{% notice %}
-#### ProTip: blending with a non-Pencil Stylus
-
-If you're looking for more control and accuracy over your blends, try a capacitive stylus instead of your finger. As long as the tip of the stylus is big enough and Pencil is connected this should work. I've had success using a [Pogo Connect][pogo-stylus] and some [cheap styli][cheap-stylus] I picked up from Amazon.
-{% endnotice %}
+[[notice | ProTip: blending with a non-Pencil Stylus]]
+| If you're looking for more control and accuracy over your blends, try a capacitive stylus instead of your finger. As long as the tip of the stylus is big enough and Pencil is connected this should work. I've had success using a [Pogo Connect][pogo-stylus] and some [cheap styli][cheap-stylus] I picked up from Amazon.
 
 {% figure caption:"Using a cheap capacitive stylus to Blend instead of a finger." %}
 ![blending with cheap capacitive stylus](../../images/paper-53-non-pencil-blending.jpg)
@@ -270,11 +249,8 @@ Apps that support FiftyThree's SDK (like Procreate) get some special abilities w
 {% youtube TboRri2mOVQ %}
 {% endfigure %}
 
-{% notice %}
-#### ProTip: Pencil's eraser in Procreate
-
-And just like with Paper, Pencil's physical eraser will trigger the eraser tool in Procreate. The current Erase tool settings will be used whenever you flip Pencil on it's top to correct mistakes.
-{% endnotice %}
+[[notice | ProTip: Pencil's eraser in Procreate]]
+| And just like with Paper, Pencil's physical eraser will trigger the eraser tool in Procreate. The current Erase tool settings will be used whenever you flip Pencil on it's top to correct mistakes.
 
 ### Paper and Blend settings
 
@@ -304,11 +280,8 @@ By rubbing my finger across the background in a circular motion I was able to qu
 
 As you blend the background pay careful attention not to cut too far into the foreground. It's this contrast between sharp and blurry that will ultimately help sell the effect by creating depth in the piece.
 
-{% notice %}
-#### ProTip: sketch over a Blend
-
-After blurring a background with the Blend tool go back over the edges of foreground objects. When drawing portraits I like to sketch wispy hair over a blurred background to add depth to the drawing.
-{% endnotice %}
+[[notice | ProTip: sketch over a Blend]]
+| After blurring a background with the Blend tool go back over the edges of foreground objects. When drawing portraits I like to sketch wispy hair over a blurred background to add depth to the drawing.
 
 ##### More blurred backgrounds
 
@@ -508,11 +481,8 @@ Getting the intensity of a blur just right isn't always easy. To make a subtle b
 
 The trick is to be quick. By barely touching the iPad's screen while you swipe it fast, you can create blends that aren't as harsh.
 
-{% notice %}
-#### Stronger blending with zoom
-
-When opening the magnifying loupe to zoom-in the blurring effects intensifies which has its pros and cons. For subtle blurs I suggest smudging when in the zoom circle.
-{% endnotice %}
+[[notice | Stronger blending with zoom]]
+| When opening the magnifying loupe to zoom-in the blurring effects intensifies which has its pros and cons. For subtle blurs I suggest smudging when in the zoom circle.
 
 Phew --- this was a long one! I covered a ton of material so if anything is unclear or needs further explanation, please let me know.
 

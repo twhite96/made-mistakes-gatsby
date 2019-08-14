@@ -48,11 +48,8 @@ Paper by 53 currently doesn't have a way of exporting or sharing color palettes.
 3. Tap the small circle again and drag it into a vacant spot in your palette to the right.
 4. Repeat the process for each color you wish to copy and use.
 
-{% notice %}
-#### ProTip: organize your color palettes
-
-You can move colors in the palettes by dragging them around into an order that works for you. For example I group all my skin tone colors together for easier access.
-{% endnotice %}
+[[notice | ProTip: organize your color palettes]]
+| You can move colors in the palettes by dragging them around into an order that works for you. For example I group all my skin tone colors together for easier access.
 
 ## Choosing colors
 
@@ -104,19 +101,13 @@ Speed is the single most important variable for creating smooth tones or glazes.
 {% youtube AjJVrFFaCck %}
 {% endfigure %}
 
-{% notice %}
-#### ProTip: smoothening out splotches of color
-
-To even out stubborn light spots, keep rubbing until they turn dark. You can't overwork an area as long as don't lift to make another stroke.
-{% endnotice %}
+[[notice | ProTip: smoothening out splotches of color]]
+| To even out stubborn light spots, keep rubbing until they turn dark. You can't overwork an area as long as don't lift to make another stroke.
 
 New to Paper or drawing in general? Make your life easier and work large, filling up the entire page. The smaller the composition the harder all this becomes since the brush has a fixed size. Well that's [not completely true]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}), but for those of you who don't use Bluetooth stylus like FiftyThree's Pencil or a Pogo Connect --- it is.
 
-{% notice %}
-#### Update: Paper 2.0
-
-Painting with the watercolor brush has been greatly improved in the new version of Paper by FiftyThree. [Learn all about the new brush tool]({% post_url /mastering-paper/2014-09-16-watercolor-brush-update %}) in my post that includes videos of it in action.
-{% endnotice %}
+[[notice | Update: Paper 2.0]]
+| Painting with the watercolor brush has been greatly improved in the new version of Paper by FiftyThree. [Learn all about the new brush tool]({% post_url /mastering-paper/2014-09-16-watercolor-brush-update %}) in my post that includes videos of it in action.
 
 ### Whites to erase
 
@@ -130,11 +121,8 @@ To paint in this style, start by lightly sketching out the figure to act as your
 
 With your background dropped in, select the pencil tool, a light color, and sketch out the general outline of the figure. Drawing [sensitive lines]({% post_url /mastering-paper/2014-01-13-contour-drawing %}) will convey more meaning in your drawing and guide how you paint. For example, I place heavier lines in my sketches to show shadows or areas I will want to darken with watercolor later.
 
-{% notice %}
-#### ProTip: skin color selection
-
-When choosing a pencil color pick a flesh tone that is predominant in the face. This will make it easier to hide the lines later when you paint with white.
-{% endnotice %}
+[[notice | ProTip: skin color selection]]
+| When choosing a pencil color pick a flesh tone that is predominant in the face. This will make it easier to hide the lines later when you paint with white.
 
 With a rough sketch complete, it is time to put those skin tone palettes from before to work. For this example I'm going to choose the light red mix to start with. If you were to paint with this in its current state it wouldn't be effective at *pulling the face* out of the background. What we need to do is mix white into it to make it opaque[^opaque] and act like an eraser.
 
@@ -175,11 +163,8 @@ A complimentary color works great as a shadow, especially when dialing down the 
 
 A variation of gray can also be effective for darkening areas. The important consideration here is to match the temperature of the gray to the area you want to darken. Tint your gray with reds and oranges for warmer tones, and blues and greens for cools.
 
-{% notice %}
-#### ProTip: paint inwards
-
-Work your glazes from the outside in, moving faster to produce soft transitions --- **speed and direction matter!**
-{% endnotice %}
+[[notice | ProTip: paint inwards]]
+| Work your glazes from the outside in, moving faster to produce soft transitions --- **speed and direction matter!**
 
 {% figure caption:"To build up a realistic skin tone it may take numerous layers of varying colors. It's not uncommon to mix in blue and green." class:"gallery-2-col" %}
 [![painting shadows on a face](../../images/paper-53-faceless-shadows-1.jpg)](../../images/paper-53-faceless-shadows-1-lg.jpg)
@@ -257,11 +242,8 @@ I've said this before in my [Back to Basics guide]({% post_url /mastering-paper/
 
 Don't feel the need to *shade* all surfaces! Focus your attention on the darkest values and build up those gradations first. Keep in mind that we will be covering these pencil strokes with watercolor so don't go too dark. I suggest making your tones about 50% lighter than how they appear --- you can always darken things up later.
 
-{% notice %}
-#### ProTip: up your game with a fancy pressure sensitive stylus
-
-A Pogo Connect makes shading and using the pencil tool way easier. By varying the amount of pressure applied to the tip, you can make a darker line in a way that mimics a real pencil.
-{% endnotice %}
+[[notice | ProTip: up your game with a fancy pressure sensitive stylus]]
+| A Pogo Connect makes shading and using the pencil tool way easier. By varying the amount of pressure applied to the tip, you can make a darker line in a way that mimics a real pencil.
 
 {% figure caption:"Pressing harder on the Pogo Connect's tip will darken a line." %}
 ![pencil line](../../images/paper-53-pogo-connect-pencil-line.jpg)
@@ -273,11 +255,8 @@ To make the face appear more real you'll want to use a wide range of colors. By 
 [![dry mixing colored pencils](../../images/paper-53-face-pencil-dry-mixing.jpg)](../../images/paper-53-face-pencil-dry-mixing-lg.jpg)
 {% endfigure %}
  
-{% notice %}
-#### ProTip: one color at a time
-
-Stick with one color and bounce around the face with it. It'll save you from constantly opening and closing the tool tray to select different colors.
-{% endnotice %}
+[[notice | ProTip: one color at a time]]
+| Stick with one color and bounce around the face with it. It'll save you from constantly opening and closing the tool tray to select different colors.
 
 Continue hatching and coloring your way through the rest of the drawing. At this point you could call this a finished piece, but I'm going to take it a few steps further if you don't mind.
 
@@ -303,11 +282,8 @@ Many of the techniques used to *erase a face* from earlier also apply here. Vari
 [![lightening the face](../../images/paper-53-face-glaze-5.jpg)](../../images/paper-53-face-glaze-5-lg.jpg)
 {% endfigure %}
 
-{% notice %}
-#### ProTip: use Blend to correct mistakes
-
-If when using white you produce tones that are no longer smooth, use Blend to even them out. Don't go overboard with it because you can quickly make a face look unnatural.
-{% endnotice %}
+[[notice | ProTip: use Blend to correct mistakes]]
+| If when using white you produce tones that are no longer smooth, use Blend to even them out. Don't go overboard with it because you can quickly make a face look unnatural.
 
 With our glazes looking pretty good, now is the time to switch back to the pencil tool do some cleanup. I start by using black or another dark color to add contrast around the eyes or anywhere else that is looking flat.
 

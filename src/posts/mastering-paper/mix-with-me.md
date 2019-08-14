@@ -12,11 +12,8 @@ I'm the type of person that learns how something is made by dissecting and exami
 
 ![Mix heart](../../images/paper-53-mix-heart.jpg)
 
-{% notice %}
-#### FiftyThree Has Shut Down the Public Stream / Mix
-
-As of August 15th, 2017 [the Public Stream](https://support.fiftythree.com/hc/en-us/articles/115004639749-The-Public-Stream) is no longer in service. Any links out to **mix.fiftythree.com** or **paper.fiftythree.com** will cease to work.
-{% endnotice %}
+[[notice | FiftyThree Has Shut Down the Public Stream / Mix]]
+| As of August 15th, 2017 [the Public Stream](https://support.fiftythree.com/hc/en-us/articles/115004639749-The-Public-Stream) is no longer in service. Any links out to **mix.fiftythree.com** or **paper.fiftythree.com** will cease to work.
 
 On Tumblr images max out at 1280 × 960 pixels, on Twitter it's 1024 × 768, and Instagram a wimpy 640 × 640. None of these sizes come close to the iPad's native resolution of 2048 × 1536, which is a real problem for someone like me. Ha!
 

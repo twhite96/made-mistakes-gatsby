@@ -32,11 +32,8 @@ A couple of points to keep in mind for creating an even tone.
 
 Once you've gotten the hang of producing a range of smooth values, it can be fun to introduce additional colors to the mix. Colors can be dry blended by overlapping pencil strokes directly on canvas, giving the impression that they've been mixed. 
 
-{% notice %}
-#### ProTip: dry mixing
-
-Avoid overlapping one color with the other too much. Doing so will kill the translucency of the pencil strokes and any mixing that might have occurred.
-{% endnotice %}
+[[notice | ProTip: dry mixing]]
+| Avoid overlapping one color with the other too much. Doing so will kill the translucency of the pencil strokes and any mixing that might have occurred.
 
 {% figure caption:"Dry mixing colored pencils" %}
 ![Colored pencil mixes](../../images/paper-53-colored-pencil-mixes.jpg)
@@ -96,11 +93,8 @@ Instead of using lines to create tone and texture, you can use small marks. Much
 
 The placement of these marks can be as expressive or mathematically as you want. I prefer to be free and loose, but don't let that limit what feels right to you. Stippling marks can be anything you want --- short ticks, dots, crosses, circles. And they can even be combined with hatching to add detail and enhance the effect.
 
-{% notice %}
-#### ProTip: hatching --- not just for inking
-
-Most of the ink techniques above can be adapted to the pencil tool and used to shade and create gradations of tone --- specifically parallel, contour, and cross hatching.
-{% endnotice %}
+[[notice | ProTip: hatching --- not just for inking]]
+| Most of the ink techniques above can be adapted to the pencil tool and used to shade and create gradations of tone --- specifically parallel, contour, and cross hatching.
 
 ### Ink blobs and drips
 
@@ -163,11 +157,8 @@ The watercolor brush has the unique ability of lightening previously painted or 
 ![Range of white tints](../../images/paper-53-paint-white-range.jpg)
 {% endfigure %}
 
-{% notice %}
-#### ProTip: paint with tints
-
-Lightening with colors tinted[^tint] with white often yield better results and are easier to control than a solid white.
-{% endnotice %}
+[[notice | ProTip: paint with tints]]
+| Lightening with colors tinted[^tint] with white often yield better results and are easier to control than a solid white.
 
 [^tint]: Adding white to a color raises it to a tint or a *pastel* color and increases it's saturation some --- adjust accordingly to keep harmony with your color palette.
 
@@ -177,11 +168,8 @@ Lightening with colors tinted[^tint] with white often yield better results and a
 
 White paint behaves slightly different from the other colors available in the mixer and default palettes. Much like painting with pure black it fills in quickly. Which means if you use it to paint, you have to move fast or risk completely covering up anything you paint over with white.
 
-{% notice %}
-#### ProTip: dab fast
-
-Quick, short strokes in a dabbing motion work great for lightening an area gradually. 
-{% endnotice %}
+[[notice | ProTip: dab fast]]
+| Quick, short strokes in a dabbing motion work great for lightening an area gradually. 
 
 ### Glazing
 
@@ -271,11 +259,8 @@ The amount of contrast in the subject also changes. The illuminated and shadowed
 ![Atmospheric perspective example](../../images/paper-53-atmospheric-perspective.jpg)
 {% endfigure %}
 
-{% notice %}
-#### ProTip: color temperature
-
-If you learn one thing about working with color make it this: *Warm colors advance, and cool colors recede.* The reverse is also true but much more rare in nature.
-{% endnotice %}
+[[notice | ProTip: color temperature]]
+| If you learn one thing about working with color make it this: *Warm colors advance, and cool colors recede.* The reverse is also true but much more rare in nature.
 
 ---
 

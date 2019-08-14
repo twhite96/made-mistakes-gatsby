@@ -72,11 +72,8 @@ Bare minimum I figured I could use global variables for the site's color palette
 
 Using variables and mixins helped to quickly prototype page styles. It also allowed me to think more modularly about how to best reuse my code throughout a project. And I didn't even have to worry about using JavaScript or a separate app to convert compiled .css files. I simply installed the [Jekyll-less](http://rubygems.org/gems/jekyll-less) Ruby Gem and any time I run `jekyll` or `jekyll-server`, the .less to .css conversion is handled automatically.
 
-{% notice %}
-#### Update: switched from less to sass
-
-Since migrating from Less to Sass I now use [Bourbon](http://bourbon.io) and [Neat](http://neat.bourbon.io/) to manage my mixins and grid. [Susy](http://susy.oddbird.net/) looks like something I'll eventually move to once I have the time to toy with it.
-{% endnotice %}
+[[notice | Update: switched from Less to Sass]]
+| Since migrating from Less to Sass I now use [Bourbon](http://bourbon.io) and [Neat](http://neat.bourbon.io/) to manage my mixins and grid. [Susy](http://susy.oddbird.net/) looks like something I'll eventually move to once I have the time to toy with it.
 
 ### But what about the grid system?
 
@@ -100,11 +97,8 @@ I think I have a solid handle on how to serve mobile optimized pages using `@med
 
 With a 1.0 release under my belt, I think now is the time to take a look at starting a [repository on GitHub](https://github.com/mmistakes/made-mistakes). Maybe to bring sanity to the project allowing me to version control each update. Also think it would be wise to learn how to utilize rsync and rake tasks to make deploying smoother instead of manually FTPing the contents of `_site\` to the server.
 
-{% notice %}
-#### Open sourced Made Mistakes
-
-I've added the [sourcecode for mademistakes.com](https://github.com/mmistakes/made-mistakes-jekyll) to GitHub if you want to see how I use Jekyll. Feel free to fork my repo, use my design, or point out how bad all my code is ;-) Just don't be a dick and make a carbon copy of my content and pass it off as your own.
-{% endnotice %}
+[[notice | Open sourced Made Mistakes]]
+| I've added the [sourcecode for mademistakes.com](https://github.com/mmistakes/made-mistakes-jekyll) to GitHub if you want to see how I use Jekyll. Feel free to fork my repo, use my design, or point out how bad all my code is ;-) Just don't be a dick and make a carbon copy of my content and pass it off as your own.
 
 ## Jekyll themes
 

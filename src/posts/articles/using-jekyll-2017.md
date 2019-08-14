@@ -46,8 +46,7 @@ Using Jekyll's profiler flag `--profile`, I measured how long the following task
 | Build style guide collection | 1.16s | 0.31s |
 | List post social sharing links | 5.09s | 0.97s |
 
-{% notice %}
-#### Is Jekyll faster on macOS or Windows?
+**Is Jekyll faster on macOs or Windows?**
 
 For giggles I also tested my Windows and Mac development environments against each other. While not exactly an apples to apples comparison I thought it would be interesting to note any variations.
 
@@ -59,7 +58,6 @@ For giggles I also tested my Windows and Mac development environments against ea
 | Intel SSDSA2BW160G3L 137GB | 1.12 TB Fusion Drive |
 | Windows 7 Professional Service Pack 1 | OS X El Capitan 10.11.6 |
 | ruby 2.2.4p230 [x64-mingw32] | ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-darwin12.0] |
-{% endnotice %}
 
 ## Optimization
 
@@ -178,7 +176,6 @@ This helped some, but it wasn't until I [dropped GraphicsMagick](https://github.
 
 [^sharp-gif]: Sharp is super fast, but only resizes JPEG, PNG, WebP, and TIFF images... no GIF. It's also a pain in the ass to install on Windows due to the [`node-gyp`](https://github.com/nodejs/node-gyp) dependency.
 
-{% notice %}
 #### Sharp really is as fast as they say
 
 I shaved 18 minutes off my build time using this high speed [Node.js](https://nodejs.org/en/) module!
@@ -186,7 +183,6 @@ I shaved 18 minutes off my build time using this high speed [Node.js](https://no
 | Task description | Graphics Magick | Sharp |
 | --- | ---: | ---: |
 | Resize and optimize 1,014 source images into 5 target sizes | 1288.29s | 171.00s |
-{% endnotice %}
 
 The other missing piece was generating the necessary markup for responsive images[^rwd-images]. Because I was no longer using the `{% raw %}{% picture %}{% endraw %}` tag to output a fully formed [`<picture>` element](https://cloudfour.com/thinks/dont-use-picture-most-of-the-time/), I had to roll my own responsive image markup. 
 
@@ -205,11 +201,8 @@ The other missing piece was generating the necessary markup for responsive image
 
 This bit of Liquid takes the filename as defined by `page.image.feature`, splits it at the extension, appends suffixes that match those used in the gulp-responsive task, and adds them to the `srcset` attribute. :boom: resolution switching images!
 
-{% notice %}
-#### Liquid Limitations
-
-This Gulp + Liquid hybrid isn't as nice as a plugin since there is no logic to actually verify if `-lq`, `-320`, `-768`, or `-1024` versions of the images exist. I'm willing to overlook that since it did shave 16 minutes off my build time :wink:.
-{% endnotice %}
+[[notice | Liquid Limitations]]
+| This Gulp + Liquid hybrid isn't as nice as a plugin since there is no logic to actually verify if `-lq`, `-320`, `-768`, or `-1024` versions of the images exist. I'm willing to overlook that since it did shave 16 minutes off my build time :wink:.
 
 ### Simplify layouts
 
@@ -250,8 +243,7 @@ gulp.task('html', () => {
 });
 ```
 
-{% notice %}
-#### Minifying HTML with Gulp
+##### Minifying HTML with Gulp
 
 In my tests, replacing [`_layouts/compress.html`](http://jch.penibelst.de/) with Gulp tasks to minify and gzip every HTML file ended up being slightly slower.
 
@@ -260,7 +252,6 @@ In my tests, replacing [`_layouts/compress.html`](http://jch.penibelst.de/) with
 | Minify HTML files | 39.348s | 47.00s |
 
 I'm willing to live with the extra 8 seconds of build time as it helps avoid potential site breakages due to badly minified scripts...
-{% endnotice %}
 
 #### Reduce and replace JavaScript
 
@@ -275,13 +266,10 @@ I'm close to ditching jQuery and going vanilla, but I'm not quite there yet. Whe
 
 Decoupling the asset pipeline from Jekyll and Gulp-ifying it made the biggest splash in terms of build time. Along with [Browsersync][browsersync], any asset (CSS, JavaScript, images and icons) updates could be previewed almost instantly. Greatly speeding up the time it takes to develop and iterate the site's front-end.
 
-{% notice %}
-#### Made Mistakes Gulp files
-
-This set of Gulp tasks were heavily inspired by those in Sondre Nilsen's [**Jekyllized Yeoman generator**](https://github.com/sondr3/generator-jekyllized). The main [`gulpfile.js`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/gulpfile.js) is broken down into [smaller bits](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/gulp/tasks): assets, build, clean, copy, html, images, and uploading.
-
-With [`paths.js`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/gulp/paths.js) assigning all of the various paths used throughout the files to DRY things up.
-{% endnotice %}
+[[notice | Made Mistakes Gulp files]]
+| This set of Gulp tasks were heavily inspired by those in Sondre Nilsen's [**Jekyllized Yeoman generator**](https://github.com/sondr3/generator-jekyllized). The main [`gulpfile.js`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/gulpfile.js) is broken down into [smaller bits](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/gulp/tasks): assets, build, clean, copy, html, images, and uploading.
+|
+| With [`paths.js`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/gulp/paths.js) assigning all of the various paths used throughout the files to DRY things up.
 
 *[DRY]: Don't Repeat Yourself is a principle of software development, aimed at reducing repetition of information of all kinds, especially useful in multi-tier architectures.
 
@@ -382,13 +370,10 @@ With everything configured I no longer need to build locally and deploy. I can m
 
 If there's a problem Travis CI will notify me, otherwise in ~15 minutes (or however long the build takes) any changes committed will be live on the site.
 
-{% notice %}
-#### ProTip: use Travis CI with sites hosted with GitHub Pages
-
-Travis CI comes in handy if you want to use Jekyll plugins or a more advanced Gulp workflow like I am. There are [deployment scripts](https://docs.travis-ci.com/user/deployment/pages/) specifically for this purpose. 
-
-[Netlify](https://www.netlify.com/), [GitLab](https://pages.gitlab.io/), and friends also do similar things if you're feeling constrained by what's currently allowed by GitHub Pages.
-{% endnotice %}
+[[notice | ProTip: use Travis CI with sites hosted with GitHub Pages]]
+| Travis CI comes in handy if you want to use Jekyll plugins or a more advanced Gulp workflow like I am. There are [deployment scripts](https://docs.travis-ci.com/user/deployment/pages/) specifically for this purpose. 
+|
+| [Netlify](https://www.netlify.com/), [GitLab](https://pages.gitlab.io/), and friends also do similar things if you're feeling constrained by what's currently allowed by GitHub Pages.
 
 ## Other Jekyll related bits
 
@@ -443,11 +428,8 @@ pagination:
   category: articles
 ```
 
-{% notice %}
-#### ProTip: [filter multiple categories](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#filtering-categories)
-
-Want to combine several categories into one paginator object? Jekyll Paginate v2 has you covered. Just add additional categories as a comma separated list e.g. `category: foo, bar`.
-{% endnotice %}
+[[notice | ProTip: [filter multiple categories](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#filtering-categories)]]
+| Want to combine several categories into one paginator object? Jekyll Paginate v2 has you covered. Just add additional categories as a comma separated list e.g. `category: foo, bar`.
 
 **Step 3:** Output the posts by looping through the `paginator.posts` array. A simple example would look something like this:
 
@@ -556,11 +538,8 @@ breadcrumbs:
 {% endif %}{% endraw %}
 ```
 
-{% notice %}
-#### ProTip: add breadcrumbs using [front matter defaults](http://jekyllrb.com/docs/configuration/#front-matter-defaults)
-
-Take a DRY approach and [add breadcrumbs](https://github.com/mmistakes/made-mistakes-jekyll/blob/11.0.0/_config.yml#L126-L128) at the category level instead of on every post/page. `defaults:` in `_config.yml` is your friend.
-{% endnotice %}
+[[notice | ProTip: add breadcrumbs using [front matter defaults](http://jekyllrb.com/docs/configuration/#front-matter-defaults)]]
+| Take a DRY approach and [add breadcrumbs](https://github.com/mmistakes/made-mistakes-jekyll/blob/11.0.0/_config.yml#L126-L128) at the category level instead of on every post/page. `defaults:` in `_config.yml` is your friend.
 
 ### Popular tags
 

@@ -95,11 +95,8 @@ Now you may be wondering where `basename` and `extname` came from... simple. Eac
 | `file.basename`      | The string basename of the file e.g. `image` for `image.jpg` |
 | `file.extname`       | The extension name for the file, e.g. `.jpg` for `image.jpg` |
 
-{% notice %}
-#### Note: filename consistency is paramount
-
-Using this method to build a gallery of thumbnail images is fragile. The `image` objects inside of these loops are not validated by Jekyll at all. If you call in paths that don't exist it will silently fail and leave you with missing images on the page.
-{% endnotice %}
+[[notice | Note: filename consistency is paramount]]
+| Using this method to build a gallery of thumbnail images is fragile. The `image` objects inside of these loops are not validated by Jekyll at all. If you call in paths that don't exist it will silently fail and leave you with missing images on the page.
 
 ## Feedback and improvements
 

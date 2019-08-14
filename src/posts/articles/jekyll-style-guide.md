@@ -61,13 +61,10 @@ collections:
 
 I choose not to output a file for each color/component since I planned on grouping them together on a single page. But if I later wanted to break them out into separate pages (something I did for my [FAQ section](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/src/_faqs) I would simply change `output: false` to `true` and add paths to the YAML Front Matter.
 
-{% notice %}
-#### Looking to the future
-
-For version 2.0 of the style guide I may investigate taking it to the next level by constructing a complete [atomic design system](http://atomicdesign.bradfrost.com/). Instead of collections for just `components` and `colors` I could create `atoms`, `molecules`, `organisms`, and `templates` to flush out the entire system. 
-
-I've seen [some examples](https://github.com/karissademi/patternlab-jekyll "Pattern Lab Jekyll port") of trying to do this in Jekyll with just `includes`, but I think leveraging components, setting `output: true` on them, and getting creative with Liquid would make this a better option.
-{% endnotice %}
+[[notice | Looking to the future]]
+| For version 2.0 of the style guide I may investigate taking it to the next level by constructing a complete [atomic design system](http://atomicdesign.bradfrost.com/). Instead of collections for just `components` and `colors` I could create `atoms`, `molecules`, `organisms`, and `templates` to flush out the entire system. 
+|
+| I've seen [some examples](https://github.com/karissademi/patternlab-jekyll "Pattern Lab Jekyll port") of trying to do this in Jekyll with just `includes`, but I think leveraging components, setting `output: true` on them, and getting creative with Liquid would make this a better option.
 
 ### Display components and color palettes
 
@@ -103,13 +100,10 @@ usage: "Emphasize post text."
 </div>
 ```
 
-{% notice %}
-#### ProTip: descriptive filenames
-
-Be smart with your filenames if you're trying to sort components in a logical way. The default behavior is for them to be arranged alphabetically by filename. Adding a variable to the YAML Front Matter of each component and sorting on that is one way of overriding this behavior.
-
-Or you could hack the order sequence by doing something like this with your filenames: `01-ui-colors.md`, `02-component-one.md`, `03-component-two.md`, etc.
-{% endnotice %}
+[[notice | ProTip: descriptive filenames]]
+| Be smart with your filenames if you're trying to sort components in a logical way. The default behavior is for them to be arranged alphabetically by filename. Adding a variable to the YAML Front Matter of each component and sorting on that is one way of overriding this behavior.
+|
+| Or you could hack the order sequence by doing something like this with your filenames: `01-ui-colors.md`, `02-component-one.md`, `03-component-two.md`, etc.
 
 #### Collection loops
 
@@ -142,11 +136,8 @@ What's going on here is I'm iterating over the `components` collection, grouping
 
 [^component-type]: Component type is set in the YAML Front Matter. eg: buttons, notices, media, typography, etc.
 
-{% notice %}
-#### Beware the Markdown
-
-I had some trouble getting the Liquid above, Markdown, and syntax highlighting to all play nicely. I suppose I could have just crafted a `.html` document instead, but I wanted to use Markdown with some HTML mixed in. I eventually gave up trying to make my code more readable with indents, which seemed to eliminate the formatting issues.
-{% endnotice %}
+[[notice | Beware the Markdown]]
+| I had some trouble getting the Liquid above, Markdown, and syntax highlighting to all play nicely. I suppose I could have just crafted a `.html` document instead, but I wanted to use Markdown with some HTML mixed in. I eventually gave up trying to make my code more readable with indents, which seemed to eliminate the formatting issues.
 
 Sandwiched between the `entry` loop is an include that takes care of spitting out the rendered and syntax highlighted HTML along with an optional short description and links to Sass and `include` sources.
 

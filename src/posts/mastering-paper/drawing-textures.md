@@ -28,11 +28,8 @@ I'm not going to try and explain perspective or how to set a vanishing point bec
 
 The color of pencil doesn't really matter, just make it something light (a gray perhaps). A [Pogo Connect]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) stylus comes in handy allowing you can to produce lighter lines by gently applying pressure as you draw.
 
-{% notice %}
-#### ProTip: drawing straight lines
-
-An iPad smart cover, piece of cardboard, or a book placed on the screen can all be used to help draw straight lines if you don't have a ruler nearby.
-{% endnotice %}
+[[notice | ProTip: drawing straight lines]]
+| An iPad smart cover, piece of cardboard, or a book placed on the screen can all be used to help draw straight lines if you don't have a ruler nearby.
 
 With a few guidelines placed, use the color mixer to create a base for the bricks. The mixture I decided on was a brown with some red and orange thrown in. Remember to mix a color about 25% lighter than what you'd like to end up with. We'll be applying several layers of color to the bricks --- if you mix it too dark you'll end up with bricks that are almost black and lack dimension.
 
@@ -74,11 +71,8 @@ When coloring the cement between the bricks I usually handle it in three differe
 
 At this point you could call it a day and consider the bricks finished. If you want to add some additional detail here are a few areas to focus on.
 
-{% notice %}
-#### ProTip: uniformity is the enemy
-
-Varying brick color is a nice way to add visual interest and break up the space. Painting random bricks with a red or orange mix usually produces favorable results.
-{% endnotice %}
+[[notice | ProTip: uniformity is the enemy]]
+| Varying brick color is a nice way to add visual interest and break up the space. Painting random bricks with a red or orange mix usually produces favorable results.
 
 ### Adding detail to the bricks
 
@@ -135,11 +129,8 @@ Using the pencil tool, begin sketching in *fuzzy* lines to represent wood grain.
 
 Without changing the color switch to the brush and splash in the wood's darker spots. You may have to lighten the color some if it goes black too fast. Ideally you'll build up the dark with several layers versus just to create richer tones. 
 
-{% notice %}
-#### ProTip: more layers = smoother gradients
-
-Don't try and take the fast way out by painting with darker tones. Start light and build them up with multiple glazes. The results always look better and more natural.
-{% endnotice %}
+[[notice | ProTip: more layers = smoother gradients]]
+| Don't try and take the fast way out by painting with darker tones. Start light and build them up with multiple glazes. The results always look better and more natural.
 
 ![Screenshot of adding darkness to the wood](../../images/paper-53-wood-shadow-mix.jpg)
 
@@ -184,11 +175,8 @@ Going back to the color mixer, add in black or darken it with the sliders. You'r
 
 ![Screenshot of adding dirt and shadow](../../images/paper-53-asphalt-dark-texture.jpg)
 
-{% notice %}
-#### ProTip: Bluetooth styli to the rescue
-
-Hate to sound like a broken record, but using FiftyThree's Pencil or a Pogo Connect Smart Pen really does make using the pencil tool better. Building up tones becomes gradual and efficient by giving you more control over a stroke by varying the direction or amount of pressure applied.
-{% endnotice %}
+[[notice | ProTip: Bluetooth styli to the rescue]]
+| Hate to sound like a broken record, but using FiftyThree's Pencil or a Pogo Connect Smart Pen really does make using the pencil tool better. Building up tones becomes gradual and efficient by giving you more control over a stroke by varying the direction or amount of pressure applied.
 
 Using the exact same technique, mix a lighter color of the base and speckle in dirt and asphalt highlights.
 

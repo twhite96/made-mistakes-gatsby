@@ -42,11 +42,8 @@ As noted earlier, I struggled with selecting 15 pages to turn into a book. I sup
 ![Screenshot of selecting 15 Book pages](../../images/paper-53-book-select-pages.jpg)
 {% endfigure %}
 
-{% notice %}
-#### Maximum page count
-
-It's worth noting that if you select less than 15 pages for your book, you'll receive blanks filling the balance. Something I'd like to eventually see would be the option to create books with a higher page count. Maybe at larger predefined increments to keep the spine size fixed as not to mess with the cover's alignment and wrap. Printing pages ala cart would be nice as well.
-{% endnotice %}
+[[notice | Maximum page count]]
+| It's worth noting that if you select less than 15 pages for your book, you'll receive blanks filling the balance. Something I'd like to eventually see would be the option to create books with a higher page count. Maybe at larger predefined increments to keep the spine size fixed as not to mess with the cover's alignment and wrap. Printing pages ala cart would be nice as well.
 
 ### Cover image
 
@@ -56,11 +53,8 @@ I think the best option is to go fully custom with a cover. What I did was creat
 ![Screenshot of selecting a cover image](../../images/paper-53-book-select-cover-color.jpg)
 {% endfigure %}
 
-{% notice %}
-#### ProTip: custom colored cover wraps
-
-The custom option affords you the opportunity of selecting a color for the back cover and spine. As far as I can tell you can't use the color mixer here to pick a color, so be sure to save one in your custom palettes if you don't like the defaults.
-{% endnotice %}
+[[notice | ProTip: custom colored cover wraps]]
+| The custom option affords you the opportunity of selecting a color for the back cover and spine. As far as I can tell you can't use the color mixer here to pick a color, so be sure to save one in your custom palettes if you don't like the defaults.
 
 ### Order the book
 

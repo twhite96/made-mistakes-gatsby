@@ -123,11 +123,8 @@ By taking advantage of this property, white can be used to emulate a gum eraser.
 
 I've found that using the fat side of Pencil's tip to swipe in white allows for greater control and smoother transitions. It takes some practice and is definitely a more advanced technique.
 
-{% notice %}
-#### White to "erase" gotcha
-
-This method does have a drawback. Using white to "erase" can create more work for yourself if you have a detailed background. The white might bleed into it forcing you to spend a lot of time color matching to clean-up edges. For this reason I tend to work on areas that need lightening first and cover up any messy edges later.
-{% endnotice %}
+[[notice | White to "erase" gotcha]]
+| This method does have a drawback. Using white to "erase" can create more work for yourself if you have a detailed background. The white might bleed into it forcing you to spend a lot of time color matching to clean-up edges. For this reason I tend to work on areas that need lightening first and cover up any messy edges later.
 
 ### Blend (smudge) to erase
 

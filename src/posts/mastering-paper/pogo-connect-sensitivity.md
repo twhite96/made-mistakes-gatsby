@@ -42,18 +42,15 @@ After making these changes you can doodle around in the space below to verify th
 
 ![Pogo Connect app doodle test](../../images/pogo-connect-app-doodle.jpg)
 
-{% notice %}
-#### ProTip: sensitivity settings
-
-Any sensitivity settings you made in the Pogo Connect app don't appear to "stick" if the apps go to sleep or you lose a connection with the stylus. Following these steps seems to work at restoring them when using Paper by FiftyThree:
-
-1. Unscrew the cap on the Pogo Connect and take out the battery.
-2. Wait a few seconds and then place the battery back in and screw the top on to power cycle the Pogo.
-3. Reconnect the stylus to Paper. You may have to force quit[^force-quit] the app if it doesn't connect.
-4. After establishing a connection reopen the Pogo Connect app, wait for it to connect to the stylus, and then tap the **Configuration** tab again.
-5. Check that the **Pressure Amount** slider is set properly and make a few test strokes in the space below to verify it is receiving input from the tip.
-6. Switch back to Paper and you're good to go...for now.
-{% endnotice %}
+[[notice | ProTip: sensitivity settings]]
+| Any sensitivity settings you made in the Pogo Connect app don't appear to "stick" if the apps go to sleep or you lose a connection with the stylus. Following these steps seems to work at restoring them when using Paper by FiftyThree:
+|
+| 1. Unscrew the cap on the Pogo Connect and take out the battery.
+| 2. Wait a few seconds and then place the battery back in and screw the top on to power cycle the Pogo.
+| 3. Reconnect the stylus to Paper. You may have to force quit[^force-quit] the app if it doesn't connect.
+| 4. After establishing a connection reopen the Pogo Connect app, wait for it to connect to the stylus, and then tap the **Configuration** tab again.
+| 5. Check that the **Pressure Amount** slider is set properly and make a few test strokes in the space below to verify it is receiving input from the tip.
+| 6. Switch back to Paper and you're good to go...for now.
 
 [^force-quit]: To force quit an app press the home button twice in rapid succession. Doing so will bring up a screen showing your recently used apps. Swipe left or right to find the app you want to quit and then swipe it up to remove it from view.
 

@@ -20,11 +20,8 @@ When choosing a color for the water, I like to mix it dull and gray by knocking 
 ![screenshot of blue-gray water mix](../../images/paper-53-water-color-mix.jpg)
 {% endfigure %}
 
-{% notice %}
-#### ProTip: start light
-
-Don't make the mix too dark. You'll achieve better results by applying multiple lighter coats instead of going at it with one. Mix the desired color[^mixer] you'd like to end up with and then lower the saturation and luminosity about 25% each.
-{% endnotice %}
+[[notice | ProTip: start light]]
+| Don't make the mix too dark. You'll achieve better results by applying multiple lighter coats instead of going at it with one. Mix the desired color[^mixer] you'd like to end up with and then lower the saturation and luminosity about 25% each.
 
 [^mixer]: In Part 1 of my Mastering Paper Guide I explain [how to use the color mixer]({% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#color-mixer) and what the various sliders mean and do.
 
@@ -48,11 +45,8 @@ Start with 2--3 even coats filling in the water with as smooth a tone as you can
 ![screenshot faded blue water with two coats](../../images/paper-53-water-fade-reference.jpg)
 {% endfigure %}
 
-{% notice %}
-#### ProTip: dark to light
-
-Applying multiple coats adjacent to the horizon line and lightening as you work down will add dimension to the painting. Fading into the paper will also give you more flexibility later if you decide to add a beach or coastline.
-{% endnotice %}
+[[notice | ProTip: dark to light]]
+| Applying multiple coats adjacent to the horizon line and lightening as you work down will add dimension to the painting. Fading into the paper will also give you more flexibility later if you decide to add a beach or coastline.
 
 ### Adding wave chop
 
@@ -62,11 +56,8 @@ For the sake of this tutorial I'm going to draw small waves using quick and chop
 ![screenshot of watercolor wave chop technique](../../images/paper-53-wave-chop-dark.jpg)
 {% endfigure %}
 
-{% notice %}
-#### ProTip: use tints to lighten
-
-If you go too dark, just mix white into your base coat color. Continue adding white until you get a color that has a hint of the base and lightens the water as you paint. It might take trial and error to find this "sweet spot."
-{% endnotice %}
+[[notice | ProTip: use tints to lighten]]
+| If you go too dark, just mix white into your base coat color. Continue adding white until you get a color that has a hint of the base and lightens the water as you paint. It might take trial and error to find this "sweet spot."
 
 {% figure caption:"And here's an example of lighter wave chops for those areas you may have painted too dark." %}
 ![screenshot of watercolor wave chop lighten technique](../../images/paper-53-wave-chop-light.jpg)

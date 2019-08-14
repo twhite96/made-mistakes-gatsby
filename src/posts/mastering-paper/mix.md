@@ -12,11 +12,8 @@ toc: true
 
 As an avid Paper creator, sharing my sketches and "ideas" has felt a bit like I was in an empty room talking to myself. Sure I could ask for feedback in the form of a 140 character Tweet or reblog on Tumblr, but the ability to collaborate was missing. With the [release of Mix](http://news.fiftythree.com/post/97645975008/mix-create-together-the-english-inventor-sir), that void has been filled.
 
-{% notice %}
-#### FiftyThree has shut down the Public Stream / Mix
-
-As of August 15th, 2017 [the Public Stream](https://support.fiftythree.com/hc/en-us/articles/115004639749-The-Public-Stream) is no longer in service. Any links out to **mix.fiftythree.com** or **paper.fiftythree.com** will cease to work.
-{% endnotice %}
+[[notice | FiftyThree has shut down the Public Stream / Mix]]
+| As of August 15th, 2017 [the Public Stream](https://support.fiftythree.com/hc/en-us/articles/115004639749-The-Public-Stream) is no longer in service. Any links out to **mix.fiftythree.com** or **paper.fiftythree.com** will cease to work.
 
 Paper + Mix enhances a solo creative process by augmenting it into a social experience. Sketches, doodles, paintings, ideas, and more can now be shared in the Mix making them available for download or remix by anyone with an iPad and Paper.
 
@@ -38,11 +35,8 @@ Within Paper, you can enter Mix by swiping down from the top edge of the screen 
 
 At its heart Mix is a place for ideas to begin, nurture, and grow. That's not to say it can't be used in other ways, but one gets the feeling from the six categories Mix is divided into ([see below](#types-of-mixes)) that is its primary purpose.
 
-{% notice %}
-#### ProTip: encourage feedback and discussion
-
-To get the most value out of Mix I recommend posting "ideas" that encourage participation (share templates, purposely leave sketches unfinished, leave blanks, ask questions, etc.)
-{% endnotice %}
+[[notice | ProTip: encourage feedback and discussion]]
+| To get the most value out of Mix I recommend posting "ideas" that encourage participation (share templates, purposely leave sketches unfinished, leave blanks, ask questions, etc.)
 
 Mix isn't just for those who doodle and sketch. By following one of the curated categories or influential Mixers, it becomes a great tool for inspiration collection (think Pinterest or similar social bookmarking apps). For those who may fear a blank page or enjoy hoarding ideas for a rainy day, Mix has you covered with a never ending supply of ideas to remix.
 
@@ -66,11 +60,8 @@ Within the app you can find them by swiping down from the top edge of the screen
 
 ![Mix categories](../../images/mix-53-categories.jpg)
 
-{% notice %}
-#### ProTip: follow curated categories
-
-You can follow any or all of these categories to keep your stream fresh with ideas. There's even a Popular category to see what Paper taste makers are creating and remixing.
-{% endnotice %}
+[[notice | ProTip: follow curated categories]]
+| You can follow any or all of these categories to keep your stream fresh with ideas. There's even a Popular category to see what Paper taste makers are creating and remixing.
 
 ---
 
@@ -122,11 +113,8 @@ My approach to sketching on Paper has been to add "behind the scenes footage" wh
 
 It may not be obvious at first but remixing yourself is a great way to chain together a series of sketches to show a progression.
 
-{% notice %}
-#### ProTip: share works in progress
-
-Sharing often as you work on an idea is a great way of saving its history. Of course you can still duplicate pages as a means of backup, but remixing often removes some of the local clutter from your journals. It also encourages others to remix your unfinished ideas as they have more opportunity to build off of than the "finished" mix.
-{% endnotice %}
+[[notice | ProTip: share works in progress]]
+| Sharing often as you work on an idea is a great way of saving its history. Of course you can still duplicate pages as a means of backup, but remixing often removes some of the local clutter from your journals. It also encourages others to remix your unfinished ideas as they have more opportunity to build off of than the "finished" mix.
 
 ---
 

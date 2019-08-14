@@ -12,11 +12,8 @@ toc: true
 
 How do you draw or sketch on an iPad with **Paper on iOS**? What iPad stylus is the best for creating art? Why does it burn down there when I pee? Wait a minute... I don't have an answer for that last one, but I think I can help with the first two.
 
-{% notice %}
-#### Mastering Paper tutorials
-
-Since publishing this short guide I've gone through several iPad styli and written numerous tutorials expanding on the techniques teased here. Be sure to check out my [**Mastering Paper series**](/mastering-paper/) to learn the latest ways I'm using the app and tools to create realistic portraits and other pieces of art. 
-{% endnotice %}
+[[notice | Mastering Paper tutorials]]
+| Since publishing this short guide I've gone through several iPad styli and written numerous tutorials expanding on the techniques teased here. Be sure to check out my [**Mastering Paper series**](/mastering-paper/) to learn the latest ways I'm using the app and tools to create realistic portraits and other pieces of art. 
 
 ## Tools
 
@@ -34,11 +31,8 @@ Since publishing this short guide I've gone through several iPad styli and writt
 [![Image of a LunaTik Touch Pen Alloy on top of an iPad](../../images/lunatik-touch-pen.jpg)](http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=178&creative=390957&creativeASIN=B00821TR7G)
 {% endfigure %}
 
-{% notice %}
-#### Update: stylus switch
-
-I've since moved on from the LunaTik Touch Pen to using FiftyThree's Pencil exclusively.
-{% endnotice %}
+[[notice | Update: stylus switch]]
+| I've since moved on from the LunaTik Touch Pen to using FiftyThree's Pencil exclusively.
 
 Every drawing is different and I try to keep that in mind before opening Paper for iOS. With that said, the following are some general steps and techniques I utilize when drawing and painting on a 3rd generation iPad with retina screen. One thing to remember is experimenting with all the tools and drawing everyday will really up your game. I've learned so much doing just that for the last couple of months.
 
@@ -83,11 +77,8 @@ I saved the best for last. When I first started using Paper for iOS, I was enamo
 
 Need to lightly sketch out a face... pull out the pencil. Need to smoothen out some edges... pull out the pencil. Need to add shadows and highlights... pull out the pencil. It has so many uses, that by default I spend most of my time with it. My absolute favorite is to use a white on top of a black (or dark background) and sketch in highlights, especially in long hair. It's sick how easy achieving realistic looking hair is when using the pencil.
 
-{% notice %}
-#### How to draw hair
-
-Read in detail [how I draw hair]({% post_url /mastering-paper/2013-05-10-drawing-hair %}) as part of my Mastering Paper by FiftyThree series of tutorials.
-{% endnotice %}
+[[notice | How to draw hair]]
+| Read in detail [how I draw hair]({% post_url /mastering-paper/2013-05-10-drawing-hair %}) as part of my Mastering Paper by FiftyThree series of tutorials.
 
 {% figure caption:"Paper for iOS's pencil tool works wonders for rendering hair." %}
 ![Detail shot of hair drawn using Paper for iOS](../../images/madewithpaper-hair-detail.jpg)

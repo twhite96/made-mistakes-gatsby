@@ -39,11 +39,8 @@ Since majority of the visitors to my site use modern browsers, I had a good excu
 
 To my eye this new layout breaks up the page better. Content comes into view earlier on the page, and there's plenty of room for ancillary information on the right. With a little `position: sticky` sprinkled on the `aside` column, internal skip links stay fixed in view --- when space allows.
 
-{% notice %}
-#### ProTip: Use the Firefox DevTools when working with CSS grid layouts
-
-![Firefox Grid Inspector screenshot](../../images/firefox-grid-inspector-screenshot.jpg)
-{: .browser-frame}
+[[notice | ProTip: Use the Firefox DevTools when working with CSS grid layouts]]
+| ![Firefox Grid Inspector screenshot](../../images/firefox-grid-inspector-screenshot.jpg)
 
 Out of all the major browsers, Firefox's [**Grid Inspector**](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Examine_grid_layouts) is argubly the best for examining, modifying, or debugging grid layouts.
 {% endnotice %}

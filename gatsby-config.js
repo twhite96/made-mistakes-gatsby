@@ -96,6 +96,17 @@ module.exports = {
               dashes: "oldschool",
             },
           },
+          {
+            resolve: `gatsby-remark-custom-blocks`,
+            options: {
+              blocks: {
+                notice: {
+                  classes: `notice`,
+                  title: `optional`,
+                },
+              },
+            },
+          },
           "gatsby-remark-emoji",
           "gatsby-remark-abbr",
           "gatsby-remark-numbered-footnotes",

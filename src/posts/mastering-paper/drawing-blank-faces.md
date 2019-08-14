@@ -24,11 +24,8 @@ Still confused? Here are the general steps I follow for every portrait I draw. D
 
 I decided on a square frame for [my project](/paperfaces/ "PaperFaces iPad Portrait Project"), but you might want to experiment with the shape and canvas placement to better suit your needs. I like to draw the frame freehand with black ink to give it character, but you can use pencil if you want to hide it easier.
 
-{% notice %}
-#### ProTip: create a template
-
-Don't want to bother drawing the same frame each time? Then make a template of it that you can copy at will. To do this: draw the frame or whatever else you want on all your pages, pinch the page to zoom out, tap and hold on the (+) until the *duplicate button* appears, then tap that. Now you're free to move this new page around, copy it to another sketchbook, or duplicate it again.
-{% endnotice %}
+[[notice | ProTip: create a template]]
+| Don't want to bother drawing the same frame each time? Then make a template of it that you can copy at will. To do this: draw the frame or whatever else you want on all your pages, pinch the page to zoom out, tap and hold on the (+) until the *duplicate button* appears, then tap that. Now you're free to move this new page around, copy it to another sketchbook, or duplicate it again.
 
 ## Apply a background
 
@@ -85,8 +82,5 @@ To finish the face take care to observe the direction and tilt of the head. Care
 ![Detail of face drawn with Paper by 53](../../images/paper-53-face-cross-lg.jpg)
 {% endfigure %}
 
-{% notice %}
-#### Mastering Paper Tutorials
-
-Since publishing this short guide I've gone through several iPad styli and written numerous tutorials expanding on the techniques described above. Be sure to check out my [**Mastering Paper by FiftyThree series**](/mastering-paper/) to learn the latest ways I'm using the app and tools to create realistic portraits and other pieces of art. 
-{% endnotice %}
+[[notice | Mastering Paper Tutorials]]
+| Since publishing this short guide I've gone through several iPad styli and written numerous tutorials expanding on the techniques described above. Be sure to check out my [**Mastering Paper by FiftyThree series**](/mastering-paper/) to learn the latest ways I'm using the app and tools to create realistic portraits and other pieces of art. 

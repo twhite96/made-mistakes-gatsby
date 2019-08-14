@@ -128,11 +128,8 @@ And then in each Markdown file I set a path that fits in with the format used on
 
 Examples: `about.md` ~> `path: /about/`, `home.md` ~> `path: /`, `contact.md` ~> `path: /contact/`, etc.
 
-{% notice %}
-#### ProTip: include your pages directory
-
-To be sure Jekyll "sees" and processes the files inside of `_pages`, be sure to include it. Add `include: ["_pages"]` to `_config.yml` and you should be good to go.
-{% endnotice %}
+[[notice | ProTip: include your pages directory]]
+| To be sure Jekyll "sees" and processes the files inside of `_pages`, be sure to include it. Add `include: ["_pages"]` to `_config.yml` and you should be good to go.
 
 ## An evolution
 
@@ -197,11 +194,8 @@ Going one step further a Jekyll environment can be specified as well. By default
 JEKYLL_ENV=production bundle exec jekyll build
 ```
 
-{% notice %}
-#### Windows environment gotcha
-
-On Windows I had issues minifying when `JEKYLL_ENV=production bundle exec jekyll build` silently failed. Instead, I found that the [`SET`](http://ss64.com/nt/set.html) command had to be used to assign environment variables.
-{% endnotice %}
+[[notice | Windows environment gotcha]]
+| On Windows I had issues minifying when `JEKYLL_ENV=production bundle exec jekyll build` silently failed. Instead, I found that the [`SET`](http://ss64.com/nt/set.html) command had to be used to assign environment variables.
 
 ```shell
 set JEKYLL_ENV=production
@@ -396,11 +390,8 @@ With a focus on modular CSS, I can build critical and non-critical flavors by `@
 ![Made Mistakes analyzed with PageSpeed Insights](../../images/mm-home-pagespeed-021116.jpg)
 {% endfigure %}
 
-{% notice %}
-#### ProTip: plugin free inlined critical CSS
-
-A similar method can be achieved by placing a SCSS file inside the `/_includes/` directory and applying the `scssify` filter. Perfect for sites hosted on GitHub Pages where most plugins aren't allowed.
-{% endnotice %}
+[[notice | ProTip: plugin free inlined critical CSS]]
+| A similar method can be achieved by placing a SCSS file inside the `/_includes/` directory and applying the `scssify` filter. Perfect for sites hosted on GitHub Pages where most plugins aren't allowed.
 
 ```liquid
 <head>

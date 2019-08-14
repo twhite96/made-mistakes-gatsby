@@ -18,22 +18,16 @@ When I draw trees I select the watercolor brush and jump right in, using one con
 
 ![screenshot of watercolor tree shape](../../images/paper-53-outline-trees-watercolor.jpg)
 
-{% notice %}
-#### ProTip: build up tones by layering
-
-When using the watercolor brush, try and mix a color around 50--75% lighter than the desired color. This lighter color allows you to layer multiple coats to create a nice vivid color. Going dark right away usually makes shapes flat and lifeless, with color that lacks richness.
-{% endnotice %}
+[[notice | ProTip: build up tones by layering]]
+| When using the watercolor brush, try and mix a color around 50--75% lighter than the desired color. This lighter color allows you to layer multiple coats to create a nice vivid color. Going dark right away usually makes shapes flat and lifeless, with color that lacks richness.
 
 {% figure caption:"Building up a color with multiple layers usually yields better results than one dark glaze." class:"gallery-2-col" %}
 ![screenshot of leaf color layered](../../images/paper-53-tree-green-layered.jpg)
 ![screenshot of leaf color single coat](../../images/paper-53-tree-green-one-layer.jpg)
 {% endfigure %}
 
-{% notice %}
-#### ProTip: painting with the brush
-
-Remember the watercolor brush is translucent and no matter what color you pick it won't match without a few coats.
-{% endnotice %}
+[[notice | ProTip: painting with the brush]]
+| Remember the watercolor brush is translucent and no matter what color you pick it won't match without a few coats.
 
 Here are some of my favorite colors to get you started painting leaves:
 
@@ -52,20 +46,14 @@ The primary goal here is to give the illusion of leaf clusters and indicate wher
 
 Now it's time to start adding detail to the tree with highlights. Using a reference photo can help determine a good highlight color, but if you don't have one check below for my favorite mixes. Stay away from colors that are too white --- you want a color that is still in the family of your base color, just warmed and lightened.
 
-{% notice %}
-#### ProTip: mixing leaf highlights
-
-![screenshot of yellow orange highlight color](../../images/paper-53-leaf-highlight-swatch.png){: .align-right}
-If you're having trouble mixing a highlight I like to start with a green from the leaf's base, and add yellow. Yellow with orange mixed in also makes for a nice leaf highlight --- note the example on the left.
-{% endnotice %}
+[[notice | ProTip: mixing leaf highlights]]
+| ![screenshot of yellow orange highlight color](../../images/paper-53-leaf-highlight-swatch.png)
+| If you're having trouble mixing a highlight I like to start with a green from the leaf's base, and add yellow. Yellow with orange mixed in also makes for a nice leaf highlight --- note the example on the left.
 
 With our highlight color mixed, select the pencil tool and start lightly sketching small "scratchy" marks over the base coat. The more times you go over a pencil stroke, the more intense the color will get. Try not to overwork one area with the pencil, the key is to keep everything harmonious.
 
-{% notice %}
-#### ProTip: pencil in highlights
-
-Apply highlight strokes on dark shadows to define individual leaves or groupings. A well placed pencil highlight can go a long way in adding texture and realism to your art.
-{% endnotice %}
+[[notice | ProTip: pencil in highlights]]
+| Apply highlight strokes on dark shadows to define individual leaves or groupings. A well placed pencil highlight can go a long way in adding texture and realism to your art.
 
 {% figure caption:"For a more textured look use the pencil tool instead of the fountain or ink pens." %}
 ![screenshot of highlight strokes](../../images/paper-53-leaf-highlight-strokes.jpg)
@@ -83,13 +71,10 @@ To finish, quick strokes of watercolor with either a light gray or light dull gr
 
 ![screenshot of subtle watercolor shadows](../../images/paper-53-dull-green-gradation.jpg)
 
-{% notice %}
-#### ProTip: background cleanup
-
-Fill the pencil with a color that matches the background and use it to refine the tree's outline, cleaning up any watercolor that might have bled.
-
-This technique works great to "erase" any spots in the middle of the tree where the sky might be showing through leaves.
-{% endnotice %}
+[[notice | ProTip: background cleanup
+| Fill the pencil with a color that matches the background and use it to refine the tree's outline, cleaning up any watercolor that might have bled.
+|
+| This technique works great to "erase" any spots in the middle of the tree where the sky might be showing through leaves.
 
 {% figure caption:"Erasing parts of the tree by using a pencil filled with a color that closely matches the background." %}
 ![screenshot of refine tree edges with background color](../../images/paper-53-refine-tree-edges.jpg)
@@ -109,19 +94,13 @@ This next step can be quite tedious, especially if you have a lot of grass to ad
 
 Grass cut short is fairly painless to draw. Making small subtle marks with the pencil to suggest grass is all that's needed --- texture is what's important here. 
 
-{% notice %}
-#### ProTip: treat grass like hair
-
-When drawing longer grass, I like to think of it as hair and block out the major sections with stroke guides. These help determine what direction the rest of the grass should be moving when filling in each chunk.
-{% endnotice %}
+[[notice | ProTip: treat grass like hair]]
+| When drawing longer grass, I like to think of it as hair and block out the major sections with stroke guides. These help determine what direction the rest of the grass should be moving when filling in each chunk.
 
 ![screenshot grass stroke guides](../../images/paper-53-grass-short-long-strokes.jpg)
 
-{% notice %}
-#### ProTip: use stroke speed to your advantage
-
-To feather out each shard of grass, move slow as you begin a stroke and faster as you finish. For those using a Pogo Connect Smart Pen, press hard at the start of your stroke and lighten up as you follow through.
-{% endnotice %}
+[[notice | ProTip: use stroke speed to your advantage]]
+| To feather out each shard of grass, move slow as you begin a stroke and faster as you finish. For those using a Pogo Connect Smart Pen, press hard at the start of your stroke and lighten up as you follow through.
 
 {% figure caption:"You can create a various types of grass by varying their length and direction." %}
 ![screenshot grass stroke feathered](../../images/paper-53-long-grass-feathered.jpg)
@@ -137,12 +116,10 @@ One final tip for creating depth is to paint over everything with light gray or 
 
 ![screenshot of applying tan shadows to grass](../../images/paper-53-grass-tan-shadows.jpg)
 
-{% notice %}
-#### ProTip: cool and warm colors
-
-A general rule of thumb is to mix blue/gray to your background colors, and warm them up as you move forward. A couple of well placed pencil strokes using this principle can enhance a composition's depth quite effectively.
-![screenshot background blue grass](../../images/paper-53-grass-blue-shadows.jpg)
-{% endnotice %}
+[[notice | ProTip: cool and warm colors]]
+| A general rule of thumb is to mix blue/gray to your background colors, and warm them up as you move forward. A couple of well placed pencil strokes using this principle can enhance a composition's depth quite effectively.
+|
+| ![screenshot background blue grass](../../images/paper-53-grass-blue-shadows.jpg)
 
 ## Variations on a theme
 

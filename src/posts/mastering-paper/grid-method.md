@@ -47,11 +47,8 @@ Switching to a straight-edge[^straightedge] you'll use the dots as guides to dra
 [![drawing a line with Pencil and a straight-edge](../../images/paper-53-grid-book-edge-600.jpg)](../../images/paper-53-grid-book-edge-lg.jpg)
 {% endfigure %}
 
-{% notice %}
-#### ProTip: straight-edge placement
-
-Place your straight-edge directly on top of the reference dots, then slide it to the left or right ¼″ depending on what hand you are. This extra space gives the fat rubber tip of your stylus room to move and will hopefully fall exactly on the dots. If not move it some more until it does.
-{% endnotice %}
+[[notice | ProTip: straight-edge placement]]
+| Place your straight-edge directly on top of the reference dots, then slide it to the left or right ¼″ depending on what hand you are. This extra space gives the fat rubber tip of your stylus room to move and will hopefully fall exactly on the dots. If not move it some more until it does.
 
 Take your time drawing lines as accurate as and as light as possible, it'll make your life easier later --- trust me. Once you've drawn all the horizontal lines repeat the process for the vertical lines, intersecting them as you go.
 
@@ -87,11 +84,8 @@ With the finished grids you're ready to begin creating your line drawing. Pick a
 ![drawing with the grid](../../images/paper-53-grid-method-drawing.jpg)
 {% endfigure %}
 
-{% notice %}
-#### ProTip: focus on one grid box at a time
-
-If you're having trouble focusing, cover up any neighboring boxes with a sheet of paper to reveal just the box you're working on.
-{% endnotice %}
+[[notice | ProTip: focus on one grid box at a time]]
+| If you're having trouble focusing, cover up any neighboring boxes with a sheet of paper to reveal just the box you're working on.
 
 You can certainly shade and paint each box as you go, but it's pretty hard to keep everything looking harmonious --- especially with the watercolor brush. Matching colors becomes really difficult as you bounce around the grid, so I suggest working in grays if you plan to use this method to create a finished drawing.
 

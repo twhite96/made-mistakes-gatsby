@@ -14,11 +14,8 @@ If you have an iOS device I encourage you to download the free [**Sktchy** app](
 
 I've been known to peruse the *Inspiration* tab in look of faces to draw. So if you've been patiently waiting for me to draw you as part of my [PaperFaces Project]({% post_url /notes/2012-08-31-paperfaces-ipad-portrait-project %}), Sktchy might be a nice alternative.
 
-{% notice %}
-#### Beard selfies are a must
-
-Goofy homeless looking beards help get you noticed. Apparently Sktchy artists enjoy them because mine has managed to inspire a handful of drawings and sketches. Who knew?
-{% endnotice %}
+[[notice | Beard selfies are a must]]
+| Goofy homeless looking beards help get you noticed. Apparently Sktchy artists enjoy them because mine has managed to inspire a handful of drawings and sketches. Who knew?
 
 {% figure caption:"" class:"gallery-2-col" %}
 ![Inspiration tab on Sktchy](../../images/sktchy-inspiration-screenshot.jpg)
