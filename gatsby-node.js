@@ -1,7 +1,7 @@
+const _ = require('lodash')
 const { paginate } = require('gatsby-awesome-pagination')
 const { forEach, uniq, filter, not, isNil, flatMap } = require('rambdax')
 const path = require('path')
-const { toKebabCase } = require('./src/helpers')
 
 const pageTypeRegex = /src\/(.*?)\//
 const getType = node => node.fileAbsolutePath.match(pageTypeRegex)[1]
@@ -106,7 +106,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
         items: postsWithTag,
         component: tagsTemplate,
         itemsPerPage: siteMetadata.postsPerPage,
-        pathPrefix: `/tag/${toKebabCase(tag)}`,
+        pathPrefix: `/tag/${_.kebabCase(tag)}`,
         context: {
           tag,
         },

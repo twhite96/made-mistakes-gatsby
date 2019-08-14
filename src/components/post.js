@@ -1,9 +1,9 @@
+const _ = require('lodash')
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 import Navigation from './navigation'
-import { toKebabCase } from '../helpers'
 
 import style from '../styles/post.module.css'
 
@@ -35,7 +35,7 @@ const Post = ({
           {tags ? (
             <div className={style.tags}>
               {tags.map(tag => (
-                <Link to={`/tag/${toKebabCase(tag)}/`} key={toKebabCase(tag)}>
+                <Link to={`/tag/${_.kebabCase(tag)}/`} key={_.kebabCase(tag)}>
                   <span className={style.tag}>#{tag}</span>
                 </Link>
               ))}
