@@ -1,98 +1,140 @@
-const postCssPresetEnv = require(`postcss-preset-env`);
-const postCSSNested = require("postcss-nested");
-const postCSSUrl = require("postcss-url");
-const postCSSImports = require("postcss-import");
-const cssnano = require("cssnano");
-const postCSSMixins = require("postcss-mixins");
+const postCssPresetEnv = require(`postcss-preset-env`)
+const postCSSNested = require('postcss-nested')
+const postCSSUrl = require('postcss-url')
+const postCSSImports = require('postcss-import')
+const cssnano = require('cssnano')
+const postCSSMixins = require('postcss-mixins')
 
 module.exports = {
   siteMetadata: {
     title: `Made Mistakes`,
-    description: "Jekyll to Gatsby test.",
-    copyrights: "",
-    author: "@mmistakes",
+    description: 'Jekyll to Gatsby test.',
+    copyrights: '',
+    author: '@mmistakes',
     logo: {
-      src: "",
-      alt: "",
+      src: '',
+      alt: '',
     },
-    logoText: "Made Mistakes",
-    defaultTheme: "light",
+    logoText: 'Made Mistakes',
+    defaultTheme: 'light',
     postsPerPage: 10,
     showMenuItems: 2,
-    menuMoreText: "Show more",
+    menuMoreText: 'Show more',
     mainMenu: [
       {
-        title: "About",
-        path: "/about/",
+        title: 'About',
+        path: '/about/',
       },
       {
-        title: "Articles",
-        path: "/articles/",
+        title: 'Articles',
+        path: '/articles/',
       },
       {
-        title: "Contact",
-        path: "/contact/",
+        title: 'Contact',
+        path: '/contact/',
       },
       {
-        title: "FAQs",
-        path: "/faqs/",
+        title: 'FAQs',
+        path: '/faqs/',
       },
       {
-        title: "Mastering Paper",
-        path: "/mastering-paper/",
+        title: 'Mastering Paper',
+        path: '/mastering-paper/',
       },
       {
-        title: "Notes",
-        path: "/notes/",
+        title: 'Notes',
+        path: '/notes/',
       },
       {
-        title: "Sitemap",
-        path: "/sitemap/",
+        title: 'Sitemap',
+        path: '/sitemap/',
       },
       {
-        title: "Support",
-        path: "/support/",
+        title: 'Support',
+        path: '/support/',
       },
       {
-        title: "All Tags",
-        path: "/tag/",
+        title: 'All Tags',
+        path: '/tag/',
       },
       {
-        title: "Terms",
-        path: "/terms/",
+        title: 'Terms',
+        path: '/terms/',
       },
       {
-        title: "Work",
-        path: "/work/",
+        title: 'Work',
+        path: '/work/',
       },
     ],
   },
   plugins: [
-    "babel-preset-gatsby",
-    "gatsby-plugin-react-helmet",
+    'babel-preset-gatsby',
+    'gatsby-plugin-react-helmet',
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "images",
+        name: 'images',
         path: `${__dirname}/src/images`,
       },
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "posts",
-        path: `${__dirname}/src/posts`,
+        name: 'articles',
+        path: `${__dirname}/src/posts/articles`,
       },
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "pages",
+        name: 'mastering-paper',
+        path: `${__dirname}/src/posts/mastering-paper`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'notes',
+        path: `${__dirname}/src/posts/notes`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'paperfaces',
+        path: `${__dirname}/src/posts/paperfaces`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'procreate',
+        path: `${__dirname}/src/posts/procreate`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'tiny-paintings',
+        path: `${__dirname}/src/posts/tiny-paintings`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'work',
+        path: `${__dirname}/src/posts/work`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'pages',
         path: `${__dirname}/src/pages`,
       },
     },
     {
-      resolve: "gatsby-plugin-postcss",
+      resolve: 'gatsby-plugin-postcss',
       options: {
         postCssPlugins: [
           postCSSUrl(),
@@ -105,57 +147,57 @@ module.exports = {
             preserve: false,
           }),
           cssnano({
-            preset: "default",
+            preset: 'default',
           }),
         ],
       },
     },
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-sharp",
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
-      resolve: "gatsby-transformer-remark",
+      resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-embed-video",
+            resolve: 'gatsby-remark-embed-video',
             options: {
               related: false,
               noIframeBorder: true,
             },
           },
           {
-            resolve: "gatsby-remark-images",
+            resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 800,
               quality: 90,
               linkImagesToOriginal: true,
             },
           },
-          "gatsby-remark-copy-linked-files",
+          'gatsby-remark-copy-linked-files',
           {
-            resolve: "gatsby-remark-smartypants",
+            resolve: 'gatsby-remark-smartypants',
             options: {
-              dashes: "oldschool",
+              dashes: 'oldschool',
             },
           },
           {
-            resolve: "gatsby-remark-custom-blocks",
+            resolve: 'gatsby-remark-custom-blocks',
             options: {
               blocks: {
                 notice: {
-                  classes: "notice",
-                  title: "optional",
+                  classes: 'notice',
+                  title: 'optional',
                 },
               },
             },
           },
-          "gatsby-remark-emoji",
-          "gatsby-remark-abbr",
-          "gatsby-remark-numbered-footnotes",
+          'gatsby-remark-emoji',
+          'gatsby-remark-abbr',
+          'gatsby-remark-numbered-footnotes',
           {
-            resolve: "gatsby-remark-prismjs",
+            resolve: 'gatsby-remark-prismjs',
             options: {
-              classPrefix: "language-",
+              classPrefix: 'language-',
               inlineCodeMarker: null,
               aliases: {},
               showLineNumbers: false,
@@ -166,16 +208,16 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        name: "Made Mistakes",
-        short_name: "Made Mistakes",
-        start_url: "/",
-        background_color: "#292a2d",
-        theme_color: "#292a2d",
-        display: "minimal-ui",
-        icon: "src/images/hello-icon.png",
+        name: 'Made Mistakes',
+        short_name: 'Made Mistakes',
+        start_url: '/',
+        background_color: '#292a2d',
+        theme_color: '#292a2d',
+        display: 'minimal-ui',
+        icon: 'src/images/hello-icon.png',
       },
     },
   ],
-};
+}

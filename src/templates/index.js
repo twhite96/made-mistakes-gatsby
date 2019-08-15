@@ -19,15 +19,7 @@ const Index = ({ data, pageContext: { nextPagePath, previousPagePath } }) => {
           const {
             id,
             excerpt: autoExcerpt,
-            frontmatter: {
-              title,
-              date,
-              path,
-              author,
-              image,
-              excerpt,
-              tags,
-            },
+            frontmatter: { title, date, path, author, image, excerpt, tags },
           } = node
 
           return (

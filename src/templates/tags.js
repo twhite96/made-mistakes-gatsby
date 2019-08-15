@@ -28,15 +28,7 @@ const Tags = ({
           const {
             id,
             excerpt: autoExcerpt,
-            frontmatter: {
-              title,
-              date,
-              path,
-              author,
-              image,
-              excerpt,
-              tags,
-            },
+            frontmatter: { title, date, path, author, image, excerpt, tags },
           } = node
 
           return (

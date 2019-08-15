@@ -57,7 +57,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
     const posts = allNodes.filter(
       ({ internal, fileAbsolutePath }) =>
         internal.type === 'MarkdownRemark' &&
-        fileAbsolutePath.indexOf('/posts/') !== -1,
+        fileAbsolutePath.indexOf('/posts/') !== -1
     )
 
     // Create posts index with pagination
@@ -92,13 +92,13 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
     // Create tag pages
     const tags = filter(
       tag => not(isNil(tag)),
-      uniq(flatMap(post => post.frontmatter.tags, posts)),
+      uniq(flatMap(post => post.frontmatter.tags, posts))
     )
 
     forEach(tag => {
       const postsWithTag = posts.filter(
         post =>
-          post.frontmatter.tags && post.frontmatter.tags.indexOf(tag) !== -1,
+          post.frontmatter.tags && post.frontmatter.tags.indexOf(tag) !== -1
       )
 
       paginate({
@@ -120,7 +120,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
   })
 }
 
-exports.createSchemaCustomization  = ({ actions }) => {
+exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions
   const typeDefs = `
     type MarkdownRemark implements Node {
