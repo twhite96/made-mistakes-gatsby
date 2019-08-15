@@ -25,6 +25,46 @@ module.exports = {
         title: "About",
         path: "/about/",
       },
+      {
+        title: "Articles",
+        path: "/articles/",
+      },
+      {
+        title: "Contact",
+        path: "/contact/",
+      },
+      {
+        title: "FAQs",
+        path: "/faqs/",
+      },
+      {
+        title: "Mastering Paper",
+        path: "/mastering-paper/",
+      },
+      {
+        title: "Notes",
+        path: "/notes/",
+      },
+      {
+        title: "Sitemap",
+        path: "/sitemap/",
+      },
+      {
+        title: "Support",
+        path: "/support/",
+      },
+      {
+        title: "All Tags",
+        path: "/tag/",
+      },
+      {
+        title: "Terms",
+        path: "/terms/",
+      },
+      {
+        title: "Work",
+        path: "/work/",
+      },
     ],
   },
   plugins: [
