@@ -4,28 +4,44 @@ import { graphql } from 'gatsby'
 
 import SEO from '../components/seo'
 import Layout from '../components/layout'
-import Page from '../components/page'
+import Post from '../components/post'
 
-const PageTemplate = ({ data }) => {
+const PostTemplate = ({ data, pageContext }) => {
   const {
-    frontmatter: { title, path, image, excerpt },
+    frontmatter: { title, date, path, author, image, excerpt, tags },
     excerpt: autoExcerpt,
     id,
     html,
   } = data.markdownRemark
+  const { next, previous } = pageContext
 
   return (
     <Layout>
       <SEO title={title} description={excerpt || autoExcerpt} />
-      <Page key={id} title={title} path={path} image={image} html={html} />
+      <Post
+        key={id}
+        title={title}
+        date={date}
+        path={path}
+        author={author}
+        image={image}
+        html={html}
+        tags={tags}
+        previousPost={previous}
+        nextPost={next}
+      />
     </Layout>
   )
 }
 
-export default PageTemplate
+export default PostTemplate
 
-PageTemplate.propTypes = {
+PostTemplate.propTypes = {
   data: PropTypes.object.isRequired,
+  pageContext: PropTypes.shape({
+    next: PropTypes.object,
+    previous: PropTypes.object,
+  }),
 }
 
 export const pageQuery = graphql`
@@ -33,8 +49,11 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       frontmatter {
         title
+        date(formatString: "MMMM DD, YYYY")
         path
+        author
         excerpt
+        tags
         image {
           childImageSharp {
             fluid(maxWidth: 800) {
