@@ -1,4 +1,3 @@
-const _ = require('lodash')
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
@@ -6,6 +5,8 @@ import Img from 'gatsby-image'
 import Navigation from './navigation'
 
 import style from '../styles/post.module.css'
+
+const _ = require('lodash')
 
 const Post = ({
   title,

@@ -63,8 +63,7 @@ const SEO = ({ description, lang, meta, title }) => {
           name: `twitter:creator`,
           content: author,
         },
-      ]
-        .concat(meta)}
+      ].concat(meta)}
     />
   )
 }
