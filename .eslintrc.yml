@@ -11,13 +11,13 @@ parser: babel-eslint
 
 extends:
   - airbnb
-  - prettier
+  - plugin:prettier/recommended
 
 plugins:
+  - react
   - react-hooks
 
 rules:
-  # best practices
   arrow-parens:
     - 2
     - as-needed
@@ -42,10 +42,10 @@ rules:
   no-useless-escape: 0
   no-restricted-globals: 0
   func-names: 0
-  quotes:
-    - 2
-    - double
-    - allowTemplateLiterals: true
+  # quotes:
+  #   - 2
+  #   - double
+  #   - allowTemplateLiterals: true
   no-underscore-dangle: 0
   import/no-unresolved: 0
   import/extensions: 0
@@ -55,7 +55,6 @@ rules:
   operator-linebreak:
     - 2
     - after
-
   react/jsx-filename-extension: 0
   react/jsx-one-expression-per-line: 0
   react/forbid-prop-types: 0
@@ -63,9 +62,9 @@ rules:
   react/no-array-index-key: 0
   react/no-unescaped-entities: 0
   react/destructuring-assignment: 0
-
   react-hooks/rules-of-hooks: error
 
 globals:
+  graphql: true
   document: true
   requestAnimationFrame: true

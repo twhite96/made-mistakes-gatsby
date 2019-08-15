@@ -17,6 +17,7 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
+    "eslint-plugin-prettier": "^3.1.0",
     "gatsby": "^2.13.62",
     "gatsby-awesome-pagination": "^0.3.4",
     "gatsby-image": "^2.2.8",
@@ -34,6 +35,7 @@
     "gatsby-remark-numbered-footnotes": "^1.0.0",
     "gatsby-remark-prismjs": "^3.3.5",
     "gatsby-remark-smartypants": "^2.1.2",
+    "gatsby-remark-source-name": "^1.0.0",
     "gatsby-source-filesystem": "^2.1.9",
     "gatsby-transformer-remark": "^2.6.14",
     "gatsby-transformer-sharp": "^2.2.6",

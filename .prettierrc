@@ -1,6 +1,8 @@
 {
   "printWidth": 80,
-  "trailingComma": "all",
+  "trailingComma": "es5",
+  "semi": false,
+  "singleQuote": true,
   "overrides": [
     {
       "files": "*.{css,scss}",
@@ -20,6 +22,5 @@
         "parser": "html"
       }
     }
-  ],
-  "parser": "babylon"
+  ]
 }
