@@ -8,9 +8,9 @@ const postCSSMixins = require("postcss-mixins");
 module.exports = {
   siteMetadata: {
     title: `Made Mistakes`,
-    description: `Jekyll to Gatsby test.`,
+    description: "Jekyll to Gatsby test.",
     copyrights: "",
-    author: `@mmistakes`,
+    author: "@mmistakes",
     logo: {
       src: "",
       alt: "",
@@ -68,31 +68,31 @@ module.exports = {
     ],
   },
   plugins: [
-    `babel-preset-gatsby`,
-    `gatsby-plugin-react-helmet`,
+    "babel-preset-gatsby",
+    "gatsby-plugin-react-helmet",
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: `images`,
+        name: "images",
         path: `${__dirname}/src/images`,
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: `posts`,
+        name: "posts",
         path: `${__dirname}/src/posts`,
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: `pages`,
+        name: "pages",
         path: `${__dirname}/src/pages`,
       },
     },
     {
-      resolve: `gatsby-plugin-postcss`,
+      resolve: "gatsby-plugin-postcss",
       options: {
         postCssPlugins: [
           postCSSUrl(),
@@ -110,26 +110,28 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
           {
-            resolve: `gatsby-remark-embed-video`,
+            resolve: "gatsby-remark-embed-video",
             options: {
               related: false,
               noIframeBorder: true,
             },
           },
           {
-            resolve: `gatsby-remark-images`,
+            resolve: "gatsby-remark-images",
             options: {
               maxWidth: 800,
-              quality: 100,
+              quality: 90,
+              linkImagesToOriginal: true,
             },
           },
+          "gatsby-remark-copy-linked-files",
           {
             resolve: "gatsby-remark-smartypants",
             options: {
@@ -137,12 +139,12 @@ module.exports = {
             },
           },
           {
-            resolve: `gatsby-remark-custom-blocks`,
+            resolve: "gatsby-remark-custom-blocks",
             options: {
               blocks: {
                 notice: {
-                  classes: `notice`,
-                  title: `optional`,
+                  classes: "notice",
+                  title: "optional",
                 },
               },
             },
@@ -151,7 +153,7 @@ module.exports = {
           "gatsby-remark-abbr",
           "gatsby-remark-numbered-footnotes",
           {
-            resolve: `gatsby-remark-prismjs`,
+            resolve: "gatsby-remark-prismjs",
             options: {
               classPrefix: "language-",
               inlineCodeMarker: null,
