@@ -42,7 +42,7 @@ Page.propTypes = {
   path: PropTypes.string,
   image: PropTypes.object,
   excerpt: PropTypes.string,
-  html: PropTypes.string
+  html: PropTypes.string,
 }
 
 export default Page

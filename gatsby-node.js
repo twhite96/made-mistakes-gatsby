@@ -3,9 +3,6 @@ const { paginate } = require('gatsby-awesome-pagination')
 const { forEach, uniq, filter, not, isNil, flatMap } = require('rambdax')
 const path = require('path')
 
-const pageTypeRegex = /src\/(.*?)\//
-const getType = node => node.fileAbsolutePath.match(pageTypeRegex)[1]
-
 const postTemplate = path.resolve(`./src/templates/post.js`)
 const pageTemplate = path.resolve(`./src/templates/page.js`)
 const indexTemplate = path.resolve(`./src/templates/index.js`)
@@ -63,16 +60,8 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
     }
 
     const {
-      //   allMarkdownRemark: { edges: markdownPages },
       site: { siteMetadata },
     } = result.data
-
-    // const sortedPages = markdownPages.sort((pageA, pageB) => {
-    //   const typeA = getType(pageA.node)
-    //   const typeB = getType(pageB.node)
-
-    //   return (typeA > typeB) - (typeA < typeB)
-    // })
 
     const postsNodes = allNodes.filter(
       ({ internal, fileAbsolutePath }) =>
@@ -80,11 +69,6 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
         fileAbsolutePath.indexOf('/posts/') !== -1
     )
     const posts = result.data.posts.edges
-    const pagesNodes = allNodes.filter(
-      ({ internal, fileAbsolutePath }) =>
-        internal.type === 'MarkdownRemark' &&
-        fileAbsolutePath.indexOf('/pages/') !== -1
-    )
     const pages = result.data.pages.edges
 
     // Create posts index with pagination
@@ -95,26 +79,6 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
       itemsPerPage: siteMetadata.postsPerPage,
       pathPrefix: '/',
     })
-
-    // Create each markdown page and post
-    // forEach(({ node }, index) => {
-    //   const previous = index === 0 ? null : sortedPages[index - 1].node
-    //   const next =
-    //     index === sortedPages.length - 1 ? null : sortedPages[index + 1].node
-    //   const isNextSameType = getType(node) === (next && getType(next))
-    //   const isPreviousSameType =
-    //     getType(node) === (previous && getType(previous))
-
-    //   createPage({
-    //     path: node.frontmatter.path,
-    //     component: pageTemplate,
-    //     context: {
-    //       type: getType(node),
-    //       next: isNextSameType ? next : null,
-    //       previous: isPreviousSameType ? previous : null,
-    //     },
-    //   })
-    // }, sortedPages)
 
     // Create Markdown posts
     posts.forEach(({ node }, index) => {
@@ -163,7 +127,6 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
     }, tags)
 
     return {
-      // sortedPages,
       tags,
     }
   })
