@@ -100,8 +100,8 @@ module.exports = {
           postCSSMixins(),
           postCSSNested(),
           postCssPresetEnv({
-            importFrom: "src/styles/variables.css",
-            stage: 1,
+            importFrom: 'src/styles/variables.css',
+            stage: 2,
             preserve: false,
           }),
           cssnano({
