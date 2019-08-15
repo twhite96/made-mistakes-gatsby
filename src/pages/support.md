@@ -11,14 +11,14 @@ The tutorials, Jekyll themes, and other articles I publish have been a true labo
 
 ## Send a donation
 
-If you'd like to support me so I can continue to provide free content and themes --- hit one of the buttons below. I accept PayPal, Square Cash, and Bitcoin: [`1KvHBVXcbeWhwcSRJQdcwVsUZBYnyH5enw`](/assets/images/bitcoin-qr.png "Bitcoin QR code").
+If you'd like to support me so I can continue to provide free content and themes --- hit one of the buttons below. I accept PayPal, Square Cash, and Bitcoin: [`1KvHBVXcbeWhwcSRJQdcwVsUZBYnyH5enw`](../images/bitcoin-qr.png "Bitcoin QR code").
 
 <div markdown="0" class="btn--group">
   <a href="https://www.paypal.me/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send PayPal');" title="Send PayPal" class="btn">
     <svg class="icon icon--paypal" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-paypal' | prepend: 'assets/icons/' | relative_url }}"></use></svg> PayPal.me
   </a>
   <a href="https://cash.me/$mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send Square Cash');" title="Send Square Cash" class="btn">Square Cash</a>
-  <a href="/assets/images/bitcoin-qr.png" onclick="ga('send', 'event', 'link', 'click', 'Send Bitcoin');" class="btn" title="1KvHBVXcbeWhwcSRJQdcwVsUZBYnyH5enw">Bitcoin (BTC)</a>
+  <a href="../images/bitcoin-qr.png" onclick="ga('send', 'event', 'link', 'click', 'Send Bitcoin');" class="btn" title="1KvHBVXcbeWhwcSRJQdcwVsUZBYnyH5enw">Bitcoin (BTC)</a>
 </div>
 
 ## Buy something
@@ -54,15 +54,15 @@ If these sorts of things interest you, follow along on:
 
 The main feed[^feed] for everything on Made Mistakes.
 
-- Atom: [{{ 'atom.xml' | relative_url }}]({{ 'atom.xml' | relative_url }})
-- JSON: [{{ 'feed.json' | relative_url }}]({{ 'feed.json' | relative_url }})
+- Atom: [atom.xml]({/atom.xml)
+- JSON: [feed.json](/feed.json)
 
 ### Feeds by topic
 
-- Blog articles: [{{ 'articles.xml' | relative_url }}]({{ 'articles.xml' | relative_url }})
-- Notes: [{{ 'notes.xml' | relative_url }}]({{ 'notes.xml' | relative_url }})
-- Paper for iOS tutorials: [{{ 'mastering-paper.xml' | relative_url }}]({{ 'mastering-paper.xml' | relative_url }})
-- PaperFaces iPad portraits: [{{ 'paperfaces.xml' | relative_url }}]({{ 'paperfaces.xml' | relative_url }})
-- Procreate iPad paintings: [{{ 'procreate-paintings.xml' | relative_url }}]({{ 'procreate-paintings.xml' | relative_url }})
+- Blog articles: [articles.xml](/articles.xml)
+- Notes: [notes.xml](/notes.xml)
+- Paper for iOS tutorials: [mastering-paper.xml](/mastering-paper.xml)
+- PaperFaces iPad portraits: [paperfaces.xml](/paperfaces.xml)
+- Procreate iPad paintings: [procreate-paintings.xml](/procreate-paintings.xml)
 
 [^feed]: Right click any of the feed links found on this page and add to your feed reader of choice. My favorite is [feedly](https://feedly.com), which syncs your subscriptions across all browsers and mobile devices.

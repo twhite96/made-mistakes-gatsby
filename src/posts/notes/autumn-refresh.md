@@ -23,7 +23,7 @@ In [Made Mistakes v12](https://github.com/mmistakes/made-mistakes-jekyll/release
 
 <figure>
   <p class="browser-frame">
-    <img src="/assets/images/mm-desktop-design-old.jpg" alt="Made Mistakes design before the refresh">
+    <img src="../../images/mm-desktop-design-old.jpg" alt="Made Mistakes design before the refresh">
   </p>
   <figcaption>Site design before the refresh.</figcaption>
 </figure>
@@ -32,7 +32,7 @@ Since majority of the visitors to my site use modern browsers, I had a good excu
 
 <figure>
   <p class="browser-frame">
-    <img src="/assets/images/mm-desktop-design-new.jpg" alt="Made Mistakes design after the refresh">
+    <img src="../../images/mm-desktop-design-new.jpg" alt="Made Mistakes design after the refresh">
   </p>
   <figcaption>Site design after the refresh.</figcaption>
 </figure>
@@ -43,7 +43,6 @@ To my eye this new layout breaks up the page better. Content comes into view ear
 | ![Firefox Grid Inspector screenshot](../../images/firefox-grid-inspector-screenshot.jpg)
 
 Out of all the major browsers, Firefox's [**Grid Inspector**](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Examine_grid_layouts) is argubly the best for examining, modifying, or debugging grid layouts.
-{% endnotice %}
 
 ## Accessibility improvements
 

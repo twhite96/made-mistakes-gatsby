@@ -4,7 +4,7 @@ path: /about/
 date: 2016-08-26
 last_modified_at: 2018-03-22T10:19:56-04:00
 excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo New York."
-image: ../../images/about-michael-collage-2016.jpg
+image: ../images/about-michael-collage-2016.jpg
 toc: true
 ---
 
@@ -18,14 +18,12 @@ When I'm not drawing on my iPad or releasing open source [Jekyll themes](/work/j
 
 And if that wasn't enough to keep me busy --- I'm also the father of [twin girls](/tag/twins/) and married to a [subscription box addicted vegan](https://2littlerosebuds.com "Wendy Rose").
 
-{% figure class:"gallery-2-col" caption:"Self portrait and my 2 little rosebuds drawn with Paper by FiftyThree." %}
-[![Michael Rose self portrait](/assets/images/michael-rose-paper-portrait-sidebar.jpg)]({% post_url /paperfaces/2014-05-19-mmistakes-2-portrait %})
-[![Everly and Chloe drawing](/assets/images/paperfaces-rosebuds-2-900.jpg)]({% post_url /paperfaces/2014-08-03-rosebuds-2-portrait %})
-{% endfigure %}
+[![Michael Rose self portrait](../images/michael-rose-paper-portrait-sidebar.jpg)](/paperfaces/mmistakes-2-portrait/)
+[![Everly and Chloe drawing](../images/paperfaces-rosebuds-2-900.jpg)](/paperfaces/rosebuds-2-portrait/)
+_"Self portrait and my 2 little rosebuds drawn with Paper by FiftyThree."_
 
-{% figure caption:"My tattoos are a mess of line and words. Don't ask me to explain them --- because I can't." %}
-![Michael Rose's tattoos](/assets/images/michael-rose-tattoos.png)
-{% endfigure %}
+![Michael Rose's tattoos](../images/michael-rose-tattoos.png)
+_"My tattoos are a mess of line and words. Don't ask me to explain them --- because I can't."_
 
 ## About the site
 
