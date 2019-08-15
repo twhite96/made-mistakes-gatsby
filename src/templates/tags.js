@@ -59,6 +59,7 @@ const Tags = ({
 Tags.propTypes = {
   data: PropTypes.object.isRequired,
   pageContext: PropTypes.shape({
+    tag: PropTypes.string,
     nextPagePath: PropTypes.string,
     previousPagePath: PropTypes.string,
   }),
