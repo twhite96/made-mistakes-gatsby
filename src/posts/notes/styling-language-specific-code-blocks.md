@@ -21,16 +21,15 @@ While inspecting the markup of some syntax highlighted code blocks I noticed som
 
 This extra hook[^syntax-highlighting-lang] on the `<div>` element opens up some interesting styling possibilities. A fun use case for this is styling code blocks to look like terminal windows. Simply use `terminal`[^terminal-lexer] as the language/lexer like so:
 
-<div class="highlighter-rouge">
-<pre class="highlight"><code>```shell
-
-```</code></pre>
-</div>
+````
+```terminal
+```
+````
 
 Add the following Sass to your site's stylesheet:
 
 ```scss
-$terminal-window-
+$terminal-window-height: 30px;
 
 .language-terminal {
   position: relative;
