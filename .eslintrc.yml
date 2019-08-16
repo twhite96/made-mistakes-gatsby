@@ -54,7 +54,6 @@ rules:
   object-curly-newline: 0
   operator-linebreak:
     - 2
-    - after
   react/jsx-filename-extension: 0
   react/jsx-one-expression-per-line: 0
   react/forbid-prop-types: 0
