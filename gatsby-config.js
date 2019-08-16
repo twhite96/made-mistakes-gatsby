@@ -220,17 +220,17 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: 'gatsby-plugin-manifest',
-      options: {
-        name: 'Made Mistakes',
-        short_name: 'Made Mistakes',
-        start_url: '/',
-        background_color: '#292a2d',
-        theme_color: '#292a2d',
-        display: 'minimal-ui',
-        icon: 'src/images/hello-icon.png',
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-manifest',
+    //   options: {
+    //     name: site.title,
+    //     short_name: site.titleAlt,
+    //     start_url: '/',
+    //     background_color: site.backgroundColor,
+    //     theme_color: site.themeColor,
+    //     display: 'standalone',
+    //     icon: site.favicon,
+    //   },
+    // },
   ],
 }
