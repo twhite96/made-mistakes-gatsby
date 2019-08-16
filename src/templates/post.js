@@ -5,19 +5,38 @@ import { graphql } from 'gatsby'
 import SEO from '../components/seo'
 import Layout from '../components/layout'
 import Post from '../components/post'
+import site from '../../config/site'
 
 const PostTemplate = ({ data, pageContext }) => {
   const {
-    frontmatter: { title, date, path, author, image, excerpt, tags },
+    frontmatter: {
+      title,
+      date,
+      last_modified_at,
+      path,
+      author,
+      image,
+      excerpt,
+      tags,
+    },
     excerpt: autoExcerpt,
     id,
     html,
   } = data.markdownRemark
   const { next, previous } = pageContext
+  const metaImage = image ? image.childImageSharp.fixed : site.image
 
   return (
     <Layout>
-      <SEO title={title} description={excerpt || autoExcerpt} />
+      <SEO
+        title={`${title} | ${site.titleAlt}`}
+        path={path}
+        datePublished={date}
+        dateModified={last_modified_at}
+        description={excerpt || autoExcerpt}
+        metaImage={metaImage}
+        article
+      />
       <Post
         key={id}
         title={title}
@@ -50,6 +69,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        last_modified_at(formatString: "MMMM DD, YYYY")
         path
         author
         excerpt
@@ -58,6 +78,11 @@ export const pageQuery = graphql`
           childImageSharp {
             fluid(maxWidth: 800) {
               ...GatsbyImageSharpFluid
+            }
+            fixed(width: 1000) {
+              src
+              height
+              width
             }
           }
         }

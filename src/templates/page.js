@@ -5,10 +5,11 @@ import { graphql } from 'gatsby'
 import SEO from '../components/seo'
 import Layout from '../components/layout'
 import Page from '../components/page'
+import site from '../../config/site'
 
 const PageTemplate = ({ data }) => {
   const {
-    frontmatter: { title, path, image, excerpt },
+    frontmatter: { title, date, last_modified_at, path, image, excerpt },
     excerpt: autoExcerpt,
     id,
     html,
@@ -16,7 +17,15 @@ const PageTemplate = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title={title} description={excerpt || autoExcerpt} />
+      <SEO
+        title={`${title} | ${site.titleAlt}`}
+        path={path}
+        datePublished={date}
+        dateModified={last_modified_at}
+        description={excerpt || autoExcerpt}
+        metaImage={image.childImageSharp.fixed}
+        article
+      />
       <Page key={id} title={title} path={path} image={image} html={html} />
     </Layout>
   )
@@ -33,12 +42,19 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       frontmatter {
         title
+        date(formatString: "MMMM DD, YYYY")
+        last_modified_at(formatString: "MMMM DD, YYYY")
         path
         excerpt
         image {
           childImageSharp {
             fluid(maxWidth: 800) {
               ...GatsbyImageSharpFluid
+            }
+            fixed(width: 1000) {
+              src
+              height
+              width
             }
           }
         }

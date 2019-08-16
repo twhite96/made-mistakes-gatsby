@@ -6,14 +6,34 @@ import Layout from '../components/layout'
 import Post from '../components/post'
 import Navigation from '../components/navigation'
 
-const Index = ({ data, pageContext: { nextPagePath, previousPagePath } }) => {
+import site from '../../config/site'
+
+const Index = ({
+  data,
+  pageContext: {
+    nextPagePath,
+    previousPagePath,
+    humanPageNumber,
+    numberOfPages,
+  },
+}) => {
   const {
     allMarkdownRemark: { edges: posts },
   } = data
+  const paginationTitle =
+    humanPageNumber === 1
+      ? ''
+      : ` - Page ${humanPageNumber} of ${numberOfPages}`
+  const metaImage = site.image
 
   return (
     <>
-      <SEO />
+      <SEO
+        title={`${site.title}${paginationTitle}`}
+        path="/"
+        description={site.description}
+        metaImage={metaImage}
+      />
       <Layout>
         {posts.map(({ node }) => {
           const {

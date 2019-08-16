@@ -72,12 +72,14 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
     const pages = result.data.pages.edges
 
     // Create posts index with pagination
+    const indexPrefix = ({ pageNumber }) => (pageNumber === 0 ? '/' : '/page')
+
     paginate({
       createPage,
       items: postsNodes,
       component: indexTemplate,
       itemsPerPage: siteMetadata.postsPerPage,
-      pathPrefix: '/',
+      pathPrefix: indexPrefix,
     })
 
     // Create Markdown posts
@@ -114,12 +116,17 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
           post.frontmatter.tags && post.frontmatter.tags.indexOf(tag) !== -1
       )
 
+      const tagPrefix = ({ pageNumber }) =>
+        pageNumber === 0
+          ? `/tag/${_.kebabCase(tag)}`
+          : `/tag/${_.kebabCase(tag)}/page`
+
       paginate({
         createPage,
         items: postsWithTag,
         component: tagsTemplate,
         itemsPerPage: siteMetadata.postsPerPage,
-        pathPrefix: `/tag/${_.kebabCase(tag)}`,
+        pathPrefix: tagPrefix,
         context: {
           tag,
         },
@@ -141,6 +148,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Frontmatter {
       title: String!
       date: Date @dateformat
+      last_modified_at: Date @dateformat
       author: String
       path: String!
       tags: [String!]

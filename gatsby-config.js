@@ -5,17 +5,29 @@ const postCSSImports = require('postcss-import')
 const cssnano = require('cssnano')
 const postCSSMixins = require('postcss-mixins')
 
+const site = require('./config/site')
+
 module.exports = {
   siteMetadata: {
-    title: `Made Mistakes`,
-    description: 'Jekyll to Gatsby test.',
-    copyrights: '',
-    author: '@mmistakes',
+    siteUrl: `${site.url}/`,
+    title: site.title,
+    titleAlt: site.titleAlt,
+    description: site.description,
+    image: site.image,
+    headline: site.headline,
+    siteLanguage: site.siteLanguage,
+    ogLanguage: site.ogLanguage,
+    author: site.author,
+    twitter: site.twitter,
+    facebook: site.facebook,
+
+    // Starter config
+    logoText: 'Made Mistakes',
     logo: {
       src: '',
       alt: '',
     },
-    logoText: 'Made Mistakes',
+    copyrights: '',
     defaultTheme: 'light',
     postsPerPage: 10,
     showMenuItems: 2,

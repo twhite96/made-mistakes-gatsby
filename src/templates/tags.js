@@ -6,19 +6,37 @@ import Layout from '../components/layout'
 import Post from '../components/post'
 import Navigation from '../components/navigation'
 
+import site from '../../config/site'
+
 import '../styles/layout.css'
 
 const Tags = ({
   data,
-  pageContext: { nextPagePath, previousPagePath, tag },
+  pageContext: {
+    nextPagePath,
+    previousPagePath,
+    humanPageNumber,
+    numberOfPages,
+    tag,
+  },
 }) => {
   const {
     allMarkdownRemark: { edges: posts },
   } = data
+  const paginationTitle =
+    humanPageNumber === 1
+      ? ''
+      : ` - Page ${humanPageNumber} of ${numberOfPages}`
+  const metaImage = site.image
 
   return (
     <>
-      <SEO title={tag} />
+      <SEO
+        title={`${tag}${paginationTitle} - ${site.title}`}
+        path="/"
+        description={site.description}
+        metaImage={metaImage}
+      />
       <Layout>
         <div className="infoBanner">
           Posts with tag: <span>#{tag}</span>
