@@ -80,19 +80,6 @@ const SEO = ({
     },
   }
 
-  // Initial breadcrumb list
-
-  const itemListElement = [
-    {
-      '@type': 'ListItem',
-      item: {
-        '@id': siteUrl,
-        name: 'Homepage',
-      },
-      position: 1,
-    },
-  ]
-
   let schemaArticle = null
 
   if (article) {
@@ -128,23 +115,6 @@ const SEO = ({
       },
       mainEntityOfPage: seo.url,
     }
-    // Push current blogpost into breadcrumb list
-    itemListElement.push({
-      '@type': 'ListItem',
-      item: {
-        '@id': seo.url,
-        name: seo.title,
-      },
-      position: 2,
-    })
-  }
-
-  const breadcrumb = {
-    '@context': 'http://schema.org',
-    '@type': 'BreadcrumbList',
-    description: 'Breadcrumbs list',
-    name: 'Breadcrumbs',
-    itemListElement,
   }
 
   return (
@@ -153,7 +123,7 @@ const SEO = ({
         <html lang={siteLanguage} />
         <meta name="description" content={seo.description} />
         <meta name="image" content={seo.image} />
-        {/* Insert schema.org data conditionally (webpage/article) + everytime (breadcrumbs) */}
+        {/* Insert schema.org data conditionally (webpage/article) */}
         {!article && (
           <script type="application/ld+json">
             {JSON.stringify(schemaOrgWebPage)}
@@ -164,13 +134,10 @@ const SEO = ({
             {JSON.stringify(schemaArticle)}
           </script>
         )}
-        <script type="application/ld+json">{JSON.stringify(breadcrumb)}</script>
       </Helmet>
       <Facebook
         description={seo.description}
         image={seo.image}
-        // width={metaImage.width}
-        // height={metaImage.height}
         title={seo.title}
         type={article ? 'article' : 'website'}
         url={seo.url}

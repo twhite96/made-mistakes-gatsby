@@ -1,17 +1,25 @@
 import { graphql, Link } from 'gatsby'
-const _ = require('lodash')
 import React from 'react'
-
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
+import site from '../../config/site'
+
+const _ = require('lodash')
+
+const metaImage = site.image
 const TagsPage = ({
   data: {
-    allMarkdownRemark: { group }
+    allMarkdownRemark: { group },
   },
 }) => (
   <Layout>
-    <SEO title="All tags" />
+    <SEO
+      title={`All tags | ${site.titleAlt}`}
+      path="/tags/"
+      description="An archive of posts organized by topic."
+      metaImage={metaImage}
+    />
     <h1>All tags</h1>
     <ul>
       {group.map(tag => (

@@ -14,6 +14,7 @@ const PageTemplate = ({ data }) => {
     id,
     html,
   } = data.markdownRemark
+  const metaImage = image ? image.childImageSharp.fixed : site.image
 
   return (
     <Layout>
@@ -23,7 +24,7 @@ const PageTemplate = ({ data }) => {
         datePublished={date}
         dateModified={last_modified_at}
         description={excerpt || autoExcerpt}
-        metaImage={image.childImageSharp.fixed}
+        metaImage={metaImage}
         article
       />
       <Page key={id} title={title} path={path} image={image} html={html} />
