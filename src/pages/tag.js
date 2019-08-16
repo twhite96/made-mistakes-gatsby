@@ -16,7 +16,7 @@ const TagsPage = ({
   <Layout>
     <SEO
       title={`All tags | ${site.titleAlt}`}
-      path="/tags/"
+      path="/tag/"
       description="An archive of posts organized by topic."
       metaImage={metaImage}
     />

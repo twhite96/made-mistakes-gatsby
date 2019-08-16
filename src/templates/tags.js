@@ -10,6 +10,8 @@ import site from '../../config/site'
 
 import '../styles/layout.css'
 
+const _ = require('lodash')
+
 const Tags = ({
   data,
   pageContext: {
@@ -33,7 +35,7 @@ const Tags = ({
     <>
       <SEO
         title={`${tag}${paginationTitle} - ${site.title}`}
-        path="/"
+        path={`/tag/${_.kebabCase(tag)}/`}
         description={site.description}
         metaImage={metaImage}
       />
