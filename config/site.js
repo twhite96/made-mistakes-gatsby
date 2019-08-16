@@ -16,6 +16,6 @@ module.exports = {
   backgroundColor: '#000000',
 
   twitter: '@mmistakes', // Twitter username
-  facebook: 'michael-rose', // Facebook site name
+  facebook: 'Made Mistakes', // Facebook site name
   googleAnalyticsID: '',
 }
