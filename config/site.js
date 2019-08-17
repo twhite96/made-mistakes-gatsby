@@ -9,7 +9,7 @@ module.exports = {
   ogLanguage: 'en_US', // Facebook Language
 
   // JSONLD / Manifest
-  favicon: 'src/images/android-chrome-384x384.png', // Used for manifest favicon generation
+  favicon: 'src/images/made-mistakes-logo.png', // Used for manifest favicon generation
   shortName: 'Made Mistakes', // shortname for manifest. MUST be shorter than 12 characters
   author: 'Michael Rose', // Author for schema.org JSONLD
   themeColor: '#ffffff',
