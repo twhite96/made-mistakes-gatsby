@@ -29,7 +29,7 @@ const PostTemplate = ({ data, pageContext }) => {
   return (
     <Layout>
       <SEO
-        title={`${title} | ${site.titleAlt}`}
+        title={`${title} - ${site.titleAlt}`}
         path={path}
         datePublished={date}
         dateModified={last_modified_at}
