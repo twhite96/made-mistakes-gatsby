@@ -1,4 +1,5 @@
 import { graphql, Link } from 'gatsby'
+import PropTypes from 'prop-types'
 import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -34,15 +35,19 @@ const TagsPage = ({
   </Layout>
 )
 
-export default TagsPage
+TagsPage.propTypes = {
+  data: PropTypes.object.isRequired,
+}
 
 export const pageQuery = graphql`
   query TagsQuery {
     allMarkdownRemark {
-      group(field: frontmatter___tags) {
+      group(field: frontmatter___tags___id) {
         fieldValue
         totalCount
       }
     }
   }
 `
+
+export default TagsPage

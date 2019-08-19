@@ -28,16 +28,16 @@ const Post = ({
   return (
     <div className={style.post}>
       <div className={style.postContent}>
-        <h1 className={style.title}>
+        <h2 className={style.title}>
           {excerpt ? <Link to={path}>{title}</Link> : title}
-        </h1>
+        </h2>
         <div className={style.meta}>
           {date} {author && <>— Written by {author}</>}
           {tags ? (
             <div className={style.tags}>
               {tags.map(tag => (
-                <Link to={`/tag/${_.kebabCase(tag)}/`} key={_.kebabCase(tag)}>
-                  <span className={style.tag}>#{tag}</span>
+                <Link to={`/tag/${_.kebabCase(tag.id)}/`} key={_.kebabCase(tag.id)}>
+                  <span className={style.tag}>#{tag.id}</span>
                 </Link>
               ))}
             </div>
@@ -82,7 +82,7 @@ Post.propTypes = {
   author: PropTypes.string,
   excerpt: PropTypes.string,
   html: PropTypes.string,
-  tags: PropTypes.arrayOf(PropTypes.string),
+  tags: PropTypes.array,
   previousPost: PropTypes.object,
   nextPost: PropTypes.object,
 }

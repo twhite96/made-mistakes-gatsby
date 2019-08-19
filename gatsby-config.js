@@ -82,6 +82,7 @@ module.exports = {
   plugins: [
     'babel-preset-gatsby',
     'gatsby-plugin-react-helmet',
+    'gatsby-transformer-yaml',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -220,17 +221,20 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: 'gatsby-plugin-manifest',
-      options: {
-        name: site.title,
-        short_name: site.titleAlt,
-        start_url: '/',
-        background_color: site.backgroundColor,
-        theme_color: site.themeColor,
-        display: 'standalone',
-        icon: site.favicon,
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-manifest',
+    //   options: {
+    //     name: site.title,
+    //     short_name: site.titleAlt,
+    //     start_url: '/',
+    //     background_color: site.backgroundColor,
+    //     theme_color: site.themeColor,
+    //     display: 'standalone',
+    //     icon: site.favicon,
+    //   },
+    // },
   ],
+  mapping: {
+    'MarkdownRemark.frontmatter.tags': `TaxonomyYaml`,
+  },
 }

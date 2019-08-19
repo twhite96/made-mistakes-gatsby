@@ -23,6 +23,7 @@ const Tags = ({
   },
 }) => {
   const {
+    taxonomyYaml: { description },
     allMarkdownRemark: { edges: posts },
   } = data
   const paginationTitle =
@@ -43,6 +44,7 @@ const Tags = ({
         <div className="infoBanner">
           Posts with tag: <span>#{tag}</span>
         </div>
+        <div>{description}</div>
 
         {posts.map(({ node }) => {
           const {
@@ -79,16 +81,23 @@ const Tags = ({
 Tags.propTypes = {
   data: PropTypes.object.isRequired,
   pageContext: PropTypes.shape({
-    tag: PropTypes.string,
+    id: PropTypes.string,
+    description: PropTypes.string,
     nextPagePath: PropTypes.string,
     previousPagePath: PropTypes.string,
+    humanPageNumber: PropTypes.number,
+    numberOfPages: PropTypes.number,
   }),
 }
 
 export const postsQuery = graphql`
   query($limit: Int!, $skip: Int!, $tag: String!) {
+    taxonomyYaml(id: {eq: $tag}) {
+      id
+      description
+    }
     allMarkdownRemark(
-      filter: { frontmatter: { tags: { in: [$tag] } } }
+      filter: { frontmatter: { tags: { elemMatch: { id: { eq: $tag } } } } }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip
@@ -103,7 +112,10 @@ export const postsQuery = graphql`
             path
             author
             excerpt
-            tags
+            tags {
+              id
+              description
+            }
             image {
               childImageSharp {
                 fluid(maxWidth: 800) {

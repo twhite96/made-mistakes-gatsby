@@ -5,7 +5,12 @@ module.exports = {
   description: 'Personal website of designer Michael Rose (@mmistakes).',
   url: 'https://mademistakes.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
-  image: '/images/made-mistakes-logo.png', // Used for SEO, relative to /static/ folder
+  image: {
+    // Used for SEO, relative to /static/ folder
+    src: '/images/made-mistakes-logo.png',
+    width: 384,
+    height: 384,
+  },
   ogLanguage: 'en_US', // Facebook Language
 
   // JSONLD / Manifest
