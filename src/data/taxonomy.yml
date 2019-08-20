@@ -1,113 +1,152 @@
 - id: Apple
-  description: ""
+  excerpt:
+  html:
 
 - id: beard
-  description: ""
+  excerpt:
+  html:
 
 - id: black and white
-  description: ""
+  excerpt:
+  html:
 
 - id: bokeh
-  description: ""
+  excerpt:
+  html:
 
 - id: Buffalo
-  description: ""
+  excerpt:
+  html:
 
 - id: design
-  description: ""
+  excerpt:
+  html:
 
 - id: Gatsby
-  description: "An archive of posts related to [**Gatsby**](https://www.gatsbyjs.org) --- a framework based on React that helps developers build blazing fast websites and apps."
+  excerpt: An archive of posts related to Gatsby, a framework based on React that helps developers build blazing fast websites and apps.
+  html: |
+    <p>An archive of posts related to <a href="https://www.gatsbyjs.org"><strong>Gatsby</strong></a>, a framework based on React that helps developers build blazing fast websites and apps.</p>
 
 - id: GitHub
-  description: ""
+  excerpt:
+  html:
 
 - id: illustration
-  description: ""
+  excerpt:
+  html:
 
 - id: Inktober
-  description: ""
+  excerpt:
+  html:
 
 - id: inspiration
-  description: ""
+  excerpt:
+  html:
 
 - id: iPhone
-  description: ""
+  excerpt:
+  html:
 
 - id: Jekyll
-  description: "An archive of posts related to [**Jekyll**](https://jekyllrb.com) --- a Ruby Gem that transforms plain text into static websites and blogs."
+  excerpt: An archive of posts related to Jekyll, a Ruby Gem that transforms plain text into static websites and blogs.
+  html: |
+    <p>An archive of posts related to <a href="https://jekyllrb.com"><strong>Jekyll</strong></a>, a Ruby Gem that transforms plain text into static websites and blogs.</p>
 
 - id: life
-  description: ""
+  excerpt:
+  html:
 
 - id: Netlify
-  description: ""
+  excerpt:
+  html:
 
 - id: open source
-  description: ""
+  excerpt:
+  html:
 
 - id: Palm Pre
-  description: ""
+  excerpt:
+  html:
 
 - id: Paper for iOS
-  description: "A collection of art created on iPad with the iOS app **Paper by WeTransfer**. Tutorials and other learnings related to my [**Mastering Paper**](/mastering-paper/) series are also included."
-
-- id: Paper by FiftyThree
-  description: "A collection of art created on iPad with the iOS app **Paper by WeTransfer**. Tutorials and other learnings related to my [**Mastering Paper**](/mastering-paper/') series are also included."
+  excerpt: A collection of art created on iPad with the iOS app Paper by WeTransfer. Tutorials and other learnings related to my Mastering Paper series are also included.
+  html: |
+    <p>A collection of art created on iPad with the iOS app <strong>Paper by WeTransfer</strong>. Tutorials and other learnings related to my <a href="/mastering-paper">Mastering Paper</a> series are also included.</p>
 
 - id: Pencil by 53
-  description: ""
+  excerpt:
+  html:
 
 - id: Pogo Connect
-  description: ""
+  excerpt:
+  html:
 
 - id: portrait
-  description: ""
+  excerpt:
+  html:
 
 - id: Procreate
-  description: ""
+  excerpt:
+  html:
 
 - id: review
-  description: ""
+  excerpt:
+  html:
 
 - id: self portrait
-  description: ""
+  excerpt:
+  html:
 
 - id: Sktchy
-  description: "Portraits painted and drawn in a variety of media inspired by photographs shared on [**Sktchy**](https://get.sktchy.com/)."
+  excerpt: Portraits painted and drawn in a variety of media inspired by photographs shared on Sktchy.
+  html: |
+    <p>Portraits painted and drawn in a variety of media inspired by photographs shared on <a href="https://get.sktchy.com"><strong>Sktchy</strong></a>.</p>
 
 - id: Star Wars
-  description: ""
+  excerpt:
+  html:
 
 - id: tattoo
-  description: ""
+  excerpt:
+  html:
 
 - id: tech geek
-  description: ""
+  excerpt:
+  html:
 
 - id: TIL
-  description: "Learnings captured for educational purposes and posterity."
+  excerpt: Learnings captured for educational purposes and posterity.
+  html: |
+    <p>Learnings captured for educational purposes and posterity.</p>
 
 - id: time lapse
-  description: ""
+  excerpt:
+  html:
 
 - id: tutorial
-  description: ""
+  excerpt:
+  html:
 
 - id: twins
-  description: ""
+  excerpt:
+  html:
 
 - id: vegan
-  description: ""
+  excerpt:
+  html:
 
 - id: video games
-  description: ""
+  excerpt:
+  html:
 
 - id: watercolor
-  description: ""
+  excerpt:
+  html:
 
 - id: web development
-  description: ""
+  excerpt:
+  html:
 
 - id: Wordpress
-  description: ""
+  excerpt:
+  html:

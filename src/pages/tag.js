@@ -42,7 +42,7 @@ TagsPage.propTypes = {
 export const pageQuery = graphql`
   query TagsQuery {
     allMarkdownRemark {
-      group(field: frontmatter___tags___id) {
+      group(field: frontmatter___tags) {
         fieldValue
         totalCount
       }

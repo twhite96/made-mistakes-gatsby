@@ -72,6 +72,8 @@ Index.propTypes = {
   pageContext: PropTypes.shape({
     nextPagePath: PropTypes.string,
     previousPagePath: PropTypes.string,
+    humanPageNumber: PropTypes.number,
+    numberOfPages: PropTypes.number,
   }),
 }
 
@@ -93,9 +95,7 @@ export const postsQuery = graphql`
             path
             author
             excerpt
-            tags {
-              id
-            }
+            tags
             image {
               childImageSharp {
                 fluid(maxWidth: 800) {

@@ -36,8 +36,8 @@ const Post = ({
           {tags ? (
             <div className={style.tags}>
               {tags.map(tag => (
-                <Link to={`/tag/${_.kebabCase(tag.id)}/`} key={_.kebabCase(tag.id)}>
-                  <span className={style.tag}>#{tag.id}</span>
+                <Link to={`/tag/${_.kebabCase(tag)}/`} key={_.kebabCase(tag)}>
+                  <span className={style.tag}>#{tag}</span>
                 </Link>
               ))}
             </div>
@@ -82,7 +82,7 @@ Post.propTypes = {
   author: PropTypes.string,
   excerpt: PropTypes.string,
   html: PropTypes.string,
-  tags: PropTypes.array,
+  tags: PropTypes.object,
   previousPost: PropTypes.object,
   nextPost: PropTypes.object,
 }

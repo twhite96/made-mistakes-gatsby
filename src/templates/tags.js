@@ -23,7 +23,7 @@ const Tags = ({
   },
 }) => {
   const {
-    taxonomyYaml: { description },
+    taxonomyYaml: { excerpt: tagExcerpt, html: tagHtml },
     allMarkdownRemark: { edges: posts },
   } = data
   const paginationTitle =
@@ -37,14 +37,19 @@ const Tags = ({
       <SEO
         title={`${tag}${paginationTitle} - ${site.title}`}
         path={`/tag/${_.kebabCase(tag)}/`}
-        description={site.description}
+        description={tagExcerpt || `An archive of posts related to ${tag}.`}
         metaImage={metaImage}
       />
       <Layout>
         <div className="infoBanner">
           Posts with tag: <span>#{tag}</span>
         </div>
-        <div>{description}</div>
+        {tagHtml && humanPageNumber === 1 && (
+          <div
+            className="infoExcerpt"
+            dangerouslySetInnerHTML={{ __html: tagHtml }}
+          />
+        )}
 
         {posts.map(({ node }) => {
           const {
@@ -81,8 +86,7 @@ const Tags = ({
 Tags.propTypes = {
   data: PropTypes.object.isRequired,
   pageContext: PropTypes.shape({
-    id: PropTypes.string,
-    description: PropTypes.string,
+    tag: PropTypes.string,
     nextPagePath: PropTypes.string,
     previousPagePath: PropTypes.string,
     humanPageNumber: PropTypes.number,
@@ -92,12 +96,13 @@ Tags.propTypes = {
 
 export const postsQuery = graphql`
   query($limit: Int!, $skip: Int!, $tag: String!) {
-    taxonomyYaml(id: {eq: $tag}) {
+    taxonomyYaml(id: { eq: $tag }) {
       id
-      description
+      excerpt
+      html
     }
     allMarkdownRemark(
-      filter: { frontmatter: { tags: { elemMatch: { id: { eq: $tag } } } } }
+      filter: { frontmatter: { tags: { in: [$tag] } } }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip
@@ -112,10 +117,7 @@ export const postsQuery = graphql`
             path
             author
             excerpt
-            tags {
-              id
-              description
-            }
+            tags
             image {
               childImageSharp {
                 fluid(maxWidth: 800) {

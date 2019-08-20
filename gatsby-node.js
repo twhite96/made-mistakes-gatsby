@@ -26,10 +26,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
             frontmatter {
               path
               title
-              tags {
-                id
-                description
-              }
+              tags
             }
             fileAbsolutePath
           }
@@ -79,7 +76,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
 
     paginate({
       createPage,
-      items: postsNodes,
+      items: posts,
       component: indexTemplate,
       itemsPerPage: siteMetadata.postsPerPage,
       pathPrefix: indexPrefix,
@@ -116,8 +113,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
     forEach(tag => {
       const postsWithTag = postsNodes.filter(
         post =>
-          post.frontmatter.tags.id &&
-          post.frontmatter.tags.id.indexOf(tag) !== -1
+          post.frontmatter.tags && post.frontmatter.tags.indexOf(tag) !== -1
       )
 
       const tagPrefix = ({ pageNumber }) =>
@@ -155,12 +151,12 @@ exports.createSchemaCustomization = ({ actions }) => {
       last_modified_at: Date @dateformat
       author: String
       path: String!
+      tags: [String!]
       excerpt: String
       image: File @fileByRelativePath
     }
     type TaxonomyYaml implements Node {
       id: String!
-      description: String
     }
   `
   createTypes(typeDefs)

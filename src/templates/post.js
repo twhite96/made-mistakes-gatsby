@@ -73,9 +73,7 @@ export const pageQuery = graphql`
         path
         author
         excerpt
-        tags {
-          id
-        }
+        tags
         image {
           childImageSharp {
             fluid(maxWidth: 800) {
