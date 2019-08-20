@@ -2,6 +2,12 @@
   excerpt:
   html:
 
+- id: articles
+  name: Articles
+  excerpt: A collection of thoughts, inspiration, mistakes, and other long-form minutia I've written.
+  html: |
+    <p>A collection of thoughts, inspiration, mistakes, and other long-form minutia I've written. For smaller, more regular tidbits &mdash; peruse the <a href="/notes/">notes section</a>.</p>
+
 - id: beard
   excerpt:
   html:
@@ -56,15 +62,32 @@
   excerpt:
   html:
 
+- id: mastering-paper
+  name: Mastering Paper for iOS
+  excerpt: Collection of tutorials written by an avid iPad illustrator to help you master Paper for iOS.
+  html: |
+    <p>Collection of tutorials written by an avid iPad illustrator to help you master <a href="https://www.fiftythree.com/paper">Paper for iOS</a>.</p>
+
 - id: Netlify
   excerpt:
   html:
+
+- id: notes
+  name: Notes
+  excerpt: Small, bite sized content I've written.
+  html: |
+    <p>Small, bite sized content I've written. For longer, more thorough writing &mdash; peruse the <a href="/articles/">articles section</a>.</p>
 
 - id: open source
   excerpt:
   html:
 
 - id: Palm Pre
+  excerpt:
+  html:
+
+- id: paperfaces
+  name: PaperFaces iPad project
   excerpt:
   html:
 
@@ -86,6 +109,11 @@
   html:
 
 - id: Procreate
+  excerpt:
+  html:
+
+- id: procreate
+  name: Procreate iPad paintings
   excerpt:
   html:
 
@@ -123,6 +151,11 @@
   excerpt:
   html:
 
+- id: tiny-paintings
+  name: Tiny paintings
+  excerpt:
+  html:
+
 - id: tutorial
   excerpt:
   html:
@@ -150,3 +183,9 @@
 - id: Wordpress
   excerpt:
   html:
+
+- id: work
+  name: Works
+  excerpt: A selection of things I’ve designed, illustrated, and developed.
+  html: |
+    <p>A selection of things I’ve designed, illustrated, and developed.</p>

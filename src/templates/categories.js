@@ -12,18 +12,22 @@ import '../styles/layout.css'
 
 const _ = require('lodash')
 
-const Tags = ({
+const Categories = ({
   data,
   pageContext: {
     nextPagePath,
     previousPagePath,
     humanPageNumber,
     numberOfPages,
-    tag,
+    category,
   },
 }) => {
   const {
-    taxonomyYaml: { excerpt: taxonomyExcerpt, html: taxonomyHtml },
+    taxonomyYaml: {
+      name: taxonomyName,
+      excerpt: taxonomyExcerpt,
+      html: taxonomyHtml,
+    },
     allMarkdownRemark: { edges: posts },
   } = data
   const paginationTitle =
@@ -35,14 +39,16 @@ const Tags = ({
   return (
     <>
       <SEO
-        title={`${tag}${paginationTitle} - ${site.title}`}
-        path={`/tag/${_.kebabCase(tag)}/`}
-        description={taxonomyExcerpt || `An archive of posts related to ${tag}.`}
+        title={`${taxonomyName}${paginationTitle} - ${site.title}`}
+        path={`/${_.kebabCase(category)}/`}
+        description={
+          taxonomyExcerpt || `An archive of posts related to ${taxonomyName}.`
+        }
         metaImage={metaImage}
       />
       <Layout>
         <h1 className="infoBanner">
-          #{tag} {paginationTitle}
+          {taxonomyName} {paginationTitle}
         </h1>
         {taxonomyHtml && humanPageNumber === 1 && (
           <div
@@ -83,10 +89,10 @@ const Tags = ({
   )
 }
 
-Tags.propTypes = {
+Categories.propTypes = {
   data: PropTypes.object.isRequired,
   pageContext: PropTypes.shape({
-    tag: PropTypes.string,
+    category: PropTypes.string,
     nextPagePath: PropTypes.string,
     previousPagePath: PropTypes.string,
     humanPageNumber: PropTypes.number,
@@ -95,14 +101,15 @@ Tags.propTypes = {
 }
 
 export const postsQuery = graphql`
-  query($limit: Int!, $skip: Int!, $tag: String!) {
-    taxonomyYaml(id: { eq: $tag }) {
+  query($limit: Int!, $skip: Int!, $category: String!) {
+    taxonomyYaml(id: { eq: $category }) {
       id
+      name
       excerpt
       html
     }
     allMarkdownRemark(
-      filter: { frontmatter: { tags: { in: [$tag] } } }
+      filter: { frontmatter: { categories: { in: [$category] } } }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip
@@ -117,7 +124,7 @@ export const postsQuery = graphql`
             path
             author
             excerpt
-            tags
+            categories
             image {
               childImageSharp {
                 fluid(maxWidth: 800) {
@@ -132,4 +139,4 @@ export const postsQuery = graphql`
   }
 `
 
-export default Tags
+export default Categories

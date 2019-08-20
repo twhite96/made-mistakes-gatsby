@@ -6,6 +6,7 @@ const path = require('path')
 const postTemplate = path.resolve(`./src/templates/post.js`)
 const pageTemplate = path.resolve(`./src/templates/page.js`)
 const indexTemplate = path.resolve(`./src/templates/index.js`)
+const categoriesTemplate = path.resolve(`./src/templates/categories.js`)
 const tagsTemplate = path.resolve(`./src/templates/tags.js`)
 
 exports.createPages = ({ actions, graphql, getNodes }) => {
@@ -26,6 +27,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
             frontmatter {
               path
               title
+              categories
               tags
             }
             fileAbsolutePath
@@ -104,6 +106,34 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
       })
     })
 
+    // Create category pages
+    const categories = filter(
+      category => not(isNil(category)),
+      uniq(flatMap(post => post.frontmatter.categories, postsNodes))
+    )
+
+    forEach(category => {
+      const postsWithCategory = postsNodes.filter(
+        post =>
+          post.frontmatter.categories &&
+          post.frontmatter.categories.indexOf(category) !== -1
+      )
+
+      const categoryPrefix = ({ pageNumber }) =>
+        pageNumber === 0 ? `/${category}/` : `/${category}/page`
+
+      paginate({
+        createPage,
+        items: postsWithCategory,
+        component: categoriesTemplate,
+        itemsPerPage: siteMetadata.postsPerPage,
+        pathPrefix: categoryPrefix,
+        context: {
+          category,
+        },
+      })
+    }, categories)
+
     // Create tag pages
     const tags = filter(
       tag => not(isNil(tag)),
@@ -118,7 +148,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
 
       const tagPrefix = ({ pageNumber }) =>
         pageNumber === 0
-          ? `/tag/${_.kebabCase(tag)}`
+          ? `/tag/${_.kebabCase(tag)}/`
           : `/tag/${_.kebabCase(tag)}/page`
 
       paginate({
@@ -134,6 +164,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
     }, tags)
 
     return {
+      categories,
       tags,
     }
   })
@@ -151,6 +182,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       last_modified_at: Date @dateformat
       author: String
       path: String!
+      categories: [String!]
       tags: [String!]
       excerpt: String
       image: File @fileByRelativePath
