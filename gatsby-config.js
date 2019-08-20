@@ -234,7 +234,4 @@ module.exports = {
     //   },
     // },
   ],
-  mapping: {
-    'MarkdownRemark.frontmatter.tags': `TaxonomyYaml`,
-  },
 }
