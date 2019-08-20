@@ -146,6 +146,12 @@ module.exports = {
         path: `${__dirname}/src/pages`,
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/data`,
+      },
+    },
     'gatsby-remark-source-name',
     {
       resolve: 'gatsby-plugin-postcss',
