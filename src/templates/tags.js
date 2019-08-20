@@ -41,12 +41,12 @@ const Tags = ({
         metaImage={metaImage}
       />
       <Layout>
-        <div className="infoBanner">
-          Posts with tag: <span>#{tag}</span>
-        </div>
+        <h1 className="infoBanner">
+          #{tag} {paginationTitle}
+        </h1>
         {tagHtml && humanPageNumber === 1 && (
           <div
-            className="infoExcerpt"
+            className="post-module"
             dangerouslySetInnerHTML={{ __html: tagHtml }}
           />
         )}
