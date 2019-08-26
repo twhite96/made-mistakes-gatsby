@@ -112,10 +112,11 @@
   excerpt:
   html:
 
-- id: procreate
+- id: procreate-paintings
   name: Procreate iPad paintings
-  excerpt:
-  html:
+  excerpt: Digital paintings created on an iPad using the iOS app Procreate by Savage Interactive.
+  html: |
+    <p>Digital paintings created on an iPad using the iOS app <a href="http://procreate.si/"><strong>Procreate</strong> by Savage Interactive</a>.</p>
 
 - id: review
   excerpt:
