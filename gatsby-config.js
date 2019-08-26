@@ -122,7 +122,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'procreate',
-        path: `${__dirname}/src/posts/procreate`,
+        path: `${__dirname}/src/posts/procreate-paintings`,
       },
     },
     {
