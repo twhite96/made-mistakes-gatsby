@@ -173,7 +173,14 @@ module.exports = {
       },
     },
     'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-plugin-sharp',
+      options: {
+        useMozJpeg: false,
+        stripMetadata: true,
+        defaultQuality: 80,
+      },
+    },
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -189,7 +196,7 @@ module.exports = {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 800,
-              quality: 90,
+              quality: 80,
               linkImagesToOriginal: true,
             },
           },

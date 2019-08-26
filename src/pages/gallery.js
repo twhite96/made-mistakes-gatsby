@@ -14,16 +14,16 @@ const metaImage = site.image
 
 // This would normally be in a Redux store or some other global data store.
 if (typeof window !== `undefined`) {
-  window.postsToShow = 8
+  window.postsToShow = 32
 }
 
 class Gallery extends React.Component {
   constructor() {
     super()
-    const postsToShow = 8
+    const postsToShow = 32
 
     this.state = {
-      showingMore: postsToShow > 8,
+      showingMore: postsToShow > 32,
       postsToShow,
     }
   }
@@ -49,7 +49,7 @@ class Gallery extends React.Component {
       document.documentElement.offsetHeight -
       (window.scrollY + window.innerHeight)
     if (this.state.showingMore && distanceToBottom < 100) {
-      this.setState({ postsToShow: this.state.postsToShow + 8 })
+      this.setState({ postsToShow: this.state.postsToShow + 32 })
     }
     this.ticking = false
   }
@@ -68,18 +68,18 @@ class Gallery extends React.Component {
         <Layout>
           <h1 className="infoBanner">Gallery</h1>
 
-          <div>
+          <div
+            style={{
+              display: `grid`,
+              width: `100%`,
+              gridTemplateColumns: `repeat(auto-fill, minmax(200px, 1fr))`,
+              gridGap: `0.5em`,
+              alignItems: `stretch`,
+            }}
+          >
             {chunk(posts.slice(0, this.state.postsToShow), 4).map(
               (chunk, i) => (
-                <div
-                  key={`chunk-${i}`}
-                  style={{
-                    display: `grid`,
-                    gridTemplateColumns: `repeat(auto-fill, minmax(200px, 1fr))`,
-                    gridGap: `0.5em`,
-                    alignItems: `stretch`,
-                  }}
-                >
+                <div key={`chunk-${i}`}>
                   {chunk.map(post => (
                     <Link
                       key={post.id}
@@ -106,28 +106,28 @@ class Gallery extends React.Component {
                 </div>
               )
             )}
-            {!this.state.showingMore && (
-              <a
-                data-testid="load-more"
-                style={{
-                  margin: `0 auto`,
-                  padding: `0.5em`,
-                  color: `#fff`,
-                  backgroundColor: `#000`,
-                  border: `1px solid #000`,
-                  cursor: `pointer`,
-                }}
-                onClick={() => {
-                  this.setState({
-                    postsToShow: this.state.postsToShow + 20,
-                    showingMore: true,
-                  })
-                }}
-              >
-                Load more
-              </a>
-            )}
           </div>
+          {!this.state.showingMore && (
+            <a
+              data-testid="load-more"
+              style={{
+                margin: `0 auto`,
+                padding: `0.5em`,
+                color: `#fff`,
+                backgroundColor: `#000`,
+                border: `1px solid #000`,
+                cursor: `pointer`,
+              }}
+              onClick={() => {
+                this.setState({
+                  postsToShow: this.state.postsToShow + 20,
+                  showingMore: true,
+                })
+              }}
+            >
+              Load more
+            </a>
+          )}
         </Layout>
       </>
     )
@@ -143,15 +143,16 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { categories: { in: "procreate-paintings" } } }
+      filter: { frontmatter: { categories: { in: "paperfaces" } } }
     ) {
       edges {
         node {
           frontmatter {
             title
+            path
             image {
               childImageSharp {
-                fixed(width: 200, height: 200, quality: 90) {
+                fixed(width: 200, height: 200, quality: 80) {
                   ...GatsbyImageSharpFixed
                 }
               }
