@@ -6,7 +6,7 @@ import Navigation from './navigation'
 
 import style from '../styles/post.module.css'
 
-const _ = require('lodash')
+const _ = require('lodash-addons')
 
 const Post = ({
   title,
@@ -36,7 +36,7 @@ const Post = ({
           {tags ? (
             <div className={style.tags}>
               {tags.map(tag => (
-                <Link to={`/tag/${_.kebabCase(tag)}/`} key={_.kebabCase(tag)}>
+                <Link to={`/tag/${_.slugify(tag)}/`} key={_.slugify(tag)}>
                   <span className={style.tag}>#{tag}</span>
                 </Link>
               ))}

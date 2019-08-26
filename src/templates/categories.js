@@ -10,7 +10,7 @@ import site from '../../config/site'
 
 import '../styles/layout.css'
 
-const _ = require('lodash')
+const _ = require('lodash-addons')
 
 const Categories = ({
   data,
@@ -40,7 +40,7 @@ const Categories = ({
     <>
       <SEO
         title={`${taxonomyName}${paginationTitle} - ${site.title}`}
-        path={`/${_.kebabCase(category)}/`}
+        path={`/${_.slugify(category)}/`}
         description={
           taxonomyExcerpt || `An archive of posts related to ${taxonomyName}.`
         }

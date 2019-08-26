@@ -1,4 +1,4 @@
-const _ = require('lodash')
+const _ = require('lodash-addons')
 const { paginate } = require('gatsby-awesome-pagination')
 const { forEach, uniq, filter, not, isNil, flatMap } = require('rambdax')
 const path = require('path')
@@ -149,8 +149,8 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
 
       const tagPrefix = ({ pageNumber }) =>
         pageNumber === 0
-          ? `/tag/${_.kebabCase(tag)}/`
-          : `/tag/${_.kebabCase(tag)}/page`
+          ? `/tag/${_.slugify(tag)}/`
+          : `/tag/${_.slugify(tag)}/page`
 
       paginate({
         createPage,

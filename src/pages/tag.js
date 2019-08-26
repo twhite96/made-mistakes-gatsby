@@ -6,7 +6,7 @@ import SEO from '../components/seo'
 
 import site from '../../config/site'
 
-const _ = require('lodash')
+const _ = require('lodash-addons')
 
 const metaImage = site.image
 const TagsPage = ({
@@ -25,7 +25,7 @@ const TagsPage = ({
     <ul>
       {group.map(tag => (
         <li key={tag.fieldValue}>
-          <Link to={`/tag/${_.kebabCase(tag.fieldValue)}/`}>
+          <Link to={`/tag/${_.slugify(tag.fieldValue)}/`}>
             <span>{tag.fieldValue}</span>{' '}
             <span className="count">{tag.totalCount}</span>
           </Link>

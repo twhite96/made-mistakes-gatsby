@@ -10,7 +10,7 @@ import site from '../../config/site'
 
 import '../styles/layout.css'
 
-const _ = require('lodash')
+const _ = require('lodash-addons')
 
 const Tags = ({
   data,
@@ -36,7 +36,7 @@ const Tags = ({
     <>
       <SEO
         title={`${tag}${paginationTitle} - ${site.title}`}
-        path={`/tag/${_.kebabCase(tag)}/`}
+        path={`/tag/${_.slugify(tag)}/`}
         description={taxonomyExcerpt || `An archive of posts related to ${tag}.`}
         metaImage={metaImage}
       />

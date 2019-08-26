@@ -59,6 +59,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
+    "lodash-addons": "^2.0.1",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
     "postcss-mixins": "^6.2.2",
