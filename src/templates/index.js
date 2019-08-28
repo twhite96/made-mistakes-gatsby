@@ -27,43 +27,42 @@ const Index = ({
   const metaImage = site.image
 
   return (
-    <>
+    <Layout>
       <SEO
         title={`${site.title}${paginationTitle}`}
         path="/"
         description={site.description}
         metaImage={metaImage}
       />
-      <Layout>
-        {posts.map(({ node }) => {
-          const {
-            id,
-            excerpt: autoExcerpt,
-            frontmatter: { title, date, path, author, image, excerpt, tags },
-          } = node
 
-          return (
-            <Post
-              key={id}
-              title={title}
-              date={date}
-              path={path}
-              author={author}
-              image={image}
-              tags={tags}
-              excerpt={excerpt || autoExcerpt}
-            />
-          )
-        })}
+      {posts.map(({ node }) => {
+        const {
+          id,
+          excerpt: autoExcerpt,
+          frontmatter: { title, date, path, author, image, excerpt, tags },
+        } = node
 
-        <Navigation
-          previousPath={previousPagePath}
-          previousLabel="Newer posts"
-          nextPath={nextPagePath}
-          nextLabel="Older posts"
-        />
-      </Layout>
-    </>
+        return (
+          <Post
+            key={id}
+            title={title}
+            date={date}
+            path={path}
+            author={author}
+            image={image}
+            tags={tags}
+            excerpt={excerpt || autoExcerpt}
+          />
+        )
+      })}
+
+      <Navigation
+        previousPath={previousPagePath}
+        previousLabel="Newer posts"
+        nextPath={nextPagePath}
+        nextLabel="Older posts"
+      />
+    </Layout>
   )
 }
 

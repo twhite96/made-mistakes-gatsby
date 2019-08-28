@@ -33,53 +33,54 @@ const Tags = ({
   const metaImage = site.image
 
   return (
-    <>
+    <Layout>
       <SEO
         title={`${tag}${paginationTitle} - ${site.title}`}
         path={`/tag/${_.slugify(tag)}/`}
-        description={taxonomyExcerpt || `An archive of posts related to ${tag}.`}
+        description={
+          taxonomyExcerpt || `An archive of posts related to ${tag}.`
+        }
         metaImage={metaImage}
       />
-      <Layout>
-        <h1 className="infoBanner">
-          #{tag} {paginationTitle}
-        </h1>
-        {taxonomyHtml && humanPageNumber === 1 && (
-          <div
-            className="post-module"
-            dangerouslySetInnerHTML={{ __html: taxonomyHtml }}
-          />
-        )}
 
-        {posts.map(({ node }) => {
-          const {
-            id,
-            excerpt: autoExcerpt,
-            frontmatter: { title, date, path, author, image, excerpt, tags },
-          } = node
-
-          return (
-            <Post
-              key={id}
-              title={title}
-              date={date}
-              path={path}
-              author={author}
-              tags={tags}
-              image={image}
-              excerpt={excerpt || autoExcerpt}
-            />
-          )
-        })}
-
-        <Navigation
-          previousPath={previousPagePath}
-          previousLabel="Newer posts"
-          nextPath={nextPagePath}
-          nextLabel="Older posts"
+      <h1 className="infoBanner">
+        #{tag} {paginationTitle}
+      </h1>
+      {taxonomyHtml && humanPageNumber === 1 && (
+        <div
+          className="post-module"
+          dangerouslySetInnerHTML={{ __html: taxonomyHtml }}
         />
-      </Layout>
-    </>
+      )}
+
+      {posts.map(({ node }) => {
+        const {
+          id,
+          excerpt: autoExcerpt,
+          frontmatter: { title, date, path, author, image, excerpt, tags },
+        } = node
+
+        return (
+          <Post
+            key={id}
+            title={title}
+            date={date}
+            path={path}
+            author={author}
+            tags={tags}
+            image={image}
+            excerpt={excerpt || autoExcerpt}
+          />
+        )
+      })}
+
+      <Navigation
+        previousPath={previousPagePath}
+        previousLabel="Newer posts"
+        nextPath={nextPagePath}
+        nextLabel="Older posts"
+      />
+    </Layout>
   )
 }
 
