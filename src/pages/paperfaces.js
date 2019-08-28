@@ -7,6 +7,7 @@ import SEO from '../components/seo'
 import Layout from '../components/layout'
 
 import site from '../../config/site'
+import style from '../styles/post.module.css'
 import '../styles/layout.css'
 
 const metaImage = site.image
@@ -64,7 +65,15 @@ class Gallery extends React.Component {
           description="Gallery description"
           metaImage={metaImage}
         />
+
         <h1 className="infoBanner">PaperFaces iPad project</h1>
+
+        {this.props.data.file.childImageSharp.fluid && (
+          <Img
+            fluid={this.props.data.file.childImageSharp.fluid}
+            className={style.coverImage}
+          />
+        )}
         <p>
           PaperFaces was an illustration project by designer Michael Rose — hey
           that’s me! For two years I drew the faces of strangers everyday using
@@ -147,7 +156,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    file(relativePath: { eq: "../images/paperfaces-project-feature.jpg" }) {
+    file(relativePath: { eq: "paperfaces-project-feature.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
           ...GatsbyImageSharpFluid
