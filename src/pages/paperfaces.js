@@ -65,85 +65,87 @@ class Gallery extends React.Component {
           description="Gallery description"
           metaImage={metaImage}
         />
+        <div className={style.post}>
+          <h1 className={style.title}>PaperFaces iPad project</h1>
 
-        <h1 className="infoBanner">PaperFaces iPad project</h1>
-
-        {this.props.data.file.childImageSharp.fluid && (
-          <Img
-            fluid={this.props.data.file.childImageSharp.fluid}
-            className={style.coverImage}
-          />
-        )}
-        <p>
-          PaperFaces was an illustration project by designer Michael Rose — hey
-          that’s me! For two years I drew the faces of strangers everyday using
-          an iPad, a stylus, and <strong>Paper for iOS</strong>. I occasionally
-          post new portraits here, but certainly not as frequently as I used to.
-        </p>
-        <p>
-          If you scroll down far enough you can see how my technique evolved
-          from faceless gestures into realistic portraits.
-        </p>
-        {chunk(
-          posts.slice(0, this.state.postsToShow),
-          this.state.postsToShow
-          // eslint-disable-next-line no-shadow
-        ).map((chunk, i) => (
-          <div
-            style={{
-              display: `grid`,
-              width: `100%`,
-              gridTemplateColumns: `repeat(auto-fill, minmax(200px, 1fr))`,
-              gridGap: `0.5em`,
-              alignItems: `stretch`,
-            }}
-            key={`chunk-${i}`}
-          >
-            {chunk.map(post => (
-              <Link
-                key={post.id}
-                style={{
-                  display: `block`,
-                  width: `200px`,
-                  height: `200px`,
-                }}
-                to={post.frontmatter.path}
-              >
-                <Img
-                  fixed={post.frontmatter.image.childImageSharp.fixed}
+          {this.props.data.file.childImageSharp.fluid && (
+            <Img
+              fluid={this.props.data.file.childImageSharp.fluid}
+              className={style.coverImage}
+            />
+          )}
+          <p>
+            PaperFaces was an illustration project by designer Michael Rose —
+            hey that’s me! For two years I drew the faces of strangers everyday
+            using an iPad, a stylus, and <strong>Paper for iOS</strong>. I
+            occasionally post new portraits here, but certainly not as
+            frequently as I used to.
+          </p>
+          <p>
+            If you scroll down far enough you can see how my technique evolved
+            from faceless gestures into realistic portraits.
+          </p>
+          {chunk(
+            posts.slice(0, this.state.postsToShow),
+            this.state.postsToShow
+            // eslint-disable-next-line no-shadow
+          ).map((chunk, i) => (
+            <div
+              style={{
+                display: `grid`,
+                width: `100%`,
+                gridTemplateColumns: `repeat(auto-fill, minmax(200px, 1fr))`,
+                gridGap: `0.5em`,
+                alignItems: `stretch`,
+              }}
+              key={`chunk-${i}`}
+            >
+              {chunk.map(post => (
+                <Link
+                  key={post.id}
                   style={{
-                    maxWidth: `100%`,
+                    display: `block`,
+                    width: `200px`,
+                    height: `200px`,
                   }}
-                  imgStyle={{
-                    marginBottom: `0`,
-                  }}
-                />
-              </Link>
-            ))}
-          </div>
-        ))}
-        {!this.state.showingMore && (
-          <button
-            type="button"
-            data-testid="load-more"
-            style={{
-              margin: `0 auto`,
-              padding: `0.5em`,
-              color: `#fff`,
-              backgroundColor: `#000`,
-              border: `1px solid #000`,
-              cursor: `pointer`,
-            }}
-            onClick={() => {
-              this.setState({
-                postsToShow: this.state.postsToShow + 20,
-                showingMore: true,
-              })
-            }}
-          >
-            Load more
-          </button>
-        )}
+                  to={post.frontmatter.path}
+                >
+                  <Img
+                    fixed={post.frontmatter.image.childImageSharp.fixed}
+                    style={{
+                      maxWidth: `100%`,
+                    }}
+                    imgStyle={{
+                      marginBottom: `0`,
+                    }}
+                  />
+                </Link>
+              ))}
+            </div>
+          ))}
+          {!this.state.showingMore && (
+            <button
+              type="button"
+              data-testid="load-more"
+              style={{
+                margin: `0 auto`,
+                padding: `0.5em`,
+                color: `#fff`,
+                backgroundColor: `#000`,
+                border: `1px solid #000`,
+                cursor: `pointer`,
+              }}
+              onClick={() => {
+                this.setState({
+                  postsToShow: this.state.postsToShow + 20,
+                  showingMore: true,
+                })
+              }}
+            >
+              Load more
+            </button>
+          )}
+        </div>
       </Layout>
     )
   }
