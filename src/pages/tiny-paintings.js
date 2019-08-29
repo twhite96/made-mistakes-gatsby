@@ -60,13 +60,13 @@ class Gallery extends React.Component {
     return (
       <Layout>
         <SEO
-          title={`PaperFaces iPad project - ${site.title}`}
-          path="/paperfaces/"
+          title={`Tiny paintings - ${site.title}`}
+          path="/tiny-paintings/"
           description="Gallery description"
           metaImage={metaImage}
         />
         <div className={style.post}>
-          <h1 className={style.title}>PaperFaces iPad project</h1>
+          <h1 className={style.title}>Tiny paintings</h1>
 
           {this.props.data.file.childImageSharp.fluid && (
             <Img
@@ -75,15 +75,16 @@ class Gallery extends React.Component {
             />
           )}
           <p>
-            PaperFaces was an illustration project by designer Michael Rose —
-            hey that’s me! For two years I drew the faces of strangers everyday
-            using an iPad, a stylus, and <strong>Paper for iOS</strong>. I
-            occasionally post new portraits here, but certainly not as
-            frequently as I used to.
+            Trying to emulate the look and feel of{' '}
+            <a href="/paperfaces/">watercolor on the iPad</a> has inspired me to
+            revisit painting traditionally. I’ve gone mini in an effort to fit
+            some painting in amongst family and work obligations.
           </p>
           <p>
-            If you scroll down far enough you can see how my technique evolved
-            from faceless gestures into realistic portraits.
+            My plan was to complete a miniature 1.5" painting a day, but the
+            challenge of painting so small is eating up way too much time.
+            Instead I’m going to keep things casual and let images happen as
+            they happen.
           </p>
           {chunk(
             posts.slice(0, this.state.postsToShow),
@@ -158,13 +159,13 @@ class Gallery extends React.Component {
 }
 
 export const pageQuery = graphql`
-  query PaperfacesQuery {
+  query TinyPaintingsQuery {
     site {
       siteMetadata {
         title
       }
     }
-    file(relativePath: { eq: "paperfaces-project-feature.jpg" }) {
+    file(relativePath: { eq: "tiny-paintings.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
           ...GatsbyImageSharpFluid
@@ -178,7 +179,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { categories: { in: "paperfaces" } } }
+      filter: { frontmatter: { categories: { in: "tiny-paintings" } } }
     ) {
       edges {
         node {

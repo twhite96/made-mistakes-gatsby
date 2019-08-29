@@ -77,6 +77,18 @@ module.exports = {
         title: 'Work',
         path: '/work/',
       },
+      {
+        title: 'PaperFaces',
+        path: '/paperfaces/',
+      },
+      {
+        title: 'Procreate Paintings',
+        path: '/procreate-paintings/',
+      },
+      {
+        title: 'Tiny Paintings',
+        path: '/tiny-paintings/',
+      },
     ],
   },
   plugins: [

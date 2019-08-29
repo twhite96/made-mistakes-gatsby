@@ -60,13 +60,13 @@ class Gallery extends React.Component {
     return (
       <Layout>
         <SEO
-          title={`PaperFaces iPad project - ${site.title}`}
-          path="/paperfaces/"
+          title={`Procreate iPad paintings - ${site.title}`}
+          path="/procreate-paintings/"
           description="Gallery description"
           metaImage={metaImage}
         />
         <div className={style.post}>
-          <h1 className={style.title}>PaperFaces iPad project</h1>
+          <h1 className={style.title}>Procreate iPad paintings</h1>
 
           {this.props.data.file.childImageSharp.fluid && (
             <Img
@@ -75,15 +75,11 @@ class Gallery extends React.Component {
             />
           )}
           <p>
-            PaperFaces was an illustration project by designer Michael Rose —
-            hey that’s me! For two years I drew the faces of strangers everyday
-            using an iPad, a stylus, and <strong>Paper for iOS</strong>. I
-            occasionally post new portraits here, but certainly not as
-            frequently as I used to.
-          </p>
-          <p>
-            If you scroll down far enough you can see how my technique evolved
-            from faceless gestures into realistic portraits.
+            Digital paintings created on an iPad using the iOS app{' '}
+            <a href="http://procreate.si/">
+              <strong>Procreate</strong> by Savage Interactive
+            </a>
+            .
           </p>
           {chunk(
             posts.slice(0, this.state.postsToShow),
@@ -158,13 +154,13 @@ class Gallery extends React.Component {
 }
 
 export const pageQuery = graphql`
-  query PaperfacesQuery {
+  query ProcreatePaintingsQuery {
     site {
       siteMetadata {
         title
       }
     }
-    file(relativePath: { eq: "paperfaces-project-feature.jpg" }) {
+    file(relativePath: { eq: "procreate-paintings-feature.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
           ...GatsbyImageSharpFluid
@@ -178,7 +174,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { categories: { in: "paperfaces" } } }
+      filter: { frontmatter: { categories: { in: "procreate-paintings" } } }
     ) {
       edges {
         node {
