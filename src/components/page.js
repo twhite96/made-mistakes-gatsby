@@ -9,9 +9,13 @@ const Page = ({ title, path, image, excerpt, html }) => {
   return (
     <div className={style.post}>
       <div className={style.postContent}>
-        <h1 className={style.title}>
-          {excerpt ? <Link to={path}>{title}</Link> : title}
-        </h1>
+        {excerpt ? (
+          <h2 className={style.title}>
+            <Link to={path}>{title}</Link>
+          </h2>
+        ) : (
+          <h1 className={style.title}>{title}</h1>
+        )}
 
         {image && (
           <Img
