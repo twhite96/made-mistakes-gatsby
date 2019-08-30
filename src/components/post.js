@@ -86,7 +86,7 @@ Post.propTypes = {
   author: PropTypes.string,
   excerpt: PropTypes.string,
   html: PropTypes.string,
-  tags: PropTypes.object,
+  tags: PropTypes.array,
   previousPost: PropTypes.object,
   nextPost: PropTypes.object,
 }
