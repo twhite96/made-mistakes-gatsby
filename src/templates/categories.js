@@ -8,8 +8,6 @@ import Navigation from '../components/navigation'
 
 import site from '../../config/site'
 
-import '../styles/layout.css'
-
 const _ = require('lodash-addons')
 
 const Categories = ({

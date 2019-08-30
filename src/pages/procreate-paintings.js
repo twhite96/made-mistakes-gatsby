@@ -8,7 +8,6 @@ import Layout from '../components/layout'
 
 import site from '../../config/site'
 import style from '../styles/post.module.css'
-import '../styles/layout.css'
 
 const metaImage = site.image
 
