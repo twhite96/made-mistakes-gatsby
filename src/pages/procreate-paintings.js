@@ -49,7 +49,7 @@ class Gallery extends React.Component {
       document.documentElement.offsetHeight -
       (window.scrollY + window.innerHeight)
     if (this.state.showingMore && distanceToBottom < 100) {
-      this.setState({ postsToShow: this.state.postsToShow + 32 })
+      this.setState(prevState => ({ postsToShow: prevState.postsToShow + 32 }))
     }
     this.ticking = false
   }
@@ -62,7 +62,7 @@ class Gallery extends React.Component {
         <SEO
           title={`Procreate iPad paintings - ${site.title}`}
           path="/procreate-paintings/"
-          description="Gallery description"
+          description="Gallery of digital paintings created with Procreate on an iPad. Find time lapse videos, in-process screenshots, and more."
           metaImage={metaImage}
         />
         <div className={style.post}>
@@ -138,10 +138,10 @@ class Gallery extends React.Component {
                 cursor: `pointer`,
               }}
               onClick={() => {
-                this.setState({
-                  postsToShow: this.state.postsToShow + 20,
+                this.setState(prevState => ({
+                  postsToShow: prevState.postsToShow + 32,
                   showingMore: true,
-                })
+                }))
               }}
             >
               Load more
@@ -151,6 +151,10 @@ class Gallery extends React.Component {
       </Layout>
     )
   }
+}
+
+Gallery.propTypes = {
+  data: PropTypes.object.isRequired,
 }
 
 export const pageQuery = graphql`
@@ -178,6 +182,7 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
+          id
           frontmatter {
             title
             path
