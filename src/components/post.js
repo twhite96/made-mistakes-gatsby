@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 import Navigation from './navigation'
+import Comments from './comments'
 
 import style from '../styles/post.module.css'
 
@@ -17,6 +18,7 @@ const Post = ({
   excerpt,
   tags,
   html,
+  comments,
   previousPost,
   nextPost,
 }) => {
@@ -65,6 +67,7 @@ const Post = ({
         ) : (
           <>
             <div dangerouslySetInnerHTML={{ __html: html }} />
+            <Comments comments={comments} />
             <Navigation
               previousPath={previousPath}
               previousLabel={previousLabel}

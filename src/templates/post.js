@@ -23,6 +23,7 @@ const PostTemplate = ({ data, pageContext }) => {
     id,
     html,
   } = data.markdownRemark
+  const { comments } = data
   const { next, previous } = pageContext
   const metaImage = image ? image.childImageSharp.fixed : site.image
 
@@ -46,6 +47,7 @@ const PostTemplate = ({ data, pageContext }) => {
         image={image}
         html={html}
         tags={tags}
+        comments={comments}
         previousPost={previous}
         nextPost={next}
       />
@@ -91,5 +93,6 @@ export const pageQuery = graphql`
       html
       excerpt
     }
+    ...commentsQueryFragment
   }
 `
