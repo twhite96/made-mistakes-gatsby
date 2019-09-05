@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 
 import SEO from '../components/seo'
 import Layout from '../components/layout'
-import Page from '../components/page'
+import Document from '../components/document'
 import site from '../../config/site'
 
 const PageTemplate = ({ data }) => {
@@ -27,7 +27,7 @@ const PageTemplate = ({ data }) => {
         metaImage={metaImage}
         article
       />
-      <Page key={id} title={title} path={path} image={image} html={html} />
+      <Document key={id} title={title} path={path} image={image} html={html} />
     </Layout>
   )
 }

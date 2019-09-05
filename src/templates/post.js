@@ -4,9 +4,9 @@ import { graphql } from 'gatsby'
 
 import SEO from '../components/seo'
 import Layout from '../components/layout'
-import Post from '../components/post'
+import Document from '../components/document'
 import Comments from '../components/comments'
-import CommentsForm from '../components/commentsform'
+import CommentsForm from '../components/CommentsForm'
 import Navigation from '../components/navigation'
 import site from '../../config/site'
 
@@ -45,7 +45,7 @@ const PostTemplate = ({ data, pageContext }) => {
         metaImage={metaImage}
         article
       />
-      <Post
+      <Document
         key={id}
         title={title}
         date={date}

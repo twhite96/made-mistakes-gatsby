@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import SEO from '../components/seo'
 import Layout from '../components/layout'
-import Post from '../components/post'
+import Document from '../components/document'
 import Navigation from '../components/navigation'
 
 import site from '../../config/site'
@@ -63,7 +63,7 @@ const Categories = ({
         } = node
 
         return (
-          <Post
+          <Document
             key={id}
             title={title}
             date={date}
