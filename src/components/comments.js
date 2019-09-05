@@ -7,33 +7,39 @@ const Comments = data => {
     comments: { edges: comments },
   } = data
 
-  // Check if comments exist
-  if (Object.keys(comments).length === 0) {
-    return null
-  }
-  const commentList = comments.map(({ node }) => {
-    const {
-      frontmatter: { name, url, email, uuid, friendlyDate, iso8601Date },
-      html,
-    } = node
+  // // Check if comments exist
+  // if (Object.keys(comments).length === 0) {
+  //   return null
+  // }
+  const commentsList =
+    comments && comments.length ? (
+      comments.map(({ node }) => {
+        const {
+          frontmatter: { name, url, email, uuid, friendlyDate, iso8601Date },
+          html,
+        } = node
 
-    return (
-      <Comment
-        key={uuid}
-        name={name}
-        url={url}
-        friendlyDate={friendlyDate}
-        iso8601Date={iso8601Date}
-        email={email}
-      >
-        <div dangerouslySetInnerHTML={{ __html: html }} />
-      </Comment>
+        return (
+          <Comment
+            key={uuid}
+            name={name}
+            url={url}
+            friendlyDate={friendlyDate}
+            iso8601Date={iso8601Date}
+            email={email}
+          >
+            <div dangerouslySetInnerHTML={{ __html: html }} />
+          </Comment>
+        )
+      })
+    ) : (
+      <p>No comments yet.</p>
     )
-  })
+
   return (
     <>
       <h2>Comments</h2>
-      {commentList}
+      {commentsList}
     </>
   )
 }
