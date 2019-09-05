@@ -6,7 +6,7 @@ import SEO from '../components/seo'
 import Layout from '../components/layout'
 import Document from '../components/document'
 import Comments from '../components/comments'
-import CommentsForm from '../components/CommentsForm'
+import CommentsForm from '../components/commentsform'
 import Navigation from '../components/navigation'
 import site from '../../config/site'
 
