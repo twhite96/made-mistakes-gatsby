@@ -7,7 +7,6 @@ import Layout from '../components/layout'
 import Document from '../components/document'
 import Comments from '../components/comments'
 import CommentsForm from '../components/commentsform'
-import Navigation from '../components/navigation'
 import site from '../../config/site'
 
 const PostTemplate = ({ data, pageContext }) => {
@@ -29,10 +28,10 @@ const PostTemplate = ({ data, pageContext }) => {
   const { comments } = data
   const { next, previous } = pageContext
   const metaImage = image ? image.childImageSharp.fixed : site.image
-  const previousPath = previous && previous.frontmatter.path
-  const previousLabel = previous && previous.frontmatter.title
-  const nextPath = next && next.frontmatter.path
-  const nextLabel = next && next.frontmatter.title
+  // const previousPath = previous && previous.frontmatter.path
+  // const previousLabel = previous && previous.frontmatter.title
+  // const nextPath = next && next.frontmatter.path
+  // const nextLabel = next && next.frontmatter.title
 
   return (
     <Layout>
@@ -59,12 +58,6 @@ const PostTemplate = ({ data, pageContext }) => {
       />
       <Comments comments={comments} />
       <CommentsForm slug={path} />
-      <Navigation
-        previousPath={previousPath}
-        previousLabel={previousLabel}
-        nextPath={nextPath}
-        nextLabel={nextLabel}
-      />
     </Layout>
   )
 }
