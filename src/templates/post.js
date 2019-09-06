@@ -5,8 +5,6 @@ import { graphql } from 'gatsby'
 import SEO from '../components/seo'
 import Layout from '../components/layout'
 import Document from '../components/document'
-import Comments from '../components/comments'
-import CommentsForm from '../components/commentsform'
 import site from '../../config/site'
 
 const PostTemplate = ({ data, pageContext }) => {
@@ -28,10 +26,6 @@ const PostTemplate = ({ data, pageContext }) => {
   const { comments } = data
   const { next, previous } = pageContext
   const metaImage = image ? image.childImageSharp.fixed : site.image
-  // const previousPath = previous && previous.frontmatter.path
-  // const previousLabel = previous && previous.frontmatter.title
-  // const nextPath = next && next.frontmatter.path
-  // const nextLabel = next && next.frontmatter.title
 
   return (
     <Layout>
@@ -55,9 +49,8 @@ const PostTemplate = ({ data, pageContext }) => {
         tags={tags}
         previousPost={previous}
         nextPost={next}
+        comments={comments}
       />
-      <Comments comments={comments} />
-      <CommentsForm slug={path} />
     </Layout>
   )
 }

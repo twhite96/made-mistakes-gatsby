@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
+import Comments from './comments'
+import CommentsForm from './commentsform'
 import Navigation from './navigation'
 
 import style from '../styles/post.module.css'
@@ -19,6 +21,7 @@ const Document = ({
   html,
   previousPost,
   nextPost,
+  comments,
 }) => {
   const previousPath = previousPost && previousPost.frontmatter.path
   const previousLabel = previousPost && previousPost.frontmatter.title
@@ -70,6 +73,8 @@ const Document = ({
           )}
         </div>
       </div>
+      <Comments commentsList={comments} />
+      <CommentsForm slug={path} />
       <Navigation
         previousPath={previousPath}
         previousLabel={previousLabel}
@@ -91,6 +96,7 @@ Document.propTypes = {
   tags: PropTypes.array,
   nextPost: PropTypes.object,
   previousPost: PropTypes.object,
+  comments: PropTypes.object,
 }
 
 export default Document

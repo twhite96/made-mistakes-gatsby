@@ -4,8 +4,19 @@ import Comment from './comment'
 
 const Comments = data => {
   const {
-    comments: { edges: comments },
+    commentsList: { edges: comments },
   } = data
+
+  const commentTitle = commentLength => {
+    if (commentLength < 1) {
+      return 'Leave a comment'
+    }
+    if (commentLength === 1) {
+      return '1 comment'
+    }
+    return `${commentLength} comments`
+  }
+
 
   // // Check if comments exist
   // if (Object.keys(comments).length === 0) {
@@ -33,12 +44,12 @@ const Comments = data => {
         )
       })
     ) : (
-      <p>No comments yet.</p>
+      <></>
     )
 
   return (
     <>
-      <h2>Comments</h2>
+      <h2>{commentTitle(comments.length)}</h2>
       {commentsList}
     </>
   )

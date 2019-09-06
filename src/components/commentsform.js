@@ -12,6 +12,7 @@ class CommentForm extends React.Component {
       submitting: false,
       success: false,
       error: false,
+      commentCount: this.props.commentCount,
       newComment: {
         parent: this.props.slug,
         slug: slugDir,
@@ -51,9 +52,6 @@ class CommentForm extends React.Component {
       headers: {"Content-Type": "application/x-www-form-urlencoded"},
       body: formBody,
     })
-
-    console.log(`Form body: ${formBody}`)
-    console.log(response)
 
     if (response.ok === true) {
       this.setState(prevState => ({
@@ -95,23 +93,12 @@ class CommentForm extends React.Component {
     const showSuccess = () => success && <p>Comment submitted!</p>
     const slugDir = this.props.slug.replace(/^\/+|/g, ``)
 
-    const commentTitle = commentLength => {
-      if (commentLength < 1) {
-        return 'Leave a comment'
-      }
-      if (commentLength === 1) {
-        return '1 comment'
-      }
-      return `${commentLength} comments`
-    }
-
     return (
       <div>
         {success || error ? (
           showError() || showSuccess()
         ) : (
           <>
-            <h2>{commentTitle}</h2>
             <form id="new-comment" onSubmit={this.onSubmitComment}>
               <input
                 name="options[parent]"
