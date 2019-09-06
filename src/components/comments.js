@@ -25,13 +25,14 @@ const Comments = data => {
     comments && comments.length ? (
       comments.map(({ node }) => {
         const {
-          frontmatter: { name, url, email, _id, friendlyDate, iso8601Date },
+          id,
+          frontmatter: { name, url, email, friendlyDate, iso8601Date },
           html,
         } = node
 
         return (
           <Comment
-            key={_id}
+            key={id}
             name={name}
             url={url}
             friendlyDate={friendlyDate}

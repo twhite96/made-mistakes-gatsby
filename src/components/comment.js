@@ -44,8 +44,8 @@ export default Comment
 
 export const commentQuery = graphql`
   fragment commentAttributesFragment on MarkdownRemark {
+    id
     frontmatter {
-      _id
       name
       url
       email
