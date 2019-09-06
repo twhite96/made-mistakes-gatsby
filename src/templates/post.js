@@ -35,8 +35,6 @@ const PostTemplate = ({ data, pageContext }) => {
   const nextPath = next && next.frontmatter.path
   const nextLabel = next && next.frontmatter.title
 
-  console.log(comments)
-
   return (
     <Layout>
       <SEO
