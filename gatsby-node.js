@@ -19,6 +19,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
         filter: {
           fileAbsolutePath: { regex: "/posts/" }
           fields: { sourceName: { ne: "comments" } }
+          frontmatter: { published: { ne: false } }
         }
         sort: { fields: [frontmatter___date], order: DESC }
       ) {
@@ -38,6 +39,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
         filter: {
           fileAbsolutePath: { regex: "/pages/" }
           fields: { sourceName: { ne: "comments" } }
+          frontmatter: { published: { ne: false } }
         }
       ) {
         edges {

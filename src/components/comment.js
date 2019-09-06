@@ -51,6 +51,7 @@ export const commentQuery = graphql`
       email
       friendlyDate: date(formatString: "MMMM DD, YYYY")
       iso8601Date: date
+      published
     }
     html
   }

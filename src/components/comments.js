@@ -62,7 +62,7 @@ export const commentsByPath = graphql`
     comments: allMarkdownRemark(
       filter: {
         fields: { sourceName: { eq: "comments" } }
-        frontmatter: { _parent: { eq: $path } }
+        frontmatter: { _parent: { eq: $path }, published: { ne: false } }
       }
       sort: { fields: frontmatter___date, order: ASC }
     ) {

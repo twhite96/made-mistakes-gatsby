@@ -101,7 +101,9 @@ export const postsQuery = graphql`
       html
     }
     allMarkdownRemark(
-      filter: { frontmatter: { tags: { in: [$tag] } } }
+      filter: {
+        frontmatter: { tags: { in: [$tag] }, published: { ne: false } }
+      }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip
