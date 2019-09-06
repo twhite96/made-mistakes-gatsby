@@ -187,6 +187,9 @@ exports.createSchemaCustomization = ({ actions }) => {
       tags: [String!]
       excerpt: String
       image: File @fileByRelativePath
+      thumbnail: File @fileByRelativePath
+      published: Boolean
+      comments: Boolean
     }
     type TaxonomyYaml implements Node {
       id: String!
