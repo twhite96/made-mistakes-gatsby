@@ -17,7 +17,6 @@ const Comments = data => {
     return `${commentLength} comments`
   }
 
-
   // // Check if comments exist
   // if (Object.keys(comments).length === 0) {
   //   return null
@@ -26,13 +25,13 @@ const Comments = data => {
     comments && comments.length ? (
       comments.map(({ node }) => {
         const {
-          frontmatter: { name, url, email, uuid, friendlyDate, iso8601Date },
+          frontmatter: { name, url, email, _id, friendlyDate, iso8601Date },
           html,
         } = node
 
         return (
           <Comment
-            key={uuid}
+            key={_id}
             name={name}
             url={url}
             friendlyDate={friendlyDate}
@@ -44,7 +43,7 @@ const Comments = data => {
         )
       })
     ) : (
-      <></>
+      <p>No comments.</p>
     )
 
   return (

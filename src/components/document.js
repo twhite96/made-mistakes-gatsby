@@ -2,9 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
-import Comments from './comments'
-import CommentsForm from './commentsform'
-import Navigation from './navigation'
 
 import style from '../styles/post.module.css'
 
@@ -19,15 +16,7 @@ const Document = ({
   excerpt,
   tags,
   html,
-  previousPost,
-  nextPost,
-  comments,
 }) => {
-  const previousPath = previousPost && previousPost.frontmatter.path
-  const previousLabel = previousPost && previousPost.frontmatter.title
-  const nextPath = nextPost && nextPost.frontmatter.path
-  const nextLabel = nextPost && nextPost.frontmatter.title
-
   return (
     <>
       <div className={style.post}>
@@ -73,14 +62,6 @@ const Document = ({
           )}
         </div>
       </div>
-      <Comments commentsList={comments} />
-      <CommentsForm slug={path} />
-      <Navigation
-        previousPath={previousPath}
-        previousLabel={previousLabel}
-        nextPath={nextPath}
-        nextLabel={nextLabel}
-      />
     </>
   )
 }
@@ -94,9 +75,6 @@ Document.propTypes = {
   excerpt: PropTypes.string,
   html: PropTypes.string,
   tags: PropTypes.array,
-  nextPost: PropTypes.object,
-  previousPost: PropTypes.object,
-  comments: PropTypes.object,
 }
 
 export default Document

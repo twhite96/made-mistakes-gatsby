@@ -45,10 +45,10 @@ export default Comment
 export const commentQuery = graphql`
   fragment commentAttributesFragment on MarkdownRemark {
     frontmatter {
+      _id
       name
       url
       email
-      uuid: date
       friendlyDate: date(formatString: "MMMM DD, YYYY")
       iso8601Date: date
     }
