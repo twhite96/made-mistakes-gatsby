@@ -13,7 +13,7 @@ breadcrumbs:
     url: /work/
   - label: "Jekyll themes"
     url: /work/jekyll-themes/
-comments: true
+comments: false
 support: true
 toc: true
 order: 11

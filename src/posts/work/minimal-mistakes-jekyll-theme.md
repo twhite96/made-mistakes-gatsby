@@ -26,7 +26,7 @@ breadcrumbs:
     url: /work/
   - label: "Jekyll themes"
     url: /work/jekyll-themes/
-comments: true
+comments: false
 toc: true
 support: true
 order: 8
