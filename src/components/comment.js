@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import Gravatar from 'react-gravatar'
 
 const Comment = props => {
-  const { name, url, email, friendlyDate, iso8601Date, children } = props
+  const { name, email, friendlyDate, iso8601Date, children } = props
 
   return (
     <div>
@@ -13,14 +13,8 @@ const Comment = props => {
       </div>
       <div>
         <header>
-          {url !== '' ? (
-            <a className="h-card" href={url}>
-              {name}
-            </a>
-          ) : (
-            <span className="h-card">{name}</span>
-          )}
-          &nbsp;on <time dateTime={iso8601Date}>{friendlyDate}</time>
+          <span className="h-card">{name}</span> on{' '}
+          <time dateTime={iso8601Date}>{friendlyDate}</time>
         </header>
         {children}
       </div>
@@ -30,7 +24,6 @@ const Comment = props => {
 
 Comment.propTypes = {
   name: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired,
   email: PropTypes.string.isRequired,
   friendlyDate: PropTypes.string.isRequired,
   iso8601Date: PropTypes.string.isRequired,
@@ -47,7 +40,6 @@ export const commentQuery = graphql`
     id
     frontmatter {
       name
-      url
       email
       friendlyDate: date(formatString: "MMMM DD, YYYY")
       iso8601Date: date

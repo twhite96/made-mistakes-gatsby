@@ -26,7 +26,7 @@ const Comments = data => {
       comments.map(({ node }) => {
         const {
           id,
-          frontmatter: { name, url, email, friendlyDate, iso8601Date },
+          frontmatter: { name, email, friendlyDate, iso8601Date },
           html,
         } = node
 
@@ -34,7 +34,6 @@ const Comments = data => {
           <Comment
             key={id}
             name={name}
-            url={url}
             friendlyDate={friendlyDate}
             iso8601Date={iso8601Date}
             email={email}
