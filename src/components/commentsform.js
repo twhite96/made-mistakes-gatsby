@@ -26,7 +26,7 @@ class CommentForm extends React.Component {
     this.state = this.initialState
   }
 
-  onSubmitComment = async (event) => {
+  onSubmitComment = async event => {
     event.preventDefault()
 
     this.setState({ submitting: true })
@@ -38,18 +38,20 @@ class CommentForm extends React.Component {
     // convert FormData to json object
     // SOURCE: https://stackoverflow.com/a/46774073
     const json = {}
-    formdata.forEach(function(value, prop){
+    formdata.forEach(function(value, prop) {
       json[prop] = value
     })
 
     // convert json to urlencoded query string
     // SOURCE: https://stackoverflow.com/a/37562814 (comments)
-    const formBody = Object.keys(json).map(key => encodeURIComponent(key) + '=' + encodeURIComponent(json[key])).join('&')
+    const formBody = Object.keys(json)
+      .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(json[key]))
+      .join('&')
 
     // POST the request to Staticman's API endpoint
     const response = await fetch(formUrl, {
       method: 'POST',
-      headers: {"Content-Type": "application/x-www-form-urlencoded"},
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: formBody,
     })
 
@@ -126,7 +128,6 @@ class CommentForm extends React.Component {
                     value={email}
                     type="email"
                     onChange={this.handleChange}
-                    required
                   />
                 </label>
                 <label htmlFor="website">
