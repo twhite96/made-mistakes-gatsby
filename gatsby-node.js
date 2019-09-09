@@ -19,6 +19,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
         filter: {
           fileAbsolutePath: { regex: "/posts/" }
           fields: { sourceName: { ne: "comments" } }
+          frontmatter: { published: { ne: false } }
         }
         sort: { fields: [frontmatter___date], order: DESC }
       ) {
@@ -38,6 +39,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
         filter: {
           fileAbsolutePath: { regex: "/pages/" }
           fields: { sourceName: { ne: "comments" } }
+          frontmatter: { published: { ne: false } }
         }
       ) {
         edges {
@@ -187,6 +189,9 @@ exports.createSchemaCustomization = ({ actions }) => {
       tags: [String!]
       excerpt: String
       image: File @fileByRelativePath
+      thumbnail: File @fileByRelativePath
+      published: Boolean
+      comments: Boolean
     }
     type TaxonomyYaml implements Node {
       id: String!

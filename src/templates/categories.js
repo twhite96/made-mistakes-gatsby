@@ -106,7 +106,12 @@ export const postsQuery = graphql`
       html
     }
     allMarkdownRemark(
-      filter: { frontmatter: { categories: { in: [$category] } } }
+      filter: {
+        frontmatter: {
+          categories: { in: [$category] }
+          published: { ne: false }
+        }
+      }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip
