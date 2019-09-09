@@ -22,6 +22,7 @@ const PostTemplate = ({ data, pageContext }) => {
       excerpt,
       tags,
       comments: commentsEnabled,
+      comments_locked: commentsLocked,
     },
     excerpt: autoExcerpt,
     id,
@@ -61,7 +62,7 @@ const PostTemplate = ({ data, pageContext }) => {
       {commentsEnabled && (
         <>
           {comments && <Comments commentsList={comments} />}
-          <CommentsForm slug={path} />
+          {!commentsLocked && <CommentsForm slug={path} />}
         </>
       )}
       <Navigation
@@ -108,6 +109,7 @@ export const pageQuery = graphql`
           }
         }
         comments
+        comments_locked
       }
       id
       html
