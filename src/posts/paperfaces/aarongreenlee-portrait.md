@@ -6,7 +6,7 @@ excerpt: "PaperFaces portrait of @aarongreenlee drawn with Paper for iOS on an i
 image: ../../images/paperfaces-aarongreenlee-twitter.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
-comments: true
+comments: false
 ---
 
 PaperFaces portrait of [@aarongreenlee](https://twitter.com/aarongreenlee).
