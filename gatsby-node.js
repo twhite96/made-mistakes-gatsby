@@ -192,6 +192,8 @@ exports.createSchemaCustomization = ({ actions }) => {
       thumbnail: File @fileByRelativePath
       published: Boolean
       comments: Boolean
+      comments_locked: Boolean
+      _parent: String!
     }
     type TaxonomyYaml implements Node {
       id: String!
