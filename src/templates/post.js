@@ -62,7 +62,17 @@ const PostTemplate = ({ data, pageContext }) => {
       {commentsEnabled && (
         <>
           {comments && <Comments commentsList={comments} />}
-          {!commentsLocked && <CommentsForm slug={path} />}
+          {commentsLocked ? (
+            <div className="notice">
+              <div className="custom-block-heading">Comments are closed</div>
+              <div className="custom-block-body">
+                If you have a question concerning the content of this page,
+                please feel free to contact me.
+              </div>
+            </div>
+          ) : (
+            <CommentsForm slug={path} />
+          )}
         </>
       )}
       <Navigation
