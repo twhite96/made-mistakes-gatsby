@@ -8,6 +8,7 @@ categories: [articles]
 tags: [Jekyll, open source, web development, GitHub, tutorial]
 image: ../../images/jekyll-style-guide-feature.jpg
 comments: true
+comments_locked: true
 toc: true
 ---
 

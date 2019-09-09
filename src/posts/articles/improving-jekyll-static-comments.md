@@ -7,6 +7,7 @@ image: ../../images/improving-jekyll-static-comments-feature.jpg
 categories: [articles]
 tags: [web development, GitHub, Jekyll, tutorial]
 comments: true
+comments_locked: true
 toc: true
 last_modified_at: 2018-11-16T15:45:16-05:00
 ---

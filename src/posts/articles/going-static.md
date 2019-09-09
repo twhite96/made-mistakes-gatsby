@@ -8,6 +8,7 @@ image: ../../images/going-static-feature.jpg
 categories: [articles]
 tags: [Jekyll, web development, design, open source]
 comments: true
+comments_locked: true
 toc: true
 ---
 

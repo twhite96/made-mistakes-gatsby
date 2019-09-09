@@ -7,6 +7,7 @@ categories: [articles]
 tags: [Jekyll, web development, GitHub, open source, tutorial]
 image: ../../images/using-jekyll-2016-feature.jpg
 comments: true
+comments_locked: true
 last_modified_at: 2017-10-24T09:32:34-04:00
 toc: true
 ---

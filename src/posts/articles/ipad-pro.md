@@ -8,6 +8,7 @@ categories: [articles]
 tags: [Apple, illustration, Procreate, time lapse]
 image: ../../images/procreate-painting-process-feature.jpg
 comments: true
+comments_locked: true
 toc: true
 ---
 
