@@ -8,6 +8,8 @@ image: ../../images/paper-53-trees-guide-feature.jpg
 categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, Apple]
 toc: true
+comments: true
+comments_locked: true
 ---
 
 Sorry for the delay in publishing the next installment of my **Mastering Paper Guide** --- between the twins, my job, and trying to launch [**Relic Scout**](https://relicscout.com/), I've had my hands full this summer. But enough of all the excuses, let's get right into it ok?

@@ -8,6 +8,8 @@ categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, Apple]
 image: ../../images/paper-53-color-picker-feature.jpg
 toc: true
+comments: true
+comments_locked: true
 ---
 
 Re-imagined zoom tool, *check*. Expressive paint and ink tools that react to the speed and angle of your strokes, *double check*. A familiar color picker to sample, match, and adjust hues --- *triple check*. Yes that's not a typo, Paper by FiftyThree finally has a color picker.

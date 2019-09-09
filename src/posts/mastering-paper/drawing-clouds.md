@@ -8,6 +8,8 @@ image: ../../images/paper-53-skies-guide-feature.jpg
 categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, Apple]
 toc: true
+comments: true
+comments_locked: true
 ---
 
 Paper by FiftyThree makes painting realistic skies and clouds a breeze. If you had fun drawing trees, just wait until you fluff out happy clouds that would make Bob Ross proud. Honestly, with just a few washes of watercolor and strokes of pencil, you'll have an instant masterpiece. Here...let me show you how.

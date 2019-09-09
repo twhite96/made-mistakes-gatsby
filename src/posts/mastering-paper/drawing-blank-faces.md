@@ -8,6 +8,8 @@ image: ../../images/paper-53-draw-face-feature.jpg
 categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, portrait, Apple]
 toc: true
+comments: true
+comments_locked: true
 ---
 
 I hate cutting the grass because it's a chore, and chores suck. [Drawing a portrait every day]({% post_url /notes/2012-08-31-paperfaces-ipad-portrait-project %}) for the last 10 months could have turned into a royal chore, but I kept it fun by setting a few restraints. These restrictions had a big effect on my style and time investment. Not exactly the most busy dude in the world, but working full time, tinkering with side projects, finding time for [my wife](https://2littlerosebuds.com/ "2 Little Rosebuds"), and helping to raise my twin girls doesn't leave much open.

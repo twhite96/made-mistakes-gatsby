@@ -8,6 +8,8 @@ categories: [mastering-paper]
 tags: [Paper for iOS, tutorial]
 image: ../../images/paper-53-faux-layers-feature.jpg
 toc: true
+comments: true
+comments_locked: true
 ---
 
 Up until recently I would painstakingly erase and Blend away lines until I got them just right when drawing with Paper by FiftyThree.

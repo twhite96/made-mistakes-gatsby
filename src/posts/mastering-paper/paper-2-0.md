@@ -8,6 +8,8 @@ categories: [mastering-paper]
 tags: [Paper for iOS, Pencil by 53, Pogo Connect, Apple]
 image: ../../images/paper-2-0-0-feature.jpg
 toc: true
+comments: true
+comments_locked: true
 ---
 
 With *FiftyThree's Paper* hitting 2.0 and Apple's iOS 8 system update dropping recently we've seen some noticeable [improvements in the software]({% post_url /mastering-paper/2014-09-16-watercolor-brush-update %}) along with brand new features like [Mix]({% post_url /mastering-paper/2014-09-16-mix-with-me %}) and **Surface Pressure**.

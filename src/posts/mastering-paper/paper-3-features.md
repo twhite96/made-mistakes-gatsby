@@ -8,6 +8,8 @@ categories: [mastering-paper]
 tags: [Paper for iOS, Apple]
 image: ../../images/paper-3-feature.jpg
 toc: true
+comments: true
+comments_locked: true
 ---
 
 The hashtag [#CreateAnywhere](https://twitter.com/hashtag/createanywhere) takes on greater meaning now that [**Paper by FiftyThree**](http://www.fiftythree.com/paper) is available for iPhone --- a device I *always have with me*. Not only that but with a new set of tricks up its sleeve, Paper is quickly becoming a productivity powerhouse.

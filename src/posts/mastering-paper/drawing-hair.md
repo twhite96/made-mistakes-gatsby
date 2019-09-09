@@ -8,6 +8,8 @@ image: ../../images/how-to-draw-hair-feature.jpg
 categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, Apple]
 toc: true
+comments: true
+comments_locked: true
 ---
 
 ## Block out the hair

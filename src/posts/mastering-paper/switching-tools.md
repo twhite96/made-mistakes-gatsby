@@ -8,6 +8,7 @@ tags: [Paper for iOS, Apple, tutorial]
 image: ../../images/paper-53-full-tools.jpg
 toc: true
 last_modified_at: 2018-11-06T12:06:36-05:00
+comments: true
 ---
 
 New to Paper by FiftyThree and just can't seem to figure out how to switch tools? I have the short answer for you right here.

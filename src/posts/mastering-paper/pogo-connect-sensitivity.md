@@ -6,6 +6,8 @@ excerpt: "How to adjust the pressure sensitivity of a Pogo Connect's tip with fi
 last_modified_at: 2018-11-06T11:59:22-05:00
 categories: [mastering-paper]
 tags: [Pogo Connect, Paper for iOS, Apple]
+comments: true
+comments_locked: true
 ---
 
 About a month ago I received a replacement [Pogo Connect Smart Pen]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) due to a defect that caused it to stop working. Using this replacement for a few days it was clear to me that something was different about this newer model.

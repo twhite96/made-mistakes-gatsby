@@ -8,6 +8,8 @@ categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, Apple]
 image: ../../images/paper-53-zoom-loupe-feature.jpg
 toc: true
+comments: true
+comments_locked: true
 ---
 
 I'm a bit ashamed to admit that up until a few weeks ago I had no clue you could move Paper's zoom loupe simultaneously as you drew.

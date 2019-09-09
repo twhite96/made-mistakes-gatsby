@@ -8,6 +8,8 @@ image: ../../images/paper-53-basics-feature.jpg
 categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, Apple]
 toc: true
+comments: true
+comments_locked: true
 ---
 
 Reading through my earlier guides I came to the realization that I glossed over many basic drawing and painting techniques. Since I refer to the same techniques over and over again it would probably be helpful if I actually explained them. So here is my attempt at remedying that.

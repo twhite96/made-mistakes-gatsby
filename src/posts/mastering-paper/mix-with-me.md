@@ -6,6 +6,8 @@ last_modified_at: 2018-11-06T12:02:21-05:00
 excerpt: "Mix by FiftyThree makes finding, sharing, and learning from inspiring Paper creators easy and fun."
 categories: [mastering-paper]
 tags: [Paper for iOS, Apple]
+comments: true
+comments_locked: true
 ---
 
 I'm the type of person that learns how something is made by dissecting and examining its every nook and cranny. Obsessively digging through #MadeWithPaper streams on [Tumblr](https://www.tumblr.com/search/madewithpaper), [Twitter](https://twitter.com/search?q=%23MadeWithPaper&src=typd), and Instagram I've become frustrated with the lack of fidelity of those posts.

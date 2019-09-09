@@ -7,6 +7,8 @@ last_modified_at: 2018-11-06T11:58:50-05:00
 image: ../../images/paper-53-blend-first-look-feature.jpg
 categories: [mastering-paper]
 tags: [Pencil by 53, Paper for iOS, Apple]
+comments: true
+comments_locked: true
 ---
 
 In case you missed the announcement yesterday, FiftyThree took the wraps off their first hardware product --- [Pencil](http://fiftythree.com/pencil). For the last month I've had the privilege of wielding beta versions of this amazing tool to play with and test out. As soon as I purchase my own Pencil I'll follow up with a [full review]({% post_url /mastering-paper/2014-11-28-pencil-53-review %}), but for now here's a small [sample of drawings](/tag/blend/) I've created using the new Blend feature.

@@ -8,6 +8,8 @@ tags: [Pencil by 53, Paper for iOS, Apple, review]
 last_modified_at: 2018-11-06T12:04:05-05:00
 image: ../../images/pencil-53-feature.jpg
 toc: true
+comments: true
+comments_locked: true
 ---
 
 For the last year I've been using FiftyThree's [first hardware product]({% post_url /mastering-paper/2014-11-28-pencil-53-review %}), **Pencil**. A Bluetooth stylus that was designed to work seamlessly with Paper for iPad by delivering an experience that feels closer to "the real thing" than any other styli.

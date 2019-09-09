@@ -8,6 +8,8 @@ categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, Apple]
 image: ../../images/paper-53-grid-feature.jpg
 toc: true
+comments: true
+comments_locked: true
 ---
 
 A question I receive often is "how do you create such accurate line drawings in your Paper portraits." The short answer is practice... about 1,460 hours of practice. The longer and more helpful answer is, there are several techniques I use to achieve life-like drawings --- one of which I'm going to share with you now.

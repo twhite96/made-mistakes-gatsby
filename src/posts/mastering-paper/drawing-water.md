@@ -8,6 +8,8 @@ image: ../../images/paper-53-water-guide-feature.jpg
 categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, Apple]
 toc: true
+comments: true
+comments_locked: true
 ---
 
 Hopefully parts 2 and 3 of my [Mastering Paper by FiftyThree Guide](/mastering-paper/) demonstrated just how easy drawing trees and skies on an iPad can be. Building on the techniques in those tutorials, I'm going to walk you through my process for drawing water and waves --- perfect for beach and coastline illustrations! If you enjoyed how I draw clouds, the following should be familiar territory since I use similar techniques.

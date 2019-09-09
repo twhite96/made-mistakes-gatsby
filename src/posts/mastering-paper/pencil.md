@@ -8,6 +8,8 @@ categories: [mastering-paper]
 tags: [Paper for iOS, Pencil by 53, tutorial, Apple]
 image: ../../images/mastering-pencil-feature.jpg
 toc: true
+comments: true
+comments_locked: true
 ---
 
 Not convinced you need *FiftyThree's Pencil stylus* in your life? Or maybe you just want to level-up your skills? This guide covers both by revealing the kinds of Surface Pressure and Blend secrets that will turn you into a Pencil master.

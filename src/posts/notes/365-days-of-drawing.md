@@ -7,6 +7,7 @@ image: ../../images/paperfaces-476-portraits.jpg
 categories: [notes]
 tags: [life, illustration, Paper for iOS, Apple]
 comments: true
+comments_locked: true
 last_modified_at: 2017-12-12T16:27:38-05:00
 ---
 

@@ -8,6 +8,8 @@ image: ../../images/paper-53-texture-guide-feature.jpg
 categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, Apple]
 toc: true
+comments: true
+comments_locked: true
 ---
 
 If you've been following along you now know all my Paper techniques[^techniques] and tricks for painting basic landscapes. Trees, grass, skies, clouds, water, and waves --- all the parts for building a solid landscape foundation. This next tutorial in my Mastering Paper series will cover techniques for creating textures like bricks, wood grain, concrete, and rocks.
