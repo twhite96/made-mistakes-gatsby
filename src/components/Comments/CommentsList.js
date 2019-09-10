@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Comment from './comment'
+import Comment from './Comment'
 
 const Comments = data => {
   const {

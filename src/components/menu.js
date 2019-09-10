@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
-import Icon from './icon'
+import Icon from './Icon'
 
 import style from '../styles/menu.module.css'
 
@@ -130,7 +130,7 @@ Menu.propTypes = {
     PropTypes.shape({
       title: PropTypes.string,
       path: PropTypes.string,
-    }),
+    })
   ),
   mainMenuItems: PropTypes.number,
   menuMoreText: PropTypes.string,
@@ -146,7 +146,7 @@ SubMenu.propTypes = {
     PropTypes.shape({
       title: PropTypes.string,
       path: PropTypes.string,
-    }),
+    })
   ),
   mainMenuItems: PropTypes.number,
   onToggleSubMenu: PropTypes.func,

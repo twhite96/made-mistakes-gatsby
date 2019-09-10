@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import Helmet from 'react-helmet'
 
-const Facebook = ({
+const OpenGraph = ({
   url,
   name,
   type,
@@ -26,9 +26,9 @@ const Facebook = ({
   </Helmet>
 )
 
-export default Facebook
+export default OpenGraph
 
-Facebook.propTypes = {
+OpenGraph.propTypes = {
   url: PropTypes.string.isRequired,
   locale: PropTypes.string.isRequired,
   type: PropTypes.string,
@@ -40,7 +40,7 @@ Facebook.propTypes = {
   name: PropTypes.string,
 }
 
-Facebook.defaultProps = {
+OpenGraph.defaultProps = {
   type: 'website',
   name: null,
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import site from '../../config/site'
+import site from '../../../config/site'
 
 class CommentForm extends React.Component {
   constructor(props) {
@@ -33,7 +33,7 @@ class CommentForm extends React.Component {
 
     // extract form data
     const formdata = new FormData(event.target)
-    const formUrl = `https://api.staticman.net/v3/entry/github/mmistakes/gatsby-test/master/comments`
+    const formUrl = site.staticmanApi
 
     // convert FormData to json object
     // SOURCE: https://stackoverflow.com/a/46774073
@@ -171,6 +171,7 @@ class CommentForm extends React.Component {
 
 CommentForm.propTypes = {
   slug: PropTypes.string.isRequired,
+  commentCount: PropTypes.number,
 }
 
 export default CommentForm

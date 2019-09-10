@@ -2,8 +2,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from 'gatsby'
-import Facebook from './facebook'
-import Twitter from './twitter'
+import OpenGraph from './OpenGraph'
+import TwitterCard from './TwitterCard'
 
 const SEO = ({
   title,
@@ -133,7 +133,7 @@ const SEO = ({
           </script>
         )}
       </Helmet>
-      <Facebook
+      <OpenGraph
         description={seo.description}
         image={seo.image}
         title={seo.title}
@@ -142,7 +142,7 @@ const SEO = ({
         locale={ogLanguage}
         name={facebook}
       />
-      <Twitter
+      <TwitterCard
         title={seo.title}
         image={seo.image}
         description={seo.description}

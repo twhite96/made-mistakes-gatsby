@@ -2,12 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
-import SEO from '../components/seo'
-import Layout from '../components/layout'
-import Document from '../components/document'
-import Comments from '../components/comments'
-import CommentsForm from '../components/commentsform'
-import Navigation from '../components/navigation'
+import SEO from '../components/SEO'
+import Layout from '../components/Layout'
+import Document from '../components/Document'
+import CommentsList from '../components/Comments/CommentsList'
+import CommentForm from '../components/Comments/CommentForm'
+import Navigation from '../components/Navigation'
 import site from '../../config/site'
 
 const PostTemplate = ({ data, pageContext }) => {
@@ -61,7 +61,7 @@ const PostTemplate = ({ data, pageContext }) => {
       />
       {commentsEnabled && (
         <>
-          {comments && <Comments commentsList={comments} />}
+          {comments && <CommentsList commentsList={comments} />}
           {commentsLocked ? (
             <div className="notice">
               <div className="custom-block-heading">Comments are closed</div>
@@ -71,7 +71,7 @@ const PostTemplate = ({ data, pageContext }) => {
               </div>
             </div>
           ) : (
-            <CommentsForm slug={path} />
+            <CommentForm slug={path} />
           )}
         </>
       )}

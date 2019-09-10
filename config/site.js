@@ -12,6 +12,8 @@ module.exports = {
     height: 384,
   },
   ogLanguage: 'en_US', // Facebook Language
+  staticmanApi:
+    'https://api.staticman.net/v3/entry/github/mmistakes/gatsby-test/master/comments',
 
   // JSONLD / Manifest
   favicon: 'src/images/made-mistakes-logo.png', // Used for manifest favicon generation
