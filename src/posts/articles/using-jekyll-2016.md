@@ -204,7 +204,7 @@ set JEKYLL_ENV=production
 
 #### Other configurations
 
-As mentioned earlier I have a moderately sized Jekyll site at {{ site.posts.size }} posts. Combine that fact with an `/images/` directory that is close to 2 GB, a liberal use of Liquid `for` loops, and generator plugins like [**Jekyll Archives**][archives] --- you get site builds that are far from instant. And in the rare cases when I run `jekyll clean` to flush caches and everything in `/_site/`, builds can take over 15 minutes as the [**Jekyll Picture Tag**][picture-tag] plugin regenerates appropriately sized hero images for every posts. Yikes!
+As mentioned earlier I have a moderately sized Jekyll site at 1,005 posts. Combine that fact with an `/images/` directory that is close to 2 GB, a liberal use of Liquid `for` loops, and generator plugins like [**Jekyll Archives**][archives] --- you get site builds that are far from instant. And in the rare cases when I run `jekyll clean` to flush caches and everything in `/_site/`, builds can take over 15 minutes as the [**Jekyll Picture Tag**][picture-tag] plugin regenerates appropriately sized hero images for every posts. Yikes!
 
 So as you might have guessed, I sure as hell never start up a server with *auto-regeneration* enabled. Instead, I start with `bundle exec jekyll serve --no-watch` and then run a rake task to manually build every time I want to check changes locally.
 

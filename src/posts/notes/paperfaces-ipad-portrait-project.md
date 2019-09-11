@@ -74,7 +74,7 @@ And yes, I use a stylus. For the first 50 or so portraits I drew exclusively wit
 
 ### When are you going to stop?
 
-At the moment, there is a *waiting list* of over 2,000. Now I know what you're thinking, "this dude is never going to draw all those." Well, you're probably right. Though I am making progress and have drawn just shy of {{ site.categories.paperfaces | size }} finished illustrations.
+At the moment, there is a *waiting list* of over 2,000. Now I know what you're thinking, "this dude is never going to draw all those." Well, you're probably right. Though I am making progress and have drawn just shy of 886 finished illustrations.
 
 Working my day job as a designer, then spending the rest of the evening with my wife and twin baby girls doesn't leave much free time. Since this project is a fun diversion for myself, I allot a few hours each night to draw a portrait or two. On average most portraits take me 1--2 hours to complete. It really depends on the complexity of the original photograph and how much detail I'm trying to capture.
 
