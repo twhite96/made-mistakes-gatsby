@@ -28,7 +28,7 @@ I tried several styli with rubber nibs to see if it was indeed the tip's size or
 | I've also observed Paper getting confused when pressing lightly with a capacitive styli. I'd expect it to Blend or not do anything, but instead it begins drawing marks.
 
 {% figure caption:"Paper 2.0.0 Pencil and capacitive styli bugs." %}
-{% youtube cleK43E6M6o %}
+`youtube: https://www.youtube.com/watch?v=cleK43E6M6o`
 {% endfigure %}
 
 While I believe only activating Blend with finger sized touch targets is the intended behavior. I do see how it could be bothersome for those who prefer using a stylus (that falls under the size threshold[^small-tip]) to Blend. If you want to test it out here are the steps I followed:
@@ -70,7 +70,7 @@ This is a really weird one and I'm not entirely sure why it's happening, but it 
 Here's a video to better show what's going on, but the gist of it is this. 
 
 {% figure caption:"Paper 2.0.0 and Pogo Connect Rewind bug." %}
-{% youtube 2BJerajpehQ %}
+`youtube: https://www.youtube.com/watch?v=2BJerajpehQ`
 {% endfigure %}
 
 If you paint something after drawing and then invoke Rewind, it undoes the drawing strokes instead of the painted strokes with no way or restoring them. They're simply removed from Rewind's history of undoes.
@@ -90,7 +90,7 @@ Back before Paper had the Loupe tool, many of us resorted to the *Accessibility 
 If you use FiftyThree's Pencil, have the 2.0.0 version of Paper, and the zoom accessibility feature enabled, you're in for a rude awakening. When you launch Paper you won't be able to flip pages, draw, open the tool tray, or pretty much anything else. I'm sure there is a good reason for all of this, but for now you need to *disable Zoom* in the Settings app to use Paper properly.
 
 {% figure caption:"Enabling iOS 8's Accessibility Zoom feature renders Paper useless." %}
-{% youtube 6_n1eWpZlV8 %}
+`youtube: https://www.youtube.com/watch?v=6_n1eWpZlV8`
 {% endfigure %}
 
 For those of you that don't use Pencil, the 3 finger tap accessibility zoom gesture works perfectly fine in Paper 2.0.0.

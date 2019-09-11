@@ -24,7 +24,7 @@ Portrait of Rakso S. inspired by a [photograph on Sktchy](https://sktchy.com/a4R
 If you squint your eyes just right it almost looks like a photograph. Just don't zoom in on the forehead or else you'll notice how unpolished the painting really is. But I'm not complaining, 3 hours of work with results like this --- I'll take it!
 
 {% figure caption:"Time lapse video recorded within Procreate, completed in approximately 3 hours." %}
-{% youtube gn6it_JASKY %}
+`youtube: https://www.youtube.com/watch?v=gn6it_JASKY`
 {% endfigure %}
 
 {% include_cached boilerplate/procreate.md %}

@@ -33,7 +33,7 @@ When you observe a shadow or a dark division, move your stylus faster to produce
 Producing sensitive lines becomes infinitely easier with a [Pogo Connect]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) since you can varying their thickness by pressing harder. This added complexity isn't for everyone, but for someone with a background in the fine arts or illustration, it can feel more natural.  
 
 {% figure caption:"Drawing a blind contour line drawing of my hand in real time." %}
-{% youtube OHpPRwXvVLQ %}
+`youtube: https://www.youtube.com/watch?v=OHpPRwXvVLQ`
 {% endfigure %}
 
 I also find that it helps to think of this line as a piece of string --- pretending that I'm wrapping it around the object as I follow along with my stylus. Don't worry if your drawing ends up looking like a ball of yarn --- that's part of the charm. As the link between hand and eye builds, so will the accuracy of your lines.

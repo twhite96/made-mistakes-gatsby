@@ -12,4 +12,4 @@ PaperFaces portrait of project donator [@sodevious](https://twitter.com/sodeviou
 
 {% include_cached boilerplate/paperfaces-2.md %}
 
-{% youtube fC_yATccHmk %}
+`youtube: https://www.youtube.com/watch?v=fC_yATccHmk`

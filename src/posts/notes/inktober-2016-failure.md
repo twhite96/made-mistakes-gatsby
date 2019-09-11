@@ -26,7 +26,7 @@ After taking a few days to complete a single ink wash --- I was spent. Working d
 I did manage to record a time lapse video during hour 2 of the painting. Unfortunately I mistakenly put the iPhone 7 Plus in **SLO-MO** mode by mistake for the first half. Really surprised there was enough free space to record an hour of 1080p video...
 
 {% figure caption:"1 hour time lapse condensed down into ~20 seconds." %}
-{% youtube gOBj8HdfA2Y %}
+`youtube: https://www.youtube.com/watch?v=gOBj8HdfA2Y`
 {% endfigure %}
 
 October is half over and I suppose there's still time for me to knock out another portrait or two. If past years are any indication there's not a good chance of that happening. :neutral_face:

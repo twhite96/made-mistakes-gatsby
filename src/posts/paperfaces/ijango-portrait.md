@@ -12,4 +12,4 @@ PaperFaces portrait of project donator [@ijango](https://twitter.com/ijango).
 
 {% include_cached boilerplate/paperfaces.md %}
 
-{% youtube 9XA2_0nysm8 %}
+`youtube: https://www.youtube.com/watch?v=9XA2_0nysm8`

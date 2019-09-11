@@ -12,4 +12,4 @@ PaperFaces portrait of [@Oog](https://twitter.com/Oog).
 
 {% include_cached boilerplate/paperfaces.md %}
 
-{% youtube bHp3aHMQxA0 %}
+`youtube: https://www.youtube.com/watch?v=bHp3aHMQxA0`

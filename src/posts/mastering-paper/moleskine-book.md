@@ -137,7 +137,7 @@ Not to mention the finished books share the same 4:3 proportion as your Paper cr
 If you've been holding out printing a book with Paper, I'd encourage you to give it a try at least once. I believe they're most effective as gifts to share with friends and family. Why not get a jump on the upcoming holiday season and create a book now. If they're as popular as I predict them to be, it might be a good idea to get an order in early to beat the rush.
 
 {% figure caption:"Flipping through a book of PaperFaces" %}
-{% youtube ibG41djH_Nk %}
+`youtube: https://www.youtube.com/watch?v=ibG41djH_Nk`
 {% endfigure %}
 
 ---
@@ -153,5 +153,5 @@ For this book I took a few of my Paper "cheat sheets" and adapted drawings from 
 {% endfigure %}
 
 {% figure caption:"Flipping through another book" %}
-{% youtube BW8czjeiNzw %}
+`youtube: https://www.youtube.com/watch?v=BW8czjeiNzw`
 {% endfigure %}

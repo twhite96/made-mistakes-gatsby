@@ -14,7 +14,7 @@ PaperFaces portrait of Rafi Z. inspired by a [photograph on Sktchy](https://sktc
 Another experiment in recording my drawing process using on iPad, recorded with an iPhone 5s and the Lapse It app. Drawing was completed over three sessions totaling 3 hours and 25 minutes.
 
 {% figure caption:"[Time lapse videos](https://www.youtube.com/watch?v=9RTXF6wLMjw&list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao) recorded with an iPhone 5s." %}
-{% youtube i5DUn3K60eg %}
+`youtube: https://www.youtube.com/watch?v=i5DUn3K60eg`
 {% endfigure %}
 
 {% figure caption:"Work in progress drawings available on Mix." class:"gallery-2-col" %}

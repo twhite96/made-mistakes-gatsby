@@ -12,4 +12,4 @@ PaperFaces portrait of [@arbitral](https://twitter.com/arbitral).
 
 {% include_cached boilerplate/paperfaces.md %}
 
-{% youtube 1VpNH3EQUg8 %}
+`youtube: https://www.youtube.com/watch?v=1VpNH3EQUg8`

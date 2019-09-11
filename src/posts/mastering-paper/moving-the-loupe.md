@@ -49,7 +49,7 @@ Sorry for the long winded exposition, but I think it helps contextualize why bei
 ## Video demonstration
 
 {% figure caption:"A video demonstrating how to use Zoom while painting a smooth glaze." %}
-{% youtube gpz8aPXwd18 %}
+`youtube: https://www.youtube.com/watch?v=gpz8aPXwd18`
 {% endfigure %}
 
 The key to making this work is placing your finger on the circle **before you begin** drawing or painting. If you lift your finger off of the loupe's edge and begin drawing, you won't be able to move it until you stop touching the iPad's screen.

@@ -40,7 +40,7 @@ While a fun exercise in technical wizardry, live streaming in this way is probab
 I suppose if the demand is there I might try this again some night when my wife isn't streaming Netflix. For now I think the sped up time lapse approach is the way to go.
 
 {% figure caption:"[Time lapse video](https://www.youtube.com/watch?v=qhEtbFlxfm4) recorded with an iPhone 5s and **Lapse It**." %}
-{% youtube Qxpss8umvG4 %}
+`youtube: https://www.youtube.com/watch?v=Qxpss8umvG4`
 {% endfigure %}
 
 {% include_cached boilerplate/paperfaces-5.md %}

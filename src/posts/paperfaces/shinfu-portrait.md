@@ -12,4 +12,4 @@ PaperFaces portrait of project donator [@Shinfu](https://twitter.com/Shinfu) jum
 
 {% include_cached boilerplate/paperfaces.md %}
 
-{% youtube eg7iMJTe_U0 %}
+`youtube: https://www.youtube.com/watch?v=eg7iMJTe_U0`

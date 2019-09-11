@@ -19,7 +19,7 @@ Final painting measures 1.5\" x 1.5\".
 {% endfigure %}
 
 {% figure caption:"2 hours of painting condensed into 30 seconds." %}
-{% youtube QDpXp5v2syk %}
+`youtube: https://www.youtube.com/watch?v=QDpXp5v2syk`
 {% endfigure %}
 
 {% include_cached boilerplate/watercolor.md %}

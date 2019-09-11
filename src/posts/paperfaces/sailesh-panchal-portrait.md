@@ -13,5 +13,5 @@ Good lighting makes for a world of difference. Commissioned PaperFaces portrait 
 {% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Time to complete: 1 hour and 28 minutes." %}
-{% youtube KMLJ8_CQhAU %}
+`youtube: https://www.youtube.com/watch?v=KMLJ8_CQhAU`
 {% endfigure %}

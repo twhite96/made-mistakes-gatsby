@@ -161,7 +161,7 @@ I'm interested to see where FiftyThree continues to take Pencil as it and Paper 
 Want to know more about Pencil or the new features it enables --- ask away in the comments below and I'll do my best to answer.
 
 {% figure caption:"Curious to see Pencil in action? In the back half of this time lapse video I use it to paint and smudge a portrait." %}
-{% youtube K2dgaV9_rCI %}
+`youtube: https://www.youtube.com/watch?v=K2dgaV9_rCI`
 {% endfigure %}
 
 {% include_cached affiliate-disclosure.html %}

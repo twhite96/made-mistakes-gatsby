@@ -133,16 +133,14 @@ The question that hits my inbox the most is "how do you paint so smoothly?" Well
 
 The other important variable to consider is moving your finger (or stylus) across the screen at a slow pace. If you rub in a circle motion on an area that is light it will eventually darken to its maximum point. As long as you **don't lift** as you circle over these lighter spots, everything will even out.
 
-{% figure caption:"Here's how I paint a shape smoothly." %}
-{% youtube AjJVrFFaCck %}
-{% endfigure %}
+`youtube: https://www.youtube.com/watch?v=AjJVrFFaCck`
 
 ### Feathering edges
 
 Reliably producing a painted edge that is soft and blurry becomes important when blending shapes into each other. To achieve this effect you need to gradually increase the speed of your stroke as you approach the edge you want to feather. 
 
 {% figure caption:"Feathering an edge with the watercolor brush" %}
-{% youtube RrFlav38uZw %}
+`youtube: https://www.youtube.com/watch?v=RrFlav38uZw`
 {% endfigure %}
 
 A wet-on-wet effect can be simulated by feathering brush strokes into each other. Getting the perfect fade can be tricky, so don't be afraid to rewind and trying again. *I almost never get it right the first time.*

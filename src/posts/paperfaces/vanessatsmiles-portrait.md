@@ -14,4 +14,4 @@ I also recorded my iPad's screen for this portrait that shows the new zoom tool 
 
 {% include_cached boilerplate/paperfaces.md %}
 
-{% youtube PWf4WUoMXwg %}
+`youtube: https://www.youtube.com/watch?v=PWf4WUoMXwg`

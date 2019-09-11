@@ -65,7 +65,7 @@ Thankfully FiftyThree put the engineering effort into Paper and Pencil to allevi
 When Pencil is connected to Paper (or [supporting apps](http://www.fiftythree.com/pencil-ready)), **Palm Rejection** completely transforms the drawing experience making it more accessible. 
 
 {% figure caption:"Now if the twins could only learn how to share..." %}
-{% youtube RRYmYPf1KpY %}
+`youtube: https://www.youtube.com/watch?v=RRYmYPf1KpY`
 {% endfigure %}
 
 Registering touches consistently is almost impossible for my two little girls at this age because:
@@ -110,7 +110,7 @@ If you ask me, Surface Pressure is Pencil's killer feature. It has completely tr
 ### By design Pencil's invites you to hold it differently
 
 {% figure caption:"To get the most out of Surface Pressure you'll want to practice holding it with different grips." %}
-{% youtube vmgQpzBOOSc %}
+`youtube: https://www.youtube.com/watch?v=vmgQpzBOOSc`
 {% endfigure %}
 
 I like to hold Pencil as if it's a piece of charcoal and utilize the angled tip when quickly sketching. Not only does this change the characteristics of pencil strokes (I'll get to that in a minute), but it also encourages you to use your entire arm instead of just the wrist.
@@ -145,7 +145,7 @@ Wide strokes made with the pencil tool overlap differently than the ink, marker,
 | Reduce color banding by holding Pencil on its side and moving in a circular motion to evenly fill things in.
 
 {% figure caption:"Spread pencil tones evenly by overlapping them with a circular motion." %}
-{% youtube ChJ3LSCOyoM %}
+`youtube: https://www.youtube.com/watch?v=ChJ3LSCOyoM`
 {% endfigure %}
 
 If you look closely at the wide strokes of the pencil (sketch) tool, you'll notice it fades from dark to light.
@@ -184,13 +184,13 @@ To get the most out of this technique you're going to want to hold Pencil differ
 As you sketch and draw with this *palm grip* you'll need to get comfortable with both **pushing** and **pulling** your strokes. Your entire arm and wrist should be moving --- wrist only movements will lack fluidity. To better illustrate what I mean here's a video of me drawing with the palm grip.
 
 {% figure caption:"Gesture drawing using Pencil held in the palm grip." %}
-{% youtube rqBLBCfDjZU %}
+`youtube: https://www.youtube.com/watch?v=rqBLBCfDjZU`
 {% endfigure %}
 
 Another great way to loosen up your arm and hand is to draw ovals over and over again. Focus on moving your entire arm in a circular motion directly above the iPad's screen. 
 
 {% figure caption:"If you take a close look you'll notice I make several practice strokes in the air above the screen before making contact with the tip. This helps achieve accurate and crisp lines without constantly rewinding mistakes." %}
-{% youtube k3glCSQt22M %}
+`youtube: https://www.youtube.com/watch?v=k3glCSQt22M`
 {% endfigure %}
 
 #### Shading and tone building
@@ -209,7 +209,7 @@ Surface Pressure enabled shading does most of the hard work by automatically mak
 Remember, each pass with Pencil's angled tip leaves a noticeable edge when overlapped --- use this to your advantage! By being deliberate in the direction of your strokes you will help define and reinforce the form of an object. Sort of like [how hatching works]({% post_url /mastering-paper/2014-02-09-basics %}#ink-techniques), but with fatter strokes.
 
 {% figure caption:"By curving my strokes around the contour of the tomato I let Pencil and Surface Pressure do all the work." %}
-{% youtube O31BPEgKrXs %}
+`youtube: https://www.youtube.com/watch?v=O31BPEgKrXs`
 {% endfigure %}
 
 ![Surface Pressure tomato drawings in grayscale and color](../../images/pencil-surface-pressure-tomatoes.jpg)
@@ -230,7 +230,7 @@ As you might have guessed from the above heading, Blend lets you smudge stuff. S
 It's not a tool you select like the others, triggering it is way more intuitive than that. You simply use your finger to smudge whatever it is you want to blend or blur. And like most of Paper's tools it [reacts to the speed of your movement](http://making.fiftythree.com/the-precision-behind-blend/ "The Precision Behind Blend") allowing dynamic control on the fly.
 
 {% figure caption:"Speed matters. Fast strokes slightly blur objects while slow ones can be used to smudge and deform them." %}
-{% youtube nzfTY5rw9Q0 %}
+`youtube: https://www.youtube.com/watch?v=nzfTY5rw9Q0`
 {% endfigure %}
 
 [[notice | ProTip: blending with a non-Pencil Stylus]]
@@ -248,7 +248,7 @@ It's not a tool you select like the others, triggering it is way more intuitive 
 Apps that support FiftyThree's SDK (like Procreate) get some special abilities when connecting Pencil to them. In Procreate for example, your finger will activate the **Smudge tool** so you can freely switch between it and the Paint tool.
 
 {% figure caption:"Seamlessly switch between painting, erasing, and smudging with Pencil and Procreate." %}
-{% youtube TboRri2mOVQ %}
+`youtube: https://www.youtube.com/watch?v=TboRri2mOVQ`
 {% endfigure %}
 
 [[notice | ProTip: Pencil's eraser in Procreate]]
@@ -346,7 +346,7 @@ It doesn't have to be perfect, you just want to match the colors and general sha
 Now the fun part. Make sure Pencil is connected, Blend is turned on, and begin smudging everything from the horizon line down. At first, move quickly to create a soft blur. Then gradually begin pulling trees into the water by dragging your finger slowly.
 
 {% figure caption:"Pull the trees into the water to create their reflection." %}
-{% youtube fJdHAM9u4Sk %}
+`youtube: https://www.youtube.com/watch?v=fJdHAM9u4Sk`
 {% endfigure %}
 
 To finish things off select the pencil tool to sketch in waves, foam, and other details. Feel free to redraw any trees and shoreline you may have mistakenly blended when creating the water reflections.
@@ -456,7 +456,7 @@ By alternating between quick blends and slow smudges you can create realistic lo
 [![blended ink to create fire and smoke](../../images/pencil-53-blend-matchstick-700.jpg)](../../images/pencil-53-blend-matchstick-lg.jpg)
 {% endfigure %}
 
-{% youtube GdPYXERDH4M %}
+`youtube: https://www.youtube.com/watch?v=GdPYXERDH4M`
 
 ### How to improve blends
 

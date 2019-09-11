@@ -13,4 +13,4 @@ Self portrait of [@mmistakes](https://twitter.com/mmistakes) (hey that's me) in 
 
 {% include_cached boilerplate/paperfaces.md %}
 
-{% youtube NqcGVymOiPo %}
+`youtube: https://www.youtube.com/watch?v=NqcGVymOiPo`

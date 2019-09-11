@@ -13,7 +13,7 @@ With the recent Star Wars Episode VII casting news and *May the 4th* nearly upon
 
 Last year I stuck to the original trilogy with my [Darth Vader]({% post_url /paperfaces/2013-05-04-darth-vader-portrait %}), [Boba Fett]({% post_url /paperfaces/2013-05-04-boba-fett-portrait %}), [Luke]({% post_url /paperfaces/2013-05-04-yoda-luke-skywalker-portrait %}), [Leia]({% post_url /paperfaces/2013-05-04-slave-leia-jabba-the-hutt-portrait %}), and [Chewbacca]({% post_url /paperfaces/2013-05-04-chewbacca-leia-boob-portrait %}) portraits. This year I'm planning on mixing in a few faces from the prequels to cover the whole spectrum of films.
 
-{% youtube 9e1nPyHXCFQ %}
+`youtube: https://www.youtube.com/watch?v=9e1nPyHXCFQ`
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

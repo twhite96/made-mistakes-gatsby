@@ -13,5 +13,5 @@ Drawing small faces with Paper and Pencil is no joke. PaperFaces portrait of Jua
 {% include_cached boilerplate/paperfaces-3.md %}
 
 {% figure caption:"Drawn with Pencil by 53 in about an hour." %}
-{% youtube LnoRZarcrjc %}
+`youtube: https://www.youtube.com/watch?v=LnoRZarcrjc`
 {% endfigure %}

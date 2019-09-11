@@ -12,4 +12,4 @@ PaperFaces portrait of [@melchoyce](https://twitter.com/melchoyce).
 
 {% include_cached boilerplate/paperfaces.md %}
 
-{% youtube 8znOwv0XxcI %}
+`youtube: https://www.youtube.com/watch?v=8znOwv0XxcI`

@@ -12,4 +12,4 @@ PaperFaces portrait of [@cassini_](https://twitter.com/cassini_).
 
 {% include_cached boilerplate/paperfaces.md %}
 
-{% youtube suObiibat7A %}
+`youtube: https://www.youtube.com/watch?v=suObiibat7A`

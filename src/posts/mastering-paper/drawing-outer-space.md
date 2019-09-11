@@ -27,7 +27,7 @@ And with that let's get started.
 ## Painting outer space with your finger
 
 {% figure caption:"How to draw and paint an outer space scene with only your finger and Paper by 53." %}
-{% youtube myAwO2k23q4 %}
+`youtube: https://www.youtube.com/watch?v=myAwO2k23q4`
 {% endfigure %}
 
 ### Cover the canvas
@@ -157,7 +157,7 @@ Once satisfied with the results repeat the process for as many other planets as 
 Building on the same techniques used in the first half of this guide, I'm going to now show you how Pencil can be used to enhance and speed things up. For the most part you follow the exact same steps with a few embellishments to ratchet up the realism.
 
 {% figure caption:"How to draw and paint an outer space scene with Pencil and Paper by 53." %}
-{% youtube pdSp4Y4GOQs %}
+`youtube: https://www.youtube.com/watch?v=pdSp4Y4GOQs`
 {% endfigure %}
 
 If you haven't already paired Pencil with Paper do so now. I find it helpful to go into Pencil's settings and turn off Blend[^blend-off] until I need it. This avoids any unwanted smudges from appearing when not applying enough pressure with Pencil's tip.

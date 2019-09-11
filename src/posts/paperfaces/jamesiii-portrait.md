@@ -12,4 +12,4 @@ PaperFaces portrait of project donator [@jamesIII](https://twitter.com/jamesIII)
 
 {% include_cached boilerplate/paperfaces.md %}
 
-{% youtube ntWqGHiApsE %}
+`youtube: https://www.youtube.com/watch?v=ntWqGHiApsE`

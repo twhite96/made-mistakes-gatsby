@@ -65,7 +65,7 @@ Paging through Paper's digital journals might have been a good idea years ago, b
 Instead of ideas bound together as books, they're presented with a different UI metaphor --- stacks of paper. These stacks expand into a neatly aligned grid of cards you can interact with when tapped on. I'll tell you this much, scrolling through ideas in this way sure beats flipping back 500 plus pages to find a drawing I worked on a year ago.
 
 {% figure caption:"Scrolling through a large stack of ideas is way more usable now." %}
-{% youtube VBMt_sjEXF4 %}
+`youtube: https://www.youtube.com/watch?v=VBMt_sjEXF4`
 {% endfigure %}
 
 These new "Spaces" are more accommodating of the new content types found in Paper 3.0 as well. Ideas in portrait or landscape orientation fit in perfectly with text notes and images. There's no way any of this would be usable or look half as good as it does now if FiftyThree stuck with the book motif.

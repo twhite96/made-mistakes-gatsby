@@ -12,4 +12,4 @@ PaperFaces portrait of project donator [@aaronrustad](https://twitter.com/aaronr
 
 {% include_cached boilerplate/paperfaces.md %}
 
-{% youtube zrpoGw7A_hY %}
+`youtube: https://www.youtube.com/watch?v=zrpoGw7A_hY`

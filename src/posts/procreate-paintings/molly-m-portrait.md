@@ -14,7 +14,7 @@ Portrait of Molly M. inspired by a [photograph on Sktchy](https://sktchy.com/hvn
 The new split view in iOS 9 on the iPad is fantastic. Swiping over the Photos app with my reference material instead of importing and wasting valuable canvas space is a treat.
 
 {% figure caption:"Time lapse video recorded within Procreate, completed in approximately 6 hours." %}
-{% youtube 8DPmXlx58Dk %}
+`youtube: https://www.youtube.com/watch?v=8DPmXlx58Dk`
 {% endfigure %}
 
 {% include_cached boilerplate/procreate.md %}

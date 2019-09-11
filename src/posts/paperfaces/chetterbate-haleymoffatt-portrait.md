@@ -14,5 +14,5 @@ PaperFaces portrait commission of a happy couple.
 {% include_cached boilerplate/paperfaces-4.md %}
 
 {% figure caption:"Time lapse video captured with [Reflector](http://www.airsquirrels.com/reflector/) and edited with Adobe AfterEffects." %}
-{% youtube SU3kYxJmWuQ %}
+`youtube: https://www.youtube.com/watch?v=SU3kYxJmWuQ`
 {% endfigure %}

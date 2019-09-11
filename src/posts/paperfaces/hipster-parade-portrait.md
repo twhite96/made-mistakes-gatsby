@@ -10,6 +10,6 @@ tags: [portrait, illustration, Paper for iOS, black and white, beard, time lapse
 
 PaperFaces portrait of some random hipsters I came up with to fill the entire canvas for a change. You can achieve some realistic effects just working with grays and white.
 
-{% youtube CD9uoa96nKQ %}
+`youtube: https://www.youtube.com/watch?v=CD9uoa96nKQ`
 
 {% include_cached boilerplate/paperfaces-2.md %}

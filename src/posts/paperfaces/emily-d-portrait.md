@@ -18,7 +18,7 @@ I've begun experimenting with [Hyperlapse](https://itunes.apple.com/us/app/hyper
 After I try out some other time lapse iOS apps I plan on sharing what I've learned. But for now here's a short video I shot, edited, and published with just an iPhone.
 
 {% figure caption:"[Time lapse videos](https://www.youtube.com/watch?v=9RTXF6wLMjw&list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao) recorded with an iPhone 5s." %}
-{% youtube NShkvK72JTc %}
+`youtube: https://www.youtube.com/watch?v=NShkvK72JTc`
 {% endfigure %}
 
 {% figure caption:"Work in progress drawings available on Mix." class:"gallery-2-col" %}

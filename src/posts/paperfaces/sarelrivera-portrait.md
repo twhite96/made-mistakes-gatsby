@@ -12,4 +12,4 @@ PaperFaces portrait commissioned of [@sarelrivera](https://twitter.com/sarelrive
 
 {% include_cached boilerplate/paperfaces.md %}
 
-{% youtube YS3Ylg3fcoA %}
+`youtube: https://www.youtube.com/watch?v=YS3Ylg3fcoA`

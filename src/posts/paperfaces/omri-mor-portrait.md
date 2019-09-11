@@ -12,4 +12,4 @@ PaperFaces portrait of [@omri_mor](https://twitter.com/omri_mor).
 
 {% include_cached boilerplate/paperfaces.md %}
 
-{% youtube c2sYfotHIl0 %}
+`youtube: https://www.youtube.com/watch?v=c2sYfotHIl0`

@@ -18,4 +18,4 @@ The lighting kind of sucks and the focus is off in a few parts, but I think it c
 
 {% include_cached boilerplate/paperfaces-2.md %}
 
-{% youtube FGCPOimgdb4 %}
+`youtube: https://www.youtube.com/watch?v=FGCPOimgdb4`

@@ -17,5 +17,5 @@ PaperFaces portrait of [Esty C.](https://sktchy.com/WfStFC), inspiration found v
 {% endfigure %}
 
 {% figure caption:"About 2 hours of drawing and painting." %}
-{% youtube aoELcBcOAo4 %}
+`youtube: https://www.youtube.com/watch?v=aoELcBcOAo4`
 {% endfigure %}
