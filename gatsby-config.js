@@ -241,6 +241,13 @@ module.exports = {
           'gatsby-remark-abbr',
           'gatsby-remark-numbered-footnotes',
           {
+            resolve: 'gatsby-remark-autolink-headers',
+            options: {
+              removeAccents: true,
+              enableCustomId: true,
+            },
+          },
+          {
             resolve: 'gatsby-remark-prismjs',
             options: {
               classPrefix: 'language-',
