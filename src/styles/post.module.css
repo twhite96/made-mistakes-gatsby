@@ -1,9 +1,9 @@
 .post {
   width: 100%;
   max-width: 800px;
-  text-align: left;
-  padding: 20px;
-  margin: 0 auto 20px;
+  margin: 2em auto 1em;
+  padding-left: 20px;
+  padding-right: 20px;
 
   &:not(:last-of-type) {
     border-bottom: 1px solid var(--light-border-color);
@@ -27,6 +27,8 @@
 }
 
 .title {
+  margin-bottom: 0;
+
   a {
     text-decoration: none;
   }
