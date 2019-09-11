@@ -97,9 +97,10 @@ A few more nuggets that make an iPad Pro + Apple Pencil combo even more appealin
 
 I think a 9.7 inch screen is the sweet spot for tablets, but bigger is always better right? If I'm willing to trade weight for more screen real estate I don't think it would be the end of the world. I do most of my iPad illustration work from the couch and rarely draw on the go.
 
-{% figure caption:"Just look at all of the extra space Paper by FiftyThree can utilize on an iPad Pro. Gimme gimme!" %}
-![Paper by FiftyThree on iPad Pro](../../images/ipad-pro-paper.png)
-{% endfigure %}
+<figure>
+  <img alt="Paper by FiftyThree on iPad Pro" src="../../images/ipad-pro-paper.png">
+  <figcaption><p>Just look at all of the extra space Paper by FiftyThree can utilize on an iPad Pro. Gimme gimme!</p></figcaption>
+</figure>
 
 With the new multi-tasking features found in iOS 9 two apps can be tiled together. The fact that the iPad Pro can fit almost two Air's next to each other frees up a ton of space to work with. Once more apps start leveraging **Split View** I can see myself opening a second app off to the side for viewing reference photos as I draw.
 
@@ -109,9 +110,10 @@ Using FiftyThree's Pencil for the last couple of years has really spoiled me. I 
 
 Glad to see Apple will continue that trend with a modest 12 hours of life or 30 minutes of juice by quick charging for 15 seconds. The sight of an Apple Pencil jammed into an iPad does make me cringe a bit, but I guess I'll get over it as long as they're not prone to damage.
 
-{% figure caption:"Image from [Apple.com](http://www.apple.com/apple-pencil/)" %}
-![Charging Apple Pencil via the iPad Pro's Lightning port](../../images/apple-pencil-charging.jpg)
-{% endfigure %}
+<figure>
+  <img alt="Charging Apple Pencil via the iPad Pro's Lightning port" src="../../images/apple-pencil-charging.jpg">
+  <figcaption><p>Image from <a href="https://www.apple.com/apple-pencil/">Apple.com</a></p></figcaption>
+</figure>
 
 ## Preparing with Procreate
 
@@ -129,39 +131,38 @@ After receiving a Pogo Connect as a birthday gift from my wife years ago, one of
 * Automatically record time lapse videos
 * And much more
 
-{% figure caption:"Procreate file formats. Love me some export options." %}
-![Procreate export formats](../../images/procreate-export-formats.jpg)
-{% endfigure %}
+<figure>
+  <img alt="Procreate export formats" src="../../images/procreate-export-formats.jpg">
+  <figcaption><p>Procreate file formats. Love me some export options.</p></figcaption>
+</figure>
 
 Starting out as a digital illustration virgin I wanted to ease in with something that felt familiar to the "real" tools I was used to. Paper by FiftyThree fit this criteria perfectly, making the transition from analog art to digital easier. I did experiment with Procreate at the same time, but was never really happy with the results since I didn't understand the medium yet.
 
-{% figure caption:"My early attempts with Procreate weren't all that great. It took me some time to figure out the paint engine as it felt less organic than what I was used to with traditional media." class:"gallery-2-col" %}
-[![Wendy's portrait painted in Procreate with a Pogo Connect stylus](../../images/wendy-portrait-procreate-600.jpg)](../../images/wendy-portrait-procreate-lg.jpg)
-[![Figure drawing experiments in Procreate](../../images/grunge-figure-drawing-procreate-600.jpg)](../../images/grunge-figure-drawing-procreate-lg.jpg)
-{% endfigure %}
+<figure class="2-column">
+  <img alt="Wendy's portrait painted in Procreate with a Pogo Connect stylus" src="../../images/wendy-portrait-procreate-lg.jpg">
+  <img alt="Figure drawing experiments in Procreate" src="../../images/grunge-figure-drawing-procreate-lg.jpg">
+  <figcaption><p>My early attempts with Procreate weren't all that great. It took me some time to figure out the paint engine as it felt less organic than what I was used to with traditional media.</p></figcaption>
+</figure>
 
 Not looking for more excuses to become an iPad Pro early adopter, the Procreate 3 tease by Savage Interactive didn't help matters much :wink:. Feeling the urge to try something more "professional" I've recently decided to dive deeper into the app. Partially to see what I could do with more capable tools and partially to prepare for what's to come in November...
 
-{% figure caption:"Procreate 3 features coming this holiday season." %}
-![Procreate 3 coming soon](../../images/procreate-3-coming-soon.png)
-{% endfigure %}
+![Procreate 3 features coming this holiday season](../../images/procreate-3-coming-soon.png)
 
 Trading simplicity and minimalism for options and power felt extremely rewarding. Don't get me wrong, Paper's tools can't be matched in a lot of ways. But they're also seriously handicapped in an effort to keep the app simple and intuitive. Procreate on the other hand is built for one thing and one thing alone --- art.
 
 It's this single purpose that allows Procreate to excel at the sorts of things digital artists require in a workflow. In the five short hours I spent with the app I created a realistic portrait that probably would have taken me 10 hours in Paper. It almost felt like I was cheating by exploiting all of Procreate's hallmark features this easily!
 
-{% figure caption:"Layers, and blending modes, and time lapse recording, oh my!" class:"gallery-2-col" %}
-![Layers in Procreate](../../images/mr-allan-procreate-layers.jpg)
-![Blending modes in Procreate](../../images/mr-allan-procreate-blending-modes.jpg)
-{% endfigure %}
+<figure class="2-column">
+  <img alt="Layers in Procreate" src="../../images/mr-allan-procreate-layers.jpg">
+  <img alt="Blending modes in Procreate" src="../../images/mr-allan-procreate-blending-modes.jpg">
+  <figcaption><p>Layers, and blending modes, and time lapse recording, oh my!</p></figcaption>
+</figure>
 
 ### Time lapse recording
 
-Procreate did all the work capturing my strokes as I drew this portrait of "Mr. Allan" from a photo reference on [**Sktchy**](https://get.sktchy.com/). Watch me make all kinds of mistakes and fumble through *my very first serious digital painting* with Procreate.
+Procreate did all the work capturing my strokes as I drew this portrait of "Mr. Allan" from a photo reference on [**Sktchy**](https://get.sktchy.com/). Watch me make all kinds of mistakes and fumble through *my very first serious digital painting* with Procreate... a total 4 hours and 5 minutes over three sessions.
 
-{% figure caption:"A total 4 hours and 5 minutes over three sessions." %}
 `youtube: https://www.youtube.com/watch?v=vrqoIbu7gU0`
-{% endfigure %}
 
 To me eye, the face looks like a lump of clay, but with a few more hours of rendering that could be corrected. Procreate has that oil painted look down pat, it's the watercolor feel that Paper produces so effortlessly I'd like to match in future drawings. But that's for another <s>day</s> tutorial...
 

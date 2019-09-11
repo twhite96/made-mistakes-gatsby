@@ -26,9 +26,10 @@ In City Folk I've been known to TT a day or so to catch events I missed. This ti
 
 A cool addition is the ability to import your character from *Animal Crossing: Wild World* on the Nintendo DS. Everything you obtained in your catalog makes the move (with the exception of some rare items). You don't bring over the physical items, house expansions, or accumulated bells. But you can re-purchase any of these items from Nook by asking to see your item catalog.
 
-{% figure caption:"She knows where I sleep" %}
-![Wendy's Animal Crossing character lurking over me](../../images/animal-crossing-me-wendy.jpg)
-{% endfigure %}
+<figure>
+  <img src="../../images/animal-crossing-me-wendy.jpg" alt="Wendy's Animal Crossing character lurking over me">
+  <figcaption><p>She knows where I sleep.</p></figcaption>
+</figure>
 
 If you don't have access to the internet, but do have a DS, you can take your character to a friend's town through a process called **DS Suitcase**. The game essentially saves your character to a DS allowing you to go to a friend's town, mess around, earn bells/trade items/etc, save back to your DS, and then return to your town at home. Pretty handy if you don't have an Internet connection to visit a friend via **Nintendo WFC** and want to nab some foreign fruit.
 
@@ -38,9 +39,10 @@ At first I thought you could transfer your save from the Wii to a SD card and vi
 
 For the most part everything functions and looks like it did in Wild World. The exceptions being you can now have a fountain, windmill (helps with perfect town status), or lighthouse (helps bring in rare fish) built by donating enough bells to the town fund.
 
-{% figure caption:"I created a Dharma Initiative flag from LOST." %}
-![Dharma flag from LOST](../../images/animal-crossing-dharma-initiative.jpg)
-{% endfigure %}
+<figure>
+  <img src="../../images/animal-crossing-dharma-initiative.jpg" alt="Dharma flag from LOST in Animal Crossing">
+  <figcaption><p>I created a Dharma Initiative flag from LOST.</p></figcaption>
+</figure>
 
 I like how you can still customize the gate's flag and place patterns on the ground --- to do some really creative paths. Pattern making has been enhanced allowing you to create what are called *Pro Designs*. Now you can design clothing and work on the front, back, and sides independently to do elaborate and realistic costumes.
 
@@ -58,17 +60,19 @@ Using the Wiimote and nun-chuck combo is so much better than the DS d-pad and st
 
 If you plug in any USB keyboard it is instantly recognized by the Wii and allows you to type letters or chat with friends quickly. The function keys are mapped to your Dr. Shrunk emotions as well, which is convenient if you want to emote anger in a hurry.
 
-{% figure caption:"My neighbors say some foul things." %}
-![I'm so wet](../../images/animal-crossing-im-so-wet.jpg)
-{% endfigure %}
+<figure>
+  <img src="../../images/animal-crossing-im-so-wet.jpg" alt="I'm so wet">
+  <figcaption><p>My neighbors say some foul things.</p></figcaption>
+</figure>
 
 ### Hidden commands
 
 Pressing the 1 button on the Wiimote takes a screenshot and then you can transfer it to a SD card or post it to your Wii Message board to send to friends. Trying to take photos of the screen with a camera while struggling to keep the action in focus is a thing of the past. Now you can document all the inappropriate catch phrases and greetings your neighbors' say or rare Gyroids you may discover.
 
-{% figure caption:"Look at those constellations." %}
-![Constellations](../../images/animal-crossing-constellations.jpg)
-{% endfigure %}
+<figure>
+  <img src="../../images/animal-crossing-constellations.jpg" alt="Animal Crossing residents looking at stars">
+  <figcaption><p>Look at those constellations.</p></figcaption>
+</figure>
 
 ## To the city
 
@@ -94,7 +98,7 @@ This could have been great, instead you get another under realized implementatio
 
 I get it --- Nintendo wants to keep it family friendly and safe by sticking with this awful friend code business. But why in the world do you force me to check with Copper every time I want to see if a friend is online? Why can't the Wii be online all the time and notify me when a friend is available ala Xbox Live or any other online service? Get with it Nintendo! Guess that's what you get when you duct tape two Gamecubes together...
 
-{% youtube aF78u3LQduw %}
+`youtube: https://www.youtube.com/watch?v=aF78u3LQduw`
 
 ### Removed Wild World features?
 

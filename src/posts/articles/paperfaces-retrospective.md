@@ -15,20 +15,19 @@ toc: true
 
 Two years ago I felt inspired to start the [**PaperFaces Project**](/notes/paperfaces-ipad-portrait-project/) as a way to improve drawing skills that had laid dormant for a decade or so. With an iPad, a stylus, and the [Paper by FiftyThree app](https://fiftythree.com), I set out to draw as many portraits as possible before boring of the idea.
 
-{% figure caption:"What a difference two years made." class:"gallery-2-col" %}
-[![first PaperFaces portrait](../../images/paperfaces-veganwendy-twitter-600.jpg)](../../images/paperfaces-veganwendy-twitter.jpg)
-[![last PaperFaces portrait?](../../images/paperfaces-veganwendy-2-twitter-600.jpg)](../../images/paperfaces-veganwendy-2-twitter.jpg)
-{% endfigure %}
+<figure class="2-column">
+  <img alt="first PaperFaces portrait" src="../../images/paperfaces-veganwendy-twitter.jpg">
+  <img alt="last PaperFaces portrait?" src="../../images/paperfaces-veganwendy-2-twitter.jpg">
+  <figcaption><p>What a difference two years made.</p></figcaption>
+</figure>
 
 ## How did i do it?
 
 I'm not going to lie, finding the motivation to create something every day is incredibly difficult. Even with the proper motivation, making yourself available can be even more challenging. I'm proof that it can be done while working a full time job, fulfilling husbandly duties, caring for a set of twins, and maintaining healthy eating and sleeping habits.
 
-{% figure caption:"" class:"gallery-3-col" %}
 ![The 2 little rosebuds](../../images/paperfaces-retro-03.jpg)
 ![Tools of the trade](../../images/paperfaces-retro-02.jpg)
 ![Drawing Everly with Pencil by 53](../../images/paperfaces-retro-01.jpg)
-{% endfigure %}
 
 ### Start a routine
 
@@ -45,9 +44,9 @@ Making my project and efforts public was another huge reason I kept at it for so
 
 On their own these faceless drawings weren't all that interesting, but assembled together like **Voltron** in [Moleskine book](/mastering-paper/moleskine-book/) and [gallery](/paperfaces/) forms they became *something stronger*. A quality that is easy to miss when you have your head down, focused only on the drawing at hand.
 
-{% figure caption:"Having my work printed helped give it substance instead of just being 1's and 0's I carried around on a tablet." %}
 [![Photograph of a PaperFaces drawing](../../images/paper-53-book-wendy.jpg)](../../images/paper-53-book-wendy-lg.jpg)
-{% endfigure %}
+
+Having my work printed helped give it substance instead of just being 1's and 0's I carried around on a tablet.
 
 ### Keep it fun
 
@@ -64,19 +63,19 @@ Easy and simple can turn boring in a hurry. The challenge of capturing portraits
 [loupe-tutorial]: /mastering-paper/moving-the-loupe/
 [blend-first-look]: /mastering-paper/pencil-first-look/
 
-{% figure caption:"With enough practice I was able to evolve as a creator and produce sketches with greater detail." %}
+With enough practice I was able to evolve as a creator and produce sketches with greater detail.
+
 ![PaperFaces evolution](../../images/paper-53-face-evolution.jpg)
-{% endfigure %}
 
 As confidence levels grew I wasn't afraid to change the rules to challenge myself. Over the course of two years I did this numerous times by straying outside my comfort zone. First major change was switching from the ink pens to the watercolor and pencil tools. The next was when I decided to move away from drawing blank faces and attempt something more realistic.
 
 ## By the numbers
 
-Initially I planned on drawing a single portrait each day for just one year. When I zipped through 365 days I decided another year wouldn't be that big of a deal and ultimately completed {{ site.categories.paperfaces | size }} finished drawings. 
+Initially I planned on drawing a single portrait each day for just one year. When I zipped through 365 days I decided another year wouldn't be that big of a deal and ultimately completed 886 finished drawings. 
 
-{% figure caption:"I've gotten through one-third of the 2,805 requests I've received on Twitter since [tweeting for volunteers](https://twitter.com/mmistakes/status/240601384477659136/) two years ago." %}
+I've gotten through one-third of the 2,805 requests I've received on Twitter since [tweeting for volunteers](https://twitter.com/mmistakes/status/240601384477659136/) two years ago.
+
 ![Favstar.fm tweet screenshot](../../images/paperfaces-volunteer-tweet.jpg)
-{% endfigure %}
 
 Here's a breakdown of the various types of portraits I've completed.
 
@@ -84,9 +83,9 @@ Here's a breakdown of the various types of portraits I've completed.
 |------------------------------------------- | ------------------------------------------- |
 | Faceless                                   | 522                                         |
 | [Star Wars](/tag/star-wars/) | 12                                          |
-| [Bearded Dudes](/tag/beard/) | {{ site.tags.beard | size }}                |
+| [Bearded Dudes](/tag/beard/) | 113                |
 | Animals and Creatures                      | 17                                          |
-| **Total**                                  | **{{ site.categories.paperfaces | size }}** |
+| **Total**                                  | **886** |
 
 [^portraits]: For the purpose of keeping things consistent I consider a portrait a single drawing regardless if it includes multiple faces. If I was to count the amount of faces I've drawn the numbers would be much, much higher.
 
