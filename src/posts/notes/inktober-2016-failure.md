@@ -5,14 +5,14 @@ path: /notes/inktober-2016-failure/
 excerpt: "Like previous years, I started out with the best of intentions for Inktober and then quickly lost steam..."
 image: ../../images/inktober-2016-wash-portrait.jpg
 gallery:
-  - url: /assets/images/inktober-2016-wash-portrait-process-1.jpg
-    image_path: /assets/images/inktober-2016-wash-portrait-process-1-600.jpg
+  - url: ../../images/inktober-2016-wash-portrait-process-1.jpg
+    image_path: ../../images/inktober-2016-wash-portrait-process-1-600.jpg
     alt: "Ink wash portrait in process detail"
-  - url: /assets/images/inktober-2016-wash-portrait-process-2.jpg
-    image_path: /assets/images/inktober-2016-wash-portrait-process-2-600.jpg
+  - url: ../../images/inktober-2016-wash-portrait-process-2.jpg
+    image_path: ../../images/inktober-2016-wash-portrait-process-2-600.jpg
     alt: "Ink wash portrait in process detail"
-  - url: /assets/images/inktober-2016-wash-portrait-process-3.jpg
-    image_path: /assets/images/inktober-2016-wash-portrait-process-3-600.jpg
+  - url: ../../images/inktober-2016-wash-portrait-process-3.jpg
+    image_path: ../../images/inktober-2016-wash-portrait-process-3-600.jpg
     alt: "Ink wash portrait in process detail"
 categories: [notes]
 tags: [watercolor, portrait, illustration, Inktober]

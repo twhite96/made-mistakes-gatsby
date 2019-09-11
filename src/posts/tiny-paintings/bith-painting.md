@@ -6,8 +6,8 @@ excerpt: "Tiny portrait of a Bith painted with watercolor on hot press paper."
 last_modified_at: 2016-10-10T11:22:24-04:00
 image: ../../images/painting-bith.jpg
 gallery:
-  - url: /assets/images/painting-bith-process-1-lg.jpg
-    image_path: /assets/images/painting-bith-process-1-900.jpg
+  - url: ../../images/painting-bith-process-1-lg.jpg
+    image_path: ../../images/painting-bith-process-1-900.jpg
     alt: "Work in process"
 categories: [tiny-paintings]
 tags: [watercolor, portrait, illustration, Star Wars]

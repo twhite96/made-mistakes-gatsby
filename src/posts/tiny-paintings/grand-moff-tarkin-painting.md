@@ -6,8 +6,8 @@ excerpt: "Tiny portrait of a Grand Moff Tarkin painted with watercolor on hot pr
 last_modified_at: 2016-10-10T11:21:40-04:00
 image: ../../images/painting-grand-moff-tarkin.jpg
 gallery:
-  - url: /assets/images/painting-grand-moff-tarkin-process-1-lg.jpg
-    image_path: /assets/images/painting-grand-moff-tarkin-process-1-900.jpg
+  - url: ../../images/painting-grand-moff-tarkin-process-1-lg.jpg
+    image_path: ../../images/painting-grand-moff-tarkin-process-1-900.jpg
     alt: "Pencil sketch work in process"
 categories: [tiny-paintings]
 tags: [watercolor, portrait, illustration, Star Wars]

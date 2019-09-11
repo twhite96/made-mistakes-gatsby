@@ -6,16 +6,16 @@ excerpt: "A flexible two-column Jekyll theme. Perfect for hosting your personal 
 last_modified_at: 2018-02-06T11:15:51-05:00
 image: ../../images/minimal-mistakes-3-feature.jpg
 gallery:
-  - url: /assets/images/mm-layout-splash.png
-    image_path: /assets/images/mm-layout-splash-th.jpg
+  - url: ../../images/mm-layout-splash.png
+    image_path: ../../images/mm-layout-splash-th.jpg
     alt: "splash layout example"
     class: "browser-frame"
-  - url: /assets/images/mm-layout-single-meta.png
-    image_path: /assets/images/mm-layout-single-meta-th.jpg
+  - url: ../../images/mm-layout-single-meta.png
+    image_path: ../../images/mm-layout-single-meta-th.jpg
     alt: "single layout with comments and related posts"
     class: "browser-frame"
-  - url: /assets/images/mm-layout-archive.png
-    image_path: /assets/images/mm-layout-archive-th.jpg
+  - url: ../../images/mm-layout-archive.png
+    image_path: ../../images/mm-layout-archive-th.jpg
     alt: "archive layout example"
     class: "browser-frame"
 categories: [work]

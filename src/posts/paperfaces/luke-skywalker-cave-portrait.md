@@ -7,14 +7,14 @@ image: ../../images/paperfaces-luke-vader-cave.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Star Wars]
 gallery:
-  - url: /assets/images/star-wars-canvaspop-1.jpg
-    image_path: /assets/images/star-wars-canvaspop-1-600.jpg
+  - url: ../../images/star-wars-canvaspop-1.jpg
+    image_path: ../../images/star-wars-canvaspop-1-600.jpg
     alt: "CanvasPop print packaged up"
-  - url: /assets/images/star-wars-canvaspop-2.jpg
-    image_path: /assets/images/star-wars-canvaspop-2-600.jpg
+  - url: ../../images/star-wars-canvaspop-2.jpg
+    image_path: ../../images/star-wars-canvaspop-2-600.jpg
     alt: "50 inch CanvasPop Star Wars print"
-  - url: /assets/images/star-wars-canvaspop-3.jpg
-    image_path: /assets/images/star-wars-canvaspop-3-600.jpg
+  - url: ../../images/star-wars-canvaspop-3.jpg
+    image_path: ../../images/star-wars-canvaspop-3-600.jpg
     alt: "Detail shot of Luke Skywalker illustration"
 last_modified_at: 2016-12-16T21:30:28-05:00
 ---

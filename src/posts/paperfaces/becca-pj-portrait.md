@@ -6,14 +6,14 @@ excerpt: "PaperFaces portrait of the Becca P.J. drawn with Paper for iOS on an i
 last_modified_at: 2016-10-10T15:18:53-04:00
 image: ../../images/paperfaces-becca-pj.jpg
 gallery:
-  - url: /assets/images/paperfaces-becca-pj-process-1-lg.jpg
-    image_path: /assets/images/paperfaces-becca-pj-process-1-600.jpg
+  - url: ../../images/paperfaces-becca-pj-process-1-lg.jpg
+    image_path: ../../images/paperfaces-becca-pj-process-1-600.jpg
     alt: "Work in process screenshot"
-  - url: /assets/images/paperfaces-becca-pj-process-2-lg.jpg
-    image_path: /assets/images/paperfaces-becca-pj-process-2-600.jpg
+  - url: ../../images/paperfaces-becca-pj-process-2-lg.jpg
+    image_path: ../../images/paperfaces-becca-pj-process-2-600.jpg
     alt: "Work in process screenshot"
-  - url: /assets/images/paperfaces-becca-pj-process-3-lg.jpg
-    image_path: /assets/images/paperfaces-becca-pj-process-3-600.jpg
+  - url: ../../images/paperfaces-becca-pj-process-3-lg.jpg
+    image_path: ../../images/paperfaces-becca-pj-process-3-600.jpg
     alt: "Work in process screenshot"
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]

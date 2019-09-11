@@ -4,14 +4,14 @@ date: 2016-10-27
 path: /notes/oil-pastels/
 image: ../../images/oil-pastel-sunset-finished.jpg
 gallery:
-  - url: /assets/images/oil-pastels-process-1.jpg
-    image_path: /assets/images/oil-pastels-process-1-600.jpg
+  - url: ../../images/oil-pastels-process-1.jpg
+    image_path: ../../images/oil-pastels-process-1-600.jpg
     alt: "Preliminary sketch and taped off paper"
-  - url: /assets/images/oil-pastels-process-2.jpg
-    image_path: /assets/images/oil-pastels-process-2-600.jpg
+  - url: ../../images/oil-pastels-process-2.jpg
+    image_path: ../../images/oil-pastels-process-2-600.jpg
     alt: "Sketching out the sky"
-  - url: /assets/images/oil-pastels-process-3.jpg
-    image_path: /assets/images/oil-pastels-process-3-600.jpg
+  - url: ../../images/oil-pastels-process-3.jpg
+    image_path: ../../images/oil-pastels-process-3-600.jpg
     alt: "The finished piece before removing the mask"
 categories: [notes]
 tags: [TIL, illustration]

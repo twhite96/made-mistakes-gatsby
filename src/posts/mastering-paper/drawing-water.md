@@ -118,12 +118,12 @@ Boom! And we're done. Combined with a blue sky from my previous guide and you'll
 Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project](/paperfaces/). Below are a few finished waterscapes to show what is possible just by varying the color and composition.
 
 <ul class="gallery-thumbnails">
-  <li><a href="/paperfaces/andrewbrewer-portrait/"><img src="/assets/images/paperfaces-andrewbrewer-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/sbrolins-portrait/"><img src="/assets/images/paperfaces-sbrolins-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/bradersk8r-portrait/"><img src="/assets/images/paperfaces-bradersk8r-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/iron-man-portrait/"><img src="/assets/images/paperfaces-iron-man-3-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/agentkyle-portrait/"><img src="/assets/images/paperfaces-agentkyle-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/jamesonroot-portrait/"><img src="/assets/images/paperfaces-jamesonroot-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/andrewbrewer-portrait/"><img src="../../images/paperfaces-andrewbrewer-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/sbrolins-portrait/"><img src="../../images/paperfaces-sbrolins-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/bradersk8r-portrait/"><img src="../../images/paperfaces-bradersk8r-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/iron-man-portrait/"><img src="../../images/paperfaces-iron-man-3-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/agentkyle-portrait/"><img src="../../images/paperfaces-agentkyle-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/jamesonroot-portrait/"><img src="../../images/paperfaces-jamesonroot-twitter-150.jpg" alt="thumb" /></a></li>
 </ul>
 
 ---

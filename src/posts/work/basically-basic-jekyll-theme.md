@@ -6,16 +6,16 @@ excerpt: "Your new Jekyll default theme."
 last_modified_at: 2019-02-19T10:05:55-05:00
 image: ../../images/jekyll-theme-basically-basic-feature.jpg
 gallery:
-  - url: /assets/images/basically-basic-theme-menu.png
-    image_path: /assets/images/basically-basic-theme-menu-th.png
+  - url: ../../images/basically-basic-theme-menu.png
+    image_path: ../../images/basically-basic-theme-menu-th.png
     alt: "off-canvas menu example"
     class: "browser-frame"
-  - url: /assets/images/basically-basic-theme-cv.png
-    image_path: /assets/images/basically-basic-theme-cv-th.png
+  - url: ../../images/basically-basic-theme-cv.png
+    image_path: ../../images/basically-basic-theme-cv-th.png
     alt: "CV example"
     class: "browser-frame"
-  - url: /assets/images/basically-basic-theme-alternate-skin.jpg
-    image_path: /assets/images/basically-basic-theme-alternate-skin-th.jpg
+  - url: ../../images/basically-basic-theme-alternate-skin.jpg
+    image_path: ../../images/basically-basic-theme-alternate-skin-th.jpg
     alt: "alternate skin example"
     class: "browser-frame"
 categories: [work]

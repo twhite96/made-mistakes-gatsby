@@ -29,15 +29,15 @@ Before getting into any specific technique, I'd like to share my favorite palett
 <figure>
   <div class="palette">
     <div class="palette__row">
-      <a href="/assets/images/paper-53-skin-color-1.jpg"><img class="palette__swatch" src="/assets/images/paper-53-skin-swatch-1.png" alt="skin swatch 1"></a>
-      <a href="/assets/images/paper-53-skin-color-2.jpg"><img class="palette__swatch" src="/assets/images/paper-53-skin-swatch-2.png" alt="skin swatch 2"></a>
-      <a href="/assets/images/paper-53-skin-color-3.jpg"><img class="palette__swatch" src="/assets/images/paper-53-skin-swatch-3.png" alt="skin swatch 3"></a>
+      <a href="../../images/paper-53-skin-color-1.jpg"><img class="palette__swatch" src="../../images/paper-53-skin-swatch-1.png" alt="skin swatch 1"></a>
+      <a href="../../images/paper-53-skin-color-2.jpg"><img class="palette__swatch" src="../../images/paper-53-skin-swatch-2.png" alt="skin swatch 2"></a>
+      <a href="../../images/paper-53-skin-color-3.jpg"><img class="palette__swatch" src="../../images/paper-53-skin-swatch-3.png" alt="skin swatch 3"></a>
     </div>
     <div class="palette__row">
-      <a href="/assets/images/paper-53-skin-color-4.jpg"><img class="palette__swatch" src="/assets/images/paper-53-skin-swatch-4.png" alt="skin swatch 4"></a>
-      <a href="/assets/images/paper-53-skin-color-5.jpg"><img class="palette__swatch" src="/assets/images/paper-53-skin-swatch-5.png" alt="skin swatch 5"></a>
-      <a href="/assets/images/paper-53-skin-color-6.jpg"><img class="palette__swatch" src="/assets/images/paper-53-skin-swatch-6.png" alt="skin swatch 6"></a>
-      <a href="/assets/images/paper-53-skin-color-7.jpg"><img class="palette__swatch" src="/assets/images/paper-53-skin-swatch-7.png" alt="skin swatch 7"></a>
+      <a href="../../images/paper-53-skin-color-4.jpg"><img class="palette__swatch" src="../../images/paper-53-skin-swatch-4.png" alt="skin swatch 4"></a>
+      <a href="../../images/paper-53-skin-color-5.jpg"><img class="palette__swatch" src="../../images/paper-53-skin-swatch-5.png" alt="skin swatch 5"></a>
+      <a href="../../images/paper-53-skin-color-6.jpg"><img class="palette__swatch" src="../../images/paper-53-skin-swatch-6.png" alt="skin swatch 6"></a>
+      <a href="../../images/paper-53-skin-color-7.jpg"><img class="palette__swatch" src="../../images/paper-53-skin-swatch-7.png" alt="skin swatch 7"></a>
     </div>
   </div>
   <figcaption>Select the color you want to view and save.</figcaption>

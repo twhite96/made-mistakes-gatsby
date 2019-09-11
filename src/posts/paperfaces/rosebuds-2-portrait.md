@@ -5,14 +5,14 @@ path: /paperfaces/rosebuds-2-portrait/
 excerpt: "PaperFaces portrait of the two little rosebuds drawn with Paper for iOS on an iPad."
 image: ../../images/paperfaces-rosebuds-2.jpg
 gallery:
-  - url: /assets/images/paperfaces-rosebuds-2-process-1-lg.jpg
-    image_path: /assets/images/paperfaces-rosebuds-2-process-1-600.jpg
+  - url: ../../images/paperfaces-rosebuds-2-process-1-lg.jpg
+    image_path: ../../images/paperfaces-rosebuds-2-process-1-600.jpg
     alt: "work in process screenshot"
-  - url: /assets/images/paperfaces-rosebuds-2-process-2-lg.jpg
-    image_path: /assets/images/paperfaces-rosebuds-2-process-2-600.jpg
+  - url: ../../images/paperfaces-rosebuds-2-process-2-lg.jpg
+    image_path: ../../images/paperfaces-rosebuds-2-process-2-600.jpg
     alt: "work in process screenshot"
-  - url: /assets/images/paperfaces-rosebuds-2-process-3-lg.jpg
-    image_path: /assets/images/paperfaces-rosebuds-2-process-3-600.jpg
+  - url: ../../images/paperfaces-rosebuds-2-process-3-lg.jpg
+    image_path: ../../images/paperfaces-rosebuds-2-process-3-600.jpg
     alt: "work in process screenshot"
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, twins]

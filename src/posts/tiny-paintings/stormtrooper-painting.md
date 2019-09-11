@@ -6,11 +6,11 @@ excerpt: "Tiny portrait of a Star Wars Stormtrooper painted with watercolor on h
 last_modified_at: 2016-10-10T11:01:54-04:00
 image: ../../images/painting-stormtrooper.jpg
 gallery:
-  - url: /assets/images/painting-stormtrooper-process-1-lg.jpg
-    image_path: /assets/images/painting-stormtrooper-process-1-600.jpg
+  - url: ../../images/painting-stormtrooper-process-1-lg.jpg
+    image_path: ../../images/painting-stormtrooper-process-1-600.jpg
     alt: "pencil sketch"
-  - url: /assets/images/painting-stormtrooper-process-2-lg.jpg
-    image_path: /assets/images/painting-stormtrooper-process-2-600.jpg
+  - url: ../../images/painting-stormtrooper-process-2-lg.jpg
+    image_path: ../../images/painting-stormtrooper-process-2-600.jpg
     alt: "finished watercolor painting"
 categories: [tiny-paintings]
 tags: [watercolor, portrait, illustration, Star Wars]

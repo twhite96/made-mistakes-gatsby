@@ -6,13 +6,13 @@ excerpt: "PaperFaces portrait of the Asja K. drawn with Paper for iOS on an iPad
 image: ../../images/paperfaces-asja-k.jpg
 gallery:
   - url: https://mix.fiftythree.com/11098-Michael-Rose/1887226
-    image_path: /assets/images/paperfaces-asja-k-process-1-600.jpg
+    image_path: ../../images/paperfaces-asja-k-process-1-600.jpg
     alt: "work in process screenshot"
   - url: https://mix.fiftythree.com/11098-Michael-Rose/1887463
-    image_path: /assets/images/paperfaces-asja-k-process-2-600.jpg
+    image_path: ../../images/paperfaces-asja-k-process-2-600.jpg
     alt: "work in process screenshot"
   - url: https://mix.fiftythree.com/11098-Michael-Rose/1896998
-    image_path: /assets/images/paperfaces-asja-k-process-3-600.jpg
+    image_path: ../../images/paperfaces-asja-k-process-3-600.jpg
     alt: "work in process screenshot"
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]

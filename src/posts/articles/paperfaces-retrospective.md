@@ -113,16 +113,16 @@ And for the curious here's the various styli I've used over the two years and so
 When my project was picked up by a few high profile designers and developers it spread pretty far through those circles. Drawing as  many bearded dudes in flannel shirts as I have, any time something different came up I was thrilled. Here's a small sampling of my favorites from the last two years:
 
 <ul class="gallery-thumbnails">
-  <li><a href="/paperfaces/mike-ftw-portrait/"><img src="/assets/images/paperfaces-mike-ftw-twitter-150.jpg" alt=""></a></li>
-  <li><a href="/paperfaces/andrew-shaw23-portrait/"><img src="/assets/images/paperfaces-andrew-shaw23-twitter-150.jpg" alt=""></a></li>
-  <li><a href="/paperfaces/f5point6-portrait/"><img src="/assets/images/paperfaces-f5point6-twitter-150.jpg" alt=""></a></li>
-  <li><a href="/paperfaces/studioprisoner-portrait/"><img src="/assets/images/paperfaces-studioprisoner-twitter-150.jpg" alt=""></a></li>
-  <li><a href="/paperfaces/pappyshannon-portrait/"><img src="/assets/images/paperfaces-pappyshannon-twitter-150.jpg" alt=""></a></li>
-  <li><a href="/paperfaces/thenimesh-portrait/"><img src="/assets/images/paperfaces-thenimesh-twitter-150.jpg" alt=""></a></li>
-  <li><a href="/paperfaces/matt-s-portrait/"><img src="/assets/images/paperfaces-matt-s-150.jpg" alt=""></a></li>
-  <li><a href="/paperfaces/barelolk-portrait/"><img src="/assets/images/paperfaces-barelolk-twitter-150.jpg" alt=""></a></li>
-  <li><a href="/paperfaces/vlad-s-portrait/"><img src="/assets/images/paperfaces-vlad-s-150.jpg" alt=""></a></li>
-  <li><a href="/paperfaces/marie-a-portrait/"><img src="/assets/images/paperfaces-marie-a-150.jpg" alt=""></a></li>
+  <li><a href="/paperfaces/mike-ftw-portrait/"><img src="../../images/paperfaces-mike-ftw-twitter-150.jpg" alt=""></a></li>
+  <li><a href="/paperfaces/andrew-shaw23-portrait/"><img src="../../images/paperfaces-andrew-shaw23-twitter-150.jpg" alt=""></a></li>
+  <li><a href="/paperfaces/f5point6-portrait/"><img src="../../images/paperfaces-f5point6-twitter-150.jpg" alt=""></a></li>
+  <li><a href="/paperfaces/studioprisoner-portrait/"><img src="../../images/paperfaces-studioprisoner-twitter-150.jpg" alt=""></a></li>
+  <li><a href="/paperfaces/pappyshannon-portrait/"><img src="../../images/paperfaces-pappyshannon-twitter-150.jpg" alt=""></a></li>
+  <li><a href="/paperfaces/thenimesh-portrait/"><img src="../../images/paperfaces-thenimesh-twitter-150.jpg" alt=""></a></li>
+  <li><a href="/paperfaces/matt-s-portrait/"><img src="../../images/paperfaces-matt-s-150.jpg" alt=""></a></li>
+  <li><a href="/paperfaces/barelolk-portrait/"><img src="../../images/paperfaces-barelolk-twitter-150.jpg" alt=""></a></li>
+  <li><a href="/paperfaces/vlad-s-portrait/"><img src="../../images/paperfaces-vlad-s-150.jpg" alt=""></a></li>
+  <li><a href="/paperfaces/marie-a-portrait/"><img src="../../images/paperfaces-marie-a-150.jpg" alt=""></a></li>
 </ul>
 
 ## What's next

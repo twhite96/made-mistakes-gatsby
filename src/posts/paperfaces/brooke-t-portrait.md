@@ -5,14 +5,14 @@ path: /paperfaces/brooke-t-portrait/
 excerpt: "PaperFaces portrait of Brooke T. drawn with Paper for iOS on an iPad."
 image: ../../images/paperfaces-brooke-t.jpg
 gallery:
-  - url: /assets/images/paperfaces-brooke-t-process-1-lg.jpg
-    image_path: /assets/images/paperfaces-brooke-t-process-1-600.jpg
+  - url: ../../images/paperfaces-brooke-t-process-1-lg.jpg
+    image_path: ../../images/paperfaces-brooke-t-process-1-600.jpg
     alt: "Work in process screenshot"
-  - url: /assets/images/paperfaces-brooke-t-process-2-lg.jpg
-    image_path: /assets/images/paperfaces-brooke-t-process-2-600.jpg
+  - url: ../../images/paperfaces-brooke-t-process-2-lg.jpg
+    image_path: ../../images/paperfaces-brooke-t-process-2-600.jpg
     alt: "Work in process screenshot"
-  - url: /assets/images/paperfaces-brooke-t-process-3-lg.jpg
-    image_path: /assets/images/paperfaces-brooke-t-process-3-600.jpg
+  - url: ../../images/paperfaces-brooke-t-process-3-lg.jpg
+    image_path: ../../images/paperfaces-brooke-t-process-3-600.jpg
     alt: "Work in process screenshot"
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]

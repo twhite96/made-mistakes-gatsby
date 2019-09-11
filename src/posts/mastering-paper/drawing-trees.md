@@ -128,14 +128,14 @@ One final tip for creating depth is to paint over everything with light gray or 
 Using all of these techniques on their own or in concert, I was able to create lush backgrounds for many of the portraits in my [PaperFaces Project](/paperfaces/). Below are a few tree and grass examples to show what is possible just by varying the color and composition.
 
 <ul class="gallery-thumbnails">
-  <li><a href="/paperfaces/isellsoap-portrait/"><img src="/assets/images/paperfaces-isellsoap-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/thatmiddleway-portrait/"><img src="/assets/images/paperfaces-thatmiddleway-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/lmichelleinc-portrait/"><img src="/assets/images/paperfaces-lmichelleinc-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/elektrojunge-portrait/"><img src="/assets/images/paperfaces-elektrojunge-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/jupiter909-portrait/"><img src="/assets/images/paperfaces-jupiter909-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/ryandawidjan-portrait/"><img src="/assets/images/paperfaces-ryandawidjan-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/quimeraimantada-portrait/"><img src="/assets/images/paperfaces-quimeraimantada-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/michael-rose-portrait/"><img src="/assets/images/paperfaces-michael-rose-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/isellsoap-portrait/"><img src="../../images/paperfaces-isellsoap-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/thatmiddleway-portrait/"><img src="../../images/paperfaces-thatmiddleway-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/lmichelleinc-portrait/"><img src="../../images/paperfaces-lmichelleinc-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/elektrojunge-portrait/"><img src="../../images/paperfaces-elektrojunge-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/jupiter909-portrait/"><img src="../../images/paperfaces-jupiter909-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/ryandawidjan-portrait/"><img src="../../images/paperfaces-ryandawidjan-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/quimeraimantada-portrait/"><img src="../../images/paperfaces-quimeraimantada-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/michael-rose-portrait/"><img src="../../images/paperfaces-michael-rose-150.jpg" alt="thumb" /></a></li>
 </ul>
 
 ---

@@ -6,14 +6,14 @@ excerpt: "Portrait of Rakso S. digitally painted with Procreate on an iPad."
 last_modified_at: 2016-10-10T10:49:10-04:00
 image: ../../images/rakso-s-procreate.jpg
 gallery:
-  - url: /assets/images/rakso-s-process-1-lg.jpg
-    image_path: /assets/images/rakso-s-process-1-320.jpg
+  - url: ../../images/rakso-s-process-1-lg.jpg
+    image_path: ../../images/rakso-s-process-1-320.jpg
     alt: "line drawing work in process screenshot"
-  - url: /assets/images/rakso-s-process-2-lg.jpg
-    image_path: /assets/images/rakso-s-process-2-320.jpg
+  - url: ../../images/rakso-s-process-2-lg.jpg
+    image_path: ../../images/rakso-s-process-2-320.jpg
     alt: "glazing work in process screenshot"
-  - url: /assets/images/rakso-s-process-3-lg.jpg
-    image_path: /assets/images/rakso-s-process-3-320.jpg
+  - url: ../../images/rakso-s-process-3-lg.jpg
+    image_path: ../../images/rakso-s-process-3-320.jpg
     alt: "work in progress screenshot"
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, time lapse, beard, Sktchy, black and white]

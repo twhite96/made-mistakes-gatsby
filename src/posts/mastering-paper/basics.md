@@ -217,7 +217,7 @@ Now I wouldn't go as far as suggesting you mix primary colors on canvas[^on-canv
 [^on-canvas]: Visually mixing colors directly on canvas can be fun, but the results aren't always the best. I suggest using the Color Mixer instead since you'll achieve more vibrant hues.
 
 {% figure caption:"Traditional color wheel" %}
-  <img src="/assets/images/paper-53-traditional-color-wheel.jpg" alt="Traditional color wheel">
+  <img src="../../images/paper-53-traditional-color-wheel.jpg" alt="Traditional color wheel">
 
 {% endfigure %}
 
