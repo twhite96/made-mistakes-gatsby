@@ -63,7 +63,7 @@ I set my gaze on squaring away the "Leave a comment" submission form first. Seem
 All it really needed for completion was a decision on what fields I wanted to capture, and a little bit of JavaScript for events handling and submission. Arriving at this for my [`post__comments.html`](https://github.com/mmistakes/made-mistakes-jekyll/blob/10.2.0/_includes/post__comments.html) include (`class` names and Liquid removed for brevity).
 
 ```html
-{% raw %}<form id="comment-form" method="post" action="https://api.staticman.net/v1/entry/{{ site.repository }}/{{ site.staticman.branch }}">
+<form id="comment-form" method="post" action="https://api.staticman.net/v1/entry/{{ site.repository }}/{{ site.staticman.branch }}">
   <fieldset>
     <label for="comment-form-message">Comment</label>
     <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" tabindex="1"></textarea>
@@ -90,7 +90,7 @@ All it really needed for completion was a decision on what fields I wanted to ca
   <fieldset>
     <button type="submit" id="comment-form-submit" tabindex="5">Submit Comment</button>
   </fieldset>
-</form>{% endraw %}
+</form>
 <!-- End new comment form -->
 ```
 
@@ -142,7 +142,7 @@ With smaller sites hosted with GitHub Pages this becomes less of a problem, as t
 
 ### Displaying comments
 
-There's a bunch of Staticman settings available to you, but forget all that right now. For this next step all you really need to know is **static comment files will live in `_data/comments/<post slug>/`**. By predictably placing them here we will be able to access their contents from the following array: `{% raw %}site.data.comments[page.slug]{% endraw %}`.
+There's a bunch of Staticman settings available to you, but forget all that right now. For this next step all you really need to know is **static comment files will live in `_data/comments/<post slug>/`**. By predictably placing them here we will be able to access their contents from the following array: `site.data.comments[page.slug]`.
 
 With this array we'll be looping through it with [`for`][for-tag] just like you would with `site.posts` to spit out a list of all posts. But first we'll use an [`assign`][assign-tag] tag to rename the array and apply a `sort`[^sort-filter] filter on the objects. This will order them by filename, which in our case should be chronological[^chronological].
 
@@ -152,16 +152,16 @@ With this array we'll be looping through it with [`for`][for-tag] just like you 
 [^chronological]: eg. `comment-2014-02-10-040840.yml`, `comment-2015-03-22-204128.yml`, etc.
 
 ```liquid
-{% raw %}{% assign comments = site.data.comments[page.slug] | sort %}
+{% assign comments = site.data.comments[page.slug] | sort %}
 {% for comment in comments %}
   show a comment
-{% endfor %}{% endraw %}
+{% endfor %}
 ```
 
 Since I'm capturing `message`, `name`, `email`, and `url` in the comment form these will be the same fields I'll want to pull from to build each comment. Using an [`assign`](https://help.shopify.com/themes/liquid/tags/variable-tags#assign) tag again we'll cleanup variable names like `comment[1].avatar` into just `avatar`. Which will then be used to [pass parameters](https://jekyllrb.com/docs/templates/#includes) into the [`comment.html`](https://github.com/mmistakes/made-mistakes-jekyll/blob/10.2.0/_includes/comment.html) include:
 
 ```liquid
-{% raw %}{% assign comments = site.data.comments[page.slug] | sort %}
+{% assign comments = site.data.comments[page.slug] | sort %}
 {% for comment in comments %}
   {% assign avatar = comment[1].avatar %}
   {% assign email = comment[1].email %}
@@ -170,7 +170,7 @@ Since I'm capturing `message`, `name`, `email`, and `url` in the comment form th
   {% assign date = comment[1].date %}
   {% assign message = comment[1].message %}
   {% include comment.html index=forloop.index avatar=avatar email=email name=name url=url date=date message=message %}
-{% endfor %}{% endraw %}
+{% endfor %}
 ```
 
 If done correctly the values and strings in a data file like `_data/comments/basics/comment-2014-02-10-040840.yml`
@@ -277,7 +277,7 @@ For your forms to work with Staticman they need to `POST` to:
 https://api.staticman.net/v1/entry/{your GitHub repository}/{your repository name}/{the name of the branch}`
 ```
 
-Instead of hard-coding the site repository and branch strings into this endpoint, use `site` variables defined in `_config.yml` instead. eg: {% raw %}`{{ site.repository }}` and `{{ site.staticman.branch }}`{% endraw %} respectively.
+Instead of hard-coding the site repository and branch strings into this endpoint, use `site` variables defined in `_config.yml` instead. eg: `{{ site.repository }}` and `{{ site.staticman.branch }}` respectively.
 
 ```yaml
 # sample _config.yml
@@ -385,7 +385,7 @@ I'm a little obsessive so I went through a ton of old comments adding [GitHub Fl
 
 Pulling this off with Disqus required way [more work](https://help.disqus.com/customer/portal/articles/466253) and didn't support Markdown.
 
-[^markdown-filter]: The `markdownify` filter is used in `_includes/comment.html` to convert Markdown-formatted strings found in `{% raw %}{{ include.message }}{% endraw %}` into HTML.
+[^markdown-filter]: The `markdownify` filter is used in `_includes/comment.html` to convert Markdown-formatted strings found in `{{ include.message }}` into HTML.
 
 {% figure caption:"Syntax highlighted code blocks in comments." %}
 ![Syntax highlighted code blocks in comments](../../images/mm-comments-syntax-highlighted.png)
@@ -433,11 +433,11 @@ The comments left on many of my posts often contain corrections, follow-up, and 
 Seems to only happen on my older posts or ones that rank well in Google and friends. As no one is really adding valuable comments to these I've added a `comments_locked` conditional to disable the comment form on specific pages.
 
 ```liquid
-{% raw %}{% unless page.comments_locked == true %}
+{% unless page.comments_locked == true %}
   <!-- comment form -->
 {% else %}
   <p><!-- comments locked messaging --></p>
-{% endunless %}{% endraw %}
+{% endunless %}
 ```
 
 I'll have to keep an eye on the effectiveness of this method, or possibly find a tastier honeypot to better combat spam bots.

@@ -176,7 +176,7 @@ Committing both of these Gemfiles to a git repository also makes it easy to reve
 
 With the introduction of asset related plugins and various other build steps, I eventually settled on two Jekyll configuration files. A default `_config.yml` with production settings and `_config.dev.yml` for development specific ones.
 
-The cool thing is you can chain together these configuration files, overriding settings from the previous. For example, when building locally I'd like {% raw %}`{{ site.url }}`{% endraw %} and {% raw %}`{{ site.disqus-shortname }}`{% endraw %} to default to their development equivalents for testing purposes. Adding the following values to `_config.dev.yml` overrides the ones in `_config.yml`:
+The cool thing is you can chain together these configuration files, overriding settings from the previous. For example, when building locally I'd like `{{ site.url }}` and `{{ site.disqus-shortname }}` to default to their development equivalents for testing purposes. Adding the following values to `_config.dev.yml` overrides the ones in `_config.yml`:
 
 ```yaml
 url: http://localhost:4000
@@ -385,7 +385,7 @@ To speed up page loads I've gone to the trouble of [inlining the critical CSS](h
 
 With a focus on modular CSS, I can build critical and non-critical flavors by `@import`-ing the bits needed for each fairly easily. Using the Jekyll-Assets `asset_source` tag[^assets-tag-example] to output the contents of [`critical.scss`](https://github.com/mmistakes/made-mistakes-jekyll/blob/10.2.0/_assets/stylesheets/critical.css.scss) into the `<head>` of ever page and a bit of JavaScript to [asynchronously load the non-critical stuff](https://github.com/filamentgroup/loadCSS).
 
-[^assets-tag-example]: Output the source of an asset using `asset_source` Jekyll-Assets tag. Example: `{% raw %}{% asset_source critical.css %}{% endraw %}`
+[^assets-tag-example]: Output the source of an asset using `asset_source` Jekyll-Assets tag. Example: `{% asset_source critical.css %}`
 
 {% figure caption:"Page speed analyzed with [Google's PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) tool." %}
 ![Made Mistakes analyzed with PageSpeed Insights](../../images/mm-home-pagespeed-021116.jpg)
@@ -397,10 +397,10 @@ With a focus on modular CSS, I can build critical and non-critical flavors by `@
 ```liquid
 <head>
   <style type="text/css">
-    {% raw %}{% capture criticalcss %}
+    {% capture criticalcss %}
       {% include critical.scss %}
     {% endcapture %}
-    {{ criticalcss | scssify }}{% endraw %}
+    {{ criticalcss | scssify }}
   </style>
 </head>
 ```
@@ -415,11 +415,11 @@ Since day one I've been trying to get closer to this [dream scenario](https://gi
 2. Automatically generate smaller sizes (perhaps specified in `_config.yml`).
 3. `<img>` elements are spit out with the correct `srcset` and `sizes` markup.
 
-To my knowledge there are no Jekyll plugin that do this, though some get close --- [Jekyll-Picture-Tag][picture-tag], [Jekyll-Responsive-Image][responsive-image], [Jekyll-Srcset][jekyll-srcset]. **Jekyll-Picture-Tag** does most of what I want (automatically size images from presets) with tags like {% raw %}`{% picture image.jpg %}`{% endraw %}, which means I have to forgo linking to images with plain Markdown for now.
+To my knowledge there are no Jekyll plugin that do this, though some get close --- [Jekyll-Picture-Tag][picture-tag], [Jekyll-Responsive-Image][responsive-image], [Jekyll-Srcset][jekyll-srcset]. **Jekyll-Picture-Tag** does most of what I want (automatically size images from presets) with tags like `{% picture image.jpg %}`, which means I have to forgo linking to images with plain Markdown for now.
 
-When setting up the plugin I focused in on the large hero images and decided to worry about the others later. Replacing Markdown images with {% raw %}`{% picture %}`{% endraw %} tags for 1,000 posts just isn't feasible yet. Since the hero images are Liquid driven they proved much easier to implement.
+When setting up the plugin I focused in on the large hero images and decided to worry about the others later. Replacing Markdown images with `{% picture %}` tags for 1,000 posts just isn't feasible yet. Since the hero images are Liquid driven they proved much easier to implement.
 
-All it took was changing {% raw %}`<img src="{{ page.image.feature }}" alt="">`{% endraw %} to {% raw %}`{% picture hero {{ page.image.feature }} alt="" %}`{% endraw %} and settling on this configuration:
+All it took was changing `<img src="{{ page.image.feature }}" alt="">` to `{% picture hero {{ page.image.feature }} alt="" %}` and settling on this configuration:
 
 ```yaml
 picture:
@@ -505,7 +505,7 @@ What I'm currently using are tiles for related and featured post modules and a m
 Related posts are dynamically pulled from `site.related_posts` and augmented with a [Jekyll plugin][related-posts] to make matches based on `post.tags`. The following tile logic resides in an include file and is ready to be used in layouts or within post/page content.
 
 ```html
-{% raw %}<!-- /_includes/related.html -->
+<!-- /_includes/related.html -->
 <h3 class="tile__header">You May Also Enjoy</h3>
 <div class="tiles">
   {% for post in site.related_posts limit:3 %}
@@ -522,7 +522,7 @@ Related posts are dynamically pulled from `site.related_posts` and augmented wit
       {% endif %}
     </article>
   {% endfor %}
-</div>{% endraw %}
+</div>
 ```
 
 {% figure caption:"Related posts only appear if there are three or more matches based on `post.tags`." %}
@@ -538,7 +538,7 @@ The first step is to flag a post as featured. To do this, I add `featured: true`
 Next I use a variation of the [related posts include](https://github.com/mmistakes/made-mistakes-jekyll/blob/10.2.0/_includes/related.html) with additional Liquid conditionals to control headlines and other variable data.
 
 ```html
-{% raw %}<!-- /_includes/featured.html -->
+<!-- /_includes/featured.html -->
 <h3 class="tile__header">{% if page.feature.headline %}{{ page.feature.headline }}{% else %}Featured Posts{% endif %}</h3>
   <div class="tiles">
     {% assign features = site.categories[page.feature.category] | where:"featured", true %}
@@ -556,7 +556,7 @@ Next I use a variation of the [related posts include](https://github.com/mmistak
         {% endif %}
       </article>
     {% endfor %}
-  </div>{% endraw %}
+  </div>
 ```
 
 To display on a page, the following YAML Front Matter is added --- customizing the headline and assigning a `site.categories` category to pull from.
@@ -571,9 +571,9 @@ feature:
 Everything is pulled together by adding this to relevant layouts:
 
 ```liquid
-{% raw %}{% if page.feature.visible == true %}
+{% if page.feature.visible == true %}
   {% include featured.html %}
-{% endif %}{% endraw %}
+{% endif %}
 ```
 
 {% figure caption:"How featured posts look when included on a page." %}
@@ -619,9 +619,9 @@ As you can guess, `title` corresponds to the page title and `url`... well the UR
     <nav id="nav-primary" class="masthead__menu-wrapper">
       <ul class="masthead__menu">
         <li><a href="/" class="masthead__menu-item">← Home</a></li>
-        {% raw %}{% for link in site.data.navigation.masthead %}
+        {% for link in site.data.navigation.masthead %}
           <li><a href="{{ link.url }}" class="masthead__menu-item">{{ link.title }}</a></li>
-        {% endfor %}{% endraw %}
+        {% endfor %}
         <li><a href="#0" class="overlay__menu-trigger masthead__menu-item" aria-label="Navigation Menu" title="Navigation Menu">•&nbsp;•&nbsp;•</a></li>
       </ul>
     </nav>
@@ -634,7 +634,7 @@ What's going on here is I'm looping through `site.data.navigation.masthead` to p
 To improve the navigation's UI, `.active` classes are added using the following Liquid:
 
 ```html
-{% raw %}{% for link in site.data.navigation.masthead %}
+{% for link in site.data.navigation.masthead %}
 <ul class="masthead__menu">
   {% assign class = nil %}
   {% if page.url contains link.url %}
@@ -642,7 +642,7 @@ To improve the navigation's UI, `.active` classes are added using the following 
   {% endif %}
   <li><a href="{{ link.url }}" class="masthead__menu-item {{ class }}">{{ link.title }}</a></li>
 </ul>
-{% endfor %}{% endraw %}
+{% endfor %}
 ```
 
 {% figure caption:"Masthead end-result after some styling." %}
@@ -678,7 +678,7 @@ I've also used a similar technique to build drop-down navigations with nested li
 
 ```html
 <ul>
-  {% raw %}{% for nav in site.data.navigation %}
+  {% for nav in site.data.navigation %}
     {% if nav.children != null %}
       <li><a href="{{ nav.href }}">{{ nav.title }}</a>
         <ul class="child">
@@ -688,7 +688,7 @@ I've also used a similar technique to build drop-down navigations with nested li
         </ul>
         {% else %}
       <li><a href="{{ nav.href }}">{{ nav.title }}</a>{% endif %}</li>
-  {% endfor %}{% endraw %}
+  {% endfor %}
 </ul>
 ```
 
@@ -737,10 +737,10 @@ cornelius_fiddlebone:
 
 Then, to override the author on any given post or page, `author:` is added to its YAML Front Matter with a key that matches one in `authors.yml`. For example to assign **Billy Rick** as the author of a post I'd add `author: billy_rick`.
 
-With a small layout addition, Liquid is used to assign Billy Rick's info, replacing the default values. In cases where an author isn't set {% raw %}`{{ site.owner }}`{% endraw %} values in `_config.yml` are used instead.
+With a small layout addition, Liquid is used to assign Billy Rick's info, replacing the default values. In cases where an author isn't set `{{ site.owner }}` values in `_config.yml` are used instead.
 
 ```html
-{% raw %}{% if page.author %}
+{% if page.author %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
 {% endif %}
 {% if author.avatar contains 'http' %}
@@ -749,7 +749,7 @@ With a small layout addition, Liquid is used to assign Billy Rick's info, replac
   <img src="/assets/images/{{ author.avatar }}" alt="{{ author.name }} bio photo"></a>
 {% endif %}
 <h3 class="author-name">{{ author.name }}</h3>
-{% if author.bio %}<p class="author-bio">{{ author.bio }}</p>{% endif %}{% endraw %}
+{% if author.bio %}<p class="author-bio">{{ author.bio }}</p>{% endif %}
 ```
 
 #### Slug names
@@ -774,7 +774,7 @@ faqs:
 The [`breadcrumbs.html`](https://github.com/mmistakes/made-mistakes-jekyll/blob/10.2.0/_includes/breadcrumbs.html) include is then modified to output a `slug.name` instead.
 
 ```html
-{% raw %}{% assign page_slug = page.url | remove_first: '/' | split: '/' %}
+{% assign page_slug = page.url | remove_first: '/' | split: '/' %}
 {% assign slug_first = page_slug[0] %}
 {% assign slug = site.data.slugs[slug_first] %}
 
@@ -789,7 +789,7 @@ The [`breadcrumbs.html`](https://github.com/mmistakes/made-mistakes-jekyll/blob/
       <span itemprop="title">{{ slug.name }}</span>
     </a>
   </span>
-</nav>{% endraw %}
+</nav>
 ```
 
 {% figure caption:"Tada! Properly capitalized and descriptive breadcrumb titles." %}
@@ -849,7 +849,7 @@ To change the default language, a locale variable is set in `_config.yml`. For e
 
 ##### 3. Call in the correct language hashes
 
-The last step is using long variables like `{% raw %}{{ site.data.languages.locales[site.locale].updated }}{% endraw %}` into the appropriate places --- replacing any text you want to localize. If done correctly, this variable should output with the French `updated` string, `Mis à jour`.
+The last step is using long variables like `{{ site.data.languages.locales[site.locale].updated }}` into the appropriate places --- replacing any text you want to localize. If done correctly, this variable should output with the French `updated` string, `Mis à jour`.
 
 If you want to learn more about this technique be sure to check out Tuan Anh's [blog post](https://tuananh.org/2014/08/13/localization-with-jekyll/). Or if you're looking for a plugin to do the heavy lifting, [Jekyll-Multiple-Languages][multiple-languages] might be a good place to start.
 

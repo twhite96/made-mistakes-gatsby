@@ -13,7 +13,7 @@ last_modified_at: 2019-02-26T21:06:25-05:00
 
 Slowly but surely, I've been chipping away at my site's [build time on **Netlify**]({% post_url /notes/2018-11-12-autumn-refresh %}#build-and-deploy).
 
-There's little left for me to optimize until Jekyll drops some nice updates in [version 4.0](https://github.com/jekyll/jekyll/projects/2). I've [cached the rendering of Liquid includes](https://github.com/mmistakes/made-mistakes-jekyll/issues/629) across `_layouts` via the [`{% raw %}{% include_cached %}{% endraw %}`](https://github.com/benbalter/jekyll-include-cache) tag, limited use of `{% raw %}{% for %}{% endraw %}` loops over large collections like `{% raw %}{% site.posts %}{% endraw %}`, and [stripped Jekyll's duties down]({% post_url /articles/2017-08-30-using-jekyll-2017 %}#optimization) to solely a HTML generator.
+There's little left for me to optimize until Jekyll drops some nice updates in [version 4.0](https://github.com/jekyll/jekyll/projects/2). I've [cached the rendering of Liquid includes](https://github.com/mmistakes/made-mistakes-jekyll/issues/629) across `_layouts` via the [`{% include_cached %}`](https://github.com/benbalter/jekyll-include-cache) tag, limited use of `{% for %}` loops over large collections like `{% site.posts %}`, and [stripped Jekyll's duties down]({% post_url /articles/2017-08-30-using-jekyll-2017 %}#optimization) to solely a HTML generator.
 
 The "little" that remains, is about [a gigabyte of images](https://github.com/mmistakes/made-mistakes-images) I pipe through **Gulp**. Thousands of high resolution images are processed by [**Sharp**](https://github.com/lovell/sharp) into various sizes. I've been able to knock this down from 18 minutes, to six on a fresh build...
 

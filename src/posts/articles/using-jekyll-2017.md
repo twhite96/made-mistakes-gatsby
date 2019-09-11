@@ -185,19 +185,19 @@ I shaved 18 minutes off my build time using this high speed [Node.js](https://no
 | --- | ---: | ---: |
 | Resize and optimize 1,014 source images into 5 target sizes | 1288.29s | 171.00s |
 
-The other missing piece was generating the necessary markup for responsive images[^rwd-images]. Because I was no longer using the `{% raw %}{% picture %}{% endraw %}` tag to output a fully formed [`<picture>` element](https://cloudfour.com/thinks/dont-use-picture-most-of-the-time/), I had to roll my own responsive image markup. 
+The other missing piece was generating the necessary markup for responsive images[^rwd-images]. Because I was no longer using the `{% picture %}` tag to output a fully formed [`<picture>` element](https://cloudfour.com/thinks/dont-use-picture-most-of-the-time/), I had to roll my own responsive image markup. 
 
 [^rwd-images]: In the last couple of years several "cloud" solutions have emerged to make serving responsively sized images easier. [**Cloudinary**](http://cloudinary.com/) (free plan), [**imgix**](https://www.imgix.com/) (paid plans), and [**ImageEngine**](https://www.scientiamobile.com/page/imageengine) (free plan) just to name a few.
 
 ```liquid
-{% raw %}{% if page.image.feature %}
+{% if page.image.feature %}
   {% assign f = page.image.feature | split: '.' %}
   <img src="{{ f[0] | relative_url }}-320.{{ f[1] }}"
        srcset="{{ f[0] | relative_url }}-768.{{ f[1] }} 768w,
                {{ f[0] | relative_url }}-1024.{{ f[1] }} 1024w,
                {{ f[0] | relative_url }}.{{ f[1] }} 1920w"
        alt="{{ page.title }}">
-{% endif %}{% endraw %}
+{% endif %}
 ```
 
 This bit of Liquid takes the filename as defined by `page.image.feature`, splits it at the extension, appends suffixes that match those used in the gulp-responsive task, and adds them to the `srcset` attribute. :boom: resolution switching images!
@@ -436,24 +436,24 @@ pagination:
 
 ```liquid
 <ul>
-  {% raw %}{% for post in paginator.posts %}
+  {% for post in paginator.posts %}
     <!-- what you want to output. title, url, image, etc. -->
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}{% endraw %}
+  {% endfor %}
 </ul>
 ```
 
 And for "next/previous" navigation links you can do something like this:
 
 ```liquid
-{% raw %}{% if paginator.total_pages > 1 %}
+{% if paginator.total_pages > 1 %}
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}">Newer Posts</a>
   {% endif %}
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}">Older Posts</a>
   {% endif %}
-{% endif %}{% endraw %}
+{% endif %}
 ```
 
 ### Lazyload tag
@@ -471,7 +471,7 @@ To do this I created a custom Jekyll plugin using [**lazysizes**](https://github
 **Example:**
 
 ```liquid
-{% raw %}{% lazyload data-src="/assets/images/my-image.jpg" src="/assets/images/my-image-low-quality.jpg" alt="my lazyloaded image" %}{% endraw %}
+{% lazyload data-src="/assets/images/my-image.jpg" src="/assets/images/my-image-low-quality.jpg" alt="my lazyloaded image" %}
 ```
 
 A Liquid version of this method is used in the [hero image include](https://github.com/mmistakes/made-mistakes-jekyll/blob/11.0.0/src/_includes/page__hero.html) to apply a nice blur effect as those large images are loaded by the browser.
@@ -487,7 +487,7 @@ Embeds are also [lazyloaded](#lazyload-tag) to improve page performance.
 To embed the following YouTube video at url `https://www.youtube.com/watch?v=fFX1CUO472U` (long version) or `https://youtu.be/fFX1CUO472U` (short version) into a post or page's main content you'd use: 
 
 ```liquid
-{% raw %}{% youtube fFX1CUO472U %}{% endraw %}
+{% youtube fFX1CUO472U %}
 ```
 
 #### Vimeo embed
@@ -495,7 +495,7 @@ To embed the following YouTube video at url `https://www.youtube.com/watch?v=fFX
 To embed the following Vimeo video at url `https://vimeo.com/97649261` into a post or page's main content you'd use: 
 
 ```liquid
-{% raw %}{% vimeo 34948855 %}{% endraw %}
+{% vimeo 34948855 %}
 ```
 
 ### Simplified breadcrumbs
@@ -513,10 +513,10 @@ breadcrumbs:
 Then using this Liquid and HTML it's outputted in my layout:
 
 ```liquid
-{% raw %}{% if page.breadcrumbs %}
+{% if page.breadcrumbs %}
   {% assign crumb = page.breadcrumbs[0] %}
   <a href="{{ crumb.url }}"><strong>{{ crumb.label }}</strong></a>
-{% endif %}{% endraw %}
+{% endif %}
 ``` 
 
 For multiple levels of breadcrumbs the following YAML and sample `for` loop should get the job started.
@@ -530,13 +530,13 @@ breadcrumbs:
 ```
 
 ```liquid
-{% raw %}{% if page.breadcrumbs %}
+{% if page.breadcrumbs %}
   <ul class="breadcrumbs">
     {% for crumb in page.breadcrumbs %}
       <li><a href="{{ crumb.url }}">{{ crumb.label }}</a></li>
     {% endfor %}
   </ul>
-{% endif %}{% endraw %}
+{% endif %}
 ```
 
 [[notice | ProTip: add breadcrumbs using [front matter defaults](http://jekyllrb.com/docs/configuration/#front-matter-defaults)]]
@@ -547,7 +547,7 @@ breadcrumbs:
 Looking over my site's analytics I came to the conclusion no one was clicking on the "this post was tagged" links, so I removed them. To make category pages more sticky and useful including tags seemed more useful. So with the following Liquid I was able to build a list of the most popular tags filtered on the current category.
 
 ```liquid
-{% raw %}{% assign filterCategory = page.pagination.category | default: page.category %}
+{% assign filterCategory = page.pagination.category | default: page.category %}
 
 <ul>
   {% assign tagLimiter = 0 %}
@@ -568,7 +568,7 @@ Looking over my site's analytics I came to the conclusion no one was clicking on
       {% assign tagLimiter = tagLimiter | plus: 1 %}
       <li><a href="/tag/{{ tag[0] | replace:' ','-' | downcase }}/" >{{ tag[0] }}</a></li>
     {% endif %}
-  {% endfor %}{% endraw %}
+  {% endfor %}
 </ul>
 ```
 

@@ -69,17 +69,17 @@ I choose not to output a file for each color/component since I planned on groupi
 
 ### Display components and color palettes
 
-With my two style guide collections configured I created a new layout (`_layouts/style_guide.html`) to strip away most of the fluff found in my `article` and `media` layouts. It's basically a wide wrapper with just a page title and `{% raw %}{{ content }}{% endraw %}` block.
+With my two style guide collections configured I created a new layout (`_layouts/style_guide.html`) to strip away most of the fluff found in my `article` and `media` layouts. It's basically a wide wrapper with just a page title and `{{ content }}` block.
 
 ```html
-{% raw %}---
+---
 layout: default
 ---
 
 <div id="main" class="wrap" role="main">
   <h1>{{ page.title }}</h1>
   {{ content }}
-</div><!-- /#main -->{% endraw %}
+</div><!-- /#main -->
 ```
 
 The bulk of the content for the style guide is going to come from creating Markdown files for each component and color palette --- so I started on that next. For components I went with the following YAML Front Matter followed by the bare minimum of HTML needed to create each. `title` and `type` are the only required bits with `scss`, `module`, and `usage` being optional to describe a component and/or link back to their source code.
@@ -124,13 +124,13 @@ There's not much magic going on here. Basically what I did was:
 Here's the Liquid I came up with to fill the page with content from the `components` collection.
 
 ```html
-{% raw %}{% assign componentsByType = site.components | group_by:"type" %}
+{% assign componentsByType = site.components | group_by:"type" %}
 {% for type in componentsByType %}
 <h2 id="guide-{{ type.name }}" class="cf">{{ type.name | capitalize }}</h2>
 {% for entry in type.items %}
 {% include component.html %}
 {% endfor %}
-{% endfor %}{% endraw %}
+{% endfor %}
 ```
 
 What's going on here is I'm iterating over the `components` collection, grouping the documents by type[^component-type], and displaying each document's content twice (rendered HTML and syntax highlighted un-rendered HTML).
@@ -143,7 +143,7 @@ What's going on here is I'm iterating over the `components` collection, grouping
 Sandwiched between the `entry` loop is an include that takes care of spitting out the rendered and syntax highlighted HTML along with an optional short description and links to Sass and `include` sources.
 
 ```html
-{% raw %}<article class="component">
+<article class="component">
   <header class="component-header">
     <h3 id="guide-{{ entry.title | slugify }}">{{ entry.title }}</h3>
       {% if entry.usage %}<p><strong>Usage:</strong> {{ entry.usage }}</p>{% endif %}
@@ -162,7 +162,7 @@ Sandwiched between the `entry` loop is an include that takes care of spitting ou
       
     </div><!-- /.component-code -->
   </div><!-- /.component-content -->
-</article><!-- /.component -->{% endraw %}
+</article><!-- /.component -->
 ```
 
 #### Component selector navigation
@@ -170,7 +170,7 @@ Sandwiched between the `entry` loop is an include that takes care of spitting ou
 To help expose components that may be buried towards the bottom of the page I came up with this to create an option list nav.
 
 ```html
-{% raw %}
+
 <nav id="component-selector" class="wrap">
   <select name="section" id="component-select">
     <option value>Jump to component...</option>
@@ -196,7 +196,7 @@ To help expose components that may be buried towards the bottom of the page I ca
       }
     }
   })(document);
-</script>{% endraw %}
+</script>
 ```
 
 {% figure caption:"Style guide component selector." %}

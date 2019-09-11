@@ -40,7 +40,7 @@ Using [Liquid](https://shopify.github.io/liquid/)[^liquid] you'd start by loopin
   {% if image.path contains 'assets/images/gallery-1' %}
     <img src="{{ image.path }}" alt="">
   {% endif %}
-{% endfor %}{% endraw %}
+{% endfor %}
 ```
 
 Which will generate into the following HTML:
@@ -74,7 +74,7 @@ Start by creating thumbnail versions of each image however you'd like. The impor
 Assuming a thumbnail and full-size image share the same base name, we can construct the gallery's HTML with the following:
 
 ```liquid
-{% raw %}{% for image in site.static_files %}
+{% for image in site.static_files %}
   {% if image.path contains 'assets/images/gallery-1' %}
     {% unless image.path contains '-th.' %}
       <a href="{{ image.path }}">
@@ -82,7 +82,7 @@ Assuming a thumbnail and full-size image share the same base name, we can constr
       </a>
     {% endunless %}
   {% endif %}
-{% endfor %}{% endraw %}
+{% endfor %}
 ```
 
 Now you may be wondering where `basename` and `extname` came from... simple. Each static file contains metadata accessible via Liquid with the following variables:

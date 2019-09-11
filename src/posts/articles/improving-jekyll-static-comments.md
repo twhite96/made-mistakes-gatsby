@@ -62,7 +62,7 @@ Either way, let me know about your experience upgrading from Staticman `v1` to `
 To `POST` correctly to Staticman, the `action` attribute in my comment form needed a small update. Changing `v1` to `v2` in [**_includes/page__comments.html**](https://github.com/mmistakes/made-mistakes-jekyll/blob/f0074b7b9e64b6d4b63dd13a371cedc576dae49d/src/_includes/page__comments.html#L34) and appending `/comments`[^property] to the end did the trick for me.
 
 ```html
-{% raw %}<form id="comment-form" class="page__form js-form form" method="post" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">{% endraw %}
+<form id="comment-form" class="page__form js-form form" method="post" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">
 ```
 
 [^property]: Site properties are optional. See Staticman documentation for details on [hooking up your forms](https://staticman.net/docs/#step-3-hook-up-your-forms).
@@ -119,7 +119,7 @@ date: '2016-11-02T05:08:43.280Z'
 As you can see above, the "child" comment has `replying_to` data populated from the hidden `fields[replying_to]` field in the form. Using this knowledge I tested against it using `where_exp:"comment", "comment.replying_to == blank"` to create an array of only "top-level" comments.
 
 ```liquid
-{% raw %}{% assign comments = site.data.comments[page.slug] | sort | where_exp: "comment", "comment[1].replying_to == blank" %}
+{% assign comments = site.data.comments[page.slug] | sort | where_exp: "comment", "comment[1].replying_to == blank" %}
 {% for comment in comments %}
   {% assign avatar      = comment[1].avatar %}
   {% assign email       = comment[1].email %}
@@ -128,7 +128,7 @@ As you can see above, the "child" comment has `replying_to` data populated from 
   {% assign date        = comment[1].date %}
   {% assign message     = comment[1].message %}
   {% include comment.html avatar=avatar email=email name=name url=url date=date message=message %}
-{% endfor %}{% endraw %}
+{% endfor %}
 ```
 
 {% figure caption:"Success, there be parent comments Captain!" %}
@@ -156,7 +156,7 @@ Here is what I was looking to accomplish... before the headaches started :anguis
 I determined the easiest way of assigning a unique identifier to each parent comment would be sequentially. Thankfully Liquid provides a way of doing this with `forloop.index`.
 
 ```liquid
-{% raw %}{% assign index = forloop.index %}{% endraw %}
+{% assign index = forloop.index %}
 ```
 
 [[notice | Universally unique identifier]]
@@ -167,7 +167,7 @@ I determined the easiest way of assigning a unique identifier to each parent com
 Next I nested a modified copy of the "top-level comment" loop from before inside of itself --- to function as the "child" or `replies` loop.
 
 ```liquid
-{% raw %}{% capture i %}{{ include.index }}{% endcapture %}
+{% capture i %}{{ include.index }}{% endcapture %}
 {% assign replies = site.data.comments[page.slug] | sort | where_exp: "comment", "comment[1].replying_to == i" %}
 {% for reply in replies %}
   {% assign index       = forloop.index | prepend: '-' | prepend: include.index %}
@@ -179,7 +179,7 @@ Next I nested a modified copy of the "top-level comment" loop from before inside
   {% assign date        = reply[1].date %}
   {% assign message     = reply[1].message %}
   {% include comment.html index=index replying_to=replying_to avatar=avatar email=email name=name url=url date=date message=message %}
-{% endfor %}{% endraw %}
+{% endfor %}
 ```
 
 Unfortunately the `where_exp` filter proved troublesome yet again, causing Jekyll to error out with: `Liquid Exception: Liquid error (line 47): Nesting too deep in /_layouts/page.html`.
@@ -188,17 +188,17 @@ After brief thoughts of the movie **Inception**, I applied an `inspect` filter t
 
 [^integer-string]: `15` is not the same as `'15'`. Those single quotes make a world of difference...
 
-To solve this I placed a `capture` tag around the index variable to convert it from an integer into a string. Then modified the `where_exp` condition to compare `replying_to` against this new `{% raw %}{{ i }}{% endraw %}` variable --- fixing the issue and allowing me to move on.
+To solve this I placed a `capture` tag around the index variable to convert it from an integer into a string. Then modified the `where_exp` condition to compare `replying_to` against this new `{{ i }}` variable --- fixing the issue and allowing me to move on.
 
 ```liquid
-{% raw %}{% capture i %}{{ include.index }}{% endcapture %}
-{% assign replies = site.data.comments[page.slug] | where_exp:"item", "item.replying_to == i" %}{% endraw %}
+{% capture i %}{{ include.index }}{% endcapture %}
+{% assign replies = site.data.comments[page.slug] | where_exp:"item", "item.replying_to == i" %}
 ```
 
 #### `_includes/page__comments.html`
 
 ```html
-{% raw %}<section class="page__reactions">
+<section class="page__reactions">
   {% if site.repository and site.staticman.branch %}
     {% if site.data.comments[page.slug] %}
       <!-- Start static comments -->
@@ -273,13 +273,13 @@ To solve this I placed a `capture` tag around the index variable to convert it f
       <p><em>Comments are closed. If you have a question concerning the content of this page, please feel free to <a href="/contact/">contact me</a>.</em></p>
     {% endunless %}
   {% endif %}
-</section>{% endraw %}
+</section>
 ```
 
 #### `_includes/comment.html`
 
 ```html
-{% raw %}<article id="comment{% unless include.r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endunless %}" class="js-comment comment {% if include.name == site.author.name %}admin{% endif %} {% unless include.replying_to == 0 %}child{% endunless %}">
+<article id="comment{% unless include.r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endunless %}" class="js-comment comment {% if include.name == site.author.name %}admin{% endif %} {% unless include.replying_to == 0 %}child{% endunless %}">
   <div class="comment__avatar">
     {% if include.avatar %}
       <img src="{{ include.avatar }}" alt="{{ include.name | escape }}">
@@ -327,7 +327,7 @@ To solve this I placed a `capture` tag around the index variable to convert it f
   {% assign date        = reply[1].date %}
   {% assign message     = reply[1].message %}
   {% include comment.html index=index replying_to=replying_to avatar=avatar email=email name=name url=url date=date message=message %}
-{% endfor %}{% endraw %}
+{% endfor %}
 ```
 
 ### Comment reply HTML and JavaScript
@@ -343,11 +343,11 @@ Familiar with the way [**Wordpress**](https://wordpress.org/) handles reply form
 To start I used an `unless` condition to only show reply links on "top-level" comments. I only planned on going one-level deep with replies, so this seemed like a good way of enforcing that.
 
 ```html
-{% raw %}{% unless r %}
+{% unless r %}
   <div class="comment__reply">
     <a rel="nofollow" class="btn" href="#comment-{{ include.index }}">Reply to {{ include.name }}</a>
   </div>
-{% endunless %}{% endraw %}
+{% endunless %}
 ```
 
 {% figure caption:"Nested comments one-level deep." %}
@@ -357,7 +357,7 @@ To start I used an `unless` condition to only show reply links on "top-level" co
 To give the **reply link** life I added the following `onclick` attribute and [JavaScript](https://github.com/mmistakes/made-mistakes-jekyll/blob/49632d19977e341b51c91dad8e71bf6ef88e79c3/src/assets/javascripts/main.js#L84-L181) to it.
 
 ```javascript
-{% raw %}onclick="return addComment.moveForm('comment-{{ include.index }}', '{{ include.index }}', 'respond', '{{ page.slug }}')"{% endraw %}
+onclick="return addComment.moveForm('comment-{{ include.index }}', '{{ include.index }}', 'respond', '{{ page.slug }}')"
 ```
 
 A few minor variable name changes to Wordpress' `comment-reply.js` script was all it took to get everything working with my `form` markup.
@@ -392,8 +392,8 @@ To finish, add the following three fields to the comment `form`.
 **Field 1 + 2:** Hidden input fields that pass the `origin`[^origin] set in `staticman.yml` and unique identifier to the entry the user is subscriber to:
 
 ```html
-{% raw %}<input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
-<input type="hidden" name="options[parent]" value="{{ page.url | absolute_url }}">{% endraw %}
+<input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
+<input type="hidden" name="options[parent]" value="{{ page.url | absolute_url }}">
 ```
 
 **Field 3:** A checkbox `input` for subscribing to email notifications.

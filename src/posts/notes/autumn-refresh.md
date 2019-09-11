@@ -57,7 +57,7 @@ Digging in, I discovered [**bigfoot.js**](http://bigfootjs.com/)[^bigfoot] didn'
 [^bigfoot]: A jQuery plugin used to make footnotes less visually distracting.
 
 ```javascript
-{% raw %}var bigfoot = $.bigfoot({
+var bigfoot = $.bigfoot({
   actionOriginalFN: 'delete',
   buttonMarkup: (
     '<div class="bigfoot-footnote__container">' +
@@ -71,7 +71,7 @@ Digging in, I discovered [**bigfoot.js**](http://bigfootjs.com/)[^bigfoot] didn'
     ' </button>' +
     '</div>'
   )
-});{% endraw %}
+});
 ```
 
 ### Color contrast is satisfactory
@@ -90,7 +90,7 @@ Optimizations with the biggest impact (minifying, concatenating, inlining critic
 
 > Consider lazy-loading offscreen and hidden images after all critical resources have finished loading to lower time to interactive.
 
-Large feature images were already lazy-loaded and served responsively using `srcset` and a handful of sized images. Images found in the body `{% raw %}{{ content }}{% endraw %}` of my Markdown files were not.
+Large feature images were already lazy-loaded and served responsively using `srcset` and a handful of sized images. Images found in the body `{{ content }}` of my Markdown files were not.
 
 Taking a cue from [**gatsby-remark-images'**](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-remark-images) playbook, I wrote a small plugin to convert Markdown image syntax into an `<img>` element with synatactically sugar for lazy-loading. To my surprise this actually worked.
 

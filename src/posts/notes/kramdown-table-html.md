@@ -54,7 +54,7 @@ Instead of rendering the HTML, it is escaped and outputted as a single line of t
 
 What is needed is a way of telling **Kramdown** to leave the HTML alone and output as is. Thankfully there is such a way using the [`nomarkdown` extension](http://kramdown.gettalong.org/syntax.html#extensions).
 
-Simply wrap the HTML with `{% raw %}{::nomarkdown} ... {:/}{% endraw %}` like so:
+Simply wrap the HTML with `{::nomarkdown} ... {:/}` like so:
 
 ```markdown
 | Fruit         | Price         | Advantages         |
