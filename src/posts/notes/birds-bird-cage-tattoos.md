@@ -19,8 +19,7 @@ Then I started the process of moving in with [my girlfriend Wendy](https://2litt
 
 Last weekend we hit up [**Rise Above Tattoos**](https://www.facebook.com/pages/Modern-Love/1792647387731776) again and spent the afternoon getting some more work done. Wendy added a bunch of birds in flight, a cage, and a tree branch to mimic the design of her other arm. She's in the process of healing now so it looks pretty scabby in a few spots. Will probably need some touch ups if the color falls out, but that shouldn't be a problem since the same thing happened last time.
 
-{% figure caption:"Some ink splat filler on my forearm" %}
-[![Some ink splat filler on my forearm](../../images/hair-pull-heart-tattoo-m.jpg)](http://www.flickr.com/photos/michael_knows/sets/72157605004332974/ "Flickr photoset of my all my tattoos"){% endfigure %}
+![Some ink splat filler on my forearm](../../images/hair-pull-heart-tattoo-xl.jpg)
 
 ## These aren't Photoshop brushes, shut up
 
@@ -28,14 +27,14 @@ I didn't get much done... just some lines, ink splats, and squiggles to fill in 
 
 ## Freshly inked birds and trees
 
-{% figure caption:"Birds flying around some tree branches." %}
-[![Upper detail of Wendy's forearms](../../images/bird-cage-tattoo-upper.jpg)](../../images/bird-cage-tattoo-upper.jpg "Vegan tattoo and birds flying around some tree branches")
-{% endfigure %}
+Birds flying around some tree branches.
 
-{% figure caption:"Still in the process of healing." %}
-[![Detail of the Wendy's bird cage tattoo](../../images/bird-cage-tattoo-lower.jpg)](../../images/bird-cage-tattoo-lower.jpg "Birds breaking free, a key, and a lock.")
-{% endfigure %}
+![Vegan tattoo and birds flying around some tree branches](../../images/bird-cage-tattoo-upper.jpg)
 
-{% figure caption:"And here is my bird related tattoo..." %}
-[![Bird in a tree forearm tattoo](../../images/bird-in-tree-forearm-tattoo-s.jpg)](../../images/bird-in-tree-forearm-tattoo-l.jpg "Michael's bird in a tree forearm tattoo")
-{% endfigure %}
+Still in the process of healing.
+
+![Tattoo of birds breaking free, a key, and a lock](../../images/bird-cage-tattoo-lower.jpg)
+
+And here is my bird related tattoo...
+
+![Michael's bird in a tree forearm tattoo](../../images/bird-in-tree-forearm-tattoo-l.jpg)

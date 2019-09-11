@@ -16,6 +16,15 @@ At 16GB the iPod touch doesn't meet my needs, so I decided to go with the new iP
 
 The classic has a few issues, but nothing that has given me buyer's remorse.
 
+![iPod classic syncing next to a 40GB iPod](../../images/80.jpg)
+![iPod classic thickness compared to an old 40GB iPod](../../images/81.jpg)
+![New interface menu](../../images/82.jpg)
+![iPod classic games screen](../../images/83.jpg)
+![iPod classic coverflow](../../images/84.jpg)
+![iPod classic coverflow flip](../../images/85.jpg)
+![iPod classic viewing your photos](../../images/86.jpg)
+![iPod classic search](../../images/87.jpg)
+
 ## The pros
 
 *	Battery life!!! I played 3 hours of video (with the back light on) and 4 hours of audio and the battery meter barely moved. With a promised 30 hours of audio / 7 hours of video playback I'm extremely happy with this little dude's performance. Sure beats the 20 minutes I'd get on a full charge with my 3rd gen.
@@ -29,15 +38,3 @@ The classic has a few issues, but nothing that has given me buyer's remorse.
 *	The clock. WTF?!? After 20 seconds of inactivity the Now Playing screen goes away and you get this lame clock displaying the time and battery level. The only way I've been able to get rid of this "feature" is by turning the back light setting to *Always On*. Must be some energy saving feature Apple thought was necessary. Give me the option to turn this off please.
 *	Scroll wheel sensitivity seems off. Maybe I'm used to pre-click wheel iPod, but I have problems rating songs or moving through the menus accurately.
 *	Screen glare. When used in my car during the day I can barely see the screen. Not that big of a deal, but I'm glad I didn't get an iPod touch for this very reason. Would have been nearly impossible to navigate through songs since it has no hard buttons and I wouldn't be able to see the screen.
-
-## Photo gallery
-
-* [![iPod classic syncing next to a 40GB iPod](../../images/80t.jpg)](../../images/80.jpg)
-* [![iPod classic thickness compared to an old 40GB iPod](../../images/81t.jpg)](../../images/81.jpg)
-* [![New interface menu](../../images/82t.jpg)](../../images/82.jpg)
-* [![iPod classic games screen](../../images/83t.jpg)](../../images/83.jpg)
-* [![iPod classic coverflow](../../images/84t.jpg)](../../images/84.jpg)
-* [![iPod classic coverflow flip](../../images/85t.jpg)](../../images/85.jpg)
-* [![iPod classic viewing your photos](../../images/86t.jpg)](../../images/86.jpg)
-* [![iPod classic search](../../images/87t.jpg)](../../images/87.jpg)
-{: .gallery-thumbnails}

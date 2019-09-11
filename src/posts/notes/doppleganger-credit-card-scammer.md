@@ -18,6 +18,4 @@ I had nothing to do with using a bad credit card at Tops' honest! I just happen 
 >
 > <cite>The Buffalo News</cite>
 
-{% figure caption:"I think my bizarro twin is running some sort of credit card scam." %}
-![Me the fugitive?](../../images/michael-the-fugitive.jpg)
-{% endfigure %}
+![Comparison photo of the fugitive and me](../../images/michael-the-fugitive.jpg)

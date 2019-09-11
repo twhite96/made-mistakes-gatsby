@@ -26,10 +26,11 @@ I honestly can't believe I've been drawing strangers for 365 days straight. I wa
 - Thank you for all the kind @replies, emails, comments, favorites, likes, and encouragement.
 - Thank you [**FiftyThree**](http://www.fiftythree.com/) for developing the app that made all this possible, fostering a [community of creators](http://madewithpaper.fiftythree.com/) who inspire me daily, and for supporting my project by featuring it in posts and tweets.
 
-{% figure caption:"Some of my favorite portraits I've illustrated." class:"gallery-3-col" %}
-[![PaperFaces portrait of a horsehead](../../images/paperfaces-studioprisoner-twitter-600.jpg)](/paperfaces/studioprisoner-portrait/)
-[![PaperFaces portrait of a Go master](../../images/paperfaces-go-master-600.jpg)](/paperfaces/go-master-portrait/)
-[![PaperFaces portrait of long flowing hair](../../images/paperfaces-genevasands-twitter-600.jpg)](/paperfaces/genevasands-portrait/)
-{% endfigure %}
+<figure class="3-columns">
+  <img alt="PaperFaces portrait of a horsehead" src="../../images/paperfaces-studioprisoner-twitter.jpg">
+  <img alt="PaperFaces portrait of a Go master" src="../../images/paperfaces-go-master.jpg">
+  <img alt="PaperFaces portrait of long flowing hair" src="../../images/paperfaces-genevasands-twitter.jpg">
+  <figcaption><p>Some of my favorite portraits I've illustrated.</p></figcaption>
+</figure>
 
 Here's to another fun year of blank faces. And to the thousands of you still waiting for portraits... I'm working on them, really I am.

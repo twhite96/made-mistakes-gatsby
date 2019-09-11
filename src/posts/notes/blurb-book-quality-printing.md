@@ -21,7 +21,8 @@ They offer some guidance on [color management](http://www.blurb.com/color-manage
 
 ## Sample pages
 
-{% figure caption:"Detail photographs of a printed book." class:"gallery-2-col" %}
-[![Photograph of interior page spread of book, A Six Month Walk](../../images/six-month-walk-interior-1-320.jpg)](../../images/six-month-walk-interior-1-1024.jpg)
-[![Detail photograph of printed page of book, A Six Month Walk](../../images/six-month-walk-detail-print-320.jpg)](../../images/six-month-walk-detail-print-1024.jpg)
-{% endfigure %}
+<figure class="2-columns">
+  <img alt="Photograph of interior page spread of book, A Six Month Walk" src="../../images/six-month-walk-interior-1-1024.jpg">
+  <img alt="Detail photograph of printed page of book, A Six Month Walk" src="../../images/six-month-walk-detail-print-1024.jpg">
+  <figcaption><p>Detail photographs of a printed book.</p></figcaption>
+</figure>

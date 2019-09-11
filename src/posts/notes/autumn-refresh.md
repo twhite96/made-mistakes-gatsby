@@ -22,19 +22,19 @@ In the meantime I've taken new visual cues I originally built as [React componen
 In [Made Mistakes v12](https://github.com/mmistakes/made-mistakes-jekyll/releases/tag/12.0.0) text and image where large and readible, but didn't exactly fill the canvas elegantly. I wanted to change that with this design refresh.
 
 <figure>
-  <p class="browser-frame">
+  <div class="browser-frame">
     <img src="../../images/mm-desktop-design-old.jpg" alt="Made Mistakes design before the refresh">
-  </p>
-  <figcaption>Site design before the refresh.</figcaption>
+  </div>
+  <figcaption><p>Site design before the refresh.</p></figcaption>
 </figure>
 
 Since majority of the visitors to my site use modern browsers, I had a good excuse to play with `display: grid`. I've removed the [**Susy** mixins](http://oddbird.net/susy/) and most of the `float` based columns, which cut the amount of CSS I had to write considerably.
 
 <figure>
-  <p class="browser-frame">
+  <div class="browser-frame">
     <img src="../../images/mm-desktop-design-new.jpg" alt="Made Mistakes design after the refresh">
-  </p>
-  <figcaption>Site design after the refresh.</figcaption>
+  </div>
+  <figcaption><p>Site design after the refresh.</p></figcaption>
 </figure>
 
 To my eye this new layout breaks up the page better. Content comes into view earlier on the page, and there's plenty of room for ancillary information on the right. With a little `position: sticky` sprinkled on the `aside` column, internal skip links stay fixed in view --- when space allows.
@@ -78,9 +78,9 @@ var bigfoot = $.bigfoot({
 
 The color of elements like captions and footer text were too light, so I darkened them. I did the same for links by giving them a contrast ratio of `4.77`.
 
-{% figure caption:"The Color Picker in Chrome's DevTools will show you the contrast ratio of text elements to help make your site more accessible to users with low-vision impairments or color-vision deficiencies." %}
 ![link color contrast ratio screenshot](../../images/mm-link-color-contrast-raio.png)
-{% endfigure %}
+
+The Color Picker in Chrome's DevTools will show you the contrast ratio of text elements to help make your site more accessible to users with low-vision impairments or color-vision deficiencies.
 
 ## Performance improvements
 
@@ -115,13 +115,15 @@ Trimming `<div>` fat where I could helped cut page weight down. Some hefty pages
 
 ## Lighthouse audits comparison
 
-{% figure caption:"**Lighthouse** audit before optimizations." %}
-![Made Mistakes audit results before optimizations](../../images/mm-lighthouse-audit-before.png)
-{% endfigure %}
+<figure>
+  <img alt="Made Mistakes audit results before optimizations" src="../../images/mm-lighthouse-audit-before.png">
+  <figcaption><p><strong>Lighthouse</strong> audit before optimizations.</p></figcaption>
+</figure>
 
-{% figure caption:"**Lighthouse** audit after optimizations." %}
-![Made Mistakes audit results after optimizations](../../images/mm-lighthouse-audit-after.png)
-{% endfigure %}
+<figure>
+  <img alt="Made Mistakes audit results after optimizations" src="../../images/mm-lighthouse-audit-after.png">
+  <figcaption><p><strong>Lighthouse</strong> audit after optimizations.</p></figcaption>
+</figure>
 
 Not sure why metrics like *Speed Index* increased. But *Time to Interactive*, *First Meaningful Paint*, and *First CPI Idle* all show improvements, so I guess that's why the site went from a 79 in performance, to an 89. :man_shrugging:
 

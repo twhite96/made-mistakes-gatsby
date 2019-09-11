@@ -89,9 +89,9 @@ I use the term "tutorial" loosely. What you'll find here are glorified slide sho
 [[notice | Video process update]]
 | I've recently discovered [Reflector](http://www.reflectorapp.com/) which allows the screen of an iOS device to be mirrored on a Mac or PC via AirPlay. True speed painting videos here I come!
 
-{% figure caption:"View more of my Paper by FiftyThree video tutorials on [YouTube](https://www.youtube.com/user/anotherjpeg) or read [how I use Paper](/mastering-paper/)." %}
-{% youtube videoseries?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao&amp; %}
-{% endfigure %}
+View more of my Paper by FiftyThree video tutorials on [YouTube](https://www.youtube.com/user/anotherjpeg) or read [how I use Paper](/mastering-paper/).
+
+`youtube: https://www.youtube.com/embed/videoseries?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao
 
 ## Homages
 

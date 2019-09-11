@@ -3,16 +3,6 @@ title: "Oil pastels are not pencils"
 date: 2016-10-27
 path: /notes/oil-pastels/
 image: ../../images/oil-pastel-sunset-finished.jpg
-gallery:
-  - url: ../../images/oil-pastels-process-1.jpg
-    image_path: ../../images/oil-pastels-process-1-600.jpg
-    alt: "Preliminary sketch and taped off paper"
-  - url: ../../images/oil-pastels-process-2.jpg
-    image_path: ../../images/oil-pastels-process-2-600.jpg
-    alt: "Sketching out the sky"
-  - url: ../../images/oil-pastels-process-3.jpg
-    image_path: ../../images/oil-pastels-process-3-600.jpg
-    alt: "The finished piece before removing the mask"
 categories: [notes]
 tags: [TIL, illustration]
 last_modified_at: 2019-02-15T15:55:53-05:00
@@ -25,6 +15,10 @@ Their size and shape should have been enough to clue me into that fact, but I pr
 Made a slight recovery when I began using the tool like I would with oil paint. *Globing on specks of color, and letting them mix with each other naturally.* They don't quite have the mixing quality of paint, but with a finger or blending stumps pigment can be pulled about.
 
 Attempting to create form with precise strokes is totally not the way to approach oil pastels.
+
+![Preliminary sketch and taped off paper](../../images/oil-pastels-process-1.jpg)
+![Sketching out the sky](../../images/oil-pastels-process-2.jpg)
+![The finished piece before removing the mask](../../images/oil-pastels-process-3.jpg)
 
 ## Tools Used
 
