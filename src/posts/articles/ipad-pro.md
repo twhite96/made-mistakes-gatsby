@@ -18,7 +18,7 @@ Does that dream become reality in November? Or do I prolong it for the inevitabl
 
 Left to my wife that answer would be a firm *"uhh no, we're not spending $1,000 on a stupid iPad."* My decision tree is slightly more nuanced than hers though :wink:. I've waited years for these products and if the iPad Pro + Apple Pencil perform anything like they've been demoed --- goodbye to my iPad Air 2 and set of styli[^styli].
 
-[^styli]: [Pencil by FiftyThree]({% post_url /mastering-paper/2014-11-28-pencil-53-review %}), [Pogo Connect]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) (for the nib alone since the original doesn't play nice with my iPad Air 2), and [generics from Amazon](http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20).
+[^styli]: [Pencil by FiftyThree](/mastering-paper/pencil-53-review/), [Pogo Connect](/mastering-paper/pogo-connect-smart-pen/) (for the nib alone since the original doesn't play nice with my iPad Air 2), and [generics from Amazon](http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20).
 
 ## The price to play
 
@@ -55,7 +55,7 @@ Reading Apple's iPad Pro product page it's clear to me that their tablet is grow
 
 ### Position, force, and tilt
 
-Pressure sensitive styli used to play a big role in how I drew and painted on the iPad. If Paper by FiftyThree supported the [Pogo Connect]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) I'd probably still be using it --- even though it wasn't designed all that well.
+Pressure sensitive styli used to play a big role in how I drew and painted on the iPad. If Paper by FiftyThree supported the [Pogo Connect](/mastering-paper/pogo-connect-smart-pen/) I'd probably still be using it --- even though it wasn't designed all that well.
 
 Coming from a fine arts background I learned how to manipulate graphite and paint by varying the amount of pressure applied. The Pogo Connect (and a few others[^pressure-styli]) attempted to simulate this behavior in select apps that supported it. Mostly viewed as a novelty because of difficulties controlling it due to precision and latency issues, the feature never really caught on.
 
@@ -160,7 +160,7 @@ It's this single purpose that allows Procreate to excel at the sorts of things d
 Procreate did all the work capturing my strokes as I drew this portrait of "Mr. Allan" from a photo reference on [**Sktchy**](https://get.sktchy.com/). Watch me make all kinds of mistakes and fumble through *my very first serious digital painting* with Procreate.
 
 {% figure caption:"A total 4 hours and 5 minutes over three sessions." %}
-{% youtube vrqoIbu7gU0 %}
+`youtube: https://www.youtube.com/watch?v=vrqoIbu7gU0`
 {% endfigure %}
 
 To me eye, the face looks like a lump of clay, but with a few more hours of rendering that could be corrected. Procreate has that oil painted look down pat, it's the watercolor feel that Paper produces so effortlessly I'd like to match in future drawings. But that's for another <s>day</s> tutorial...

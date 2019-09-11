@@ -18,7 +18,7 @@ What follows is a brain dump documenting my approach to using Jekyll, how that's
 
 ## Converting and restructuring content
 
-To learn how Jekyll works I set off on a journey to turn a [**Wordpress**](https://wordpress.org) powered site into the static version you see now. I read several tutorials, learned Kramdown[^kramdown] and [Liquid](https://docs.shopify.com/themes/liquid-documentation/basics), [blogged about the process]({% post_url /articles/2012-03-19-going-static %}), and eventually ended up with something I was happy with --- all without a database or CMS.
+To learn how Jekyll works I set off on a journey to turn a [**Wordpress**](https://wordpress.org) powered site into the static version you see now. I read several tutorials, learned Kramdown[^kramdown] and [Liquid](https://docs.shopify.com/themes/liquid-documentation/basics), [blogged about the process](/articles/going-static/), and eventually ended up with something I was happy with --- all without a database or CMS.
 
 [^kramdown]: [Kramdown](http://kramdown.gettalong.org/syntax.html) is a Markdown converter that supports features currently unavailable in plain Markdown. Things like automatically generating a table of contents from headlines, special attributes, and more.
 
@@ -95,7 +95,7 @@ collections:
     title: FAQs
 ```
 
-As collections have elevated in status they're increasingly becoming my preferred way of working with static content. In addition to the FAQs collection I've also created one to build a "[living style guide]({% post_url /articles/2015-02-10-jekyll-style-guide %})" of sorts --- documenting the look and feel of the site with visual representations and code samples. 
+As collections have elevated in status they're increasingly becoming my preferred way of working with static content. In addition to the FAQs collection I've also created one to build a "[living style guide](/articles/jekyll-style-guide/)" of sorts --- documenting the look and feel of the site with visual representations and code samples. 
 
 Eventually I plan to convert more posts into their own collections. Posts currently categorized as `work` seem like the obvious choice since its always felt funny shoe-horning them into `_posts`. As far as others? Not sure yet.
 

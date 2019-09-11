@@ -44,7 +44,7 @@ When painting, do not lift the stylus or your finger from the screen until you f
 
 ### Painting puffy clouds
 
-Now comes my favorite part, painting happy clouds ala Bob Ross[^1]. Sticking with the watercolor brush, we're going to fluff a few clouds in using short circular strokes. If you have a [Pogo Connect Smart Pen]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}), you can control the amount of background lightening easier. But if you don't, just focus on making quick strokes --- the faster the better. 
+Now comes my favorite part, painting happy clouds ala Bob Ross[^1]. Sticking with the watercolor brush, we're going to fluff a few clouds in using short circular strokes. If you have a [Pogo Connect Smart Pen](/mastering-paper/pogo-connect-smart-pen/), you can control the amount of background lightening easier. But if you don't, just focus on making quick strokes --- the faster the better. 
 
 [[notice | ProTip: go easy on the white]]
 | White lightens quickly and you don't want to remove too much blue at once, so be careful with this step. If you remove too much, just rewind and try again.
@@ -136,14 +136,14 @@ An added benefit of painting a sunset, is how it reacts with objects that are pl
 Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project](/paperfaces/). Below are a few finished skies and clouds to show what is possible just by varying the color and composition.
 
 <ul class="gallery-thumbnails">
-  <li><a href="{% post_url /paperfaces/2013-08-22-laramulady-portrait %}"><img src="/assets/images/paperfaces-laramulady-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2013-08-22-tipican-portrait %}"><img src="/assets/images/paperfaces-tipican-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2013-07-29-sbrolins-portrait %}"><img src="/assets/images/paperfaces-sbrolins-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2013-07-22-technacity-portrait %}"><img src="/assets/images/paperfaces-technacity-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2013-06-19-dismanntled-portrait %}"><img src="/assets/images/paperfaces-dismanntled-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2013-05-28-suhairykz-portrait %}"><img src="/assets/images/paperfaces-suhairykz-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2013-02-01-nick-aylward-portrait %}"><img src="/assets/images/paperfaces-nick-aylward-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2013-01-17-shinfu-portrait %}"><img src="/assets/images/paperfaces-shinfu-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/laramulady-portrait/"><img src="/assets/images/paperfaces-laramulady-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/tipican-portrait/"><img src="/assets/images/paperfaces-tipican-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/sbrolins-portrait/"><img src="/assets/images/paperfaces-sbrolins-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/technacity-portrait/"><img src="/assets/images/paperfaces-technacity-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/dismanntled-portrait/"><img src="/assets/images/paperfaces-dismanntled-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/suhairykz-portrait/"><img src="/assets/images/paperfaces-suhairykz-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/nick-aylward-portrait/"><img src="/assets/images/paperfaces-nick-aylward-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/shinfu-portrait/"><img src="/assets/images/paperfaces-shinfu-twitter-150.jpg" alt="thumb" /></a></li>
 </ul>
 
 ---

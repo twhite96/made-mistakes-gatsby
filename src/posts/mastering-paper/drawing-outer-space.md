@@ -12,9 +12,9 @@ comments: true
 comments_locked: true
 ---
 
-Drawing the *night sky*, *stars*, *galaxies*, *planets*, and other *celestial bodies* is a ton of fun with Paper, the iPad app by FiftyThree. Much like [drawing blue skies and clouds]({% post_url /mastering-paper/2013-09-05-drawing-clouds %}), it is very hard to screw them up if you follow a few simple guidelines.
+Drawing the *night sky*, *stars*, *galaxies*, *planets*, and other *celestial bodies* is a ton of fun with Paper, the iPad app by FiftyThree. Much like [drawing blue skies and clouds](/mastering-paper/drawing-clouds/), it is very hard to screw them up if you follow a few simple guidelines.
 
-In this Paper by FiftyThree tutorial I'll start by walking you through my process of painting an outer space scene using only a finger. Then, I'll demonstrate how to paint another one using [FiftyThree's Pencil stylus]({% post_url /mastering-paper/2014-11-28-pencil-53-review %}) instead. Taking advantage of **Surface Pressure** and [**Blend**]({% post_url /mastering-paper/2013-11-20-pencil-first-look %}) I find the effects are easier and faster to pull off with Pencil.
+In this Paper by FiftyThree tutorial I'll start by walking you through my process of painting an outer space scene using only a finger. Then, I'll demonstrate how to paint another one using [FiftyThree's Pencil stylus](/mastering-paper/pencil-53-review/) instead. Taking advantage of **Surface Pressure** and [**Blend**](/mastering-paper/pencil-first-look/) I find the effects are easier and faster to pull off with Pencil.
 
 Oh and I'm trying something different with this guide. I've toyed around with short videos before, but this time I'm including two that can stand on their own as full blown tutorials. Editing together footage shown from two different angles, each video documents the entire drawing process from start to finish.
 
@@ -32,7 +32,7 @@ And with that let's get started.
 
 ### Cover the canvas
 
-Start by covering the canvas with a dark color. For this technique to work properly you need to draw it in manually. The page fill "shortcut" has some limitations with how colors are applied to it that won't give the effect we need. To learn more about why that is, be sure to check out my guide on [Paper's Color Picker]({% post_url /mastering-paper/2014-12-18-color-picker %}).
+Start by covering the canvas with a dark color. For this technique to work properly you need to draw it in manually. The page fill "shortcut" has some limitations with how colors are applied to it that won't give the effect we need. To learn more about why that is, be sure to check out my guide on [Paper's Color Picker](/mastering-paper/color-picker/).
 
 {% figure caption:"Stroke size increases with speed allowing you to fill in the background faster in you swipe fast." %}
 ![using your fingers to ink in the canvas with black](../../images/paper-53-space-canvas-fill.jpg)
@@ -65,7 +65,7 @@ Starting with a light blue color, apply a watercolor glaze to the left side of t
 
 ![screenshot of painting a blue glaze](../../images/paper-53-space-blue-glaze-1.jpg)
 
-When glazing with the blue color, the same technique used when painting with white should be observed. Keep your strokes controlled and smooth. Move your finger slowly across the screen making sure not to [lift it off the screen]({% post_url /mastering-paper/2014-09-16-watercolor-brush-update %}) for more than a second. Doing so will indicate to Paper that a new stroke was made and you will see a visible seam between the values.
+When glazing with the blue color, the same technique used when painting with white should be observed. Keep your strokes controlled and smooth. Move your finger slowly across the screen making sure not to [lift it off the screen](/mastering-paper/watercolor-brush-update/) for more than a second. Doing so will indicate to Paper that a new stroke was made and you will see a visible seam between the values.
 
 {% figure caption:"Building up the blues with many layers (or glazes) of watercolor." %}
 ![screenshot of darkening blue with layered watercolor strokes](../../images/paper-53-space-blue-glaze-2.jpg)
@@ -262,7 +262,7 @@ Because this planet is larger than the first set I painted, there's plenty of ro
 
 ![screenshot of planet details drawn with pencil](../../images/paper-53-space-2-planet-details.jpg)
 
-I didn't spend too much time detailing my planet, but that's not to say you shouldn't. Building off of the techniques used in my other guides, painting glazes on top of the [penciled textures]({% post_url /mastering-paper/2013-11-25-drawing-textures %}) will further enhance the realism.
+I didn't spend too much time detailing my planet, but that's not to say you shouldn't. Building off of the techniques used in my other guides, painting glazes on top of the [penciled textures](/mastering-paper/drawing-textures/) will further enhance the realism.
 
 ### Tapping stars with Pencil
 

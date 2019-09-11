@@ -12,7 +12,7 @@ comments: true
 comments_locked: true
 ---
 
-I hate cutting the grass because it's a chore, and chores suck. [Drawing a portrait every day]({% post_url /notes/2012-08-31-paperfaces-ipad-portrait-project %}) for the last 10 months could have turned into a royal chore, but I kept it fun by setting a few restraints. These restrictions had a big effect on my style and time investment. Not exactly the most busy dude in the world, but working full time, tinkering with side projects, finding time for [my wife](https://2littlerosebuds.com/ "2 Little Rosebuds"), and helping to raise my twin girls doesn't leave much open.
+I hate cutting the grass because it's a chore, and chores suck. [Drawing a portrait every day](/notes/paperfaces-ipad-portrait-project/) for the last 10 months could have turned into a royal chore, but I kept it fun by setting a few restraints. These restrictions had a big effect on my style and time investment. Not exactly the most busy dude in the world, but working full time, tinkering with side projects, finding time for [my wife](https://2littlerosebuds.com/ "2 Little Rosebuds"), and helping to raise my twin girls doesn't leave much open.
 
 [Download a Drawing PaperFaces Guide](../../images/paperfaces-portrait-cheatsheet.jpg){:.btn}
 
@@ -70,7 +70,7 @@ The trick here is to gradually apply smooth layers of a light color using the wa
 
 Same deal as the background, select the pencil tool and start refining edges that are deep in shadow (hair line, necks, clothing, etc). This will help tighten things up and fix the less than precise strokes of watercolor you laid down earlier. 
 
-Now is a great time to pencil in the hair, mustache, or beard whiskers using black as your base and a bright brown or yellow over the top. For a detailed Paper by 53 hair tutorial, [check this out]({% post_url /mastering-paper/2013-05-10-drawing-hair %}) one time.
+Now is a great time to pencil in the hair, mustache, or beard whiskers using black as your base and a bright brown or yellow over the top. For a detailed Paper by 53 hair tutorial, [check this out](/mastering-paper/drawing-hair/) one time.
 
 {% figure caption:"Use black and white pencils to shade and highlight." class:"gallery-2-col" %}
 [![Pencil details with Paper 53](../../images/paper-53-pencil-detail-face-1-400.jpg)](../../images/paper-53-pencil-detail-face-1-lg.jpg) [![Pencil details with Paper 53](../../images/paper-53-pencil-detail-face-2-400.jpg)](../../images/paper-53-pencil-detail-face-2-lg.jpg)

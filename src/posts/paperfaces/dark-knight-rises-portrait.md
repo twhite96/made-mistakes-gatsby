@@ -9,7 +9,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---
 
-PaperFaces portrait of the Dark Knight to go along with a drawing I did of the [Clown Prince]({% post_url /paperfaces/2014-12-04-killing-joke-portrait %}) a few weeks ago.
+PaperFaces portrait of the Dark Knight to go along with a drawing I did of the [Clown Prince](/paperfaces/killing-joke-portrait/) a few weeks ago.
 
 The original illustration is [available on Mix](https://mix.fiftythree.com/11098-Michael-Rose/1420093) in various stages of completion if you want to rework it or get a closer look.
 

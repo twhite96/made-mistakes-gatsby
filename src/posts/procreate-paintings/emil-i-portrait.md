@@ -11,7 +11,7 @@ tags: [Procreate, portrait, illustration, Sktchy, time lapse]
 
 Portrait of Emil I. inspired by a [photograph on Sktchy](https://sktchy.com/TXmmCc). Digitally painted with Procreate on an iPad Air 2.
 
-When Adobe and Adonit released the [Ink & Slide](https://www.amazon.com/Adobe-Creative-Connected-Precision-Stylus/dp/B00LNECVN6/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=mademist-20&linkId=643de6452764ad91cc2a8a8077f11204) stylus and ruler combo I was intrigued. There really weren't any well designed pressure sensitive styli out there with a fine tip. The high sticker price scared me away initially, after being burned by the [Pogo Connect]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) and its myriad of hardware issues --- so I decided to wait.
+When Adobe and Adonit released the [Ink & Slide](https://www.amazon.com/Adobe-Creative-Connected-Precision-Stylus/dp/B00LNECVN6/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=mademist-20&linkId=643de6452764ad91cc2a8a8077f11204) stylus and ruler combo I was intrigued. There really weren't any well designed pressure sensitive styli out there with a fine tip. The high sticker price scared me away initially, after being burned by the [Pogo Connect](/mastering-paper/pogo-connect-smart-pen/) and its myriad of hardware issues --- so I decided to wait.
 
 Fast forward to last week when bought an Adobe Ink that was on sale for 90% off. I could live with losing $20 if it turned out to be a dud...
 
@@ -23,7 +23,7 @@ There's some serious lag which I can give it a pass on since this thing came out
 
 On the positive side, the tip is made of a hard plastic. Unlike styli that have the fat rubber nibs --- it doesn't appear it will ever wear out. Plus it doesn't smear grease all over the screen which is a big win in my book.
 
-After getting a taste at what pressure sensitive drawing with Procreate could be like, I just want to own the real thing --- an [Apple Pencil and iPad Pro]({% post_url /articles/2015-09-25-ipad-pro %}) :smile:.
+After getting a taste at what pressure sensitive drawing with Procreate could be like, I just want to own the real thing --- an [Apple Pencil and iPad Pro](/articles/ipad-pro/) :smile:.
 
 {% figure caption:"Time lapse video recorded within Procreate." %}
 `youtube: https://www.youtube.com/watch?v=fFX1CUO472U`

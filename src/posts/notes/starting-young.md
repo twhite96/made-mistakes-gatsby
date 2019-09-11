@@ -33,7 +33,7 @@ I sat in front of them holding the iPad firmly, while giving each a try at finge
 [![Chloe's first Paper drawing](../../images/paper-53-chloe-draw-2-600.jpg)](../../images/paper-53-chloe-draw-2.jpg)
 {% endfigure %}
 
-Everly couldn't have been more different in her approach. Instead of swirling around the screen she banged on it with her hands, creating small lines and tick marks. If I can encourage her to ease up on hitting so hard we might have a future [stippling master]({% post_url /mastering-paper/2014-02-09-basics %}#stippling) on our hands.
+Everly couldn't have been more different in her approach. Instead of swirling around the screen she banged on it with her hands, creating small lines and tick marks. If I can encourage her to ease up on hitting so hard we might have a future [stippling master](/mastering-paper/basics/#stippling) on our hands.
 
 {% figure caption:"Everly's first Paper drawing (color selection by Dad)" %}
 [![Everly's first Paper drawing](../../images/paper-53-everly-draw-1-600.jpg)](../../images/paper-53-everly-draw-1.jpg)

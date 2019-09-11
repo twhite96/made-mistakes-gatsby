@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper for iOS]
 last_modified_at: 2017-01-17T14:00:31-05:00
 ---
 
-For a detailed breakdown of how I drew this portrait (and others), follow along with my [Mastering Paper tutorial]({% post_url /mastering-paper/2014-04-21-drawing-faces %}). Learn how I use Paper's watercolor brush and colored pencils to add depth and realism to a drawing.
+For a detailed breakdown of how I drew this portrait (and others), follow along with my [Mastering Paper tutorial](/mastering-paper/drawing-faces/). Learn how I use Paper's watercolor brush and colored pencils to add depth and realism to a drawing.
 
 {% include_cached boilerplate/paperfaces-4.md %}
 

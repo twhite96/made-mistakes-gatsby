@@ -12,7 +12,7 @@ comments: true
 comments_locked: true
 ---
 
-With *FiftyThree's Paper* hitting 2.0 and Apple's iOS 8 system update dropping recently we've seen some noticeable [improvements in the software]({% post_url /mastering-paper/2014-09-16-watercolor-brush-update %}) along with brand new features like [Mix]({% post_url /mastering-paper/2014-09-16-mix-with-me %}) and **Surface Pressure**.
+With **FiftyThree's Paper** hitting 2.0 and Apple's iOS 8 system update dropping recently we've seen some noticeable [improvements in the software](/mastering-paper/watercolor-brush-update/) along with brand new features like [Mix]({/mastering-paper/mix-with-me/) and **Surface Pressure**.
 
 With such a substantially upgrade to both Paper and iOS, a few bugs were bound to slip through. My goal with this post is to document these "bugs" and what conditions they occur under. If you've experienced any of these know that you're not alone and hopefully a fix or official workaround from FiftyThree is on the way.
 
@@ -61,7 +61,7 @@ It doesn't always draw and it doesn't happen with every stylus. Capacitive tip s
 
 I've been using my Pogo Connect less and less these days so this bug hasn't been that troubling for me. But for those of you who rely on it (especially pre-iPad air users), you may want to take extra care when using a Pogo Connect until this bug is fixed.
 
-This is a really weird one and I'm not entirely sure why it's happening, but it certainly feels like it has something to do with the [new watercolor brush behavior]({% post_url /mastering-paper/2014-09-16-watercolor-brush-update %}). Here's how to reproduce it:
+This is a really weird one and I'm not entirely sure why it's happening, but it certainly feels like it has something to do with the [new watercolor brush behavior](/mastering-paper/watercolor-brush-update/). Here's how to reproduce it:
 
 1. Draw something with one of the ink tools.
 2. Switch to the watercolor brush and paint.

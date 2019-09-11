@@ -38,7 +38,7 @@ All of the tools in Paper react to the speed at which you use them --- the erase
 
 ### How Surface Pressure affects erasing
 
-In [my review of Pencil]({% post_url /mastering-paper/2014-11-28-pencil-53-review %}#what-about-the-eraser) I dinged the dedicated eraser as a missed opportunity by not adding any new capabilities to the tool. Well when FiftyThree updated Paper to include the new **Surface Pressure**[^pencil-only] feature, Pencil's eraser got a serious upgrade.
+In [my review of Pencil](/mastering-paper/pencil-53-review/#what-about-the-eraser) I dinged the dedicated eraser as a missed opportunity by not adding any new capabilities to the tool. Well when FiftyThree updated Paper to include the new **Surface Pressure**[^pencil-only] feature, Pencil's eraser got a serious upgrade.
 
 {% figure caption:"Erasing with the corner versus the entire width of Pencil's eraser." class:"gallery-2-col" %}
 ![erasing with the corner](../../images/paper-53-erasing-corner.jpg)
@@ -55,7 +55,7 @@ A Surface Pressure enabled eraser can be made quite small, allowing you to sneak
 
 ### How pressure sensitivity affects erasing
 
-Currently the [Pogo Connect]({{ site.url}}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) is the only pressure sensitive stylus Paper supports. When paired to Paper you can vary the size of the eraser (and the other tools) by applying  pressure to the tip as you drag it across the screen.
+Currently the [Pogo Connect](/mastering-paper/pogo-connect-smart-pen/) is the only pressure sensitive stylus Paper supports. When paired to Paper you can vary the size of the eraser (and the other tools) by applying  pressure to the tip as you drag it across the screen.
 
 {% figure caption:"The harder you press the larger the eraser becomes." %}
 ![Pogo Connect erasing](../../images/paper-53-eraser-pogo-connect.jpg)

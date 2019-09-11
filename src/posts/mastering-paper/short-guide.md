@@ -23,8 +23,8 @@ How do you draw or sketch on an iPad with **Paper on iOS**? What iPad stylus is 
 - [Paper](http://www.fiftythree.com/paper/) for iOS is my sketching app of choice. It's a free download, but you'll want to buy the additional brushes, pens, and Color Mixer --- my favorites are the pencil and watercolor brush.
 - A stylus is optional, but highly recommended. I use [FiftyThree's Pencil][pencil-stylus] and in the past a [Pogo Connect Smart Pen][1], [LunaTik Alloy Touch Pen][2], and [Just Mobile's AluPen][3]. If you can't afford a decent stylus right now Amazon has [dirt cheap styli for a few dollars][4] that offer more precision than finger painting but not much else.
 
-[pencil-stylus]: {% post_url /mastering-paper/2014-11-28-pencil-53-review %}
-[1]: {% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}
+[pencil-stylus]: /mastering-paper/pencil-53-review/
+[1]: /mastering-paper/pogo-connect-smart-pen/
 [2]: http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00821TR7G
 [3]: http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0042U9AT6
 [4]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20
@@ -80,7 +80,7 @@ I saved the best for last. When I first started using Paper for iOS, I was enamo
 Need to lightly sketch out a face... pull out the pencil. Need to smoothen out some edges... pull out the pencil. Need to add shadows and highlights... pull out the pencil. It has so many uses, that by default I spend most of my time with it. My absolute favorite is to use a white on top of a black (or dark background) and sketch in highlights, especially in long hair. It's sick how easy achieving realistic looking hair is when using the pencil.
 
 [[notice | How to draw hair]]
-| Read in detail [how I draw hair]({% post_url /mastering-paper/2013-05-10-drawing-hair %}) as part of my Mastering Paper by FiftyThree series of tutorials.
+| Read in detail [how I draw hair](/mastering-paper/drawing-hair/) as part of my Mastering Paper by FiftyThree series of tutorials.
 
 {% figure caption:"Paper for iOS's pencil tool works wonders for rendering hair." %}
 ![Detail shot of hair drawn using Paper for iOS](../../images/madewithpaper-hair-detail.jpg)

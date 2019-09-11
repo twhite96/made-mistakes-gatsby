@@ -12,7 +12,7 @@ Last weekend Wendy and me took the girls to the Great Pumpkin Farm for the secon
 
 The first visit I took a bunch of photographs with my Canon EOS XTi camera but didn't feel like lugging it around this time. So using a few snaps from my iPhone 5S I combined my favorites into a new composition and drew it in [Paper for iPad](https://www.fiftythree.com/paper).
 
-I'm really enjoying [sharing my creations on Mix]({{ site.url}}{% post_url /mastering-paper/2014-09-16-mix-with-me %}) and have been trying to include them at [various stages of completeness](https://mix.fiftythree.com/11098-Michael-Rose/418184).
+I'm really enjoying [sharing my creations on Mix](/mastering-paper/mix-with-me/) and have been trying to include them at [various stages of completeness](https://mix.fiftythree.com/11098-Michael-Rose/418184).
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](../../images/paperfaces-rosebuds-pumpkins-process-1-600.jpg)](../../images/paperfaces-rosebuds-pumpkins-process-1-lg.jpg) [![Work in process screenshot](../../images/paperfaces-rosebuds-pumpkins-process-2-600.jpg)](../../images/paperfaces-rosebuds-pumpkins-process-2-lg.jpg)

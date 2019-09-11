@@ -101,17 +101,17 @@ My preferred method of getting rid of the lines is by dabbing the eraser over th
 [![erasing the grid](../../images/paper-53-grid-removing-lines-900.jpg)](../../images/paper-53-grid-removing-lines-lg.jpg)
 {% endfigure %}
 
-Depending on the complexity of your subject, using your finger to [Blend]({% post_url /mastering-paper/2013-11-20-pencil-first-look %}) away lines can produce nice results. It works best on lines that don't have a lot going on around them, just in case you smudge too much --- less you have to redraw later.
+Depending on the complexity of your subject, using your finger to [Blend](/mastering-paper/pencil-first-look/) away lines can produce nice results. It works best on lines that don't have a lot going on around them, just in case you smudge too much --- less you have to redraw later.
 
 ## Next steps
 
-You'll most likely have to redraw a few lines depending on where the grids fell. Just use a matching color and lightly pencil in any lines you partially erased. For those areas that have *ghost lines* you can cover-up or lighten them using [hatch strokes]({% post_url /mastering-paper/2014-02-09-basics %}#painting-with-pencil) and an appropriately colored pencil.
+You'll most likely have to redraw a few lines depending on where the grids fell. Just use a matching color and lightly pencil in any lines you partially erased. For those areas that have *ghost lines* you can cover-up or lighten them using [hatch strokes](/mastering-paper/basics/#painting-with-pencil) and an appropriately colored pencil.
 
 {% figure caption:"Completed line drawing with touch-ups and shading applied." %}
 ![finished line drawing](../../images/paper-53-grid-finished-line-drawing.jpg)
 {% endfigure %}
 
-Using this outline you can proceed to draw, ink, or paint on top of it. In my [Drawing Skin and Faces guide]({% post_url /mastering-paper/2014-04-21-drawing-faces %}) I cover all the ways I use pencil and watercolor to achieve realistic results. 
+Using this outline you can proceed to draw, ink, or paint on top of it. In my [Drawing Skin and Faces guide](/mastering-paper/drawing-faces/) I cover all the ways I use pencil and watercolor to achieve realistic results. 
 
 With practice you'll eventually find that you won't need the grid anymore and can rely on simple freehand sketches instead. Just take a look at my [PaperFaces drawings](/paperfaces/) from beginning to end if you want proof of what practice and determination can achieve.
 

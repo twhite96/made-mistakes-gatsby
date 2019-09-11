@@ -13,7 +13,7 @@ toc: true
 
 *Drawing a day* projects are a lot like resolutions made for the New Year. Often started with the best of intentions, but abandoned shortly after from lack of motivation.
 
-Two years ago I felt inspired to start the [**PaperFaces Project**]({% post_url /notes/2012-08-31-paperfaces-ipad-portrait-project %}) as a way to improve drawing skills that had laid dormant for a decade or so. With an iPad, a stylus, and the [Paper by FiftyThree app](https://fiftythree.com), I set out to draw as many portraits as possible before boring of the idea.
+Two years ago I felt inspired to start the [**PaperFaces Project**](/notes/paperfaces-ipad-portrait-project/) as a way to improve drawing skills that had laid dormant for a decade or so. With an iPad, a stylus, and the [Paper by FiftyThree app](https://fiftythree.com), I set out to draw as many portraits as possible before boring of the idea.
 
 {% figure caption:"What a difference two years made." class:"gallery-2-col" %}
 [![first PaperFaces portrait](../../images/paperfaces-veganwendy-twitter-600.jpg)](../../images/paperfaces-veganwendy-twitter.jpg)
@@ -43,7 +43,7 @@ Making my project and efforts public was another huge reason I kept at it for so
 
 ### Take a step back
 
-On their own these faceless drawings weren't all that interesting, but assembled together like **Voltron** in [Moleskine book]({% post_url /mastering-paper/2013-11-08-moleskine-book %}) and [gallery](/paperfaces/) forms they became *something stronger*. A quality that is easy to miss when you have your head down, focused only on the drawing at hand.
+On their own these faceless drawings weren't all that interesting, but assembled together like **Voltron** in [Moleskine book](/mastering-paper/moleskine-book/) and [gallery](/paperfaces/) forms they became *something stronger*. A quality that is easy to miss when you have your head down, focused only on the drawing at hand.
 
 {% figure caption:"Having my work printed helped give it substance instead of just being 1's and 0's I carried around on a tablet." %}
 [![Photograph of a PaperFaces drawing](../../images/paper-53-book-wendy.jpg)](../../images/paper-53-book-wendy-lg.jpg)
@@ -61,8 +61,8 @@ The last thing anyone wants to do is make more work for themselves. To avoid tur
 
 Easy and simple can turn boring in a hurry. The challenge of capturing portraits with Paper is was what originally attracted me to the app. When I first started there were only a handful of colors to choose from and no [zoom][loupe-tutorial] or [Blend][blend-first-look] features. It was during this time that I grew the most as a creator, learning how to push the tools through experimentation and practice.
 
-[loupe-tutorial]: {% post_url /mastering-paper/2014-07-03-moving-the-loupe %}
-[blend-first-look]: {% post_url /mastering-paper/2013-11-20-pencil-first-look %}
+[loupe-tutorial]: /mastering-paper/moving-the-loupe/
+[blend-first-look]: /mastering-paper/pencil-first-look/
 
 {% figure caption:"With enough practice I was able to evolve as a creator and produce sketches with greater detail." %}
 ![PaperFaces evolution](../../images/paper-53-face-evolution.jpg)
@@ -103,8 +103,8 @@ And for the curious here's the various styli I've used over the two years and so
 
 [alupen-stylus]: http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0042U9AT6&linkCode=as2&tag=mademist-20&linkId=RWJ5A43BF46FLB36
 [lunatik-stylus]: http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00821TR7G
-[pogo-stylus]: {{ site.url}}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}
-[pencil-stylus]: {% post_url /mastering-paper/2014-11-28-pencil-53-review %}
+[pogo-stylus]: /mastering-paper/pogo-connect-smart-pen/
+[pencil-stylus]: /mastering-paper/pencil-53-review/
 [zen-stylus]: https://www.kickstarter.com/projects/zenwriting/zen-next-generation-of-modern-writing-instrument
 [cheap-stylus]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20
 
@@ -113,16 +113,16 @@ And for the curious here's the various styli I've used over the two years and so
 When my project was picked up by a few high profile designers and developers it spread pretty far through those circles. Drawing as  many bearded dudes in flannel shirts as I have, any time something different came up I was thrilled. Here's a small sampling of my favorites from the last two years:
 
 <ul class="gallery-thumbnails">
-  <li><a href="{% post_url /paperfaces/2012-09-20-mike-ftw-portrait %}"><img src="/assets/images/paperfaces-mike-ftw-twitter-150.jpg" alt=""></a></li>
-  <li><a href="{% post_url /paperfaces/2012-11-05-andrew-shaw23-portrait %}"><img src="/assets/images/paperfaces-andrew-shaw23-twitter-150.jpg" alt=""></a></li>
-  <li><a href="{% post_url /paperfaces/2012-12-13-f5point6-portrait %}"><img src="/assets/images/paperfaces-f5point6-twitter-150.jpg" alt=""></a></li>
-  <li><a href="{% post_url /paperfaces/2013-06-17-studioprisoner-portrait %}"><img src="/assets/images/paperfaces-studioprisoner-twitter-150.jpg" alt=""></a></li>
-  <li><a href="{% post_url /paperfaces/2013-09-27-pappyshannon-portrait %}"><img src="/assets/images/paperfaces-pappyshannon-twitter-150.jpg" alt=""></a></li>
-  <li><a href="{% post_url /paperfaces/2014-01-20-thenimesh-portrait %}"><img src="/assets/images/paperfaces-thenimesh-twitter-150.jpg" alt=""></a></li>
-  <li><a href="{% post_url /paperfaces/2014-02-17-matt-s-portrait %}"><img src="/assets/images/paperfaces-matt-s-150.jpg" alt=""></a></li>
-  <li><a href="{% post_url /paperfaces/2014-05-23-barelolk-portrait %}"><img src="/assets/images/paperfaces-barelolk-twitter-150.jpg" alt=""></a></li>
-  <li><a href="{% post_url /paperfaces/2014-07-10-vlad-s-portrait %}"><img src="/assets/images/paperfaces-vlad-s-150.jpg" alt=""></a></li>
-  <li><a href="{% post_url /paperfaces/2014-03-26-marie-a-portrait %}"><img src="/assets/images/paperfaces-marie-a-150.jpg" alt=""></a></li>
+  <li><a href="/paperfaces/mike-ftw-portrait/"><img src="/assets/images/paperfaces-mike-ftw-twitter-150.jpg" alt=""></a></li>
+  <li><a href="/paperfaces/andrew-shaw23-portrait/"><img src="/assets/images/paperfaces-andrew-shaw23-twitter-150.jpg" alt=""></a></li>
+  <li><a href="/paperfaces/f5point6-portrait/"><img src="/assets/images/paperfaces-f5point6-twitter-150.jpg" alt=""></a></li>
+  <li><a href="/paperfaces/studioprisoner-portrait/"><img src="/assets/images/paperfaces-studioprisoner-twitter-150.jpg" alt=""></a></li>
+  <li><a href="/paperfaces/pappyshannon-portrait/"><img src="/assets/images/paperfaces-pappyshannon-twitter-150.jpg" alt=""></a></li>
+  <li><a href="/paperfaces/thenimesh-portrait/"><img src="/assets/images/paperfaces-thenimesh-twitter-150.jpg" alt=""></a></li>
+  <li><a href="/paperfaces/matt-s-portrait/"><img src="/assets/images/paperfaces-matt-s-150.jpg" alt=""></a></li>
+  <li><a href="/paperfaces/barelolk-portrait/"><img src="/assets/images/paperfaces-barelolk-twitter-150.jpg" alt=""></a></li>
+  <li><a href="/paperfaces/vlad-s-portrait/"><img src="/assets/images/paperfaces-vlad-s-150.jpg" alt=""></a></li>
+  <li><a href="/paperfaces/marie-a-portrait/"><img src="/assets/images/paperfaces-marie-a-150.jpg" alt=""></a></li>
 </ul>
 
 ## What's next

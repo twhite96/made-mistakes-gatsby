@@ -33,7 +33,7 @@ It vaguely has something to do with that whole happy accident thing, where a mis
 
 In May of 2004 I purchased mademistakes.com, and threw up a Macromedia Flash splash screen (hey remember those?) while I worked on building out my portfolio. For the next couple of years I would experiment with various content management systems ([Movable Type](http://www.movabletype.org/) → [Textpattern](http://textpattern.com/) → [Wordpress](http://wordpress.org/) → [Indexhibit](http://www.indexhibit.org/)), developing minimalistic themes and learning what I could about HTML, CSS, JavaScript, PHP, and MySQL databases.
 
-I've since decided to abandon using a CMS in favor of black magick and [Jekyll](http://jekyllrb.com/) to [generate flat files]({% post_url /articles/2012-03-19-going-static %}) for improved performance and security. Building layouts, stylesheets, feeds, and assets from scratch was challenging at first, but the knowledge gained made it all worth it.
+I've since decided to abandon using a CMS in favor of black magick and [Jekyll](http://jekyllrb.com/) to [generate flat files](/articles/going-static/) for improved performance and security. Building layouts, stylesheets, feeds, and assets from scratch was challenging at first, but the knowledge gained made it all worth it.
 
 ## How to support Made Mistakes
 

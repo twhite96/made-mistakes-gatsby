@@ -14,7 +14,7 @@ comments_locked: true
 
 Portraiture is at the heart of what I use Paper by FiftyThree to create with. After drawing over 700 faces some might think it would be easy for me to share my process and techniques --- they would be wrong. After struggling writing this guide for the last month, I think I finally shaped it in a way that makes sense.
 
-Like the other parts of my [Mastering Paper for iOS Guide](/mastering-paper/), this one will explain my techniques and how I use them. My drawing style has evolved from the abstract to the more realistic since starting the [PaperFaces]({% post_url /notes/2012-08-31-paperfaces-ipad-portrait-project %}) portrait project almost 2 years ago. It only seems fitting to organize the guide in a way that mimics this same evolution.
+Like the other parts of my [Mastering Paper for iOS Guide](/mastering-paper/), this one will explain my techniques and how I use them. My drawing style has evolved from the abstract to the more realistic since starting the [PaperFaces](/notes/paperfaces-ipad-portrait-project/) portrait project almost 2 years ago. It only seems fitting to organize the guide in a way that mimics this same evolution.
 
 [![PaperFaces evolution](../../images/paper-53-face-evolution.jpg)](../../images/paper-53-face-evolution-lg.jpg)
 
@@ -55,7 +55,7 @@ Paper by 53 currently doesn't have a way of exporting or sharing color palettes.
 
 ## Choosing colors
 
-In my previous guide I went over a few [color theory basics]({% post_url /mastering-paper/2014-02-09-basics %}#color-theory-basics) that can help guide you to make more informed color selections. Building on top of those guidelines here are a few more that are specific to painting portraits.
+In my previous guide I went over a few [color theory basics](/mastering-paper/basics/#color-theory-basics) that can help guide you to make more informed color selections. Building on top of those guidelines here are a few more that are specific to painting portraits.
 
 When I'm having trouble getting a mix just right I focus more on whether it is warm or cool and adjust accordingly. With regards to the face, you can roughly divide it into three sections. Lighting has an important role in this and variations will occur, but for the most part you can divide a face with fair complexion like so.
 
@@ -106,10 +106,10 @@ Speed is the single most important variable for creating smooth tones or glazes.
 [[notice | ProTip: smoothening out splotches of color]]
 | To even out stubborn light spots, keep rubbing until they turn dark. You can't overwork an area as long as don't lift to make another stroke.
 
-New to Paper or drawing in general? Make your life easier and work large, filling up the entire page. The smaller the composition the harder all this becomes since the brush has a fixed size. Well that's [not completely true]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}), but for those of you who don't use Bluetooth stylus like FiftyThree's Pencil or a Pogo Connect --- it is.
+New to Paper or drawing in general? Make your life easier and work large, filling up the entire page. The smaller the composition the harder all this becomes since the brush has a fixed size. Well that's [not completely true](/mastering-paper/pogo-connect-smart-pen/), but for those of you who don't use Bluetooth stylus like FiftyThree's Pencil or a Pogo Connect --- it is.
 
 [[notice | Update: Paper 2.0]]
-| Painting with the watercolor brush has been greatly improved in the new version of Paper by FiftyThree. [Learn all about the new brush tool]({% post_url /mastering-paper/2014-09-16-watercolor-brush-update %}) in my post that includes videos of it in action.
+| Painting with the watercolor brush has been greatly improved in the new version of Paper by FiftyThree. [Learn all about the new brush tool](/mastering-paper/watercolor-brush-update/) in my post that includes videos of it in action.
 
 ### Whites to erase
 
@@ -121,7 +121,7 @@ To paint in this style, start by lightly sketching out the figure to act as your
 [![outline sketch of a face](../../images/paper-53-faceless-sketch.jpg)](../../images/paper-53-faceless-sketch-lg.jpg)
 {% endfigure %}
 
-With your background dropped in, select the pencil tool, a light color, and sketch out the general outline of the figure. Drawing [sensitive lines]({% post_url /mastering-paper/2014-01-13-contour-drawing %}) will convey more meaning in your drawing and guide how you paint. For example, I place heavier lines in my sketches to show shadows or areas I will want to darken with watercolor later.
+With your background dropped in, select the pencil tool, a light color, and sketch out the general outline of the figure. Drawing [sensitive lines](/mastering-paper/contour-drawing/) will convey more meaning in your drawing and guide how you paint. For example, I place heavier lines in my sketches to show shadows or areas I will want to darken with watercolor later.
 
 [[notice | ProTip: skin color selection]]
 | When choosing a pencil color pick a flesh tone that is predominant in the face. This will make it easier to hide the lines later when you paint with white.
@@ -147,7 +147,7 @@ With the face's shape *pulled out from the background*, we can start the process
 
 If you decide to use your own color mix I suggest one that is light --- the less intense the color the better. Take your time to carefully observe the shapes you are painting. Drawing is as much of seeing as it is putting a mark on the canvas.
 
-Don't be afraid to [Rewind]({% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#rewind) a stroke and redo it. I've been known to repeat this action over 20 times until I feel a stroke captures the form's essence. Be deliberate with your brush movements and try to convey more with less (if that makes any sort of sense).
+Don't be afraid to [Rewind](/mastering-paper/introduction-tool-guide/#rewind) a stroke and redo it. I've been known to repeat this action over 20 times until I feel a stroke captures the form's essence. Be deliberate with your brush movements and try to convey more with less (if that makes any sort of sense).
 
 With practice you'll become more confident in the shapes you are painting. I would urge you to avoid brushing with small choppy strokes to keep the skin smooth --- unless you intend for it to look textured.
 
@@ -228,7 +228,7 @@ The basic idea here is to sketch in all the dark spots around the eyes, nose, an
 
 ### Shaping skin with hatching
 
-Once you've finished darkening and refining contour lines you'll want to begin shaping the skin. The primary way to do this is with [hatching techniques]({% post_url /mastering-paper/2014-02-09-basics %}/#parallel-hatching) and dry mixing colored pencils on the canvas.
+Once you've finished darkening and refining contour lines you'll want to begin shaping the skin. The primary way to do this is with [hatching techniques](/mastering-paper/basics/#parallel-hatching) and dry mixing colored pencils on the canvas.
 
 {% figure caption:"Starting with the eyes again, apply subtle shadows around them using the pencil tool. I use a Pogo Connect stylus to make even lighter strokes, but it can be pulled off without one." %}
 [![hatching lightly around the eyes](../../images/paper-53-face-hatching.jpg)](../../images/paper-53-face-hatching-lg.jpg)
@@ -240,7 +240,7 @@ The idea is to build up tones from light to dark by overlapping pencil strokes a
 [![pencil stroke direction](../../images/paper-53-face-contour-hatching-direction.jpg)](../../images/paper-53-face-contour-hatching-direction-lg.jpg)
 {% endfigure %}
 
-I've said this before in my [Back to Basics guide]({% post_url /mastering-paper/2014-02-09-basics %}), but it's worth repeating. Be mindful of the direction of the strokes you are making when hatching to enhance the form. Observe how the skin bends and curves, and make pencil strokes that follow those same paths.
+I've said this before in my [Back to Basics guide](/mastering-paper/basics/), but it's worth repeating. Be mindful of the direction of the strokes you are making when hatching to enhance the form. Observe how the skin bends and curves, and make pencil strokes that follow those same paths.
 
 Don't feel the need to *shade* all surfaces! Focus your attention on the darkest values and build up those gradations first. Keep in mind that we will be covering these pencil strokes with watercolor so don't go too dark. I suggest making your tones about 50% lighter than how they appear --- you can always darken things up later.
 
@@ -297,7 +297,7 @@ Depending on the subject I'll often apply a layer of contour hatching on top of 
 
 ---
 
-My plan for the next guide was to [reboot a hair tutorial]({% post_url /mastering-paper/2013-05-10-drawing-hair %}) I wrote a year ago, expanding on it to show more hair styles and facial hair techniques. But after finishing this lengthly tutorial it became clear to me there is still a lot I have to say with regards to #MadeWithPaper portrait techniques.
+My plan for the next guide was to [reboot a hair tutorial](/mastering-paper/drawing-hair/) I wrote a year ago, expanding on it to show more hair styles and facial hair techniques. But after finishing this lengthly tutorial it became clear to me there is still a lot I have to say with regards to #MadeWithPaper portrait techniques.
 
 So how about this? Let me know in the comments below what you want to see next: **hair tutorials** or more portrait goodness like **how to draw realistic eyes, mouths, and more**.
 

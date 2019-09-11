@@ -23,11 +23,11 @@ They may be subtle, but the white dots beneath the row of tools are a big clue t
 
 Simply swipe across the row of **Think Kit** tools to reveal another set of five ([Fountain Pen][fountain-pen], [Pencil][pencil], [Marker][marker], [Fine Tip Ink Pen][ink-pen], and [Watercolor Brush][watercolor-brush]) to the right.
 
-[fountain-pen]: {% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#fountain-pen
-[pencil]: {% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#pencil
-[marker]: {% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#marker
-[ink-pen]: {% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#ink-pen
-[watercolor-brush]: {% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#watercolor-brush
+[fountain-pen]: /mastering-paper/introduction-tool-guide/#fountain-pen
+[pencil]: /mastering-paper/introduction-tool-guide/#pencil
+[marker]: /mastering-paper/introduction-tool-guide/#marker
+[ink-pen]: /mastering-paper/introduction-tool-guide/#ink-pen
+[watercolor-brush]: /mastering-paper/introduction-tool-guide/#watercolor-brush
 
 {% figure caption:"Video showing how to switch between the diagramming and drawing tools on iPad." %}
 `youtube: https://www.youtube.com/watch?v=KXqj04MfDLk`

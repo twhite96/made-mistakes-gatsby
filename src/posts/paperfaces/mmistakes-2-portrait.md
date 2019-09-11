@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper for iOS, black and white, self portrait]
 last_modified_at: 2017-01-17T12:52:20-05:00
 ---
 
-The last time I drew a [self portrait]({% post_url /paperfaces/2013-05-29-michael-rose-beard-portrait %}) I didn't have a face.
+The last time I drew a [self portrait](/paperfaces/michael-rose-beard-portrait/) I didn't have a face.
 
 I thought it would be fun to take a minute from drawing strangers and work on something more familiar. Especially since the beard is no more and my [about page](/about/) could use a refresh.
 

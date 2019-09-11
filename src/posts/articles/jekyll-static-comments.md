@@ -20,7 +20,7 @@ Convenient to embed a small bit of `<script>` voodoo into your pages, sure. But 
 
 ## Self hosted comment systems
 
-[**Isso**](https://posativ.org/isso/)[^self-hosted-commenting] describes itself as "commenting software similar to Disqus." You host a SQLite database and embed some JavaScript on your pages (just like Disqus and friends) and you're ready to roll. After freeing my content from Wordpress and "[going static]({% post_url /articles/2012-03-19-going-static %})" I really didn't want to manage a database again just to have comments on my site. So these solutions were out.
+[**Isso**](https://posativ.org/isso/)[^self-hosted-commenting] describes itself as "commenting software similar to Disqus." You host a SQLite database and embed some JavaScript on your pages (just like Disqus and friends) and you're ready to roll. After freeing my content from Wordpress and "[going static](/articles/going-static/)" I really didn't want to manage a database again just to have comments on my site. So these solutions were out.
 
 [^self-hosted-commenting]: Other self-hosted commenting systems include: [**Discourse**](http://www.discourse.org/), [**talkatv**](https://github.com/talkatv/talkatv), [**Juvia**](https://github.com/phusion/juvia), [**HashOver**](https://github.com/jacobwb/hashover), and [**Savas**](https://github.com/savaslabs/squabble).
 
@@ -58,7 +58,7 @@ Thankfully I didn't have to start from scratch as I was able to draw inspiration
 
 ### Building the form
 
-I set my gaze on squaring away the "Leave a comment" submission form first. Seemed like an easy target as the styling of various [form elements](/style-guide/#guide-forms) like `<input>`, `<label>`, `<textarea>` and [buttons](/style-guide/#guide-buttons) were already done as part of my [living style guide]({% post_url /articles/2015-02-10-jekyll-style-guide %}). 
+I set my gaze on squaring away the "Leave a comment" submission form first. Seemed like an easy target as the styling of various [form elements](/style-guide/#guide-forms) like `<input>`, `<label>`, `<textarea>` and [buttons](/style-guide/#guide-buttons) were already done as part of my [living style guide](/articles/jekyll-style-guide/). 
 
 All it really needed for completion was a decision on what fields I wanted to capture, and a little bit of JavaScript for events handling and submission. Arriving at this for my [`post__comments.html`](https://github.com/mmistakes/made-mistakes-jekyll/blob/10.2.0/_includes/post__comments.html) include (`class` names and Liquid removed for brevity).
 
@@ -264,7 +264,7 @@ staticman:
 
 In case spam makes it through, I'd like another layer of "protection" to block it. Setting `moderation: true` will make Staticman send a pull request whenever a new comment entry is submitted. At this point you can examine the content inside of the PR and decide if you want to **merge** or **close** it.
 
-When hosting with GitHub Pages, a merge will instantly force Jekyll to rebuild the site --- publishing the comment. Since I self host I have the extra step of pulling from `remote`, before building locally and [deploying via rsync]({% post_url /articles/2016-02-17-using-jekyll-2016 %}#deployment).
+When hosting with GitHub Pages, a merge will instantly force Jekyll to rebuild the site --- publishing the comment. Since I self host I have the extra step of pulling from `remote`, before building locally and [deploying via rsync](/articles/using-jekyll-2016/#deployment).
 
 [[notice | ProTip: webhooks for branch auto deletion]]
 | Avoid manually cleaning up Staticman generated branches. Create a GitHub webhook instead that sends a POST request to the following payload URL `https://api.staticman.net/v1/webhook` and triggers a **`pull_request`** event automatically to delete Staticman branches on merge or close.
@@ -449,4 +449,4 @@ One thing I miss since leaving Disqus, are comment notifications. Sure you can s
 Less likely a commenter will return to the page to see if a reply was made without the nudge of a notification. Wordpress and friends has the whole "**subscribe to comments**" feature which could apply here I suppose.
 
 [[notice | Update: replies, notifications, and more]]
-| Staticman has been updated to support replies, email notifications, and [reCAPTCHA](https://www.google.com/recaptcha/intro/) (helps reduce spam comments). To learn more about how I added each of these to this site, read my post [Improving Static Comments with Jekyll & Staticman]({% post_url /articles/2016-12-08-improving-jekyll-static-comments %}).
+| Staticman has been updated to support replies, email notifications, and [reCAPTCHA](https://www.google.com/recaptcha/intro/) (helps reduce spam comments). To learn more about how I added each of these to this site, read my post [Improving Static Comments with Jekyll & Staticman](/articles/improving-jekyll-static-comments/).

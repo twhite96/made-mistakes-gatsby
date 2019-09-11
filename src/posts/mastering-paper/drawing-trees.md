@@ -40,7 +40,7 @@ Here are some of my favorite colors to get you started painting leaves:
 
 Once you're happy with the general shape of the tree, it's time to add some shadows. You can continue to use the same base color from before or darken it up depending on how much shadow you have to color. What I like to do is make short strokes to create a blotchy texture. For you traditional painters out there, it's kind of like scumbling, only we're not scraping paint around with a dry brush.
 
-The primary goal here is to give the illusion of leaf clusters and indicate where the branches and trunk flow. [FiftyThree's Pencil]({% post_url /mastering-paper/2014-11-28-pencil-53-review %}) or a [Pogo Connect Smart Pen]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) can help immensely to paint branches of varying widths --- an ability no other styli support when used with Paper by 53.
+The primary goal here is to give the illusion of leaf clusters and indicate where the branches and trunk flow. [FiftyThree's Pencil](/mastering-paper/pencil-53-review/) or a [Pogo Connect Smart Pen](/mastering-paper/pogo-connect-smart-pen/) can help immensely to paint branches of varying widths --- an ability no other styli support when used with Paper by 53.
 
 {% figure caption:"A fast way to create leaves is to make short quick strokes with the watercolor brush." %}
 ![screenshot of leaf texture strokes](../../images/paper-53-tree-texture-strokes.jpg)
@@ -128,14 +128,14 @@ One final tip for creating depth is to paint over everything with light gray or 
 Using all of these techniques on their own or in concert, I was able to create lush backgrounds for many of the portraits in my [PaperFaces Project](/paperfaces/). Below are a few tree and grass examples to show what is possible just by varying the color and composition.
 
 <ul class="gallery-thumbnails">
-  <li><a href="{% post_url /paperfaces/2013-08-19-isellsoap-portrait %}"><img src="/assets/images/paperfaces-isellsoap-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2013-08-02-thatmiddleway-portrait %}"><img src="/assets/images/paperfaces-thatmiddleway-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2013-07-11-lmichelleinc-portrait %}"><img src="/assets/images/paperfaces-lmichelleinc-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2013-04-26-elektrojunge-portrait %}"><img src="/assets/images/paperfaces-elektrojunge-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2013-02-12-jupiter909-portrait %}"><img src="/assets/images/paperfaces-jupiter909-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2013-01-25-ryandawidjan-portrait %}"><img src="/assets/images/paperfaces-ryandawidjan-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2012-12-31-quimeraimantada-portrait %}"><img src="/assets/images/paperfaces-quimeraimantada-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2013-01-01-michael-rose-portrait %}"><img src="/assets/images/paperfaces-michael-rose-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/isellsoap-portrait/"><img src="/assets/images/paperfaces-isellsoap-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/thatmiddleway-portrait/"><img src="/assets/images/paperfaces-thatmiddleway-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/lmichelleinc-portrait/"><img src="/assets/images/paperfaces-lmichelleinc-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/elektrojunge-portrait/"><img src="/assets/images/paperfaces-elektrojunge-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/jupiter909-portrait/"><img src="/assets/images/paperfaces-jupiter909-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/ryandawidjan-portrait/"><img src="/assets/images/paperfaces-ryandawidjan-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/quimeraimantada-portrait/"><img src="/assets/images/paperfaces-quimeraimantada-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/michael-rose-portrait/"><img src="/assets/images/paperfaces-michael-rose-150.jpg" alt="thumb" /></a></li>
 </ul>
 
 ---

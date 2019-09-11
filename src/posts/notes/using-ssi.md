@@ -12,7 +12,7 @@ last_modified_at: 2016-10-24T10:29:13-04:00
 
 In my never ending quest to micro-optimize the hell out of my site, I ran into a snag when trying to use SSI directives.
 
-[Version 10.2](https://github.com/mmistakes/made-mistakes-jekyll/tree/10.3.0) of this site was my half-baked attempt at [eliminating render-blocking CSS]({% post_url /articles/2016-02-17-using-jekyll-2016 %}#critical-path-css) to speed up page loads. By manually inlining critical CSS via a [Jekyll include](http://jekyllrb.com/docs/templates/#includes) and using [**loadCSS**](https://github.com/filamentgroup/loadCSS) to asynchronously load the rest --- I did pretty good.
+[Version 10.2](https://github.com/mmistakes/made-mistakes-jekyll/tree/10.3.0) of this site was my half-baked attempt at [eliminating render-blocking CSS](/articles/using-jekyll-2016/#critical-path-css) to speed up page loads. By manually inlining critical CSS via a [Jekyll include](http://jekyllrb.com/docs/templates/#includes) and using [**loadCSS**](https://github.com/filamentgroup/loadCSS) to asynchronously load the rest --- I did pretty good.
 
 {% figure caption:"Analyzed with [Google's PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) tool." %}
 ![Made Mistakes version 10 analyzed with PageSpeed Insights](../../images/mm-home-pagespeed-021116.jpg)

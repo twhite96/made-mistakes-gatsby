@@ -16,7 +16,7 @@ Reading through my earlier guides I came to the realization that I glossed over 
 
 ## Pencil techniques
 
-I once described Paper's pencil tool as *versatile and perfect in almost any situation*. When used in conjunction with a [Pogo Connect]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) or [FiftyThree's Pencil stylus]({% post_url /mastering-paper/2014-11-28-pencil-53-review %}), those sentiments ring even truer. So what exactly can you do with the tool?
+I once described Paper's pencil tool as *versatile and perfect in almost any situation*. When used in conjunction with a [Pogo Connect](/mastering-paper/pogo-connect-smart-pen/) or [FiftyThree's Pencil stylus](/mastering-paper/pencil-53-review), those sentiments ring even truer. So what exactly can you do with the tool?
 
 ### Painting with Pencil
 
@@ -43,7 +43,7 @@ Once you've gotten the hang of producing a range of smooth values, it can be fun
 
 ## Ink techniques
 
-Out of the two ink tools that Paper comes with, the [pen]({% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#ink-pen) (or *Write* as FiftyThree calls it) is much easier to produce consistent results with. Stroke speed and pressure do little to modify the line quality which allows you to focus more on accuracy and placement. The [fountain pen]({% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#fountain-pen) on the other hand can make drawing a line without weight fluctuations incredibly challenging --- as shown below.
+Out of the two ink tools that Paper comes with, the [pen](/mastering-paper/2013-07-31-introduction-tool-guide %}#ink-pen) (or *Write* as FiftyThree calls it) is much easier to produce consistent results with. Stroke speed and pressure do little to modify the line quality which allows you to focus more on accuracy and placement. The [fountain pen]({% post_url /mastering-paper/introduction-tool-guide/#fountain-pen) on the other hand can make drawing a line without weight fluctuations incredibly challenging --- as shown below.
 
 {% figure caption:"Comparing ink tools and the lines they make" %}
 ![Comparing straight lines made with the ink tools](../../images/paper-53-ink-tools-comparison.jpg)
@@ -69,7 +69,7 @@ Another way to modify the overall tone created by these lines is to vary their t
 
 ### Contour hatching
 
-If you're feeling confident and have honed your powers of observation by drawing [blind contours]({% post_url /mastering-paper/2014-01-13-contour-drawing %}), you should be all set for contour hatching. Instead of making straight marks like we did with parallel hatching, you will draw lines that follow the curved contours of your subject.
+If you're feeling confident and have honed your powers of observation by drawing [blind contours](/mastering-paper/contour-drawing/), you should be all set for contour hatching. Instead of making straight marks like we did with parallel hatching, you will draw lines that follow the curved contours of your subject.
 
 {% figure caption:"Examples of contour hatching" %}
 ![Contour hatching examples](../../images/paper-53-ink-contour-hatching.jpg)
@@ -121,7 +121,7 @@ Applying a few shadows and highlights with the pencil tool can make these shapes
 
 ## Watercolor brush techniques
 
-I'm going to go ahead and assume you've already read my [Paper by 53 Introduction and Tool Guide]({% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#watercolor-brush), where I explain how the brush works and some of its nuances. With this understanding the following four techniques should make more sense. 
+I'm going to go ahead and assume you've already read my [Paper by 53 Introduction and Tool Guide](/mastering-paper/introduction-tool-guide/#watercolor-brush), where I explain how the brush works and some of its nuances. With this understanding the following four techniques should make more sense. 
 
 ### Painting smooth
 
@@ -253,7 +253,7 @@ Mixing complements also helps to unify your composition's palette. Using these "
 
 Atmospheric perspective is the phenomenon where intense foreground colors gradually change until they match the sky. As you travel back objects generally lose saturation in color, becoming grayer. For example warm colors like red and orange will dull and cool off.
 
-The amount of contrast in the subject also changes. The illuminated and shadowed sides of an object lower in contrast and flatten as you move further into the background. These objects also begin to loss clarity and will blur and become fuzzy --- a perfect subject for the [Blend tool]({% post_url /mastering-paper/2013-11-20-pencil-first-look %}).
+The amount of contrast in the subject also changes. The illuminated and shadowed sides of an object lower in contrast and flatten as you move further into the background. These objects also begin to loss clarity and will blur and become fuzzy --- a perfect subject for the [Blend tool](/mastering-paper/pencil-first-look/).
 
 {% figure caption:"An example of atmospheric perspective in this mountain background" %}
 ![Atmospheric perspective example](../../images/paper-53-atmospheric-perspective.jpg)

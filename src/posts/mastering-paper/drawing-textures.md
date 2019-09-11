@@ -28,7 +28,7 @@ I'm not going to try and explain perspective or how to set a vanishing point bec
 
 ### Sketching guidelines
 
-The color of pencil doesn't really matter, just make it something light (a gray perhaps). A [Pogo Connect]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) stylus comes in handy allowing you can to produce lighter lines by gently applying pressure as you draw.
+The color of pencil doesn't really matter, just make it something light (a gray perhaps). A [Pogo Connect](/mastering-paper/pogo-connect-smart-pen/) stylus comes in handy allowing you can to produce lighter lines by gently applying pressure as you draw.
 
 [[notice | ProTip: drawing straight lines]]
 | An iPad smart cover, piece of cardboard, or a book placed on the screen can all be used to help draw straight lines if you don't have a ruler nearby.
@@ -41,7 +41,7 @@ With a few guidelines placed, use the color mixer to create a base for the brick
 
 ### Laying bricks with watercolor
 
-When blocking out bricks, I prefer using the watercolor brush versus the marker. Simply put, it leaves you with a jagged edge that's closer to real life. Painting small bricks is next to impossible if you don't use a styli like [FiftyThree's Pencil]({% post_url /mastering-paper/2014-11-28-pencil-53-review %}) or a Pogo Connect Smart Pen. Without one of them you're limited to one brush size --- which is quite wide for this sort of detail work.
+When blocking out bricks, I prefer using the watercolor brush versus the marker. Simply put, it leaves you with a jagged edge that's closer to real life. Painting small bricks is next to impossible if you don't use a styli like [FiftyThree's Pencil](/mastering-paper/pencil-53-review/) or a Pogo Connect Smart Pen. Without one of them you're limited to one brush size --- which is quite wide for this sort of detail work.
 
 {% figure caption:"Marker bricks vs. watercolor bricks" %}
 ![Screenshot comparing bricks](../../images/paper-53-bricks-comparison.jpg)
@@ -209,21 +209,21 @@ Depending on the color of this *harmonizing layer*, the highlights and shadows f
 
 ## Variations on a theme
 
-Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project]({% post_url /notes/2012-08-31-paperfaces-ipad-portrait-project %}). Below are a few finished pieces to show what is possible just by varying the color and composition.
+Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project](/notes/paperfaces-ipad-portrait-project/). Below are a few finished pieces to show what is possible just by varying the color and composition.
 
 <ul class="gallery-thumbnails">
-  <li><a href="{% post_url /paperfaces/2013-10-16-rob-jayne-portrait %}"><img src="/assets/images/paperfaces-rob-jayne-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2013-02-06-padulantonio-portrait %}"><img src="/assets/images/paperfaces-padulantonio-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2013-06-17-idpro-portrait %}"><img src="/assets/images/paperfaces-idpro-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2013-09-17-imhobson-portrait %}"><img src="/assets/images/paperfaces-imhobson-twitter-150.jpg" alt="thumb" /></a></li>  
-  <li><a href="{% post_url /paperfaces/2013-10-28-thebrendanbrown-portrait %}"><img src="/assets/images/paperfaces-thebrendanbrown-twitter-150.jpg" alt="thumb" /></a></li>  
-  <li><a href="{% post_url /paperfaces/2013-10-28-annekoehler-portrait %}"><img src="/assets/images/paperfaces-annekoehler-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2013-09-09-seanblezard-portrait %}"><img src="/assets/images/paperfaces-seanblezard-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2013-08-02-thatmiddleway-portrait %}"><img src="/assets/images/paperfaces-thatmiddleway-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2013-08-22-talksinmath-portrait %}"><img src="/assets/images/paperfaces-talksinmath-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2013-02-06-rt44man-portrait %}"><img src="/assets/images/paperfaces-rt44man-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2013-09-30-chappers-ma-portrait %}"><img src="/assets/images/paperfaces-chappers-ma-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{% post_url /paperfaces/2013-09-03-andrewbrewer-portrait %}"><img src="/assets/images/paperfaces-andrewbrewer-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/rob-jayne-portrait/"><img src="/assets/images/paperfaces-rob-jayne-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/padulantonio-portrait/"><img src="/assets/images/paperfaces-padulantonio-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/idpro-portrait/"><img src="/assets/images/paperfaces-idpro-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/imhobson-portrait/"><img src="/assets/images/paperfaces-imhobson-twitter-150.jpg" alt="thumb" /></a></li>  
+  <li><a href="/paperfaces/thebrendanbrown-portrait/"><img src="/assets/images/paperfaces-thebrendanbrown-twitter-150.jpg" alt="thumb" /></a></li>  
+  <li><a href="/paperfaces/annekoehler-portrait/"><img src="/assets/images/paperfaces-annekoehler-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/seanblezard-portrait/"><img src="/assets/images/paperfaces-seanblezard-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/thatmiddleway-portrait/"><img src="/assets/images/paperfaces-thatmiddleway-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/talksinmath-portrait/"><img src="/assets/images/paperfaces-talksinmath-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/rt44man-portrait/"><img src="/assets/images/paperfaces-rt44man-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/chappers-ma-portrait/"><img src="/assets/images/paperfaces-chappers-ma-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="/paperfaces/andrewbrewer-portrait/"><img src="/assets/images/paperfaces-andrewbrewer-twitter-150.jpg" alt="thumb" /></a></li>
 </ul>
 
 ---

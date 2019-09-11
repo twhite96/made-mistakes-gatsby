@@ -276,7 +276,7 @@ Decoupling the asset pipeline from Jekyll and Gulp-ifying it made the biggest sp
 
 ## Automation & Continuous Integration
 
-After ditching Disqus last year to [roll my own static-based solution]({% post_url /articles/2016-08-21-jekyll-static-comments %}) powered by [**Staticman**](https://staticman.net/), I needed to find a better way of deploying the site. Merging in new comments, pulling those commits down, manually building the site locally, and then deploying to my web server wasn't ideal.
+After ditching Disqus last year to [roll my own static-based solution](/articles/jekyll-static-comments/) powered by [**Staticman**](https://staticman.net/), I needed to find a better way of deploying the site. Merging in new comments, pulling those commits down, manually building the site locally, and then deploying to my web server wasn't ideal.
 
 With some research I determined a continuous integration[^ci] platform like **Travis CI**[^ci-platforms] that integrates with GitHub was what I needed.
 
@@ -419,7 +419,7 @@ autopages:
 
 For category archives I created my own bespoke pages since there are only a handful of them. Mostly because it was easier to customize them than generating with [Auto-Pages][auto-pages].
 
-**Step 1:** Create an archive page... let's use my [Articles archive](/articles/) as an example. I like to keep all of my source pages grouped together, so I created `articles.md` and placed it in a [folder named `_pages`]({% post_url /articles/2016-02-17-using-jekyll-2016 %}#pages-for-everything-else).
+**Step 1:** Create an archive page... let's use my [Articles archive](/articles/) as an example. I like to keep all of my source pages grouped together, so I created `articles.md` and placed it in a [folder named `_pages`](/articles/using-jekyll-2016/#pages-for-everything-else).
 
 **Step 2:** Enable pagination and define what categories it should filter, in this case `articles` by adding the following YAML Front Matter to `articles.md`.
 

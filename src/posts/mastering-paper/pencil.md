@@ -33,7 +33,7 @@ Paper's tools have a level of expressiveness that I've yet to see matched by oth
 [[notice | Pencil, a year later...]]
 | Apart from the addition of **Surface Pressure**, little has changed since first pairing Pencil with Paper over a year ago. It still feels great to use, still has an insanely long battery life, still enables blending, and still lets you rest your wrists on the screen without messing up your drawing.
 |
-| Looking for more? Read my full [Pencil by FiftyThree Review]({% post_url /mastering-paper/2014-11-28-pencil-53-review %}).
+| Looking for more? Read my full [Pencil by FiftyThree Review](/mastering-paper/pencil-53-review/).
 
 ### A different kind of tip
 
@@ -52,7 +52,7 @@ What would a pencil be without an eraser? Well FiftyThree's Pencil has one of th
 Size can be controlled by making contact with the eraser's corner (for small mistakes) or the entire surface to remove a larger area. Just like the tip the eraser is replaceable, though I haven't needed to replace mine yet.
 
 [[notice | Erasing and undoing]]
-| If you're looking for other erasing techniques that don't rely on Pencil's hardware eraser you're in luck. I wrote an entire guide dedicated to [correcting and covering-up mistakes]({% post_url /mastering-paper/2014-10-25-erasing %}) in Paper by FiftyThree.
+| If you're looking for other erasing techniques that don't rely on Pencil's hardware eraser you're in luck. I wrote an entire guide dedicated to [correcting and covering-up mistakes](/mastering-paper/erasing/) in Paper by FiftyThree.
 
 ### Palm rejection
 
@@ -198,7 +198,7 @@ Another great way to loosen up your arm and hand is to draw ovals over and over 
 The same layering principles used when glazing can be applied to the pencil tool with Surface Pressure.
 
 [[notice | Painting with watercolor]]
-| If you're new to Paper and the color tool, learn all about glazing with my [**Mastering Paper: Back to Basics**]({% post_url /mastering-paper/2014-02-09-basics %}#watercolor-brush-techniques) guide.
+| If you're new to Paper and the color tool, learn all about glazing with my [**Mastering Paper: Back to Basics**](/mastering-paper/basics/#watercolor-brush-techniques) guide.
 
 Surface Pressure enabled shading does most of the hard work by automatically making marks that fade into the canvas. If you've had trouble painting smoothly with the watercolor brush, give the sketch tool a try --- it's way more forgiving.
 
@@ -206,7 +206,7 @@ Surface Pressure enabled shading does most of the hard work by automatically mak
 ![Surface Pressure pencil gradients](../../images/pencil-surface-pressure-tones.jpg)
 {% endfigure %}
 
-Remember, each pass with Pencil's angled tip leaves a noticeable edge when overlapped --- use this to your advantage! By being deliberate in the direction of your strokes you will help define and reinforce the form of an object. Sort of like [how hatching works]({% post_url /mastering-paper/2014-02-09-basics %}#ink-techniques), but with fatter strokes.
+Remember, each pass with Pencil's angled tip leaves a noticeable edge when overlapped --- use this to your advantage! By being deliberate in the direction of your strokes you will help define and reinforce the form of an object. Sort of like [how hatching works](/mastering-paper/basics/#ink-techniques), but with fatter strokes.
 
 {% figure caption:"By curving my strokes around the contour of the tomato I let Pencil and Surface Pressure do all the work." %}
 `youtube: https://www.youtube.com/watch?v=O31BPEgKrXs`
@@ -240,7 +240,7 @@ It's not a tool you select like the others, triggering it is way more intuitive 
 ![blending with cheap capacitive stylus](../../images/paper-53-non-pencil-blending.jpg)
 {% endfigure %}
 
-[pogo-stylus]: {{ site.url}}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}
+[pogo-stylus]: /mastering-paper/pogo-connect-smart-pen/
 [cheap-stylus]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20
 
 ### How does blending work in other apps?
@@ -270,7 +270,7 @@ When used in moderation smudging and blurring your drawings can really take them
 
 #### Depth of field and "bokeh" effects
 
-The first thing I did when experimenting with Pencil was to smudge up the background of a portrait I drew of my wife. Before Blend I was using the watercolor brush to [dab blotches of white]({% post_url /mastering-paper/2014-10-25-erasing %}#paint-with-white-to-erase) to simulate a bokeh[^bokeh] effect.
+The first thing I did when experimenting with Pencil was to smudge up the background of a portrait I drew of my wife. Before Blend I was using the watercolor brush to [dab blotches of white](/mastering-paper/erasing/#paint-with-white-to-erase) to simulate a bokeh[^bokeh] effect.
 
 [^bokeh]: In photography, bokeh is the aesthetic quality of the blur produced in the out-of-focus parts of an image produced by a lens. [Bokeh has been defined](http://en.wikipedia.org/wiki/Bokeh "Wikipedia entry on bokeh") as "the way the lens renders out-of-focus points of light".
 
@@ -320,7 +320,7 @@ Ah reflections... they're so magical and easy to achieve with Blend. With a few 
 [![sunset landscape painted with Pencil](../../images/pencil-53-bob-ross-sunset-700.jpg)](../../images/pencil-53-bob-ross-sunset-lg.jpg)
 {% endfigure %}
 
-To start you'll want to use the pencil tool to mark the horizon, and sketch out your scene --- I like to use a light gray color for that. Then start to [paint in the sky]({% post_url /mastering-paper/2013-09-05-drawing-clouds %}) and shape the mountains using the brush and fountain pen tools.
+To start you'll want to use the pencil tool to mark the horizon, and sketch out your scene --- I like to use a light gray color for that. Then start to [paint in the sky](/mastering-paper/drawing-clouds/) and shape the mountains using the brush and fountain pen tools.
 
 {% figure class:"gallery-3-col" %}
 [![painting the sky](../../images/pencil-53-mountain-blend-1-700.jpg)](../../images/pencil-53-mountain-blend-1-lg.jpg)
@@ -328,7 +328,7 @@ To start you'll want to use the pencil tool to mark the horizon, and sketch out 
 [![drawing mountains](../../images/pencil-53-mountain-blend-3-700.jpg)](../../images/pencil-53-mountain-blend-3-lg.jpg)
 {% endfigure %}
 
-Adding snowy details to the mountains is next, followed by inking in a row of trees. If you're looking for help with drawing foliage and other greens be sure to check out my [**Mastering Paper: Drawing Trees and Grass** tutorial]({% post_url /mastering-paper/2013-08-31-drawing-trees %}).
+Adding snowy details to the mountains is next, followed by inking in a row of trees. If you're looking for help with drawing foliage and other greens be sure to check out my [**Mastering Paper: Drawing Trees and Grass** tutorial](/mastering-paper/drawing-trees/).
 
 {% figure caption:"Use the pen tools filled with a dark color to build up the tree silhouettes." class:"gallery-2-col" %}
 [![adding details to the mountains](../../images/pencil-53-mountain-blend-4-700.jpg)](../../images/pencil-53-mountain-blend-4-lg.jpg)
@@ -385,7 +385,7 @@ When done correctly the water should look almost dreamlike with a uniform blur a
 
 #### Clouds, smoke, and fog
 
-Building on the techniques found in my [**Mastering Paper: Drawing Clouds** tutorial]({% post_url /mastering-paper/2013-09-05-drawing-clouds %}), a few well placed cloud smudges can greatly improve their realism. You can also modify the type of cloud on display by varying the speed of your blends.
+Building on the techniques found in my [**Mastering Paper: Drawing Clouds** tutorial](/mastering-paper/drawing-clouds/), a few well placed cloud smudges can greatly improve their realism. You can also modify the type of cloud on display by varying the speed of your blends.
 
 {% figure caption:"Use quick blends for fluffy clouds and slow dragging smudges for for streaky ones." class:"gallery-2-col" %}
 [![sunset clouds blended with Pencil](../../images/pencil-53-blended-sunset-700.jpg)](../../images/pencil-53-blended-sunset-lg.jpg)
@@ -429,7 +429,7 @@ The fog effect is achieved by covering the canvas in circular blend strokes to b
 
 #### Lighting effects
 
-Before Pencil and Blend were a thing you had to [get creative with white paint]({% post_url /mastering-paper/2014-02-09-basics %}#lightening-with-white) to make lens flares and other glowing orbs of light. With a few quick swipes of your finger you can easily transform plain shapes and lines into lightsabers, auras, lightning, and more.
+Before Pencil and Blend were a thing you had to [get creative with white paint](/mastering-paper/basics/#lightening-with-white) to make lens flares and other glowing orbs of light. With a few quick swipes of your finger you can easily transform plain shapes and lines into lightsabers, auras, lightning, and more.
 
 {% figure caption:"Blending shapes into glowing objects." class:"gallery-2-col" %}
 ![lightsaber - before/after blend animation](../../images/pencil-53-blend-lightsaber.gif)
@@ -438,7 +438,7 @@ Before Pencil and Blend were a thing you had to [get creative with white paint](
 
 #### Outer space scenes
 
-Galaxies far far away, stars, planets, black holes, and countless other celestial bodies can also benefit from blends and smudges. For in-depth instructions and videos be sure to check out my [**Mastering Paper: Drawing Outer Space**]({% post_url /mastering-paper/2015-01-02-drawing-outer-space %}) guide.
+Galaxies far far away, stars, planets, black holes, and countless other celestial bodies can also benefit from blends and smudges. For in-depth instructions and videos be sure to check out my [**Mastering Paper: Drawing Outer Space**](/mastering-paper/drawing-outer-space/) guide.
 
 {% figure caption:"Both of these paintings have been shared on Mix for you to play with and alter." class:"gallery-2-col" %}
 [![space scene with planets](../../images/paper-53-space-2-finished-750.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/1534984)
@@ -463,15 +463,15 @@ By alternating between quick blends and slow smudges you can create realistic lo
 The temptation is really high to abuse the Blend feature in Paper --- especially after learning about all these awesome effects. It's easy to turn a drawing into a smeared mess resembling something you'd find on [**Photoshop Disasters**](https://web.archive.org/web/20151211053805/http://www.psdisasters.com/) if don't know when to quit, a fact I learned the first time I tried to blend a face.
 
 {% figure caption:"Blend got away from me here as I distorted the shape of the face too much and lost all of the texture from the original watercolor layers." class:"gallery-2-col" %}
-[![blended face disaster paperfaces](../../images/paperfaces-dermike-process-1-750.jpg)]({% post_url /paperfaces/2013-12-09-dermike-portrait %})
-[![blended face disaster paperfaces](../../images/paperfaces-dermike-twitter-700.jpg)]({% post_url /paperfaces/2013-12-09-dermike-portrait %})
+[![blended face disaster paperfaces](../../images/paperfaces-dermike-process-1-750.jpg)](/paperfaces/dermike-portrait/)
+[![blended face disaster paperfaces](../../images/paperfaces-dermike-twitter-700.jpg)](/paperfaces/dermike-portrait/)
 {% endfigure %}
 
 Fear not, here's a few pointers to help keep your blends, blurs, and smudges in check.
 
 #### Paint over a blend
 
-A nice way to recover from over worked blends is by [applying layers of watercolor]({% post_url /mastering-paper/2014-02-09-basics %}#glazing "painting glazes with Paper") on top. This helps restore balance by upping the texture and downplaying the *airbrushed* look. Thoughtfully placed pencil strokes can also have the same effect when combined with the right color.
+A nice way to recover from over worked blends is by [applying layers of watercolor](/mastering-paper/basics/#glazing "painting glazes with Paper") on top. This helps restore balance by upping the texture and downplaying the *airbrushed* look. Thoughtfully placed pencil strokes can also have the same effect when combined with the right color.
 
 {% figure caption:"Bring some life back to aggressive blurs by adding texture with sketch or watercolor strokes." %}
 [![watercolor glazed over a blend](../../images/pencil-53-blend-recovery-900.jpg)](../../images/pencil-53-blend-recovery-lg.jpg)

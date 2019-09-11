@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper for iOS, Star Wars, time lapse]
 
 With the recent Star Wars Episode VII casting news and *May the 4th* nearly upon us, I decided to kickoff the week with SW inspired drawings. I'm planning on recreating scenes and characters from all of the movies each night using Paper for iOS as per usual.
 
-Last year I stuck to the original trilogy with my [Darth Vader]({% post_url /paperfaces/2013-05-04-darth-vader-portrait %}), [Boba Fett]({% post_url /paperfaces/2013-05-04-boba-fett-portrait %}), [Luke]({% post_url /paperfaces/2013-05-04-yoda-luke-skywalker-portrait %}), [Leia]({% post_url /paperfaces/2013-05-04-slave-leia-jabba-the-hutt-portrait %}), and [Chewbacca]({% post_url /paperfaces/2013-05-04-chewbacca-leia-boob-portrait %}) portraits. This year I'm planning on mixing in a few faces from the prequels to cover the whole spectrum of films.
+Last year I stuck to the original trilogy with my [Darth Vader](/paperfaces/darth-vader-portrai/), [Boba Fett](/paperfaces/boba-fett-portrait/), [Luke](/paperfaces/yoda-luke-skywalker-portrai/), [Leia](/paperfaces/slave-leia-jabba-the-hutt-portrait/), and [Chewbacca](/paperfaces/chewbacca-leia-boob-portrait/) portraits. This year I'm planning on mixing in a few faces from the prequels to cover the whole spectrum of films.
 
 `youtube: https://www.youtube.com/watch?v=9e1nPyHXCFQ`
 
