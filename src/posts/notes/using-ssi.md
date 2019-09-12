@@ -14,9 +14,7 @@ In my never ending quest to micro-optimize the hell out of my site, I ran into a
 
 [Version 10.2](https://github.com/mmistakes/made-mistakes-jekyll/tree/10.3.0) of this site was my half-baked attempt at [eliminating render-blocking CSS](/articles/using-jekyll-2016/#critical-path-css) to speed up page loads. By manually inlining critical CSS via a [Jekyll include](http://jekyllrb.com/docs/templates/#includes) and using [**loadCSS**](https://github.com/filamentgroup/loadCSS) to asynchronously load the rest --- I did pretty good.
 
-{% figure caption:"Analyzed with [Google's PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) tool." %}
-![Made Mistakes version 10 analyzed with PageSpeed Insights](../../images/mm-home-pagespeed-021116.jpg)
-{% endfigure %}
+![Made Mistakes version 10 analyzed with Google's PageSpeed Insights tool](../../images/mm-home-pagespeed-021116.jpg)
 
 This workflow wasn't ideal for a variety of reasons:
 
@@ -57,9 +55,10 @@ After setting all this up and testing my pages against [**WebPagetest**](https:/
 
 :bulb: Oh right, maybe it's Cloudflare's **Auto Minifying** setting mucking around! Sure enough, as soon I disabled their HTML minifier, lines like `<!--#if expr="$HTTP_COOKIE=/fullcss\=true/" -->` remained untouched. Unfortunately `style.css` was still render blocking the page.
 
-{% figure caption:"Auto Minify removes unnecessary characters from your source code (like extraneous whitespace and comments)." %}
-![screenshot of Cloudflare's Auto Minify settings](../../images/cloudflare-auto-minify.jpg)
-{% endfigure %}
+<figure>
+  <img alt="screenshot of Cloudflare's Auto Minify settings" src="../../images/cloudflare-auto-minify.jpg">
+  <figcaption><p>Auto Minify removes unnecessary characters from your source code (like extraneous whitespace and comments).</p></figcaption>
+</figure>
 
 Dug a little deeper and discovered you have to configure your server to [permit SSI](http://httpd.apache.org/docs/current/howto/ssi.html#configuring) before they'll be recognized. Oops! Dropped these two lines in my `.htaccess` file and everything magically worked.
 
@@ -68,6 +67,7 @@ Options +Includes
 AddHandler server-parsed .shtml .html .htm
 ```
 
-{% figure caption:"So close to 100. If it wasn't for the Google Analytics and AdSense scripts..." %}
-![Google PageSpeed Insights score screenshot](../../images/pagespeed-insights-99-100.jpg)
-{% endfigure %}
+<figure>
+  <img alt="Google PageSpeed Insights score screenshot" src="../../images/pagespeed-insights-99-100.jpg">
+  <figcaption><p>So close to 100. If it wasn't for the Google Analytics and AdSense scripts&hellip;</p></figcaption>
+</figure>

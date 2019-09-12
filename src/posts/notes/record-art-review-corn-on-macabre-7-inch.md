@@ -1,5 +1,5 @@
 ---
-title: "Corn On Macabre record art --- vellum and metallic ink bliss"
+title: "Corn On Macabre record art ⁠— vellum and metallic ink bliss"
 date: 2011-05-19
 path: /notes/record-art-review-corn-on-macabre-7-inch/
 excerpt: "My favorite thing about this Corn On Macabre 7-inch record is the use of vellum and metallic inks in the sleeve."
@@ -24,15 +24,14 @@ Not sure how much it added to the production cost, but I sure like the way vellu
 
 ## Record packaging detail images
 
-{% figure caption:"Detail photo of liner notes set in Trajan" %}
-[![Detail photo of liner notes set in Trajan](../../images/COM-metallic-ink-trajan-620x197.jpg)](../../images/COM-metallic-ink-trajan.jpg "Everyone's favorite movie poster typeface, Trajan.")
-{% endfigure %}
+![Detail photo of liner notes set in Trajan](../../images/COM-metallic-ink-trajan.jpg)
 
 Apparently my asshole cat shares a taste for vellum too. Maybe it was the smell, or maybe it was the way the sun caught the metallic ink, but he sure couldn't help himself from biting into it --- bastard. So much for selling this Corn On Macabre record in mint condition.
 
-{% figure caption:"Detail photographs of the packaging." class:"gallery-2-col" %}
-[![Record sleeve typography](../../images/COM-record-sleeve-typography-300.jpg)](../../images/COM-record-sleeve-typography.jpg)
-[![Corn on Macabre - punk is undead](../../images/COM-punk-is-undead-300.jpg)](../../images/COM-punk-is-undead.jpg)
-[![Linear notes and images](../../images/COM-record-sleeve-300.jpg)](../../images/COM-record-sleeve.jpg)
-[![Photo detail of metallic ink printed image](../../images/COM-metallic-ink-image-300.jpg)](../../images/COM-metallic-ink-image.jpg)
-{% endfigure %}
+![Record sleeve typography](../../images/COM-record-sleeve-typography.jpg)
+
+![Corn on Macabre - punk is undead](../../images/COM-punk-is-undead.jpg)
+
+![Linear notes and images](../../images/COM-record-sleeve.jpg)
+
+![Photo detail of metallic ink printed image](../../images/COM-metallic-ink-image.jpg)

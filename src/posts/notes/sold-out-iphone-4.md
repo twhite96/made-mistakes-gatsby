@@ -1,7 +1,7 @@
 ---
 title: "Getting the sold out iPhone 4 at launch"
 date: 2010-06-16
-path: /notes/soldout-iphone-4/
+path: /notes/sold-out-iphone-4/
 excerpt: "Looks like I might actually get two iPhone 4s on launch day."
 last_modified_at: 2018-11-08T20:52:30-05:00
 categories: [notes]
@@ -28,14 +28,10 @@ Looks like I might actually get an **iPhone 4** on launch day. Took AT&T all day
 >
 > Here is a copy of your order summary:
 
-{% figure caption:"Order status results" %}
 ![iPhone 4 order status](../../images/iphone-4-order-status.jpg)
-{% endfigure %}
 
 Now I'm just worried that my existing number is going to be ported over today from Sprint and I'll be without service on my **Palm Pre**. From the looks of it AT&T confirmed my number port for 12:30pm today (6/16/2010). Sure hope it doesn't take effect until I activate via iTunes next week.
 
-{% figure caption:"Number port status" %}
 ![Sprint number port status](../../images/sprint-number-port-status.jpg)
-{% endfigure %}
 
 Now the waiting game begins...

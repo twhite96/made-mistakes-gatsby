@@ -13,9 +13,9 @@ toc: true
 
 I think it is very clear that the April 2011 *Urban Outfitters* catalog was more concerned with style and art direction than typography. Now, I'm not trying to weigh the implications of, or reasons for this. Being a designer who values legibility and hierarchy, this catalog sure is filled with a bunch of head scratching typographic choices.
 
-{% figure caption:"Would it have hurt to move these blocks of type to right a few inches?" %}
 ![UO April 2011 inside front cover detail](../../images/UO-bad-type-placement.jpg)
-{% endfigure %}
+
+Would it have hurt to move these blocks of type to right a few inches?
 
 ## Violators, mount up
 
@@ -30,7 +30,6 @@ I'm probably wrong and this isn't suppose to be a catalog. What would be the poi
 Oh never mind. At Least one page out of 48 must have read Ellen Lupton's [*Thinking with Type*](http://www.amazon.com/gp/product/1568989695/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1568989695). Away with fully justified type and in with a lovely rag on the right. And would you look at this, size, weight, and placement changes to help lead you from section to section. I might actually be able to figure out what descriptions go with each piece of clothing. Now if I could only tell if that's a 1 or a capital i.    
 
 ![Urban Outfitters April 2011 Cover photo](../../images/UO-spring11-cover.png)
-{: .align-right}
 
 ## Typography rulez
 
@@ -40,14 +39,14 @@ At the end of the day I really doubt any one is looking at these pages wondering
 
 ## Readability no nos
 
-{% figure caption:"Just for giggles I mocked up a type treatment with left justified type and varying font weights. Which one do you think is easier to read? A or B." %}
+Just for giggles I mocked up a type treatment with left justified type and varying font weights. Which one do you think is easier to read? A or B.
+
 ![Urban Outfitters type comparison](../../images/UO-product-text.jpg)
-{% endfigure %}
 
-{% figure caption:"White type on a light gray background is awful for readability." %}
+White type on a light gray background is awful for readability.
+
 ![Another example of bad type and no regard for readability](../../images/UO-awful-readability.jpg)
-{% endfigure %}
 
-{% figure caption:"This page isn't half bad. No justified type, nice rag, and solid use of a grid. A++" %}
+This page isn't half bad. No justified type, nice rag, and solid use of a grid. A++, would read again.
+
 ![Urban Outfitters catalog typography](../../images/UO-type-hiearchy.jpg)
-{% endfigure %}

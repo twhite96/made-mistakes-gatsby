@@ -13,25 +13,13 @@ toc: true
 
 PaperFaces was an iPad drawing project by time traveling designer and illustrator Michael Rose --- that's me! It began in August 2012, when I started drawing portraits on my iPad using the [Paper by FiftyThree app](http://www.fiftythree.com/paper) and [ended exactly two years later](/articles/paperfaces-retrospective/). 
 
-## Latest portraits
-
-The last batch of PaperFaces drawings along with in process sketches for each. They can also be found scattered across social media if you dig back far enough: [Twitter](https://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), and [Tumblr](http://mademistakes.tumblr.com).
-
-<ul class="gallery-thumbnails">
-{% for post in site.categories.paperfaces limit:15 %}
-  <li>
-    <a href="{{ post.url }}" title="{{ post.title }}"><img src="{{ post.image.thumbnail }}" alt=""></a>
-  </li>
-{% endfor %}
-</ul>
-
-<div markdown="0"><a href="/paperfaces/" class="btn" style="margin-bottom:0;">View all PaperFaces Portraits</a></div>
+The lastest batch of [PaperFaces drawings](/paperfaces/) along with in process sketches for each can be found at `/paperfaces`.
 
 ## Frequently asked questions
 
 ### Will you draw me?
 
-Unfortunately I am no longer taking volunteers for the project. <s>If you'd like to commission me to illustrate your Twitter avatar, recreate a photograph in my PaperFaces™ style, draw your pet dinosaur, or whatever, follow the link below.</s> I'm currently taking a break from drawing portraits as well. Sorry :-(
+Unfortunately I am no longer taking volunteers for the project. <s>If you'd like to commission me to illustrate your Twitter avatar, recreate a photograph in my PaperFaces™ style, draw your pet dinosaur, or whatever, follow the link below.</s> I'm currently taking a break from drawing portraits as well. :disappointed:
 
 ### What is PaperFaces?
 
@@ -52,9 +40,10 @@ When the count hit 700, I revised my initial goal of 365 to 730 (that's two a da
 
 When I began the project I attempted to draw each face as detailed and accurately as possible. Even though I'm classically trained in illustration and the fine arts, photo realism isn't really "my bag." Part of what attracted me to Paper by 53 was its small tool set, lack of zoom, and focused color palettes. Trying to interpret each portrait using these constraints helped me to stumble across the whole "blank face" look and grow as an artist.
 
-{% figure caption:"PaperFaces iPad portrait of my two twin girls." class:"large" %}
-![Rosebud twins' portrait](../../images/paperfaces-rosebud-twins-l.jpg)
-{% endfigure %}
+<figure>
+  <img alt="Rosebud twins' portrait" src="../../images/paperfaces-rosebud-twins-l.jpg">
+  <figcaption><p>PaperFaces iPad portrait of my two twin girls.</p></figcaption>
+</figure>
 
 After drawing over 600 portraits with Paper my skills have matured and I've begun drawing the entire face. It has been a fun personal challenge to capture as much detail in as little time possible.
 
@@ -91,13 +80,13 @@ I use the term "tutorial" loosely. What you'll find here are glorified slide sho
 
 View more of my Paper by FiftyThree video tutorials on [YouTube](https://www.youtube.com/user/anotherjpeg) or read [how I use Paper](/mastering-paper/).
 
-`youtube: https://www.youtube.com/embed/videoseries?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao
+`youtube: https://www.youtube.com/watch?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao&v=K2dgaV9_rCI`
 
 ## Homages
 
 I've been completely humbled by all the support and attention coming my way since I started this project. Drawing someone's portrait and having them thank you by returning the favor is all kinds of amazing. I'm featuring those drawings here, along with any that follow the "PaperFaces style." If you want your drawing(s) to be included leave a comment below (include your drawing in the comment) or [tweet me](https://twitter.com/mmistakes).
 
-<ul id="fanart-gallery" class="gallery-thumbnails">
+<ul class="gallery-thumbnails">
   <li><a href="../../images/homage-pepfre-mmistakes-lg.jpg"><img src="../../images/homage-pepfre-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @Pepfre"></a></li>
   <li><a href="../../images/homage-missshrestha-rosebuds-lg.jpg"><img src="../../images/homage-missshrestha-rosebuds-150.jpg" alt="PaperFaces portrait of the twins drawn by @missshrestha on Instagram"></a></li>
   <li><a href="../../images/homage-morgantj-mmistakes-lg.jpg"><img src="../../images/homage-morgantj-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @morgantj"></a></li>

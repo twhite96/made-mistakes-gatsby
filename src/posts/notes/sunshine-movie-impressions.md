@@ -1,5 +1,5 @@
 ---
-title: "Blinded by the light --- Sunshine impressions"
+title: "Blinded by the light ⁠— Sunshine impressions"
 date: 2007-07-28
 path: /notes/sunshine-movie-impressions/
 excerpt: "The film Sunshine directed by Danny Boyle is science fiction without the big bang."
@@ -11,9 +11,9 @@ support: false
 toc: true
 ---
 
-Science fiction movies, now those be my jams. Have been looking forward to seeing Danny Boyle's new film **Sunshine**, when I saw a trailer before *Sicko* a month or so ago. I couldn't tell you any of the actors' names other than Cillian Murphy, but they all are pretty familiar faces (ie: dude who played the Human Torch in *Fantastic Four & Rise of the Silver Surfer*).
+Science fiction movies, now those be my jams. Have been looking forward to seeing Danny Boyle's new film **Sunshine**, when I saw a trailer before **Sicko** a month or so ago. I couldn't tell you any of the actors' names other than Cillian Murphy, but they all are pretty familiar faces (ie: dude who played the Human Torch in **Fantastic Four & Rise of the Silver Surfer**).
 
-*Armageddon*, *Deep Impact*, *The Core*... yeah this film is nothing like that garbage. Things start off in space where we are quickly brought up to speed on Earth's dire condition through some brief narration. About 50 years in the future, 8 scientists are taking a nuke to the Sun in hopes of reigniting it and saving the entire population from certain doom.
+**Armageddon**, **Deep Impact**, **The Core**... yeah this film is nothing like that garbage. Things start off in space where we are quickly brought up to speed on Earth's dire condition through some brief narration. About 50 years in the future, 8 scientists are taking a nuke to the Sun in hopes of reigniting it and saving the entire population from certain doom.
 
 ## Quick plot summary, go
 
@@ -25,6 +25,6 @@ Somewhere along the third act this film takes a right turn into a different kind
 
 ## Closing thoughts
 
-*Sunshine* never tries to insult your intelligence with over simplified scientific babble a 5 year old could understand. In fact there really is little explanation about what is going on or what they are doing. Instead it focuses on philosophical themes and how expendable life is in the greater scheme of things.
+**Sunshine** never tries to insult your intelligence with over simplified scientific babble a 5 year old could understand. In fact there really is little explanation about what is going on or what they are doing. Instead it focuses on philosophical themes and how expendable life is in the greater scheme of things.
 
-If you're looking for a big budget science fiction action adventure skip this one. You'll think the story moves along too slowly and not enough shit blows up. If you enjoy your sci-fi cut from the indie vein or dug [*Primer*](http://imdb.com/title/tt0390384/) and its realistic explanation of time travel, then you can't go wrong. B+
+If you're looking for a big budget science fiction action adventure skip this one. You'll think the story moves along too slowly and not enough shit blows up. If you enjoy your sci-fi cut from the indie vein or dug [**Primer**](http://imdb.com/title/tt0390384/) and its realistic explanation of time travel, then you can't go wrong. B+

@@ -22,22 +22,12 @@ Took some quick measurements of the wall's dimensions and uploaded the image to 
 
 Anyways. After cutting out all the pages I setup my JVC mini-DV camcorder and recorded myself taping each page to the wall. Figured this would be a fun excuse to use the camcorder since I rarely break the thing out after buying it 4 years ago. Took the 2 hours of footage and imported it into iMovie and made a quick time lapse video by speeding it up 4x. I think it came out good and laugh every time I see my stupid cats walking around watching me in confusion.
 
-{% figure caption:"Video time lapse of the process of putting up a Rasterbator poster" %}
 `youtube: https://www.youtube.com/watch?v=05Qy88RUJHA`
-{% endfigure %}
 
-{% figure caption:"Measure twice, cut once, and hopefully not a finger or two" %}
 ![Trimming pages printed out by the Rasterbator](../../images/rasterbator-trimming-pages.jpg)
-{% endfigure %}
 
-{% figure caption:"First row up..." %}
 ![First Rasterbator row assembled](../../images/rasterbator-firstrow-owl.jpg)
-{% endfigure %}
 
-{% figure caption:"Halfway there" %}
 ![Halfway assembled Rasterbator owl](../../images/rasterbator-halfway-owl.jpg)
-{% endfigure %}
 
-{% figure caption:"Finished" %}
 ![Finished Rasterbated owl](../../images/rasterbator-finished-owl.jpg)
-{% endfigure %}
