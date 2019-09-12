@@ -3,7 +3,7 @@ title: "Mastering Paper for iOS: contour line drawing"
 date: 2014-01-13
 path: /mastering-paper/contour-drawing/
 excerpt: "How to use blind contour line drawing and the iPad app Paper for iOS, to improve hand eye coordination and observation skills."
-last_modified_at: 2018-11-06T11:59:47-05:00
+last_modified_at: 2019-09-12T16:07:19-04:00
 image: ../../images/paper-53-contour-drawing-feature.jpg
 categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, Apple]
@@ -26,15 +26,15 @@ Pay close attention to how the form's contour and shape relate to each other mak
 
 When you observe a shadow or a dark division, move your stylus faster to produce a thicker line. For highlights and lighter areas move slowly to draw a thinner line.
 
-{% figure caption:"I find drawing with a Pogo Connect allows for greater control over the line's weight." class:"gallery-2-col" %}
-[![blind contour drawing of a hand drawn with a Pogo Connect](../../images/paper-53-contour-hand-pogo.jpg)](../../images/paper-53-contour-hand-pogo-lg.jpg) [![blind contour drawing of a hand drawn with a Pencil by 53](../../images/paper-53-contour-hand-pencil.jpg)](../../images/paper-53-contour-hand-pencil-lg.jpg)
-{% endfigure %}
+<figure class="2-column">
+  <img alt="blind contour drawing of a hand drawn with a Pogo Connect" src="../../images/paper-53-contour-hand-pogo-lg.jpg">
+  <img alt="blind contour drawing of a hand drawn with a Pencil by 53" src="../../images/paper-53-contour-hand-pencil-lg.jpg">
+  <figcaption><p>I find drawing with a Pogo Connect allows for greater control over the line's weight.</p>
+</figure>
 
 Producing sensitive lines becomes infinitely easier with a [Pogo Connect](/mastering-paper/pogo-connect-smart-pen/) since you can varying their thickness by pressing harder. This added complexity isn't for everyone, but for someone with a background in the fine arts or illustration, it can feel more natural.  
 
-{% figure caption:"Drawing a blind contour line drawing of my hand in real time." %}
 `youtube: https://www.youtube.com/watch?v=OHpPRwXvVLQ`
-{% endfigure %}
 
 I also find that it helps to think of this line as a piece of string --- pretending that I'm wrapping it around the object as I follow along with my stylus. Don't worry if your drawing ends up looking like a ball of yarn --- that's part of the charm. As the link between hand and eye builds, so will the accuracy of your lines.
 

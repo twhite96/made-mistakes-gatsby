@@ -3,7 +3,7 @@ title: "Mastering Paper for iOS: back to the basics"
 date: 2014-02-09
 path: /mastering-paper/basics/
 excerpt: "A refresher tutorial on Paper for iOS drawing and painting techniques, along with color theory principles for good measure."
-last_modified_at: 2018-11-06T12:00:23-05:00
+last_modified_at: 2019-09-12T16:07:27-04:00
 image: ../../images/paper-53-basics-feature.jpg
 categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, Apple]
@@ -28,26 +28,20 @@ A couple of points to keep in mind for creating an even tone.
 2. Don't be tempted to overwork and area --- keep moving at a steady pace.
 3. If you are using a stylus with a sensitive tip (e.g. a Pogo Connect), don't vary the amount of pressure you apply --- keep it constant and light unless you're trying to fade the tone.
 
-{% figure caption:"Examples of shading using the pencil tool" %}
 ![Pencil shading samples](../../images/paper-53-pencil-shading-samples.jpg)
-{% endfigure %}
 
 Once you've gotten the hang of producing a range of smooth values, it can be fun to introduce additional colors to the mix. Colors can be dry blended by overlapping pencil strokes directly on canvas, giving the impression that they've been mixed. 
 
 [[notice | ProTip: dry mixing]]
 | Avoid overlapping one color with the other too much. Doing so will kill the translucency of the pencil strokes and any mixing that might have occurred.
 
-{% figure caption:"Dry mixing colored pencils" %}
-![Colored pencil mixes](../../images/paper-53-colored-pencil-mixes.jpg)
-{% endfigure %}
+![Dry mixing colored pencils in Paper](../../images/paper-53-colored-pencil-mixes.jpg)
 
 ## Ink techniques
 
 Out of the two ink tools that Paper comes with, the [pen](/mastering-paper/2013-07-31-introduction-tool-guide %}#ink-pen) (or *Write* as FiftyThree calls it) is much easier to produce consistent results with. Stroke speed and pressure do little to modify the line quality which allows you to focus more on accuracy and placement. The [fountain pen]({% post_url /mastering-paper/introduction-tool-guide/#fountain-pen) on the other hand can make drawing a line without weight fluctuations incredibly challenging --- as shown below.
 
-{% figure caption:"Comparing ink tools and the lines they make" %}
 ![Comparing straight lines made with the ink tools](../../images/paper-53-ink-tools-comparison.jpg)
-{% endfigure %}
 
 By all means use whatever tool you're most comfortable with. If you're new to drawing on an iPad and just want to practice the following techniques, do yourself a solid and stick with the ink pen.
 
@@ -57,23 +51,17 @@ There are many techniques for suggesting light and shadow when drawing with ink 
 
 As the name implies, the lines you will be making should run parallel to each other. These lines can be vertical, horizontal, or at an angle --- pick one and stick with it throughout the drawing. By drawing lines closer together they will appear to blend and create the illusion of being darker.
 
-{% figure caption:"Examples of parallel hatching" %}
 ![Parallel hatching examples](../../images/paper-53-parallel-ink-lines.jpg)
-{% endfigure %}
 
 Another way to modify the overall tone created by these lines is to vary their thickness. This can be achieved by using the fountain pen and drawing thicker lines by pressing harder (if you use a Pogo Connect stylus) or making quick swipes (if you're using a normal stylus or your finger).
 
-{% figure caption:"Varying the line width using the fountain pen" %}
-![Parallel hatching thicker line example](../../images/paper-53-parallel-ink-lines-vary.jpg)
-{% endfigure %}
+![Parallel hatching varying line widths example](../../images/paper-53-parallel-ink-lines-vary.jpg)
 
 ### Contour hatching
 
 If you're feeling confident and have honed your powers of observation by drawing [blind contours](/mastering-paper/contour-drawing/), you should be all set for contour hatching. Instead of making straight marks like we did with parallel hatching, you will draw lines that follow the curved contours of your subject.
 
-{% figure caption:"Examples of contour hatching" %}
 ![Contour hatching examples](../../images/paper-53-ink-contour-hatching.jpg)
-{% endfigure %}
 
 Personally I don't often have the patience required to create an accurate drawing using this technique. When done well contour hatching will enhance the form of your subject and make it appear more three dimensional.
 
@@ -81,17 +69,13 @@ Personally I don't often have the patience required to create an accurate drawin
 
 Cross hatching is exactly what you'd expect, hatch marks that cross one another. It's an effective way to quickly darken or *shade* a subject. I like to use the parallel hatching technique and build on that by crossing the lines at a slight angle. Contour lines can also be crossed for more life like results.
 
-{% figure caption:"Examples of cross hatching" %}
 ![Cross hatching examples](../../images/paper-53-ink-cross-hatching.jpg)
-{% endfigure %}
 
 ### Stippling
 
 Instead of using lines to create tone and texture, you can use small marks. Much like the hatching techniques described above you vary the tone by increasing the density of these marks --- the higher the concentration the darker it will appear.
 
-{% figure caption:"Examples of stippling techniques" %}
-![Stippling examples](../../images/paper-53-ink-stippling.jpg)
-{% endfigure %}
+![Examples of stippling techniques](../../images/paper-53-ink-stippling.jpg)
 
 The placement of these marks can be as expressive or mathematically as you want. I prefer to be free and loose, but don't let that limit what feels right to you. Stippling marks can be anything you want --- short ticks, dots, crosses, circles. And they can even be combined with hatching to add detail and enhance the effect.
 
@@ -102,22 +86,17 @@ The placement of these marks can be as expressive or mathematically as you want.
 
 Using both ink pens and the pencil you can simulate ink splatter, blobs, and dribs. The idea here is to recreate those happy accidents in a natural and random way. To start create a grouping of small circles and dots using the fountain pen.
 
-{% figure caption:"Creating ink blobs, splatter, and drips" class:"gallery-2-col" %}
 ![Ink circles and a few dots](../../images/paper-53-ink-blobs.jpg)
+
 ![Adding variation to the circles](../../images/paper-53-ink-blobs-irregular.jpg)
-{% endfigure %}
 
 To make these shapes more irregular, zoom in and distort their shape by adding bumps and points along the edges. You don't have to overdo this step --- small variations here and there will do the trick.
 
-{% figure caption:"Adding detail to ink blobs" %}
 ![Adding detail to ink blobs](../../images/paper-53-ink-blobs-detail.jpg)
-{% endfigure %}
 
 Applying a few shadows and highlights with the pencil tool can make these shapes pop off the canvas. Draw a few dark strokes on one side of the blob, and then using a light color draw a highlight on the opposite side. Depending on how thick of a blob you are going for you may need to add a cast shadow using the pencil or watercolor brush filled with a light gray.
 
-{% figure caption:"Ink splatter variations" %}
 ![Adding shadows and highlights to blobs](../../images/paper-53-ink-blobs-variation.jpg)
-{% endfigure %}
 
 ## Watercolor brush techniques
 
@@ -127,9 +106,7 @@ I'm going to go ahead and assume you've already read my [Paper by 53 Introductio
 
 The question that hits my inbox the most is "how do you paint so smoothly?" Well here's my secret. Paint a **continuous stroke**, **without lifting** your finger or stylus. If you lift and dab an area multiple times it will darken and turn bumpy --- don't do that!
 
-{% figure caption:"A choppy painted shape vs. one painted smoothly" %}
-![Choppy and smoothly painted shapes](../../images/paper-53-choppy-smooth-paint.jpg)
-{% endfigure %}
+![A choppy painted shape versus one painted smoothly](../../images/paper-53-choppy-smooth-paint.jpg)
 
 The other important variable to consider is moving your finger (or stylus) across the screen at a slow pace. If you rub in a circle motion on an area that is light it will eventually darken to its maximum point. As long as you **don't lift** as you circle over these lighter spots, everything will even out.
 
@@ -139,32 +116,24 @@ The other important variable to consider is moving your finger (or stylus) acros
 
 Reliably producing a painted edge that is soft and blurry becomes important when blending shapes into each other. To achieve this effect you need to gradually increase the speed of your stroke as you approach the edge you want to feather. 
 
-{% figure caption:"Feathering an edge with the watercolor brush" %}
 `youtube: https://www.youtube.com/watch?v=RrFlav38uZw`
-{% endfigure %}
 
 A wet-on-wet effect can be simulated by feathering brush strokes into each other. Getting the perfect fade can be tricky, so don't be afraid to rewind and trying again. *I almost never get it right the first time.*
 
-{% figure caption:"Shapes blended into each other by feathering the edges" %}
-![Blended shapes](../../images/paper-53-paint-feathered-colors.jpg)
-{% endfigure %}
+![Shapes blended into each other by feathering the edges](../../images/paper-53-paint-feathered-colors.jpg)
 
 ### Lightening with white
 
 The watercolor brush has the unique ability of lightening previously painted or drawn areas when filled with white. This can be an effective way of pulling highlights out of your subject or to erase mistakes. 
 
-{% figure caption:"Various tints made by mixing colors with white" %}
-![Range of white tints](../../images/paper-53-paint-white-range.jpg)
-{% endfigure %}
+![Various tints made by mixing colors with white](../../images/paper-53-paint-white-range.jpg)
 
 [[notice | ProTip: paint with tints]]
 | Lightening with colors tinted[^tint] with white often yield better results and are easier to control than a solid white.
 
 [^tint]: Adding white to a color raises it to a tint or a *pastel* color and increases it's saturation some --- adjust accordingly to keep harmony with your color palette.
 
-{% figure caption:"Lightening an area with white" %}
 ![Lightening an area with white](../../images/paper-53-paint-white-lightening.jpg)
-{% endfigure %}
 
 White paint behaves slightly different from the other colors available in the mixer and default palettes. Much like painting with pure black it fills in quickly. Which means if you use it to paint, you have to move fast or risk completely covering up anything you paint over with white.
 
@@ -177,32 +146,34 @@ When painting with the brush you are essentially spreading layers of transparent
 
 [^glazing]: Glazing is a watercolor technique that uses a thin, transparent pigment applied over dry existing washes. Its purpose is to adjust the color and tone of the underlying wash.
 
-{% figure caption:"Layering glazes makes for a richer and more deep color" %}
-![Glazes created with the watercolor brush](../../images/paper-53-watercolor-layers.jpg)
-{% endfigure %}
+<figure>
+  <img alt="Glazes created with the watercolor brush" src="../../images/paper-53-watercolor-layers.jpg">
+  <figcaption><p>Layering glazes makes for a richer and more deep color.</p></figcaption>
+</figure>
 
 I like to think of glazes as my *color harmonizers* that tint everything with a similar hue. A great way to tie a piece together if your colors aren't quite working together.
 
-{% figure caption:"Applying a glaze to harmonize a color palette" %}
 ![Glaze harmonizing before image](../../images/paper-53-paint-harmony-1.jpg)
+
 ![Glaze harmonizing after image](../../images/paper-53-paint-harmony-2.jpg)
-{% endfigure %}
 
 ### Underpainting
 
 If glazes are applied on top of a painting or drawing, underpaintings are the layers applied below. They are most often used to pre-tone the canvas by removing white from it. The color(s) you choose can have a profound effect on digital pigments and strokes applied on top of them.
 
-{% figure caption:"Naked canvas on the left, pre-toned on the right to increase vibrancy." %}
-![Red underpainting with green tree comparison](../../images/paper-53-red-underpainting-foliage.jpg)
-{% endfigure %}
+<figure>
+  <img alt="Red underpainting with green tree comparison" src="../../images/paper-53-red-underpainting-foliage.jpg">
+  <figcaption><p>Naked canvas on the left, pre-toned on the right to increase vibrancy.</p>
+</figure>
 
 For example, contrasting colors can create some vibrancy in the scene. A lush landscape filled with a cool sky and green trees, pre-toned with a reddish glaze will cause the space around the leaves to shine through. Much more than if the canvas was left white.
 
 Or you can tone the canvas with the composition's dominant color. When doing detail work you won't have to worrying about covering up the bits of white canvas that show through. The background will roughly match what you are painting as your main subject, saving you precious time.
 
-{% figure caption:"Working out the shapes and values of a composition before adding detail" %}
-![Blocking out shapes with watercolor](../../images/paper-53-underpainting-value-shapes.jpg)
-{% endfigure %}
+<figure>
+  <img alt="Blocking out shapes with watercolor" src="../../images/paper-53-underpainting-value-shapes.jpg">
+  <figcaption><p>Working out the shapes and values of a composition before adding detail.</p></figcaption>
+
 
 An underpainting layer can also be used to establish the correct values and confirm the composition of your subject. Think of it as *sketching* with the brush, but instead of making contour lines you are blocking out rough shapes of value to capture your subject.
 
@@ -216,18 +187,19 @@ Now I wouldn't go as far as suggesting you mix primary colors on canvas[^on-canv
 
 [^on-canvas]: Visually mixing colors directly on canvas can be fun, but the results aren't always the best. I suggest using the Color Mixer instead since you'll achieve more vibrant hues.
 
-{% figure caption:"Traditional color wheel" %}
-  <img src="../../images/paper-53-traditional-color-wheel.jpg" alt="Traditional color wheel">
-
-{% endfigure %}
+<figure>
+  <img src="../../images/paper-53-traditional-color-wheel.jpg" alt="Painting of a traditional color wheel">
+  <figcaption><p>Traditional color wheel</p></figcaption>
+</figure>
 
 ### Complementary colors and grays
 
 On the traditional color wheel complementary colors are across from each other (red and green, blue and orange, yellow and violet). When complements are mixed together, they should result in a neutral gray.
 
-{% figure caption:"As you can see, in Paper complementary colors that are mixed on canvas don't exactly turn to a neutral gray." %}
-![Mixing complementary colors together](../../images/paper-53-layering-complements.jpg)
-{% endfigure %}
+<figure>
+  <img alt="Mixing complementary colors together" src="../../images/paper-53-layering-complements.jpg">
+  <figcaption><p>As you can see, in Paper complementary colors that are mixed on canvas don't exactly turn to a neutral gray.</p></figcaption>
+</figure>
 
 Since mixing complements visually on canvas doesn't result in a neutral gray in Paper, we can mix them another way. The results aren't quite the same as if you were mixing oil paints on a real palette, but they get the job done. Here's how to do it:
 
@@ -235,17 +207,16 @@ Since mixing complements visually on canvas doesn't result in a neutral gray in 
 2. To neutralize them, do one full rotation of the Color Mixer with both complementary colors selected.
 3. Finally tap the color in the Mixer and slide the saturation (middle bar) down somewhere between 10--20% to dull it.
 
-{% figure caption:"Neutralizing complementary colors using the Color Mixer" class:"gallery-3-col" %}
-![Mixing a neutral gray step 1](../../images/paper-53-mixing-complementary-gray-1.jpg)
-![Mixing a neutral gray step 2](../../images/paper-53-mixing-complementary-gray-2.jpg)
-![Mixing a neutral gray step 3](../../images/paper-53-mixing-complementary-gray-3.jpg)
-{% endfigure %}
+<figure class="3-column">
+  <img alt="Mixing a neutral gray step 1" src="../../images/paper-53-mixing-complementary-gray-1.jpg">
+  <img alt="Mixing a neutral gray step 2" src="../../images/paper-53-mixing-complementary-gray-2.jpg">
+  <img alt="Mixing a neutral gray step 3" src="../../images/paper-53-mixing-complementary-gray-3.jpg">
+  <figcaption><p>Neutralizing complementary colors using the Color Mixer.</p></figcaption>
+</figure>
 
 I've found that instead of mixing grays from white and black, it is more pleasing to mix them from pairs of complementary colors. This gives you a limitless amount of "grays" to pull from for your palettes.
 
-{% figure caption:"Range of grays made by mixing complementary colors and desaturating them" %}
-![Range of grays from mixing complements](../../images/paper-53-paint-range-grays.jpg)
-{% endfigure %}
+![ange of grays made by mixing complementary colors and desaturating them](../../images/paper-53-paint-range-grays.jpg)
 
 Mixing complements also helps to unify your composition's palette. Using these "neutral grays" as glazes and layering them on top of each other is a useful way for making shadows.
 
@@ -255,9 +226,7 @@ Atmospheric perspective is the phenomenon where intense foreground colors gradua
 
 The amount of contrast in the subject also changes. The illuminated and shadowed sides of an object lower in contrast and flatten as you move further into the background. These objects also begin to loss clarity and will blur and become fuzzy --- a perfect subject for the [Blend tool](/mastering-paper/pencil-first-look/).
 
-{% figure caption:"An example of atmospheric perspective in this mountain background" %}
-![Atmospheric perspective example](../../images/paper-53-atmospheric-perspective.jpg)
-{% endfigure %}
+![Atmospheric perspective example of a man in front of mountains](../../images/paper-53-atmospheric-perspective.jpg)
 
 [[notice | ProTip: color temperature]]
 | If you learn one thing about working with color make it this: *Warm colors advance, and cool colors recede.* The reverse is also true but much more rare in nature.

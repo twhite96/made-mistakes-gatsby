@@ -3,7 +3,7 @@ title: "How to draw realistic hair with Paper for iOS"
 date: 2013-05-10
 path: /mastering-paper/drawing-hair/
 excerpt: "I'm often asked what my Paper techniques for drawing hair is. Learn what they are in this short tutorial."
-last_modified_at: 2018-11-06T11:48:32-05:00
+last_modified_at: 2019-09-12T16:06:54-04:00
 image: ../../images/how-to-draw-hair-feature.jpg
 categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, Apple]
@@ -26,17 +26,20 @@ The key here is observation --- look at how each strand(or section) of hair move
 
 For those new to the app I suggest drawing in grays --- limiting your palette to get a feel for the tools and how they behave. Working with a limitless selection of color could complicate and distract you from learning the tools. Thankfully FiftyThree's excellent color mixer *just works* when you're ready to exploit it.
 
-{% figure caption:"The browns in this default palette are good to start with before mixing your own." %}
-![Default palette](../../images/paper-default-hair-palette-600.jpg)
-{% endfigure %}
+<figure>
+  <img alt="Paper's default palette" src="../../images/paper-default-hair-palette-600.jpg">
+  <figcaption><p>The browns in this default palette are good to start with before mixing your own.</p></figcaption>
+</figure>
 
 On the subject of palettes... I stick with the default sets. Since I draw a ton of portraits, it's much quicker for me to adjust a color on the fly. But I do see the benefit of setting up a predetermined palette beforehand to give your illustration a feeling of cohesion. Before the color mixer existed you had to get inventive if you wanted additional colors. A limitation that encouraged experimentation and sometimes unexpected results.
 
-{% figure caption:"Some of my favorite color presets for drawing hair." class:"gallery-3-col" %}
-[![Paper 53 color for red hair base](../../images/paper-53-color-redheads-200.jpg)](../../images/paper-53-color-redheads-lg.jpg)
-[![Paper 53 color for brunette highlights](../../images/paper-53-color-brunettes-highlight-200.jpg)](../../images/paper-53-color-brunettes-highlight-lg.jpg)
-[![Paper 53 color watercolor shading](../../images/paper-53-color-watercolor-shading-200.jpg)](../../images/paper-53-color-watercolor-shading-lg.jpg)
-{% endfigure %}
+The following are some of my favorite color presets for drawing hair:
+
+![Paper 53 color for red hair base](../../images/paper-53-color-redheads-lg.jpg)
+
+![Paper 53 color for brunette highlights](../../images/paper-53-color-brunettes-highlight-lg.jpg)
+
+![Paper 53 color watercolor shading](../../images/paper-53-color-watercolor-shading-lg.jpg)
 
 ## Dark strokes add definition
 
