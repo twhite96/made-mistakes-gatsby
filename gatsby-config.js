@@ -219,6 +219,14 @@ module.exports = {
               linkImagesToOriginal: true,
             },
           },
+          {
+            resolve: "@weknow/gatsby-remark-twitter",
+            options: {
+              hideThread: true,
+              hideMedia: false,
+              align: 'center',
+            },
+          },
           'gatsby-remark-copy-linked-files',
           {
             resolve: 'gatsby-remark-smartypants',
