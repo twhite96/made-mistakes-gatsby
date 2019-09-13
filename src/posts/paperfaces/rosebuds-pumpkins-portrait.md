@@ -24,7 +24,7 @@ The best part is seeing what others do with them when remixed. I know some other
 [![Twins with beards remix](../../images/paperfaces-rosebuds-pumpkins-remix-1-600.jpg)](https://mix.fiftythree.com/423648-Josh-Carter/424227) [![Chloe with balloons remix](../../images/paperfaces-rosebuds-pumpkins-remix-2-600.jpg)](https://mix.fiftythree.com/41733-Yuko-Rabbit/420387) [![Chloe the slug remix](../../images/paperfaces-rosebuds-pumpkins-remix-4-600.jpg)](https://mix.fiftythree.com/431989-Juan-De-Salas/432123)
 {% endfigure %}
 
-#### Tools used
+**Tools used:**
 
 - [Pencil by FiftyThree](https://www.amazon.com/FiftyThree-Digital-Stylus-Pencil-iPhone/dp/B01JJBUYR4/ref=as_li_ss_tl?keywords=pencil+53&qid=1550586265&s=gateway&sr=8-3&linkCode=ll1&tag=mademist-20&linkId=0134793cb840affff60f2e45a7f64678&language=en_US)
 - [Paper for iOS](https://paper.bywetransfer.com/)

@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper for iOS, Star Wars, beard]
 
 PaperFaces portrait of Obi-Wan Kenobi from Episode III: Revenge of the Sith.
 
-#### Tools used
+**Tools used:**
 
 - [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
 - [Paper for iOS](https://paper.bywetransfer.com/)

@@ -5,19 +5,6 @@ path: /work/basically-basic-jekyll-theme/
 excerpt: "Your new Jekyll default theme."
 last_modified_at: 2019-02-19T10:05:55-05:00
 image: ../../images/jekyll-theme-basically-basic-feature.jpg
-gallery:
-  - url: ../../images/basically-basic-theme-menu.png
-    image_path: ../../images/basically-basic-theme-menu-th.png
-    alt: "off-canvas menu example"
-    class: "browser-frame"
-  - url: ../../images/basically-basic-theme-cv.png
-    image_path: ../../images/basically-basic-theme-cv-th.png
-    alt: "CV example"
-    class: "browser-frame"
-  - url: ../../images/basically-basic-theme-alternate-skin.jpg
-    image_path: ../../images/basically-basic-theme-alternate-skin-th.jpg
-    alt: "alternate skin example"
-    class: "browser-frame"
 categories: [work]
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
@@ -40,9 +27,15 @@ Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as 
 - Disqus Comments and Google Analytics support
 - SEO best practices via [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/)
 
-<p markdown="0">
+<p>
   <a href="https://mmistakes.github.io/jekyll-theme-basically-basic/" onclick="ga('send', 'event', 'link', 'click', 'Preview Basically Basic');" class="btn">Live preview</a>
 </p>
+
+![off-canvas menu example](../../images/basically-basic-theme-menu.png)
+
+![CV example](../../images/basically-basic-theme-cv.png)
+
+![alternate skin example](../../images/basically-basic-theme-alternate-skin.jpg)
 
 ## Usage
 

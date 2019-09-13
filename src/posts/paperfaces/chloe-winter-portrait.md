@@ -12,7 +12,7 @@ Just like [her sister](/paperfaces/everly-autumn-portrait/), *Chlo-worm's* hair 
 
 The more I draw with Paper, the clearer it becomes that I don't really have a set process. Sometimes I start with a rough outline that I continuously erase and refine. Other times I jump right to the darks and work backwards towards the light.
 
-#### Tools used
+**Tools used:**
 
 - [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
 - [Pencil by FiftyThree](https://www.amazon.com/FiftyThree-Digital-Stylus-Pencil-iPhone/dp/B01JJBUYR4/ref=as_li_ss_tl?keywords=pencil+53&qid=1550586265&s=gateway&sr=8-3&linkCode=ll1&tag=mademist-20&linkId=0134793cb840affff60f2e45a7f64678&language=en_US)

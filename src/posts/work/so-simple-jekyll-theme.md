@@ -5,19 +5,6 @@ path: /work/so-simple-jekyll-theme/
 excerpt: "A simple Jekyll theme for words and pictures by designer Michael Rose."
 last_modified_at: 2018-02-06T11:16:06-05:00
 image: ../../images/jekyll-theme-so-simple-feature-2018.jpg
-gallery:
-  - url: ../../images/so-simple-post.png
-    image_path: ../../images/so-simple-post-th.jpg
-    alt: "post layout example"
-    class: "browser-frame"
-  - url: ../../images/so-simple-posts.png
-    image_path: ../../images/so-simple-posts-th.jpg
-    alt: "list of posts layout example"
-    class: "browser-frame"
-  - url: ../../images/so-simple-search.png
-    image_path: ../../images/so-simple-search-th.jpg
-    alt: "search layout example"
-    class: "browser-frame"
 categories: [work]
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
@@ -43,6 +30,12 @@ After having so much fun creating and releasing [my first open source Jekyll the
 <p markdown="0">
   <a href="https://mmistakes.github.io/so-simple-theme/" onclick="ga('send', 'event', 'link', 'click', 'Preview So Simple');" class="btn">Live preview</a>
 </p>
+
+![post layout example](../../images/so-simple-post.png)
+
+![list of posts layout example](../../images/so-simple-posts.png)
+
+![search layout example](../../images/so-simple-search.png)
 
 ## Usage
 

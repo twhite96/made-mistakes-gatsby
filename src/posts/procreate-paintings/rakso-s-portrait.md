@@ -5,29 +5,23 @@ path: /procreate/rakso-s-portrait/
 excerpt: "Portrait of Rakso S. digitally painted with Procreate on an iPad."
 last_modified_at: 2016-10-10T10:49:10-04:00
 image: ../../images/rakso-s-procreate.jpg
-gallery:
-  - url: ../../images/rakso-s-process-1-lg.jpg
-    image_path: ../../images/rakso-s-process-1-320.jpg
-    alt: "line drawing work in process screenshot"
-  - url: ../../images/rakso-s-process-2-lg.jpg
-    image_path: ../../images/rakso-s-process-2-320.jpg
-    alt: "glazing work in process screenshot"
-  - url: ../../images/rakso-s-process-3-lg.jpg
-    image_path: ../../images/rakso-s-process-3-320.jpg
-    alt: "work in progress screenshot"
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, time lapse, beard, Sktchy, black and white]
 ---
 
 Portrait of Rakso S. inspired by a [photograph on Sktchy](https://sktchy.com/a4RQUD). Digitally painted with Procreate on an iPad Air 2.
 
-If you squint your eyes just right it almost looks like a photograph. Just don't zoom in on the forehead or else you'll notice how unpolished the painting really is. But I'm not complaining, 3 hours of work with results like this --- I'll take it!
+If you squint your eyes just right it almost looks like a photograph. Don't zoom in on the forehead or else you'll notice how unpolished the painting really is. But I'm not complaining, 3 hours of work with results like this --- I'll take it!
 
-{% figure caption:"Time lapse video recorded within Procreate, completed in approximately 3 hours." %}
 `youtube: https://www.youtube.com/watch?v=gn6it_JASKY`
-{% endfigure %}
 
-#### Tools used
+![line drawing work in process screenshot](../../images/rakso-s-process-1-lg.jpg)
+
+![glazing work in process screenshot](../../images/rakso-s-process-2-lg.jpg)
+
+![work in progress screenshot](../../images/rakso-s-process-3-lg.jpg)
+
+**Tools used:**
 
 - [Pencil by FiftyThree](https://www.amazon.com/FiftyThree-Digital-Stylus-Pencil-iPhone/dp/B01JJBUYR4/ref=as_li_ss_tl?keywords=pencil+53&qid=1550586265&s=gateway&sr=8-3&linkCode=ll1&tag=mademist-20&linkId=0134793cb840affff60f2e45a7f64678&language=en_US)
 - [Universal Touch Screen Pen](https://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20)

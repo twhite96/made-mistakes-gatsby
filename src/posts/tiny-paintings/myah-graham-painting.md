@@ -13,7 +13,7 @@ Tiny portrait of Myah Graham inspired by a [photograph on Sktchy](https://sktchy
 
 Final painting measures 2.5\" x 1.5\". Facial features at this size sure are difficult to pull off accurately. I constantly found myself getting the proportions wrong and painting them too large.
 
-#### Tools used
+**Tools used:**
 
 - [Holbein Artists' Water Color](https://amzn.to/2ZPsCTN)
 - Arttec 165 Red Sable Brush, Size 00

@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper for iOS]
 
 Saw Iron Man 3 last night and figured I'd challenge myself by drawing the Iron Man himself --- Tony Stark. Those post credit scenes always leave me wanting more Marvel film goodness…
 
-#### Tools used
+**Tools used:**
 
 - [LunaTik Alloy Touch Pen](https://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00821TR7G)
 - [Paper for iOS](https://paper.bywetransfer.com/)

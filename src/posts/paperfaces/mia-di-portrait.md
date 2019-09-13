@@ -11,7 +11,7 @@ last_modified_at: 2017-01-17T16:14:01-05:00
 
 Cooler tones for the eyeshadow and a hint of pink to warm up the cheeks. PaperFaces portrait of [Mia Di D.](https://sktchy.com/BBBOaH) inspired by Sktchy.
 
-#### Tools used
+**Tools used:**
 
 - [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
 - [Paper for iOS](https://paper.bywetransfer.com/)

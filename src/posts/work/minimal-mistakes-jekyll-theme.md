@@ -5,19 +5,6 @@ path: /work/minimal-mistakes-jekyll-theme/
 excerpt: "A flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or your own server."
 last_modified_at: 2018-02-06T11:15:51-05:00
 image: ../../images/minimal-mistakes-3-feature.jpg
-gallery:
-  - url: ../../images/mm-layout-splash.png
-    image_path: ../../images/mm-layout-splash-th.jpg
-    alt: "splash layout example"
-    class: "browser-frame"
-  - url: ../../images/mm-layout-single-meta.png
-    image_path: ../../images/mm-layout-single-meta-th.jpg
-    alt: "single layout with comments and related posts"
-    class: "browser-frame"
-  - url: ../../images/mm-layout-archive.png
-    image_path: ../../images/mm-layout-archive-th.jpg
-    alt: "archive layout example"
-    class: "browser-frame"
 categories: [work]
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
@@ -48,6 +35,12 @@ Includes responsive layouts (`single`, `archive`, and `splash` pages) that look 
 - Optional header images, sidebars, table of contents, galleries, related posts, breadcrumb links, and more.
 - Optional comments ([Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, [Staticman](https://staticman.net/), and custom)
 - Optional analytics ([Google Analytics](https://www.google.com/analytics/) and custom)
+
+![splash layout example](../../images/mm-layout-splash.png)
+
+![single layout with comments and related posts](../../images/mm-layout-single-meta.png)
+
+![archive layout example](../../images/mm-layout-archive.png)
 
 ## Usage
 

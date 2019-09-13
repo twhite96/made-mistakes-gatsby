@@ -13,7 +13,7 @@ The last time I drew a [self portrait](/paperfaces/michael-rose-beard-portrait/)
 
 I thought it would be fun to take a minute from drawing strangers and work on something more familiar. Especially since the beard is no more and my [about page](/about/) could use a refresh.
 
-#### Tools used
+**Tools used:**
 
 - [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
 - [Paper for iOS](https://paper.bywetransfer.com/)

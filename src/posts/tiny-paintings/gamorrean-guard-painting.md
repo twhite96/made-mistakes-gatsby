@@ -13,7 +13,7 @@ Tiny portrait of a Gamorrean Guard from **Return of the Jedi**. Painted with wat
 
 Final painting measures 1.5\" x 1.5\". Ended up a little more illustrative than realistic, but I'll take it.
 
-#### Tools used
+**Tools used:**
 
 - [Holbein Artists' Water Color](https://amzn.to/2ZPsCTN)
 - Arttec 165 Red Sable Brush, Size 00

@@ -15,7 +15,7 @@ I finally got my hands on a new iPad Pro and the highly responsive Apple Pencil.
 
 https://twitter.com/mmistakes/status/976620815662960640?ref_src=twsrc%5Etfw
 
-#### Tools used
+**Tools used:**
 
 - [Apple Pencil](https://www.apple.com/apple-pencil/)
 - [iPad Pro 12.9" (2nd generation)](https://www.apple.com/ipad-pro/)

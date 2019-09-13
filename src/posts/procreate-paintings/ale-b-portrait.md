@@ -19,7 +19,7 @@ Two hours and 30 minutes of beard scribbling over the last couple of weeks. Beca
 
 https://twitter.com/mmistakes/status/990746870380195840?ref_src=twsrc%5Etfw
 
-#### Tools used
+**Tools used:**
 
 - [Apple Pencil](https://www.apple.com/apple-pencil/)
 - [iPad Pro 12.9" (2nd generation)](https://www.apple.com/ipad-pro/)

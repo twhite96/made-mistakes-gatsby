@@ -5,10 +5,6 @@ path: /tiny-paintings/greedo-painting/
 excerpt: "Tiny portrait of Greedo painted with watercolor on hot press paper."
 last_modified_at: 2016-10-10T11:20:57-04:00
 image: ../../images/painting-greedo.jpg
-gallery:
-  - url: ../../images/painting-greedo-process-1-lg.jpg
-    image_path: ../../images/painting-greedo-process-1-900.jpg
-    alt: "Pencil sketch work in process"
 categories: [tiny-paintings]
 tags: [watercolor, portrait, illustration, Star Wars]
 ---
@@ -17,7 +13,9 @@ Tiny portrait of Greedo from **Star Wars**. Painted with watercolor on hot press
 
 Final painting measures 1.5\" x 1.5\". Patience is one thing I struggle with when painting so small. Trying to rush things along really screwed me in a few places. That and leaving too much water on my brush...
 
-#### Tools used
+![Pencil sketch work in process](../../images/painting-greedo-process-1-lg.jpg)
+
+**Tools used:**
 
 - [Holbein Artists' Water Color](https://amzn.to/2ZPsCTN)
 - Arttec 165 Red Sable Brush, Size 00

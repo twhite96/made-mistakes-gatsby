@@ -6,16 +6,6 @@ excerpt: "PaperFaces portrait Luke Skywalker and Darth Vader drawn with Paper fo
 image: ../../images/paperfaces-luke-vader-cave.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Star Wars]
-gallery:
-  - url: ../../images/star-wars-canvaspop-1.jpg
-    image_path: ../../images/star-wars-canvaspop-1-600.jpg
-    alt: "CanvasPop print packaged up"
-  - url: ../../images/star-wars-canvaspop-2.jpg
-    image_path: ../../images/star-wars-canvaspop-2-600.jpg
-    alt: "50 inch CanvasPop Star Wars print"
-  - url: ../../images/star-wars-canvaspop-3.jpg
-    image_path: ../../images/star-wars-canvaspop-3-600.jpg
-    alt: "Detail shot of Luke Skywalker illustration"
 last_modified_at: 2016-12-16T21:30:28-05:00
 ---
 
@@ -25,7 +15,13 @@ As I have done for the last 2 years, here's a new illustration drawn with Paper 
 
 To the right are some shots of the gigantic 40\" framed print I received for being one of eleven winning entries in the [**FiftyThree** and **CanvasPop** design contest](http://blog.fiftythree.com/canvaspop-design-contest-winners). Don't mind the glare, photographing a dark piece of artwork behind glass wasn't easy.
 
-#### Tools used
+![CanvasPop print packaged up](../../images/star-wars-canvaspop-1.jpg)
+
+![50 inch CanvasPop Star Wars print](../../images/star-wars-canvaspop-2.jpg)
+
+![Detail shot of Luke Skywalker illustration](../../images/star-wars-canvaspop-3.jpg)
+
+**Tools used:**
 
 - [Pencil by FiftyThree](https://www.amazon.com/FiftyThree-Digital-Stylus-Pencil-iPhone/dp/B01JJBUYR4/ref=as_li_ss_tl?keywords=pencil+53&qid=1550586265&s=gateway&sr=8-3&linkCode=ll1&tag=mademist-20&linkId=0134793cb840affff60f2e45a7f64678&language=en_US)
 - [Paper for iOS](https://paper.bywetransfer.com/)

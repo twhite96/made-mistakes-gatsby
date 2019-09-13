@@ -5,10 +5,6 @@ path: /tiny-paintings/grand-moff-tarkin-painting/
 excerpt: "Tiny portrait of a Grand Moff Tarkin painted with watercolor on hot press paper."
 last_modified_at: 2016-10-10T11:21:40-04:00
 image: ../../images/painting-grand-moff-tarkin.jpg
-gallery:
-  - url: ../../images/painting-grand-moff-tarkin-process-1-lg.jpg
-    image_path: ../../images/painting-grand-moff-tarkin-process-1-900.jpg
-    alt: "Pencil sketch work in process"
 categories: [tiny-paintings]
 tags: [watercolor, portrait, illustration, Star Wars]
 ---
@@ -17,7 +13,9 @@ Tiny portrait of Grand Moff Tarkin from **Star Wars**. Painted with watercolor o
 
 Final painting measures 1.5\" x 1.5\" and was completed about 3 hours. Was convinced he was going to resemble Magneto by the end of it, but was able to pull it together once the color started to flow.
 
-#### Tools used
+![Pencil sketch work in process](../../images/painting-grand-moff-tarkin-process-1-lg.jpg)
+
+**Tools used:**
 
 - [Holbein Artists' Water Color](https://amzn.to/2ZPsCTN)
 - Arttec 165 Red Sable Brush, Size 00

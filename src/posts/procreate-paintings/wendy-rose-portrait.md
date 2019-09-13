@@ -21,7 +21,7 @@ Paper's sketchbook motif resonated with me more than the approach digital painti
 `youtube: https://www.youtube.com/watch?v=w2e0phIhGq8`
 {% endfigure %}
 
-#### Tools Used
+**Tools used:**
 
 - [Pogo Connect Bluetooth Smart Pen](http://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
 - [Procreate](http://procreate.si/)

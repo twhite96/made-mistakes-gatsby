@@ -18,7 +18,7 @@ Portrait of Tatha S. inspired by a [photograph on Sktchy](https://sktchy.com/Eoe
 
 https://twitter.com/mmistakes/status/984246043511607297?ref_src=twsrc%5Etfw
 
-#### Tools used
+**Tools used:**
 
 - [Apple Pencil](https://www.apple.com/apple-pencil/)
 - [iPad Pro 12.9" (2nd generation)](https://www.apple.com/ipad-pro/)

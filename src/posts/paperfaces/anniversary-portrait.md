@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper for iOS, black and white, self portrait, be
 
 Nothing says romance quite like drawing a faceless portrait of your wife on your wedding day. Happy Anniversary [Wendy](https://2littlerosebuds.com) --- and as your friend [Toodee](http://uncyclopedia.wikia.com/wiki/Yo_Gabba_Gabba!) would say, "Keep on Jumping."
 
-#### Tools used
+**Tools used:**
 
 - [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
 - [Paper for iOS](https://paper.bywetransfer.com/)

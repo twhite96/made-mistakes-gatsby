@@ -22,7 +22,7 @@ Final painting measures 1.5\" x 1.5\".
 `youtube: https://www.youtube.com/watch?v=QDpXp5v2syk`
 {% endfigure %}
 
-#### Tools used
+**Tools used:**
 
 - [Holbein Artists' Water Color](https://amzn.to/2ZPsCTN)
 - Arttec 165 Red Sable Brush, Size 00
