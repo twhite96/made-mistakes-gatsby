@@ -10,7 +10,10 @@ tags: [portrait, illustration, Paper for iOS, black and white]
 
 PaperFaces portrait of [@andispringer](https://twitter.com/andispringer). If you haven't noticed a theme yet --- I tend to draw a full face when working in black and white.
 
-{% include_cached boilerplate/paperfaces-2.md %}
+#### Tools used
+
+- [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
+- [Paper for iOS](https://paper.bywetransfer.com/)
 
 {% figure caption:"Quick sketch with the pencil tool to figure out the composition." %}
 [![Work in process screenshot](../../images/paperfaces-andispringer-process-1-600.jpg)](../../images/paperfaces-andispringer-process-1-lg.jpg)

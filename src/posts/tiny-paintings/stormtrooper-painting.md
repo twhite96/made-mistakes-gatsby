@@ -20,4 +20,7 @@ Tiny portrait of a Stormtrooper from **Star Wars**. Painted with watercolor on h
 
 Final painting measures 1.5\" x 1.5\" and was completed in just under one hour. Underestimated how bad things can go when using white watercolor painting incorrectly. I won't make that mistake again...
 
-{% include_cached boilerplate/watercolor.md %}
+#### Tools used
+
+- [Holbein Artists' Water Color](https://amzn.to/2ZPsCTN)
+- Arttec 165 Red Sable Brush, Size 00

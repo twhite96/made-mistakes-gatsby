@@ -15,7 +15,10 @@ Unfortunately the pencil tool doesn't scale in size when zoomed in like the ink 
 
 PaperFaces portrait of a [Jess J.](https://sktchy.com/pFAWd) inspired by a photograph on Sktchy.
 
-{% include_cached boilerplate/paperfaces-2.md %}
+#### Tools used
+
+- [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
+- [Paper for iOS](https://paper.bywetransfer.com/)
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](../../images/paperfaces-jess-j-process-1-600.jpg)](../../images/paperfaces-jess-j-process-1-lg.jpg)

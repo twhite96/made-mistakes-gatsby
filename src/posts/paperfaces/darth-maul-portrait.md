@@ -10,7 +10,10 @@ tags: [portrait, illustration, Paper for iOS, Star Wars]
 
 PaperFaces portrait of Darth Maul from Episode I: The Phantom Menace.
 
-{% include_cached boilerplate/paperfaces-2.md %}
+#### Tools used
+
+- [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
+- [Paper for iOS](https://paper.bywetransfer.com/)
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](../../images/paperfaces-darth-maul-process-1-600.jpg)](../../images/paperfaces-darth-maul-process-1-lg.jpg) [![Work in process screenshot](../../images/paperfaces-darth-maul-process-2-600.jpg)](../../images/paperfaces-darth-maul-process-2-lg.jpg) [![Work in process screenshot](../../images/paperfaces-darth-maul-process-3-600.jpg)](../../images/paperfaces-darth-maul-process-3-lg.jpg) [![Work in process screenshot](../../images/paperfaces-darth-maul-process-4-600.jpg)](../../images/paperfaces-darth-maul-process-4-lg.jpg) [![Work in process screenshot](../../images/paperfaces-darth-maul-process-5-600.jpg)](../../images/paperfaces-darth-maul-process-5-lg.jpg)

@@ -17,4 +17,7 @@ Tiny portrait of a Bith from **Star Wars**. Painted with watercolor on hot press
 
 Final painting measures 1.5\" x 1.5\". There sure are a lot of fun freaks from the Mos Eisley Cantina scene to choose from. Could have greatly benefited from a clear reference photograph...
 
-{% include_cached boilerplate/watercolor.md %}
+#### Tools used
+
+- [Holbein Artists' Water Color](https://amzn.to/2ZPsCTN)
+- Arttec 165 Red Sable Brush, Size 00

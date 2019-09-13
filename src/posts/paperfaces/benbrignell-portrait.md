@@ -10,7 +10,10 @@ tags: [portrait, illustration, Paper for iOS, beard]
 
 PaperFaces portrait of [@benbrignell](https://twitter.com/benbrignell).
 
-{% include_cached boilerplate/paperfaces-2.md %}
+#### Tools used
+
+- [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
+- [Paper for iOS](https://paper.bywetransfer.com/)
 
 {% figure caption:"Blocking out facial features and gradually adding tones using the watercolor brush." class:"gallery-2-col" %}
 [![Adding detail with the pencil tool.](../../images/paperfaces-benbrignell-process-1-600.jpg)](../../images/paperfaces-benbrignell-process-1-lg.jpg)

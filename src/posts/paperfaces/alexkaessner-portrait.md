@@ -10,4 +10,7 @@ tags: [portrait, illustration, Paper for iOS]
 
 PaperFaces portrait of [@alexkaessner](https://twitter.com/alexkaessner). On occasion, I'll attempt a more detailed portrait that actually includes an eye, a nose, or a mouth. It's easier to fake being an artist when you only half to draw half… 
 
-{% include_cached boilerplate/paperfaces-2.md %}
+#### Tools used
+
+- [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
+- [Paper for iOS](https://paper.bywetransfer.com/)

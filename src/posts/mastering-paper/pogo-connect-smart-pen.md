@@ -161,4 +161,4 @@ If it wasn't for Paper I probably would have dumped the Pogo and moved to the Ad
 |
 | It doesn't vary strokes in the same way as a Pogo Connect (or other pressure sensitive styli), but it produces the same results and has [a few tricks](/mastering-paper/pencil-first-look/) up its sleeve.
 
-{% include_cached affiliate-disclosure.html %}
+<small>Post contains affiliate and/or referral links. For more details read my <a href="/terms/#disclosure-policy">disclosure policy</a>.</small>

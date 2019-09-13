@@ -10,7 +10,10 @@ tags: [portrait, illustration, Paper for iOS]
 
 PaperFaces portrait of [my wife Wendy](http://2littlerosebuds.com) for her birthday. As you may have noticed I used the entire canvas this time and didn't follow the usual square cropped format. Just one of the many perks of being married to me. Har har…
 
-{% include_cached boilerplate/paperfaces-2.md %}
+#### Tools used
+
+- [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
+- [Paper for iOS](https://paper.bywetransfer.com/)
 
 {% figure caption:"It all starts with a pencil sketch followed by many layers of watercolor." class:"gallery-2-col" %}
 [![Work in process screenshot](../../images/paperfaces-veganwendy-birthday-process-1-600.jpg)](../../images/paperfaces-veganwendy-birthday-process-1-lg.jpg)

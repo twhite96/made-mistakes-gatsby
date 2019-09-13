@@ -10,7 +10,10 @@ tags: [portrait, illustration, Paper for iOS]
 
 PaperFaces portrait of [@jhummel](https://twitter.com/jhummel).
 
-{% include_cached boilerplate/paperfaces-2.md %}
+#### Tools used
+
+- [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
+- [Paper for iOS](https://paper.bywetransfer.com/)
 
 {% figure caption:"Started by filling the background with black and then sketching over it in white. If I made a mistake or didn't like the shape of a line I used black to *erase* it." %}
 [![Work in process screenshot](../../images/paperfaces-jhummel-process-1-600.jpg)](../../images/paperfaces-jhummel-process-1-lg.jpg)

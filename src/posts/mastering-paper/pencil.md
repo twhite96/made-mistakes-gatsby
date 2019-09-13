@@ -478,6 +478,6 @@ And if you create something cool with Blend feel free to share in comments below
 
 [Buy Pencil by FiftyThree][buy-pencil]{: .btn}
 
-{% include_cached affiliate-disclosure.html %}
+<small>Post contains affiliate and/or referral links. For more details read my <a href="/terms/#disclosure-policy">disclosure policy</a>.</small>
 
 [buy-pencil]: https://amzn.to/2ZWJ19R

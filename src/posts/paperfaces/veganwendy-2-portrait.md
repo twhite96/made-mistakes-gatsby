@@ -13,7 +13,10 @@ Well it's been exactly two years since I started the [PaperFaces Project](/paper
 
 It wasn't the most difficult photograph to recreate in Paper, seeing how the face is obscured and all that. But you can certainly see a change in technique and accuracy between the two.
 
-{% include_cached boilerplate/paperfaces-3.md %}
+#### Tools used
+
+- [Pencil by FiftyThree](https://www.amazon.com/FiftyThree-Digital-Stylus-Pencil-iPhone/dp/B01JJBUYR4/ref=as_li_ss_tl?keywords=pencil+53&qid=1550586265&s=gateway&sr=8-3&linkCode=ll1&tag=mademist-20&linkId=0134793cb840affff60f2e45a7f64678&language=en_US)
+- [Paper for iOS](https://paper.bywetransfer.com/)
 
 {% figure caption:"What a difference two years made." class:"gallery-3-col" %}
 [![first PaperFaces portrait](../../images/paperfaces-veganwendy-twitter-600.jpg)](../../images/paperfaces-veganwendy-twitter.jpg) [![last PaperFaces portrait?](../../images/paperfaces-veganwendy-2-twitter-600.jpg)](../../images/paperfaces-veganwendy-2-twitter.jpg)

@@ -13,4 +13,7 @@ Tiny portrait of Ponda Baba from **Star Wars**. Painted with watercolor on hot p
 
 Final painting measures 1.5\" x 1.5\". Really happy with the colors on this one, even if I lost some of the furry details in the face.
 
-{% include_cached boilerplate/watercolor.md %}
+#### Tools used
+
+- [Holbein Artists' Water Color](https://amzn.to/2ZPsCTN)
+- Arttec 165 Red Sable Brush, Size 00

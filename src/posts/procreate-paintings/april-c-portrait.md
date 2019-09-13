@@ -16,4 +16,9 @@ It's been a hectic start to spring so I haven't had too much free time to paint.
 <blockquote class="twitter-video" data-lang="en"><p lang="en" dir="ltr">Messy messy <a href="https://twitter.com/hashtag/Procreate?src=hash">#Procreate</a> <a href="https://twitter.com/hashtag/Sktchy?src=hash">#Sktchy</a> <a href="https://t.co/C5PjBiY5P0">pic.twitter.com/C5PjBiY5P0</a></p>&mdash; Michael Rose (@mmistakes) <a href="https://twitter.com/mmistakes/status/719340953656508416">April 11, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-{% include_cached boilerplate/procreate.md %}
+#### Tools used
+
+- [Pencil by FiftyThree](https://www.amazon.com/FiftyThree-Digital-Stylus-Pencil-iPhone/dp/B01JJBUYR4/ref=as_li_ss_tl?keywords=pencil+53&qid=1550586265&s=gateway&sr=8-3&linkCode=ll1&tag=mademist-20&linkId=0134793cb840affff60f2e45a7f64678&language=en_US)
+- [Universal Touch Screen Pen](https://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20)
+- [iPad Air 2](https://en.wikipedia.org/wiki/IPad_Air_2)
+- [Procreate](https://procreate.art/)

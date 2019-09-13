@@ -12,6 +12,9 @@ PaperFaces portrait of project donator [@VanessaTSmiles](https://twitter.com/Van
 
 I also recorded my iPad's screen for this portrait that shows the new zoom tool in action. <del>Just have to edit the raw capture in Adobe AfterEffects and then post to YouTube. Should be up soon…</del>
 
-{% include_cached boilerplate/paperfaces.md %}
+#### Tools used
+
+- [LunaTik Alloy Touch Pen](https://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00821TR7G)
+- [Paper for iOS](https://paper.bywetransfer.com/)
 
 `youtube: https://www.youtube.com/watch?v=PWf4WUoMXwg`

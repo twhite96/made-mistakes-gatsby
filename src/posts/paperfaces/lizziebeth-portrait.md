@@ -16,6 +16,9 @@ After grabbing around 1,000 images I imported them into **Adobe AfterEffects** a
 
 The lighting kind of sucks and the focus is off in a few parts, but I think it came out ok for my second time lapse attempt. Next time I'll take more care to get my white balance correct upfront and make sure I don't bump into the tripod midway through the shoot.
 
-{% include_cached boilerplate/paperfaces-2.md %}
+#### Tools used
+
+- [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
+- [Paper for iOS](https://paper.bywetransfer.com/)
 
 `youtube: https://www.youtube.com/watch?v=FGCPOimgdb4`

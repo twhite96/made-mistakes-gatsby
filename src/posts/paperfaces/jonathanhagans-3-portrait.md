@@ -14,7 +14,10 @@ But at the same time it has been fun approaching these portraits in a new way to
 
 PaperFaces portrait commission for [@jonathanhagans](https://twitter.com/jonathanhagans).
 
-{% include_cached boilerplate/paperfaces-2.md %}
+#### Tools used
+
+- [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
+- [Paper for iOS](https://paper.bywetransfer.com/)
 
 {% figure caption:"Beginning the portrait with a pencil sketch." %}
 [![Work in process screenshot](../../images/paperfaces-jonathanhagans-3-process-1-750.jpg)](../../images/paperfaces-jonathanhagans-3-process-1-lg.jpg)

@@ -143,4 +143,4 @@ Want to know more about Pencil or the new features it enables --- ask away in th
 
 `youtube: https://www.youtube.com/watch?v=K2dgaV9_rCI`
 
-{% include_cached affiliate-disclosure.html %}
+<small>Post contains affiliate and/or referral links. For more details read my <a href="/terms/#disclosure-policy">disclosure policy</a>.</small>

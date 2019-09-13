@@ -10,7 +10,10 @@ tags: [portrait, illustration, Paper for iOS]
 
 **Project Donator** [@brianjolive](https://twitter.com/brianjolive) commissioned this portrait of his great friend and long time teacher of *Go*. Below are some in process screen captures over the course of an hour as I worked on the illustration. Let me just say this, drawing straight lines on glass and getting the correct perspective isn't easy.
 
-{% include_cached boilerplate/paperfaces-2.md %}
+#### Tools used
+
+- [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
+- [Paper for iOS](https://paper.bywetransfer.com/)
 
 {% figure caption:"Laying down a base coat of watercolor using pencil to outline the game board and figure." %}
 [![](../../images/paperfaces-go-master-process-1-600.jpg)](../../images/paperfaces-go-master-process-1-lg.jpg)

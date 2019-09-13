@@ -11,7 +11,10 @@ last_modified_at: 2017-01-17T16:15:25-05:00
 
 PaperFaces portrait of [@tombryan](https://twitter.com/tombryan).
 
-{% include_cached boilerplate/paperfaces-2.md %}
+#### Tools used
+
+- [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
+- [Paper for iOS](https://paper.bywetransfer.com/)
 
 {% figure caption:"Work in progress screenshots (Paper for iOS)." class:"gallery-3-col" %}
 [![Work in process screenshot](../../images/paperfaces-tombryan-process-1-750.jpg)](../../images/paperfaces-tombryan-process-1-lg.jpg)

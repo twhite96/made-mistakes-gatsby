@@ -10,7 +10,10 @@ tags: [portrait, illustration, Paper for iOS]
 
 PaperFaces portrait of [@drunkcod](https://twitter.com/drunkcod). Suppose I could have flipped the reference photo right side up before drawing it, but where's the fun in that?
 
-{% include_cached boilerplate/paperfaces-2.md %}
+#### Tools used
+
+- [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
+- [Paper for iOS](https://paper.bywetransfer.com/)
 
 {% figure caption:"Pencil sketch to rough out the composition." %}
 [![Work in process screenshot](../../images/paperfaces-drunkcod-process-1-750.jpg)](../../images/paperfaces-drunkcod-process-1-lg.jpg)

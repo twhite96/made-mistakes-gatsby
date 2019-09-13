@@ -21,4 +21,7 @@ last_modified_at: 2016-09-29T16:02:37-04:00
 
 A PaperFaces drawing of the my two little girls Everly and Chloe on their second birthday.
 
-{% include_cached boilerplate/paperfaces-2.md %}
+#### Tools used
+
+- [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
+- [Paper for iOS](https://paper.bywetransfer.com/)

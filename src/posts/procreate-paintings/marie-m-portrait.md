@@ -18,4 +18,8 @@ Approximately 6 hours of work spread across a couple of weeks.
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </figure>
 
-{% include_cached boilerplate/procreate-3.md %}
+#### Tools used
+
+- [Apple Pencil](https://www.apple.com/apple-pencil/)
+- [iPad Pro 12.9" (2nd generation)](https://www.apple.com/ipad-pro/)
+- [Procreate](https://procreate.art/)

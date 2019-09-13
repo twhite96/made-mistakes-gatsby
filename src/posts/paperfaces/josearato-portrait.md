@@ -10,7 +10,10 @@ tags: [portrait, illustration, Paper for iOS, beard]
 
 PaperFaces portrait of project donator [@josearato](https://twitter.com/josearato). Why did I almost draw the entire face this team --- because well, I had to leave something unfinished.
 
-{% include_cached boilerplate/paperfaces-2.md %}
+#### Tools used
+
+- [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
+- [Paper for iOS](https://paper.bywetransfer.com/)
 
 {% figure caption:"Lightly sketch out the composition to act as a guide for painting with watercolor." %}
 [![Work in process screenshot](../../images/paperfaces-josearato-process-1-600.jpg)](../../images/paperfaces-josearato-process-1-lg.jpg)

@@ -10,7 +10,10 @@ tags: [portrait, illustration, Paper for iOS, beard]
 
 PaperFaces portrait of [@thatmiddleway](https://twitter.com/thatmiddleway).
 
-{% include_cached boilerplate/paperfaces.md %}
+#### Tools used
+
+- [LunaTik Alloy Touch Pen](https://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00821TR7G)
+- [Paper for iOS](https://paper.bywetransfer.com/)
 
 {% figure caption:"Work in progress screenshots." class:"gallery-2-col" %}
 [![](../../images/paperfaces-thatmiddleway-process-1-600.jpg)](../../images/paperfaces-thatmiddleway-process-1-lg.jpg)

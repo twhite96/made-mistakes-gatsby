@@ -13,7 +13,10 @@ The last time I drew a [self portrait](/paperfaces/michael-rose-beard-portrait/)
 
 I thought it would be fun to take a minute from drawing strangers and work on something more familiar. Especially since the beard is no more and my [about page](/about/) could use a refresh.
 
-{% include_cached boilerplate/paperfaces-2.md %}
+#### Tools used
+
+- [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
+- [Paper for iOS](https://paper.bywetransfer.com/)
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](../../images/paperfaces-mmistakes-2-process-1-600.jpg)](../../images/paperfaces-mmistakes-2-process-1-lg.jpg) [![Work in process screenshot](../../images/paperfaces-mmistakes-2-process-2-600.jpg)](../../images/paperfaces-mmistakes-2-process-2-lg.jpg) [![Work in process screenshot](../../images/paperfaces-mmistakes-2-process-3-600.jpg)](../../images/paperfaces-mmistakes-2-process-3-lg.jpg) [![Work in process screenshot](../../images/paperfaces-mmistakes-2-process-4-600.jpg)](../../images/paperfaces-mmistakes-2-process-4-lg.jpg) [![Work in process screenshot](../../images/paperfaces-mmistakes-2-process-5-600.jpg)](../../images/paperfaces-mmistakes-2-process-5-lg.jpg) [![Work in process screenshot](../../images/paperfaces-mmistakes-2-process-6-600.jpg)](../../images/paperfaces-mmistakes-2-process-6-lg.jpg) [![Work in process screenshot](../../images/paperfaces-mmistakes-2-process-7-600.jpg)](../../images/paperfaces-mmistakes-2-process-7-lg.jpg)

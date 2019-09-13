@@ -10,7 +10,10 @@ tags: [portrait, illustration, Paper for iOS]
 
 PaperFaces portrait of [@parkr](https://twitter.com/parkr). Thought this Twitter name looked familiar, and then it hit me --- @parkr is one of the dudes doing solid development work on [Jekyll](http://jekyllrb.com), my favorite static site generator.
 
-{% include_cached boilerplate/paperfaces-2.md %}
+#### Tools used
+
+- [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
+- [Paper for iOS](https://paper.bywetransfer.com/)
 
 {% figure caption:"Sketching out the composition lightly in pencil." %}
 [![Work in process screenshot](../../images/paperfaces-parkr-process-1-600.jpg)](../../images/paperfaces-parkr-process-1-lg.jpg)
