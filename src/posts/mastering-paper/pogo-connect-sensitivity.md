@@ -3,7 +3,7 @@ title: "Pogo Connect stylus sensitivity fix"
 date: 2013-12-18
 path: /mastering-paper/pogo-connect-sensitivity/
 excerpt: "How to adjust the pressure sensitivity of a Pogo Connect's tip with firmware v1.1.0."
-last_modified_at: 2018-11-06T11:59:22-05:00
+last_modified_at: 2019-09-13T14:21:40-04:00
 categories: [mastering-paper]
 tags: [Pogo Connect, Paper for iOS, Apple]
 comments: true
@@ -12,7 +12,7 @@ comments_locked: true
 
 About a month ago I received a replacement [Pogo Connect Smart Pen](/mastering-paper/pogo-connect-smart-pen/) due to a defect that caused it to stop working. Using this replacement for a few days it was clear to me that something was different about this newer model.
 
-I use Paper by FiftyThree almost exclusively for drawing with the occasional Procreate experiment. When using either app I noticed that the sensitivity of the Pogo's tip seemed off. To get the full range of stroke sizes I now had to press extremely hard to register a wide stroke (see screenshot below), which really started to screw with how I draw.
+I use **Paper by FiftyThree** exclusively for drawing with the occasional **Procreate** experiment. When using either app I noticed that the sensitivity of the Pogo's tip seemed off. To get the full range of stroke sizes I now had to press extremely hard to register a wide stroke (see screenshot below), which started to screw with how I draw.
 
 ![Calibrated Pogo Connect line comparison](../../images/pogo-connect-sensitivity-lines.jpg)
 
@@ -22,7 +22,7 @@ Isolating the cause is hard because so many factors had changed around the same 
 * TenOne Design updated the Pogo Connect's firmware to 1.1.0 --- needed for some of the [new tips](http://tenonedesign.com/connect.php) they recently released.
 * Design changes were made to the Pogo Connect to reinforce the internals and tip.
 
-From my tests it seems to be related to the 1.1.0 firmware or the extra solder being used to keep the tip from busting off. Older Pogo's with the 1.0.6 firmware worked just fine with iOS 7 and updated apps.
+From my tests it seems to be related to the 1.1.0 firmware or the extra solder being used to keep the tip from busting off. Older Pogo's with the 1.0.6 firmware worked fine with iOS 7 and updated apps.
 
 ## But how do you fix it?
 
@@ -34,11 +34,12 @@ Next you'll need to open (or download) the free [**Pogo Connect app**](https://i
 
 ![Connected](../../images/pogo-connect-app-connecting.jpg)
 
-Upon opening the app you should notice it trying to connect to the stylus. When that completes, tap the **Configuration** tab at the very bottom to customize the stylus to your liking. The two settings I altered to make it behave how it used to were **Locator Beacon** and **Pressure Amount**.
+Upon opening the app you should notice it trying to connect to the stylus. When that completes, tap the **Configuration** tab at the  bottom to customize the stylus to your liking. The two settings I altered to make it behave how it used to were **Locator Beacon** and **Pressure Amount**.
 
-{% figure caption:"I turned off the Locator Beacon, set Pressure Amount to +6, and selected the R3 tip to profile." %}
-![Pogo Connect app settings screen](../../images/pogo-connect-app-settings.jpg)
-{% endfigure %}
+<figure>
+  <img alt="Pogo Connect app settings screen" src="../../images/pogo-connect-app-settings.jpg">
+  <figcaption><p>I turned off the Locator Beacon, set Pressure Amount to +6, and selected the R3 tip to profile.</p></figcaption>
+</figure>
 
 After making these changes you can doodle around in the space below to verify the sensitivity settings are to you liking. You can then switch back to Paper and the new settings should be noticeable in the app.
 

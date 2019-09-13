@@ -7,21 +7,19 @@ categories: [mastering-paper]
 tags: [Paper for iOS, Apple, tutorial]
 image: ../../images/paper-53-full-tools.jpg
 toc: true
-last_modified_at: 2018-11-06T12:06:36-05:00
+last_modified_at: 2019-09-13T15:02:11-04:00
 comments: true
 ---
 
-New to Paper by FiftyThree and just can't seem to figure out how to switch tools? I have the short answer for you right here.
+New to Paper by FiftyThree and can't seem to figure out how to switch tools? I have the short answer for you right here.
 
 They may be subtle, but the white dots beneath the row of tools are a big clue to help solve this mystery. Similar to the dots you find at the bottom of your iOS device's home screen, they indicate there are off-screen goodies to be had.
 
-{% figure caption:"There be more tools to the right, don't worry you get them for free." %}
 ![indicator dots beneath Paper tools](../../images/paper-53-switch-tools-dots.jpg)
-{% endfigure %}
 
 ## Tool switching (iPad)
 
-Simply swipe across the row of **Think Kit** tools to reveal another set of five ([Fountain Pen][fountain-pen], [Pencil][pencil], [Marker][marker], [Fine Tip Ink Pen][ink-pen], and [Watercolor Brush][watercolor-brush]) to the right.
+Swipe across the row of **Think Kit** tools to reveal another set of five ([Fountain Pen][fountain-pen], [Pencil][pencil], [Marker][marker], [Fine Tip Ink Pen][ink-pen], and [Watercolor Brush][watercolor-brush]) to the right.
 
 [fountain-pen]: /mastering-paper/introduction-tool-guide/#fountain-pen
 [pencil]: /mastering-paper/introduction-tool-guide/#pencil
@@ -29,18 +27,12 @@ Simply swipe across the row of **Think Kit** tools to reveal another set of five
 [ink-pen]: /mastering-paper/introduction-tool-guide/#ink-pen
 [watercolor-brush]: /mastering-paper/introduction-tool-guide/#watercolor-brush
 
-{% figure caption:"Video showing how to switch between the diagramming and drawing tools on iPad." %}
 `youtube: https://www.youtube.com/watch?v=KXqj04MfDLk`
-{% endfigure %}
 
 ## Tool switching (iPhone)
 
 And for you iPhone Paper users there are three sets of tools you can swipe through.
 
-{% figure caption:"Switching tools in iPhone version of Paper." %}
 ![switching tools in Paper by 53 for the iPhone](../../images/paper-53-switch-tools-iphone.gif)
-{% endfigure %}
 
 I know what you're thinking, "wow how could anyone miss this?" Well from the amount of emails I receive a month asking how to change tools... quite a lot :wink:.
-
-Baffled by how to do something else in Paper? Leave a comment below, or if you'd prefer to keep it private fire off a message to me from my [Contact page](/contact/).
