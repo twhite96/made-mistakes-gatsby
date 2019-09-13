@@ -94,4 +94,5 @@ If I missed anything or you're looking for more pointers leave a comment below o
 
 `youtube: https://www.youtube.com/watch?v=K2dgaV9_rCI&list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao`
 
-{% include_cached affiliate-disclosure.html %}
+<small>Post contains affiliate and/or referral links. For more details read my <a href="/terms/#disclosure-policy">disclosure policy</a>.</small>
+
