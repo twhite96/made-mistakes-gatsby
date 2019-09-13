@@ -63,13 +63,13 @@ collections:
 I choose not to output a file for each color/component since I planned on grouping them together on a single page. But if I later wanted to break them out into separate pages (something I did for my [FAQ section](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/src/_faqs) I would simply change `output: false` to `true` and add paths to the YAML Front Matter.
 
 [[notice | Looking to the future]]
-| For version 2.0 of the style guide I may investigate taking it to the next level by constructing a complete [atomic design system](http://atomicdesign.bradfrost.com/). Instead of collections for just `components` and `colors` I could create `atoms`, `molecules`, `organisms`, and `templates` to flush out the entire system. 
+| For version 2.0 of the style guide I may investigate taking it to the next level by constructing a complete [atomic design system](http://atomicdesign.bradfrost.com/). Instead of collections for `components` and `colors` I could create `atoms`, `molecules`, `organisms`, and `templates` to flush out the entire system. 
 |
-| I've seen [some examples](https://github.com/karissademi/patternlab-jekyll "Pattern Lab Jekyll port") of trying to do this in Jekyll with just `includes`, but I think leveraging components, setting `output: true` on them, and getting creative with Liquid would make this a better option.
+| I've seen [some examples](https://github.com/karissademi/patternlab-jekyll "Pattern Lab Jekyll port") of trying to do this in Jekyll with `includes`, but I think leveraging components, setting `output: true` on them, and getting creative with Liquid would make this a better option.
 
 ### Display components and color palettes
 
-With my two style guide collections configured I created a new layout (`_layouts/style_guide.html`) to strip away most of the fluff found in my `article` and `media` layouts. It's basically a wide wrapper with just a page title and `{{ content }}` block.
+With my two style guide collections configured I created a new layout (`_layouts/style_guide.html`) to strip away most of the fluff found in my `article` and `media` layouts. It's basically a wide wrapper with a page title and `{{ content }}` block.
 
 ```html
 ---
@@ -136,7 +136,7 @@ What's going on here is I'm iterating over the `components` collection, grouping
 [^component-type]: Component type is set in the YAML Front Matter. eg: buttons, notices, media, typography, etc.
 
 [[notice | Beware the Markdown]]
-| I had some trouble getting the Liquid above, Markdown, and syntax highlighting to all play nicely. I suppose I could have just crafted a `.html` document instead, but I wanted to use Markdown with some HTML mixed in. I eventually gave up trying to make my code more readable with indents, which seemed to eliminate the formatting issues.
+| I had some trouble getting the Liquid above, Markdown, and syntax highlighting to all play nicely. I suppose I could have crafted a `.html` document instead, but I wanted to use Markdown with some HTML mixed in. I gave up trying to make my code more readable with indents, which seemed to eliminate the formatting issues.
 
 Sandwiched between the `entry` loop is an include that takes care of spitting out the rendered and syntax highlighted HTML along with an optional short description and links to Sass and `include` sources.
 
@@ -199,19 +199,19 @@ To help expose components that may be buried towards the bottom of the page I ca
 
 ![style guide component selector](../../images/style-guide-component-selector.jpg)
 
-With the help of some CSS and JavaScript I was able to position a drop down list in the lower right corner as a way of quickly jumping around the page. If and when I get to going full atomic design on the style guide, I may have to rethink this sort of navigation by giving it more precedence in the layout. But for now it does the trick...
+With the help of some CSS and JavaScript I was able to position a drop down list in the lower right corner as a way of jumping around the page. If and when I get to going full atomic design on the style guide, I may have to rethink this sort of navigation by giving it more precedence in the layout. But for now it does the trick...
 
 #### Stylesheet tweaks
 
-For the most part all of my components displayed correctly on the page. One of the benefits of building the style guide was that it quickly pointed out components that weren't as modular as I initial thought. Meaning some were bound to specific class names that when placed in different contexts lost all of their styling.
+For the most part all of my components displayed correctly on the page. One of the benefits of building the style guide was that it pointed out components that weren't as modular as I initial thought. Meaning some were bound to specific class names that when placed in different contexts lost their styling.
 
-There were also a few cases where I needed to add styles specific for the style guide in order for things to display correctly. The `colors` collection is a good example of that.
+There were also cases where I needed to add styles specific for the style guide in order for things to display correctly. The `colors` collection is a good example of that.
 
 ![UI colors screenshot](../../images/style-guide-ui-colors.png)
 
 My goal here was to avoid hard coding color values into each document, and instead leverage the color variables already set in `/assets/stylesheets/_variables.scss` to keep things [DRY](http://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 
-To achieve this I used a [SassScript map](https://github.com/sass/sass/blob/master/doc-src/SASS_CHANGELOG.md#sassscript-maps) of all the color variables found on the site along with some additional CSS to build the swatch tiles. 
+To achieve this I used a [SassScript map](https://github.com/sass/sass/blob/master/doc-src/SASS_CHANGELOG.md#sassscript-maps) of all the color variables found on the site along with some CSS to build the swatch tiles. 
 
 ```scss
 /*
