@@ -13,8 +13,7 @@ Portrait of April C. inspired by a [photograph on Sktchy](https://sktchy.com/idj
 
 It's been a hectic start to spring so I haven't had too much free time to paint. The announcement of the smaller iPad Pro almost had me pulling the trigger, but I really want the larger version --- but with the True Tone display. I suppose I can wait until this fall...
 
-<blockquote class="twitter-video" data-lang="en"><p lang="en" dir="ltr">Messy messy <a href="https://twitter.com/hashtag/Procreate?src=hash">#Procreate</a> <a href="https://twitter.com/hashtag/Sktchy?src=hash">#Sktchy</a> <a href="https://t.co/C5PjBiY5P0">pic.twitter.com/C5PjBiY5P0</a></p>&mdash; Michael Rose (@mmistakes) <a href="https://twitter.com/mmistakes/status/719340953656508416">April 11, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+https://twitter.com/mmistakes/status/719340953656508416
 
 #### Tools used
 

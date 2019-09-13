@@ -17,10 +17,7 @@ Two hours and 30 minutes of beard scribbling over the last couple of weeks. Beca
 [![work in progress screenshot](../../images/ale-b-progress-1.jpg)](../../images/ale-b-progress-1-lg.jpg)
 {% endfigure %}
 
-<figure>
-  <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Time-lapse export video via <a href="https://twitter.com/hashtag/Procreate?src=hash&amp;ref_src=twsrc%5Etfw">#Procreate</a> <a href="https://twitter.com/hashtag/WIP?src=hash&amp;ref_src=twsrc%5Etfw">#WIP</a> <a href="https://twitter.com/hashtag/Sktchy?src=hash&amp;ref_src=twsrc%5Etfw">#Sktchy</a> <a href="https://t.co/uqMtzknWYp">pic.twitter.com/uqMtzknWYp</a></p>&mdash; 𝔐𝔦𝔠𝔥𝔞𝔢𝔩 ℜ𝔬𝔰𝔢 (@mmistakes) <a href="https://twitter.com/mmistakes/status/990746870380195840?ref_src=twsrc%5Etfw">April 30, 2018</a></blockquote>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</figure>
+https://twitter.com/mmistakes/status/990746870380195840?ref_src=twsrc%5Etfw
 
 #### Tools used
 

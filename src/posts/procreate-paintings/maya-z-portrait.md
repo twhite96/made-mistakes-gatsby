@@ -16,10 +16,7 @@ Portrait of Maya Z. inspired by a [photograph on Sktchy](https://sktchy.com/efNb
 [![work in progress screenshot](../../images/maya-z-progress-2.jpg)](../../images/maya-z-progress-2-lg.jpg)
 {% endfigure %}
 
-<figure>
-  <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/Procreate?src=hash&amp;ref_src=twsrc%5Etfw">#Procreate</a> time-lapse export <a href="https://t.co/dSNE7fKHWb">pic.twitter.com/dSNE7fKHWb</a></p>&mdash; Michael Rose (@mmistakes) <a href="https://twitter.com/mmistakes/status/980117629473083394?ref_src=twsrc%5Etfw">March 31, 2018</a></blockquote>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</figure>
+https://twitter.com/mmistakes/status/980117629473083394?ref_src=twsrc%5Etfw
 
 #### Tools used
 

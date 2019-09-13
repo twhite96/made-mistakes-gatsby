@@ -16,10 +16,7 @@ Portrait of Tatha S. inspired by a [photograph on Sktchy](https://sktchy.com/Eoe
 [![work in progress screenshot](../../images/tatha-s-progress-2.jpg)](../../images/tatha-s-progress-2-lg.jpg)
 {% endfigure %}
 
-<figure>
-  <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Procreate time-lapse export <a href="https://t.co/Xw5ozxENYI">pic.twitter.com/Xw5ozxENYI</a></p>&mdash; 𝔐𝔦𝔠𝔥𝔞𝔢𝔩 ℜ𝔬𝔰𝔢 (@mmistakes) <a href="https://twitter.com/mmistakes/status/984246043511607297?ref_src=twsrc%5Etfw">April 12, 2018</a></blockquote>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</figure>
+https://twitter.com/mmistakes/status/984246043511607297?ref_src=twsrc%5Etfw
 
 #### Tools used
 

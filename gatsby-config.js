@@ -220,7 +220,7 @@ module.exports = {
             },
           },
           {
-            resolve: "@weknow/gatsby-remark-twitter",
+            resolve: '@weknow/gatsby-remark-twitter',
             options: {
               hideThread: true,
               hideMedia: false,

@@ -13,10 +13,7 @@ Portrait of Marion K. inspired by a [photograph on Sktchy](http://​sktchy.com/
 
 I finally got my hands on a new iPad Pro and the highly responsive Apple Pencil. This is [the stylus I have been waiting for](/articles/ipad-pro/)!
 
-<figure>
-  <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Process video <a href="https://t.co/MfP9TmESlR">pic.twitter.com/MfP9TmESlR</a></p>&mdash; Michael Rose (@mmistakes) <a href="https://twitter.com/mmistakes/status/976620815662960640?ref_src=twsrc%5Etfw">March 22, 2018</a></blockquote>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</figure>
+https://twitter.com/mmistakes/status/976620815662960640?ref_src=twsrc%5Etfw
 
 #### Tools used
 
