@@ -34,10 +34,9 @@ Building up a color with multiple layers usually yields better results than one 
 
 Here are some of my favorite colors to get you started painting leaves:
 
-{% figure caption:"On the left, base green color. On the right, highlight color." class:"gallery-2-col" %}
-![screenshot of leaf base color](../../images/paper-53-leaf-mixed-green.jpg)
-![screenshot of leaf highlight color](../../images/paper-53-leaf-mixed-highlight.jpg)
-{% endfigure %}
+![screenshot of leaf base color mixer](../../images/paper-53-leaf-mixed-green.jpg)
+
+![screenshot of leaf highlight color mixer](../../images/paper-53-leaf-mixed-highlight.jpg)
 
 Once you're happy with the general shape of the tree, it's time to add some shadows. You can continue to use the same base color from before or darken it up depending on how much shadow you have to color. What I like to do is make short strokes to create a blotchy texture. For you traditional painters out there, it's kind of like scumbling, only we're not scraping paint around with a dry brush.
 

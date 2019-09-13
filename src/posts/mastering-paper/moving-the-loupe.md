@@ -2,7 +2,7 @@
 title: "Mastering Paper for iOS: how zoom while painting"
 date: 2014-07-03
 path: /mastering-paper/moving-the-loupe/
-last_modified_at: 2018-11-06T12:01:20-05:00
+last_modified_at: 2019-09-13T11:46:49-04:00
 excerpt: "Learn how to reposition Paper's zoom loupe mid-stroke to help add detail to your drawings."
 categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, Apple]
@@ -23,23 +23,24 @@ Maybe this is something super obvious and I just missed it --- I'm willing to be
 
 The [1.6 update](http://news.fiftythree.com/post/79379441335/the-paper-ios-7-update-is-here-brighter-fresher) for **Paper by FiftyThree** introduced refinements to each of the tools and their behavior inside of the loupe. The tools now scale appropriately when in zoom --- giving you finer control over line weights. The ability to paint thin strokes without the use of a [Pogo Connect](/mastering-paper/pogo-connect-smart-pen/) stylus was now possible.
 
-{% figure caption:"Drawing in the loupe with FiftyThree's Pencil stylus." %}
-![drawing in the loupe](../../images/paper-53-zoom-loupe-pencil-ev.jpg)
-{% endfigure %}
+![drawing in Paper apps zoom loupe](../../images/paper-53-zoom-loupe-pencil-ev.jpg)
 
 An important characteristic of the watercolor brush is its ability to [apply glazes](/mastering-paper/basics/#glazing) on top of each other to build 3-dimensional forms. To pull off this effect, [smooth tones](/mastering-paper/basics/#painting-smooth) are a must and the only way to paint them is by not lifting off the canvas until you've filled the shape.
 
-{% figure caption:"Moving the loupe while glazing is necessary to cover larger shapes evenly." %}
-![glazing in the loupe](../../images/paper-53-zoom-glaze-face.jpg)
-{% endfigure %}
+<figure>
+  <img alt="watercolor glazing in the loupe while painting a wedding portrait" src="../../images/paper-53-zoom-glaze-face.jpg">
+  <figcaption><p>Moving the loupe while glazing is necessary to cover larger shapes evenly.</p></figcaption>
+</figure>
 
-I think you can see where I'm going with this. If you're painting a shape that falls outside of the Zoom loupe it becomes necessary to move it around. The problem is, if you begin painting and then try to move the loupe it won't budge. For it to move you need to interrupt your watercolor stroke to reposition it, which will leave you with a uneven glaze if you try to continue painting where you left off.
+I think you can see where I'm going with this. If you're painting a shape that falls outside of the Zoom loupe it becomes necessary to move it around.
+
+The problem is, if you begin painting and then try to move the loupe it won't budge. For it to move you need to interrupt your watercolor stroke to reposition it. Which will leave you with a uneven glaze if you try to continue painting where you left off.
 
 I'm a heavy user of the watercolor brush so I had to sacrifice zooming in when painting large shapes because of this. Requiring extra time with the pencil to [clean up contours and mistakes](/mastering-paper/drawing-faces/#refining-the-contours).
 
 ## Moving the loupe
 
-Sorry for the long winded exposition, but I think it helps contextualize why being able to simultaneously move the loupe with one hand and paint with the other is important. So without further ado here's how to do it.
+Sorry for the long winded exposition, but I think it helps contextualize why being able to simultaneously move the loupe with one hand and paint with the other is important. Without further ado here's how to do it:
 
 1. Pinch to zoom in and stretch the loupe to a size you're comfortable with.
 2. Place one finger on the edge of the black circle and **hold it on the screen**.
@@ -48,9 +49,7 @@ Sorry for the long winded exposition, but I think it helps contextualize why bei
 
 ## Video demonstration
 
-{% figure caption:"A video demonstrating how to use Zoom while painting a smooth glaze." %}
 `youtube: https://www.youtube.com/watch?v=gpz8aPXwd18`
-{% endfigure %}
 
 The key to making this work is placing your finger on the circle **before you begin** drawing or painting. If you lift your finger off of the loupe's edge and begin drawing, you won't be able to move it until you stop touching the iPad's screen.
 

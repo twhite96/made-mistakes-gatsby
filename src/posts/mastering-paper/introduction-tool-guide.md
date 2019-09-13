@@ -3,7 +3,7 @@ title: "Mastering Paper for iOS: introduction and tool guide"
 date: 2013-07-31
 path: /mastering-paper/introduction-tool-guide/
 excerpt: "An introduction to Paper's tools and how to exploit them for drawing realistically."
-last_modified_at: 2017-12-13T11:23:35-05:00
+last_modified_at: 2019-09-13T10:49:01-04:00
 image: ../../images/paper-53-expanded-guide-feature.jpg
 categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, Apple]
@@ -12,28 +12,30 @@ comments: true
 comments_locked: true
 ---
 
-Paper by FiftyThree and me were BFFs from the start. Spread across my journals you'd find around 600 pages with creation times ranging from 30 minutes to 4 hours. A conservative estimate has me logged at around 500 hours of drawing and painting in this iOS app --- which is kind of crazy when I think about it. I'm not sure if that qualifies me as a good teacher or not, but I'm going to try and expand on some tips and techniques I've previously written about in this multi-part series.
+Paper by FiftyThree and me were BFFs from the start. Spread across my journals you'd find around 600 pages with creation times ranging from 30 minutes to 4 hours. A conservative estimate has me logged at around 500 hours of drawing and painting in this iOS app --- which is kind of crazy when I think about it.
+
+I'm not sure if that qualifies me as a good teacher or not, but I'm going to try and expand on my tips and techniques in the following guide.
 
 ![Paper 53 journals screenshot](../../images/paper-53-journals.jpg)
 
-In this first part you'll learn about the benefits of a stylus, how all of the Paper by 53 tools work, and basic gestures you'll want to master. The remaining parts will dig deeper into techniques I use when drawing idealistically, page management, advanced features, and how to record the iPad's screen and make time lapse videos of your creations.
+In this first part you'll learn about the benefits of a stylus, how the Paper app tools work, and basic gestures you'll want to master. 
+
+The remaining parts will dig deeper into techniques I use when drawing, page management, advanced features, and how to record the iPad's screen and make time lapse videos of your work.
 
 ## Is a stylus necessary?
 
 Finger painting with Paper can yield some impressive results, but may feel unnatural if you're used to drawing with pens and pencils. If you decide to go with a capacitive stylus be aware that it won't match the precision of a traditional pen because of the fat and rubbery tip.
 
-{% figure caption:"Adonit makes some nice styli if drawing precise marks is your thing." %}
 ![Adonit Jot](../../images/adonit-jot-classic-tip.jpg)
-{% endfigure %}
 
 [[notice | ProTip: use an iPad stylus meant for accuracy]]
-| For those craving precision I'd suggest trying one of the many [**Adonit Jot**](http://www.amazon.com/gp/product/B00931K1QK/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00931K1QK&linkCode=as2&tag=mademist-20) styli. The tips on these bad boys have clear plastic tips that can pivot and tilt allowing you to see exactly where you are on the iPad's screen. The fancier Bluetooth ones aren't supported by Paper, but apps like [Procreate](http://procreate.si) do.
+| For those craving precision I'd suggest trying one of the many [**Adonit Jot**](http://www.amazon.com/gp/product/B00931K1QK/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00931K1QK&linkCode=as2&tag=mademist-20) styli. The tips on these bad boys have clear plastic tips that can pivot and tilt allowing you to see where you are on the iPad's screen. Paper doesn't support the fancier Bluetooth ones, but apps like [Procreate](http://procreate.si) do.
 
-Going one step further are styli built with pressure sensitivity in the tip that can alter the characteristics of a mark depending on how hard you press on it. Paper by 53 supports Ten One Design's **Pogo Connect Smart Pen** out of the box, and has quickly become my go to stylus when creating on iPad. To learn more about how it became a favorite, check out my [image filled review](/mastering-paper/pogo-connect-smart-pen/ "My Pogo Connect Smart Pen Review") here.
-
-![Paper by 53 tools screenshot](../../images/paper-53-the-tools.jpg)
+Going one step further are styli built with pressure sensitivity in the tip that can alter the characteristics of a mark depending on how hard you press on it. Paper by 53 supports Ten One Design's **Pogo Connect Smart Pen** out of the box, and has become my go to stylus when creating on iPad. To learn more about how it became a favorite, check out my [image filled review](/mastering-paper/pogo-connect-smart-pen/ "My Pogo Connect Smart Pen Review") here.
 
 ## The tools and how they behave
+
+![Paper by 53 tools screenshot](../../images/paper-53-the-tools.jpg)
 
 Starting with order of appearance you have the following tools at your disposal: [*eraser*](#eraser), [*fountain pen*](#fountain-pen), [*pencil*](#pencil), [*marker*](#marker), [*ink pen*](#ink-pen), [*watercolor brush*](#watercolor-brush), and [*color mixer*](#color-mixer). The fountain pen and eraser are included with the free app --- the rest can be downloaded via in-app purchase as a set or individually.
 
@@ -55,17 +57,16 @@ For handling cleanup duty, the eraser is very effective at defining edges and ma
 * **Blending:** Completely opaque. One stroke erases down to the egg shell white colored background.
 * **Sensitivity:** Soft = thin. Hard = thick.
 
-{% figure caption:"The faster the stroke, the larger the eraser." %}
 ![Eraser line showing thin to thick](../../images/paper-53-eraser-thick-thin.jpg)
-{% endfigure %}
 
 ### Fountain pen (Draw) {#fountain-pen}
 
 Along with the eraser, the fountain pen is included for free when you download Paper by FiftyThree from the App Store. This was the tool I originally used the most when experimenting with Paper a year ago. It's hard not to fall in love with the flowing lines it makes when sliding your fingertips across the iPad's glass screen.
 
-{% figure caption:"The fountain pen is slightly transparent." %}
-![Fountain pen shapes to show the tool's opacity](../../images/paper-53-fountain-pen-layers.jpg)
-{% endfigure %}
+<figure>
+  <img alt="Fountain pen shapes to show the tool's opacity" src="../../images/paper-53-fountain-pen-layers.jpg">
+  <figcaption><p>The fountain pen is slightly transparent.</p></figcaption>
+</figure>
 
 My drawing style has evolved over the year from crisp line work to soft blended edges and tones. Because of this shift the fountain pen sees less usage and has been demoted to janitorial status like the eraser. Perfect for getting into tight places it also works well when coloring large blocks of color.
 
@@ -82,9 +83,7 @@ My drawing style has evolved over the year from crisp line work to soft blended 
 
 Versatile and perfect in almost any situation --- this is the one tool you should invest time in learning. The marks it makes resemble a traditional 2B pencil leaving behind a texture perfect for shading. The pencil also works great for lightly sketching to nail your composition before painting.
 
-{% figure caption:"A gray pencil is perfect for sketching." %}
-![Pencil sketch screenshot](../../images/paper-53-pencil-sketch.jpg)
-{% endfigure %}
+![Light pencil sketch of a man drawng digitally with Paper app](../../images/paper-53-pencil-sketch.jpg)
 
 Shading power is amplified immensely when used with a fancy Bluetooth stylus with pressure sensitivity. If you've used a pencil in real life to draw you already know how to use this digital incarnation --- making it one of the most precise and forgivable tools in Paper's toolbox. 
 
@@ -96,33 +95,32 @@ Shading power is amplified immensely when used with a fancy Bluetooth stylus wit
 
 Unlike the fountain pen, the marker makes transparent marks you can see through. To make sense of the marker I pretend it's one of those neon yellow highlighters. If you drew yellow over black it wouldn't show up, the same is true in Paper.
 
-{% figure caption:"The marker is completely transparent and will not show up well when applied on top of dark colors. Use the fountain pen or pencil instead." %}
 ![Layers of marker acting like a highlighter screenshot](../../images/paper-53-marker-yellow-layers.jpg)
-{% endfigure %}
 
 The exception to this rule is when the marker is filled with white. In this case it would act almost identically to the eraser but instead of an off-white color it makes a pure white. 
 
-{% figure caption:"If you look closely you can spot the slight difference in color." %}
-![Eraser vs. marker lines screenshot](../../images/paper-53-eraser-vs-marker.jpg)
-{% endfigure %}
+<figure>
+  <img alt="Paper Eraser tool compared against marker lines screenshot" src="../../images/paper-53-eraser-vs-marker.jpg">
+  <figcaption><p>If you look closely you can spot the slight difference in color.</p></figcaption>
+</figure>
 
 When sharp shadows and values are desired in your illustrations, the marker tool is A+++. I tend to work more photo-realistic, but if you want that cartoon or comic book look the marker might be for you.
 
 ![Comic book style shading with marker screenshot](../../images/paper-53-eraser-sharp-edge.jpg)
 
 * **Speed:** Slow = thick. Fast = thin.
-* **Blending**: Transparent, with the exception of white and black.
+* **Blending**: Transparent, except white and black colors.
 * **Sensitivity**: Soft = thin. Hard = thick.
 
 ### Ink pen (Write) {#ink-pen}
 
-Like the name implies the ink pen behaves most closely to a roller-ball pen. If you look closely at the lines it creates you'll notice heavier spots where a stop or start occurs. Even lines can be achieved by moving quickly throughout the entire stroke.
+Like the name implies the ink pen behaves like a roller-ball pen. If you look at the lines it creates you'll notice heavier spots where a stop or start occurs. Uniform lines can be achieved by moving quickly throughout the entire stroke.
 
 ![Ink pen start and end points screenshot](../../images/paper-53-ink-pen-lines.jpg)
 
 If you found the fountain pen's thick/thins undesirable or hard to control the ink pen might be a better choice. The ink pen has less variation in line-width making it a perfect choice for writing or doing detail work. 
 
-Before I began using a Pogo Connect Smart Pen exclusively, I did all my lettering and writing with the fountain pen. I found the pressure sensitivity of that stylus difficult to control when crafting letter forms, so I switched to the ink pen[^pen-lettering] instead. 
+Before I began using a Pogo Connect Smart Pen, I did all my lettering and writing with the fountain pen. I found the pressure sensitivity of that stylus difficult to control when crafting letter forms, so I switched to the ink pen[^pen-lettering] instead. 
 
 * **Speed:** The difference is barely noticeable. Moving slower will make a slightly thicker line.
 * **Blending:** Opaque.
@@ -130,15 +128,14 @@ Before I began using a Pogo Connect Smart Pen exclusively, I did all my letterin
 
 ### Watercolor brush (Color) {#watercolor-brush}
 
-Like the pencil, the watercolor brush is another tool you really should spend time experimenting with to learn all its nuances. This tool sets Paper apart from other apps by replicating the natural feel of pushing and pulling paint across a canvas. Without it I wouldn't be able to shade, paint skies, or render hair realistically at all.
+Like the pencil, the watercolor brush is another tool you should spend time experimenting with to learn all its nuances. This tool sets Paper apart from other apps by replicating the natural feel of pushing and pulling paint across a canvas. Without it I wouldn't be able to shade, paint skies, or render hair realistically at all.
 
 [[notice | ProTip: manipulate the brush's size]]
 | While there is no obvious way to change the size of your brush in Paper by FiftyThree, you can make thinner lines when used with a pressure sensitive stylus like the Pogo Connect Smart Pen. Pressing lightly will make a line about a 1/4th as thick as the default one. [FiftyThree's Pencil](/mastering-paper/pencil-53-review/) stylus also allows you to dynamically change brush size depending on how you hold it.
 
-It helps to think of your stylus tip as a brush loaded with watered down paint. Because the paint has been thinned it won't be as intense or saturated as the color from one of the pens. Instead you need to build up color with multiple layers.
+It helps to think of your stylus tip as a brush loaded with watered down paint. Because the paint has been thinned it won't be as intense or saturated as the color from one of the pens. Instead you need to build up color in multiple layers.
 
-{% figure caption:"To achieve a smooth layer of paint, move slowly to avoid blotches of color." %}
-![Choppy painting vs. consistent painting screenshot](../../images/paper-53-watercolor-even-fill.jpg)
+![Choppy painting versus consistent painting watercolor swatches in Paper app](../../images/paper-53-watercolor-even-fill.jpg)
 {% endfigure %}
 
 This "thinned out" behavior also factors into how even of a coat you can apply. *Moving the brush faster* doesn't let the paint fully cover a spot and will make it appear choppy. While *moving slowly* allows the paint to flow evenly off the brush and build into a dark even value. Mastering the speed at which you apply color is essential to creating even tones and shading.
@@ -148,25 +145,24 @@ It may be helpful to create a few color scales with the primary colors, gray, an
 ![Gradations created with the watercolor brush](../../images/paper-53-watercolor-layers.jpg)
 
 [[notice | ProTip: white to lighten]]
-| When loaded with white the watercolor brush can become a way to lighten areas you've previously painted or drawn. Just keep in mind that white paint doesn't behave like other colors and can be difficult to master. If you paint too slowly it will remove most of the color and leave you with bright white spots.
+| When loaded with white the watercolor brush can become a way to lighten areas you've painted or drawn. Keep in mind that white paint doesn't behave like other colors and can be difficult to master. If you paint too slowly it will remove most of the color and leave you with bright white spots.
 
 ### Color Mixer {#color-mixer}
 
 Before the Color Mixer existed, you had to get creative if you wanted a color other than the nine Paper shipped with. By mixing these colors directly on canvas you could make other colors. Some colors worked great with this technique while others turned to mud if too many layers were applied.
 
-{% figure caption:"**First row:** mixing colors directly on canvas. **Second row:** mixing colors with the *Color Mixer*." %}
-![Mixing primary colors mixes with watercolor screenshot](../../images/paper-53-watercolor-primary-secondary.jpg)
-{% endfigure %}
+<figure>
+  <img alt="Mixing primary colors mixes with watercolor screenshot" src="../../images/paper-53-watercolor-primary-secondary.jpg">
+  <figcaption><p><strong>First row:</strong> mixing colors directly on canvas. <strong>Second row:</strong> mixing colors with the <em>Color Mixer</em>.</p></figcaption>
+</figure>
 
 Color theory is a tricky dick --- thankfully FiftyThree did something great with their Color Mixer. Mixing together any color will almost always make a new one that looks great.
 
 For those who need more control or want a traditional color picker --- one can be accessed by dragging a color swatch onto the mixing wheel, then tapping on it. From here you can adjust a color's hue, saturation, and brightness (luminosity).
 
-{% figure caption:"A more traditional way of adjusting color if you need it." %}
 ![Color picker sliders screenshot](../../images/paper-53-color-picker-slider.jpg)
-{% endfigure %}
 
-For a good shadow color I usually adjust the base color I'm shading with by cranking the saturation down and the brightness way up.
+For a good shadow color, I adjust the base color I'm shading with by cranking the *saturation down* and the *brightness up*.
 
 [[notice | ProTip: point of no return]]
 | If you go too far in any direction you will approach pure white, which will make the watercolor brush or marker opaque. Each color has a different "point of no return," that can be found by experimenting with the sliders.
@@ -175,34 +171,38 @@ For a good shadow color I usually adjust the base color I'm shading with by cran
 
 ## Gestures to master
 
-If you only learn two gestures when using Paper, make them Rewind and Zoom.
+If you only learn two gestures when using Paper, make them **Rewind** and **Zoom**.
 
 ### Rewind {#rewind}
 
-I'm going to let you in on a little secret. The first couple of months I used Paper by 53, I absolutely hated the Rewind feature because I couldn't use it consistently. It pissed me off so much, that I gave up and used the eraser instead. I would have killed for a button with multiple undos back then...
+I'm going to let you in on a little secret. The first couple of months I used Paper by 53, I hated the Rewind feature because I couldn't use it consistently. It pissed me off so much, that I gave up and used the eraser instead. I would have killed for a software button that triggered an undo back then...
 
 ![Rewind screenshot](../../images/paper-53-rewind-stormtrooper.jpg)
 
-I eventually came to my senses and gave it another go by forcing myself to use Rewind exclusively. After a few drawings I mastered it and was time traveling back through my boo boos with ease. It's entirely possible that FiftyThree tweaked Rewind behind the scenes to make it easier to use, but I like to think it was my perseverance that made the difference.
+I eventually came to my senses and gave it another go by forcing myself to use Rewind exclusively. After a few drawings I mastered it and was time traveling back through my boo boos with ease.
 
-Just stick with it if you're having trouble, I promise it will eventually come naturally. And if it doesn't, you can always purchase a [Pogo Connect Smart Pen](/mastering-paper/pogo-connect-smart-pen/) and map the button to undo. To correct simple one step mistakes the undo button works great, for anything else I prefer the rewind gesture to avoid pressing the button a million times.
+It's entirely possible that FiftyThree tweaked Rewind behind the scenes to make it easier to use, but I like to think it was my perseverance that made the difference.
+
+Stick with it if you're having trouble, I promise it will eventually come naturally. And if it doesn't, you can always purchase a [Pogo Connect Smart Pen](/mastering-paper/pogo-connect-smart-pen/) and map the button to undo. To correct simple one step mistakes the undo button works great, for anything else I prefer the rewind gesture to avoid pressing the button a million times.
 
 ### Zoom
 
-The single most requested feature by fans and haters of Paper... Zoom. I had drawn a couple hundred portraits just fine without zoom, but boy was I happy when FiftyThree finally added the feature. That said I did cheat a bit by using an accessibility feature in iOS[^ios-zoom] that lets you magnify the screen by tapping with 3 fingers. Not a true zoom, but it does have its place when you need to magnify an area --- the tools don't scale so it isn't that useful.
+The single most requested feature by fans and haters of Paper... Zoom. I've drawn a hundreds portraits fine without zoom, but boy was I happy when FiftyThree finally added the feature.
+
+That said I did cheat a bit by using an accessibility feature in iOS[^ios-zoom] that lets you magnify the screen by tapping with 3 fingers. Not a true zoom, but it does have its place when you need to magnify an area --- the tools don't scale so it isn't that useful if you're trying to vary line widths.
 
 ![Zoom tool screenshot](../../images/paper-53-zoom-tool-eye.jpg)
 
-There isn't much else to Zoom, I'm merely mentioning it to increase awareness around it. Unlike other drawing and painting apps with zoom, the entire canvas doesn't scale. Instead you control the area you want magnified by you opening a circular <s>portal</s> loupe that can be moved around or dismissed by tapping outside of it.
+There isn't much else to Zoom --- I'm merely mentioning it to increase awareness around it. Unlike other drawing and painting apps with zoom, the entire canvas doesn't scale. Instead you control the area you want magnified by you opening a circular <s>portal</s> loupe that can be moved around or dismissed by tapping outside of it.
 
 [[notice | Full screen zoom and grid indicator]]
 | The loupe shown above has been retired and replaced with a more traditional zoom tool in Paper v3. Pinching the screen now magnifies the entire canvas allowing for more room to work. As you magnify, a grid of dots appear on the screen to indicate how far you've zoomed in.
 
 ---
 
-Well there you have it. I hope this has served as a good introduction to Paper by 53, how to use the  tools, the gestures, and a taste of what is possible with the app.
+Well there you have it. I hope this has served as a good introduction to Paper by 53, how to use the tools, the gestures, and a taste of what is possible with the app.
 
 [^opaque]: Not transparent or translucent; impenetrable to light; not allowing light to pass through.
 [^pure-color]: I define pure as matching the color selected in the mixer. Many of the tools have a hint of translucency to them and need 2--3 layers to match exactly.
-[^pen-lettering]: I suppose I could break the creative flow and switch to a traditional capacitive stylus for just lettering if I wanted to continue using the fountain pen. Nah...
+[^pen-lettering]: I suppose I could break the creative flow and switch to a traditional capacitive stylus for lettering if I wanted to continue using the fountain pen. Nah...
 [^ios-zoom]: The iPad has a system wide zoom feature that allows you to enlarge the screen by 3 finger tapping it. To activate, go to **Settings** > **General**. Tap on **Accessibility** and then turn on **Zoom**.

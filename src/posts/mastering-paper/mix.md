@@ -2,7 +2,7 @@
 title: "Mastering Mix by FiftyThree"
 date: 2014-11-25
 path: /mastering-paper/mix/
-last_modified_at: 2018-11-06T12:03:41-05:00
+last_modified_at: 2019-09-13T11:00:29-04:00
 excerpt: "Download templates for Paper and discover how to use Mix to Learn, Sketch, Play, Write, Design, and Think."
 categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, Apple]
@@ -42,15 +42,11 @@ At its heart Mix is a place for ideas to begin, nurture, and grow. That's not to
 
 Mix isn't just for those who doodle and sketch. By following one of the curated categories or influential Mixers, it becomes a great tool for inspiration collection (think Pinterest or similar social bookmarking apps). For those who may fear a blank page or enjoy hoarding ideas for a rainy day, Mix has you covered with a never ending supply of ideas to remix.
 
-{% figure caption:"Favorite any idea on Mix by tapping the star button." %}
 ![Star button in Mix](../../images/mix-53-star-button.jpg)
-{% endfigure %}
 
 Each idea shared to Mix can be "favorited" by tapping the star button below it. Starred ideas, sketches, templates or doodles are grouped in a journal named Stars that works like any other journal you create in Paper (move, duplicate, share, and delete pages).
 
-{% figure caption:"Your *starred* ideas can be found in the Stars journal to the far right." %}
 ![Stars journal in Paper](../../images/mix-53-stars-journal.jpg)
-{% endfigure %}
 
 ---
 
@@ -75,9 +71,7 @@ Paper is an app that rewards you the more you use it and experiment with the too
 
 Leveraging the collaborative power of Mix is an excellent way to learn from others. When flipping through your stream you may come across a sketch that pulls off an effect you like. One way to learn how it was created is to open the page, write a note asking "how did you do this?", and post it back to Mix. The original creator will be notified of your remix (if they have notifications turned on) and can respond to your inquiry directly with another Mix.
 
-{% figure caption:"Ask questions by writing notes directly on a sketch and then sharing it back to Mix." %}
-![hair girl sketch on Mix](../../images/mix-53-hair-girl-question.jpg)
-{% endfigure %}
+![hair girl sketch on Mix with feedback drawn on it](../../images/mix-53-hair-girl-question.jpg)
 
 ### Tutorials
 
@@ -85,10 +79,11 @@ With the prevalence of GitHub and open source methodologies, being able to "view
 
 I've been known to [write up lengthy tutorials](/mastering-paper/) explaining how to achieve specific effects and techniques with Paper's tools. Mix affords me the option to supplement these written tutorials with bit-sized "cheat sheets" I can share with a wider audience. The feedback I get back is much more useful too. All I have to do is look at the remixes on an idea to see how they're being interpreted and if they've been of use to anyone.
 
-{% figure caption:"Practice Blending techniques with these two mixes." class:"gallery-2-col" %}
+**Practice Blending techniques with these two mixes:**
+
 [![Insterstellar Blend practice on Mix](../../images/mix-53-interstellar-blend-practice.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/899070)
+
 [![Aurora Borealis Blend practice on Mix](../../images/mix-53-aurora-borealis-blend-practice.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/915375)
-{% endfigure %}
 
 ### Some other great uses for Mix that fit in with the "Learning" theme:
 
@@ -103,15 +98,17 @@ I've been known to [write up lengthy tutorials](/mastering-paper/) explaining ho
 
 I don't have any numbers to back this up, but my gut tells me doodles and sketches are the most popular types of ideas being posted to Mix. At first glance the [Sketch category](https://mix.fiftythree.com/sketch) could be mistaken as a self promotion dumping ground, but it's actually something much more useful.
 
-The best finds here are those that are partially completed: rough line drawings, the start of a beautiful landscape, or a half painted figure just waiting for you to give it a face. That's not to say finished works of art don't have their place on Mix --- they do, but the heart of Mix is leaving a few doors open for others to close.
+The best finds here are those that are partially completed: rough line drawings, the start of a beautiful landscape, or a half painted figure waiting for you to give it a face. That's not to say finished works of art don't have their place on Mix --- they do, but the heart of Mix is leaving a few doors open for others to close.
 
-My approach to sketching on Paper has been to add "behind the scenes footage" whenever possible. Whether it was by recording [time lapse videos](https://www.youtube.com/playlist?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao) to show how I draw or by sharing in-process screenshots on social media. With Mix there's now a clean and seamless way of exposing a drawing's evolution directly in Paper.
+My approach to sketching on Paper has been to add "behind the scenes footage" whenever possible. Whether recording [time lapse videos](https://www.youtube.com/playlist?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao) to show how I draw or by sharing in-process screenshots on social media. With Mix there's now a clean and seamless way of exposing a drawing's evolution directly in Paper.
 
 [![Draw a cat tutorial on Mix](../../images/mix-53-draw-a-cat-1.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/899124)
 
-{% figure caption:"**Draw a Cat.** An example of how to show process and teach at the same time." class:"gallery-2-col" %}
-[![Draw a cat tutorial on Mix](../../images/mix-53-draw-a-cat-2.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/899421) [![Draw a cat tutorial on Mix](../../images/mix-53-draw-a-cat-3.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/899676)
-{% endfigure %}
+**Draw a Cat.** An example of how to show process and teach at the same time.
+
+[![Draw a cat tutorial on Mix](../../images/mix-53-draw-a-cat-2.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/899421)
+
+[![Draw a cat tutorial on Mix](../../images/mix-53-draw-a-cat-3.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/899676)
 
 It may not be obvious at first but remixing yourself is a great way to chain together a series of sketches to show a progression.
 
@@ -128,22 +125,21 @@ If this sounds like you, fear not! There's a whole chunk of Mix dedicated to kee
 
 [![Draw your favorite movie Mix challenge](../../images/mix-53-movie-sketch-challenge.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/924506)
 
-{% figure caption:"**Sketch Challenge:** Draw a Scene from your favorite movie (bonus points for obscure flicks)" class:"gallery-2-col" %}
+**Sketch Challenge:** Draw a Scene from your favorite movie (bonus points for obscure flicks).
+
 [![Troll 2 sketch on Mix](../../images/mix-53-sketch-troll-2.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/924538)
+
 [![Darth Vader sketch on Mix](../../images/mix-53-sketch-darth-vader.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/929687)
-{% endfigure %}
 
 ### Some of the many ways you can have fun on Mix:
 
 * Organize a "Ask Me Anything" session through remixes.
 * "A Day in the Life" doodles showing the events of your day.
-* Coloring book themed ideas that start with just an outline for the community to complete.
+* Coloring book themed ideas that start with an outline for the community to complete.
 * Remix an idea and turn it into something new and unexpected (e.g. a drawing of an apple remixed with "goggly" eyes and a mustache).
 * Game templates (Tic-Tac-Toe, mazes, dots and boxes, etc).
 
-{% figure caption:"Mix your own snowman creation" %}
 [![Build a snowman on Mix](../../images/mix-53-build-a-snowman.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/914704)
-{% endfigure %}
 
 ---
 
@@ -151,7 +147,7 @@ If this sounds like you, fear not! There's a whole chunk of Mix dedicated to kee
 
 I'll be the first to admit that words and writing aren't my strong suit. As a formally trained graphic designer I've learned the importance that a typeface can have in communicating the right tone.
 
-There is no rule that says you have to draw pictures with Paper and post those to Mix. Let the [Write category](https://mix.fiftythree.com/write) be an example of the beauty of words in the hand's of typographers, letterers, designers, and word-smiths.
+No rule says you have to draw pictures with Paper and post those to Mix. Let the [Write category](https://mix.fiftythree.com/write) be an example of the beauty of words in the hand's of typographers, letterers, designers, and word-smiths.
 
 ![Write category on Mix](../../images/mix-53-write-category.jpg)
 
@@ -167,7 +163,7 @@ Maybe you're thinking this whole "art" thing isn't really your cup of tea. If th
 
 ## Designing
 
-As a designer I've found that Paper is a great tool for working out ideas quickly before they're refined into a higher fidelity comp to be shared with clients and colleagues. Prior to Mix the burden was on me to create various "frames" and templates I might need for wireframes and prototypes.
+As a designer I've found that Paper is a great tool for working out ideas before they're refined into a higher fidelity comp to be shared with clients and colleagues. Prior to Mix the burden was on me to create "frames" and templates I might need for wireframes and prototypes.
 
 ![iPhone template on Mix](../../images/mix-53-design-iphone-hand.jpg)
 
@@ -175,7 +171,7 @@ Mix gives designers looking for a place to iterate and refine ideas an assortmen
 
 * Developing a mobile app or website? Download one of Mixes many blank templates.
 * Remodeling or looking for decorating ideas? Remix floor plans and architectural renderings.
-* Remix your own garments (clothing and accessories) using one of the many templates shared by fashion lovers and designers.
+* Remix your own garments (clothing and accessories) using one of the templates shared by fashion lovers and designers.
 
 Most of the design work I do isn't something that can be openly discussed or shown. Because of that I avoid sharing any confidential or sensitive sketches and work to Mix. But that's not to say I won't favorite and share back templates that I find useful to help others jump start a project.
 
@@ -183,22 +179,25 @@ Most of the design work I do isn't something that can be openly discussed or sho
 
 ## Thinking
 
-The [Think category](https://mix.fiftythree.com/think) on Mix features ideas that encourage thought and conversation. I'm mostly a "one man show" and don't have a lot of experience using Paper in group settings, but here's a few ways I think Mix can help facilitate conversation.
+The [Think category](https://mix.fiftythree.com/think) on Mix features ideas that encourage thought and conversation. I'm mostly a "one man show" and don't have a lot of experience using Paper in group settings, but here's a few ways I think Mix can help foster conversation.
 
 ![Think category on Mix](../../images/mix-53-think-category.jpg)
 
 White boarding and team brainstorm sessions can be made more interactive and fun by adding Mix to the... umm... mix. A nice feature in Paper that has gotten little attention is **Presentation Mode**. With an AppleTV and Presentation Mode enabled, the toolbar becomes hidden turning the projected screen into a digital white board.
 
-{% figure caption:"Presentation Mode can be enabled under Settings > Paper > Presentation Mode" %}
-![Enable Presentation Mode under Settings](../../images/paper-53-presentation-mode.jpg)
-{% endfigure %}
+<figure>
+  <img alt="Enable Presentation Mode under Settings" src="../../images/paper-53-presentation-mode.jpg">
+  <figcaption><p>Presentation Mode can be enabled in the iPad's Settings app, under <strong>Paper > Presentation Mode</strong>.</p></figcaption>
+</figure>
 
-By designating a facilitator to "drive" the projected iPad, the other participates are available to freely remix and collaborate on their own device(s). As discussions occur the facilitator can bounce between the team's mixes and add notes in real time. Because Mix runs in "the cloud" remote team members have the ability to contribute and follow along as well.
+By designating a facilitator to "drive" the projected iPad, the other participates are available to freely remix and collaborate on their own device(s). As discussions occur the facilitator can bounce between the team's mixes and add notes in real time.
+
+Because Mix runs in "the cloud" remote team members have the ability to contribute and follow along as well.
 
 ---
 
 ## Additional resources
 
-I hope this article has inspired you to check out Mix and become a part of the great community of Paper creators. Feel free to [follow me on Mix](https://mix.fiftythree.com/11098-Michael-Rose), remix my ideas, or ask questions below in the comments. If you're looking for additional Mix information the [FiftyThree support forum](https://support.fiftythree.com/hc/en-us) is a great place to start.
+I hope this article has inspired you to check out Mix and become a part of the great community of Paper creators. Feel free to [follow me on Mix](https://mix.fiftythree.com/11098-Michael-Rose), remix my ideas, or ask questions below in the comments. If you're looking for additional Mix information the [Paper's support forum](https://wetransfer.zendesk.com/hc/en-us/sections/360000240986-Paper) is a great place to start.
 
-* [Sharing and Exporting](https://support.fiftythree.com/hc/en-us/articles/201713541-Sharing-and-Export)
+* [Sharing and Exporting](https://wetransfer.zendesk.com/hc/en-us/articles/360001334106-Sharing-and-Export)
