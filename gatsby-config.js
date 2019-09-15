@@ -1,9 +1,9 @@
-const postCssPresetEnv = require(`postcss-preset-env`)
+const postCSSPresetEnv = require('postcss-preset-env')
 const postCSSNested = require('postcss-nested')
 const postCSSUrl = require('postcss-url')
 const postCSSImports = require('postcss-import')
-const cssnano = require('cssnano')
 const postCSSMixins = require('postcss-mixins')
+const cssnano = require('cssnano')
 
 const site = require('./config/site')
 
@@ -181,7 +181,7 @@ module.exports = {
           postCSSImports(),
           postCSSMixins(),
           postCSSNested(),
-          postCssPresetEnv({
+          postCSSPresetEnv({
             importFrom: 'src/styles/variables.css',
             stage: 2,
             preserve: false,
