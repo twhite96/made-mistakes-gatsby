@@ -172,6 +172,7 @@ module.exports = {
       },
     },
     'gatsby-remark-source-name',
+    'gatsby-plugin-catch-links',
     {
       resolve: 'gatsby-plugin-postcss',
       options: {
