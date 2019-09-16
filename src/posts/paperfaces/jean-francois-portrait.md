@@ -10,12 +10,13 @@ tags: [portrait, illustration, Paper for iOS, black and white, beard]
 
 PaperFaces portrait of [@jean_francois](https://twitter.com/jean_francois).
 
-{% figure caption:"Work in progress screenshots (**Paper for iOS**)." class:"gallery-2-col" %}
-[![](../../images/paperfaces-jean-francois-process-1-600.jpg)](../../images/paperfaces-jean-francois-process-1-lg.jpg)
-[![](../../images/paperfaces-jean-francois-process-2-600.jpg)](../../images/paperfaces-jean-francois-process-2-lg.jpg)
-[![](../../images/paperfaces-jean-francois-process-3-600.jpg)](../../images/paperfaces-jean-francois-process-3-lg.jpg)
-[![](../../images/paperfaces-jean-francois-process-4-600.jpg)](../../images/paperfaces-jean-francois-process-4-lg.jpg)
-{% endfigure %}
+![Work in progress screenshot](../../images/paperfaces-jean-francois-process-1-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-jean-francois-process-2-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-jean-francois-process-3-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-jean-francois-process-4-lg.jpg)
 
 **Tools used:**
 
