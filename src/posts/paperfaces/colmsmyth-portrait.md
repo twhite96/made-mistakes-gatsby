@@ -10,18 +10,17 @@ tags: [portrait, illustration, Paper for iOS]
 
 PaperFaces portrait of [@colmsmyth](https://twitter.com/colmsmyth).
 
+![Work in progress screenshot](../../images/paperfaces-colmsmyth-process-1-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-colmsmyth-process-2-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-colmsmyth-process-3-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-colmsmyth-process-4-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-colmsmyth-process-5-lg.jpg)
+
 **Tools used:**
 
 - [LunaTik Alloy Touch Pen](https://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00821TR7G)
 - [Paper for iOS](https://paper.bywetransfer.com/)
-
-{% figure caption:"Work in progress screenshot." %}
-[![](../../images/paperfaces-colmsmyth-process-1-600.jpg)](../../images/paperfaces-colmsmyth-process-1-lg.jpg)
-{% endfigure %}
-
-{% figure caption:"Work in progress screenshot." class:"gallery-2-col" %}
-[![](../../images/paperfaces-colmsmyth-process-2-600.jpg)](../../images/paperfaces-colmsmyth-process-2-lg.jpg)
-[![](../../images/paperfaces-colmsmyth-process-3-600.jpg)](../../images/paperfaces-colmsmyth-process-3-lg.jpg)
-[![](../../images/paperfaces-colmsmyth-process-4-600.jpg)](../../images/paperfaces-colmsmyth-process-4-lg.jpg)
-[![](../../images/paperfaces-colmsmyth-process-5-600.jpg)](../../images/paperfaces-colmsmyth-process-5-lg.jpg)
-{% endfigure %}

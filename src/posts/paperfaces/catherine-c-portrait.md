@@ -10,14 +10,16 @@ tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]
 
 PaperFaces portrait commission of [Catherine C.](https://sktchy.com/4het8)
 
+![Work in process screenshot](../../images/paperfaces-catherine-c-process-1-lg.jpg)
+
+![Work in process screenshot](../../images/paperfaces-catherine-c-process-2-lg.jpg)
+
+![Work in process screenshot](../../images/paperfaces-catherine-c-process-3-lg.jpg)
+
+![Work in process screenshot](../../images/paperfaces-catherine-c-process-4-lg.jpg)
+
 **Tools used:**
 
 - [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
 - [Paper for iOS](https://paper.bywetransfer.com/)
 
-{% figure caption:"Work in progress screenshots (Paper for iOS)." class:"gallery-2-col" %}
-[![Work in process screenshot](../../images/paperfaces-catherine-c-process-1-600.jpg)](../../images/paperfaces-catherine-c-process-1-lg.jpg)
-[![Work in process screenshot](../../images/paperfaces-catherine-c-process-2-600.jpg)](../../images/paperfaces-catherine-c-process-2-lg.jpg)
-[![Work in process screenshot](../../images/paperfaces-catherine-c-process-3-600.jpg)](../../images/paperfaces-catherine-c-process-3-lg.jpg)
-[![Work in process screenshot](../../images/paperfaces-catherine-c-process-4-600.jpg)](../../images/paperfaces-catherine-c-process-4-lg.jpg)
-{% endfigure %}
