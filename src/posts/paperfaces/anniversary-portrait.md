@@ -8,16 +8,17 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white, self portrait, beard]
 ---
 
-Nothing says romance quite like drawing a faceless portrait of your wife on your wedding day. Happy Anniversary [Wendy](https://2littlerosebuds.com) --- and as your friend [Toodee](http://uncyclopedia.wikia.com/wiki/Yo_Gabba_Gabba!) would say, "Keep on Jumping."
+Nothing says romance like drawing a faceless portrait of your wife on your wedding day. Happy Anniversary [Wendy](https://2littlerosebuds.com) --- and as your friend [Toodee](http://uncyclopedia.wikia.com/wiki/Yo_Gabba_Gabba!) would say, "Keep on Jumping."
 
 **Tools used:**
 
 - [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
 - [Paper for iOS](https://paper.bywetransfer.com/)
 
-{% figure caption:"My only regret is not hiring a professional photographer to document the occasion." class:"gallery-2-col" %}
-[![The bride](../../images/roycroft-wedding-1.jpg)](../../images/roycroft-wedding-1-lg.jpg)
-[![Kissing](../../images/roycroft-wedding-2.jpg)](../../images/roycroft-wedding-2.jpg)
-[![Wedding tea favors](../../images/roycroft-wedding-3.jpg)](../../images/roycroft-wedding-3.jpg)
-[![Cutting the vegan cake](../../images/roycroft-wedding-4.jpg)](../../images/roycroft-wedding-4.jpg)
-{% endfigure %}
+![The bride](../../images/roycroft-wedding-1-lg.jpg)
+
+![Kissing](../../images/roycroft-wedding-2.jpg)
+
+![Wedding tea favors](../../images/roycroft-wedding-3.jpg)
+
+![Cutting the vegan cake](../../images/roycroft-wedding-4.jpg)
