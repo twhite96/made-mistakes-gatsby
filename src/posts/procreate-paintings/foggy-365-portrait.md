@@ -1,7 +1,7 @@
 ---
 title: "Glowing pencil practice"
 date: 2018-04-03
-path: /procreate/foggy-365-portrait/
+path: /procreate-paintings/foggy-365-portrait/
 excerpt: "Portrait of Foggy 365 digitally painted with Procreate on an iPad."
 last_modified_at:
 image: ../../images/foggy-365-procreate.jpg

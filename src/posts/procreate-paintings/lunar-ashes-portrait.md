@@ -1,7 +1,7 @@
 ---
 title: "Choke's embrace"
 date: 2017-08-31
-path: /procreate/lunar-ashes-portrait/
+path: /procreate-paintings/lunar-ashes-portrait/
 excerpt: "Portrait of Lunar Ashes digitally painted with Procreate on an iPad."
 last_modified_at: 2017-08-31T14:31:18-04:00
 image: ../../images/lunar-ashes-procreate.jpg

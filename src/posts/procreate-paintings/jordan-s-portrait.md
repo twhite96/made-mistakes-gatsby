@@ -1,7 +1,7 @@
 ---
 title: "Blushing my cheeks"
 date: 2015-09-14
-path: /procreate/jordan-s-portrait/
+path: /procreate-paintings/jordan-s-portrait/
 excerpt: "Portrait of Jordan S., digitally painted with Procreate on an iPad."
 last_modified_at: 2015-11-06T10:03:00-05:00
 image: ../../images/jordan-s-procreate.jpg

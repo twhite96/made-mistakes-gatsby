@@ -1,7 +1,7 @@
 ---
 title: "Watercolor, not watercolor"
 date: 2016-04-26
-path: /procreate/emil-i-portrait/
+path: /procreate-paintings/emil-i-portrait/
 excerpt: "Portrait of Emil I. digitally painted with Procreate on an iPad."
 last_modified_at: 2017-09-08T10:24:20-04:00
 image: ../../images/emil-i-procreate.jpg

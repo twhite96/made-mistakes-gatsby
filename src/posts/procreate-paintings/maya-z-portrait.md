@@ -1,7 +1,7 @@
 ---
 title: "Corpse paint your tears"
 date: 2018-04-03
-path: /procreate/maya-z-portrait/
+path: /procreate-paintings/maya-z-portrait/
 excerpt: "Portrait of Maya Z. digitally painted with Procreate on an iPad."
 last_modified_at:
 image: ../../images/maya-z-procreate.jpg

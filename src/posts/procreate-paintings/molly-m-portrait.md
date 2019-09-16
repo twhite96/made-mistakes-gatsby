@@ -1,7 +1,7 @@
 ---
 title: "The better to see you"
 date: 2015-12-07
-path: /procreate/molly-m-portrait/
+path: /procreate-paintings/molly-m-portrait/
 excerpt: "Portrait of Molly M. digitally painted with Procreate on an iPad."
 last_modified_at: 2015-12-07T14:52:04-05:00
 image: ../../images/molly-m-procreate.jpg

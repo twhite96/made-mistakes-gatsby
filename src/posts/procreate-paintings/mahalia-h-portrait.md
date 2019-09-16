@@ -1,7 +1,7 @@
 ---
 title: "Eyes be damned"
 date: 2016-07-22
-path: /procreate/mahalia-h-portrait/
+path: /procreate-paintings/mahalia-h-portrait/
 excerpt: "Portrait of Mahalia H. digitally painted with Procreate on an iPad."
 last_modified_at: 2016-07-22T10:48:14-04:00
 image: ../../images/mahalia-h-procreate.jpg

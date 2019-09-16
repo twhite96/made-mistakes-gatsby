@@ -1,7 +1,7 @@
 ---
 title: "Right amount of beard sparkle"
 date: 2016-01-25
-path: /procreate/rakso-s-portrait/
+path: /procreate-paintings/rakso-s-portrait/
 excerpt: "Portrait of Rakso S. digitally painted with Procreate on an iPad."
 last_modified_at: 2016-10-10T10:49:10-04:00
 image: ../../images/rakso-s-procreate.jpg

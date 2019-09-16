@@ -1,7 +1,7 @@
 ---
 title: "Painterly fringed collar"
 date: 2016-02-18
-path: /procreate/jenny-x-portrait/
+path: /procreate-paintings/jenny-x-portrait/
 excerpt: "Portrait of Jenny x. digitally painted with Procreate on an iPad."
 last_modified_at: 
 image: ../../images/jenny-x-procreate.jpg

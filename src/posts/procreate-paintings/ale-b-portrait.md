@@ -1,7 +1,7 @@
 ---
 title: "The two hour beard"
 date: 2018-04-30
-path: /procreate/ale-b-portrait/
+path: /procreate-paintings/ale-b-portrait/
 excerpt: "Portrait of Ale B. digitally painted with Procreate on an iPad."
 last_modified_at: 2018-04-30T16:22:39-04:00
 image: ../../images/ale-b-procreate.jpg

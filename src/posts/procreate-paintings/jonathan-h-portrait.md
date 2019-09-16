@@ -1,7 +1,7 @@
 ---
 title: "Blue and pink lights"
 date: 2016-05-18
-path: /procreate/jonathan-h-portrait/
+path: /procreate-paintings/jonathan-h-portrait/
 excerpt: "Portrait of Jonathan H. digitally painted with Procreate on an iPad."
 last_modified_at: 2016-05-18T10:46:51-04:00
 image: ../../images/jonathan-h-procreate.jpg

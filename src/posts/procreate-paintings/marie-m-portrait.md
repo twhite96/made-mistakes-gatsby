@@ -1,7 +1,7 @@
 ---
 title: "Water tension"
 date: 2018-06-04
-path: /procreate/marie-m-portrait/
+path: /procreate-paintings/marie-m-portrait/
 excerpt: "Portrait of Marie M. digitally painted with Procreate on an iPad."
 last_modified_at:
 image: ../../images/marie-m-procreate.jpg

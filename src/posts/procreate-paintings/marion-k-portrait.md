@@ -1,7 +1,7 @@
 ---
 title: "Back at it"
 date: 2018-03-22
-path: /procreate/marion-k-portrait/
+path: /procreate-paintings/marion-k-portrait/
 excerpt: "Portrait of Marion K. digitally painted with Procreate on an iPad."
 last_modified_at: 2018-03-22T09:21:18-04:00
 image: ../../images/marion-k-procreate.jpg
