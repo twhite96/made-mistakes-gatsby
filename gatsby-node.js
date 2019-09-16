@@ -179,6 +179,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type MarkdownRemark implements Node {
       frontmatter: Frontmatter!
     }
+
     type Frontmatter {
       title: String!
       date: Date @dateformat
@@ -195,6 +196,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       comments_locked: Boolean
       _parent: String!
     }
+
     type TaxonomyYaml implements Node {
       id: String!
     }
