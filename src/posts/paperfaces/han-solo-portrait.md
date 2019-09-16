@@ -15,16 +15,19 @@ Last year I stuck to the original trilogy with my [Darth Vader](/paperfaces/dart
 
 `youtube: https://www.youtube.com/watch?v=9e1nPyHXCFQ`
 
+![Work in process screenshot](../../images/paperfaces-han-solo-process-1-lg.jpg)
+
+![Work in process screenshot](../../images/paperfaces-han-solo-process-2-lg.jpg)
+
+![Work in process screenshot](../../images/paperfaces-han-solo-process-3-lg.jpg)
+
+![Work in process screenshot](../../images/paperfaces-han-solo-process-4-lg.jpg)
+
+![Work in process screenshot](../../images/paperfaces-han-solo-process-5-lg.jpg)
+
+![Work in process screenshot](../../images/paperfaces-han-solo-process-6-lg.jpg)
+
 **Tools used:**
 
 - [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
 - [Paper for iOS](https://paper.bywetransfer.com/)
-
-{% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
-[![Work in process screenshot](../../images/paperfaces-han-solo-process-1-600.jpg)](../../images/paperfaces-han-solo-process-1-lg.jpg)
-[![Work in process screenshot](../../images/paperfaces-han-solo-process-2-600.jpg)](../../images/paperfaces-han-solo-process-2-lg.jpg)
-[![Work in process screenshot](../../images/paperfaces-han-solo-process-3-600.jpg)](../../images/paperfaces-han-solo-process-3-lg.jpg)
-[![Work in process screenshot](../../images/paperfaces-han-solo-process-4-600.jpg)](../../images/paperfaces-han-solo-process-4-lg.jpg)
-[![Work in process screenshot](../../images/paperfaces-han-solo-process-5-600.jpg)](../../images/paperfaces-han-solo-process-5-lg.jpg)
-[![Work in process screenshot](../../images/paperfaces-han-solo-process-6-600.jpg)](../../images/paperfaces-han-solo-process-6-lg.jpg)
-{% endfigure %}

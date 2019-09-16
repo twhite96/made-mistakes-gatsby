@@ -10,16 +10,16 @@ tags: [portrait, illustration, Paper for iOS]
 
 PaperFaces portrait of [@iucounu](https://twitter.com/iucounu).
 
-* **Stylus:** None
-* **Application:** [Paper by FiftyThree for iOS](http://www.fiftythree.com/paper)
+![Sketching out the composition with pencil](../../images/paperfaces-iucounu-process-1-lg.jpg)
 
-{% figure caption:"Sketching out the composition with pencil." %}
-[![Work in process screenshot](../../images/paperfaces-iucounu-process-1-750.jpg)](../../images/paperfaces-iucounu-process-1-lg.jpg)
-{% endfigure %}
+![Work in progress screenshot](../../images/paperfaces-iucounu-process-2-lg.jpg)
 
-{% figure caption:"Work in progress screenshots (Paper for iOS)." class:"gallery-2-col" %}
-[![](../../images/paperfaces-iucounu-process-2-600.jpg)](../../images/paperfaces-iucounu-process-2-lg.jpg)
-[![](../../images/paperfaces-iucounu-process-3-600.jpg)](../../images/paperfaces-iucounu-process-3-lg.jpg)
-[![](../../images/paperfaces-iucounu-process-4-600.jpg)](../../images/paperfaces-iucounu-process-4-lg.jpg)
-[![](../../images/paperfaces-iucounu-process-5-600.jpg)](../../images/paperfaces-iucounu-process-5-lg.jpg)
-{% endfigure %}
+![Work in progress screenshot](../../images/paperfaces-iucounu-process-3-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-iucounu-process-4-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-iucounu-process-5-lg.jpg)
+
+**Tools used:**
+
+- [Paper for iOS](https://paper.bywetransfer.com/)
