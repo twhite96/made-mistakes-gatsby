@@ -13,7 +13,7 @@ Tiny portrait of Grand Moff Tarkin from **Star Wars**. Painted with watercolor o
 
 Final painting measures 1.5\" x 1.5\" and was completed about 3 hours. Was convinced he was going to resemble Magneto by the end of it, but was able to pull it together once the color started to flow.
 
-![Pencil sketch work in process](../../images/painting-grand-moff-tarkin-process-1-lg.jpg)
+![Grand Moff Tarkin pencil sketch work in process](../../images/painting-grand-moff-tarkin-process-1-lg.jpg)
 
 **Tools used:**
 

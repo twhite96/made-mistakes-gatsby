@@ -13,9 +13,9 @@ Portrait of Jenell D. inspired by a [photograph on Sktchy](https://sktchy.com/7i
 
 Things got a little dark in the face, but I guess that's what inexperience with digital charcoals gets you. Yup, still haven't a clue what I'm doing with this app yet...
 
-{% figure caption:"Time lapse video recorded within Procreate." %}
+Time lapse video recorded within Procreate.
+
 `youtube: https://www.youtube.com/watch?v=A7ZlCZt9SoQ`
-{% endfigure %}
 
 **Tools used:**
 

@@ -11,11 +11,11 @@ tags: [Procreate, portrait, illustration, time lapse, beard, Sktchy]
 
 Portrait of David G. inspired by a [photograph on Sktchy](https://sktchy.com/CIyk0D). Digitally painted with Procreate on an iPad Air 2.
 
-I could have easily spent another 5 hours meticulously rendering beard whiskers and cleaning up some sloppy color transitions. But at some point you just have to put your kid to bed to rest and grow.
+I could have spent another 5 hours meticulously rendering beard whiskers and cleaning up some sloppy color transitions. But at some point you have to put your kid to bed to rest and grow.
 
-{% figure caption:"Time lapse video recorded within Procreate, completed in approximately 5 hours." %}
+Time lapse video recorded within Procreate, completed in approximately 5 hours.
+
 `youtube: https://www.youtube.com/watch?v=oekapLJEWfs`
-{% endfigure %}
 
 **Tools used:**
 

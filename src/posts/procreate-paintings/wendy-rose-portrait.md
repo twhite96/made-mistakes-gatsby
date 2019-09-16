@@ -13,13 +13,13 @@ Portrait of Wendy inspired by a portrait I [originally drew in Paper](/paperface
 
 This was my first attempt at using [**Procreate**](http://procreate.si/) and decided to give it a try in between working on my [PaperFaces Project](/paperfaces/).
 
-Having used [FiftyThree's Paper app](http://www.fiftythree.com/) exclusively up until this point I was quickly overwhelmed by all of Procreate's features. The power was certainly there, but the simplicity of picking up an iPad and stylus to start a sketch wasn't.
+Having used [FiftyThree's Paper app](http://www.fiftythree.com/) up until this point I was overwhelmed by all of Procreate's features. The power was certainly there, but the simplicity of picking up an iPad and stylus to start a sketch wasn't.
 
 Paper's sketchbook motif resonated with me more than the approach digital painting powerhouses like Procreate were pursuing. Learning a complex and feature rich app was not something I had the time to mess with. So I abandoned Procreate with the goal of returning to it a year or two...
 
-{% figure caption:"Time lapse video recorded within Procreate." %}
+Time lapse video recorded within Procreate.
+
 `youtube: https://www.youtube.com/watch?v=w2e0phIhGq8`
-{% endfigure %}
 
 **Tools used:**
 

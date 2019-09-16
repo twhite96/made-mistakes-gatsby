@@ -17,9 +17,9 @@ Going back to my friend the **round brush** in Procreate has been fun. I've expe
 
 I've found playing with opacity and the glazing toggles gets color results similar to what I'd achieve with [Paper's watercolor brush](/mastering-paper/watercolor-brush-update/). Brushes in Procreate don't exactly have the same level of organic-ness, but with enough glazes and on-canvas mixing you can get close.
 
-{% figure caption:"Time lapse video recorded within Procreate, completed in approximately 4 hours." %}
-{% youtube -PVofD2A9t8 %}
-{% endfigure %}
+Time lapse video recorded within Procreate, completed in approximately 4 hours.
+
+`youtube: https://www.youtube.com/watch?v=-PVofD2A9t8`
 
 **Tools used:**
 

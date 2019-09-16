@@ -13,9 +13,7 @@ Portrait of Ale B. inspired by a [photograph on Sktchy](https://sktchy.com/pGkOf
 
 Two hours and 30 minutes of beard scribbling over the last couple of weeks. Because who has time to relax draw in a single sitting?
 
-{% figure caption:"Work in progress" %}
-[![work in progress screenshot](../../images/ale-b-progress-1.jpg)](../../images/ale-b-progress-1-lg.jpg)
-{% endfigure %}
+![work in progress screenshot](../../images/ale-b-progress-1-lg.jpg)
 
 https://twitter.com/mmistakes/status/990746870380195840?ref_src=twsrc%5Etfw
 

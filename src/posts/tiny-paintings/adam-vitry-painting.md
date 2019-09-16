@@ -14,13 +14,11 @@ Tiny portrait of Adam Vitry inspired by a [photograph on Sktchy](https://sktchy.
 
 Final painting measures 1.5\" x 1.5\".
 
-{% figure caption:"Initial sketch completed with a 2H pencil to keep things light. #WAXquicktip" %}
 ![pencil sketch](../../images/painting-adam-vitry-process.jpg)
-{% endfigure %}
 
-{% figure caption:"2 hours of painting condensed into 30 seconds." %}
+Initial sketch completed with a 2H pencil to keep things light. #WAXquicktip
+
 `youtube: https://www.youtube.com/watch?v=QDpXp5v2syk`
-{% endfigure %}
 
 **Tools used:**
 

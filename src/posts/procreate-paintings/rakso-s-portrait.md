@@ -11,7 +11,7 @@ tags: [Procreate, portrait, illustration, time lapse, beard, Sktchy, black and w
 
 Portrait of Rakso S. inspired by a [photograph on Sktchy](https://sktchy.com/a4RQUD). Digitally painted with Procreate on an iPad Air 2.
 
-If you squint your eyes just right it almost looks like a photograph. Don't zoom in on the forehead or else you'll notice how unpolished the painting really is. But I'm not complaining, 3 hours of work with results like this --- I'll take it!
+If you squint your eyes just right it almost looks like a photograph. Don't zoom in on the forehead or else you'll notice how unpolished the painting is. But I'm not complaining, 3 hours of work with results like this --- I'll take it!
 
 `youtube: https://www.youtube.com/watch?v=gn6it_JASKY`
 

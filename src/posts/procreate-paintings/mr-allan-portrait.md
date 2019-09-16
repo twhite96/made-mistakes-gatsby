@@ -17,15 +17,13 @@ Not impressed with my early flirtations with Procreate I decided to read the ent
 
 [^manual]: Available for free download in Apple's iBook store.
 
-<blockquote>
-  <p>Once I modified my workflow slightly from what worked in Paper by FiftyThree I started to enjoy the app more.</p>
-</blockquote>
+> Once I modified my workflow slightly from what worked in Paper by FiftyThree I started to enjoy the app more.
 
 Where I struggled originally was applying the right customizations to my brushes to tone down the *oil paint* feel of the default brushes. As a heavy Paper user I grew accustomed to pencil and paint strokes behaving in a certain way, and Procreate was pretty much the opposite of that. Modifying brushes to paint as glazes was a huge help, allowing me to layer up tones instead of smearing opaque color around.
 
-{% figure caption:"Time lapse video recorded within Procreate." %}
+Time lapse video recorded within Procreate.
+
 `youtube: https://www.youtube.com/watch?v=vrqoIbu7gU0`
-{% endfigure %}
 
 Now if I can only figure out how to replicate the watercolor and pencil look I took for granted with Paper...
 
