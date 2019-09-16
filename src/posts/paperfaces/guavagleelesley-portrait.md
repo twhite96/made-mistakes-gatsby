@@ -12,18 +12,23 @@ First portrait I've drawn using that new Pencil stylus everyone is talking about
 
 PaperFaces portrait of [@GuavaGleeLesley](https://twitter.com/GuavaGleeLesley).
 
+![Work in progress screenshot](../../images/paperfaces-guavagleelesley-process-1-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-guavagleelesley-process-2-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-guavagleelesley-process-3-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-guavagleelesley-process-4-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-guavagleelesley-process-5-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-guavagleelesley-process-6-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-guavagleelesley-process-7-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-guavagleelesley-process-8-lg.jpg)
+
 **Tools used:**
 
 - [Pencil by FiftyThree](https://www.amazon.com/FiftyThree-Digital-Stylus-Pencil-iPhone/dp/B01JJBUYR4/ref=as_li_ss_tl?keywords=pencil+53&qid=1550586265&s=gateway&sr=8-3&linkCode=ll1&tag=mademist-20&linkId=0134793cb840affff60f2e45a7f64678&language=en_US)
 - [Paper for iOS](https://paper.bywetransfer.com/)
-
-{% figure caption:"Work in progress screenshots (Paper for iOS)." class:"gallery-3-col" %}
-[![](../../images/paperfaces-guavagleelesley-process-1-600.jpg)](../../images/paperfaces-guavagleelesley-process-1-lg.jpg)
-[![](../../images/paperfaces-guavagleelesley-process-2-600.jpg)](../../images/paperfaces-guavagleelesley-process-2-lg.jpg)
-[![](../../images/paperfaces-guavagleelesley-process-3-600.jpg)](../../images/paperfaces-guavagleelesley-process-3-lg.jpg)
-[![](../../images/paperfaces-guavagleelesley-process-4-600.jpg)](../../images/paperfaces-guavagleelesley-process-4-lg.jpg)
-[![](../../images/paperfaces-guavagleelesley-process-5-600.jpg)](../../images/paperfaces-guavagleelesley-process-5-lg.jpg)
-[![](../../images/paperfaces-guavagleelesley-process-6-600.jpg)](../../images/paperfaces-guavagleelesley-process-6-lg.jpg)
-[![](../../images/paperfaces-guavagleelesley-process-7-600.jpg)](../../images/paperfaces-guavagleelesley-process-7-lg.jpg)
-[![](../../images/paperfaces-guavagleelesley-process-8-600.jpg)](../../images/paperfaces-guavagleelesley-process-8-lg.jpg)
-{% endfigure %}
