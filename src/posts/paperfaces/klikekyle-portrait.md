@@ -10,16 +10,16 @@ tags: [portrait, illustration, Paper for iOS, beard]
 
 PaperFaces portrait of [@klikekyle](https://twitter.com/klikekyle).
 
-* **Stylus:** None
-* **Application:** [Paper by FiftyThree for iOS](http://www.fiftythree.com/paper)
+![Work in process screenshot](../../images/paperfaces-klikekyle-process-1-lg.jpg)
 
-{% figure caption:"Sketching out the composition with pencil." %}
-[![Work in process screenshot](../../images/paperfaces-klikekyle-process-1-750.jpg)](../../images/paperfaces-klikekyle-process-1-lg.jpg)
-{% endfigure %}
+![Work in process screenshot](../../images/paperfaces-klikekyle-process-2-lg.jpg)
 
-{% figure caption:"Work in progress screenshots (Paper for iOS)." class:"gallery-2-col" %}
-[![](../../images/paperfaces-klikekyle-process-2-600.jpg)](../../images/paperfaces-klikekyle-process-2-lg.jpg)
-[![](../../images/paperfaces-klikekyle-process-3-600.jpg)](../../images/paperfaces-klikekyle-process-3-lg.jpg)
-[![](../../images/paperfaces-klikekyle-process-4-600.jpg)](../../images/paperfaces-klikekyle-process-4-lg.jpg)
-[![](../../images/paperfaces-klikekyle-process-5-600.jpg)](../../images/paperfaces-klikekyle-process-5-lg.jpg)
-{% endfigure %}
+![Work in process screenshot](../../images/paperfaces-klikekyle-process-3-lg.jpg)
+
+![Work in process screenshot](../../images/paperfaces-klikekyle-process-4-lg.jpg)
+
+![Work in process screenshot](../../images/paperfaces-klikekyle-process-5-lg.jpg)
+
+**Tools used:**
+
+- [Paper for iOS](https://paper.bywetransfer.com/)

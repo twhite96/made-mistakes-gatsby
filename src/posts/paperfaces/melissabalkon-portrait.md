@@ -10,12 +10,11 @@ tags: [portrait, illustration, Paper for iOS, black and white]
 
 PaperFaces portrait of [@melissabalkon](https://twitter.com/melissabalkon) holding a boxing stance.
 
+![Work in process screenshot](../../images/paperfaces-melissabalkon-process-1-lg.jpg)
+
+![Work in process screenshot](../../images/paperfaces-melissabalkon-process-2-lg.jpg)
+
 **Tools used:**
 
 - [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
 - [Paper for iOS](https://paper.bywetransfer.com/)
-
-{% figure caption:"Drawing in grays is one of my favorite pastimes." class:"gallery-2-col" %}
-[![Work in process screenshot](../../images/paperfaces-melissabalkon-process-1-600.jpg)](../../images/paperfaces-melissabalkon-process-1-lg.jpg)
-[![Work in process screenshot](../../images/paperfaces-melissabalkon-process-2-600.jpg)](../../images/paperfaces-melissabalkon-process-2-lg.jpg)
-{% endfigure %}

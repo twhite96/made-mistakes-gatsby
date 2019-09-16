@@ -10,17 +10,21 @@ tags: [portrait, illustration, Paper for iOS, Sktchy, beard, bokeh, black and wh
 
 PaperFaces portrait of a [M Large](https://sktchy.com/0qfVg) inspired by a photograph on Sktchy.
 
+![Work in process screenshot](../../images/paperfaces-m-large-process-1-lg.jpg)
+
+![Work in process screenshot](../../images/paperfaces-m-large-process-2-lg.jpg)
+
+![Work in process screenshot](../../images/paperfaces-m-large-process-3-lg.jpg)
+
+![Work in process screenshot](../../images/paperfaces-m-large-process-4-lg.jpg)
+
+![Work in process screenshot](../../images/paperfaces-m-large-process-5-lg.jpg)
+
+![Work in process screenshot](../../images/paperfaces-m-large-process-6-lg.jpg)
+
+![Work in process screenshot](../../images/paperfaces-m-large-process-7-lg.jpg)
+
 **Tools used:**
 
 - [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
 - [Paper for iOS](https://paper.bywetransfer.com/)
-
-{% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
-[![Work in process screenshot](../../images/paperfaces-m-large-process-1-600.jpg)](../../images/paperfaces-m-large-process-1-lg.jpg)
-[![Work in process screenshot](../../images/paperfaces-m-large-process-2-600.jpg)](../../images/paperfaces-m-large-process-2-lg.jpg)
-[![Work in process screenshot](../../images/paperfaces-m-large-process-3-600.jpg)](../../images/paperfaces-m-large-process-3-lg.jpg)
-[![Work in process screenshot](../../images/paperfaces-m-large-process-4-600.jpg)](../../images/paperfaces-m-large-process-4-lg.jpg)
-[![Work in process screenshot](../../images/paperfaces-m-large-process-5-600.jpg)](../../images/paperfaces-m-large-process-5-lg.jpg)
-[![Work in process screenshot](../../images/paperfaces-m-large-process-6-600.jpg)](../../images/paperfaces-m-large-process-6-lg.jpg)
-[![Work in process screenshot](../../images/paperfaces-m-large-process-7-600.jpg)](../../images/paperfaces-m-large-process-7-lg.jpg)
-{% endfigure %}

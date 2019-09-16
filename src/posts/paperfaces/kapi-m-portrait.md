@@ -15,14 +15,15 @@ Now that I've removed the sense of urgency I previously felt when working on por
 
 It's [been a while since I drew one](/tag/eye/) and thought it might be fun to challenge myself and see how much detail I could knock out. The contours got away from me in a few places since I still find blending imprecise and over aggressive, but that's to be expected with a tool like Paper.
 
-Overall I'm happy with the finished results, especially when you reduced the size of the drawing --- it looks just like a photograph!
+I'm happy with the finished results, especially when you reduce the size of the drawing --- it looks like a photograph!
+
+![Work in process screenshot](../../images/paperfaces-kapi-m-process-1-600.jpg)
+
+![Work in process screenshot](../../images/paperfaces-kapi-m-process-2-600.jpg)
+
+![Work in process screenshot](../../images/paperfaces-kapi-m-process-3-600.jpg)
 
 **Tools used:**
 
 - [Pencil by FiftyThree](https://www.amazon.com/FiftyThree-Digital-Stylus-Pencil-iPhone/dp/B01JJBUYR4/ref=as_li_ss_tl?keywords=pencil+53&qid=1550586265&s=gateway&sr=8-3&linkCode=ll1&tag=mademist-20&linkId=0134793cb840affff60f2e45a7f64678&language=en_US)
 - [Paper for iOS](https://paper.bywetransfer.com/)
-
-{% figure caption:"Work in progress drawings available on Mix." class:"gallery-3-col" %}
-  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2075207"><img src="../../images/paperfaces-kalani-o-process-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2086067"><img src="../../images/paperfaces-kalani-o-process-2-600.jpg" alt="Work in process screenshot"></a>
-  {% endfigure %}

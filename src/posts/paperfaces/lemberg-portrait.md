@@ -10,14 +10,11 @@ tags: [portrait, illustration, Paper for iOS, beard]
 
 PaperFaces portrait of [@Lemberg](https://twitter.com/lemberg).
 
-{% figure caption:"Sketching out a face with the pencil tool." %}
-[![](../../images/paperfaces-lemberg-process-1-750.jpg)](../../images/paperfaces-lemberg-process-1-lg.jpg)
-{% endfigure %}
+![Sketching out a face with the pencil tool](../../images/paperfaces-lemberg-process-1-lg.jpg)
 
-{% figure caption:"Work in progress screenshots (**Paper for iOS**)." class:"gallery-2-col" %}
-[![](../../images/paperfaces-lemberg-process-2-600.jpg)](../../images/paperfaces-lemberg-process-2-lg.jpg)
-[![](../../images/paperfaces-lemberg-process-3-600.jpg)](../../images/paperfaces-lemberg-process-3-lg.jpg)
-{% endfigure %}
+![Work in progress screenshot](../../images/paperfaces-lemberg-process-2-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-lemberg-process-3-lg.jpg)
 
 **Tools used:**
 
