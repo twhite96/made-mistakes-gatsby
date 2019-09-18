@@ -2,12 +2,18 @@ const _ = require('lodash-addons')
 const { paginate } = require('gatsby-awesome-pagination')
 const { forEach, uniq, filter, not, isNil, flatMap } = require('rambdax')
 const path = require('path')
+const sharp = require('sharp')
 
 const postTemplate = path.resolve(`./src/templates/post.js`)
 const pageTemplate = path.resolve(`./src/templates/page.js`)
-const indexTemplate = path.resolve(`./src/templates/index.js`)
+// const indexTemplate = path.resolve(`./src/templates/index.js`)
 const categoriesTemplate = path.resolve(`./src/templates/categories.js`)
 const tagsTemplate = path.resolve(`./src/templates/tags.js`)
+
+// Sharp GLib-CRITICAL fix
+// https://github.com/gatsbyjs/gatsby/issues/6291#issuecomment-505097465
+sharp.simd(false)
+sharp.cache(false)
 
 exports.createPages = ({ actions, graphql, getNodes }) => {
   const { createPage } = actions
@@ -76,15 +82,15 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
     const pages = result.data.pages.edges
 
     // Create posts index with pagination
-    const indexPrefix = ({ pageNumber }) => (pageNumber === 0 ? '/' : '/page')
+    // const indexPrefix = ({ pageNumber }) => (pageNumber === 0 ? '/' : '/page')
 
-    paginate({
-      createPage,
-      items: posts,
-      component: indexTemplate,
-      itemsPerPage: siteMetadata.postsPerPage,
-      pathPrefix: indexPrefix,
-    })
+    // paginate({
+    //   createPage,
+    //   items: posts,
+    //   component: indexTemplate,
+    //   itemsPerPage: siteMetadata.postsPerPage,
+    //   pathPrefix: indexPrefix,
+    // })
 
     // Create Markdown posts
     posts.forEach(({ node }, index) => {
