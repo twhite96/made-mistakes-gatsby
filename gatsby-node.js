@@ -25,7 +25,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
         filter: {
           fileAbsolutePath: { regex: "/posts/" }
           fields: { sourceName: { ne: "comments" } }
-          frontmatter: { published: { ne: false } }
+          frontmatter: { published: { ne: false }, output: { ne: false } }
         }
         sort: { fields: [frontmatter___date], order: DESC }
       ) {
