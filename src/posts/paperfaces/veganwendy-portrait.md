@@ -9,7 +9,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, tattoo]
 ---
 
-PaperFaces portrait of @veganwendy(https://twitter.com/veganwendy). Don't cover your face. Let the birds flow from your tattoos.
+PaperFaces portrait of [@veganwendy](https://twitter.com/veganwendy). Don't cover your face. Let the birds flow from your tattoos.
 
 **Tools used:**
 

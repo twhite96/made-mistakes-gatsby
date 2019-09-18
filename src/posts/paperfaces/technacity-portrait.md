@@ -8,24 +8,23 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---
 
-PaperFaces portrait of [@technacity](https://twitter.com/technacity). Drawing clouds and waves is actually quite easy when using Paper for iOS's pencil and watercolor brush. I like to lay down a few wash layers with a color that makes up a majority of the sky or water. Then using white I quickly and lightly brush in the clouds and wave foam. To finish I went along the edges with a white pencil and lightly defined the clouds and splashes.
+PaperFaces portrait of [@technacity](https://twitter.com/technacity). Drawing clouds and waves is actually quite easy when using Paper for iOS's pencil and watercolor brush. I like to lay down a few wash layers with a color that makes up a majority of the sky or water. 
+
+![Work in process screenshot](../../images/paperfaces-technacity-process-1-lg.jpg)
+
+![Work in process screenshot](../../images/paperfaces-technacity-process-2-lg.jpg)
+
+![Work in process screenshot](../../images/paperfaces-technacity-process-3-lg.jpg)
+
+![Work in process screenshot](../../images/paperfaces-technacity-process-4-lg.jpg)
+
+Then using white I quickly and lightly brush in the clouds and wave foam. To finish I went along the edges with a white pencil and lightly defined the clouds and splashes.
+
+![Work in process screenshot](../../images/paperfaces-technacity-process-5-lg.jpg)
+
+![Work in process screenshot](../../images/paperfaces-technacity-process-6-lg.jpg)
 
 **Tools used:**
 
 - [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
 - [Paper for iOS](https://paper.bywetransfer.com/)
-
-{% figure caption:"Pencil sketch to rough out the composition." %}
-[![Work in process screenshot](../../images/paperfaces-technacity-process-1-600.jpg)](../../images/paperfaces-technacity-process-1-lg.jpg)
-{% endfigure %}
-
-{% figure caption:"Watercolor brush to block out shapes to build on." class:"gallery-2-col" %}
-[![Work in process screenshot](../../images/paperfaces-technacity-process-2-600.jpg)](../../images/paperfaces-technacity-process-2-lg.jpg)
-[![Work in process screenshot](../../images/paperfaces-technacity-process-3-600.jpg)](../../images/paperfaces-technacity-process-3-lg.jpg)
-{% endfigure %}
-
-{% figure caption:"Lightly shading with the pencil to create clouds and waves." class:"gallery-3-col" %}
-[![Work in process screenshot](../../images/paperfaces-technacity-process-4-600.jpg)](../../images/paperfaces-technacity-process-4-lg.jpg)
-[![Work in process screenshot](../../images/paperfaces-technacity-process-5-600.jpg)](../../images/paperfaces-technacity-process-5-lg.jpg)
-[![Work in process screenshot](../../images/paperfaces-technacity-process-6-600.jpg)](../../images/paperfaces-technacity-process-6-lg.jpg)
-{% endfigure %}

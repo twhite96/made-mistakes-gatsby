@@ -11,11 +11,9 @@ tags: [portrait, illustration, Paper for iOS, Sktchy]
 
 PaperFaces portrait of Shannon V. inspired by a [photograph on Sktchy](https://sktchy.com/tQUwNH).
 
-Sometimes when I feel lazy I go after a silhouette. Shading goes out the window and the only thing you really need to be considered with is drawing an accurate contour. The rest is just coloring within the lines...
+Sometimes when I feel lazy I go after a silhouette. Shading goes out the window and the only thing you need to be considered with is drawing an accurate contour. The rest is coloring within the lines...
 
-{% figure caption:"Work in progress drawing available on Mix." %}
-[![Work in process screenshot](../../images/paperfaces-shannon-v-process-1-900.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2575904)
-{% endfigure %}
+![Work in process screenshot](https://mix.fiftythree.com/11098-Michael-Rose/2575904)
 
 **Tools used:**
 

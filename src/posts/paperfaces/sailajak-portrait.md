@@ -8,7 +8,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---
 
-aperFaces portrait of [@sailajak](https://twitter.com/sailajak).
+PaperFaces portrait of [@sailajak](https://twitter.com/sailajak).
 
 **Tools used:**
 

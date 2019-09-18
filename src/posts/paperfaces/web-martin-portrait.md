@@ -10,15 +10,15 @@ tags: [portrait, illustration, Paper for iOS]
 
 PaperFaces portrait of [@web_martin](https://twitter.com/web_martin).
 
+Use soft quick watercolor strokes layered on top of each other to simulate a blurred background. Helps add contrast to the composition when drawing crisp lines in the figures' hair.
+
+![Work in process screenshot](../../images/paperfaces-web-martin-process-1-lg.jpg)
+
+Render the face gradually and move fast to soften each stroke. Apply white as needed to lighten darker tones.
+
+![Work in process screenshot](../../images/paperfaces-web-martin-process-2-lg.jpg)
+
 **Tools used:**
 
 - [Pogo Connect Bluetooth Smart Pen](https://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
 - [Paper for iOS](https://paper.bywetransfer.com/)
-
-{% figure caption:"Use soft quick watercolor strokes layered on top of each other to simulate a blurred background. Helps add contrast to the composition when drawing crisp lines in the figures' hair." %}
-[![Work in process screenshot](../../images/paperfaces-web-martin-process-1-600.jpg)](../../images/paperfaces-web-martin-process-1-lg.jpg)
-{% endfigure %}
-
-{% figure caption:"Render the face gradually and move quickly to soften each stroke. Apply white as needed to lighten darker tones." %}
-[![Work in process screenshot](../../images/paperfaces-web-martin-process-2-600.jpg)](../../images/paperfaces-web-martin-process-2-lg.jpg)
-{% endfigure %}

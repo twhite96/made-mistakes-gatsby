@@ -10,16 +10,22 @@ tags: [portrait, illustration, Paper for iOS]
 
 PaperFaces portrait of [@SammyCostello](https://twitter.com/SammyCostello).
 
-* **Stylus:** None
-* **Application:** [Paper by FiftyThree for iOS](http://www.fiftythree.com/paper)
+![Work in progress screenshot](../../images/paperfaces-sammycostello-process-1-lg.jpg)
 
-{% figure caption:"Work in progress screenshots (Paper for iOS)." class:"gallery-3-col" %}
-[![](../../images/paperfaces-sammycostello-process-1-600.jpg)](../../images/paperfaces-sammycostello-process-1-lg.jpg)
-[![](../../images/paperfaces-sammycostello-process-2-600.jpg)](../../images/paperfaces-sammycostello-process-2-lg.jpg)
-[![](../../images/paperfaces-sammycostello-process-3-600.jpg)](../../images/paperfaces-sammycostello-process-3-lg.jpg)
-[![](../../images/paperfaces-sammycostello-process-4-600.jpg)](../../images/paperfaces-sammycostello-process-4-lg.jpg)
-[![](../../images/paperfaces-sammycostello-process-5-600.jpg)](../../images/paperfaces-sammycostello-process-5-lg.jpg)
-[![](../../images/paperfaces-sammycostello-process-6-600.jpg)](../../images/paperfaces-sammycostello-process-6-lg.jpg)
-[![](../../images/paperfaces-sammycostello-process-7-600.jpg)](../../images/paperfaces-sammycostello-process-7-lg.jpg)
-[![](../../images/paperfaces-sammycostello-process-8-600.jpg)](../../images/paperfaces-sammycostello-process-8-lg.jpg)
-{% endfigure %}
+![Work in progress screenshot](../../images/paperfaces-sammycostello-process-2-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-sammycostello-process-3-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-sammycostello-process-4-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-sammycostello-process-5-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-sammycostello-process-6-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-sammycostello-process-7-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-sammycostello-process-8-lg.jpg)
+
+**Tools used:**
+
+- [Paper for iOS](https://paper.bywetransfer.com/)

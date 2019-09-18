@@ -11,14 +11,17 @@ tags: [portrait, illustration, Paper for iOS]
 
 PaperFaces portrait of [@ZachoryBenton](https://twitter.com/zachorybenton).
 
-{% figure caption:"Work in progress screenshots (**Paper for iOS**)." class:"gallery-3-col" %}
-[![](../../images/paperfaces-zachorybenton-process-1-600.jpg)](../../images/paperfaces-zachorybenton-process-1-lg.jpg)
-[![](../../images/paperfaces-zachorybenton-process-2-600.jpg)](../../images/paperfaces-zachorybenton-process-2-lg.jpg)
-[![](../../images/paperfaces-zachorybenton-process-3-600.jpg)](../../images/paperfaces-zachorybenton-process-3-lg.jpg)
-[![](../../images/paperfaces-zachorybenton-process-4-600.jpg)](../../images/paperfaces-zachorybenton-process-4-lg.jpg)
-[![](../../images/paperfaces-zachorybenton-process-5-600.jpg)](../../images/paperfaces-zachorybenton-process-5-lg.jpg)
-[![](../../images/paperfaces-zachorybenton-process-6-600.jpg)](../../images/paperfaces-zachorybenton-process-6-lg.jpg)
-{% endfigure %}
+![Work in progress screenshot](../../images/paperfaces-zachorybenton-process-1-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-zachorybenton-process-2-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-zachorybenton-process-3-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-zachorybenton-process-4-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-zachorybenton-process-5-lg.jpg)
+
+![Work in progress screenshot](../../images/paperfaces-zachorybenton-process-6-lg.jpg)
 
 **Tools used:**
 
