@@ -61,7 +61,8 @@ class Gallery extends React.Component {
         <SEO
           title={`Procreate iPad paintings - ${site.title}`}
           path="/procreate-paintings/"
-          description="Gallery of digital paintings created with Procreate on an iPad. Find time lapse videos, in-process screenshots, and more."
+          description="Gallery of digital paintings created with Procreate on
+          an iPad. Find time lapse videos, in-process screenshots, and more."
           metaImage={metaImage}
         />
         <div className={style.post}>

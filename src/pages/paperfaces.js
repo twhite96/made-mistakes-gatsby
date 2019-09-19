@@ -61,7 +61,8 @@ class Gallery extends React.Component {
         <SEO
           title={`PaperFaces iPad project - ${site.title}`}
           path="/paperfaces/"
-          description="PaperFaces portraits painted digitally with Paper for iOS on an iPad. Find time lapse videos, in-process screenshots, and more."
+          description="PaperFaces portraits painted digitally with Paper for
+          iOS on an iPad. Find time lapse videos, in-process screenshots, and more."
           metaImage={metaImage}
         />
         <div className={style.post}>
