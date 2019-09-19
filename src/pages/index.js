@@ -85,9 +85,7 @@ HomePage.propTypes = {
 
 export const pageQuery = graphql`
   query SectionImageQuery {
-    aboutImage: file(
-      relativePath: { eq: "michael-rose-glitched.jpg" }
-    ) {
+    aboutImage: file(relativePath: { eq: "michael-rose-glitched.jpg" }) {
       childImageSharp {
         fixed(width: 600) {
           src
