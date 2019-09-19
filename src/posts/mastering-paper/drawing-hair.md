@@ -18,7 +18,7 @@ I like to rough out a general shape of the subject's hair using watercolor loade
 
 When working with the watercolor brush remember to **layer** numerous strokes to get a rich dark base. Just painting one coat of black won't give great results needed for the next step.
 
-[![Drawing hair with Paper for iOS cheatsheet](../../images/drawing-hair-paper-53-cheatsheet-600.jpg)](../../images/drawing-hair-paper-53-cheatsheet-lg.jpg)
+![Drawing hair with Paper for iOS cheatsheet](../../images/drawing-hair-paper-53-cheatsheet.jpg)
 
 ## Draw each strand
 

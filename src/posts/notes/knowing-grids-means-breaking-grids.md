@@ -39,18 +39,18 @@ I often have a problem with adding to much complexity to a design as a way to gi
 
 If I've learned anything as a designer, it's to make more insightful moves with my grid and other invisible elements. Hopeful this will let the content of each design do the communicating and draw attention. That's really the point of all this --- isn't it?
 
-![Office on Women's Health 2011 calendar cover](../../images/owh-grid-cover-800x452.jpg)
+![Office on Women's Health 2011 calendar cover](../../images/owh-grid-cover.jpg)
 
 Fine and subdued imagery catches my eye?
 
-![OWH page spread with 4 column grid](../../images/owh-grid-spread-800x454.jpg)
+![OWH page spread with 4 column grid](../../images/owh-grid-spread.jpg)
 
 Taking the time to develop a strong grid system helps bring order to placing type and image.
 
-![OWH calendar pages and nice subdued drop shadows](../../images/owh-grid-calendar-800x472.jpg)
+![OWH calendar pages and nice subdued drop shadows](../../images/owh-grid-calendar.jpg)
 
 Nothing irks me more than when drop shadows are applied with default Photoshop layer styles. Glad to see someone dialing back the opacity and blur for a subtle way of adding dimension.
 
-![OWH 4 column grid and icon detail](../../images/owh-grid-icons-620x298.jpg)
+![OWH 4 column grid and icon detail](../../images/owh-grid-icons.jpg)
 
 A straight corner is just asking to stand out amongst the rounded and direct eye traffic to a logically spot.

@@ -16,6 +16,6 @@ If you weren't aware --- [About.me](https://about.me) is a custom profile and pe
 
 *[WYSIWYG]: What you see is what you get
 
-![Holding a Made Mistakes business card](../../images/michael-rose-business-card-qr-620x413.jpg)
+![Holding a Made Mistakes business card](../../images/michael-rose-business-card-qr.jpg)
 
-[![Screenshot of my about.me page](../../images/michael-rose-about-me-620x349.jpg)](https://about.me/michael.rose)
+[![Screenshot of my about.me page](../../images/michael-rose-about-me.jpg)](https://about.me/michael.rose)

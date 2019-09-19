@@ -65,7 +65,7 @@ Easy and simple can turn boring in a hurry. The challenge of capturing portraits
 
 With enough practice I was able to evolve as a creator and produce sketches with greater detail.
 
-![PaperFaces evolution](../../images/paper-53-face-evolution.jpg)
+![PaperFaces evolution](../../images/paper-53-face-evolution-lg.jpg)
 
 As confidence levels grew I wasn't afraid to change the rules to challenge myself. Over the course of two years I did this numerous times by straying outside my comfort zone. First major change was switching from the ink pens to the watercolor and pencil tools. The next was when I decided to move away from drawing blank faces and attempt something more realistic.
 
