@@ -4,7 +4,7 @@ path: /faqs/learn-to-draw/
 type: paper
 date: 2016-08-26
 last_modified_at: 2015-11-30T12:35:17-05:00
-order: 4
+order: 5
 ---
 
 The answer that no one likes to hear is "*practice, practice, practice.*" I wish there was some magical shortcut for learning how to draw, but there isn't.

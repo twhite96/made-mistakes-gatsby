@@ -4,7 +4,7 @@ path: /faqs/what-tablet/
 type: paper
 date: 2016-08-26
 last_modified_at: 2019-02-25T20:56:14-05:00
-order: 2
+order: 3
 ---
 
 If it wasn't painfully obvious, I draw, paint, and create on Apple's iPad. My current iPad is a 12.9" Pro (256GB) with the Space Gray finish. Before I took the plunge and upgraded to the larger screen I had an Air 2.

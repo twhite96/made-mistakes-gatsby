@@ -4,7 +4,7 @@ path: /faqs/paper-videos/
 type: paper
 date: 2016-08-26
 last_modified_at: 2018-11-07T10:12:13-05:00
-order: 9
+order: 11
 ---
 
 Most of my Paper for iOS time lapse videos were made using [**Reflector**](http://www.airsquirrels.com/reflector/) to record the iPad's screen. With some edits done in Adobe AfterEffects to speed things up, include music, and add overlays.

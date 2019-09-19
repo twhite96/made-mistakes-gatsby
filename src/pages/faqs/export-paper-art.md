@@ -4,7 +4,7 @@ path: /faqs/export-paper-art/
 type: paper
 date: 2016-08-26
 last_modified_at: 2014-12-08T12:25:58-05:00
-order: 7
+order: 9
 ---
 
 In Paper for iOS you can only export as large as your iPad's native resolution. If you care about getting more pixels out of your Paper art then an iPad Air is the way to go.

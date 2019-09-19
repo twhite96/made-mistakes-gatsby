@@ -4,7 +4,7 @@ path: /faqs/straight-lines/
 type: paper
 date: 2016-08-26
 last_modified_at: 2015-11-30T12:12:49-05:00
-order: 6
+order: 8
 ---
 
 To draw straight lines on the iPad I [use whatever straight edge]({% post_url /mastering-paper/2014-07-06-grid-method %}) I have laying around: ruler, book, piece of cardboard, notepad, etc. I have a few Paper by FiftyThree journal pages of "frames" that I duplicate[^duplicate-page] anytime I need them. Saves me the step of having to redraw the same thing over and over again.
