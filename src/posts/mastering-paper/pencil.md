@@ -18,7 +18,7 @@ Not convinced you need **FiftyThree's Pencil stylus** in your life? Or maybe you
 
 [Pencil by FiftyThree][buy-pencil] is not like other styli designed to work with Apple's iPad tablet. The unique shape and meticulously crafted finishes (*Walnut*, *Graphite*, and *Gold*) are the obvious differentiators, but it's the experiential qualities that truly sets it apart from the rest.
 
-![Pencil by FiftyThree](../../images/pencil-53-feature-900.jpg)
+![Pencil by FiftyThree](../../images/pencil-53-feature.jpg)
 
 For the uninitiated, Pencil allows you to switch between tools in an intuitive and natural way when working with Paper (and [apps that support FiftyThree's SDK](https://wetransfer.zendesk.com/hc/en-us/articles/360001368883-Pencil-by-FiftyThree "Pencil ready iOS apps")). Bounce between drawing, erasing, and blending without ever having to "switch tools" --- the tip draws, the eraser erases, and your finger smudges.
 
@@ -431,9 +431,9 @@ Before Pencil and Blend were a thing you had to [get creative with white paint](
 
 Galaxies far far away, stars, planets, black holes, and countless other celestial bodies can also benefit from blends and smudges. For in-depth instructions and videos be sure to check out my [**Mastering Paper: Drawing Outer Space**](/mastering-paper/drawing-outer-space/) guide.
 
-[![space scene with planets](../../images/paper-53-space-2-finished-750.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/1534984)
+![space scene with planets](../../images/paper-53-space-2-finished.jpg)
 
-[![space scene with aurora](../../images/paper-53-space-3-finished-750.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/1576095)
+![space scene with aurora](../../images/paper-53-space-3-finished-750.jpg)
 
 The two sets of tutorials show how to smear color around a black canvas to create planets and glowing stars. And for those of you who don't own Pencil yet I walk you through how to create a similar scene with your fingers.
 

@@ -139,7 +139,7 @@ After receiving a Pogo Connect as a birthday gift from my wife years ago, one of
 Starting out as a digital illustration virgin I wanted to ease in with something that felt familiar to the "real" tools I was used to. Paper by FiftyThree fit this criteria perfectly, making the transition from analog art to digital easier. I did experiment with Procreate at the same time, but was never really happy with the results since I didn't understand the medium yet.
 
 <figure class="2-column">
-  <img alt="Wendy's portrait painted in Procreate with a Pogo Connect stylus" src="../../images/wendy-portrait-procreate-lg.jpg">
+  <img alt="Wendy's portrait painted in Procreate with a Pogo Connect stylus" src="../../images/wendy-rose-procreate.jpg">
   <img alt="Figure drawing experiments in Procreate" src="../../images/grunge-figure-drawing-procreate-lg.jpg">
   <figcaption><p>My early attempts with Procreate weren't all that great. It took me some time to figure out the paint engine as it felt less organic than what I was used to with traditional media.</p></figcaption>
 </figure>
