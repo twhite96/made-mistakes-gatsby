@@ -25,6 +25,9 @@ const SEO = ({
       defaultBanner,
       siteLanguage,
       ogLanguage,
+      pingbackUrl,
+      webmentionUrl,
+      micropubUrl,
       author,
       twitter,
       facebook,
@@ -119,6 +122,9 @@ const SEO = ({
       <Helmet title={seo.title}>
         <html lang={siteLanguage} />
         <link rel="canonical" href={seo.url} />
+        {pingbackUrl && <link rel="pingback" href={pingbackUrl} />}
+        {webmentionUrl && <link rel="webmention" href={webmentionUrl} />}
+        {micropubUrl && <link rel="micropub" href={micropubUrl} />}
         <meta name="description" content={seo.description} />
         <meta name="image" content={seo.image} />
         {/* Insert schema.org data conditionally (webpage/article) */}
@@ -191,6 +197,9 @@ const query = graphql`
         }
         siteLanguage
         ogLanguage
+        pingbackUrl
+        webmentionUrl
+        micropubUrl
         author
         twitter
         facebook

@@ -12,6 +12,10 @@ module.exports = {
     height: 384,
   },
   ogLanguage: 'en_US', // Facebook Language
+  pingbackUrl: 'https://webmention.io/mademistakes.com/xmlrpc',
+  webmentionUrl: 'https://webmention.io/mademistakes.com/webmention',
+  micropubUrl: 'https://mm-micropub-to-github.herokuapp.com/micropub/main',
+  googleAnalyticsID: '',
   staticmanApi:
     'https://api.staticman.net/v3/entry/github/mmistakes/gatsby-test/master/comments',
 
@@ -24,5 +28,4 @@ module.exports = {
 
   twitter: '@mmistakes', // Twitter username
   facebook: 'Made Mistakes', // Facebook site name
-  googleAnalyticsID: '',
 }
