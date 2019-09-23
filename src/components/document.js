@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
+import { formatDistance } from 'date-fns'
 
 import style from '../styles/post.module.css'
 
@@ -19,17 +20,34 @@ const Document = ({
 }) => {
   return (
     <>
-      <div className={style.post}>
+      <article className={`h-entry ${style.post}`}>
         <div className={style.postContent}>
           {excerpt ? (
-            <h2 className={style.title}>
+            <h2 className={`p-name ${style.title}`}>
               <Link to={path}>{title}</Link>
             </h2>
           ) : (
-            <h1 className={style.title}>{title}</h1>
+            <h1 className={`p-name ${style.title}`}>{title}</h1>
           )}
           <div className={style.meta}>
-            {date} {author && <>— Written by {author}</>}
+            {author && (
+              <>
+                Published by{' '}
+                <a className="p-author h-card" href={author.url}>
+                  {author.name}
+                </a>
+              </>
+            )}
+            {date && (
+              <>
+                {' '}
+                <time className="dt-published" dateTime={date}>
+                  {formatDistance(new Date(date), new Date(), {
+                    addSuffix: true,
+                  })}
+                </time>
+              </>
+            )}
             {tags ? (
               <div className={style.tags}>
                 {tags.map(tag => (
@@ -50,18 +68,21 @@ const Document = ({
 
           {excerpt ? (
             <>
-              <p>{excerpt}</p>
+              <p className="p-summary">{excerpt}</p>
               <Link to={path} className={style.readMore}>
                 Read more →
               </Link>
             </>
           ) : (
             <>
-              <div dangerouslySetInnerHTML={{ __html: html }} />
+              <div
+                className="e-content"
+                dangerouslySetInnerHTML={{ __html: html }}
+              />
             </>
           )}
         </div>
-      </div>
+      </article>
     </>
   )
 }

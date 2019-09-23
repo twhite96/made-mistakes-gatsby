@@ -54,15 +54,15 @@ const SEO = ({
     name: defaultTitle,
     author: {
       '@type': 'Person',
-      name: author,
+      name: author.name,
     },
     copyrightHolder: {
       '@type': 'Person',
-      name: author,
+      name: author.name,
     },
     creator: {
       '@type': 'Person',
-      name: author,
+      name: author.name,
     },
     publisher: {
       '@type': 'Organization',
@@ -88,11 +88,11 @@ const SEO = ({
       '@type': 'Article',
       author: {
         '@type': 'Person',
-        name: author,
+        name: author.name,
       },
       creator: {
         '@type': 'Person',
-        name: author,
+        name: author.name,
       },
       publisher: {
         '@type': 'Organization',
@@ -200,7 +200,10 @@ const query = graphql`
         pingbackUrl
         webmentionUrl
         micropubUrl
-        author
+        author {
+          name
+          url
+        }
         twitter
         facebook
       }

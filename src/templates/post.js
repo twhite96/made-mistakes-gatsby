@@ -17,7 +17,6 @@ const PostTemplate = ({ data, pageContext }) => {
       date,
       last_modified_at,
       path,
-      author,
       image,
       excerpt,
       tags,
@@ -52,7 +51,7 @@ const PostTemplate = ({ data, pageContext }) => {
         title={title}
         date={date}
         path={path}
-        author={author}
+        author={site.author}
         image={image}
         html={html}
         tags={tags}
@@ -100,8 +99,8 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
-        last_modified_at(formatString: "MMMM DD, YYYY")
+        date
+        last_modified_at
         path
         author
         excerpt

@@ -20,7 +20,10 @@ module.exports = {
     pingbackUrl: site.pingbackUrl,
     webmentionUrl: site.webmentionUrl,
     micropubUrl: site.micropubUrl,
-    author: site.author,
+    author: {
+      name: site.author.name,
+      url: site.author.url,
+    },
     twitter: site.twitter,
     facebook: site.facebook,
 

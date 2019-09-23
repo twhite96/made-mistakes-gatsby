@@ -22,7 +22,11 @@ module.exports = {
   // JSONLD / Manifest
   favicon: 'src/images/made-mistakes-logo.png', // Used for manifest favicon generation
   shortName: 'Made Mistakes', // shortname for manifest. MUST be shorter than 12 characters
-  author: 'Michael Rose', // Author for schema.org JSONLD
+  author: {
+    // Author for schema.org JSONLD
+    name: 'Michael Rose',
+    url: 'https://mademistakes.com',
+  },
   themeColor: '#ffffff',
   backgroundColor: '#000000',
 

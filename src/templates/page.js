@@ -27,7 +27,15 @@ const PageTemplate = ({ data }) => {
         metaImage={metaImage}
         article
       />
-      <Document key={id} title={title} path={path} image={image} html={html} />
+      <Document
+        key={id}
+        title={title}
+        date={date}
+        path={path}
+        image={image}
+        html={html}
+        author={site.author}
+      />
     </Layout>
   )
 }
@@ -43,8 +51,8 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
-        last_modified_at(formatString: "MMMM DD, YYYY")
+        date
+        last_modified_at
         path
         excerpt
         image {
