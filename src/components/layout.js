@@ -13,11 +13,6 @@ const Layout = ({ children }) => {
       site {
         siteMetadata {
           title
-          logo {
-            src
-            alt
-          }
-          logoText
           defaultTheme
           copyrights
           mainMenu {
@@ -32,8 +27,6 @@ const Layout = ({ children }) => {
   `)
   const {
     title,
-    logo,
-    logoText,
     defaultTheme,
     mainMenu,
     showMenuItems,
@@ -45,8 +38,6 @@ const Layout = ({ children }) => {
     <div className="container">
       <Header
         siteTitle={title}
-        siteLogo={logo}
-        logoText={logoText}
         defaultTheme={defaultTheme}
         mainMenu={mainMenu}
         mainMenuItems={showMenuItems}

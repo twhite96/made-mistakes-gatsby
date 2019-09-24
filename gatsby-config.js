@@ -28,12 +28,7 @@ module.exports = {
     facebook: site.facebook,
 
     // Starter config
-    logoText: 'Made Mistakes',
-    logo: {
-      src: '',
-      alt: '',
-    },
-    copyrights: '',
+    copyrights: '&copy; 2004&mdash;2019 Michael Rose.',
     defaultTheme: 'light',
     postsPerPage: 10,
     showMenuItems: 2,

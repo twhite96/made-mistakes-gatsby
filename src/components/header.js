@@ -9,8 +9,7 @@ import style from '../styles/header.module.css'
 
 const Header = props => {
   const {
-    siteLogo,
-    logoText,
+    siteTitle,
     mainMenu,
     mainMenuItems,
     menuMoreText,
@@ -49,15 +48,9 @@ const Header = props => {
         <div className={style.inner}>
           <Link to="/">
             <div className={style.logo}>
-              {siteLogo.src ? (
-                <img src={siteLogo.src} alt={siteLogo.alt} />
-              ) : (
-                <>
-                  <span className={style.mark}>></span>
-                  <span className={style.text}>{logoText}</span>
-                  <span className={style.cursor} />
-                </>
-              )}
+              <span className={style.mark}>></span>
+              <span className={style.text}>{siteTitle}</span>
+              <span className={style.cursor} />
             </div>
           </Link>
           <span className={style.right}>
@@ -79,8 +72,7 @@ const Header = props => {
 }
 
 Header.propTypes = {
-  siteLogo: PropTypes.object,
-  logoText: PropTypes.string,
+  siteTitle: PropTypes.string,
   defaultTheme: PropTypes.string,
   mainMenu: PropTypes.arrayOf(
     PropTypes.shape({
