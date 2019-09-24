@@ -41,7 +41,7 @@ TagsPage.propTypes = {
 
 export const pageQuery = graphql`
   query TagsQuery {
-    allMarkdownRemark {
+    allMarkdownRemark(filter: { frontmatter: { published: { ne: false } } }) {
       group(field: frontmatter___tags) {
         fieldValue
         totalCount

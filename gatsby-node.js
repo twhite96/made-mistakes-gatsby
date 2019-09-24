@@ -74,9 +74,10 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
     } = result.data
 
     const postsNodes = allNodes.filter(
-      ({ internal, fileAbsolutePath }) =>
+      ({ internal, fileAbsolutePath, frontmatter }) =>
         internal.type === 'MarkdownRemark' &&
-        fileAbsolutePath.indexOf('/posts/') !== -1
+        fileAbsolutePath.indexOf('/posts/') !== -1 &&
+        frontmatter.published !== false
     )
     const posts = result.data.posts.edges
     const pages = result.data.pages.edges
@@ -205,6 +206,8 @@ exports.createSchemaCustomization = ({ actions }) => {
 
     type TaxonomyYaml implements Node {
       id: String!
+      excerpt: String
+      html: String
     }
   `
   createTypes(typeDefs)
