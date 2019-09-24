@@ -218,7 +218,7 @@ module.exports = {
             options: {
               maxWidth: 800,
               quality: 80,
-              linkImagesToOriginal: true,
+              linkImagesToOriginal: false,
             },
           },
           {
@@ -268,6 +268,43 @@ module.exports = {
             },
           },
         ],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        output: '/sitemap.xml',
+        exclude: [
+          '/dev-404-page',
+          '/404',
+          '/404.html',
+          '/offline-plugin-app-shell-fallback',
+        ],
+        createLinkInHead: true,
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+
+            allSitePage {
+              edges {
+                node {
+                  path
+                }
+              }
+            }
+        }`,
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.edges.map(edge => {
+            return {
+              url: site.siteMetadata.siteUrl + edge.node.path,
+              changefreq: 'daily',
+              priority: 0.7,
+            }
+          }),
       },
     },
     // {
