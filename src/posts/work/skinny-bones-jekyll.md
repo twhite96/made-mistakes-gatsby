@@ -5,7 +5,7 @@ path: /work/skinny-bones-jekyll/
 excerpt: "A responsive, fully realized, and lightweight website starter for Jekyll."
 image: ../../images/skinny-bones-preview-feature.jpg
 categories: [work]
-tags: [Jekyll, web development, open source, GitHub]
+tags: [Jekyll, web development, design, open source, GitHub]
 work: "Design & Development"
 last_modified_at: 2015-05-22T15:11:31-04:00
 breadcrumbs:

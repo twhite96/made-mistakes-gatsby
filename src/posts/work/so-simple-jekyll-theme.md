@@ -6,7 +6,7 @@ excerpt: "A simple Jekyll theme for words and pictures by designer Michael Rose.
 last_modified_at: 2018-02-06T11:16:06-05:00
 image: ../../images/jekyll-theme-so-simple-feature-2018.jpg
 categories: [work]
-tags: [Jekyll, web development, open source, GitHub]
+tags: [Jekyll, web development, design, open source, GitHub]
 work: "Design & Development"
 breadcrumbs:
   - label: "Work"

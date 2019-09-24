@@ -5,7 +5,7 @@ path: /work/hpstr-jekyll-theme/
 excerpt: "A responsive Jekyll blog theme designed to give your site a modern and somewhat cliché look."
 image: ../../images/hpstr-preview-feature-2015.jpg
 categories: [work]
-tags: [Jekyll, web development, open source, GitHub]
+tags: [Jekyll, web development, design, open source, GitHub]
 work: "Design & Development"
 last_modified_at: 2018-02-06T11:15:46-05:00
 breadcrumbs:

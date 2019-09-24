@@ -6,7 +6,7 @@ date: 2018-11-27
 last_modified_at: 2018-11-27T09:44:26-05:00
 image: ../../images/jekyll-themes-feature.jpg
 categories: [work]
-tags: [Jekyll, web development, open source, GitHub]
+tags: [Jekyll, web development, design, open source, GitHub]
 comments: false
 comments_locked: true
 ---

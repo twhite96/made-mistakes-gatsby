@@ -6,7 +6,7 @@ image: ../../images/relic-scout-home-feature.png
 date: 2017-04-19
 last_modified_at: 2017-04-19T14:34:04-04:00
 categories: [work]
-tags: [design, logo, 8-bit, website, collectibles]
+tags: [design, website]
 published: false
 ---
 

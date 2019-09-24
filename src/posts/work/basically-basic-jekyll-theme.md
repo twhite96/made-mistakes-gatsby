@@ -6,7 +6,7 @@ excerpt: "Your new Jekyll default theme."
 last_modified_at: 2019-02-19T10:05:55-05:00
 image: ../../images/jekyll-theme-basically-basic-feature.jpg
 categories: [work]
-tags: [Jekyll, web development, open source, GitHub]
+tags: [Jekyll, web development, design, open source, GitHub]
 work: "Design & Development"
 breadcrumbs:
   - label: "Work"

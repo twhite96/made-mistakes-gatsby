@@ -6,7 +6,7 @@ last_modified_at: 2018-03-05T13:54:54-05:00
 excerpt: "Site design and creative for Eko Wave — a team of three specializing in niche applications."
 image: ../../images/eko-wave-feature.jpg
 categories: [work]
-tags: [design, logo, website]
+tags: [design]
 comments: false
 published: false
 ---

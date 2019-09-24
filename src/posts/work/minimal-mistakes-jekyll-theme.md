@@ -6,7 +6,7 @@ excerpt: "A flexible two-column Jekyll theme. Perfect for hosting your personal 
 last_modified_at: 2018-02-06T11:15:51-05:00
 image: ../../images/minimal-mistakes-3-feature.jpg
 categories: [work]
-tags: [Jekyll, web development, open source, GitHub]
+tags: [Jekyll, web development, design, open source, GitHub]
 work: "Design & Development"
 breadcrumbs:
   - label: "Work"
