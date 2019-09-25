@@ -1,3 +1,4 @@
+/* eslint-disable prefer-object-spread */
 const postCSSPresetEnv = require('postcss-preset-env')
 const postCSSNested = require('postcss-nested')
 const postCSSUrl = require('postcss-url')
@@ -305,6 +306,103 @@ module.exports = {
               priority: 0.7,
             }
           }),
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-feed',
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        setup: ({
+          query: {
+            site: { siteMetadata },
+            ...rest
+          },
+        }) => {
+          return {
+            ...siteMetadata,
+            ...rest,
+            custom_namespaces: {
+              webfeeds: 'http://webfeeds.org/rss/1.0',
+            },
+          }
+        },
+        feeds: [
+          {
+            query: `
+              {
+                allMarkdownRemark(
+                  limit: 25,
+                  filter: {
+                    fileAbsolutePath: { regex: "/posts/" }
+                    fields: { sourceName: { ne: "comments" } }
+                    frontmatter: { published: { ne: false }, output: { ne: false } }
+                  }
+                  sort: { fields: [frontmatter___date], order: DESC }
+                ) {
+                  edges {
+                    node {
+                      excerpt
+                      html
+                      frontmatter {
+                        title
+                        excerpt
+                        path
+                        date
+                        image {
+                          childImageSharp {
+                            fixed(width: 1000) {
+                              src
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(edge => {
+                const {
+                  node: {
+                    frontmatter: { title, date, path, excerpt, image },
+                    excerpt: autoExcerpt,
+                    html,
+                  },
+                } = edge
+
+                const permalink = site.siteMetadata.siteUrl + path
+
+                return Object.assign({}, edge.node.frontmatter, {
+                  title,
+                  description: excerpt || autoExcerpt,
+                  date,
+                  url: permalink,
+                  guid: permalink,
+                  enclosure: image && {
+                    url:
+                      site.siteMetadata.siteUrl +
+                      image.childImageSharp.fixed.src,
+                  },
+                  custom_elements: [{ 'content:encoded': html }],
+                })
+              })
+            },
+            output: '/atom.xml',
+            title: `${site.title} RSS Feed`,
+          },
+        ],
       },
     },
     // {
