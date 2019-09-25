@@ -18,7 +18,6 @@ There's little left for me to optimize until Jekyll drops some nice updates in [
 The "little" that remains, is about [a gigabyte of images](https://github.com/mmistakes/made-mistakes-images) I pipe through **Gulp**. Thousands of high resolution images are processed by [**Sharp**](https://github.com/lovell/sharp) into various sizes. I've been able to knock this down from 18 minutes, to six on a fresh build...
 
 ![Screenshot of Netlify's deploy log for Made Mistakes](../../images/netlify-deploy-log.png)
-{: .browser-frame}
 
 When building the site locally I store the image artifacts in a temporary folder, and generate new ones only if the source changes. When Netlify builds the site it processes these images each and every build --- regardless if they have changed or not.
 
