@@ -383,6 +383,14 @@ module.exports = {
                 } = edge
 
                 const permalink = site.siteMetadata.siteUrl + path
+                const imageElement = image
+                  ? `<p><img src="${site.siteMetadata.siteUrl +
+                      image.childImageSharp.fixed.src}" alt=""></p>`
+                  : ``
+                const footerContent = `<p><a href="${site.siteMetadata.siteUrl +
+                  edge.node.frontmatter.path}">${
+                  edge.node.frontmatter.title
+                }</a> was originally published on ${site.title}.</p>`
 
                 return Object.assign({}, edge.node.frontmatter, {
                   title,
@@ -390,17 +398,26 @@ module.exports = {
                   date,
                   url: permalink,
                   guid: permalink,
-                  enclosure: image && {
-                    url:
-                      site.siteMetadata.siteUrl +
-                      image.childImageSharp.fixed.src,
-                  },
-                  custom_elements: [{ 'content:encoded': html }],
+                  custom_elements: [
+                    { 'content:encoded': imageElement + html + footerContent },
+                    {
+                      'webfeeds:logo': site.siteMetadata.siteUrl + site.favicon,
+                    },
+                    {
+                      'webfeeds:icon': site.siteMetadata.siteUrl + site.favicon,
+                    },
+                    { 'webfeeds:accentColor': '000000' },
+                  ],
                 })
               })
             },
             output: '/atom.xml',
             title: `${site.title} RSS Feed`,
+            // optional configuration to insert feed reference in pages:
+            // if `string` is used, it will be used to create RegExp and then test if pathname of
+            // current page satisfied this regular expression;
+            // if not provided or `undefined`, all pages will have feed reference inserted
+            // match: "^/blog/",
           },
         ],
       },
