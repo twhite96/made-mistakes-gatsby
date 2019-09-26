@@ -318,7 +318,6 @@ module.exports = {
                 title
                 description
                 siteUrl
-                site_url: siteUrl
               }
             }
           }
@@ -335,6 +334,15 @@ module.exports = {
             custom_namespaces: {
               webfeeds: 'http://webfeeds.org/rss/1.0',
             },
+            custom_elements: [
+              {
+                'webfeeds:logo': site.url + site.favicon,
+              },
+              {
+                'webfeeds:icon': site.url + site.favicon,
+              },
+              { 'webfeeds:accentColor': '000000' },
+            ],
           }
         },
         feeds: [
@@ -342,7 +350,7 @@ module.exports = {
             query: `
               {
                 allMarkdownRemark(
-                  limit: 25,
+                  limit: 50,
                   filter: {
                     fileAbsolutePath: { regex: "/posts/" }
                     fields: { sourceName: { ne: "comments" } }
@@ -400,24 +408,152 @@ module.exports = {
                   guid: permalink,
                   custom_elements: [
                     { 'content:encoded': imageElement + html + footerContent },
-                    {
-                      'webfeeds:logo': site.siteMetadata.siteUrl + site.favicon,
-                    },
-                    {
-                      'webfeeds:icon': site.siteMetadata.siteUrl + site.favicon,
-                    },
-                    { 'webfeeds:accentColor': '000000' },
                   ],
                 })
               })
             },
             output: '/atom.xml',
             title: `${site.title} RSS Feed`,
-            // optional configuration to insert feed reference in pages:
-            // if `string` is used, it will be used to create RegExp and then test if pathname of
-            // current page satisfied this regular expression;
-            // if not provided or `undefined`, all pages will have feed reference inserted
-            // match: "^/blog/",
+          },
+          {
+            query: `
+              {
+                allMarkdownRemark(
+                  limit: 25,
+                  filter: {
+                    fileAbsolutePath: { regex: "/posts/articles/" }
+                    fields: { sourceName: { ne: "comments" } }
+                    frontmatter: { published: { ne: false }, output: { ne: false } }
+                  }
+                  sort: { fields: [frontmatter___date], order: DESC }
+                ) {
+                  edges {
+                    node {
+                      excerpt
+                      html
+                      frontmatter {
+                        title
+                        excerpt
+                        path
+                        date
+                        image {
+                          childImageSharp {
+                            fixed(width: 1000) {
+                              src
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(edge => {
+                const {
+                  node: {
+                    frontmatter: { title, date, path, excerpt, image },
+                    excerpt: autoExcerpt,
+                    html,
+                  },
+                } = edge
+
+                const permalink = site.siteMetadata.siteUrl + path
+                const imageElement = image
+                  ? `<p><img src="${site.siteMetadata.siteUrl +
+                      image.childImageSharp.fixed.src}" alt=""></p>`
+                  : ``
+                const footerContent = `<p><a href="${site.siteMetadata.siteUrl +
+                  edge.node.frontmatter.path}">${
+                  edge.node.frontmatter.title
+                }</a> was originally published on ${site.title}.</p>`
+
+                return Object.assign({}, edge.node.frontmatter, {
+                  title,
+                  description: excerpt || autoExcerpt,
+                  date,
+                  url: permalink,
+                  guid: permalink,
+                  custom_elements: [
+                    { 'content:encoded': imageElement + html + footerContent },
+                  ],
+                })
+              })
+            },
+            output: '/articles.xml',
+            title: `${site.title} Articles RSS Feed`,
+            match: '^/articles/',
+          },
+          {
+            query: `
+              {
+                allMarkdownRemark(
+                  limit: 25,
+                  filter: {
+                    fileAbsolutePath: { regex: "/posts/notes/" }
+                    fields: { sourceName: { ne: "comments" } }
+                    frontmatter: { published: { ne: false }, output: { ne: false } }
+                  }
+                  sort: { fields: [frontmatter___date], order: DESC }
+                ) {
+                  edges {
+                    node {
+                      excerpt
+                      html
+                      frontmatter {
+                        title
+                        excerpt
+                        path
+                        date
+                        image {
+                          childImageSharp {
+                            fixed(width: 1000) {
+                              src
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(edge => {
+                const {
+                  node: {
+                    frontmatter: { title, date, path, excerpt, image },
+                    excerpt: autoExcerpt,
+                    html,
+                  },
+                } = edge
+
+                const permalink = site.siteMetadata.siteUrl + path
+                const imageElement = image
+                  ? `<p><img src="${site.siteMetadata.siteUrl +
+                      image.childImageSharp.fixed.src}" alt=""></p>`
+                  : ``
+                const footerContent = `<p><a href="${site.siteMetadata.siteUrl +
+                  edge.node.frontmatter.path}">${
+                  edge.node.frontmatter.title
+                }</a> was originally published on ${site.title}.</p>`
+
+                return Object.assign({}, edge.node.frontmatter, {
+                  title,
+                  description: excerpt || autoExcerpt,
+                  date,
+                  url: permalink,
+                  guid: permalink,
+                  custom_elements: [
+                    { 'content:encoded': imageElement + html + footerContent },
+                  ],
+                })
+              })
+            },
+            output: '/notes.xml',
+            title: `${site.title} Notes RSS Feed`,
+            match: '^/notes/',
           },
         ],
       },
