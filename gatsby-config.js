@@ -185,7 +185,7 @@ module.exports = {
           postcssNested(),
           postcssPresetEnv({
             importFrom: 'src/styles/variables.css',
-            stage: 2,
+            stage: 1,
             preserve: false,
             features: {
               'color-mod-function': { unresolved: 'warn' },
