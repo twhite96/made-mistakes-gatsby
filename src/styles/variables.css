@@ -1,22 +1,56 @@
 :root {
-  /* light theme color */
+  /* Light theme colors */
   --light-background: #fff;
-  --light-background-secondary: #eaeaea;
-  --light-color: #222;
-  --light-color-secondary: #999;
-  --light-border-color: #dcdcdc;
+  --light-background-secondary: color-mod(var(--light-color) tint(95%));
+  --light-color: #393e46;
+  --light-color-secondary: #00638a;
+  --light-text-color: #111;
+  --light-border-color: color-mod(var(--light-color) tint(80%));
 
-  /* dark theme colors */
+  /* Dark theme colors */
   --dark-background: #292a2d;
   --dark-background-secondary: #3b3d42;
   --dark-color: #a9a9b3;
   --dark-color-secondary: #73747b;
+  --dark-text-color: #a9a9b3;
   --dark-border-color: #4a4b50;
 
-  /* variables for js, must be the same as these in @custom-media queries */
-  --phoneWidth: (max-width: 684px);
-  --tabletWidth: (max-width: 900px);
-}
+  /* Brand colors */
+  --facebook-color: #3b5998;
+  --flickr-color: #0063dc;
+  --github-color: #181717;
+  --google-plus-color: #dc4e41;
+  --instagram-color: #e4405f;
+  --rss-color: #ffa500;
+  --twitter-color: #1da1f2;
+  --youtube-color: #cd201f;
 
-@custom-media --phone (width < 684px);
-@custom-media --tablet (width < 900px);
+  /* Typography */
+  --base-font-size: 112.5;
+  --line-height: 1.45;
+  --sans-serif-font: Helvetica, Arial, sans-serif;
+  --serif-font: "Spectral", Georgia, serif;
+  --monospace-font: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+  --alternate-font: "Alegreya", serif;
+
+  /* Other */
+  --border-radius: 0.125em;
+  --global-transition: all 0.4s ease;
+  }
+
+/* Media queries */
+@custom-media --small-up (min-width: 576px);
+@custom-media --medium-up (min-width: 768px);
+@custom-media --large-up (min-width: 992px);
+@custom-media --extra-large-up (min-width: 1200px);
+
+@custom-media --extra-small-down (max-width: 575.98px);
+@custom-media --small-down (max-width: 767.98px);
+@custom-media --medium-down (max-width: 991.98px);
+@custom-media --large-down (max-width: 1199.98px);
+
+@custom-media --extra-small-only (max-width: 575.98px);
+@custom-media --small-only (min-width: 576px) and (max-width: 767.98px);
+@custom-media --medium-only (min-width: 768px) and (max-width: 991.98px);
+@custom-media --large-only (min-width: 992px) and (max-width: 1199.98px);
+@custom-media --extra-large-only (min-width: 1200px);
