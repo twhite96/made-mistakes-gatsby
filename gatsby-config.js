@@ -275,6 +275,23 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-prefetch-google-fonts',
+      options: {
+        fonts: [
+          {
+            family: 'Alegreya',
+            subsets: ['latin'],
+            variants: ['700'],
+          },
+          {
+            family: 'Spectral',
+            subsets: ['latin'],
+            variants: ['400', '400i', '700', '700i'],
+          },
+        ],
+      },
+    },
+    {
       resolve: 'gatsby-plugin-sitemap',
       options: {
         output: '/sitemap.xml',
