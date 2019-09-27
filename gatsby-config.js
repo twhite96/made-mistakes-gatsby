@@ -1,9 +1,9 @@
 /* eslint-disable prefer-object-spread */
-const postCSSPresetEnv = require('postcss-preset-env')
-const postCSSNested = require('postcss-nested')
-const postCSSUrl = require('postcss-url')
-const postCSSImports = require('postcss-import')
-const postCSSMixins = require('postcss-mixins')
+const postcssPresetEnv = require('postcss-preset-env')
+const postcssNested = require('postcss-nested')
+const postcssUrl = require('postcss-url')
+const postcssImports = require('postcss-import')
+const postcssMixins = require('postcss-mixins')
 const cssnano = require('cssnano')
 
 const site = require('./config/site')
@@ -179,14 +179,17 @@ module.exports = {
       resolve: 'gatsby-plugin-postcss',
       options: {
         postCssPlugins: [
-          postCSSUrl(),
-          postCSSImports(),
-          postCSSMixins(),
-          postCSSNested(),
-          postCSSPresetEnv({
+          postcssUrl(),
+          postcssImports(),
+          postcssMixins(),
+          postcssNested(),
+          postcssPresetEnv({
             importFrom: 'src/styles/variables.css',
             stage: 2,
             preserve: false,
+            features: {
+              'color-mod-function': { unresolved: 'warn' },
+            },
           }),
           cssnano({
             preset: 'default',
