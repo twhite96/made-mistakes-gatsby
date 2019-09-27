@@ -7,7 +7,7 @@ import SEO from '../components/SEO'
 import Layout from '../components/Layout'
 
 import site from '../../config/site'
-import style from '../styles/post.module.css'
+import style from '../styles/Document.module.css'
 
 const metaImage = site.image
 

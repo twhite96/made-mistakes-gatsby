@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 import { formatDistance } from 'date-fns'
 
-import style from '../styles/post.module.css'
+import style from '../styles/Document.module.css'
 
 const _ = require('lodash-addons')
 
@@ -20,16 +20,16 @@ const Document = ({
 }) => {
   return (
     <>
-      <article className={`h-entry ${style.post}`}>
-        <div className={style.postContent}>
+      <article className="h-entry">
+        <div>
           {excerpt ? (
-            <h2 className={`p-name ${style.title}`}>
+            <h2 className="p-name">
               <Link to={path}>{title}</Link>
             </h2>
           ) : (
-            <h1 className={`p-name ${style.title}`}>{title}</h1>
+            <h1 className="p-name">{title}</h1>
           )}
-          <div className={style.meta}>
+          <div>
             {author && (
               <>
                 Published by{' '}
@@ -49,29 +49,22 @@ const Document = ({
               </>
             )}
             {tags ? (
-              <div className={style.tags}>
+              <div>
                 {tags.map(tag => (
                   <Link to={`/tag/${_.slugify(tag)}/`} key={_.slugify(tag)}>
-                    <span className={style.tag}>#{tag}</span>
+                    <span>#{tag}</span>
                   </Link>
                 ))}
               </div>
             ) : null}
           </div>
 
-          {image && (
-            <Img
-              fluid={image.childImageSharp.fluid}
-              className={style.coverImage}
-            />
-          )}
+          {image && <Img fluid={image.childImageSharp.fluid} />}
 
           {excerpt ? (
             <>
               <p className="p-summary">{excerpt}</p>
-              <Link to={path} className={style.readMore}>
-                Read more →
-              </Link>
+              <Link to={path}>Read more →</Link>
             </>
           ) : (
             <>

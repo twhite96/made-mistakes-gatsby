@@ -49,10 +49,7 @@ const Categories = ({
         {taxonomyName} {paginationTitle}
       </h1>
       {taxonomyHtml && humanPageNumber === 1 && (
-        <div
-          className="post-module"
-          dangerouslySetInnerHTML={{ __html: taxonomyHtml }}
-        />
+        <div dangerouslySetInnerHTML={{ __html: taxonomyHtml }} />
       )}
 
       {posts.map(({ node }) => {

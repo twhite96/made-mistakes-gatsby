@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 
 import Icon from './Icon'
 
-import style from '../styles/menu.module.css'
+import style from '../styles/Menu.module.css'
 
 const MainMenu = ({ mainMenu, mainMenuItems, isMobileMenu }) => {
   const menu = mainMenu.slice(0)

@@ -1,7 +1,7 @@
 .mobileMenuContainer {
   display: none;
 
-  @media (--phone) {
+  @media (--extraSmallOnly) {
     display: flex;
   }
 }
@@ -9,7 +9,7 @@
 .desktopMenuContainer {
   display: block;
 
-  @media (--phone) {
+  @media (--extraSmallOnly) {
     display: none;
   }
 }
