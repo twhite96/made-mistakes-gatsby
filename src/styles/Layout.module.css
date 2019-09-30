@@ -1,14 +1,10 @@
 @import "./reset.css";
 
-/* ==========================================================================
-   Base elements
-   ========================================================================== */
-
 html {
-  font-size: 112.5%;
+  font-size: var(--base-font-size);
 
   @media (--extra-large-up) {
-    font-size: 126.5625%; /* 112.5 * 1.125 */
+    font-size: calc(var(--base-font-size) * var(--base-ratio));
   }
 }
 
@@ -29,6 +25,61 @@ h5,
 h6 {
   font-family: var(--sans-serif-font);
   text-rendering: optimizeLegibility; /* enable common ligatures and kerning */
+}
+
+h1 {
+  font-size: var(--h1);
+}
+
+* + h1 {
+  line-height: 2;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: var(--h2);
+}
+
+* + h2 {
+  line-height: 1.5;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: var(--h3);
+}
+
+* + h3 {
+  line-height: 1.25;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h4 {
+  font-size: var(--h4);
+}
+
+* + h4 {
+  line-height: 1.125;
+  margin-top: 1em;
+  margin-bottom: 0.75em;
+}
+
+h5 {
+  font-size: var(--h5);
+}
+
+* + h5,
+* + h6 {
+  line-height: 1;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+h6 {
+  font-size: var(--h6);
 }
 
 blockquote {
@@ -108,6 +159,11 @@ select {
   }
 }
 
+input:required,
+textarea:required {
+  box-shadow: none;
+}
+
 code,
 kbd,
 samp,
@@ -185,11 +241,6 @@ li {
   > img {
     margin: 1rem 0;
   }
-}
-
-input:required,
-textarea:required {
-  box-shadow: none;
 }
 
 iframe {
