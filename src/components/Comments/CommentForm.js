@@ -124,6 +124,7 @@ class CommentForm extends React.Component {
                     name="fields[name]"
                     value={name}
                     type="text"
+                    placeholder="Your name"
                     onChange={this.handleChange}
                     required
                   />
@@ -136,6 +137,7 @@ class CommentForm extends React.Component {
                     name="fields[email]"
                     value={email}
                     type="email"
+                    placeholder="email@domain.com"
                     onChange={this.handleChange}
                   />
                 </label>
@@ -146,6 +148,7 @@ class CommentForm extends React.Component {
                     className={style.input}
                     name="fields[url]"
                     value={url}
+                    placeholder="https://domain.com"
                     onChange={this.handleChange}
                     type="text"
                   />
@@ -159,6 +162,7 @@ class CommentForm extends React.Component {
                     className={style.textarea}
                     name="fields[message]"
                     value={message}
+                    placeholder="Your message"
                     rows="6"
                     onChange={this.handleChange}
                     required
