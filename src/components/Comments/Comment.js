@@ -3,20 +3,22 @@ import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 import Gravatar from 'react-gravatar'
 
+import style from '../../styles/Comment.module.css'
+
 const Comment = props => {
   const { name, email, friendlyDate, iso8601Date, children } = props
 
   return (
-    <div>
-      <div>
+    <div className={style.comment}>
+      <div className={style.avatar}>
         <Gravatar size={60} md5={email} email={name} default="mm" rating="pg" />
       </div>
-      <div>
-        <header>
-          <span className="h-card">{name}</span> on{' '}
+      <div className={style.main}>
+        <header className={style.meta}>
+          <strong className={`${style.name} "h-card"`}>{name}</strong> on{' '}
           <time dateTime={iso8601Date}>{friendlyDate}</time>
         </header>
-        {children}
+        <div className={style.message}>{children}</div>
       </div>
     </div>
   )

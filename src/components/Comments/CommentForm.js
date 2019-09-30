@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 
 import site from '../../../config/site'
 
+import style from '../../styles/CommentForm.module.css'
+
 class CommentForm extends React.Component {
   constructor(props) {
     super(props)
@@ -101,18 +103,24 @@ class CommentForm extends React.Component {
           showError() || showSuccess()
         ) : (
           <>
-            <form id="new-comment" onSubmit={this.onSubmitComment}>
+            <h3 className={style.title}>Leave a comment</h3>
+            <form
+              id="new-comment"
+              className={style.form}
+              onSubmit={this.onSubmitComment}
+            >
               <input
                 name="options[parent]"
                 type="hidden"
                 value={this.props.slug}
               />
               <input name="options[slug]" type="hidden" value={slugDir} />
-              <div>
-                <label htmlFor="name">
+              <div className={style.row}>
+                <label className={style.label} htmlFor="name">
                   Name
                   <input
                     id="name"
+                    className={style.input}
                     name="fields[name]"
                     value={name}
                     type="text"
@@ -120,20 +128,22 @@ class CommentForm extends React.Component {
                     required
                   />
                 </label>
-                <label htmlFor="email">
+                <label className={style.label} htmlFor="email">
                   E-mail
                   <input
                     id="email"
+                    className={style.input}
                     name="fields[email]"
                     value={email}
                     type="email"
                     onChange={this.handleChange}
                   />
                 </label>
-                <label htmlFor="website">
+                <label className={style.label} htmlFor="website">
                   Website (optional)
                   <input
                     id="website"
+                    className={style.input}
                     name="fields[url]"
                     value={url}
                     onChange={this.handleChange}
@@ -141,11 +151,12 @@ class CommentForm extends React.Component {
                   />
                 </label>
               </div>
-              <div>
-                <label htmlFor="message">
+              <div className={style.row}>
+                <label className={style.label} htmlFor="message">
                   Comment
                   <textarea
                     id="message"
+                    className={style.textarea}
                     name="fields[message]"
                     value={message}
                     rows="6"
@@ -155,8 +166,8 @@ class CommentForm extends React.Component {
                 </label>
               </div>
               <button
+                className={style.submit}
                 type="submit"
-                // disabled={!name || !email || !message || submitting}
                 disabled={submitting}
               >
                 Send comment

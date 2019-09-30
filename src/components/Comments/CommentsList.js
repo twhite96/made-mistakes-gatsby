@@ -2,6 +2,8 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Comment from './Comment'
 
+import style from '../../styles/CommentsList.module.css'
+
 const Comments = data => {
   const {
     commentsList: { edges: comments },
@@ -9,7 +11,7 @@ const Comments = data => {
 
   const commentTitle = commentLength => {
     if (commentLength < 1) {
-      return 'Leave a comment'
+      return 'No comments'
     }
     if (commentLength === 1) {
       return '1 comment'
@@ -43,12 +45,12 @@ const Comments = data => {
         )
       })
     ) : (
-      <p>No comments.</p>
+      <></>
     )
 
   return (
     <>
-      <h2>{commentTitle(comments.length)}</h2>
+      <h2 className={style.title}>{commentTitle(comments.length)}</h2>
       {commentsList}
     </>
   )

@@ -1,0 +1,57 @@
+.comment {
+  display: flex;
+  font-size: var(--f6);
+
+  + .comment {
+    margin-top: 2em;
+  }
+}
+
+.avatar {
+  flex-shrink: 0;
+  margin-right: 10px;
+  width: var(--avatar-size);
+  height: var(--avatar-size);
+  background-color: var(--light-background-secondary);
+
+  @media (--medium-up) {
+    margin-right: 20px;
+    width: calc(var(--avatar-size) * 2);
+    height: calc(var(--avatar-size) * 2);
+  }
+
+  img {
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+
+    @media (--medium-up) {
+      width: calc(var(--avatar-size) * 2);
+      height: calc(var(--avatar-size) * 2);
+    }
+  }
+}
+
+.main {
+  min-width: calc(100% - var(--avatar-size));
+
+  @media (--medium-up) {
+    min-width: calc(100% - (var(--avatar-size) * 2));
+  }
+}
+
+.meta {
+  margin-bottom: 1em;
+  padding-bottom: 0.25em;
+  font-family: var(--monospace-font);
+  border-bottom: 2px solid;
+
+  a {
+    color: inherit;
+  }
+}
+
+.message {
+  img {
+    max-width: 100%;
+  }
+}
