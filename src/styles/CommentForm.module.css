@@ -34,7 +34,7 @@
   padding: 0.75em 0.5em;
   vertical-align: top;
   overflow: visible;
-  font-family: var(--light-input-background);
+  font-family: var(--sans-serif-font);
   font-size: var(--f5);
   background: var(--light-input-background);
   border: 1px solid var(--light-input-background);
