@@ -251,3 +251,13 @@ iframe {
   color: #fff;
   background: #000;
 }
+
+main article {
+  > * {
+    margin-bottom: 0;
+  }
+
+  * + * {
+    margin-bottom: 1.5em;
+  }
+}
