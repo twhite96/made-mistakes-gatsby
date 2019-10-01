@@ -8,6 +8,8 @@ import Navigation from '../components/Navigation'
 
 import site from '../../config/site'
 
+import style from '../styles/Archive.module.css'
+
 const _ = require('lodash-addons')
 
 const Categories = ({
@@ -47,36 +49,42 @@ const Categories = ({
         }
         metaImage={metaImage}
       />
+      <main className={style.main}>
+        <div className={style.title}>
+          <h1 className={style.heading}>
+            <span>
+              {taxonomyName} {paginationTitle}
+            </span>
+          </h1>
+        </div>
+        <div className={style.content}>
+          {taxonomyHtml && humanPageNumber === 1 && (
+            <div dangerouslySetInnerHTML={{ __html: taxonomyHtml }} />
+          )}
 
-      <h1 className="infoBanner">
-        {taxonomyName} {paginationTitle}
-      </h1>
-      {taxonomyHtml && humanPageNumber === 1 && (
-        <div dangerouslySetInnerHTML={{ __html: taxonomyHtml }} />
-      )}
+          {posts.map(({ node }) => {
+            const {
+              id,
+              excerpt: autoExcerpt,
+              timeToRead,
+              frontmatter: { title, date, path, author, image, excerpt },
+            } = node
 
-      {posts.map(({ node }) => {
-        const {
-          id,
-          excerpt: autoExcerpt,
-          timeToRead,
-          frontmatter: { title, date, path, author, image, excerpt },
-        } = node
-
-        return (
-          <Entry
-            key={id}
-            title={title}
-            date={date}
-            path={path}
-            author={author || siteAuthor}
-            timeToRead={timeToRead}
-            image={image}
-            excerpt={excerpt || autoExcerpt}
-          />
-        )
-      })}
-
+            return (
+              <Entry
+                key={id}
+                title={title}
+                date={date}
+                path={path}
+                author={author || siteAuthor}
+                timeToRead={timeToRead}
+                image={image}
+                excerpt={excerpt || autoExcerpt}
+              />
+            )
+          })}
+        </div>
+      </main>
       <Navigation
         previousPath={previousPagePath}
         previousLabel="Newer posts"

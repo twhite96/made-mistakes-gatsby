@@ -5,6 +5,7 @@
   --light-color: #393e46;
   --light-color-secondary: #00638a;
   --light-text-color: #111;
+  --light-muted-text-color: color-mod(var(--light-text-color) tint(40%));
   --light-border-color: color-mod(var(--light-color) tint(80%));
   --light-input-background: #f2f2f2;
 
@@ -14,6 +15,7 @@
   --dark-color: #a9a9b3;
   --dark-color-secondary: #73747b;
   --dark-text-color: #a9a9b3;
+  --dark-muted-text-color: color-mod(var(--dark-text-color) tint(40%));
   --dark-border-color: #4a4b50;
   --dark-input-background: #f2f2f2;
 

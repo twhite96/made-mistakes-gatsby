@@ -24,6 +24,7 @@ const PostTemplate = ({ data, pageContext }) => {
       comments_locked: commentsLocked,
     },
     excerpt: autoExcerpt,
+    timeToRead,
     id,
     html,
   } = data.markdownRemark
@@ -52,6 +53,7 @@ const PostTemplate = ({ data, pageContext }) => {
         date={date}
         path={path}
         author={site.author}
+        timeToRead={timeToRead}
         image={image}
         html={html}
         tags={tags}
@@ -123,6 +125,7 @@ export const pageQuery = graphql`
       id
       html
       excerpt
+      timeToRead
     }
     ...commentsQueryFragment
   }
