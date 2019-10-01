@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import SEO from '../components/SEO'
 import Layout from '../components/Layout'
-import Document from '../components/Document'
+import Entry from '../components/Entry'
 import Navigation from '../components/Navigation'
 
 import site from '../../config/site'
@@ -21,6 +21,9 @@ const Categories = ({
   },
 }) => {
   const {
+    site: {
+      siteMetadata: { author: siteAuthor },
+    },
     taxonomyYaml: {
       name: taxonomyName,
       excerpt: taxonomyExcerpt,
@@ -56,17 +59,18 @@ const Categories = ({
         const {
           id,
           excerpt: autoExcerpt,
-          frontmatter: { title, date, path, author, image, excerpt, tags },
+          timeToRead,
+          frontmatter: { title, date, path, author, image, excerpt },
         } = node
 
         return (
-          <Document
+          <Entry
             key={id}
             title={title}
             date={date}
             path={path}
-            author={author}
-            tags={tags}
+            author={author || siteAuthor}
+            timeToRead={timeToRead}
             image={image}
             excerpt={excerpt || autoExcerpt}
           />
@@ -96,6 +100,14 @@ Categories.propTypes = {
 
 export const postsQuery = graphql`
   query($limit: Int!, $skip: Int!, $category: String!) {
+    site {
+      siteMetadata {
+        author {
+          name
+          url
+        }
+      }
+    }
     taxonomyYaml(id: { eq: $category }) {
       id
       name
@@ -116,7 +128,8 @@ export const postsQuery = graphql`
       edges {
         node {
           id
-          excerpt
+          excerpt(format: HTML)
+          timeToRead
           frontmatter {
             title
             date(formatString: "MMMM DD, YYYY")

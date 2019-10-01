@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import SEO from '../components/SEO'
 import Layout from '../components/Layout'
-import Document from '../components/Document'
+import Entry from '../components/Entry'
 import Navigation from '../components/Navigation'
 
 import site from '../../config/site'
@@ -18,6 +18,9 @@ const Index = ({
   },
 }) => {
   const {
+    site: {
+      siteMetadata: { author: siteAuthor },
+    },
     allMarkdownRemark: { edges: posts },
   } = data
   const paginationTitle =
@@ -39,16 +42,26 @@ const Index = ({
         const {
           id,
           excerpt: autoExcerpt,
-          frontmatter: { title, date, path, author, image, excerpt, tags },
+          frontmatter: {
+            title,
+            date,
+            path,
+            author,
+            timeToRead,
+            image,
+            excerpt,
+            tags,
+          },
         } = node
 
         return (
-          <Document
+          <Entry
             key={id}
             title={title}
             date={date}
             path={path}
-            author={author}
+            author={author || siteAuthor}
+            timeToRead={timeToRead}
             image={image}
             tags={tags}
             excerpt={excerpt || autoExcerpt}
@@ -78,6 +91,14 @@ Index.propTypes = {
 
 export const postsQuery = graphql`
   query($limit: Int!, $skip: Int!) {
+    site {
+      siteMetadata {
+        author {
+          name
+          url
+        }
+      }
+    }
     allMarkdownRemark(
       filter: {
         fileAbsolutePath: { regex: "//posts//" }
@@ -90,7 +111,8 @@ export const postsQuery = graphql`
       edges {
         node {
           id
-          excerpt
+          excerpt(format: HTML)
+          timeToRead
           frontmatter {
             title
             date(formatString: "MMMM DD, YYYY")

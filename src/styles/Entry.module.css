@@ -1,0 +1,49 @@
+.entry {
+  position: relative;
+  margin-bottom: 3em;
+  max-width: 35em;
+}
+
+.title {
+  margin-bottom: 0;
+  font-weight: 700;
+  line-height: 1.25;
+
+  @media (--medium-up) {
+    font-size: var(--h2);
+  }
+
+  a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.meta {
+  margin-bottom: 0.5em;
+  font-family: var(--monospace-font);
+  font-size: var(--f7);
+  text-transform: uppercase;
+
+  a {
+    position: relative;
+    z-index: 5;
+  }
+
+  *:not(:first-child) {
+    &::before {
+      content: ' · ';
+    }
+  }
+}
+
+.excerpt {
+  a {
+    position: relative;
+    z-index: 5;
+  }
+}
