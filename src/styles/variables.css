@@ -31,7 +31,7 @@
   --base-font-size: 112.5%;
   --line-height: 1.55;
 
-  --font-size: 100%; /* 16px */
+  --font-size: 1em; /* 16px */
   --base-ratio: 1.2;
   --heading-ratio: 1.125;
 
