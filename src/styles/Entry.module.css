@@ -34,8 +34,8 @@
     z-index: 5;
   }
 
-  *:not(:first-child) {
-    &::before {
+  *:not(:last-child) {
+    &::after {
       content: ' · ';
     }
   }
