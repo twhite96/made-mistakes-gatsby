@@ -26,12 +26,12 @@ const Entry = ({
         </h2>
         <div className={style.meta}>
           {author && (
-            <>
+            <span style={{ display: 'none' }}>
               Published by{' '}
               <a className="p-author h-card" href={author.url}>
                 {author.name}
               </a>
-            </>
+            </span>
           )}
           {date && (
             <>
