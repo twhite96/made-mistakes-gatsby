@@ -31,5 +31,9 @@ module.exports = {
   backgroundColor: '#000000',
 
   twitter: '@mmistakes', // Twitter username
+  twitterUrl: 'https://twitter.com/mmistakes',
   facebook: 'Made Mistakes', // Facebook site name
+  githubUrl: 'https://github.com/mmistakes',
+  instagramUrl: 'https://www.instagram.com/mmistakes/',
+  feedUrl: '/atom.xml',
 }

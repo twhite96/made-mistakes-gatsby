@@ -257,7 +257,7 @@ main article {
     margin-bottom: 0;
   }
 
-  * + * {
+  p, ol, ul, blockquote, figure, video, iframe {
     margin-bottom: 1.5em;
   }
 }

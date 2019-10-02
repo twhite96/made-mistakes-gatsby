@@ -26,7 +26,11 @@ module.exports = {
       url: site.author.url,
     },
     twitter: site.twitter,
+    twitterUrl: site.twitterUrl,
     facebook: site.facebook,
+    githubUrl: site.githubUrl,
+    instagramUrl: site.instagramUrl,
+    feedUrl: site.feedUrl,
 
     // Starter config
     copyrights: '&copy; 2004&mdash;2019 Michael Rose.',
@@ -90,6 +94,24 @@ module.exports = {
       {
         title: 'Tiny Paintings',
         path: '/tiny-paintings/',
+      },
+    ],
+    footerMenu: [
+      {
+        title: 'Support me',
+        path: '/support/',
+      },
+      {
+        title: 'FAQs',
+        path: '/faqs/',
+      },
+      {
+        title: 'Terms & policies',
+        path: '/terms/',
+      },
+      {
+        title: 'Sitemap',
+        path: '/sitemap/',
       },
     ],
   },

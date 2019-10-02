@@ -1,11 +1,60 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Link } from 'gatsby'
+
+import TwitterIcon from './Icons/TwitterIcon'
+import GithubIcon from './Icons/GithubIcon'
+import InstagramIcon from './Icons/InstagramIcon'
+import RSSIcon from './Icons/RSSIcon'
 
 import style from '../styles/Footer.module.css'
 
-const Footer = ({ copyrights }) => (
+const FooterMenu = ({ footerMenu }) => {
+  const menu = footerMenu.slice(0)
+
+  return menu.map((menuItem, index) => (
+    <li key={index}>
+      <Link to={menuItem.path}>{menuItem.title}</Link>
+    </li>
+  ))
+}
+
+const Footer = ({
+  footerMenu,
+  twitter,
+  github,
+  instagram,
+  feed,
+  copyrights,
+}) => (
   <footer className={style.footer}>
-    <ul className={style.menu} />
+    <ul className={style.menu}>
+      <FooterMenu footerMenu={footerMenu} />
+      <li>
+        <a href={twitter}>
+          <TwitterIcon />
+          <span className={style.iconLabel}>Twitter</span>
+        </a>
+      </li>
+      <li>
+        <a href={github}>
+          <GithubIcon />
+          <span className={style.iconLabel}>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a href={instagram}>
+          <InstagramIcon />
+          <span className={style.iconLabel}>Instagram</span>
+        </a>
+      </li>
+      <li>
+        <Link to={feed}>
+          <RSSIcon />
+          <span className={style.iconLabel}>RSS feed</span>
+        </Link>
+      </li>
+    </ul>
     {copyrights && (
       <div
         className={style.copyright}
@@ -18,6 +67,16 @@ const Footer = ({ copyrights }) => (
 )
 
 Footer.propTypes = {
+  footerMenu: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string,
+      path: PropTypes.string,
+    })
+  ),
+  twitter: PropTypes.string,
+  github: PropTypes.string,
+  instagram: PropTypes.string,
+  feed: PropTypes.string,
   copyrights: PropTypes.string,
 }
 
