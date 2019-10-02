@@ -9,7 +9,7 @@ categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, black and white, time lapse]
 ---
 
-Portrait of Marion K. inspired by a [photograph on Sktchy](http://​sktchy.com/p6juFc ). Digitally painted with Procreate on a 12.9" iPad Pro.
+Portrait of Marion K. inspired by a [photograph on Sktchy](http://​sktchy.com/p6juFc ). Digitally painted with Procreate on a 12.9&#x2033; iPad Pro.
 
 I finally got my hands on a new iPad Pro and the highly responsive Apple Pencil. This is [the stylus I have been waiting for](/articles/ipad-pro/)!
 
@@ -18,5 +18,5 @@ https://twitter.com/mmistakes/status/976620815662960640?ref_src=twsrc%5Etfw
 **Tools used:**
 
 - [Apple Pencil](https://www.apple.com/apple-pencil/)
-- [iPad Pro 12.9" (2nd generation)](https://www.apple.com/ipad-pro/)
+- [iPad Pro 12.9&#x2033; (2nd generation)](https://www.apple.com/ipad-pro/)
 - [Procreate](https://procreate.art/)

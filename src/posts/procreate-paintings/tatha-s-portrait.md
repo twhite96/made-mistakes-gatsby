@@ -9,7 +9,7 @@ categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, black and white, time lapse]
 ---
 
-Portrait of Tatha S. inspired by a [photograph on Sktchy](https://sktchy.com/Eoee2D). Digitally painted with Procreate on a 12.9" iPad Pro.
+Portrait of Tatha S. inspired by a [photograph on Sktchy](https://sktchy.com/Eoee2D). Digitally painted with Procreate on a 12.9&#x2033; iPad Pro.
 
 ![work in progress screenshot](../../images/tatha-s-progress-1-lg.jpg)
 
@@ -22,5 +22,5 @@ https://twitter.com/mmistakes/status/984246043511607297?ref_src=twsrc%5Etfw
 **Tools used:**
 
 - [Apple Pencil](https://www.apple.com/apple-pencil/)
-- [iPad Pro 12.9" (2nd generation)](https://www.apple.com/ipad-pro/)
+- [iPad Pro 12.9&#x2033; (2nd generation)](https://www.apple.com/ipad-pro/)
 - [Procreate](https://procreate.art/)

@@ -18,7 +18,7 @@ Shortly after our twin girls were born 19 months ago: moments were captured, mil
   <img alt="Oh Trotro, oh Trotro" src="../../images/trotro.gif">
 </div>
 
-I didn't anticipate how quickly the *two little rosebuds* would become attracted to these glowing screens. When it wasn't the 4" variety held tightly between our fingers, it was the 51" wall hugger in our living room. On demand Netflix programming became the norm, and look out if their favorite French cartoon **[Trotro](http://thetvdb.com/?tab=series&id=108061)** buffers for a few seconds...
+I didn't anticipate how quickly the *two little rosebuds* would become attracted to these glowing screens. When it wasn't the 4&#x2033; variety held tightly between our fingers, it was the 51&#x2033; wall hugger in our living room. On demand Netflix programming became the norm, and look out if their favorite French cartoon **[Trotro](http://thetvdb.com/?tab=series&id=108061)** buffers for a few seconds...
 
 Anyways, back to the point. For the last couple of months my wife and I have been trying to help the twins hit some of their milestones. They were born a few weeks premature so it's been a challenge motivating them to walk, eat on their own, use utensils, stack blocks, speak, etc.
 

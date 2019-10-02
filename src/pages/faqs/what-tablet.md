@@ -7,7 +7,7 @@ last_modified_at: 2019-02-25T20:56:14-05:00
 order: 3
 ---
 
-If it wasn't painfully obvious, I draw, paint, and create on Apple's iPad. My current iPad is a 12.9" Pro (256GB) with the Space Gray finish. Before I took the plunge and upgraded to the larger screen I had an Air 2.
+If it wasn't painfully obvious, I draw, paint, and create on Apple's iPad. My current iPad is a 12.9&#x2033; Pro (256GB) with the Space Gray finish. Before I took the plunge and upgraded to the larger screen I had an Air 2.
 
 I use Apple Pencil exclusively and it's hands down the best stylus I've used on any iPad to date. Unlike other "pressure sensitive" styli before it, Apple Pencil works 100% of the time.
 

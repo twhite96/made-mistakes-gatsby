@@ -11,7 +11,7 @@ toc: true
 
 ## A little trip down Macintosh memory lane
 
-I've been a fan of Apple's computers every since 1997, when I started using them in my design classes. Around 2000 I bought my first Mac, a *Power Mac G4* with a 17" Graphite monitor and fell in love. This machine treated me well for about 5 years until I finally gave it away to my younger brother. Through the years I added extra hard drives, increased the memory, swapped in a Superdrive, and updated from OS 9 to OS X Tiger with every major point update in between.
+I've been a fan of Apple's computers every since 1997, when I started using them in my design classes. Around 2000 I bought my first Mac, a *Power Mac G4* with a 17&#x2033; Graphite monitor and fell in love. This machine treated me well for about 5 years until I finally gave it away to my younger brother. Through the years I added extra hard drives, increased the memory, swapped in a Superdrive, and updated from OS 9 to OS X Tiger with every major point update in between.
 
 Sometime around 2004 I decided I needed more horsepower to do light video editing. I couldn't afford a Power Mac G5 so I focused on the iMac product line instead. I can remember holding out for months waiting for Apple to update from the lamp-shade form factor to the new slim and white design. And then waiting a few more months until they refreshed these new iMac's. Knowing it's best to wait while Apple irons out hardware kinks associated with a new design.
 
@@ -25,7 +25,7 @@ Tried the obvious stuff like unplugging everything, resetting the PRAM, and rebo
 
 *[PRAM]: Parameter RAM
 
-Blah. Had to carry this heavy 20" iMac through half of the mall to get to the store and have an Apple Genius play with it. He determined it was dead and I had to send it away for repairs. Everything would be covered since it was still under warranty with Apple Care. But it would take about a week to repair because of the holiday.
+Blah. Had to carry this heavy 20&#x2033; iMac through half of the mall to get to the store and have an Apple Genius play with it. He determined it was dead and I had to send it away for repairs. Everything would be covered since it was still under warranty with Apple Care. But it would take about a week to repair because of the holiday.
 
 When I got it back everything was fine again. I was worried my hard drive would have been wiped but all my data was in check. Turned out they had to replace the display bezel, power supply, and a bunch of other innards. The parts cost close to what I paid for the computer, so they probably replaced everything to be safe.
 
@@ -45,6 +45,6 @@ Got to the Apple Store early after carrying my iMac through the Galleria Mall fo
 
 Fired up the iMac and he knew right away what the problem was. "You need a new logic board." Come on are you kidding me? How many times can this stupid part go bad? The worst part was this would cost me around $700 to repair since my machine wasn't under warranty. He wasn't even interested in the fact that they've replaced the same part twice before. The machine obviously has some major flaw if the same thing keeps breaking.
 
-I refuse to pay $700 to have something replaced that would probably break again. After thinking it over I decided to buy a new **iMac 20" Intel Core 2 Duo** and pray it doesn't have any issues. As much as I love Apple products they really need to figure out these quality control issues. Everyone I know has had a major hardware issue with their products. I guess the days of getting 5+ years out of a Macintosh are long gone. :-(
+I refuse to pay $700 to have something replaced that would probably break again. After thinking it over I decided to buy a new **iMac 20&#x2033; Intel Core 2 Duo** and pray it doesn't have any issues. As much as I love Apple products they really need to figure out these quality control issues. Everyone I know has had a major hardware issue with their products. I guess the days of getting 5+ years out of a Macintosh are long gone. :-(
 
 The only thing I'm worried about now is transferring all my data and applications to the new machine. I've been running **Time Machine** to backup everything so it should be a non-issue. But we'll see just how painless Apple has made that. Because my old machine still turns on I'm going to try and put it in *Firewire target mode* and see if I can move everything over first. We'll see...
