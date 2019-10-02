@@ -39,7 +39,7 @@ Once you've gotten the hang of producing a range of smooth values, it can be fun
 
 ## Ink techniques
 
-Out of the two ink tools that Paper comes with, the [pen](/mastering-paper/2013-07-31-introduction-tool-guide %}#ink-pen) (or *Write* as FiftyThree calls it) is much easier to produce consistent results with. Stroke speed and pressure do little to modify the line quality which allows you to focus more on accuracy and placement. The [fountain pen]({% post_url /mastering-paper/introduction-tool-guide/#fountain-pen) on the other hand can make drawing a line without weight fluctuations incredibly challenging --- as shown below.
+Out of the two ink tools that Paper comes with, the [pen](/mastering-paper/2013-07-31-introduction-tool-guide %}#ink-pen) (or *Write* as FiftyThree calls it) is much easier to produce consistent results with. Stroke speed and pressure do little to modify the line quality which allows you to focus more on accuracy and placement. The [fountain pen](/mastering-paper/introduction-tool-guide/#fountain-pen) on the other hand can make drawing a line without weight fluctuations incredibly challenging --- as shown below.
 
 ![Comparing straight lines made with the ink tools](../../images/paper-53-ink-tools-comparison.jpg)
 

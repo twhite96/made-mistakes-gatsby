@@ -12,7 +12,7 @@ toc: true
 
 A variety of tools and software are used to build Made Mistakes --- the biggies being an 21.5-inch Apple iMac, [Jekyll](http://jekyllrb.com), [Visual Studio Code](https://code.visualstudio.com/), Adobe's Creative Suite, and [SourceTree](https://www.sourcetreeapp.com/).
 
-I've been on a [static site generator]({{ site.url }}{% post_url /articles/2012-03-19-going-static %}) kick the last couple of years and use Jekyll to publish this page and everything else found on the site. The basic idea is I write a bunch of text in Markdown and Jekyll spits out a set of files[^files] that I upload to a webserver.
+I've been on a [static site generator](/articles/going-static/) kick the last couple of years and use Jekyll to publish this page and everything else found on the site. The basic idea is I write a bunch of text in Markdown and Jekyll spits out a set of files[^files] that I upload to a webserver.
 
 ## As far as Jekyll plugins, I use the following:
 
