@@ -11,7 +11,7 @@ tags: [watercolor, portrait, illustration, Star Wars]
 
 Tiny portrait of a Bith from **Star Wars**. Painted with watercolor on hot press paper.
 
-Final painting measures 1.5\" x 1.5\". There sure are a lot of fun freaks from the Mos Eisley Cantina scene to choose from. Could have greatly benefited from a clear reference photograph...
+Final painting measures 1.5&#x2033; x 1.5&#x2033;. There sure are a lot of fun freaks from the Mos Eisley Cantina scene to choose from. Could have greatly benefited from a clear reference photograph...
 
 ![Bith work in progress watercolor painting](../../images/painting-bith-process-1-lg.jpg)
 

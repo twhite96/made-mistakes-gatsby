@@ -11,7 +11,7 @@ tags: [watercolor, portrait, illustration, Star Wars]
 
 Tiny portrait of Ponda Baba from **Star Wars**. Painted with watercolor on hot press paper.
 
-Final painting measures 1.5\" x 1.5\". Really happy with the colors on this one, even if I lost some of the furry details in the face.
+Final painting measures 1.5&#x2033; x 1.5&#x2033;. Really happy with the colors on this one, even if I lost some of the furry details in the face.
 
 **Tools used:**
 

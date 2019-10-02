@@ -11,7 +11,7 @@ tags: [watercolor, portrait, illustration, Star Wars]
 
 Tiny portrait of Greedo from **Star Wars**. Painted with watercolor on hot press paper.
 
-Final painting measures 1.5\" x 1.5\". Patience is one thing I struggle with when painting so small. Trying to rush things along really screwed me in a few places. That and leaving too much water on my brush...
+Final painting measures 1.5&#x2033; x 1.5&#x2033;. Patience is one thing I struggle with when painting so small. Trying to rush things along really screwed me in a few places. That and leaving too much water on my brush...
 
 ![Greedo pencil sketch work in process](../../images/painting-greedo-process-1-lg.jpg)
 

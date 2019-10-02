@@ -23,4 +23,4 @@ Attempting to create form with precise strokes is totally not the way to approac
 ## Tools Used
 
 - [Pentel Arts Oil Pastels, 25 Count](https://www.amazon.com/Pentel-Arts-Pastels-Count-PHN-25/dp/B01HGYIAT0/ref=as_li_ss_tl?ie=UTF8&qid=1477597424&sr=8-6&keywords=pentel+oil+pastels&linkCode=ll1&tag=2rosebuds-20&linkId=51263f8c62514e85fd039ffcb86934e6)
-- [Jack Richeson Blending Stomp, 3/8\"](https://www.amazon.com/Jack-Richeson-Blending-Stomp-8-Inch/dp/B001BYRK1Q/ref=as_li_ss_tl?ie=UTF8&qid=1477597624&sr=8-6&keywords=blending+stumps&linkCode=ll1&tag=2rosebuds-20&linkId=aaaff9e80069ada137c46e2ced713eb5)
+- [Jack Richeson Blending Stomp, 3/8&#x2033;](https://www.amazon.com/Jack-Richeson-Blending-Stomp-8-Inch/dp/B001BYRK1Q/ref=as_li_ss_tl?ie=UTF8&qid=1477597624&sr=8-6&keywords=blending+stumps&linkCode=ll1&tag=2rosebuds-20&linkId=aaaff9e80069ada137c46e2ced713eb5)

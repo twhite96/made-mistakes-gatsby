@@ -11,7 +11,7 @@ tags: [watercolor, portrait, illustration, Star Wars]
 
 Tiny portrait of a Stormtrooper from **Star Wars**. Painted with watercolor on hot press paper.
 
-Final painting measures 1.5\" x 1.5\" and was completed in just under one hour. Underestimated how bad things can go when using white watercolor painting incorrectly. I won't make that mistake again...
+Final painting measures 1.5&#x2033; x 1.5&#x2033; and was completed in just under one hour. Underestimated how bad things can go when using white watercolor painting incorrectly. I won't make that mistake again...
 
 ![Stormtrooper pencil sketch](../../images/painting-stormtrooper-process-1-lg.jpg)
 

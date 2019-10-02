@@ -11,7 +11,7 @@ tags: [watercolor, portrait, illustration, Star Wars]
 
 Tiny portrait of a Gamorrean Guard from **Return of the Jedi**. Painted with watercolor on hot press paper.
 
-Final painting measures 1.5\" x 1.5\". Ended up a little more illustrative than realistic, but I'll take it.
+Final painting measures 1.5&#x2033; x 1.5&#x2033;. Ended up a little more illustrative than realistic, but I'll take it.
 
 **Tools used:**
 

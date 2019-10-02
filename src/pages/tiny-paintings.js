@@ -80,7 +80,7 @@ class Gallery extends React.Component {
             some painting in amongst family and work obligations.
           </p>
           <p>
-            My plan was to complete a miniature 1.5" painting a day, but the
+            My plan was to complete a miniature 1.5&#x2033; painting a day, but the
             challenge of painting so small is eating up way too much time.
             Instead I’m going to keep things casual and let images happen as
             they happen.

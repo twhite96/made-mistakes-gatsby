@@ -13,7 +13,7 @@ PaperFaces portrait of Luke Skywalker and Darth Vader from *Episode V: The Empir
 
 As I have done for the last 2 years, here's a new illustration drawn with Paper by FiftyThree in celebration of [**Star Wars Day**](http://www.starwars.com/may-the-4th). "May the Fourth Be With You!"
 
-To the right are some shots of the gigantic 40\" framed print I received for being one of eleven winning entries in the [**FiftyThree** and **CanvasPop** design contest](http://blog.fiftythree.com/canvaspop-design-contest-winners). Don't mind the glare, photographing a dark piece of artwork behind glass wasn't easy.
+To the right are some shots of the gigantic 40&#x2033; framed print I received for being one of eleven winning entries in the [**FiftyThree** and **CanvasPop** design contest](http://blog.fiftythree.com/canvaspop-design-contest-winners). Don't mind the glare, photographing a dark piece of artwork behind glass wasn't easy.
 
 ![CanvasPop print packaged up](../../images/star-wars-canvaspop-1.jpg)
 

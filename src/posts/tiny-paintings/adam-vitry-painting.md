@@ -12,7 +12,7 @@ tags: [watercolor, portrait, illustration, Sktchy]
 
 Tiny portrait of Adam Vitry inspired by a [photograph on Sktchy](https://sktchy.com/PAjPOC). Painted with watercolor on hot press paper. 
 
-Final painting measures 1.5\" x 1.5\".
+Final painting measures 1.5&#x2033; x 1.5&#x2033;.
 
 ![pencil sketch](../../images/painting-adam-vitry-process.jpg)
 

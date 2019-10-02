@@ -11,7 +11,7 @@ tags: [watercolor, portrait, self portrait, illustration]
 
 Tiny self portrait painted with watercolor on hot press paper.
 
-Final painting measures 1.5\" x 1.5\" and was completed in just under one hour. I find its always easier to work with foreign media when starting with a familiar subject. In this case it was my own face... well part of it at least.
+Final painting measures 1.5&#x2033; x 1.5&#x2033; and was completed in just under one hour. I find its always easier to work with foreign media when starting with a familiar subject. In this case it was my own face... well part of it at least.
 
 ![Pencil sketch work in process](../../images/painting-michael-rose-process-1-lg.jpg)
 
