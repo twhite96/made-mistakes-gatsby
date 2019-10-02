@@ -30,30 +30,38 @@ const Footer = ({
   <footer className={style.footer}>
     <ul className={style.menu}>
       <FooterMenu footerMenu={footerMenu} />
-      <li>
-        <a href={twitter}>
-          <TwitterIcon />
-          <span className={style.iconLabel}>Twitter</span>
-        </a>
-      </li>
-      <li>
-        <a href={github}>
-          <GithubIcon />
-          <span className={style.iconLabel}>GitHub</span>
-        </a>
-      </li>
-      <li>
-        <a href={instagram}>
-          <InstagramIcon />
-          <span className={style.iconLabel}>Instagram</span>
-        </a>
-      </li>
-      <li>
-        <Link to={feed}>
-          <RSSIcon />
-          <span className={style.iconLabel}>RSS feed</span>
-        </Link>
-      </li>
+      {twitter && (
+        <li>
+          <a href={twitter}>
+            <TwitterIcon />
+            <span className={style.iconLabel}>Twitter</span>
+          </a>
+        </li>
+      )}
+      {github && (
+        <li>
+          <a href={github}>
+            <GithubIcon />
+            <span className={style.iconLabel}>GitHub</span>
+          </a>
+        </li>
+      )}
+      {instagram && (
+        <li>
+          <a href={instagram}>
+            <InstagramIcon />
+            <span className={style.iconLabel}>Instagram</span>
+          </a>
+        </li>
+      )}
+      {feed && (
+        <li>
+          <Link to={feed}>
+            <RSSIcon />
+            <span className={style.iconLabel}>RSS feed</span>
+          </Link>
+        </li>
+      )}
     </ul>
     {copyrights && (
       <div
