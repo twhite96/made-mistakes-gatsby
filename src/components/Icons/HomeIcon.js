@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 import style from '../../styles/Icon.module.css'
 
-function HomeIcon({ className, fill }) {
+function HomeIcon({ className }) {
   return (
     <svg
       viewBox="0 0 16 16"
@@ -12,26 +12,18 @@ function HomeIcon({ className, fill }) {
       xmlns="http://www.w3.org/2000/svg"
       className={`${className} ${style.icon}`}
     >
-      <path
-        fill={fill}
-        d="M.46 16h.42a.48.48 0 0 0 .48-.48V8L7.7 1.65 14.02 8v4.56H4.8a.48.48 0 0 0-.48.48v.43a.48.48 0 0 0 .48.48h9.9a.68.68 0 0 0 .68-.68V7.69a.62.62 0 0 0-.2-.48l-7-7a.66.66 0 0 0-1 0l-7 7a.67.67 0 0 0-.2.48v7.83a.47.47 0 0 0 .48.48z"
-      />
-      <path
-        fill={fill}
-        d="M2.86 16h12.07a.48.48 0 0 0 .48-.48v-.42a.48.48 0 0 0-.48-.48H3.54V8.83L7.7 4.66l4.15 4.15v2.49a.48.48 0 0 0 .48.48h.37a.48.48 0 0 0 .48-.48V8.54a.62.62 0 0 0-.2-.48L8.17 3.23A.67.67 0 0 0 7.7 3a.64.64 0 0 0-.48.2L2.38 8.07a.72.72 0 0 0-.2.48v6.77a.68.68 0 0 0 .68.68z"
-      />
+      <path d="M.46 16h.42a.48.48 0 0 0 .48-.48V8L7.7 1.65 14.02 8v4.56H4.8a.48.48 0 0 0-.48.48v.43a.48.48 0 0 0 .48.48h9.9a.68.68 0 0 0 .68-.68V7.69a.62.62 0 0 0-.2-.48l-7-7a.66.66 0 0 0-1 0l-7 7a.67.67 0 0 0-.2.48v7.83a.47.47 0 0 0 .48.48z" />
+      <path d="M2.86 16h12.07a.48.48 0 0 0 .48-.48v-.42a.48.48 0 0 0-.48-.48H3.54V8.83L7.7 4.66l4.15 4.15v2.49a.48.48 0 0 0 .48.48h.37a.48.48 0 0 0 .48-.48V8.54a.62.62 0 0 0-.2-.48L8.17 3.23A.67.67 0 0 0 7.7 3a.64.64 0 0 0-.48.2L2.38 8.07a.72.72 0 0 0-.2.48v6.77a.68.68 0 0 0 .68.68z" />
     </svg>
   )
 }
 
 HomeIcon.propTypes = {
   className: PropTypes.string,
-  fill: PropTypes.string,
 }
 
 HomeIcon.defaultProps = {
   className: undefined,
-  fill: '#000',
 }
 
 export default HomeIcon
