@@ -13,11 +13,12 @@
 
   a {
     color: inherit;
-    white-space: nowrap;
   }
 }
 
 .iconLabel {
+  padding-left: 0.5em;
+
   @media (--medium-up) {
     display: none;
   }
@@ -27,6 +28,7 @@
   display: flex;
   flex-flow: row wrap;
   margin: 0;
+  padding: 0;
   list-style: none;
   font-family: var(--sans-serif-font);
   font-weight: 400;
@@ -49,6 +51,8 @@
     a {
       display: block;
       margin-bottom: 0;
+      color: inherit;
+      white-space: nowrap;
 
       @media (--medium-down) {
         padding: 0.5em 0.5em 0.5em 0;
