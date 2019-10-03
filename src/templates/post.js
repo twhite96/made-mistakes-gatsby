@@ -10,6 +10,8 @@ import CommentForm from '../components/Comments/CommentForm'
 import Navigation from '../components/Navigation'
 import site from '../../config/site'
 
+import style from '../styles/post.module.css'
+
 const PostTemplate = ({ data, pageContext }) => {
   const {
     frontmatter: {
@@ -60,22 +62,24 @@ const PostTemplate = ({ data, pageContext }) => {
         previousPost={previous}
         nextPost={next}
       />
-      {commentsEnabled && (
-        <>
-          {comments && <CommentsList commentsList={comments} />}
-          {commentsLocked ? (
-            <div className="notice">
-              <div className="custom-block-heading">Comments are closed</div>
-              <div className="custom-block-body">
-                If you have a question concerning the content of this page,
-                please feel free to contact me.
+      <section className={style.comments}>
+        {commentsEnabled && (
+          <>
+            {comments && <CommentsList commentsList={comments} />}
+            {commentsLocked ? (
+              <div className="notice">
+                <div className="custom-block-heading">Comments are closed</div>
+                <div className="custom-block-body">
+                  If you have a question concerning the content of this page,
+                  please feel free to contact me.
+                </div>
               </div>
-            </div>
-          ) : (
-            <CommentForm slug={path} />
-          )}
-        </>
-      )}
+            ) : (
+              <CommentForm slug={path} />
+            )}
+          </>
+        )}
+      </section>
       <Navigation
         previousPath={previousPath}
         previousLabel={previousLabel}

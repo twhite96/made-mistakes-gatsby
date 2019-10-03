@@ -32,10 +32,10 @@
 }
 
 .main {
-  min-width: calc(100% - var(--avatar-size));
+  min-width: calc(100% - var(--avatar-size) - 20px);
 
   @media (--medium-up) {
-    min-width: calc(100% - (var(--avatar-size) * 2));
+    min-width: calc(100% - (var(--avatar-size) * 2) - 20px);
   }
 }
 

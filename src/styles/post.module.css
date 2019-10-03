@@ -1,0 +1,18 @@
+.comments {
+  @media (--medium-down) {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  @media (--medium-up) {
+    max-width: 55%;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: end;
+  }
+
+  @media (--extra-large-up) {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
