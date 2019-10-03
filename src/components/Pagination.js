@@ -2,11 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
-import style from '../styles/Navigation.module.css'
+import style from '../styles/Pagination.module.css'
 
-const Navigation = ({ nextPath, previousPath, nextLabel, previousLabel }) =>
+const Pagination = ({ nextPath, previousPath, nextLabel, previousLabel }) =>
   previousPath || nextPath ? (
-    <div className={style.navigation}>
+    <div className={style.pagination}>
       {previousPath && (
         <span className={style.button}>
           <Link to={previousPath}>
@@ -26,11 +26,11 @@ const Navigation = ({ nextPath, previousPath, nextLabel, previousLabel }) =>
     </div>
   ) : null
 
-Navigation.propTypes = {
+Pagination.propTypes = {
   nextPath: PropTypes.string,
   previousPath: PropTypes.string,
   nextLabel: PropTypes.string,
   previousLabel: PropTypes.string,
 }
 
-export default Navigation
+export default Pagination

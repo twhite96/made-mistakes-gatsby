@@ -7,7 +7,7 @@ import Layout from '../components/Layout'
 import Document from '../components/Document'
 import CommentsList from '../components/Comments/CommentsList'
 import CommentForm from '../components/Comments/CommentForm'
-import Navigation from '../components/Navigation'
+import Pagination from '../components/Pagination'
 import site from '../../config/site'
 
 import style from '../styles/post.module.css'
@@ -80,7 +80,7 @@ const PostTemplate = ({ data, pageContext }) => {
           </>
         )}
       </section>
-      <Navigation
+      <Pagination
         previousPath={previousPath}
         previousLabel={previousLabel}
         nextPath={nextPath}

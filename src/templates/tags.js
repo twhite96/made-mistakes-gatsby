@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import SEO from '../components/SEO'
 import Layout from '../components/Layout'
 import Entry from '../components/Entry'
-import Navigation from '../components/Navigation'
+import Pagination from '../components/Pagination'
 
 import site from '../../config/site'
 
@@ -81,7 +81,7 @@ const Tags = ({
           })}
         </div>
       </main>
-      <Navigation
+      <Pagination
         previousPath={previousPagePath}
         previousLabel="Newer posts"
         nextPath={nextPagePath}
