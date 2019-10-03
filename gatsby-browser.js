@@ -1,5 +1,5 @@
-require('./src/styles/custom-block.css')
-require('./src/styles/prism.css') // prismjs color theme
+require('./src/styles/global.css')
+require('./src/styles/prism.css')
 
 export const onClientEntry = () => {
   // IntersectionObserver polyfill for gatsby-image (Safari, IE)
