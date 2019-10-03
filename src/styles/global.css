@@ -21,6 +21,10 @@
   box-shadow: 0.25em 0.25em 0 var(--light-text-color);
 }
 
+* + .custom-block {
+  margin-top: 2em;
+}
+
 .custom-block-heading {
   display: block;
   margin-bottom: 1.25em;

@@ -67,7 +67,7 @@ const PostTemplate = ({ data, pageContext }) => {
           <>
             {comments && <CommentsList commentsList={comments} />}
             {commentsLocked ? (
-              <div className="notice">
+              <div className="custom-block notice">
                 <div className="custom-block-heading">Comments are closed</div>
                 <div className="custom-block-body">
                   If you have a question concerning the content of this page,
