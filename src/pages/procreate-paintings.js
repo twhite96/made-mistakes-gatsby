@@ -1,5 +1,6 @@
 import React from 'react'
 import chunk from 'lodash/chunk'
+import Masonry from 'react-masonry-component'
 import Img from 'gatsby-image'
 import PropTypes from 'prop-types'
 import { graphql, Link } from 'gatsby'
@@ -86,44 +87,21 @@ class Gallery extends React.Component {
             this.state.postsToShow
             // eslint-disable-next-line no-shadow
           ).map((chunk, i) => (
-            <div
-              style={{
-                display: `grid`,
-                width: `100%`,
-                gridTemplateColumns: `repeat(auto-fill, minmax(200px, 1fr))`,
-                gridGap: `0.5em`,
-                alignItems: `stretch`,
-              }}
-              key={`chunk-${i}`}
-            >
+            <Masonry className={style.grid} key={`chunk-${i}`}>
               {chunk.map(post => {
                 const image = post.frontmatter.thumbnail
                   ? post.frontmatter.thumbnail
                   : post.frontmatter.image
 
                 return (
-                  <Link
-                    key={post.id}
-                    style={{
-                      display: `block`,
-                      width: `200px`,
-                      height: `200px`,
-                    }}
-                    to={post.frontmatter.path}
-                  >
-                    <Img
-                      fixed={image.childImageSharp.fixed}
-                      style={{
-                        maxWidth: `100%`,
-                      }}
-                      imgStyle={{
-                        marginBottom: `0`,
-                      }}
-                    />
-                  </Link>
+                  <div className={style.gridItem}>
+                    <Link key={post.id} to={post.frontmatter.path}>
+                      <Img fluid={image.childImageSharp.fluid} />
+                    </Link>
+                  </div>
                 )
               })}
-            </div>
+            </Masonry>
           ))}
           {!this.state.showingMore && (
             <button
@@ -188,15 +166,15 @@ export const pageQuery = graphql`
             path
             image {
               childImageSharp {
-                fixed(width: 200, height: 200, quality: 80) {
-                  ...GatsbyImageSharpFixed
+                fluid(maxHeight: 400, quality: 80) {
+                  ...GatsbyImageSharpFluid
                 }
               }
             }
             thumbnail {
               childImageSharp {
-                fixed(width: 200, height: 200, quality: 80) {
-                  ...GatsbyImageSharpFixed
+                fluid(maxHeight: 400, quality: 80) {
+                  ...GatsbyImageSharpFluid
                 }
               }
             }
