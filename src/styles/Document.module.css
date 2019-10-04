@@ -159,3 +159,41 @@
     margin-top: 1em;
   }
 }
+
+/* .imageGrid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(50px, auto);
+}
+
+.imageGrid .imageItem:nth-child(5n) {
+  grid-column-end: span 2;
+}
+
+.imageGrid  .gatsby-image-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+.imageGrid {
+  margin-botom: 3em;
+}
+
+.gridItem {
+  width: 100%;
+
+  @media (--small-up) {
+    width: 50%;
+  }
+
+  @media (--medium-up) {
+    width: 33.3333%;
+  }
+
+  @media (--large-up) {
+    width: 25%;
+  }
+}
