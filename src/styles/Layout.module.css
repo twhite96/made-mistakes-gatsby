@@ -175,6 +175,15 @@ pre {
   overflow-x: auto;
 }
 
+:not(pre) > code {
+  padding: 0.125em 0.25em;
+  color: inherit;
+  background: var(--light-background-secondary);
+  border-radius: var(--border-radius);
+  white-space: normal;
+  font-size: var(--f6);
+}
+
 kbd {
   background-color: rgb(247, 247, 247);
   border-radius: 3px;
@@ -260,4 +269,43 @@ main article {
   p, ol, ul, blockquote, figure, video, iframe {
     margin-bottom: 1.5em;
   }
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: var(--f6);
+  /* For Firefox to horizontally scroll wider tables */
+  word-break: normal;
+  word-break: keep-all;
+
+  code {
+    word-break: break-all;
+  }
+}
+
+tr th {
+  border-bottom: 1px solid var(--light-border-color);
+}
+
+tr:not(:last-child) {
+  td {
+    border-bottom: 1px solid var(--light-border-color);
+  }
+}
+
+th {
+  font-weight: bold;
+  padding: 0.5em;
+  text-align: left;
+}
+
+td {
+  padding: 0.5em;
+}
+
+tr,
+td,
+th {
+  vertical-align: middle;
 }
