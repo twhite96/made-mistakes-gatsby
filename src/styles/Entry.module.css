@@ -24,7 +24,7 @@
 }
 
 .meta {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.75em;
   font-family: var(--monospace-font);
   font-size: var(--f7);
   text-transform: uppercase;
@@ -46,4 +46,8 @@
     position: relative;
     z-index: 5;
   }
+}
+
+.cover {
+  margin-bottom: 1em;
 }

@@ -43,7 +43,7 @@
   color: var(--light-background);
   font-family: var(--alternate-font);
   font-weight: 700;
-  font-size: var(--h3);
+  font-size: var(--h2);
   font-variant-ligatures: common-ligatures;
   font-feature-settings: 'kern' on, 'liga' on, 'clig' on, 'calt' on;
   line-height: 1.25;
@@ -51,11 +51,11 @@
 
   @media (--medium-up) {
     padding-right: 5%;
-    font-size: var(--h2);
+    font-size: var(--h1);
   }
 
   @media (--large-up) {
-    font-size: var(--h1);
+    font-size: var(--h0);
   }
 
   span {

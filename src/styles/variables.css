@@ -51,6 +51,7 @@
   --h3: calc(var(--h4) * var(--heading-ratio)); /* 20.25px */
   --h2: calc(var(--h3) * var(--heading-ratio)); /* 22.781px */
   --h1: calc(var(--h2) * var(--heading-ratio)); /* 25.629px */
+  --h0: calc(var(--h1) * var(--heading-ratio)); /* 28.832625px */
 
   --sans-serif-font: Helvetica, Arial, sans-serif;
   --serif-font: "Spectral", Georgia, serif;

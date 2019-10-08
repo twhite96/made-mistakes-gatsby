@@ -61,7 +61,9 @@ const Entry = ({
           ) : null}
         </div>
 
-        {image && <Img fluid={image.childImageSharp.fluid} />}
+        {image && (
+          <Img fluid={image.childImageSharp.fluid} className={style.cover} />
+        )}
 
         <div
           className={`${style.excerpt} p-summary`}

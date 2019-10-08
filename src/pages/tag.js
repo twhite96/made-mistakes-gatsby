@@ -6,6 +6,8 @@ import SEO from '../components/SEO'
 
 import site from '../../config/site'
 
+import style from '../styles/Archive.module.css'
+
 const _ = require('lodash-addons')
 
 const metaImage = site.image
@@ -21,17 +23,28 @@ const TagsPage = ({
       description="An archive of posts organized by topic."
       metaImage={metaImage}
     />
-    <h1>All tags</h1>
-    <ul>
-      {group.map(tag => (
-        <li key={tag.fieldValue}>
-          <Link to={`/tag/${_.slugify(tag.fieldValue)}/`}>
-            <span>{tag.fieldValue}</span>{' '}
-            <span className="count">{tag.totalCount}</span>
-          </Link>
-        </li>
-      ))}
-    </ul>
+    <main className={style.main}>
+      <div className={style.title}>
+        <h1 className={style.heading}>
+          <span>All tags</span>
+        </h1>
+      </div>
+      <div className={style.content}>
+        <h2 className={style.subHeading}>Browse by topic</h2>
+        <div className={style.columnList}>
+          <ul>
+            {group.map(tag => (
+              <li key={tag.fieldValue}>
+                <Link to={`/tag/${_.slugify(tag.fieldValue)}/`}>
+                  <strong>{tag.fieldValue}</strong>{' '}
+                  <span className={style.count}>{tag.totalCount}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </main>
   </Layout>
 )
 
