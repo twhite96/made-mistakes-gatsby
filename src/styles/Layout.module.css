@@ -247,6 +247,10 @@ ul {
 
 li {
 
+  + li {
+    margin-top: 0.5em;
+  }
+
   > img {
     margin: 1rem 0;
   }

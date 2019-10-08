@@ -81,3 +81,12 @@
     }
   }
 }
+
+.footnotes {
+  margin-bottom: 3em;
+  font-size: var(--f6);
+
+  p {
+    display: inline;
+  }
+}
