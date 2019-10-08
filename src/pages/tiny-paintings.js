@@ -65,71 +65,69 @@ class Gallery extends React.Component {
           description="Gallery of mini watercolor portraits painted at really small sizes."
           metaImage={metaImage}
         />
-        <div className={style.post}>
-          <h1 className={style.title}>Tiny paintings</h1>
-
+        <main className={style.document}>
+          <div className={style.title}>
+            <h1 className={style.heading}><span>Tiny paintings</span></h1>
+          </div>
           {this.props.data.file.childImageSharp.fluid && (
             <Img
               fluid={this.props.data.file.childImageSharp.fluid}
-              className={style.coverImage}
+              className={style.cover}
             />
           )}
-          <p>
-            Trying to emulate the look and feel of{' '}
-            <a href="/paperfaces/">watercolor on the iPad</a> has inspired me to
-            revisit painting traditionally. I’ve gone mini in an effort to fit
-            some painting in amongst family and work obligations.
-          </p>
-          <p>
-            My plan was to complete a miniature 1.5&#x2033; painting a day, but the
-            challenge of painting so small is eating up way too much time.
-            Instead I’m going to keep things casual and let images happen as
-            they happen.
-          </p>
-          {chunk(
-            posts.slice(0, this.state.postsToShow),
-            this.state.postsToShow
-            // eslint-disable-next-line no-shadow
-          ).map((chunk, i) => (
-            <Masonry className={style.grid} key={`chunk-${i}`}>
-              {chunk.map(post => {
-                const image = post.frontmatter.thumbnail
-                  ? post.frontmatter.thumbnail
-                  : post.frontmatter.image
+          <div className={style.content}>
+            <p>
+              Trying to emulate the look and feel of{' '}
+              <a href="/paperfaces/">watercolor on the iPad</a> has inspired me
+              to revisit painting traditionally. I’ve gone mini in an effort to
+              fit some painting in amongst family and work obligations.
+            </p>
+            <p>
+              My plan was to complete a miniature 1.5&#x2033; painting a day,
+              but the challenge of painting so small is eating up way too much
+              time. Instead I’m going to keep things casual and let images
+              happen as they happen.
+            </p>
+          </div>
+          <div className={style.gallery}>
+            {chunk(
+              posts.slice(0, this.state.postsToShow),
+              this.state.postsToShow
+              // eslint-disable-next-line no-shadow
+            ).map((chunk, i) => (
+              <Masonry className={style.grid} key={`chunk-${i}`}>
+                {chunk.map(post => {
+                  const image = post.frontmatter.thumbnail
+                    ? post.frontmatter.thumbnail
+                    : post.frontmatter.image
 
-                return (
-                  <div className={style.gridItem}>
-                    <Link key={post.id} to={post.frontmatter.path}>
-                      <Img fluid={image.childImageSharp.fluid} />
-                    </Link>
-                  </div>
-                )
-              })}
-            </Masonry>
-          ))}
-          {!this.state.showingMore && (
-            <button
-              type="button"
-              data-testid="load-more"
-              style={{
-                margin: `0 auto`,
-                padding: `0.5em`,
-                color: `#fff`,
-                backgroundColor: `#000`,
-                border: `1px solid #000`,
-                cursor: `pointer`,
-              }}
-              onClick={() => {
-                this.setState(prevState => ({
-                  postsToShow: prevState.postsToShow + 32,
-                  showingMore: true,
-                }))
-              }}
-            >
-              Load more
-            </button>
-          )}
-        </div>
+                  return (
+                    <div className={style.gridItem}>
+                      <Link key={post.id} to={post.frontmatter.path}>
+                        <Img fluid={image.childImageSharp.fluid} />
+                      </Link>
+                    </div>
+                  )
+                })}
+              </Masonry>
+            ))}
+            {!this.state.showingMore && (
+              <button
+                type="button"
+                data-testid="load-more"
+                className={style.loadMore}
+                onClick={() => {
+                  this.setState(prevState => ({
+                    postsToShow: prevState.postsToShow + 32,
+                    showingMore: true,
+                  }))
+                }}
+              >
+                Load more
+              </button>
+            )}
+          </div>
+        </main>
       </Layout>
     )
   }

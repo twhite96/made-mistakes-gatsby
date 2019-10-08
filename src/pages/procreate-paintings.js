@@ -66,66 +66,66 @@ class Gallery extends React.Component {
           an iPad. Find time lapse videos, in-process screenshots, and more."
           metaImage={metaImage}
         />
-        <div className={style.post}>
-          <h1 className={style.title}>Procreate iPad paintings</h1>
-
+        <main className={style.document}>
+          <div className={style.title}>
+            <h1 className={style.heading}>
+              <span><span>Procreate iPad paintings</span></span>
+            </h1>
+          </div>
           {this.props.data.file.childImageSharp.fluid && (
             <Img
               fluid={this.props.data.file.childImageSharp.fluid}
-              className={style.coverImage}
+              className={style.cover}
             />
           )}
-          <p>
-            Digital paintings created on an iPad using the iOS app{' '}
-            <a href="http://procreate.si/">
-              <strong>Procreate</strong> by Savage Interactive
-            </a>
-            .
-          </p>
-          {chunk(
-            posts.slice(0, this.state.postsToShow),
-            this.state.postsToShow
-            // eslint-disable-next-line no-shadow
-          ).map((chunk, i) => (
-            <Masonry className={style.grid} key={`chunk-${i}`}>
-              {chunk.map(post => {
-                const image = post.frontmatter.thumbnail
-                  ? post.frontmatter.thumbnail
-                  : post.frontmatter.image
+          <div className={style.content}>
+            <p>
+              Digital paintings created on an iPad using the iOS app{' '}
+              <a href="http://procreate.si/">
+                <strong>Procreate</strong> by Savage Interactive
+              </a>
+              .
+            </p>
+          </div>
+          <div className={style.gallery}>
+            {chunk(
+              posts.slice(0, this.state.postsToShow),
+              this.state.postsToShow
+              // eslint-disable-next-line no-shadow
+            ).map((chunk, i) => (
+              <Masonry className={style.grid} key={`chunk-${i}`}>
+                {chunk.map(post => {
+                  const image = post.frontmatter.thumbnail
+                    ? post.frontmatter.thumbnail
+                    : post.frontmatter.image
 
-                return (
-                  <div className={style.gridItem}>
-                    <Link key={post.id} to={post.frontmatter.path}>
-                      <Img fluid={image.childImageSharp.fluid} />
-                    </Link>
-                  </div>
-                )
-              })}
-            </Masonry>
-          ))}
-          {!this.state.showingMore && (
-            <button
-              type="button"
-              data-testid="load-more"
-              style={{
-                margin: `0 auto`,
-                padding: `0.5em`,
-                color: `#fff`,
-                backgroundColor: `#000`,
-                border: `1px solid #000`,
-                cursor: `pointer`,
-              }}
-              onClick={() => {
-                this.setState(prevState => ({
-                  postsToShow: prevState.postsToShow + 32,
-                  showingMore: true,
-                }))
-              }}
-            >
-              Load more
-            </button>
-          )}
-        </div>
+                  return (
+                    <div className={style.gridItem}>
+                      <Link key={post.id} to={post.frontmatter.path}>
+                        <Img fluid={image.childImageSharp.fluid} />
+                      </Link>
+                    </div>
+                  )
+                })}
+              </Masonry>
+            ))}
+            {!this.state.showingMore && (
+              <button
+                type="button"
+                data-testid="load-more"
+                className={style.loadMore}
+                onClick={() => {
+                  this.setState(prevState => ({
+                    postsToShow: prevState.postsToShow + 32,
+                    showingMore: true,
+                  }))
+                }}
+              >
+                Load more
+              </button>
+            )}
+          </div>
+        </main>
       </Layout>
     )
   }

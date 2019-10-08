@@ -160,6 +160,14 @@
   }
 }
 
+.gallery {
+  @media (--medium-up) {
+    grid-column: 3 / 9;
+    grid-row: 5 / span 1;
+    align-self: flex-start;
+  }
+}
+
 /* .imageGrid {
   display: grid;
   grid-gap: 10px;
@@ -198,4 +206,16 @@
   @media (--large-up) {
     width: 25%;
   }
+}
+
+.loadMore {
+  display: block;
+  margin: 1em auto;
+  padding: 0.5em;
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: var(--border-radius);
+  font-family: var(--monospace-font);
+  cursor: pointer;
 }
