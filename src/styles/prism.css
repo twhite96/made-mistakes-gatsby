@@ -30,13 +30,12 @@ pre[class*='language-'] > code {
 /* Code blocks */
 pre[class*='language-'] {
   padding: 1em;
-  margin: 0.5em 0;
   overflow: auto;
 }
 
 pre[class*='language-'] {
   background: #1a1a1d !important;
-  border-radius: 8px;
+  border-radius: var(--border-radius);
 }
 
 .token.comment,
