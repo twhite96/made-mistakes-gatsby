@@ -79,8 +79,8 @@ Entry.propTypes = {
   date: PropTypes.string,
   path: PropTypes.string,
   image: PropTypes.object,
-  author: PropTypes.string,
-  timeToRead: PropTypes.string,
+  author: PropTypes.object,
+  timeToRead: PropTypes.number,
   excerpt: PropTypes.string,
   tags: PropTypes.array,
 }
