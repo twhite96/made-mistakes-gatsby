@@ -37,7 +37,6 @@ module.exports = {
     defaultTheme: 'light',
     postsPerPage: 10,
     showMenuItems: 2,
-    menuMoreText: 'Show more',
     mainMenu: [
       {
         title: 'About',
