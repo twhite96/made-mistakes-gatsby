@@ -1,96 +1,92 @@
-.mobileMenuContainer {
-  display: none;
+/* :global .dark-theme :local & {
+  background: #252627;
+} */
 
-  @media (--extraSmallOnly) {
-    display: flex;
-  }
-}
+.primaryNavigation {}
 
-.desktopMenuContainer {
-  display: block;
-
-  @media (--extraSmallOnly) {
-    display: none;
-  }
-}
-
-.menu {
+.primaryMenu {
   display: flex;
-  flex: 0 0 auto;
-  align-items: center;
-  justify-content: flex-start;
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
+  padding: 0;
   list-style: none;
-  border-right: 1px solid;
-  margin-right: 18px;
-
-  li {
-    margin: 0 12px;
-  }
-
-  &Trigger {
-    margin-right: 10px;
-    padding: 0;
-    line-height: 0;
-    background: none;
-    color: inherit;
-    border: none;
-    box-shadow: none;
-    outline: none;
-    appearance: none;
-    cursor: pointer;
-  }
-
-  a {
-    display: inline-block;
-    margin-right: 15px;
-    text-decoration: none;
-
-    &:last-of-type {
-      margin-right: 0;
-    }
-  }
 }
 
-.mobileMenu {
+.primaryMenuItem {
+  margin: 0;
+}
+
+.subMenuTrigger {}
+
+.secondaryNavigation {
   position: absolute;
   top: 0;
   right: 0;
-  flex-direction: column;
-  align-items: flex-start;
-  background: #fafafa;
-  margin: 0;
+  bottom: 0;
+  left: 0;
+  background: #000;
+  color: #fff;
+  pointer-events: none;
+  z-index: 100;
+  visibility: hidden;
+  transition: all 0.4s cubic-bezier(0, 0, 0.2, 1);
+  transform: translateY(-100%);
+  -webkit-overflow-scrolling: touch; /* fix momentum scrolling for iOS */
+}
+
+.secondaryNavigationIsVisible {
+  composes: secondaryNavigation;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.secondaryMenu {
+  margin-left: 5%;
+  margin-right: 5%;
   padding: 0;
-  text-align: left;
+  width: 100%;
+  height: 100%;
   list-style: none;
-  border-radius: 5px;
-  overflow: hidden;
-  z-index: 99;
+}
 
-  :global .dark-theme :local & {
-    background: #252627;
+.secondaryMenuItem {
+  margin: 0;
+  font-family: var(--sans-serif-font);
+  font-size: var(--h1);
+  font-weight: 700;
+  transition: all 0.5s;
+
+  @media (--medium-up) {
+    font-size: var(--h0);
   }
 
-  li {
-    margin: 0;
-    white-space: nowrap;
+  /* line hover effect */
+  a,
+  a:visited {
+    position: relative;
+    display: block;
+    color: color-mod(var(--light-background-secondary) shade(20%));
+    transition: all 0.25s;
 
-    a {
+    &::before {
+      background-color: #fff;
+      content: "";
       display: block;
-      padding: 10px 15px;
+      height: 1px;
+      left: -3rem;
+      position: absolute;
+      top: 50%;
+      transition: width 0.3s cubic-bezier(0, 0, 0.3, 1);
+      width: 0;
     }
-  }
 
-  &Overlay {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.2);
-    z-index: 10;
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    &:hover::before {
+      width: 2.5rem;
+    }
   }
 }
 
@@ -105,71 +101,17 @@
   outline: none;
 }
 
-.subMenuTrigger {
-  background: none;
-  color: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  border: none;
-  box-shadow: none;
-  margin: 0 12px;
-  padding: 0;
-  cursor: pointer;
-  outline: none;
-  appearance: none;
-}
-
-.subMenu {
-  position: absolute;
-  max-width: 300px;
-  background: #fafafa;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-  margin: 0;
-  padding: 5px;
-  list-style: none;
-  border-radius: 5px;
-  top: 35px;
-  right: 70px;
-  overflow: hidden;
-  z-index: 99;
-
-  :global .dark-theme :local & {
-    background: var(--dark-background-secondary);
-  }
-
-  li {
-    text-align: left;
-    margin: 0;
-    white-space: nowrap;
-
-    a {
-      padding: 10px;
-    }
-
-    &:hover {
-      background: rgba(0, 0, 0, 0.05);
-      border-radius: 3px;
-      cursor: pointer;
-
-      :global .dark-theme :local & {
-        background: rgba(0, 0, 0, 0.15);
-      }
-    }
-  }
-}
-
 .subMenuOverlay {
   position: fixed;
+  width: 100vw;
+  height: 100vh;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: -1;
-}
 
-.menuArrow {
-  display: inline-block;
-  font-family: 'Inter UI';
-  margin-left: 5px;
-  transform: rotate(90deg);
+  &:focus {
+    outline: none;
+  }
 }

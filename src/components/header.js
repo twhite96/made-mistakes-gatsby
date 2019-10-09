@@ -19,18 +19,16 @@ const Header = props => {
     (typeof window !== 'undefined' && window.localStorage.getItem('theme')) ||
     null
   const [userTheme, changeTheme] = useState(defaultThemeState)
-  const [isMobileMenuVisible, toggleMobileMenu] = useState(false)
   const [isSubMenuVisible, toggleSubMenu] = useState(false)
   const onChangeTheme = () => {
-    const opositeTheme =
+    const alternateTheme =
       (userTheme || defaultTheme) === 'light' ? 'dark' : 'light'
 
-    changeTheme(opositeTheme)
+    changeTheme(alternateTheme)
 
     typeof window !== 'undefined' &&
-      window.localStorage.setItem('theme', opositeTheme)
+      window.localStorage.setItem('theme', alternateTheme)
   }
-  const onToggleMobileMenu = () => toggleMobileMenu(!isMobileMenuVisible)
   const onToggleSubMenu = () => toggleSubMenu(!isSubMenuVisible)
 
   return (
@@ -45,28 +43,18 @@ const Header = props => {
         />
       </Helmet>
       <header className={style.header}>
-        <div className={style.inner}>
-          <Link to="/">
-            <div className={style.logo}>
-              <span className={style.mark}>></span>
-              <span className={style.text}>{siteTitle}</span>
-              <span className={style.cursor} />
-            </div>
-          </Link>
-          <span className={style.right}>
-            <Menu
-              mainMenu={mainMenu}
-              mainMenuItems={mainMenuItems}
-              isMobileMenuVisible={isMobileMenuVisible}
-              isSubMenuVisible={isSubMenuVisible}
-              menuMoreText={menuMoreText}
-              onToggleMobileMenu={onToggleMobileMenu}
-              onToggleSubMenu={onToggleSubMenu}
-              onChangeTheme={onChangeTheme}
-            />
-          </span>
+        <div className={style.name}>
+          <Link to="/">{siteTitle}</Link>
         </div>
       </header>
+      <Menu
+        mainMenu={mainMenu}
+        mainMenuItems={mainMenuItems}
+        isSubMenuVisible={isSubMenuVisible}
+        menuMoreText={menuMoreText}
+        onToggleSubMenu={onToggleSubMenu}
+        onChangeTheme={onChangeTheme}
+      />
     </>
   )
 }

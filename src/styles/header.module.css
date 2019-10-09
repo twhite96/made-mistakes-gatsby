@@ -1,4 +1,42 @@
 .header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 1em 5%;
+  font-family: var(--monospace-font);
+  z-index: 150;
+
+  @media (--medium-up) {
+    position: absolute;
+  }
+
+  @media (--large-up) {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+  }
+}
+
+.name {
+  display: inline-block;
+  margin: 0;
+  height: 25px;
+  color: #000;
+  font-family: var(--alternate-font);
+  font-size: var(--f5);
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+/* .header {
   background: #fafafa;
   display: flex;
   align-items: center;
@@ -69,4 +107,4 @@
   100% {
     opacity: 0;
   }
-}
+} */
