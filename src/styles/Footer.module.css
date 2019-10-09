@@ -35,6 +35,7 @@
 
   li {
     flex-basis: 50%;
+    margin: 0;
 
     @media (--medium-up) {
       flex-basis: auto;
