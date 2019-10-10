@@ -6,6 +6,8 @@ import SEO from '../../components/SEO'
 
 import site from '../../../config/site'
 
+import style from '../../styles/Archive.module.css'
+
 const metaImage = site.image
 const FaqsPage = ({
   data: {
@@ -20,20 +22,28 @@ const FaqsPage = ({
       of answers to questions I'm often asked."
       metaImage={metaImage}
     />
-    <h1>Frequently asked questions</h1>
-    <p>
-      Did I leave something out that you were looking for an answer to? Feel
-      free to reach out and <Link to="/contact/">ask me</Link>.
-    </p>
-    <ul>
-      {edges.map(faq => (
-        <li key={faq.node.id}>
-          <Link to={faq.node.frontmatter.path}>
-            {faq.node.frontmatter.title}
-          </Link>
-        </li>
-      ))}
-    </ul>
+    <main className={style.main}>
+      <div className={style.title}>
+        <h1 className={style.heading}>
+          <span>Frequently asked questions</span>
+        </h1>
+      </div>
+      <div className={style.content}>
+        <p>
+          Did I leave something out that you were looking for an answer to? Feel
+          free to reach out and <Link to="/contact/">ask me</Link>.
+        </p>
+        <ul>
+          {edges.map(faq => (
+            <li key={faq.node.id}>
+              <Link to={faq.node.frontmatter.path}>
+                {faq.node.frontmatter.title}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </main>
   </Layout>
 )
 

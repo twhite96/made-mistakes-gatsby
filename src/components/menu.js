@@ -1,27 +1,26 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
-
 import Icon from './Icon'
 
 import style from '../styles/Menu.module.css'
 
-const MainMenu = ({ mainMenu, mainMenuItems, isMobileMenu }) => {
+const MainMenu = ({ mainMenu }) => {
   const menu = mainMenu.slice(0)
-  !isMobileMenu && menu.splice(mainMenuItems)
 
-  return menu.map((menuItem, index) => (
+  const items = menu.map((menuItem, index) => (
     <li key={index} className={style.primaryMenuItem}>
       <Link to={menuItem.path} itemProp="url">
         {menuItem.title}
       </Link>
     </li>
   ))
+
+  return <ul className={style.primaryMenu}>{items}</ul>
 }
 
-const SubMenu = ({ mainMenu, mainMenuItems, onToggleSubMenu }) => {
-  const menu = mainMenu.slice(0)
-  menu.splice(0, mainMenuItems)
+const SubMenu = ({ subMenu }) => {
+  const menu = subMenu.slice(0)
 
   const items = menu.map((menuItem, index) => (
     <li key={index} className={style.secondaryMenuItem}>
@@ -31,18 +30,7 @@ const SubMenu = ({ mainMenu, mainMenuItems, onToggleSubMenu }) => {
     </li>
   ))
 
-  return (
-    <>
-      {items}
-      {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events */}
-      <div
-        className={style.subMenuOverlay}
-        role="button"
-        tabIndex={-1}
-        onClick={onToggleSubMenu}
-      />
-    </>
-  )
+  return <ul className={style.secondaryMenu}>{items}</ul>
 }
 
 const toggleIcon = `M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
@@ -51,14 +39,12 @@ const toggleIcon = `M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
 
 const Menu = ({
   mainMenu,
-  mainMenuItems,
+  subMenu,
   menuMoreText,
   isSubMenuVisible,
   onToggleSubMenu,
   onChangeTheme,
 }) => {
-  const isSubMenu = !(mainMenuItems >= mainMenu.length) && mainMenuItems > 0
-
   return (
     <>
       <nav
@@ -67,40 +53,34 @@ const Menu = ({
         aria-label="Primary navigation"
         className={style.primaryNavigation}
       >
-        <ul className={style.primaryMenu}>
-          <MainMenu mainMenu={mainMenu} mainMenuItems={mainMenuItems} />
-        </ul>
+        <MainMenu mainMenu={mainMenu} />
       </nav>
-      {isSubMenu ? (
-        <>
-          <button
-            className={style.subMenuTrigger}
-            onClick={onToggleSubMenu}
-            type="button"
-            aria-label="Menu"
-          >
-            {menuMoreText || 'Menu'}
-          </button>
-          <nav
-            itemScope
-            itemType="http://schema.org/SiteNavigationElement"
-            aria-label="Secondary navigation"
-            className={
-              isSubMenuVisible
-                ? style.secondaryNavigationIsVisible
-                : style.secondaryNavigation
-            }
-          >
-            <ul className={style.secondaryMenu}>
-              <SubMenu
-                mainMenu={mainMenu}
-                mainMenuItems={mainMenuItems}
-                onToggleSubMenu={onToggleSubMenu}
-              />
-            </ul>
-          </nav>
-        </>
-      ) : null}
+      <button
+        className={style.subMenuTrigger}
+        onClick={onToggleSubMenu}
+        type="button"
+        aria-label="Menu"
+      >
+        {menuMoreText}
+      </button>
+      <nav
+        itemScope
+        itemType="http://schema.org/SiteNavigationElement"
+        aria-label="Secondary navigation"
+        className={
+          isSubMenuVisible
+            ? style.secondaryNavigationIsVisible
+            : style.secondaryNavigation
+        }
+      >
+        <SubMenu subMenu={subMenu} />
+        <div
+          className={style.subMenuOverlay}
+          tabIndex={-1}
+          onClick={onToggleSubMenu}
+          onKeyDown={onToggleSubMenu}
+        />
+      </nav>
       <button
         className={style.themeToggle}
         onClick={onChangeTheme}
@@ -120,7 +100,12 @@ Menu.propTypes = {
       path: PropTypes.string,
     })
   ),
-  mainMenuItems: PropTypes.number,
+  subMenu: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string,
+      path: PropTypes.string,
+    })
+  ),
   menuMoreText: PropTypes.string,
   isSubMenuVisible: PropTypes.bool,
   onToggleSubMenu: PropTypes.func,
@@ -128,13 +113,12 @@ Menu.propTypes = {
 }
 
 SubMenu.propTypes = {
-  mainMenu: PropTypes.arrayOf(
+  subMenu: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string,
       path: PropTypes.string,
     })
   ),
-  mainMenuItems: PropTypes.number,
   onToggleSubMenu: PropTypes.func,
 }
 

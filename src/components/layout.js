@@ -23,11 +23,14 @@ const Layout = ({ children }) => {
             title
             path
           }
+          subMenu {
+            title
+            path
+          }
           footerMenu {
             title
             path
           }
-          showMenuItems
           menuMoreText
         }
       }
@@ -37,8 +40,8 @@ const Layout = ({ children }) => {
     title,
     defaultTheme,
     mainMenu,
+    subMenu,
     footerMenu,
-    showMenuItems,
     menuMoreText,
     twitterUrl,
     githubUrl,
@@ -48,15 +51,15 @@ const Layout = ({ children }) => {
   } = data.site.siteMetadata
 
   return (
-    <div>
+    <>
       <Header
         siteTitle={title}
         defaultTheme={defaultTheme}
         mainMenu={mainMenu}
-        mainMenuItems={showMenuItems}
+        subMenu={subMenu}
         menuMoreText={menuMoreText}
       />
-      <main>{children}</main>
+      {children}
       <Footer
         footerMenu={footerMenu}
         twitter={twitterUrl}
@@ -65,7 +68,7 @@ const Layout = ({ children }) => {
         feed={feedUrl}
         copyrights={copyrights}
       />
-    </div>
+    </>
   )
 }
 

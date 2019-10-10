@@ -8,13 +8,7 @@ import Menu from './Menu'
 import style from '../styles/Header.module.css'
 
 const Header = props => {
-  const {
-    siteTitle,
-    mainMenu,
-    mainMenuItems,
-    menuMoreText,
-    defaultTheme,
-  } = props
+  const { siteTitle, mainMenu, subMenu, menuMoreText, defaultTheme } = props
   const defaultThemeState =
     (typeof window !== 'undefined' && window.localStorage.getItem('theme')) ||
     null
@@ -46,15 +40,15 @@ const Header = props => {
         <div className={style.name}>
           <Link to="/">{siteTitle}</Link>
         </div>
+        <Menu
+          mainMenu={mainMenu}
+          subMenu={subMenu}
+          isSubMenuVisible={isSubMenuVisible}
+          menuMoreText={menuMoreText}
+          onToggleSubMenu={onToggleSubMenu}
+          onChangeTheme={onChangeTheme}
+        />
       </header>
-      <Menu
-        mainMenu={mainMenu}
-        mainMenuItems={mainMenuItems}
-        isSubMenuVisible={isSubMenuVisible}
-        menuMoreText={menuMoreText}
-        onToggleSubMenu={onToggleSubMenu}
-        onChangeTheme={onChangeTheme}
-      />
     </>
   )
 }
@@ -68,7 +62,12 @@ Header.propTypes = {
       path: PropTypes.string,
     })
   ),
-  mainMenuItems: PropTypes.number,
+  subMenu: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string,
+      path: PropTypes.string,
+    })
+  ),
   menuMoreText: PropTypes.string,
 }
 

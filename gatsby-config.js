@@ -36,63 +36,41 @@ module.exports = {
     copyrights: '&copy; 2004&mdash;2019 Michael Rose.',
     defaultTheme: 'light',
     postsPerPage: 10,
-    showMenuItems: 2,
+    menuMoreText: 'Menu',
     mainMenu: [
       {
         title: 'About',
         path: '/about/',
       },
+    ],
+    subMenu: [
       {
         title: 'Articles',
         path: '/articles/',
-      },
-      {
-        title: 'Contact',
-        path: '/contact/',
-      },
-      {
-        title: 'FAQs',
-        path: '/faqs/',
-      },
-      {
-        title: 'Mastering Paper',
-        path: '/mastering-paper/',
       },
       {
         title: 'Notes',
         path: '/notes/',
       },
       {
-        title: 'Sitemap',
-        path: '/sitemap/',
+        title: 'Mastering Paper',
+        path: '/mastering-paper/',
       },
       {
-        title: 'Support',
-        path: '/support/',
-      },
-      {
-        title: 'All Tags',
-        path: '/tag/',
-      },
-      {
-        title: 'Terms',
-        path: '/terms/',
-      },
-      {
-        title: 'Work',
+        title: 'Works',
         path: '/work/',
       },
       {
-        title: 'PaperFaces',
-        path: '/paperfaces/',
+        title: 'Support me',
+        path: '/support/',
       },
       {
-        title: 'Procreate Paintings',
-        path: '/procreate-paintings/',
+        title: 'About',
+        path: '/contact/',
       },
       {
-        title: 'Tiny Paintings',
-        path: '/tiny-paintings/',
+        title: 'Contact',
+        path: '/contact/',
       },
     ],
     footerMenu: [

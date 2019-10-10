@@ -1,5 +1,5 @@
 .header {
-  position: relative;
+  /* position: relative; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -8,9 +8,9 @@
   font-family: var(--monospace-font);
   z-index: 150;
 
-  @media (--medium-up) {
+  /* @media (--medium-up) {
     position: absolute;
-  }
+  } */
 
   @media (--large-up) {
     margin-left: 10%;
