@@ -1,21 +1,16 @@
 .header {
-  /* position: relative; */
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 90%;
-  margin: 1em 5%;
+  padding: 1em 5%;
   font-family: var(--monospace-font);
   z-index: 150;
 
-  /* @media (--medium-up) {
+  @media (--medium-up) {
     position: absolute;
-  } */
+    width: 100%;
+  }
 
-  @media (--large-up) {
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
+  @media (--extra-large-up) {
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
 
