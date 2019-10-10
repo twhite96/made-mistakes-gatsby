@@ -9,6 +9,7 @@
     grid-template-columns: 2% 3% 25% 10% 10% 10% 10% 25% 3% 2%;
     grid-template-rows: 80px auto auto;
     align-items: end;
+    margin: 0;
   }
 
   @media (--extra-large-up) {
@@ -110,6 +111,8 @@
     grid-column: 5 / 11;
     grid-row: 1 / 4;
     margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
     object-fit: cover;
     object-position: center center;
     width: 100%;
