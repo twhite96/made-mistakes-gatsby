@@ -3,6 +3,10 @@
   font-family: var(--monospace-font);
   z-index: 150;
 
+  :global .menu-open :local & {
+    position: static;
+  }
+
   @media (--medium-up) {
     position: absolute;
     width: 100%;

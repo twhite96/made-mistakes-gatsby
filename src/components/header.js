@@ -29,11 +29,11 @@ const Header = props => {
     <>
       <Helmet>
         <body
-          className={
+          className={`${
             (userTheme || defaultTheme) === 'light'
               ? 'light-theme'
               : 'dark-theme'
-          }
+          } ${isSubMenuVisible ? 'menu-open' : 'menu-closed'}`}
         />
       </Helmet>
       <header className={style.header}>
