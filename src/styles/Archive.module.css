@@ -86,7 +86,7 @@
   }
 
   @media (--large-up) {
-    grid-column: 3 / 9;
+    grid-column: 3 / 8;
   }
 }
 
