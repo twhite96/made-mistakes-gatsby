@@ -123,6 +123,27 @@
   }
 }
 
+.toc {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-family: var(--monospace-font);
+  font-size: var(--f6);
+
+  @media (--medium-up) {
+    position: sticky;
+    top: 2em;
+    grid-column: 3 / 4;
+    grid-row: 4 / span 1;
+    align-self: flex-start;
+    margin: 2em 2em 2em 0;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+}
+
 .content {
   @media (--medium-up) {
     grid-column: 4 / 9;

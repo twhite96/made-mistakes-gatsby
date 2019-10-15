@@ -22,11 +22,13 @@ const PostTemplate = ({ data, pageContext }) => {
       image,
       excerpt,
       tags,
+      toc,
       comments: commentsEnabled,
       comments_locked: commentsLocked,
     },
     excerpt: autoExcerpt,
     timeToRead,
+    tableOfContents,
     id,
     html,
   } = data.markdownRemark
@@ -56,6 +58,8 @@ const PostTemplate = ({ data, pageContext }) => {
         path={path}
         author={site.author}
         timeToRead={timeToRead}
+        toc={toc}
+        tableOfContents={tableOfContents}
         image={image}
         html={html}
         tags={tags}
@@ -123,6 +127,7 @@ export const pageQuery = graphql`
             }
           }
         }
+        toc
         comments
         comments_locked
       }
@@ -130,6 +135,7 @@ export const pageQuery = graphql`
       html
       excerpt
       timeToRead
+      tableOfContents(pathToSlugField: "frontmatter.path", maxDepth: 3)
     }
     ...commentsQueryFragment
   }

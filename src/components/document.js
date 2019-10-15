@@ -8,7 +8,17 @@ import style from '../styles/Document.module.css'
 
 const _ = require('lodash-addons')
 
-const Document = ({ title, date, image, author, timeToRead, tags, html }) => {
+const Document = ({
+  title,
+  date,
+  image,
+  author,
+  timeToRead,
+  toc,
+  tableOfContents,
+  tags,
+  html,
+}) => {
   return (
     <article className={`${style.document} h-entry`}>
       <div className={style.title}>
@@ -18,7 +28,7 @@ const Document = ({ title, date, image, author, timeToRead, tags, html }) => {
       </div>
       <div className={style.meta}>
         {author && (
-          <span style={{ display: 'none' }}>
+          <span>
             Published by{' '}
             <a className="p-author h-card" href={author.url}>
               {author.name}
@@ -55,6 +65,13 @@ const Document = ({ title, date, image, author, timeToRead, tags, html }) => {
         <Img fluid={image.childImageSharp.fluid} className={style.cover} />
       )}
 
+      {toc && (
+        <div
+          className={`${style.toc}`}
+          dangerouslySetInnerHTML={{ __html: tableOfContents }}
+        />
+      )}
+
       <div
         className={`${style.content} e-content`}
         dangerouslySetInnerHTML={{ __html: html }}
@@ -66,10 +83,11 @@ const Document = ({ title, date, image, author, timeToRead, tags, html }) => {
 Document.propTypes = {
   title: PropTypes.string,
   date: PropTypes.string,
-  path: PropTypes.string,
   image: PropTypes.object,
   author: PropTypes.object,
   timeToRead: PropTypes.number,
+  toc: PropTypes.bool,
+  tableOfContents: PropTypes.string,
   html: PropTypes.string,
   tags: PropTypes.array,
 }

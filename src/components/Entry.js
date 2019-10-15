@@ -26,7 +26,7 @@ const Entry = ({
         </h2>
         <div className={style.meta}>
           {author && (
-            <span style={{ display: 'none' }}>
+            <span>
               Published by{' '}
               <a className="p-author h-card" href={author.url}>
                 {author.name}
