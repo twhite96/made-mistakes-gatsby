@@ -21,6 +21,7 @@ module.exports = {
     pingbackUrl: site.pingbackUrl,
     webmentionUrl: site.webmentionUrl,
     micropubUrl: site.micropubUrl,
+    coilUrl: site.coilUrl,
     author: {
       name: site.author.name,
       url: site.author.url,

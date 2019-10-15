@@ -15,6 +15,7 @@ module.exports = {
   pingbackUrl: 'https://webmention.io/mademistakes.com/xmlrpc',
   webmentionUrl: 'https://webmention.io/mademistakes.com/webmention',
   micropubUrl: 'https://mm-micropub-to-github.herokuapp.com/micropub/main',
+  coilUrl: '$coil.xrptipbot.com/AbwB-yidQNanSI2lYyTJJw',
   googleAnalyticsID: '',
   staticmanApi:
     'https://api.staticman.net/v3/entry/github/mmistakes/gatsby-test/master/comments',
