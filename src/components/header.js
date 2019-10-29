@@ -8,12 +8,12 @@ import Menu from './Menu'
 import style from '../styles/Header.module.css'
 
 const Header = props => {
-  const { siteTitle, mainMenu, subMenu, menuMoreText, defaultTheme } = props
+  const { siteTitle, mainMenu, menuMoreText, defaultTheme } = props
   const defaultThemeState =
     (typeof window !== 'undefined' && window.localStorage.getItem('theme')) ||
     null
   const [userTheme, changeTheme] = useState(defaultThemeState)
-  const [isSubMenuVisible, toggleSubMenu] = useState(false)
+  const [isMenuVisible, toggleMenu] = useState(false)
   const onChangeTheme = () => {
     const alternateTheme =
       (userTheme || defaultTheme) === 'light' ? 'dark' : 'light'
@@ -23,7 +23,7 @@ const Header = props => {
     typeof window !== 'undefined' &&
       window.localStorage.setItem('theme', alternateTheme)
   }
-  const onToggleSubMenu = () => toggleSubMenu(!isSubMenuVisible)
+  const onToggleMenu = () => toggleMenu(!isMenuVisible)
 
   return (
     <>
@@ -33,7 +33,7 @@ const Header = props => {
             (userTheme || defaultTheme) === 'light'
               ? 'light-theme'
               : 'dark-theme'
-          } ${isSubMenuVisible ? 'menu-open' : 'menu-closed'}`}
+          } ${isMenuVisible ? 'menu-open' : 'menu-closed'}`}
         />
       </Helmet>
       <header className={style.header}>
@@ -42,10 +42,9 @@ const Header = props => {
         </div>
         <Menu
           mainMenu={mainMenu}
-          subMenu={subMenu}
-          isSubMenuVisible={isSubMenuVisible}
+          isMenuVisible={isMenuVisible}
           menuMoreText={menuMoreText}
-          onToggleSubMenu={onToggleSubMenu}
+          onToggleMenu={onToggleMenu}
           onChangeTheme={onChangeTheme}
         />
       </header>
@@ -57,12 +56,6 @@ Header.propTypes = {
   siteTitle: PropTypes.string,
   defaultTheme: PropTypes.string,
   mainMenu: PropTypes.arrayOf(
-    PropTypes.shape({
-      title: PropTypes.string,
-      path: PropTypes.string,
-    })
-  ),
-  subMenu: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string,
       path: PropTypes.string,
