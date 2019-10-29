@@ -55,14 +55,6 @@ const Menu = ({
       >
         <MainMenu mainMenu={mainMenu} />
       </nav>
-      <button
-        className={style.subMenuTrigger}
-        onClick={onToggleSubMenu}
-        type="button"
-        aria-label="Menu"
-      >
-        {menuMoreText}
-      </button>
       <nav
         itemScope
         itemType="http://schema.org/SiteNavigationElement"
@@ -81,14 +73,24 @@ const Menu = ({
           onKeyDown={onToggleSubMenu}
         />
       </nav>
-      <button
-        className={style.themeToggle}
-        onClick={onChangeTheme}
-        type="button"
-        aria-label="Theme toggle"
-      >
-        <Icon style={{ cursor: 'pointer' }} size={24} d={toggleIcon} />
-      </button>
+      <div className={style.siteControls}>
+        <button
+          className={style.subMenuTrigger}
+          onClick={onToggleSubMenu}
+          type="button"
+          aria-label="Menu"
+        >
+          {menuMoreText}
+        </button>
+        <button
+          className={style.themeToggle}
+          onClick={onChangeTheme}
+          type="button"
+          aria-label="Theme toggle"
+        >
+          <Icon style={{ cursor: 'pointer' }} size={24} d={toggleIcon} />
+        </button>
+      </div>
     </>
   )
 }
