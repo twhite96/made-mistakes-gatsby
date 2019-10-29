@@ -111,7 +111,7 @@ end
 
 > Browser engineers recommend pages contain fewer than ~1,500 DOM nodes. The sweet spot is a tree depth < 32 elements and fewer than 60 children/parent element. A large DOM can increase memory usage, cause longer style calculations, and produce costly layout reflows.
 
-Trimming `<div>` fat where I could helped cut page weight down. Some hefty pages remain (I'm looking at your [PaperFaces gallery]({{ '/paperfaces/' | relative_url }})), but most fall under the 1,500 DOM node threshold. In the future I hope to fix this issue with a [gallery pagination component](https://awesome-lewin-0d1356.netlify.com/grid-example/) when switching to Gatsby.
+Trimming `<div>` fat where I could helped cut page weight down. Some hefty pages remain (I'm looking at your [PaperFaces gallery](/paperfaces/), but most fall under the 1,500 DOM node threshold. In the future I hope to fix this issue with a [gallery pagination component](https://awesome-lewin-0d1356.netlify.com/grid-example/) when switching to Gatsby.
 
 ## Lighthouse audits comparison
 
