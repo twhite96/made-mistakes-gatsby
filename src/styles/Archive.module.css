@@ -1,5 +1,7 @@
 .main {
-  @media (--medium-down) {
+  grid-area: content;
+  margin: 1em;
+  /* @media (--medium-down) {
     margin-left: 5vw;
     margin-right: 5vw;
   }
@@ -13,7 +15,7 @@
 
   @media (--extra-large-up) {
     grid-template-columns: 5% 5% 20% 10% 10% 10% 10% 20% 5% 5%;
-  }
+  } */
 }
 
 .title {
@@ -23,15 +25,15 @@
     justify-content: center;
     align-items: center;
     align-self: end;
-    grid-column: 2 / span 4;
-    grid-row: 2 / 3;
+    /* grid-column: 2 / span 4;
+    grid-row: 2 / 3; */
     margin-top: 0;
     z-index: 10;
   }
 
-  @media (--large-up) {
+  /* @media (--large-up) {
     grid-column: 2 / span 3;
-  }
+  } */
 }
 
 .heading {
@@ -77,7 +79,7 @@
   }
 }
 
-.content {
+/* .content {
   @media (--medium-up) {
     grid-column: 3 / 9;
     grid-row: 4 / span 1;
@@ -88,7 +90,7 @@
   @media (--large-up) {
     grid-column: 3 / 8;
   }
-}
+} */
 
 .columnList {
   --col-gap: 1em;

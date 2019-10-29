@@ -21,6 +21,9 @@ const Document = ({
 }) => {
   return (
     <article className={`${style.document} h-entry`}>
+      {image && (
+        <Img fluid={image.childImageSharp.fluid} className={style.cover} />
+      )}
       <div className={style.title}>
         <h1 className={`${style.heading} p-name`}>
           <span>{title}</span>
@@ -60,10 +63,6 @@ const Document = ({
           </div>
         ) : null}
       </div>
-
-      {image && (
-        <Img fluid={image.childImageSharp.fluid} className={style.cover} />
-      )}
 
       {toc && (
         <div

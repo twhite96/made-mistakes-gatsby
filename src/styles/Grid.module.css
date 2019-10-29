@@ -1,0 +1,19 @@
+.wrapper {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-areas:
+    "header"
+    "content"
+    "comments"
+    "pagination"
+    "footer";
+
+  @media (--medium-up) {
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas:
+      "header content"
+      "------ comments"
+      "------ pagination"
+      "------ footer";
+  }
+}

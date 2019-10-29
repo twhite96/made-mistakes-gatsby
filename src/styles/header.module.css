@@ -1,9 +1,14 @@
 .header {
-  padding: 1em 5%;
+  grid-area: header;
   font-family: var(--monospace-font);
   z-index: 150;
 
-  :global .menu-open :local & {
+  @media (--medium-up) {
+    position: fixed;
+    top: 1em;
+  }
+
+  /* :global .menu-open :local & {
     position: static;
   }
 
@@ -15,7 +20,7 @@
   @media (--extra-large-up) {
     padding-left: 10%;
     padding-right: 10%;
-  }
+  } */
 }
 
 .name {

@@ -6,6 +6,7 @@ import Header from './Header'
 import Footer from './Footer'
 
 import '../styles/Layout.module.css'
+import style from '../styles/Grid.module.css'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -51,7 +52,7 @@ const Layout = ({ children }) => {
   } = data.site.siteMetadata
 
   return (
-    <>
+    <div className={style.wrapper}>
       <Header
         siteTitle={title}
         defaultTheme={defaultTheme}
@@ -68,7 +69,7 @@ const Layout = ({ children }) => {
         feed={feedUrl}
         copyrights={copyrights}
       />
-    </>
+    </div>
   )
 }
 

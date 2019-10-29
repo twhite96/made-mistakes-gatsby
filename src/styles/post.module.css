@@ -1,5 +1,7 @@
 .comments {
-  @media (--medium-down) {
+  grid-area: comments;
+
+  /* @media (--medium-down) {
     margin-left: 5vw;
     margin-right: 5vw;
   }
@@ -14,5 +16,5 @@
   @media (--extra-large-up) {
     margin-left: 10%;
     margin-right: 10%;
-  }
+  } */
 }

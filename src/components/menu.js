@@ -19,30 +19,15 @@ const MainMenu = ({ mainMenu }) => {
   return <ul className={style.primaryMenu}>{items}</ul>
 }
 
-const SubMenu = ({ subMenu }) => {
-  const menu = subMenu.slice(0)
-
-  const items = menu.map((menuItem, index) => (
-    <li key={index} className={style.secondaryMenuItem}>
-      <Link to={menuItem.path} itemProp="url">
-        {menuItem.title}
-      </Link>
-    </li>
-  ))
-
-  return <ul className={style.secondaryMenu}>{items}</ul>
-}
-
 const toggleIcon = `M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
 3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z`
 
 const Menu = ({
   mainMenu,
-  subMenu,
   menuMoreText,
-  isSubMenuVisible,
-  onToggleSubMenu,
+  isMenuVisible,
+  onToggleMenu,
   onChangeTheme,
 }) => {
   return (
@@ -51,32 +36,18 @@ const Menu = ({
         itemScope
         itemType="http://schema.org/SiteNavigationElement"
         aria-label="Primary navigation"
-        className={style.primaryNavigation}
+        className={
+          isMenuVisible
+            ? style.primaryNavigationIsVisible
+            : style.primaryNavigation
+        }
       >
         <MainMenu mainMenu={mainMenu} />
       </nav>
-      <nav
-        itemScope
-        itemType="http://schema.org/SiteNavigationElement"
-        aria-label="Secondary navigation"
-        className={
-          isSubMenuVisible
-            ? style.secondaryNavigationIsVisible
-            : style.secondaryNavigation
-        }
-      >
-        <SubMenu subMenu={subMenu} />
-        <div
-          className={style.subMenuOverlay}
-          tabIndex={-1}
-          onClick={onToggleSubMenu}
-          onKeyDown={onToggleSubMenu}
-        />
-      </nav>
       <div className={style.siteControls}>
         <button
-          className={style.subMenuTrigger}
-          onClick={onToggleSubMenu}
+          className={style.menuToggle}
+          onClick={onToggleMenu}
           type="button"
           aria-label="Menu"
         >
@@ -102,26 +73,10 @@ Menu.propTypes = {
       path: PropTypes.string,
     })
   ),
-  subMenu: PropTypes.arrayOf(
-    PropTypes.shape({
-      title: PropTypes.string,
-      path: PropTypes.string,
-    })
-  ),
   menuMoreText: PropTypes.string,
-  isSubMenuVisible: PropTypes.bool,
-  onToggleSubMenu: PropTypes.func,
+  isMenuVisible: PropTypes.bool,
+  onToggleMenu: PropTypes.func,
   onChangeTheme: PropTypes.func,
-}
-
-SubMenu.propTypes = {
-  subMenu: PropTypes.arrayOf(
-    PropTypes.shape({
-      title: PropTypes.string,
-      path: PropTypes.string,
-    })
-  ),
-  onToggleSubMenu: PropTypes.func,
 }
 
 export default Menu
