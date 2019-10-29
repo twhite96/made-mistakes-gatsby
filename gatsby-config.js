@@ -33,15 +33,39 @@ module.exports = {
     instagramUrl: site.instagramUrl,
     feedUrl: site.feedUrl,
 
-    // Starter config
+    // Site config
     copyrights: '&copy; 2004&mdash;2019 Michael Rose.',
     defaultTheme: 'light',
     postsPerPage: 10,
     menuMoreText: 'Menu',
     mainMenu: [
       {
+        title: 'Articles',
+        path: '/articles/',
+      },
+      {
+        title: 'Notes',
+        path: '/notes/',
+      },
+      {
+        title: 'Mastering Paper',
+        path: '/mastering-paper/',
+      },
+      {
+        title: 'Works',
+        path: '/work/',
+      },
+      {
+        title: 'Support me',
+        path: '/support/',
+      },
+      {
         title: 'About',
-        path: '/about/',
+        path: '/contact/',
+      },
+      {
+        title: 'Contact',
+        path: '/contact/',
       },
     ],
     subMenu: [
