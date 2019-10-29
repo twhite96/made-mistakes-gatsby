@@ -1,31 +1,29 @@
 .pagination {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  grid-area: pagination;
   margin-top: 3em;
-
+/*
   @media (--medium-down) {
     margin-left: 5vw;
     margin-right: 5vw;
-  }
+  } */
 
   @media (--medium-up) {
-    margin-left: 5%;
+    /* margin-left: 5%;
     margin-right: 5%;
-    align-items: end;
+    align-items: end; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  @media (--extra-large-up) {
+  /* @media (--extra-large-up) {
     margin-left: 10%;
     margin-right: 10%;
-  }
+  } */
 }
 
 .button {
   position: relative;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
   background: var(--light-background-secondary);
   font-size: 1rem;
   font-weight: bold;
@@ -33,6 +31,12 @@
   max-width: 40%;
   cursor: pointer;
   appearance: none;
+
+  @media (--medium-up) {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   :global .dark-theme :local & {
     background: var(--dark-background-secondary);
@@ -46,15 +50,6 @@
     display: flex;
     padding: 8px 16px;
     text-decoration: none;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-
-  &Text {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
   }
 }
 

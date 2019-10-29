@@ -51,11 +51,10 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin: 0 -0.5em 1em;
+    margin-bottom: 1em;
 
-    > * {
+    .label + .label {
       padding-left: 0.5em;
-      padding-right: 0.5em;
     }
 
     /* fix reCAPTCHA iframe overflow */
