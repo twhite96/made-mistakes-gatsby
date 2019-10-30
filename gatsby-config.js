@@ -61,7 +61,7 @@ module.exports = {
       },
       {
         title: 'About',
-        path: '/contact/',
+        path: '/about/',
       },
       {
         title: 'Contact',
