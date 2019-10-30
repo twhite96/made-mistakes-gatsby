@@ -14,8 +14,9 @@ const Icon = props => {
         height={size}
         viewBox="0 0 48 48"
         xmlns="http://www.w3.org/2000/svg"
+        className={style.icon}
       >
-        <path d={d} className={style.icon} />
+        <path d={d} />
       </svg>
       {label && <span className={style.label}>{label}</span>}
     </span>
