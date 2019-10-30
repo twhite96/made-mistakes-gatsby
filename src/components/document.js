@@ -28,44 +28,48 @@ const Document = ({
         <h1 className={`${style.heading} p-name`}>
           <span>{title}</span>
         </h1>
-      </div>
-      <div className={style.meta}>
-        {author && (
-          <span>
-            Published by{' '}
-            <a className="p-author h-card" href={author.url}>
-              {author.name}
-            </a>
-          </span>
-        )}
-        {date && (
-          <span className={style.date}>
-            {' '}
-            <time className="dt-published" dateTime={date}>
-              {formatDistance(new Date(date), new Date(), {
-                addSuffix: true,
-              })}
-            </time>
-          </span>
-        )}
-        {timeToRead && (
-          <span className={style.readTime}>
-            {timeToRead}&nbsp;min&nbsp;read
-          </span>
-        )}
-        {tags ? (
-          <div>
-            {tags.map(tag => (
-              <Link to={`/tag/${_.slugify(tag)}/`} key={_.slugify(tag)}>
-                <span>#{tag}</span>
-              </Link>
-            ))}
-          </div>
-        ) : null}
+        <div className={style.meta}>
+          {author && (
+            <span>
+              Published by{' '}
+              <a className="p-author h-card" href={author.url}>
+                {author.name}
+              </a>
+            </span>
+          )}
+          {date && (
+            <span className={style.date}>
+              {' '}
+              <time className="dt-published" dateTime={date}>
+                {formatDistance(new Date(date), new Date(), {
+                  addSuffix: true,
+                })}
+              </time>
+            </span>
+          )}
+          {timeToRead && (
+            <span className={style.readTime}>
+              {timeToRead}&nbsp;min&nbsp;read
+            </span>
+          )}
+          {tags ? (
+            <div className={style.tags}>
+              {tags.map(tag => (
+                <Link
+                  className={style.tag}
+                  to={`/tag/${_.slugify(tag)}/`}
+                  key={_.slugify(tag)}
+                >
+                  <span>#{tag}</span>
+                </Link>
+              ))}
+            </div>
+          ) : null}
+        </div>
       </div>
 
       {toc && (
-        <div
+        <nav
           className={`${style.toc}`}
           dangerouslySetInnerHTML={{ __html: tableOfContents }}
         />

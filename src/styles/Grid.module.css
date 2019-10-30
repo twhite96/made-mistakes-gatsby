@@ -9,7 +9,7 @@
     "footer";
 
   @media (--medium-up) {
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 20vw auto;
     grid-template-areas:
       "header content"
       "------ comments"

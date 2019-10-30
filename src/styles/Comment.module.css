@@ -1,6 +1,5 @@
 .comment {
   display: flex;
-  font-size: var(--f6);
 
   + .comment {
     margin-top: 2em;
@@ -43,6 +42,7 @@
   margin-bottom: 1em;
   padding-bottom: 0.25em;
   font-family: var(--monospace-font);
+  font-size: var(--f6);
   border-bottom: 2px solid;
 
   a {

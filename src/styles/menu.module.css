@@ -33,36 +33,54 @@
 }
 
 .primaryMenu {
+  margin: 2rem 0 0;
+  list-style: none;
+  counter-reset: menu;
+
   @media (--small-down) {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-content: stretch;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2rem;
+    margin-right: 2rem;
     margin-bottom: 0;
     padding: 0;
     list-style: none;
   }
-
-  margin: 0;
-  list-style: none;
 }
 
 .primaryMenuItem {
+  display: flex;
+  font-size: var(--h4);
+  font-family: var(--serif-font);
+  line-height: var(--heading-ratio);
+  transition: all 0.5s;
+
+  &::before {
+    margin-right: 0.5em;
+    counter-increment: menu;
+    content: "0" counter(menu);
+    font-family: var(--monospace-font);
+    font-size: var(--f7);
+    line-height: var(--line-height);
+  }
+
+  a,
+  a:visited {
+    color: var(--light-text-color);
+  }
+
   @media (--small-down) {
-    margin: 0;
+    margin-bottom: 0.5rem;
     font-family: var(--sans-serif-font);
     font-size: var(--h1);
-    font-weight: 700;
-    transition: all 0.5s;
 
     /* line hover effect */
     a,
     a:visited {
       position: relative;
-      display: block;
       color: color-mod(var(--light-background-secondary) shade(20%));
       transition: all 0.25s;
 
@@ -92,26 +110,40 @@
 
 .siteControls {
   position: fixed;
-  top: 1em;
-  right: 1em;
+  top: 1rem;
+  right: 1rem;
+  line-height: 1;
   z-index: 200;
+
+  :global .menu-open :local & {
+    color: var(--light-background-secondary);
+  }
+
+  button + button {
+    margin-left: 1rem;
+  }
+}
+
+
+.menuToggle,
+.themeToggle {
+  padding: 0;
+  color: inherit;
+  font-family: var(--alternate-font);
+  font-size: var(--f5);
+  line-height: 1;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  background: none;
+  appearance: none;
+  box-shadow: none;
 }
 
 .menuToggle {
   @media (--medium-up) {
     display: none;
   }
-}
-
-.themeToggle {
-  background: none;
-  color: inherit;
-  border: none;
-  box-shadow: none;
-  line-height: 0;
-  padding: 0 5px;
-  appearance: none;
-  outline: none;
 }
 
 .subMenuOverlay {
