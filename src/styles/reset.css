@@ -242,6 +242,11 @@ sup {
 ul,
 ol {
   margin-top: 0;
+  padding-left: 0;
+}
+
+li {
+  margin-left: 1em;
 }
 
 /* Embedded content

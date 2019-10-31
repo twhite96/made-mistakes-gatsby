@@ -78,21 +78,7 @@
   font-family: var(--monospace-font);
   font-size: var(--f6);
 
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  li > ul {
-    margin-left: 1rem;
-  }
-
   p {
-    margin: 0;
-  }
-
-  li + li {
     margin: 0;
   }
 }
