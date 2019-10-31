@@ -23,7 +23,7 @@ When building the site locally I store the image artifacts in a temporary folder
 
 By stashing the processed images in a *secret* Netlify cache folder[^cache-folder] and using [Gulp to move files](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/gulp) around, I cut the build time in half. Which is fantastic since I'm now averaging 5--8 minutes for dependencies to install, Jekyll to run, and Netlify to deploy the site.
 
-[^cache-folder]: Netlify has an undocumented `/opt/build/cache/` folder that is cached and persists between builds. :tophat: [Faster static site builds Part 1](https://www.contentful.com/blog/2018/05/17/faster-static-site-builds-part-one-process-only-what-you-need/#caching-for-the-win)
+[^cache-folder]: Netlify has an undocumented `/opt/build/cache/` folder that is cached and persists between builds. [Faster static site builds Part 1](https://www.contentful.com/blog/2018/05/17/faster-static-site-builds-part-one-process-only-what-you-need/#caching-for-the-win)
 
 **Excerpt from my Gulp build task**
 
