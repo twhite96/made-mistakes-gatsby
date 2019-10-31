@@ -8,12 +8,18 @@
 
   @media (--medium-up) {
     position: fixed;
-    top: 1rem;
-    width: 20vw;
+    top: 0;
+    width: 25vw;
     height: 100%;
     padding-left: 1rem;
+    padding-right: 1rem;
+    border-right: 2px dashed var(--light-text-color);
     overflow-y: auto;
     z-index: 150;
+  }
+
+  @media (--large-up) {
+    width: 20vw;
   }
 }
 
@@ -25,6 +31,10 @@
   font-weight: 700;
   line-height: 1;
   text-transform: uppercase;
+
+  @media (--medium-up) {
+    margin-top: 1rem;
+  }
 
   a {
     color: inherit;

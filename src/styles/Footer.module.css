@@ -1,16 +1,9 @@
 .footer {
   grid-area: footer;
-  margin-top: 3em;
-  margin-bottom: 1em;
-  /* margin-left: 5%;
-  margin-right: 5%; */
+  width: calc(100% - 2rem);
+  margin: 3rem auto 1rem auto;
   color: var(--light-muted-text-color);
   font-size: var(--f6);
-
-  /* @media (--large-up) {
-    margin-left: 10%;
-    margin-right: 10%;
-  } */
 
   a {
     color: inherit;

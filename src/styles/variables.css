@@ -37,6 +37,8 @@
   --base-ratio: 1.2;
   --heading-ratio: 1.125;
 
+  --text-width: 35rem;
+
   --f7: calc(var(--f6) / var(--base-ratio)); /* 11.111px */
   --f6: calc(var(--font-size) / var(--base-ratio)); /* 13.333px */
   --f5: var(--font-size); /* 16px */

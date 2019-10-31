@@ -81,7 +81,7 @@
 
 .content {
   width: calc(100% - 2rem);
-  max-width: 35rem;
+  max-width: var(--text-width);
   margin-left: auto;
   margin-right: auto;
 }
