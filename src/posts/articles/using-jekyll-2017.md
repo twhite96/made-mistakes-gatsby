@@ -203,7 +203,7 @@ The other missing piece was generating the necessary markup for responsive image
 This bit of Liquid takes the filename as defined by `page.image.feature`, splits it at the extension, appends suffixes that match those used in the gulp-responsive task, and adds them to the `srcset` attribute. :boom: resolution switching images!
 
 [[notice | Liquid Limitations]]
-| This Gulp + Liquid hybrid isn't as nice as a plugin since there is no logic to actually verify if `-lq`, `-320`, `-768`, or `-1024` versions of the images exist. I'm willing to overlook that since it did shave 16 minutes off my build time :wink:.
+| This Gulp + Liquid hybrid isn't as nice as a plugin since there is no logic to actually verify if `-lq`, `-320`, `-768`, or `-1024` versions of the images exist. I'm willing to overlook that since it did shave 16 minutes off my build time.
 
 ### Simplify layouts
 

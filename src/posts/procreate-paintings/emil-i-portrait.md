@@ -23,7 +23,7 @@ There's some serious lag which I can give it a pass on since this thing came out
 
 On the positive side, the tip is made of a hard plastic. Unlike styli that have the fat rubber nibs --- it doesn't appear it will ever wear out. Plus it doesn't smear grease all over the screen which is a big win in my book.
 
-After getting a taste at what pressure sensitive drawing with Procreate could be like, I just want to own the real thing --- an [Apple Pencil and iPad Pro](/articles/ipad-pro/) :smile:.
+After getting a taste at what pressure sensitive drawing with Procreate could be like, I just want to own the real thing --- an [Apple Pencil and iPad Pro](/articles/ipad-pro/).
 
 Time lapse video recorded within Procreate.
 

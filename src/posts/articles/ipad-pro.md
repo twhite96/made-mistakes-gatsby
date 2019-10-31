@@ -16,7 +16,7 @@ Apple entering the stylus market means exciting things for iOS and the hardware 
 
 Does that dream become reality in November? Or do I prolong it for the inevitable iPad Air 3 with Apple Pencil support later? Two questions I've been wrestling with how to answer ever since the *"Hey Siri" Special Event*.
 
-Left to my wife that answer would be a firm *"uhh no, we're not spending $1,000 on a stupid iPad."* My decision tree is slightly more nuanced than hers though :wink:. I've waited years for these products and if the iPad Pro + Apple Pencil perform anything like they've been demoed --- goodbye to my iPad Air 2 and set of styli[^styli].
+Left to my wife that answer would be a firm *"uhh no, we're not spending $1,000 on a stupid iPad."* My decision tree is slightly more nuanced than hers though. I've waited years for these products and if the iPad Pro + Apple Pencil perform anything like they've been demoed --- goodbye to my iPad Air 2 and set of styli[^styli].
 
 [^styli]: [Pencil by FiftyThree](/mastering-paper/pencil-53-review/), [Pogo Connect](/mastering-paper/pogo-connect-smart-pen/) (for the nib alone since the original doesn't play nice with my iPad Air 2), and [generics from Amazon](http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20).
 
@@ -144,7 +144,7 @@ Starting out as a digital illustration virgin I wanted to ease in with something
   <figcaption><p>My early attempts with Procreate weren't all that great. It took me some time to figure out the paint engine as it felt less organic than what I was used to with traditional media.</p></figcaption>
 </figure>
 
-Not looking for more excuses to become an iPad Pro early adopter, the Procreate 3 tease by Savage Interactive didn't help matters much :wink:. Feeling the urge to try something more "professional" I've recently decided to dive deeper into the app. Partially to see what I could do with more capable tools and partially to prepare for what's to come in November...
+Not looking for more excuses to become an iPad Pro early adopter, the Procreate 3 tease by Savage Interactive didn't help matters much. Feeling the urge to try something more "professional" I've recently decided to dive deeper into the app. Partially to see what I could do with more capable tools and partially to prepare for what's to come in November...
 
 ![Procreate 3 features coming this holiday season](../../images/procreate-3-coming-soon.png)
 

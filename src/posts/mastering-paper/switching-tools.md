@@ -35,4 +35,4 @@ And for you iPhone Paper users there are three sets of tools you can swipe throu
 
 ![switching tools in Paper by 53 for the iPhone](../../images/paper-53-switch-tools-iphone.gif)
 
-I know what you're thinking, "wow how could anyone miss this?" Well from the amount of emails I receive a month asking how to change tools... quite a lot :wink:.
+I know what you're thinking, "wow how could anyone miss this?" Well from the amount of emails I receive a month asking how to change tools... quite a lot.

@@ -37,7 +37,6 @@
     "gatsby-remark-copy-linked-files": "^2.1.5",
     "gatsby-remark-custom-blocks": "^2.1.2",
     "gatsby-remark-embed-video": "^1.7.1",
-    "gatsby-remark-emoji": "0.0.3",
     "gatsby-remark-images": "^3.1.11",
     "gatsby-remark-numbered-footnotes": "^1.0.0",
     "gatsby-remark-prismjs": "^3.3.5",

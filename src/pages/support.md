@@ -23,7 +23,7 @@ If you'd like to support me so I can continue to provide free content and themes
 
 ## Buy something
 
-If you shop on [Amazon.com](https://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS), using my referral link below will earn me a small commission if you end up buying something. I also maintain an Amazon Wish List if you are feeling extra generous. :wink:
+If you shop on [Amazon.com](https://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS), using my referral link below will earn me a small commission if you end up buying something. I also maintain an Amazon Wish List if you are feeling extra generous.
 
 <div markdown="0" class="btn--group">
   <a href="https://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS" onclick="ga('send', 'event', 'link', 'click', 'Shop Amazon');" class="btn">

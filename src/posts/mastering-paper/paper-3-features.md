@@ -118,4 +118,4 @@ Mix is no longer something you "pull down" to access from within Paper. The stre
 [[notice | ProTip: see all your shared ideas]]
 | The *shared journal* has been removed from Paper but you can still see all of your public ideas in one place. Tap your avatar in the upper right, and then tap your name to bring up your profile card. From here tap **Ideas** to see everything you've shared.
 
-OK, back to lusting over the new **Apple Pencil** and waiting for the day Apple brings that technology to the smaller and cheaper iPads :wink:.
+OK, back to lusting over the new **Apple Pencil** and waiting for the day Apple brings that technology to the smaller and cheaper iPads.

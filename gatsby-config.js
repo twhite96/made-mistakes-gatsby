@@ -276,7 +276,6 @@ module.exports = {
               },
             },
           },
-          'gatsby-remark-emoji',
           'gatsby-remark-abbr',
           'gatsby-remark-numbered-footnotes',
           'gatsby-remark-responsive-iframe',

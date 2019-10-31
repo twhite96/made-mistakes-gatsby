@@ -102,4 +102,4 @@ Now you may be wondering where `basename` and `extname` came from... simple. Eac
 
 In the end looping through `site.static_files` became an easy way spitting out a folder of files without having to hard code `<img>` elements.  Sure there are a million different ways to do this with Jekyll, but this served a need and was a quick hack.
 
-Curious if others are using **static files** in cool and interesting ways. Feel free to let me know in the comment section below if you are :smile:.
+Curious if others are using **static files** in cool and interesting ways. Feel free to let me know in the comment section below if you are.
