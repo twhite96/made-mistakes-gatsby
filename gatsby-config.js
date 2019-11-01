@@ -267,14 +267,9 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: 'Alegreya',
+            family: 'DM Serif Display',
             subsets: ['latin'],
-            variants: ['700'],
-          },
-          {
-            family: 'Spectral',
-            subsets: ['latin'],
-            variants: ['400', '400i', '700', '700i'],
+            variants: ['400', '400i'],
           },
         ],
       },

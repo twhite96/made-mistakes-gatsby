@@ -38,35 +38,30 @@
   --heading-ratio: 1.125;
 
   --text-width: 35rem;
+  --container-width: 50rem;
 
-  --f7: calc(var(--f6) / var(--base-ratio)); /* 11.111px */
-  --f6: calc(var(--font-size) / var(--base-ratio)); /* 13.333px */
-  --f5: var(--font-size); /* 16px */
-  --f4: calc(var(--font-size) * var(--base-ratio)); /* 19.2px */
-  --f3: calc(var(--f4) * var(--base-ratio)); /* 23.04px */
-  --f2: calc(var(--f3) * var(--base-ratio)); /* 27.648px */
-  --f1: calc(var(--f2) * var(--base-ratio)); /* 33.178px */
+  --text-xs: 0.75rem; /* --f7 */
+  --text-sm: 0.875rem; /* --f6 */
+  --text-base: 1rem; /* --f5 */
+  --text-lg: 1.125rem; /* --f4 */
+  --text-xl: 1.25rem; /* --f3 */
+  --text-2xl: 1.5rem; /* --f2 */
+  --text-3xl: 1.875rem; /* --f1 */
+  --text-4xl: 2.25rem; /* --h0 */
+  --text-5xl: 3rem; /* --h00 */
 
-  --h6: calc(var(--font-size) / var(--heading-ratio)); /* 14.222px */
-  --h5: var(--font-size); /* 16px */
-  --h4: calc(var(--font-size) * var(--heading-ratio)); /* 18px */
-  --h3: calc(var(--h4) * var(--heading-ratio)); /* 20.25px */
-  --h2: calc(var(--h3) * var(--heading-ratio)); /* 22.781px */
-  --h1: calc(var(--h2) * var(--heading-ratio)); /* 25.629px */
-  --h0: calc(var(--h1) * var(--heading-ratio)); /* 28.832625px */
-  --h00: calc(var(--h0) * var(--heading-ratio)); /* 32.4367px */
-  --h000: calc(var(--h00) * var(--heading-ratio)); /* 36.49129px */
-
-  --sans-serif-font: Helvetica, Arial, sans-serif;
-  --serif-font: "Spectral", Georgia, serif;
-  --monospace-font: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
-  --alternate-font: "Alegreya", serif;
+  --sans-serif-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --serif-font: 'DM Serif Display', Georgia, serif;
+  --monospace-font: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
+    monospace;
 
   /* Other */
   --border-radius: 0.125em;
   --global-transition: all 0.4s ease;
   --avatar-size: 30px;
-  }
+}
 
 /* Media queries */
 @custom-media --small-up (min-width: 576px);
