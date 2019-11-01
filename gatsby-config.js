@@ -48,50 +48,12 @@ module.exports = {
         path: '/notes/',
       },
       {
-        title: 'Mastering Paper',
-        path: '/mastering-paper/',
-      },
-      {
         title: 'Works',
         path: '/work/',
-      },
-      {
-        title: 'Support me',
-        path: '/support/',
       },
       {
         title: 'About',
         path: '/about/',
-      },
-      {
-        title: 'Contact',
-        path: '/contact/',
-      },
-    ],
-    subMenu: [
-      {
-        title: 'Articles',
-        path: '/articles/',
-      },
-      {
-        title: 'Notes',
-        path: '/notes/',
-      },
-      {
-        title: 'Mastering Paper',
-        path: '/mastering-paper/',
-      },
-      {
-        title: 'Works',
-        path: '/work/',
-      },
-      {
-        title: 'Support me',
-        path: '/support/',
-      },
-      {
-        title: 'About',
-        path: '/contact/',
       },
       {
         title: 'Contact',
