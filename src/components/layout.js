@@ -24,10 +24,6 @@ const Layout = ({ children }) => {
             title
             path
           }
-          subMenu {
-            title
-            path
-          }
           footerMenu {
             title
             path
@@ -41,7 +37,6 @@ const Layout = ({ children }) => {
     title,
     defaultTheme,
     mainMenu,
-    subMenu,
     footerMenu,
     menuMoreText,
     twitterUrl,
@@ -57,7 +52,6 @@ const Layout = ({ children }) => {
         siteTitle={title}
         defaultTheme={defaultTheme}
         mainMenu={mainMenu}
-        subMenu={subMenu}
         menuMoreText={menuMoreText}
       />
       {children}

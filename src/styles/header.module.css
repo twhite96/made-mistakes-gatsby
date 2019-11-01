@@ -1,39 +1,17 @@
 .header {
-  grid-area: header;
-  font-family: var(--monospace-font);
-
-  @media (--small-down) {
-    margin: 1rem 1rem 0 1rem;
-  }
-
-  @media (--medium-up) {
-    position: fixed;
-    top: 0;
-    width: 25vw;
-    height: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border-right: 2px dashed var(--light-text-color);
-    overflow-y: auto;
-    z-index: 150;
-  }
-
-  @media (--large-up) {
-    width: 20vw;
-  }
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .name {
   display: block;
-  color: #000;
-  font-family: var(--alternate-font);
-  font-size: var(--f5);
-  font-weight: 700;
-  line-height: 1;
-  text-transform: uppercase;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: var(--text-base);
 
-  @media (--medium-up) {
-    margin-top: 1rem;
+  @media (--small-down) {
+    flex: 1;
   }
 
   a {

@@ -4,7 +4,7 @@
 
 .title {
   width: calc(100% - 2rem);
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -15,47 +15,34 @@
 }
 
 .heading {
-  position: relative;
   margin-bottom: 0.5em;
   width: 100%;
-  color: var(--light-background);
-  font-family: var(--alternate-font);
-  font-weight: 700;
-  font-size: var(--h1);
+  font-family: var(--serif-font);
+  font-weight: 400;
+  font-size: var(--text-4xl);
   font-variant-ligatures: common-ligatures;
   font-feature-settings: 'kern' on, 'liga' on, 'clig' on, 'calt' on;
-  line-height: 1.25;
-  z-index: 99;
 
   @media (--medium-up) {
-    font-size: var(--h0);
+    font-size: var(--text-4xl);
   }
 
   @media (--large-up) {
-    font-size: var(--h00);
+    font-size: var(--text-4xl);
   }
 
   @media (--extra-large-up) {
-    font-size: var(--h000);
-  }
-
-  span {
-    padding: 0 0.5em;
-    line-height: 1.5;
-    box-decoration-break: clone;
-    background-color: var(--light-text-color);
+    font-size: var(--text-5xl);
   }
 }
 
 .meta {
   font-family: var(--monospace-font);
-  font-size: var(--f7);
+  font-size: var(--text-xs);
 
-  @media (--medium-up) {
-    &:not(:empty) {
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-    }
+  &:not(:empty) {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -76,7 +63,7 @@
   max-width: var(--text-width);
   margin: 2rem auto;
   font-family: var(--monospace-font);
-  font-size: var(--f6);
+  font-size: var(--text-sm);
 
   p {
     margin: 0;

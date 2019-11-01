@@ -476,7 +476,7 @@ Phew --- this was a long one! I covered a ton of material so if anything is uncl
 
 And if you create something cool with Blend feel free to share in comments below, or [ping me on Twitter](https://twitter.com/mmistakes). I'm always interested to see what the Paper community is doing with FiftyThree's set of tools.
 
-[Buy Pencil by FiftyThree][buy-pencil]{: .btn}
+[Buy Pencil by FiftyThree][buy-pencil]
 
 <small>Post contains affiliate and/or referral links. For more details read my <a href="/terms/#disclosure-policy">disclosure policy</a>.</small>
 

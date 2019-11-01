@@ -222,10 +222,10 @@ Usage:
   margin-left: auto;
   margin-right: auto;
   max-width: var(--text-width);
-  margin-bottom: 3em;
-  padding: 1em 1.5em 1.5em;
+  margin-bottom: 3rem;
+  padding: 1rem 1.5rem 1.5rem;
   border: 2px solid var(--light-text-color);
-  box-shadow: 0.25em 0.25em 0 var(--light-text-color);
+  box-shadow: 0.25rem 0.25rem 0 var(--light-text-color);
 }
 
 * + .custom-block {
@@ -234,11 +234,11 @@ Usage:
 
 .custom-block-heading {
   display: block;
-  margin-bottom: 1.25em;
-  padding-bottom: 0.25em;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.25rem;
   border-bottom: 2px solid var(--light-text-color);
   font-family: var(--monospace-font);
-  font-size: var(--h5);
+  font-size: var(--text-lg);
   font-weight: bold;
 }
 
@@ -250,7 +250,7 @@ Usage:
   }
 
   * + * {
-    margin-bottom: 1em;
+    margin-top: 1rem;
   }
 
   ul {
@@ -258,7 +258,7 @@ Usage:
     padding: 0;
     opacity: 0.85;
     list-style-position: inside;
-    margin: 0.5em 0 0;
+    margin: 0.5rem 0 0;
 
     &:first-child {
       margin-top: 0;
@@ -276,7 +276,7 @@ Usage:
 
       &::before {
         position: absolute;
-        content: "•";
+        content: '•';
         left: -1em;
         height: 100%;
         vertical-align: baseline;
@@ -294,9 +294,15 @@ Usage:
   margin-right: auto;
   max-width: var(--text-width);
   margin-bottom: 3em;
-  font-size: var(--f6);
+  font-size: var(--text-sm);
 
   p {
     display: inline;
   }
+}
+
+.gatsby-resp-iframe-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--container-width);
 }

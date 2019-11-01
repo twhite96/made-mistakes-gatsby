@@ -28,58 +28,53 @@ h6 {
 }
 
 h1 {
-  font-size: var(--h1);
+  font-size: var(--text-3xl);
 }
 
 * + h1 {
-  line-height: 2;
   margin-top: 3em;
   margin-bottom: 1em;
 }
 
 h2 {
-  font-size: var(--h2);
+  font-size: var(--text-2xl);
 }
 
 * + h2 {
-  line-height: 1.5;
   margin-top: 2em;
   margin-bottom: 1em;
 }
 
 h3 {
-  font-size: var(--h3);
+  font-size: var(--text-xl);
 }
 
 * + h3 {
-  line-height: 1.25;
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
 h4 {
-  font-size: var(--h4);
+  font-size: var(--text-lg);
 }
 
 * + h4 {
-  line-height: 1.125;
   margin-top: 1em;
   margin-bottom: 0.75em;
 }
 
 h5 {
-  font-size: var(--h5);
+  font-size: var(--text-base);
 }
 
 * + h5,
 * + h6 {
-  line-height: 1;
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
 
 h6 {
-  font-size: var(--h6);
+  font-size: var(--text-sm);
 }
 
 blockquote {
@@ -97,7 +92,7 @@ q {
 blockquote cite,
 q cite {
   font-family: var(--sans-serif-font);
-  font-size: var(--f6);
+  font-size: var(--text-sm);
   font-style: normal;
   font-weight: 700;
 }
@@ -181,7 +176,7 @@ pre {
   background: var(--light-background-secondary);
   border-radius: var(--border-radius);
   white-space: normal;
-  font-size: var(--f6);
+  font-size: var(--text-sm);
 }
 
 kbd {
@@ -278,7 +273,7 @@ main article {
 table {
   border-collapse: collapse;
   width: 100%;
-  font-size: var(--f6);
+  font-size: var(--text-sm);
   /* For Firefox to horizontally scroll wider tables */
   word-break: normal;
   word-break: keep-all;

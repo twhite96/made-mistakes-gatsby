@@ -1,22 +1,5 @@
 .wrapper {
-  display: grid;
-  grid-template-areas:
-    "header"
-    "content"
-    "comments"
-    "pagination"
-    "footer";
-
-  @media (--medium-up) {
-    grid-template-columns: 25vw auto;
-    grid-template-areas:
-      "header content"
-      "------ comments"
-      "------ pagination"
-      "------ footer";
-  }
-
-  @media (--large-up) {
-    grid-template-columns: 20vw auto;
-  }
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }

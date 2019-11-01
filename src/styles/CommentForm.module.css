@@ -1,5 +1,5 @@
 .title {
-  font-size: var(--h2);
+  font-size: var(--text-3xl);
 
   &::before {
     margin-top: 3em;
@@ -22,7 +22,7 @@
   margin-top: 0;
   margin-bottom: 0.5em;
   font-family: var(--monospace-font);
-  font-size: var(--f6);
+  font-size: var(--text-sm);
 }
 
 .input,
@@ -35,7 +35,7 @@
   vertical-align: top;
   overflow: visible;
   font-family: var(--sans-serif-font);
-  font-size: var(--f5);
+  font-size: var(--text-base);
   background: var(--light-input-background);
   border: 1px solid var(--light-input-background);
   border-radius: 0.25em;
@@ -73,7 +73,7 @@
   cursor: pointer;
   display: inline-block;
   font-family: var(--monospace-font);
-  font-size: var(--f6);
+  font-size: var(--text-sm);
   font-weight: bold;
   padding: 0.5em 1em;
   text-align: center;

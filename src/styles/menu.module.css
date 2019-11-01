@@ -1,136 +1,70 @@
 .primaryNavigation {
+  display: none;
+
   @media (--small-down) {
-    display: flex;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #000;
-    color: #fff;
-    z-index: 100;
-    transition: all 0.4s cubic-bezier(0, 0, 0.2, 1);
-    transform: translatex(101vw);
-    -webkit-overflow-scrolling: touch; /* fix momentum scrolling for iOS */
+    width: 100%;
+    order: 100;
+  }
+
+  @media (--medium-up) {
+    display: block;
+    margin-left: 1rem;
   }
 }
 
 .primaryNavigationIsVisible {
+  display: block;
+
   @media (--small-down) {
-    display: flex;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #000;
-    color: #fff;
-    z-index: 100;
-    transition: all 0.4s cubic-bezier(0, 0, 0.2, 1);
-    transform: translateX(0);
-    -webkit-overflow-scrolling: touch; /* fix momentum scrolling for iOS */
+    width: 100%;
+    order: 100;
   }
 }
 
 .primaryMenu {
-  margin: 1rem 0 0;
+  margin: 0;
+  padding: 0;
   list-style: none;
   counter-reset: menu;
 
-  @media (--small-down) {
+  @media (--medium-up) {
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: stretch;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-bottom: 0;
-    padding: 0;
-    list-style: none;
   }
 }
 
 .primaryMenuItem {
   display: flex;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  font-family: var(--monospace-font);
-  font-size: var(--f6);
-  border: 2px solid var(--light-text-color);
-  transition: all 0.5s;
+  margin: 0;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 
   &::before {
-    margin-right: 0.5em;
-    padding-right: 0.5em;
     counter-increment: menu;
     content: "0" counter(menu);
-    border-right: 2px solid var(--light-text-color);
   }
 
   a {
     display: block;
-    width: 100%;
+    position: relative;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
   }
 
   a,
   a:visited {
     color: var(--light-text-color);
   }
-
-  @media (--small-down) {
-    margin-bottom: 0.5rem;
-    font-size: var(--h1);
-    border-color: var(--light-background-secondary);
-
-    &::before {
-      border-color: var(--light-background-secondary);
-    }
-
-    a,
-    a:visited {
-      color: var(--light-background-secondary);
-    }
-
-    /* line hover effect */
-    /* a,
-    a:visited {
-      position: relative;
-      color: color-mod(var(--light-background-secondary) shade(20%));
-      transition: all 0.25s;
-
-      &::before {
-        background-color: #fff;
-        content: "";
-        display: block;
-        height: 1px;
-        left: -3rem;
-        position: absolute;
-        top: 50%;
-      }
-
-      &:hover {
-        color: #fff;
-        text-decoration: none;
-      }
-
-      &:hover::before {
-        width: 2.5rem;
-      }
-    } */
-  }
 }
 
 .siteControls {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  line-height: 1;
-  z-index: 200;
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
 
-  :global .menu-open :local & {
+  /* :global .menu-open :local & {
     color: var(--light-background-secondary);
-  }
+  } */
 
   button + button {
     margin-left: 1rem;
@@ -140,11 +74,11 @@
 
 .menuToggle,
 .themeToggle {
-  padding: 0;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   color: inherit;
-  font-family: var(--alternate-font);
-  font-size: var(--f5);
-  line-height: 1;
+  font-size: var(--text-base);
+  line-height: var(--line-height);
   text-transform: uppercase;
   border: none;
   outline: none;
@@ -156,21 +90,5 @@
 .menuToggle {
   @media (--medium-up) {
     display: none;
-  }
-}
-
-.subMenuOverlay {
-  position: fixed;
-  display: block;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-
-  &:focus {
-    outline: none;
   }
 }

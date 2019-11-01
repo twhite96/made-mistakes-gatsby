@@ -8,6 +8,7 @@ https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+cli
 
 pre[class*='language-'] {
   width: 100%;
+  max-width: var(--container-width);
   color: #a9a9b3;
   background: none;
   font-family: var(--monospace-font);

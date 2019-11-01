@@ -59,11 +59,7 @@ const Menu = ({
           type="button"
           aria-label="Theme toggle"
         >
-          <Icon
-            style={{ cursor: 'pointer' }}
-            size={24}
-            d={toggleIcon}
-          />
+          <Icon style={{ cursor: 'pointer' }} size={24} d={toggleIcon} />
         </button>
       </div>
     </>

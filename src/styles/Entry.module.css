@@ -9,7 +9,7 @@
   line-height: 1.25;
 
   @media (--medium-up) {
-    font-size: var(--h2);
+    font-size: var(--text-3xl);
   }
 
   a::before {
@@ -26,7 +26,7 @@
 .meta {
   margin-bottom: 0.75em;
   font-family: var(--monospace-font);
-  font-size: var(--f7);
+  font-size: var(--text-xs);
   text-transform: uppercase;
 
   a {
