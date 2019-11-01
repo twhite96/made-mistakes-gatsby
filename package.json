@@ -24,6 +24,7 @@
     "gatsby-awesome-pagination": "^0.3.4",
     "gatsby-image": "^2.2.8",
     "gatsby-plugin-catch-links": "^2.1.9",
+    "gatsby-plugin-css-customs": "^0.3.0",
     "gatsby-plugin-feed": "^2.3.13",
     "gatsby-plugin-manifest": "^2.2.5",
     "gatsby-plugin-offline": "^2.2.6",
@@ -80,7 +81,6 @@
     "rambdax": "^2.13.0"
   },
   "browserslist": [
-    "last 2 versions",
-    "> 5%"
+    "last 2 versions"
   ]
 }

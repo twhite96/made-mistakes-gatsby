@@ -1,5 +1,6 @@
 /* eslint-disable prefer-object-spread */
 const postcssPresetEnv = require('postcss-preset-env')
+const postcssCustomProperties = require('postcss-custom-properties')
 const postcssNested = require('postcss-nested')
 const postcssUrl = require('postcss-url')
 const postcssImports = require('postcss-import')
@@ -170,11 +171,13 @@ module.exports = {
           postcssMixins(),
           postcssNested(),
           postcssPresetEnv({
-            importFrom: 'src/styles/variables.css',
+            importFrom: 'src/styles/variables.modules.css',
             stage: 1,
-            preserve: false,
             features: {
-              'color-mod-function': { unresolved: 'warn' },
+              'custom-properties': true,
+              'custom-media-queries': true,
+              'color-mod-function': true,
+              'nesting-rules': true,
             },
           }),
           cssnano({
@@ -183,6 +186,7 @@ module.exports = {
         ],
       },
     },
+    'gatsby-plugin-css-customs',
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-plugin-sharp',
