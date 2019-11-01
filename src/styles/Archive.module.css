@@ -42,7 +42,7 @@
   margin-bottom: 0.5em;
   align-self: flex-start;
   width: 100%;
-  color: var(--light-background);
+  color: var(--background-color);
   font-family: var(--serif-font);
   font-weight: 400;
   font-size: var(--text-3xl);
@@ -64,14 +64,14 @@
     padding: 0 0.5em;
     line-height: 1.5;
     box-decoration-break: clone;
-    background-color: var(--light-text-color);
+    background-color: var(--text-color);
   }
 }
 
 .subHeading {
   margin-bottom: 0.25em;
   padding-bottom: 0.25em;
-  border-bottom: 2px solid var(--light-text-color);
+  border-bottom: 2px solid var(--text-color);
   font-size: var(--text-2xl);
 
   @media (--extra-large-up) {
@@ -130,7 +130,7 @@
     }
 
     a {
-      border-bottom: 1px solid var(--light-border-color);
+      border-bottom: 1px solid var(--border-color);
       color: inherit;
       display: flex;
       justify-content: space-between;
@@ -139,7 +139,7 @@
     }
 
     .count {
-      color: color-mod(var(--light-text-color) tint(25%));
+      color: color-mod(var(--text-color) tint(25%));
     }
   }
 }

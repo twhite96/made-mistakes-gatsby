@@ -53,7 +53,7 @@
 
   a,
   a:visited {
-    color: var(--light-text-color);
+    color: var(--text-color);
   }
 }
 
@@ -63,7 +63,7 @@
   flex: 1;
 
   /* :global .menu-open :local & {
-    color: var(--light-background-secondary);
+    color: var(--background-color-secondary);
   } */
 
   button + button {

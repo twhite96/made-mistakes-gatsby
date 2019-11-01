@@ -1,23 +1,12 @@
 :root {
-  /* Light theme colors */
-  --light-background: #fff;
-  --light-background-secondary: color-mod(var(--light-color) tint(95%));
-  --light-color: #393e46;
-  --light-color-secondary: #00638a;
-  --light-text-color: #111;
-  --light-muted-text-color: color-mod(var(--light-text-color) tint(40%));
-  --light-border-color: color-mod(var(--light-color) tint(80%));
-  --light-input-background: #f2f2f2;
-
-  /* Dark theme colors */
-  --dark-background: #292a2d;
-  --dark-background-secondary: #3b3d42;
-  --dark-color: #a9a9b3;
-  --dark-color-secondary: #73747b;
-  --dark-text-color: #a9a9b3;
-  --dark-muted-text-color: color-mod(var(--dark-text-color) tint(40%));
-  --dark-border-color: #4a4b50;
-  --dark-input-background: #f2f2f2;
+  --background-color: #fff;
+  --background-secondary-color: color-mod(var(--primary-color) tint(95%));
+  --primary-color: #393e46;
+  --secondary-color: #00638a;
+  --text-color: #111;
+  --muted-text-color: color-mod(var(--text-color) tint(40%));
+  --border-color: color-mod(var(--primary-color) tint(80%));
+  --input-background-color: #f2f2f2;
 
   /* Brand colors */
   --facebook-color: #3b5998;
