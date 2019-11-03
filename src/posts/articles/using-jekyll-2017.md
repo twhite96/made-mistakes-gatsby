@@ -12,7 +12,7 @@ toc: true
 last_modified_at: 2019-02-13T14:42:25-05:00
 ---
 
-Not going to lie --- I :heart: [Jekyll](/tag/jekyll/), but huge static sites like mine take forever to build. What used to take seconds now go on for over 30 minutes, as thousands of files are generated and optimized.
+Not going to lie --- I love [Jekyll](/tag/jekyll/), but huge static sites like mine take forever to build. What used to take seconds now go on for over 30 minutes, as thousands of files are generated and optimized.
 
 Inspired by Anne Tomasevich's post, [**Optimizing Jekyll Performance with Gulp**](http://savaslabs.com/2016/10/19/optimizing-jekyll-with-gulp.html) --- I begun digging into my build process to identify performance bottlenecks.
 
@@ -200,7 +200,7 @@ The other missing piece was generating the necessary markup for responsive image
 {% endif %}
 ```
 
-This bit of Liquid takes the filename as defined by `page.image.feature`, splits it at the extension, appends suffixes that match those used in the gulp-responsive task, and adds them to the `srcset` attribute. :boom: resolution switching images!
+This bit of Liquid takes the filename as defined by `page.image.feature`, splits it at the extension, appends suffixes that match those used in the gulp-responsive task, and adds them to the `srcset` attribute. Boom, resolution switching images!
 
 [[notice | Liquid Limitations]]
 | This Gulp + Liquid hybrid isn't as nice as a plugin since there is no logic to actually verify if `-lq`, `-320`, `-768`, or `-1024` versions of the images exist. I'm willing to overlook that since it did shave 16 minutes off my build time.
@@ -578,7 +578,7 @@ On my **Mastering Paper** category page about the iPad app [Paper by FiftyThree]
 
 ---
 
-Well there you have it, the complete tale of how I took something inherently simple and overly complicated it to suit my needs :stuck_out_tongue_winking_eye:. If you have any questions after looking over the source ask away in the comments below.
+Well there you have it, the complete tale of how I took something inherently simple and overly complicated it to suit my needs. If you have any questions after looking over the source ask away in the comments below.
 
 [jekyll-picture-tag]: https://github.com/robwierzbowski/jekyll-picture-tag
 [sort_name]: https://github.com/mmistakes/made-mistakes-jekyll/blob/master/src/_plugins/sort_name.rb
