@@ -29,15 +29,15 @@
   --text-width: 35rem;
   --container-width: 50rem;
 
-  --text-xs: 0.75rem; /* --f7 */
-  --text-sm: 0.875rem; /* --f6 */
+  --text-xs: 0.75em; /* --f7 */
+  --text-sm: 0.875em; /* --f6 */
   --text-base: 1rem; /* --f5 */
-  --text-lg: 1.125rem; /* --f4 */
-  --text-xl: 1.25rem; /* --f3 */
-  --text-2xl: 1.5rem; /* --f2 */
-  --text-3xl: 1.875rem; /* --f1 */
-  --text-4xl: 2.25rem; /* --h0 */
-  --text-5xl: 3rem; /* --h00 */
+  --text-lg: 1.125em; /* --f4 */
+  --text-xl: 1.25em; /* --f3 */
+  --text-2xl: 1.5em; /* --f2 */
+  --text-3xl: 1.875em; /* --f1 */
+  --text-4xl: 2.25em; /* --h0 */
+  --text-5xl: 3em; /* --h00 */
 
   --sans-serif-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
