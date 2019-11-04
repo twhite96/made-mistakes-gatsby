@@ -74,8 +74,8 @@
 
 .menuToggle,
 .themeToggle {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  display: inline-block;
+  padding: 0.75rem 0.5rem;
   color: inherit;
   font-size: var(--text-base);
   line-height: var(--line-height);
