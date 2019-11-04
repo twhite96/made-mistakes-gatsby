@@ -88,7 +88,7 @@ During development CSS or JavaScript changes would ideally be pushed instantly t
 *[SCSS]: Sassy CSS
 
 | Task description | Jekyll Assets | Gulp |
-| --- | ---: | ---: |
+| ---------------- | ------------- | ---- |
 | CSS and JavaScript asset pipeline | 25.031s | 1.577s |
 
 Here's a small taste of the [Gulp file](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/gulp/tasks/assets.js) I'm using for the site's styles if you're curious:
@@ -182,7 +182,7 @@ This helped some, but it wasn't until I [dropped GraphicsMagick](https://github.
 I shaved 18 minutes off my build time using this high speed [Node.js](https://nodejs.org/en/) module!
 
 | Task description | Graphics Magick | Sharp |
-| --- | ---: | ---: |
+| ---------------- | --------------- | ----- |
 | Resize and optimize 1,014 source images into 5 target sizes | 1288.29s | 171.00s |
 
 The other missing piece was generating the necessary markup for responsive images[^rwd-images]. Because I was no longer using the `{% picture %}` tag to output a fully formed [`<picture>` element](https://cloudfour.com/thinks/dont-use-picture-most-of-the-time/), I had to roll my own responsive image markup. 
@@ -248,9 +248,9 @@ gulp.task('html', () => {
 
 In my tests, replacing [`_layouts/compress.html`](http://jch.penibelst.de/) with Gulp tasks to minify and gzip every HTML file ended up being slightly slower.
 
-| Task description | compress layout | gulp-html and gulp-gzip |
-| --- | | ---: | ---: | ---: |
-| Minify HTML files | 39.348s | 47.00s |
+| Task description  | compress layout | gulp-html and gulp-gzip |
+| ----------------- | --------------- | ----------------------- |
+| Minify HTML files | 39.348s         | 47.00s                  |
 
 I'm willing to live with the extra 8 seconds of build time as it helps avoid potential site breakages due to badly minified scripts...
 
