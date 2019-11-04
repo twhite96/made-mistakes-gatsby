@@ -63,7 +63,7 @@
   flex: 1;
 
   /* :global .menu-open :local & {
-    color: var(--background-color-secondary);
+    color: var(--background-secondary-color);
   } */
 
   button + button {

@@ -24,7 +24,7 @@
 
 .button {
   position: relative;
-  background: var(--background-color-secondary);
+  background: var(--background-secondary-color);
   font-size: 1rem;
   font-weight: bold;
   border-radius: 8px;

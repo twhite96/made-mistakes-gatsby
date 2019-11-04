@@ -11,7 +11,7 @@
   margin-right: 10px;
   width: var(--avatar-size);
   height: var(--avatar-size);
-  background-color: var(--background-color-secondary);
+  background-color: var(--background-secondary-color);
 
   @media (--medium-up) {
     margin-right: 20px;

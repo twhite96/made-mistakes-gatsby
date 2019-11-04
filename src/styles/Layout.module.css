@@ -174,7 +174,7 @@ pre {
 :not(pre) > code {
   padding: 0.125em 0.25em;
   color: inherit;
-  background: var(--background-color-secondary);
+  background: var(--background-secondary-color);
   border-radius: var(--border-radius);
   white-space: normal;
 }
