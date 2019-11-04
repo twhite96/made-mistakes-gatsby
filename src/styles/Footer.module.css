@@ -1,9 +1,12 @@
 .footer {
-  grid-area: footer;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   width: calc(100% - 2rem);
+  max-width: var(--container-width);
   margin: 3rem auto 1rem auto;
   color: var(--muted-text-color);
-  font-size: var(--text-sm);
+  font-size: var(--text-xs);
 
   a {
     color: inherit;
@@ -19,13 +22,16 @@
 }
 
 .menu {
-  display: flex;
-  flex-flow: row wrap;
   margin: 0;
   padding: 0;
   list-style: none;
   font-family: var(--sans-serif-font);
   font-weight: 400;
+
+  @media (--medium-up) {
+    display: flex;
+    flex-flow: row wrap;
+  }
 
   li {
     flex-basis: 50%;
@@ -46,11 +52,12 @@
     a {
       display: block;
       margin-bottom: 0;
+      padding: 0.25em 0;
       color: inherit;
       white-space: nowrap;
 
       @media (--medium-down) {
-        padding: 0.5em 0.5em 0.5em 0;
+        padding: 0.75em 0;
       }
 
       &:hover {
@@ -62,6 +69,7 @@
 
 .copyright {
   margin-top: 0.25em;
+  width: 100%;
   font-family: var(--monospace-font);
   font-size: var(--text-sm);
 

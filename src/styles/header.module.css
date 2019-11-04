@@ -2,13 +2,17 @@
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
+  width: calc(100% - 2rem);
+  max-width: var(--container-width);
+  margin-left: auto;
+  margin-right: auto;
+  font-size: var(--text-sm);
 }
 
 .name {
   display: block;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  font-size: var(--text-base);
 
   @media (--small-down) {
     flex: 1;

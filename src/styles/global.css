@@ -237,9 +237,9 @@ Usage:
   margin-bottom: 1.25rem;
   padding-bottom: 0.25rem;
   border-bottom: 2px solid var(--text-color);
-  font-family: var(--monospace-font);
+  font-family: var(--serif-font);
   font-size: var(--text-lg);
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .custom-block-body {

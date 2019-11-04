@@ -43,6 +43,8 @@
 }
 
 .excerpt {
+  font-size: var(--text-sm);
+
   a {
     position: relative;
     z-index: 5;
