@@ -70,6 +70,12 @@
   }
 }
 
+.cover {
+  max-width: var(--container-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .content {
   width: calc(100% - 2rem);
   margin-left: auto;
