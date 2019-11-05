@@ -29,6 +29,10 @@
 
   @media (--medium-up) {
     display: flex;
+
+    li + li {
+      margin-left: 1rem;
+    }
   }
 }
 
@@ -41,6 +45,7 @@
   &::before {
     counter-increment: menu;
     content: "0" counter(menu);
+    font-family: var(--monospace-font);
   }
 
   a {

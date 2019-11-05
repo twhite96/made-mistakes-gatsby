@@ -149,7 +149,7 @@ input,
 textarea,
 select {
   &:focus:not([tabindex="-1"]) {
-    border: 1px solid var(--secondary-color);
+    box-shadow: 0 0 0 0.2rem var(--secondary-color);
     outline: 0;
     outline-offset: 0;
   }
@@ -217,8 +217,8 @@ figure {
 }
 
 figcaption {
-  font-size: 80%;
-  margin: 0.5em 0;
+  font-size: var(--text-sm);
+  margin: 0.75em 0;
 }
 
 img {
