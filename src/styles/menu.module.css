@@ -44,14 +44,14 @@
 
   &::before {
     counter-increment: menu;
-    content: "0" counter(menu);
+    content: "0" counter(menu) ".";
     font-family: var(--monospace-font);
   }
 
   a {
     display: block;
     position: relative;
-    margin-left: 0.5rem;
+    margin-left: 0.125rem;
     margin-right: 0.5rem;
     text-decoration: none;
   }

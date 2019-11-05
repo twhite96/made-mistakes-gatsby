@@ -30,7 +30,9 @@ const PageTemplate = ({ data }) => {
       <Document
         key={id}
         title={title}
-        date={date}
+        hideMeta="true"
+        datePublished={date}
+        dateModified={last_modified_at}
         path={path}
         image={image}
         html={html}

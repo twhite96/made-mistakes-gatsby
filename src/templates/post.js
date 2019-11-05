@@ -54,7 +54,8 @@ const PostTemplate = ({ data, pageContext }) => {
       <Document
         key={id}
         title={title}
-        date={date}
+        datePublished={date}
+        dateModified={last_modified_at}
         path={path}
         author={site.author}
         timeToRead={timeToRead}

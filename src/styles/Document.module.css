@@ -68,6 +68,10 @@
   p {
     margin: 0;
   }
+
+  li > ul {
+    margin-top: 0.5em;
+  }
 }
 
 .cover {

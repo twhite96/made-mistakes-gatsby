@@ -10,7 +10,9 @@ const _ = require('lodash-addons')
 
 const Document = ({
   title,
-  date,
+  hideMeta,
+  datePublished,
+  dateModified,
   image,
   author,
   timeToRead,
@@ -23,11 +25,11 @@ const Document = ({
     <article className={`${style.document} h-entry`}>
       <div className={style.title}>
         <h1 className={`${style.heading} p-name`}>{title}</h1>
-        <div className={style.meta}>
+        <div className={style.meta} style={{ display: hideMeta && `none` }}>
           <span>
             {author && (
               <>
-                Published{' '}
+                {dateModified ? `Updated` : `Published`}{' '}
                 <span style={{ display: 'none' }}>
                   by{' '}
                   <a className="p-author h-card" href={author.url}>
@@ -36,11 +38,21 @@ const Document = ({
                 </span>
               </>
             )}
-            {date && (
+            {datePublished && (
+              <span style={{ display: dateModified && `none` }}>
+                {' '}
+                <time className="dt-published" dateTime={datePublished}>
+                  {formatDistance(new Date(datePublished), new Date(), {
+                    addSuffix: true,
+                  })}
+                </time>
+              </span>
+            )}
+            {dateModified && (
               <>
                 {' '}
-                <time className="dt-published" dateTime={date}>
-                  {formatDistance(new Date(date), new Date(), {
+                <time className="dt-updated" dateTime={dateModified}>
+                  {formatDistance(new Date(dateModified), new Date(), {
                     addSuffix: true,
                   })}
                 </time>
@@ -89,7 +101,9 @@ const Document = ({
 
 Document.propTypes = {
   title: PropTypes.string,
-  date: PropTypes.string,
+  hideMeta: PropTypes.bool,
+  datePublished: PropTypes.string,
+  dateModified: PropTypes.string,
   image: PropTypes.object,
   author: PropTypes.object,
   timeToRead: PropTypes.number,
