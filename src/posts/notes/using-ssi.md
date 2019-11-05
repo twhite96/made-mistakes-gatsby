@@ -7,7 +7,7 @@ categories: [notes]
 tags: [TIL, web development, Jekyll]
 comments: true
 support: true
-last_modified_at: 2016-10-24T10:29:13-04:00
+last_modified_at: 2019-11-05T14:50:51-05:00
 ---
 
 In my never ending quest to micro-optimize the hell out of my site, I ran into a snag when trying to use SSI directives.
@@ -51,9 +51,9 @@ For first time visitors:
 2. **loadCSS** script will asynchronously load the remaining page CSS as not to block rendering.
 3. A cookie will be set to trigger the loading of cached CSS on future page loads.
 
-After setting all this up and testing my pages against [**WebPagetest**](https://www.webpagetest.org/), [**PageSpeed Insights**](https://developers.google.com/speed/pagespeed/insights/), and [**GTmetrix**](https://gtmetrix.com/) I saw an obvious drop in scrores :confused:. Apparently the SSI directives weren't working as intended, causing `style.css` to render block each page load. Hmmmm...
+After setting all this up and testing my pages against [**WebPagetest**](https://www.webpagetest.org/), [**PageSpeed Insights**](https://developers.google.com/speed/pagespeed/insights/), and [**GTmetrix**](https://gtmetrix.com/) I saw an obvious drop in scrores. Apparently the SSI directives weren't working as intended, causing `style.css` to render block each page load. Hmmmm...
 
-:bulb: Oh right, maybe it's Cloudflare's **Auto Minifying** setting mucking around! Sure enough, as soon I disabled their HTML minifier, lines like `<!--#if expr="$HTTP_COOKIE=/fullcss\=true/" -->` remained untouched. Unfortunately `style.css` was still render blocking the page.
+Oh right, maybe it's Cloudflare's **Auto Minifying** setting mucking around! Sure enough, as soon I disabled their HTML minifier, lines like `<!--#if expr="$HTTP_COOKIE=/fullcss\=true/" -->` remained untouched. Unfortunately `style.css` was still render blocking the page.
 
 <figure>
   <img alt="screenshot of Cloudflare's Auto Minify settings" src="../../images/cloudflare-auto-minify.jpg">
