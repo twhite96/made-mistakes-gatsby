@@ -24,24 +24,29 @@ const Document = ({
       <div className={style.title}>
         <h1 className={`${style.heading} p-name`}>{title}</h1>
         <div className={style.meta}>
-          {author && (
-            <span>
-              Published by{' '}
-              <a className="p-author h-card" href={author.url}>
-                {author.name}
-              </a>
-            </span>
-          )}
-          {date && (
-            <span className={style.date}>
-              {' '}
-              <time className="dt-published" dateTime={date}>
-                {formatDistance(new Date(date), new Date(), {
-                  addSuffix: true,
-                })}
-              </time>
-            </span>
-          )}
+          <span>
+            {author && (
+              <>
+                Published{' '}
+                <span style={{ display: 'none' }}>
+                  by{' '}
+                  <a className="p-author h-card" href={author.url}>
+                    {author.name}
+                  </a>
+                </span>
+              </>
+            )}
+            {date && (
+              <>
+                {' '}
+                <time className="dt-published" dateTime={date}>
+                  {formatDistance(new Date(date), new Date(), {
+                    addSuffix: true,
+                  })}
+                </time>
+              </>
+            )}
+          </span>
           {timeToRead && (
             <span className={style.readTime}>
               {timeToRead}&nbsp;min&nbsp;read
