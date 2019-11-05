@@ -146,7 +146,7 @@ As you can see above, the "child" comment has `replying_to` data populated from 
 
 #### Displaying nested comments
 
-Here is what I was looking to accomplish... before the headaches started :anguished: :gun:
+Here is what I was looking to accomplish... before the headaches started.
 
 - Start a loop and on each iteration create a new array named `replies` of only reply comments.
 - Evaluate the value of `replying_to` in these replies.

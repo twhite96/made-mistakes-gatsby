@@ -20,7 +20,7 @@ This workflow wasn't ideal for a variety of reasons:
 
 1. Manual process.
 2. Need to maintain separate "critical" stylesheets for inlining.
-3. Included a bunch of declarations that aren't critical to rendering "above the fold" content ---  causing some file size bloat.
+3. Included a bunch of declarations that aren't critical to rendering "above the fold" content --- causing some file size bloat.
 
 So with the help of [**Critical**](https://github.com/addyosmani/critical) (and friends) I attempted to automated the process. Getting it working within the constraints of a Jekyll site with thousands of posts wasn't easy, but I got close with [a set of Gulp tasks](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/gulp/tasks). A tale for another day unfortunately...
 
