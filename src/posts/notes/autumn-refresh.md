@@ -125,7 +125,7 @@ Trimming `<div>` fat where I could helped cut page weight down. Some hefty pages
   <figcaption><p><strong>Lighthouse</strong> audit after optimizations.</p></figcaption>
 </figure>
 
-Not sure why metrics like *Speed Index* increased. But *Time to Interactive*, *First Meaningful Paint*, and *First CPI Idle* all show improvements, so I guess that's why the site went from a 79 in performance, to an 89. :man_shrugging:
+Not sure why metrics like *Speed Index* increased. But *Time to Interactive*, *First Meaningful Paint*, and *First CPI Idle* all show improvements, so I guess that's why the site went from a 79 in performance, to an 89.
 
 ## Build and deploy
 
