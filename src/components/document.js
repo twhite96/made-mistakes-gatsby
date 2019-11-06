@@ -60,9 +60,12 @@ const Document = ({
             )}
           </span>
           {timeToRead && (
-            <span className={style.readTime}>
-              {timeToRead}&nbsp;min&nbsp;read
-            </span>
+            <>
+              {' '}
+              <span className={style.readTime}>
+                {timeToRead}&nbsp;min&nbsp;read
+              </span>
+            </>
           )}
           {tags ? (
             <div className={style.tags}>
