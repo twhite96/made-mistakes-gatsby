@@ -39,13 +39,15 @@
 .primaryMenuItem {
   display: flex;
   margin: 0;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
 
-  &::before {
-    counter-increment: menu;
-    content: "0" counter(menu) ".";
-    font-family: var(--monospace-font);
+  @media (--small-down) {
+    &::before {
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      counter-increment: menu;
+      content: '0' counter(menu) '.';
+      font-family: var(--monospace-font);
+    }
   }
 
   a {
@@ -53,6 +55,8 @@
     position: relative;
     margin-left: 0.125rem;
     margin-right: 0.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
     text-decoration: none;
   }
 
@@ -76,7 +80,6 @@
   }
 }
 
-
 .menuToggle,
 .themeToggle {
   display: inline-block;
@@ -94,5 +97,80 @@
 .menuToggle {
   @media (--medium-up) {
     display: none;
+  }
+}
+
+.themeToggle {
+  position: relative;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  padding: 0;
+  width: 44px;
+  height: 23px;
+  background-color: color-mod(var(--text-color) tint(90%));
+  border: 0;
+  border-radius: 23px;
+  outline: 0;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 2;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  appearance: none;
+  transition: background-color 0.5s ease;
+
+  :global .dark-theme :local & {
+    background-color: var(--text-color);
+  }
+}
+
+.themeToggleInner {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  bottom: 0;
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  box-shadow: inset 0 0 0 2px var(--text-color);
+  overflow: hidden;
+  transition: transform 0.5s ease;
+
+  :global .dark-theme :local & {
+    box-shadow: inset 0 0 0 2px color-mod(var(--text-color) tint(90%));
+    transform: translateX(22px);
+  }
+}
+
+.themeToggleIcon {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+
+  &:before {
+    content: '';
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    float: left;
+    background-color: var(--text-color);
+    transition: border-radius 0.5s ease, width 0.5s ease, height 0.5s ease,
+      left 0.5s ease, transform 0.5s ease;
+  }
+
+  :global .dark-theme :local & {
+    &:before {
+      border-radius: 50%;
+      width: 150%;
+      height: 85%;
+      left: 40%;
+      background-color: color-mod(var(--text-color) tint(90%));
+      transform: translate(-10%, -40%), rotate(-35deg);
+    }
   }
 }
