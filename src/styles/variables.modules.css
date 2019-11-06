@@ -5,6 +5,7 @@
   --secondary-color: #00638a;
   --text-color: #111;
   --muted-text-color: color-mod(var(--text-color) tint(40%));
+  --link-color: #00638a;
   --border-color: color-mod(var(--primary-color) tint(80%));
   --input-background-color: #f2f2f2;
   --button-text-color: #fff;
@@ -62,6 +63,7 @@
 [data-theme="dark"] {
   --background-color: #111;
   --text-color: #fff;
+  --link-color: #fff;
   --input-background-color: #1a1a1d;
   --code-text-color: #a9a9b3;
   --code-background-color: #1a1a1d;

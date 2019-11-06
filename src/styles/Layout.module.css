@@ -121,10 +121,11 @@ hr::before {
 }
 
 a {
-  color: var(--secondary-color);
+  color: var(--link-color);
 
+  &:active,
   &:visited {
-    color: color-mod(var(--secondary-color) shade(10%));
+    color: var(--link-color);
   }
 
   &:hover {

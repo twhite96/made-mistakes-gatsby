@@ -301,6 +301,10 @@ Usage:
   }
 }
 
+.footnote-ref {
+  text-decoration: none;
+}
+
 .gatsby-highlight {
   margin-left: auto;
   margin-right: auto;
