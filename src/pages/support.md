@@ -13,26 +13,20 @@ The tutorials, Jekyll themes, and other articles I publish have been a true labo
 
 If you'd like to support me so I can continue to provide free content and themes --- hit one of the buttons below. I accept PayPal, Square Cash, and Bitcoin: [`1KvHBVXcbeWhwcSRJQdcwVsUZBYnyH5enw`](../images/bitcoin-qr.png "Bitcoin QR code").
 
-<div markdown="0" class="btn--group">
-  <a href="https://www.paypal.me/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send PayPal');" title="Send PayPal" class="btn">
-    <svg class="icon icon--paypal" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-paypal' | prepend: 'assets/icons/' | relative_url }}"></use></svg> PayPal.me
-  </a>
-  <a href="https://cash.me/$mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send Square Cash');" title="Send Square Cash" class="btn">Square Cash</a>
-  <a href="../images/bitcoin-qr.png" onclick="ga('send', 'event', 'link', 'click', 'Send Bitcoin');" class="btn" title="1KvHBVXcbeWhwcSRJQdcwVsUZBYnyH5enw">Bitcoin (BTC)</a>
-</div>
+<ul>
+  <li><a href="https://www.paypal.me/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send PayPal');">PayPal.me</a></li>
+  <li><a href="https://cash.me/$mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send Square Cash');">Square Cash</a></li>
+  <li><a href="../images/bitcoin-qr.png" onclick="ga('send', 'event', 'link', 'click', 'Send Bitcoin');" title="1KvHBVXcbeWhwcSRJQdcwVsUZBYnyH5enw">Bitcoin (BTC)</a></li>
+</ul>
 
 ## Buy something
 
 If you shop on [Amazon.com](https://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS), using my referral link below will earn me a small commission if you end up buying something. I also maintain an Amazon Wish List if you are feeling extra generous.
 
-<div markdown="0" class="btn--group">
-  <a href="https://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS" onclick="ga('send', 'event', 'link', 'click', 'Shop Amazon');" class="btn">
-    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Shop Amazon
-  </a>
-  <a href="http://amzn.com/w/1K58RT2NS0SDP" onclick="ga('send', 'event', 'link', 'click', 'Amazon Wish List');" class="btn">
-    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg> My Amazon Wish List
-  </a>
-</div>
+<ul>
+  <li><a href="https://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS" onclick="ga('send', 'event', 'link', 'click', 'Shop Amazon');">Shop Amazon</a></li>
+  <li><a href="http://amzn.com/w/1K58RT2NS0SDP" onclick="ga('send', 'event', 'link', 'click', 'Amazon Wish List');">My Amazon Wish List</a></li>
+</ul>
 
 ## Spread the word
 
@@ -48,14 +42,12 @@ If these sorts of things interest you, follow along on:
 - [Instagram](https://instagram.com/mmistakes/)
 - [GitHub](https://github.com/mmistakes)
 - [YouTube](https://www.youtube.com/user/anotherjpeg)
-- [Facebook](https://www.facebook.com/michaelrose)
 
 ## Subscribe to the feeds
 
 The main feed[^feed] for everything on Made Mistakes.
 
-- Atom: [atom.xml]({/atom.xml)
-- JSON: [feed.json](/feed.json)
+- Atom: [atom.xml](/atom.xml)
 
 ### Feeds by topic
 
