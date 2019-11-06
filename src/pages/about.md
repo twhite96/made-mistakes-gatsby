@@ -18,12 +18,20 @@ When I'm not drawing on my iPad or releasing open source [Jekyll themes](/work/j
 
 And if that wasn't enough to keep me busy --- I'm also the father of [twin girls](/tag/twins/) and married to a [subscription box addicted vegan](https://2littlerosebuds.com "Wendy Rose").
 
-[![Michael Rose self portrait](../images/michael-rose-paper-portrait-sidebar.jpg)](/paperfaces/mmistakes-2-portrait/)
-[![Everly and Chloe drawing](../images/paperfaces-rosebuds-2-900.jpg)](/paperfaces/rosebuds-2-portrait/)
-_"Self portrait and my 2 little rosebuds drawn with Paper by FiftyThree."_
+<figure>
+  <a href="/paperfaces/mmistakes-2-portrait/">
+    <img src="../images/michael-rose-paper-portrait-sidebar.jpg" alt="Michael Rose iPad self portrait">
+  </a>
+  <a href="/paperfaces/rosebuds-2-portrait/">
+    <img src="../images/paperfaces-rosebuds-2-900.jpg" alt="Everly and Chloe iPad Paper drawing">
+  </a>
+  <figcaption>Self portrait and my 2 little rosebuds drawn with Paper for iOS.</figcaption>
+</figure>
 
-![Michael Rose's tattoos](../images/michael-rose-tattoos.png)
-_"My tattoos are a mess of line and words. Don't ask me to explain them --- because I can't."_
+<figure>
+  <img src="../images/michael-rose-tattoos.png" alt="Michael Rose's tattoos">
+  <figcaption>My tattoos are a mess of line and words. Don't ask me to explain them &mdash; because I can't.</figcaption>
+</figure>
 
 ## About the site
 
@@ -31,7 +39,7 @@ So what does this all have to do with **made mistakes** and why did I name the w
 
 It vaguely has something to do with that whole happy accident thing, where a mistake can turn out to be something great and unplanned. But to be honest I was just looking for a short, memorable sounding domain name.
 
-In May of 2004 I purchased mademistakes.com, and threw up a Macromedia Flash splash screen (hey remember those?) while I worked on building out my portfolio. For the next couple of years I would experiment with various content management systems ([Movable Type](http://www.movabletype.org/) → [Textpattern](http://textpattern.com/) → [Wordpress](http://wordpress.org/) → [Indexhibit](http://www.indexhibit.org/)), developing minimalistic themes and learning what I could about HTML, CSS, JavaScript, PHP, and MySQL databases.
+In May of 2004 I purchased **mademistakes.com**, and threw up a Macromedia Flash splash screen (hey remember those?) while I worked on building out my portfolio. For the next couple of years I would experiment with various content management systems ([Movable Type](http://www.movabletype.org/) → [Textpattern](http://textpattern.com/) → [Wordpress](http://wordpress.org/) → [Indexhibit](http://www.indexhibit.org/)), developing minimalistic themes and learning what I could about HTML, CSS, JavaScript, PHP, and MySQL databases.
 
 I've since decided to abandon using a CMS in favor of black magick and [Jekyll](http://jekyllrb.com/) to [generate flat files](/articles/going-static/) for improved performance and security. Building layouts, stylesheets, feeds, and assets from scratch was challenging at first, but the knowledge gained made it all worth it.
 
