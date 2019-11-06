@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
-import { formatDistance } from 'date-fns'
+import { format } from 'date-fns'
 
 import style from '../styles/Entry.module.css'
 
@@ -41,17 +41,18 @@ const Entry = ({
               <>
                 {' '}
                 <time className={`${style.date} dt-published`} dateTime={date}>
-                  {formatDistance(new Date(date), new Date(), {
-                    addSuffix: true,
-                  })}
+                  {format(new Date(date), 'MMMM eo, yyyy')}
                 </time>
               </>
             )}
           </span>
           {timeToRead && (
-            <span className={style.readTime}>
-              {timeToRead}&nbsp;min&nbsp;read
-            </span>
+            <>
+              {' '}
+              <span className={style.readTime}>
+                {timeToRead}&nbsp;min&nbsp;read
+              </span>
+            </>
           )}
           {tags ? (
             <div className={style.tags}>
