@@ -52,7 +52,7 @@ const Menu = ({
           className={style.themeToggle}
           onClick={onChangeTheme}
           type="button"
-          aria-label="Theme toggle"
+          aria-label="Toggle theme"
         >
           <div className={style.themeToggleInner}>
             <div className={style.themeToggleIcon} />
