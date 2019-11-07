@@ -193,7 +193,7 @@ module.exports = {
       options: {
         useMozJpeg: false,
         stripMetadata: true,
-        defaultQuality: 80,
+        defaultQuality: 75,
       },
     },
     {
@@ -213,6 +213,10 @@ module.exports = {
             options: {
               maxWidth: 800,
               quality: 75,
+              tracedSVG: {
+                color: '#111',
+                background: '#fff',
+              },
               linkImagesToOriginal: false,
             },
           },

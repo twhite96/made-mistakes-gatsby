@@ -147,8 +147,12 @@ export const postsQuery = graphql`
             categories
             image {
               childImageSharp {
-                fluid(maxWidth: 800) {
-                  ...GatsbyImageSharpFluid
+                fluid(
+                  maxWidth: 800
+                  quality: 75
+                  traceSVG: { background: "#fff", color: "#111" }
+                ) {
+                  ...GatsbyImageSharpFluid_tracedSVG
                 }
               }
             }

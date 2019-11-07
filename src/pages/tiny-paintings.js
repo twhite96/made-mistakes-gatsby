@@ -67,7 +67,9 @@ class Gallery extends React.Component {
         />
         <main className={style.document}>
           <div className={style.title}>
-            <h1 className={style.heading}><span>Tiny paintings</span></h1>
+            <h1 className={style.heading}>
+              <span>Tiny paintings</span>
+            </h1>
           </div>
           {this.props.data.file.childImageSharp.fluid && (
             <Img
@@ -146,10 +148,14 @@ export const pageQuery = graphql`
     }
     file(relativePath: { eq: "tiny-paintings.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 800) {
-          ...GatsbyImageSharpFluid
+        fluid(
+          maxWidth: 800
+          quality: 75
+          traceSVG: { background: "#fff", color: "#111" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
         }
-        fixed(width: 1000) {
+        fixed(width: 1000, quality: 75) {
           src
           height
           width
@@ -168,15 +174,23 @@ export const pageQuery = graphql`
             path
             image {
               childImageSharp {
-                fluid(maxHeight: 400, quality: 80) {
-                  ...GatsbyImageSharpFluid
+                fluid(
+                  maxHeight: 400
+                  quality: 75
+                  traceSVG: { background: "#fff", color: "#111" }
+                ) {
+                  ...GatsbyImageSharpFluid_tracedSVG
                 }
               }
             }
             thumbnail {
               childImageSharp {
-                fluid(maxHeight: 400, quality: 80) {
-                  ...GatsbyImageSharpFluid
+                fluid(
+                  maxHeight: 400
+                  quality: 75
+                  traceSVG: { background: "#fff", color: "#111" }
+                ) {
+                  ...GatsbyImageSharpFluid_tracedSVG
                 }
               }
             }
