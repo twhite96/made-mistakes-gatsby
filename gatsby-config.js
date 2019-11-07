@@ -1,6 +1,5 @@
 /* eslint-disable prefer-object-spread */
 const postcssPresetEnv = require('postcss-preset-env')
-const postcssCustomProperties = require('postcss-custom-properties')
 const postcssNested = require('postcss-nested')
 const postcssUrl = require('postcss-url')
 const postcssImports = require('postcss-import')
@@ -569,17 +568,18 @@ module.exports = {
         ],
       },
     },
-    // {
-    //   resolve: 'gatsby-plugin-manifest',
-    //   options: {
-    //     name: site.title,
-    //     short_name: site.titleAlt,
-    //     start_url: '/',
-    //     background_color: site.backgroundColor,
-    //     theme_color: site.themeColor,
-    //     display: 'standalone',
-    //     icon: site.favicon,
-    //   },
-    // },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: site.title,
+        short_name: site.titleAlt,
+        start_url: '/',
+        background_color: site.backgroundColor,
+        theme_color: site.themeColor,
+        display: 'standalone',
+        icon: site.favicon,
+      },
+    },
+    'gatsby-plugin-offline',
   ],
 }

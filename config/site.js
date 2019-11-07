@@ -29,7 +29,7 @@ module.exports = {
     url: 'https://mademistakes.com',
   },
   themeColor: '#ffffff',
-  backgroundColor: '#000000',
+  backgroundColor: '#111111',
 
   twitter: '@mmistakes', // Twitter username
   twitterUrl: 'https://twitter.com/mmistakes',
