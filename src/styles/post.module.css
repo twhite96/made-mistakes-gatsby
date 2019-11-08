@@ -1,5 +1,4 @@
 .comments {
-  grid-area: comments;
   width: calc(100% - 2rem);
   max-width: var(--text-width);
   margin-left: auto;
