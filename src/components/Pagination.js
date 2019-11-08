@@ -6,24 +6,25 @@ import style from '../styles/Pagination.module.css'
 
 const Pagination = ({ nextPath, previousPath, nextLabel, previousLabel }) =>
   previousPath || nextPath ? (
-    <div className={style.pagination}>
+    <nav className={style.pagination}>
       {previousPath && (
-        <span className={style.button}>
-          <Link to={previousPath}>
-            <span className={style.iconPrev}>←</span>
-            <span className={style.buttonText}>{previousLabel}</span>
-          </Link>
-        </span>
+        <Link to={previousPath} className={style.item}>
+          <span className={style.iconPrev}>←</span>
+          <span className={style.itemText}>
+            <strong className={style.itemLabel}>Previous</strong>{' '}
+            {previousLabel}
+          </span>
+        </Link>
       )}
       {nextPath && (
-        <span className={style.button}>
-          <Link to={nextPath}>
-            <span className={style.buttonText}>{nextLabel}</span>
-            <span className={style.iconNext}>→</span>
-          </Link>
-        </span>
+        <Link to={nextPath} className={`${style.item} ${style.itemRight}`}>
+          <span className={style.itemText}>
+            <strong className={style.itemLabel}>Next</strong> {nextLabel}
+          </span>
+          <span className={style.iconNext}>→</span>
+        </Link>
       )}
-    </div>
+    </nav>
   ) : null
 
 Pagination.propTypes = {
