@@ -132,7 +132,7 @@ As you can see above, the "child" comment has `replying_to` data populated from 
 ```
 
 <figure>
-  <img alt="Parent comments only" alt="../../images/staticman-parent-comments-only.png">
+  <img src="../../images/staticman-parent-comments-only.png" alt="Example of parent comments">
   <figcaption><p>Success, there be parent comments Captain!</p></figcaption>
 </figure>
 
