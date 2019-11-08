@@ -103,6 +103,7 @@
   > ul,
   > ol,
   > blockquote,
+  > form,
   figcaption {
     margin-left: auto;
     margin-right: auto;
@@ -191,16 +192,4 @@
   @media (--large-up) {
     width: 25%;
   }
-}
-
-.loadMore {
-  display: block;
-  margin: 1em auto;
-  padding: 0.5em;
-  color: #fff;
-  background-color: #000;
-  border: 1px solid #000;
-  border-radius: var(--border-radius);
-  font-family: var(--monospace-font);
-  cursor: pointer;
 }
