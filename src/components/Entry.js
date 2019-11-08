@@ -25,27 +25,22 @@ const Entry = ({
           <Link to={path}>{title}</Link>
         </h2>
         <div className={style.meta}>
-          <span>
-            {author && (
-              <>
-                Published{' '}
-                <span style={{ display: 'none' }}>
-                  by{' '}
-                  <a className="p-author h-card" href={author.url}>
-                    {author.name}
-                  </a>
-                </span>
-              </>
-            )}
-            {date && (
-              <>
-                {' '}
-                <time className={`${style.date} dt-published`} dateTime={date}>
-                  {format(new Date(date), 'MMMM eo, yyyy')}
-                </time>
-              </>
-            )}
-          </span>
+          {author && (
+            <span style={{ display: 'none' }}>
+              Published by{' '}
+              <a className="p-author h-card" href={author.url}>
+                {author.name}
+              </a>
+            </span>
+          )}
+          {date && (
+            <>
+              {' '}
+              <time className={`${style.date} dt-published`} dateTime={date}>
+                {format(new Date(date), 'MMMM eo, yyyy')}
+              </time>
+            </>
+          )}
           {timeToRead && (
             <>
               {' '}
