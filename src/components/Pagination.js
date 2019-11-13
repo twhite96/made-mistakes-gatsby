@@ -7,22 +7,21 @@ import style from '../styles/Pagination.module.css'
 const Pagination = ({ nextPath, previousPath, nextLabel, previousLabel }) =>
   previousPath || nextPath ? (
     <nav className={style.pagination}>
-      {previousPath && (
+      {previousPath ? (
         <Link to={previousPath} className={style.item}>
           <span className={style.iconPrev}>←</span>
-          <span className={style.itemText}>
-            <strong className={style.itemLabel}>Previous</strong>{' '}
-            {previousLabel}
-          </span>
+          <span className={style.itemText}>{previousLabel}</span>
         </Link>
+      ) : (
+        <div className={style.item} />
       )}
-      {nextPath && (
+      {nextPath ? (
         <Link to={nextPath} className={`${style.item} ${style.itemRight}`}>
-          <span className={style.itemText}>
-            <strong className={style.itemLabel}>Next</strong> {nextLabel}
-          </span>
+          <span className={style.itemText}>{nextLabel}</span>
           <span className={style.iconNext}>→</span>
         </Link>
+      ) : (
+        <div className={style.item} />
       )}
     </nav>
   ) : null

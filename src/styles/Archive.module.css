@@ -62,6 +62,7 @@
 
 .intro {
   max-width: var(--text-width);
+  margin-bottom: 2rem;
   font-size: var(--text-xl);
 }
 

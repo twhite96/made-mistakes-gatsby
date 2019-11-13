@@ -1,6 +1,6 @@
 .pagination {
   width: calc(100% - 2rem);
-  max-width: var(--text-width);
+  max-width: var(--container-width);
   margin-top: 3rem;
   margin-left: auto;
   margin-right: auto;
@@ -28,7 +28,7 @@
 }
 
 .itemRight {
-  text-align: right;
+  justify-content: flex-end;
 }
 
 .itemLabel {
