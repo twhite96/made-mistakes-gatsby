@@ -137,10 +137,6 @@
     margin-top: 1em;
   }
 
-  img {
-    box-shadow: 0 1px 5px var(--shadow-color) !important;
-  }
-
   table {
     max-width: var(--text-width);
   }
