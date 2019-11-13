@@ -11,6 +11,15 @@
   font-weight: 400;
   line-height: 1.25;
 
+  a:focus {
+    outline: none;
+
+    &::before {
+      outline: 2px solid var(--secondary-color);
+      outline-offset: 2px;
+    }
+  }
+
   a::before {
     content: '';
     position: absolute;
