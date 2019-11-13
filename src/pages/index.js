@@ -26,23 +26,30 @@ const HomePage = ({ data }) => {
         metaImage={site.image}
       />
       <main className={style.main}>
-        <h1>
-          Made Mistakes is the personal site of{' '}
-          <a href="/about/">Michael Rose</a>.
-        </h1>
+        <div className={style.title}>
+          <h1 className={style.heading}>
+            <span>
+              Made Mistakes is the personal site of{' '}
+              <a href="/about/">Michael Rose</a>.
+            </span>
+          </h1>
+        </div>
         <div className={style.content}>
           <div className={style.intro}>
             <p>
-              I'm just another boring, tattooed, >time traveling designer from
+              I'm just another boring, tattooed, time traveling designer from
               Buffalo New York who enjoys eating chicken wings, sketching on an
               iPad Pro, building with static site generators, and playing
               Nintendo Switch.
             </p>
           </div>
-          <h2>
-            Featued articles [<a href="/articles/">browse all</a>]
+          <h2 className={style.subHeading}>
+            Featured articles{' '}
+            <span className={style.action}>
+              [<a href="/articles/">browse all</a>]
+            </span>
           </h2>
-          <div>
+          <div className={style.gridList}>
             {posts.map(({ node }) => {
               const {
                 id,
@@ -75,7 +82,7 @@ const HomePage = ({ data }) => {
             })}
           </div>
           <div>
-            <h2>Explore more on this site</h2>
+            <h2 className={style.subHeading}>Explore more on this site</h2>
             <ul>
               <li>
                 <a href="/articles/">Articles</a>
@@ -158,7 +165,7 @@ export const pageQuery = graphql`
         }
       }
       sort: { fields: [frontmatter___date], order: DESC }
-      limit: 5
+      limit: 6
     ) {
       edges {
         node {

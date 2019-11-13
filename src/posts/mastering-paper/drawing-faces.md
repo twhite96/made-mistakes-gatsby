@@ -8,6 +8,7 @@ image: ../../images/paper-53-faces-feature.jpg
 categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, portrait, Apple]
 toc: true
+featured: true
 comments: true
 comments_locked: true
 ---
