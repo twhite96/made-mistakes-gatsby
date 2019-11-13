@@ -55,7 +55,10 @@ const Tags = ({
         </div>
         <div className={style.content}>
           {taxonomyHtml && humanPageNumber === 1 && (
-            <div dangerouslySetInnerHTML={{ __html: taxonomyHtml }} />
+            <div
+              className={style.intro}
+              dangerouslySetInnerHTML={{ __html: taxonomyHtml }}
+            />
           )}
 
           <div className={style.list}>

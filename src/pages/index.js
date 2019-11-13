@@ -54,16 +54,8 @@ const HomePage = ({ data }) => {
               const {
                 id,
                 excerpt: autoExcerpt,
-                frontmatter: {
-                  title,
-                  date,
-                  path,
-                  author,
-                  timeToRead,
-                  image,
-                  excerpt,
-                  tags,
-                },
+                timeToRead,
+                frontmatter: { title, date, path, author, image, excerpt },
               } = node
 
               return (
@@ -75,7 +67,6 @@ const HomePage = ({ data }) => {
                   author={author || siteAuthor}
                   timeToRead={timeToRead}
                   image={image}
-                  tags={tags}
                   excerpt={excerpt || autoExcerpt}
                 />
               )
@@ -86,19 +77,20 @@ const HomePage = ({ data }) => {
             <ul className={`${style.gridListExpanded} ${style.navList}`}>
               <li>
                 <Entry
-                  key="articles-home-link"
-                  title="Articles"
-                  path="/articles/"
-                  excerpt="<p>Long form writing mostly about web development.</p>"
-                />
-              </li>
-              <li>
-                <Entry
                   key="notes-home-link"
                   title="Notes"
                   path="/notes/"
                   excerpt="<p>Thoughts, inspiration, mistakes, and other minutia I've
                   written.</p>"
+                />
+              </li>
+              <li>
+                <Entry
+                  key="works-home-link"
+                  title="Works"
+                  path="/work/"
+                  excerpt="<p>Hand-picked selection of things I've designed, illustrated,
+                  and developed.</p>"
                 />
               </li>
               <li>
@@ -123,17 +115,8 @@ const HomePage = ({ data }) => {
                   key="contact-home-link"
                   title="Contact"
                   path="/contact/"
-                  excerpt="<p>Preferred methods of sending your questions, messages, and
+                  excerpt="<p>Preferred methods of sending questions, messages, and
                   love letters to me.</p>"
-                />
-              </li>
-              <li>
-                <Entry
-                  key="works-home-link"
-                  title="Works"
-                  path="/work/"
-                  excerpt="<p>Hand-picked selection of things I've designed, illustrated,
-                  and developed.</p>"
                 />
               </li>
               <li>
@@ -149,7 +132,7 @@ const HomePage = ({ data }) => {
                   key="faqs-home-link"
                   title="Frequently asked questions"
                   path="/faqs/"
-                  excerpt="<p>There&rsquo;s no such thing as a&hellip;</p>"
+                  excerpt="<p>There&rsquo;s no such thing as a dumb question&hellip;</p>"
                 />
               </li>
               <li>

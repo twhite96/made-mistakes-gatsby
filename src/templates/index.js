@@ -47,12 +47,12 @@ const Index = ({
               const {
                 id,
                 excerpt: autoExcerpt,
+                timeToRead,
                 frontmatter: {
                   title,
                   date,
                   path,
                   author,
-                  timeToRead,
                   image,
                   excerpt,
                   tags,
