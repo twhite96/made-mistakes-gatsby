@@ -9,6 +9,7 @@ tags: [Jekyll, web development, GitHub, open source, tutorial]
 comments: true
 comments_locked: true
 toc: true
+featured: true
 last_modified_at: 2019-02-13T14:42:25-05:00
 ---
 

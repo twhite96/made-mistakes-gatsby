@@ -8,6 +8,7 @@ categories: [mastering-paper]
 tags: [Paper for iOS, Pencil by 53, tutorial, Apple]
 image: ../../images/mastering-pencil-feature.jpg
 toc: true
+featured: true
 comments: true
 comments_locked: true
 ---

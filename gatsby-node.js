@@ -200,6 +200,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       thumbnail: File @fileByRelativePath
       published: Boolean
       toc: Boolean
+      featured: Boolean
       comments: Boolean
       comments_locked: Boolean
       _parent: String!

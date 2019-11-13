@@ -9,6 +9,7 @@ image: ../../images/going-static-comments-feature.jpg
 comments: true
 comments_locked: true
 toc: true
+featured: true
 last_modified_at: 2018-03-22T10:45:51-04:00
 ---
 

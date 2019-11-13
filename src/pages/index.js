@@ -151,7 +151,11 @@ export const pageQuery = graphql`
       filter: {
         fileAbsolutePath: { regex: "/posts/" }
         fields: { sourceName: { ne: "comments" } }
-        frontmatter: { published: { ne: false }, output: { ne: false } }
+        frontmatter: {
+          featured: { eq: true }
+          published: { ne: false }
+          output: { ne: false }
+        }
       }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: 5
@@ -167,6 +171,7 @@ export const pageQuery = graphql`
             path
             author
             excerpt
+            featured
             categories
             image {
               childImageSharp {
