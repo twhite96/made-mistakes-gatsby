@@ -58,27 +58,29 @@ const Tags = ({
             <div dangerouslySetInnerHTML={{ __html: taxonomyHtml }} />
           )}
 
-          {posts.map(({ node }) => {
-            const {
-              id,
-              excerpt: autoExcerpt,
-              timeToRead,
-              frontmatter: { title, date, path, author, image, excerpt },
-            } = node
+          <div className={style.list}>
+            {posts.map(({ node }) => {
+              const {
+                id,
+                excerpt: autoExcerpt,
+                timeToRead,
+                frontmatter: { title, date, path, author, image, excerpt },
+              } = node
 
-            return (
-              <Entry
-                key={id}
-                title={title}
-                date={date}
-                path={path}
-                author={author || siteAuthor}
-                timeToRead={timeToRead}
-                image={image}
-                excerpt={excerpt || autoExcerpt}
-              />
-            )
-          })}
+              return (
+                <Entry
+                  key={id}
+                  title={title}
+                  date={date}
+                  path={path}
+                  author={author || siteAuthor}
+                  timeToRead={timeToRead}
+                  image={image}
+                  excerpt={excerpt || autoExcerpt}
+                />
+              )
+            })}
+          </div>
         </div>
       </main>
       <Pagination

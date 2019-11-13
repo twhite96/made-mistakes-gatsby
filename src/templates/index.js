@@ -42,36 +42,38 @@ const Index = ({
       <main className={style.main}>
         <div className={style.title} />
         <div className={style.content}>
-          {posts.map(({ node }) => {
-            const {
-              id,
-              excerpt: autoExcerpt,
-              frontmatter: {
-                title,
-                date,
-                path,
-                author,
-                timeToRead,
-                image,
-                excerpt,
-                tags,
-              },
-            } = node
+          <div className={style.list}>
+            {posts.map(({ node }) => {
+              const {
+                id,
+                excerpt: autoExcerpt,
+                frontmatter: {
+                  title,
+                  date,
+                  path,
+                  author,
+                  timeToRead,
+                  image,
+                  excerpt,
+                  tags,
+                },
+              } = node
 
-            return (
-              <Entry
-                key={id}
-                title={title}
-                date={date}
-                path={path}
-                author={author || siteAuthor}
-                timeToRead={timeToRead}
-                image={image}
-                tags={tags}
-                excerpt={excerpt || autoExcerpt}
-              />
-            )
-          })}
+              return (
+                <Entry
+                  key={id}
+                  title={title}
+                  date={date}
+                  path={path}
+                  author={author || siteAuthor}
+                  timeToRead={timeToRead}
+                  image={image}
+                  tags={tags}
+                  excerpt={excerpt || autoExcerpt}
+                />
+              )
+            })}
+          </div>
         </div>
       </main>
       <Pagination

@@ -1,6 +1,5 @@
 .entry {
   position: relative;
-  margin-bottom: 3rem;
   max-width: var(--text-width);
 }
 

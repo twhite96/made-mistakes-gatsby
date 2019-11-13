@@ -46,7 +46,7 @@ const HomePage = ({ data }) => {
           <h2 className={style.subHeading}>
             Featured articles{' '}
             <span className={style.action}>
-              [<a href="/articles/">browse all</a>]
+              <a href="/articles/">browse all</a>
             </span>
           </h2>
           <div className={style.gridList}>
@@ -81,56 +81,84 @@ const HomePage = ({ data }) => {
               )
             })}
           </div>
+          <h2 className={style.subHeading}>Explore more on this site</h2>
           <div>
-            <h2 className={style.subHeading}>Explore more on this site</h2>
-            <ul>
+            <ul className={`${style.gridListExpanded} ${style.navList}`}>
               <li>
-                <a href="/articles/">Articles</a>
-                <p>Long form writing mostly about web development.</p>
+                <Entry
+                  key="articles-home-link"
+                  title="Articles"
+                  path="/articles/"
+                  excerpt="<p>Long form writing mostly about web development.</p>"
+                />
               </li>
               <li>
-                <a href="/notes/">Notes</a>
-                <p>
-                  Thoughts, inspiration, mistakes, and other minutia I've
-                  written.
-                </p>
+                <Entry
+                  key="notes-home-link"
+                  title="Notes"
+                  path="/notes/"
+                  excerpt="<p>Thoughts, inspiration, mistakes, and other minutia I've
+                  written.</p>"
+                />
               </li>
               <li>
-                <a href="/mastering-paper/">Mastering Paper</a>
-                <p>
-                  Tutorials to help master the iOS drawing app,{' '}
-                  <strong>Paper</strong>.
-                </p>
+                <Entry
+                  key="mastering-paper-home-link"
+                  title="Mastering Paper"
+                  path="/mastering-paper/"
+                  excerpt="<p>Tutorials to help master the iOS drawing app&mdash;
+                Paper</p>"
+                />
               </li>
               <li>
-                <a href="/about/">About</a>
-                <p>More about me than you care to know.</p>
+                <Entry
+                  key="about-home-link"
+                  title="About"
+                  path="/about/"
+                  excerpt="<p>More about me than you care to know.</p>"
+                />
               </li>
               <li>
-                <a href="/contact/">Contact</a>
-                <p>
-                  Preferred methods of sending your questions, messages, and
-                  love letters to me.
-                </p>
+                <Entry
+                  key="contact-home-link"
+                  title="Contact"
+                  path="/contact/"
+                  excerpt="<p>Preferred methods of sending your questions, messages, and
+                  love letters to me.</p>"
+                />
               </li>
               <li>
-                <a href="/work/">Works</a>
-                <p>
-                  Hand-picked selection of things I've designed, illustrated,
-                  and developed.
-                </p>
+                <Entry
+                  key="works-home-link"
+                  title="Works"
+                  path="/work/"
+                  excerpt="<p>Hand-picked selection of things I've designed, illustrated,
+                  and developed.</p>"
+                />
               </li>
               <li>
-                <a href="/support/">Show your support</a>
-                <p>Show thanks for the free open source goodies I provide.</p>
+                <Entry
+                  key="support-home-link"
+                  title="Show your support"
+                  path="/support/"
+                  excerpt="<p>Give thanks for the free open source goodies I provide.</p>"
+                />
               </li>
               <li>
-                <a href="/faqs/">Frequently asked questions</a>
-                <p>There's no such thing as a...</p>
+                <Entry
+                  key="faqs-home-link"
+                  title="Frequently asked questions"
+                  path="/faqs/"
+                  excerpt="<p>There&rsquo;s no such thing as a&hellip;</p>"
+                />
               </li>
               <li>
-                <a href="/tag/">All topics</a>
-                <p>Archive of all posts organized by topic.</p>
+                <Entry
+                  key="topics-home-link"
+                  title="All topics"
+                  path="/tag/"
+                  excerpt="<p>Archive of all posts organized by topic.</p>"
+                />
               </li>
             </ul>
           </div>
