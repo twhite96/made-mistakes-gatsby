@@ -6,7 +6,8 @@
   --text-color: #111;
   --muted-text-color: color-mod(var(--text-color) tint(40%));
   --link-color: #00638a;
-  --shadow-color: color-mod(var(--primary-color) tint(50%));
+  --shadow-color: rgb(57,62,70, 0.1);
+  --shadow-color-alpha: rgb(57,62,70, 0.05);
   --border-color: color-mod(var(--primary-color) tint(80%));
   --input-background-color: #f2f2f2;
   --button-text-color: #fff;

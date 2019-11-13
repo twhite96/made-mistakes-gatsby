@@ -44,10 +44,7 @@ const HomePage = ({ data }) => {
             </p>
           </div>
           <h2 className={style.subHeading}>
-            Featured articles{' '}
-            <span className={style.action}>
-              <a href="/articles/">browse all</a>
-            </span>
+            Featured articles
           </h2>
           <div className={style.gridList}>
             {posts.map(({ node }) => {
@@ -77,11 +74,18 @@ const HomePage = ({ data }) => {
             <ul className={`${style.gridListExpanded} ${style.navList}`}>
               <li>
                 <Entry
+                  key="articles-home-link"
+                  title="Articles"
+                  path="/articles/"
+                  excerpt="<p>Long form writing mostly about design and web development.</p>"
+                />
+              </li>
+              <li>
+                <Entry
                   key="notes-home-link"
                   title="Notes"
                   path="/notes/"
-                  excerpt="<p>Thoughts, inspiration, mistakes, and other minutia I've
-                  written.</p>"
+                  excerpt="<p>Thoughts, inspiration, mistakes, and other minutia you&rsquo;d find in a blog.</p>"
                 />
               </li>
               <li>
@@ -100,14 +104,6 @@ const HomePage = ({ data }) => {
                   path="/mastering-paper/"
                   excerpt="<p>Tutorials to help master the iOS drawing app&mdash;
                 Paper</p>"
-                />
-              </li>
-              <li>
-                <Entry
-                  key="about-home-link"
-                  title="About"
-                  path="/about/"
-                  excerpt="<p>More about me than you care to know.</p>"
                 />
               </li>
               <li>

@@ -22,6 +22,14 @@
     color: var(--text-color);
   }
 
+  &:hover {
+    text-decoration: none;
+
+    .itemText {
+      text-decoration: underline;
+    }
+  }
+
   @media (--medium-up) {
     flex-basis: 50%;
   }

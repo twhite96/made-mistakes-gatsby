@@ -2,7 +2,7 @@
 @import "./reset.css";
 
 * {
-  transition: color 0.25s ease, background-color 0.25s ease;
+  transition: all 0.25s ease, background-color 0.25s ease;
 }
 
 html {
@@ -222,8 +222,9 @@ figure {
 }
 
 figcaption {
-  font-size: var(--text-sm);
+  position: relative;
   margin: 0.75em 0;
+  font-size: var(--text-sm);
 }
 
 img {
