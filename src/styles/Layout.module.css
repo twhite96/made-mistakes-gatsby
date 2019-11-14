@@ -1,10 +1,6 @@
 @import "./variables.modules.css";
 @import "./reset.css";
 
-* {
-  transition: all 0.25s ease, background-color 0.25s ease;
-}
-
 html {
   font-size: var(--base-font-size);
 
