@@ -127,11 +127,6 @@ hr::before {
 a {
   color: var(--link-color);
 
-  &:active,
-  &:visited {
-    color: var(--link-color);
-  }
-
   &:hover {
     text-decoration: underline;
   }

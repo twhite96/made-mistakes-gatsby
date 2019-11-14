@@ -28,14 +28,20 @@ Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as 
 - SEO best practices via [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/)
 
 <p>
-  <a href="https://mmistakes.github.io/jekyll-theme-basically-basic/" onclick="ga('send', 'event', 'link', 'click', 'Preview Basically Basic');" class="btn">Live preview</a>
+  <a href="https://mmistakes.github.io/jekyll-theme-basically-basic/" onclick="ga('send', 'event', 'link', 'click', 'Preview Basically Basic');" class="btn">Theme demo</a>
 </p>
 
-![off-canvas menu example](../../images/basically-basic-theme-menu.png)
+<p class="browser-frame">
+  <img src="../../images/basically-basic-theme-menu.png" alt="Screenshot of page with off-canvas menu">
+</p>
 
-![CV example](../../images/basically-basic-theme-cv.png)
+<p class="browser-frame">
+  <img src="../../images/basically-basic-theme-cv.png" alt="Screenshot of CV/Resume page">
+</p>
 
-![alternate skin example](../../images/basically-basic-theme-alternate-skin.jpg)
+<p class="browser-frame">
+  <img src="../../images/basically-basic-theme-alternate-skin.jpg" alt="Screenshot of alternate theme skin">
+</p>
 
 ## Usage
 

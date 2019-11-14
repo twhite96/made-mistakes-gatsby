@@ -67,18 +67,18 @@
 }
 
 .submit {
-  background-color: var(--button-background-color);
-  border-radius: var(--border-radius);
-  border: 0;
-  color: var(--button-text-color);
-  cursor: pointer;
   display: inline-block;
+  padding: 0.5em 1em;
   font-family: var(--monospace-font);
   font-size: var(--text-sm);
   font-weight: bold;
-  padding: 0.5em 1em;
   text-align: center;
   text-decoration: none;
+  color: var(--button-text-color);
+  background-color: var(--button-background-color);
+  border-radius: var(--border-radius);
+  border: 0;
+  cursor: pointer;
 
   &:hover {
     background-color: color-mod(var(--secondary-color) tint(25%));

@@ -17,9 +17,11 @@ There's little left for me to optimize until Jekyll drops some nice updates in [
 
 The "little" that remains, is about [a gigabyte of images](https://github.com/mmistakes/made-mistakes-images) I pipe through **Gulp**. Thousands of high resolution images are processed by [**Sharp**](https://github.com/lovell/sharp) into various sizes. I've been able to knock this down from 18 minutes, to six on a fresh build...
 
-![Screenshot of Netlify's deploy log for Made Mistakes](../../images/netlify-deploy-log.png)
+<div class="browser-frame">
+  <img src="../../images/netlify-deploy-log.png" alt="Screenshot of Netlify's deploy log for Made Mistakes">
+</div>
 
-When building the site locally I store the image artifacts in a temporary folder, and generate new ones only if the source changes. When Netlify builds the site it processes these images each and every build --- regardless if they have changed or not.
+When building the site locally I store the image artifacts in a temporary folder, and generate new ones if the source changes. When Netlify generates the site it processes these images each build --- regardless if they have changed or not.
 
 By stashing the processed images in a *secret* Netlify cache folder[^cache-folder] and using [Gulp to move files](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/gulp) around, I cut the build time in half. Which is fantastic since I'm now averaging 5--8 minutes for dependencies to install, Jekyll to run, and Netlify to deploy the site.
 

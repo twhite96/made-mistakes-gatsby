@@ -21,7 +21,7 @@ The basic setup for each of my themes is roughly the same:
 
 For more specifics, review each theme's documentation by clicking on the **setup guide** buttons below.
 
-## [So Simple theme](/work/simple-jekyll-theme/)
+## [So Simple theme](/work/so-simple-jekyll-theme/)
 
 ![So Simple Jekyll theme screenshot](../../images/jekyll-theme-so-simple-feature-2018.jpg)
 
@@ -35,7 +35,10 @@ So Simple is a simple Jekyll theme for your words and pictures. Features include
 - SEO best practices via [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag).
 - Options to customize the theme and make it your own.
 
-[Setup guide](https://github.com/mmistakes/so-simple-theme) [Live preview](https://mmistakes.github.io/so-simple-theme)
+<p>
+  <a href="https://github.com/mmistakes/so-simple-theme" class="btn">Setup guide</a>
+  <a href="https://mmistakes.github.io/so-simple-theme/" class="btn">Theme preview</a>
+</p>
 
 ## [Basically Basic theme](/work/basically-basic-jekyll-theme/)
 
@@ -51,7 +54,10 @@ Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as 
 - Disqus Comments and Google Analytics support.
 - SEO best practices via [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/).
 
-[Setup guide](https://github.com/mmistakes/jekyll-theme-basically-basic) [Live preview](https://mmistakes.github.io/jekyll-theme-basically-basic/)
+<p>
+  <a href="https://github.com/mmistakes/jekyll-theme-basically-basic" class="btn">Setup guide</a>
+  <a href="https://mmistakes.github.io/jekyll-theme-basically-basic/" class="btn">Theme preview</a>
+</p>
 
 ## [Minimal Mistakes theme](/work/minimal-mistakes-jekyll-theme/)
 
@@ -67,7 +73,10 @@ A flexible two-column Jekyll theme with a minimalist aesthetic.
   - Optional comments ([Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, [Staticman](https://staticman.net/), and more).
   - Optional analytics ([Google Analytics](https://www.google.com/analytics/) and custom).
 
-[Setup guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) [Live preview](https://mmistakes.github.io/minimal-mistakes)
+<p>
+  <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/" class="btn">Setup guide</a>
+  <a href="https://mmistakes.github.io/minimal-mistakes/" class="btn">Theme preview</a>
+</p>
 
 ## [HPSTR theme](/work/hpstr-jekyll-theme/)
 
@@ -80,7 +89,10 @@ A responsive Jekyll blog theme designed to give your site a modern and somewhat 
   - Animated main menu.
   - Built-in support for Sass and data files (requires Jekyll 2.x).
 
-[Setup guide](https://mmistakes.github.io/jekyll-theme-hpstr/theme-setup/) [Live preview](https://mmistakes.github.io/jekyll-theme-hpstr/)
+<p>
+  <a href="https://mmistakes.github.io/jekyll-theme-hpstr/theme-setup/" class="btn">Setup guide</a>
+  <a href="https://mmistakes.github.io/jekyll-theme-hpstr/" class="btn">Theme preview</a>
+</p>
 
 ## [Skinny Bones theme](/work/skinny-bones-jekyll/)
 
@@ -94,7 +106,10 @@ A Jekyll starter based off of an older incarnation of Made Mistakes.
   - Tile based archives.
   - Optional table of contents, share links, Disqus comments modules, and more.
 
-[Setup guide](https://mmistakes.github.io/jekyll-theme-skinny-bones/getting-started/) [Live preview](https://mmistakes.github.io/jekyll-theme-skinny-bones/)
+<p>
+  <a href="https://mmistakes.github.io/jekyll-theme-skinny-bones/getting-started/" class="btn">Setup guide</a>
+  <a href="https://mmistakes.github.io/jekyll-theme-skinny-bones/" class="btn">Theme guide</a>
+</p>
 
 ---
 
