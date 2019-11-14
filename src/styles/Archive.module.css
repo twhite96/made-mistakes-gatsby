@@ -180,10 +180,14 @@
       justify-content: space-between;
       padding: 0.25em 0;
       text-decoration: none;
+
+      &:hover {
+        color: var(--link-color);
+      }
     }
 
     .count {
-      color: color-mod(var(--text-color) tint(25%));
+      color: var(--muted-text-color);
     }
   }
 }

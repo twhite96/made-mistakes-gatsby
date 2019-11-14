@@ -66,6 +66,7 @@
   --background-color: #111;
   --text-color: #fff;
   --link-color: #fff;
+  --secondary-color: #fff;
   --input-background-color: #1a1a1d;
   --border-color: color-mod(var(--primary-color) tint(50%));
   --shadow-color: color-mod(var(--primary-color) shade(50%));
