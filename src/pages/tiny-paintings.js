@@ -149,13 +149,13 @@ export const pageQuery = graphql`
     file(relativePath: { eq: "tiny-paintings.jpg" }) {
       childImageSharp {
         fluid(
-          maxWidth: 800
+          maxWidth: 1100
           quality: 75
           traceSVG: { background: "#fff", color: "#111" }
         ) {
           ...GatsbyImageSharpFluid_tracedSVG
         }
-        fixed(width: 1000, quality: 75) {
+        fixed(width: 1100, quality: 75) {
           src
           height
           width

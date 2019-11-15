@@ -153,7 +153,7 @@ export const postsQuery = graphql`
             image {
               childImageSharp {
                 fluid(
-                  maxWidth: 800
+                  maxWidth: 760
                   quality: 75
                   traceSVG: { background: "#fff", color: "#111" }
                 ) {
