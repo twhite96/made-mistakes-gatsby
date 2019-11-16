@@ -360,7 +360,7 @@ module.exports = {
             query: `
               {
                 allMarkdownRemark(
-                  limit: 50,
+                  limit: 25,
                   filter: {
                     fileAbsolutePath: { regex: "/posts/" }
                     fields: { sourceName: { ne: "comments" } }
@@ -379,7 +379,7 @@ module.exports = {
                         date
                         image {
                           childImageSharp {
-                            fixed(width: 1000) {
+                            fixed(width: 1100) {
                               src
                             }
                           }
@@ -448,7 +448,7 @@ module.exports = {
                         date
                         image {
                           childImageSharp {
-                            fixed(width: 1000) {
+                            fixed(width: 1100) {
                               src
                             }
                           }
@@ -518,7 +518,7 @@ module.exports = {
                         date
                         image {
                           childImageSharp {
-                            fixed(width: 1000) {
+                            fixed(width: 1100) {
                               src
                             }
                           }
