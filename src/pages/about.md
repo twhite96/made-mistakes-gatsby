@@ -18,7 +18,7 @@ When I'm not drawing on my iPad or releasing open source [Jekyll themes](/work/j
 
 And if that wasn't enough to keep me busy --- I'm also the father of [twin girls](/tag/twins/) and married to a [subscription box addicted vegan](https://2littlerosebuds.com "Wendy Rose").
 
-<figure>
+<figure class="two-column">
   <a href="/paperfaces/mmistakes-2-portrait/">
     <img src="../images/michael-rose-paper-portrait-sidebar.jpg" alt="Michael Rose iPad self portrait">
   </a>

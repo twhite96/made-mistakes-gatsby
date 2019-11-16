@@ -223,10 +223,9 @@ I started to lose the shape of the circle because I was painting pretty fast. To
 
 After you finish filling in the planet, now is a good time to modify Pencil's settings and turn Blend[^blend-off] back on (if you previously turned it off like I did).
 
-{% figure class:"gallery-2-col" %}
 ![blending the planet's edge with a finger](../../images/paper-53-space-2-planet-blend-1.jpg)
+
 ![screenshot of a planet with the edges smudged](../../images/paper-53-space-2-planet-blend-2.jpg)
-{% endfigure %}
 
 Using the tip of your finger, quickly swipe along the planet's edge in an arc like motion. This will blur strokes and colors at the edge while retaining the circle's shape. With the right amount of speed you should end up with a something that resembles a glowing orb.
 
