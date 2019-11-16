@@ -277,6 +277,7 @@ You may remember in the first part of this guide I cautioned against using the i
 Just like earlier, star clusters can be lightened or darkened by glazing over them with the appropriate colors. If you do decide to lighten sections be sure to move fast as you risk going too white when lingering in one spot.
 
 ![finished space scene drawn with a Pencil stylus](../../images/paper-53-space-2-finished.jpg)
+
 ---
 
 ## Two more things

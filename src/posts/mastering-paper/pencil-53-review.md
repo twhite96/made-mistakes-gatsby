@@ -51,8 +51,6 @@ Pencil's tip does a great job of repelling any finger grease that may accumulate
 
 When Pencil by FiftyThree originally launched drawing with the broadside of the tip had zero affect on the marks you made. That all changed in iOS 8 and Paper 2.0.
 
-`vimeo: 98146708`
-
 ### Is the tip durable?
 
 Pencil's tip is by no means the most durable I've used. The longevity of the rubber that encases the 14kt gold plated tip is affected by the amount of pressure you apply and how held.
@@ -99,9 +97,11 @@ Instead of opening the tool tray, selecting the eraser, removing your mistake, a
 
 In combination with **Surface Pressure** you can get into tight spots with ease --- something that is impossible to do without Pencil.
 
-![erasing with the corner of Pencil's eraser](../../images/paper-53-erasing-corner.jpg)
-
-![erasing with the entire edge of Pencil's eraser](../../images/paper-53-erasing-wide.jpg)
+<figure class="two-column">
+  <img src="../../images/paper-53-erasing-corner.jpg" alt="erasing with the corner of Pencil's eraser">
+  <img src="../../images/paper-53-erasing-wide.jpg" alt="erasing with the entire edge of Pencil's eraser">
+  <figcaption><p>Comparison of erasing positions with Pencil.</p></figcaption>
+</figure>
 
 [[notice | Erasing and undoing techniques]]
 | If you're looking for more erasing techniques you're in luck. I wrote an entire guide dedicated to [correcting and covering-up mistakes](/mastering-paper/erasing/).
