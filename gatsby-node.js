@@ -6,7 +6,6 @@ const sharp = require('sharp')
 
 const postTemplate = path.resolve(`./src/templates/post.js`)
 const pageTemplate = path.resolve(`./src/templates/page.js`)
-// const indexTemplate = path.resolve(`./src/templates/index.js`)
 const categoriesTemplate = path.resolve(`./src/templates/categories.js`)
 const tagsTemplate = path.resolve(`./src/templates/tags.js`)
 
@@ -81,17 +80,6 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
     )
     const posts = result.data.posts.edges
     const pages = result.data.pages.edges
-
-    // Create posts index with pagination
-    // const indexPrefix = ({ pageNumber }) => (pageNumber === 0 ? '/' : '/page')
-
-    // paginate({
-    //   createPage,
-    //   items: posts,
-    //   component: indexTemplate,
-    //   itemsPerPage: siteMetadata.postsPerPage,
-    //   pathPrefix: indexPrefix,
-    // })
 
     // Create Markdown posts
     posts.forEach(({ node }, index) => {
