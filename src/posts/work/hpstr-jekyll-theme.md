@@ -69,9 +69,7 @@ There are some [Jekyll Grunt plugins](https://github.com/dannygarcia/grunt-jekyl
 
 Instead of using bulky JavaScript widgets provided by Facebook, Twitter, and Google I went with lightweight share links. Social sharing links are enabled by default on all posts and pages. To disable add `share: false` to the post's YAML Front Matter.
 
-{% figure caption:"How social sharing buttons look in HPSTR" %}
 ![social share button screenshot](../../images/hpstr-social-share-example.jpg)
-{% endfigure %}
 
 [^2]: To me a blog's masthead, logo, title, headline, and navigation are branding elements that can reinforce or distract from a central theme or feeling. I suppose downplaying or removing these elements could be see as a way of branding too… but that's a discussion for another day.
 [^3]: On mobile I choose to remove the fixed positioning to keep the menu from interfering with the main content.

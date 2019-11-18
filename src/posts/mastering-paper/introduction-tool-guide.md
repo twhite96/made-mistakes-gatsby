@@ -137,7 +137,6 @@ Like the pencil, the watercolor brush is another tool you should spend time expe
 It helps to think of your stylus tip as a brush loaded with watered down paint. Because the paint has been thinned it won't be as intense or saturated as the color from one of the pens. Instead you need to build up color in multiple layers.
 
 ![Choppy painting versus consistent painting watercolor swatches in Paper app](../../images/paper-53-watercolor-even-fill.jpg)
-{% endfigure %}
 
 This "thinned out" behavior also factors into how even of a coat you can apply. *Moving the brush faster* doesn't let the paint fully cover a spot and will make it appear choppy. While *moving slowly* allows the paint to flow evenly off the brush and build into a dark even value. Mastering the speed at which you apply color is essential to creating even tones and shading.
 

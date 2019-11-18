@@ -207,7 +207,7 @@ Since mixing complements visually on canvas doesn't result in a neutral gray in 
 2. To neutralize them, do one full rotation of the Color Mixer with both complementary colors selected.
 3. Finally tap the color in the Mixer and slide the saturation (middle bar) down somewhere between 10--20% to dull it.
 
-<figure class="3-column">
+<figure class="three-column">
   <img alt="Mixing a neutral gray step 1" src="../../images/paper-53-mixing-complementary-gray-1.jpg">
   <img alt="Mixing a neutral gray step 2" src="../../images/paper-53-mixing-complementary-gray-2.jpg">
   <img alt="Mixing a neutral gray step 3" src="../../images/paper-53-mixing-complementary-gray-3.jpg">

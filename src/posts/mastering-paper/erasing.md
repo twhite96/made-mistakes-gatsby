@@ -45,9 +45,10 @@ Erasing with the corner versus the entire width of Pencil's eraser.
 
 Pencil's eraser now changes size depending on how much of it makes contact with the iPad's screen. Touching the corner of the eraser to the screen will remove a small portion of your drawing. While swipes with the wider edge erase in broader strokes.
 
-{% figure caption:"Pencil's eraser offers way more flexibility in size than the default eraser." %}
-![eraser sizes](../../images/paper-53-eraser-sizes.jpg)
-{% endfigure %}
+<figure>
+  <img src="../../images/paper-53-eraser-sizes.jpg" alt="eraser sizes">
+  <figcaption><p>Pencil&rsquo;s eraser offers way more flexibility in size than the default eraser.</p>
+</figure>
 
 A Surface Pressure enabled eraser can be made quite small, allowing you to sneak into tighter spaces. A trick the normal eraser tool wishes it could pull off.
 

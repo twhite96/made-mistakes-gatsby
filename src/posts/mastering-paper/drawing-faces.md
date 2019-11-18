@@ -255,11 +255,11 @@ To make the face appear more real you'll want to use a wide range of colors. By 
   <img alt="dry mixing colored pencils" src="../../images/paper-53-face-pencil-dry-mixing-lg.jpg">
   <figcaption><p>Washes of colored pencil can be blended into one another by lightly overlapping. It is crucial that these tones are applied smoothly to create a more pleasing effect.</p></figcaption>
 </figure>
- 
-[[notice | ProTip: one color at a time]]
-| Stick with one color and bounce around the face with it. It'll save you from constantly opening and closing the tool tray to select different colors.
 
 Continue hatching and coloring your way through the rest of the drawing. At this point you could call this a finished piece, but I'm going to take it a few steps further if you don't mind.
+
+[[notice | ProTip: one color at a time]]
+| Stick with one color and bounce around the face with it. It'll save you from constantly opening and closing the tool tray to select different colors.
 
 ### Building the face with glazes, again
 

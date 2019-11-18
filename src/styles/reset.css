@@ -63,7 +63,8 @@ pre,
 blockquote,
 dl,
 table,
-address {
+address,
+figure {
   margin-top: 0;
   margin-bottom: calc(1rem * var(--line-height));
 }

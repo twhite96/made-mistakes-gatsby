@@ -8,8 +8,7 @@ categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, Apple]
 image: ../../images/mix-53-feature.jpg
 toc: true
-comments: true
-comments_locked: true
+comments: false
 ---
 
 As an avid Paper creator, sharing my sketches and "ideas" has felt a bit like I was in an empty room talking to myself. Sure I could ask for feedback in the form of a 140 character Tweet or reblog on Tumblr, but the ability to collaborate was missing. With the [release of Mix](http://news.fiftythree.com/post/97645975008/mix-create-together-the-english-inventor-sir), that void has been filled.
