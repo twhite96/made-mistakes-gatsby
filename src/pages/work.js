@@ -61,7 +61,7 @@ const WorksPage = ({ data }) => {
               )
             })}
           </div>
-          <h2 className={style.subHeading}>Active GitHub repositories</h2>
+          <h2 className={style.subHeading}>Open source contributions</h2>
           <div>
             {github.viewer.repositories.nodes
               .map(repo => <Repository key={repo.name} repo={repo} />)
