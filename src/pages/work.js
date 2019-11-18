@@ -5,6 +5,7 @@ import Img from 'gatsby-image'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 import Entry from '../components/Entry'
+import Repository from '../components/Repository'
 
 import style from '../styles/Archive.module.css'
 
@@ -16,6 +17,7 @@ const WorksPage = ({ data }) => {
       siteMetadata: { author: siteAuthor },
     },
     allMarkdownRemark: { edges: posts },
+    githubData: { data: github },
   } = data
   return (
     <Layout>
@@ -44,8 +46,7 @@ const WorksPage = ({ data }) => {
               const {
                 id,
                 excerpt: autoExcerpt,
-                timeToRead,
-                frontmatter: { title, date, path, author, image, excerpt },
+                frontmatter: { title, path, author, image, excerpt },
               } = node
 
               return (
@@ -59,6 +60,12 @@ const WorksPage = ({ data }) => {
                 />
               )
             })}
+          </div>
+          <h2 className={style.subHeading}>Active GitHub repositories</h2>
+          <div>
+            {github.viewer.repositories.nodes
+              .map(repo => <Repository key={repo.name} repo={repo} />)
+              .reverse()}
           </div>
         </div>
       </main>
@@ -110,6 +117,40 @@ export const pageQuery = graphql`
                 ) {
                   ...GatsbyImageSharpFluid_tracedSVG
                 }
+              }
+            }
+          }
+        }
+      }
+    }
+    githubData {
+      data {
+        viewer {
+          name
+          avatarUrl
+          isHireable
+          repositories {
+            nodes {
+              name
+              description
+              homepageUrl
+              resourcePath
+              forkCount
+              createdAt
+              updatedAt
+              languages {
+                edges {
+                  node {
+                    name
+                    color
+                  }
+                }
+              }
+              licenseInfo {
+                name
+              }
+              stargazers {
+                totalCount
               }
             }
           }
