@@ -1,8 +1,8 @@
 ---
-title: "So Simple, a Jekyll theme"
+title: "So Simple"
 date: 2013-06-26
 path: /work/so-simple-jekyll-theme/
-excerpt: "A simple Jekyll theme for words and pictures by designer Michael Rose."
+excerpt: "A simple Jekyll theme for words and pictures."
 last_modified_at: 2018-02-06T11:16:06-05:00
 image: ../../images/jekyll-theme-so-simple-feature-2018.jpg
 categories: [work]

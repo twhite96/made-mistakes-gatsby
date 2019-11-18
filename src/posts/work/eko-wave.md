@@ -3,15 +3,15 @@ title: "Eko Wave"
 path: /work/eko-wave/
 date: 2018-03-05
 last_modified_at: 2018-03-05T13:54:54-05:00
-excerpt: "Site design and creative for Eko Wave — a team of three specializing in niche applications."
+excerpt: "Site design and creative for Eko Wave — a team specializing in niche applications."
 image: ../../images/eko-wave-feature.jpg
 categories: [work]
 tags: [design]
 comments: false
-published: false
+published: true
 ---
 
-[Eko Wave LLC](http://ekowave.com) is a company started by [two](https://twitter.com/endonend) [pals](https://twitter.com/bjpmba) and myself to provide value to niche consumers through well-thought-out applications.
+**Eko Wave LLC** is a company started by [two](https://twitter.com/endonend) [pals](https://twitter.com/bjpmba) and myself to provide value to niche consumers through well-thought-out applications.
 
 When designing the logo I wanted something that played off of the word *wave* found in our name, while keeping with a color palette we established in Eko's previous life.
 

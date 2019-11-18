@@ -1,8 +1,8 @@
 ---
-title: "HPSTR, a Jekyll theme"
+title: "HPSTR"
 date: 2013-08-26
 path: /work/hpstr-jekyll-theme/
-excerpt: "A responsive Jekyll blog theme designed to give your site a modern and somewhat cliché look."
+excerpt: "Jekyll blog theme designed to give your site a modern look."
 image: ../../images/hpstr-preview-feature-2015.jpg
 categories: [work]
 tags: [Jekyll, web development, design, open source, GitHub]

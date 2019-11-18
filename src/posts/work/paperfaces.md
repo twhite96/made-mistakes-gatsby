@@ -1,7 +1,7 @@
 ---
 title: "PaperFaces iPad project"
 path: /paperfaces/
-excerpt: "PaperFaces portraits painted digitally with Paper for iOS on an iPad. Find time lapse videos, in-process screenshots, and more."
+excerpt: "Portraits painted digitally on an iPad with Paper for iOS."
 date: 2018-11-06
 last_modified_at: 2018-11-06T12:08:16-05:00
 image: ../../images/paperfaces-project-feature.jpg

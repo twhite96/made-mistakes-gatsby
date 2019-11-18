@@ -1,7 +1,7 @@
 ---
 title: "Tiny paintings"
 path: /tiny-paintings/
-excerpt: "Gallery of mini watercolor portraits painted at really small sizes."
+excerpt: "Miniature watercolor portraits painted at really small sizes."
 image: ../../images/tiny-paintings.jpg
 categories: [work]
 tags: [watercolor, painting, drawing, portrait, illustration]

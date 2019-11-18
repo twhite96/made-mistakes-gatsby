@@ -104,7 +104,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
     })
 
     // Create paginated category pages
-    const categories = ['articles', 'mastering-paper', 'notes', 'work']
+    const categories = ['articles', 'mastering-paper', 'notes']
     // const categories = filter(
     //   category => not(isNil(category)),
     //   uniq(flatMap(post => post.frontmatter.categories, postsNodes))
