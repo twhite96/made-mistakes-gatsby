@@ -43,9 +43,7 @@ const HomePage = ({ data }) => {
               Nintendo Switch.
             </p>
           </div>
-          <h2 className={style.subHeading}>
-            Featured articles
-          </h2>
+          <h2 className={style.subHeading}>Featured articles</h2>
           <div className={style.gridList}>
             {posts.map(({ node }) => {
               const {
