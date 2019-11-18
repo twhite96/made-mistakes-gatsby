@@ -11,7 +11,14 @@ const Comment = props => {
   return (
     <div className={style.comment}>
       <div className={style.avatar}>
-        <Gravatar size={60} md5={email} email={name} default="mm" rating="pg" />
+        <Gravatar
+          size={60}
+          md5={email}
+          email={name}
+          default="mm"
+          rating="pg"
+          loading="lazy"
+        />
       </div>
       <div className={style.main}>
         <header className={style.meta}>
