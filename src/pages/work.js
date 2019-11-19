@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 import Entry from '../components/Entry'
 import Repository from '../components/Repository'
+import Octicon, { MarkGithub } from '@githubprimer/octicons-react'
 
 import style from '../styles/Archive.module.css'
 
@@ -61,12 +62,21 @@ const WorksPage = ({ data }) => {
               )
             })}
           </div>
-          <h2 className={style.subHeading}>Open source contributions</h2>
+          <h2 className={style.subHeading}>
+            <Octicon
+              icon={MarkGithub}
+              verticalAlgin="middle"
+              className={style.icon}
+            />{' '}
+            Open source contributions
+          </h2>
           <div>
             {github.viewer.repositories.nodes
               .map(repo => <Repository key={repo.name} repo={repo} />)
               .reverse()}
-            <a href="https://github.com/mmistakes" className="btn">See more on GitHub</a>
+            <a href="https://github.com/mmistakes" className="btn">
+              See more on GitHub
+            </a>
           </div>
         </div>
       </main>
