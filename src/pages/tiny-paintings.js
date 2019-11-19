@@ -104,8 +104,8 @@ class Gallery extends React.Component {
                     : post.frontmatter.image
 
                   return (
-                    <div className={style.gridItem}>
-                      <Link key={post.id} to={post.frontmatter.path}>
+                    <div key={post.id} className={style.gridItem}>
+                      <Link to={post.frontmatter.path}>
                         <Img fluid={image.childImageSharp.fluid} />
                       </Link>
                     </div>
