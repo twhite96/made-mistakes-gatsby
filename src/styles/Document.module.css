@@ -199,3 +199,31 @@
     width: 25%;
   }
 }
+
+.loadMore {
+  display: block;
+  width: 100%;
+  max-width: var(--container-width);
+  margin: 1rem auto;
+  padding: 1em;
+  font-family: var(--monospace-font);
+  font-size: var(--text-base);
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: var(--button-text-color);
+  background-color: var(--button-background-color);
+  border-radius: var(--border-radius);
+  border: 0;
+  cursor: pointer;
+
+  &:hover {
+    background-color: color-mod(var(--secondary-color) tint(25%));
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &:visited {
+    color: #fff;
+  }
+}

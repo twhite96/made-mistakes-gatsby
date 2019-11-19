@@ -117,7 +117,7 @@ class Gallery extends React.Component {
               <button
                 type="button"
                 data-testid="load-more"
-                className="btn"
+                className={style.loadMore}
                 onClick={() => {
                   this.setState(prevState => ({
                     postsToShow: prevState.postsToShow + 32,
