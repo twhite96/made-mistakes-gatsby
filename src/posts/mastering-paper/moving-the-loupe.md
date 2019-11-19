@@ -1,5 +1,5 @@
 ---
-title: "Mastering Paper for iOS: how zoom while painting"
+title: "Mastering Paper for iOS: how to zoom while painting"
 date: 2014-07-03
 path: /mastering-paper/moving-the-loupe/
 last_modified_at: 2019-09-13T11:46:49-04:00
