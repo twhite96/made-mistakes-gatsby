@@ -66,7 +66,6 @@ const RepositoryFooter = ({ repo }) => {
         </FooterItem>
       )}
       <FooterItem>Updated: {updatedAt}</FooterItem>
-      {repo.homepageUrl && <FooterItem />}{' '}
     </div>
   )
 }

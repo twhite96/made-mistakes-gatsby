@@ -66,6 +66,7 @@ const WorksPage = ({ data }) => {
             {github.viewer.repositories.nodes
               .map(repo => <Repository key={repo.name} repo={repo} />)
               .reverse()}
+            <a href="https://github.com/mmistakes" className="btn">See more on GitHub</a>
           </div>
         </div>
       </main>
