@@ -5,7 +5,6 @@ import Img from 'gatsby-image'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 import Entry from '../components/Entry'
-import Section from '../components/Section'
 
 import style from '../styles/Archive.module.css'
 
@@ -34,8 +33,6 @@ const HomePage = ({ data }) => {
               <a href="/about/">Michael Rose</a>.
             </span>
           </h1>
-        </div>
-        <div className={style.content}>
           <div className={style.intro}>
             <p>
               I'm just another boring, tattooed, time traveling designer from
@@ -44,6 +41,12 @@ const HomePage = ({ data }) => {
               Nintendo Switch.
             </p>
           </div>
+          <Img
+            fluid={data.aboutImage.childImageSharp.fluid}
+            className={style.cover}
+          />
+        </div>
+        <div className={style.content}>
           <h2 className={style.subHeading}>Featured articles</h2>
           <div className={style.gridList}>
             {posts.map(({ node }) => {
@@ -203,10 +206,12 @@ export const pageQuery = graphql`
     }
     aboutImage: file(relativePath: { eq: "michael-rose-glitched.jpg" }) {
       childImageSharp {
-        fixed(width: 600) {
-          src
-          height
-          width
+        fluid(
+          maxWidth: 1100
+          quality: 75
+          traceSVG: { background: "#fff", color: "#111" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }

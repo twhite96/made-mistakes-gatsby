@@ -56,15 +56,14 @@ const Categories = ({
               {taxonomyName} {paginationTitle}
             </span>
           </h1>
-        </div>
-        <div className={style.content}>
           {taxonomyHtml && humanPageNumber === 1 && (
             <div
               className={style.intro}
               dangerouslySetInnerHTML={{ __html: taxonomyHtml }}
             />
           )}
-
+        </div>
+        <div className={style.content}>
           <div className={style.list}>
             {posts.map(({ node }) => {
               const {
