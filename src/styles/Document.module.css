@@ -1,3 +1,7 @@
+.document {
+  position: relative;
+}
+
 .title {
   width: calc(100% - 2rem);
   margin-top: 2rem;
@@ -63,15 +67,31 @@
   }
 }
 
-.toc {
+.tocWrap {
   width: calc(100% - 2rem);
   max-width: var(--text-width);
   margin: 2rem auto;
+}
+
+.tocTitle {
+  margin-bottom: 1rem;
   font-family: var(--monospace-font);
+  font-size: var(--text-sm);
+}
+
+.toc {
   font-size: var(--text-sm);
 
   p {
     margin: 0;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  > ul > li {
+    margin-left: 0;
   }
 
   li > ul {
