@@ -231,7 +231,7 @@ Usage:
   display: inline-block;
   padding: 0.5em 1em;
   font-family: var(--monospace-font);
-  font-size: var(--text-sm);
+  font-size: var(--text-base);
   font-weight: bold;
   text-align: center;
   text-decoration: none;

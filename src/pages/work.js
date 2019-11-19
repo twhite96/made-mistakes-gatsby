@@ -2,11 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
+import Octicon, { MarkGithub } from '@githubprimer/octicons-react'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 import Entry from '../components/Entry'
 import Repository from '../components/Repository'
-import Octicon, { MarkGithub } from '@githubprimer/octicons-react'
 
 import style from '../styles/Archive.module.css'
 

@@ -26,8 +26,8 @@
     outline: none;
 
     &::before {
-      outline: 2px solid var(--secondary-color);
-      outline-offset: 2px;
+      outline: 0.5rem solid var(--border-color);
+      outline-offset: 0.5rem;
     }
   }
 

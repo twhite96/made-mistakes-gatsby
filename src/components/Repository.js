@@ -56,8 +56,8 @@ const RepositoryFooter = ({ repo }) => {
         {language.name}
       </FooterItem>
       <FooterItem>
-        <Octicon icon={Star} verticalAlign="text-top" />
-        {repo.stargazers.totalCount}{' '}
+        <Octicon icon={Star} verticalAlign="text-top" />{' '}
+        {repo.stargazers.totalCount}
       </FooterItem>
       {repo.licenseInfo && (
         <FooterItem>

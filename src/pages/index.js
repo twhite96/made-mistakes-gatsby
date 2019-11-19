@@ -207,31 +207,12 @@ export const pageQuery = graphql`
     aboutImage: file(relativePath: { eq: "michael-rose-glitched.jpg" }) {
       childImageSharp {
         fluid(
-          maxWidth: 1100
+          maxWidth: 720
+          maxHeight: 480
           quality: 75
           traceSVG: { background: "#fff", color: "#111" }
         ) {
           ...GatsbyImageSharpFluid_tracedSVG
-        }
-      }
-    }
-    writingImage: file(relativePath: { eq: "blog-articles.jpg" }) {
-      childImageSharp {
-        fixed(width: 600) {
-          src
-          height
-          width
-        }
-      }
-    }
-    worksImage: file(
-      relativePath: { eq: "procreate-paintings-glitched-feature.jpg" }
-    ) {
-      childImageSharp {
-        fixed(width: 600) {
-          src
-          height
-          width
         }
       }
     }
