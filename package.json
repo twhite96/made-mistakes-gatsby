@@ -12,8 +12,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "dot-env gatsby build",
-    "develop": "dot-env gatsby develop",
+    "build": "dotenv gatsby build",
+    "develop": "dotenv gatsby develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
