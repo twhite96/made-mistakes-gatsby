@@ -80,6 +80,19 @@
   border: 0;
   cursor: pointer;
 
+  &:not(:disabled) {
+    cursor: pointer;
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: initial;
+  }
+
   &:hover {
     background-color: color-mod(var(--secondary-color) tint(25%));
     color: #fff;
@@ -88,9 +101,5 @@
 
   &:visited {
     color: #fff;
-  }
-
-  &:active {
-    transform: scale(0.95);
   }
 }

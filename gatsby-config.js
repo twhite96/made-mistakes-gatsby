@@ -84,6 +84,14 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
     {
+      resolve: `gatsby-plugin-recaptcha`,
+      options: {
+        async: true,
+        defer: true,
+        args: `?&render=explicit`,
+      },
+    },
+    {
       resolve: `gatsby-source-github-api`,
       options: {
         token: site.githubApiToken,

@@ -1,14 +1,18 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { ReCaptcha } from 'react-recaptcha-google'
 
 import site from '../../../config/site'
 
 import style from '../../styles/CommentForm.module.css'
 
 class CommentForm extends React.Component {
-  constructor(props) {
-    super(props)
+  constructor(props, context) {
+    super(props, context)
     const slugDir = this.props.slug.replace(/^\/+|/g, ``)
+
+    this.onLoadRecaptcha = this.onLoadRecaptcha.bind(this)
+    this.verifyCallback = this.verifyCallback.bind(this)
 
     this.initialState = {
       submitting: false,
@@ -28,6 +32,19 @@ class CommentForm extends React.Component {
     this.state = this.initialState
   }
 
+  componentDidMount() {
+    if (this.captcha) {
+      console.log('started, just a second...')
+      this.captcha.reset()
+    }
+  }
+
+  onLoadRecaptcha() {
+    if (this.captcha) {
+      this.captcha.reset()
+    }
+  }
+
   onSubmitComment = async event => {
     event.preventDefault()
 
@@ -37,7 +54,7 @@ class CommentForm extends React.Component {
     const formdata = new FormData(event.target)
     const formUrl = site.staticmanApi
 
-    // convert FormData to json object
+    // convert formData to json object
     // SOURCE: https://stackoverflow.com/a/46774073
     const json = {}
     formdata.forEach(function(value, prop) {
@@ -53,7 +70,11 @@ class CommentForm extends React.Component {
     // POST the request to Staticman's API endpoint
     const response = await fetch(formUrl, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'Access-Control-Allow-Headers': 'X-Requested-With',
+        'Access-Control-Allow-Origin': 'https://api.staticman.net',
+      },
       body: formBody,
     })
 
@@ -85,6 +106,11 @@ class CommentForm extends React.Component {
     })
   }
 
+  verifyCallback(recaptchaToken) {
+    // Here you will get the final recaptchaToken!!!
+    console.log(recaptchaToken, '<= your recaptcha token')
+  }
+
   render() {
     const {
       submitting,
@@ -93,8 +119,8 @@ class CommentForm extends React.Component {
       newComment: { name, email, url, message },
     } = this.state
 
-    const showError = () => error && <p>An error occured.</p>
-    const showSuccess = () => success && <p>Comment submitted!</p>
+    const showError = () => error && '<p>An error occured.</p>'
+    const showSuccess = () => success && '<p>Comment submitted!</p>'
     const slugDir = this.props.slug.replace(/^\/+|/g, ``)
 
     return (
@@ -115,6 +141,16 @@ class CommentForm extends React.Component {
                 value={this.props.slug}
               />
               <input name="options[slug]" type="hidden" value={slugDir} />
+              <input
+                name="options[reCaptcha][siteKey]"
+                type="hidden"
+                value={site.reCaptcha.siteKey}
+              />
+              <input
+                name="options[reCaptcha][secret]"
+                type="hidden"
+                value={site.reCaptcha.secret}
+              />
               <div className={style.row}>
                 <label className={style.label} htmlFor="name">
                   Name
@@ -169,12 +205,26 @@ class CommentForm extends React.Component {
                   />
                 </label>
               </div>
+              <div className={style.row}>
+                <ReCaptcha
+                  ref={el => {
+                    this.captcha = el
+                  }}
+                  size="normal"
+                  data-theme="light"
+                  render="explicit"
+                  sitekey={site.reCaptcha.siteKey}
+                  onloadCallback={this.onLoadRecaptcha}
+                  verifyCallback={this.verifyCallback}
+                />
+              </div>
               <button
                 className={style.submit}
                 type="submit"
                 disabled={submitting}
+                style={{ marginTop: '1rem' }}
               >
-                Send comment
+                {submitting ? 'Submitting...' : 'Send comment'}
               </button>
             </form>
           </>
