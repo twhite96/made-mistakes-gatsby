@@ -18,6 +18,8 @@ class CommentForm extends React.Component {
       submitting: false,
       success: false,
       error: false,
+      errorCaptcha: false,
+      isCaptchaValid: false,
       commentCount: this.props.commentCount,
       newComment: {
         parent: this.props.slug,
@@ -34,7 +36,8 @@ class CommentForm extends React.Component {
 
   componentDidMount() {
     if (this.captcha) {
-      console.log('started, just a second...')
+      console.log('Started reCaptcha...')
+      console.log('Captcha is valid:', this.state.isCaptchaValid)
       this.captcha.reset()
     }
   }
@@ -68,32 +71,36 @@ class CommentForm extends React.Component {
       .join('&')
 
     // POST the request to Staticman's API endpoint
-    const response = await fetch(formUrl, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/x-www-form-urlencoded',
-      },
-      body: formBody,
-    })
-
-    console.log(response)
-
-    if (response.ok === true) {
-      this.setState(prevState => ({
-        ...prevState,
-        newComment: {
-          parent: '',
-          slug: '',
-          'fields[name]': '',
-          'fields[email]': '',
-          'fields[url]': '',
-          'fields[message]': '',
+    if (this.state.isCaptchaValid) {
+      const response = await fetch(formUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
         },
-        success: true,
-        error: false,
-      }))
+        body: formBody,
+      })
+
+      if (response.ok === true) {
+        this.setState(prevState => ({
+          ...prevState,
+          newComment: {
+            parent: '',
+            slug: '',
+            'fields[name]': '',
+            'fields[email]': '',
+            'fields[url]': '',
+            'fields[message]': '',
+          },
+          success: true,
+          error: false,
+        }))
+      } else {
+        this.setState({ ...this.initialState, error: true })
+      }
     } else {
-      this.setState({ ...this.initialState, error: true })
+      this.captcha.reset()
+      this.setState({ submitting: false })
+      this.setState({ ...this.initialState, errorCaptcha: true })
     }
   }
 
@@ -106,9 +113,11 @@ class CommentForm extends React.Component {
     })
   }
 
-  verifyCallback(recaptchaToken) {
-    // Here you will get the final recaptchaToken!!!
-    console.log(recaptchaToken, '<= your recaptcha token')
+  verifyCallback(response) {
+    this.setState({
+      isCaptchaValid: true,
+    })
+    console.log('Captcha is valid:', this.state.isCaptchaValid)
   }
 
   render() {
@@ -116,11 +125,14 @@ class CommentForm extends React.Component {
       submitting,
       success,
       error,
+      errorCaptcha,
       newComment: { name, email, url, message },
     } = this.state
 
     const showError = () => error && <p>An error occurred</p>
     const showSuccess = () => success && <p>Comment submitted!</p>
+    const showCaptchaError = () =>
+      errorCaptcha && <p>Please complete the captcha</p>
     const slugDir = this.props.slug.replace(/^\/+|/g, ``)
 
     return (
@@ -213,11 +225,15 @@ class CommentForm extends React.Component {
                   size="normal"
                   data-theme="light"
                   render="explicit"
+                  onChange={response => {
+                    this.setState({ captchaResponse: response })
+                  }}
                   sitekey={site.reCaptcha.siteKey}
                   onloadCallback={this.onLoadRecaptcha}
                   verifyCallback={this.verifyCallback}
                 />
               </div>
+              {errorCaptcha && showCaptchaError()}
               <button
                 className={style.submit}
                 type="submit"
