@@ -72,11 +72,11 @@ class CommentForm extends React.Component {
       method: 'POST',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded',
-        'Access-Control-Allow-Headers': 'X-Requested-With',
-        'Access-Control-Allow-Origin': 'https://api.staticman.net',
       },
       body: formBody,
     })
+
+    console.log(response)
 
     if (response.ok === true) {
       this.setState(prevState => ({
@@ -119,8 +119,8 @@ class CommentForm extends React.Component {
       newComment: { name, email, url, message },
     } = this.state
 
-    const showError = () => error && '<p>An error occured.</p>'
-    const showSuccess = () => success && '<p>Comment submitted!</p>'
+    const showError = () => error && <p>An error occurred</p>
+    const showSuccess = () => success && <p>Comment submitted!</p>
     const slugDir = this.props.slug.replace(/^\/+|/g, ``)
 
     return (
