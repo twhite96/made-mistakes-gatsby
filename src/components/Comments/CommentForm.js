@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { ReCaptcha } from 'react-recaptcha-google'
+import Alert from '../Alert'
 
 import site from '../../../config/site'
 
@@ -129,10 +130,27 @@ class CommentForm extends React.Component {
       newComment: { name, email, url, message },
     } = this.state
 
-    const showError = () => error && <p>An error occurred</p>
-    const showSuccess = () => success && <p>Comment submitted!</p>
+    const showError = () =>
+      error && (
+        <Alert
+          type="danger"
+          content="<p><strong>Sorry, there was an error with your submission.</strong> Please make sure all required fields have been completed and try again.</p>"
+        />
+      )
+    const showSuccess = () =>
+      success && (
+        <Alert
+          type="success"
+          content="<p><strong>Thanks for your comment!</strong> It is currently pending and will show on the website once approved.</p>"
+        />
+      )
     const showCaptchaError = () =>
-      errorCaptcha && <p>Please complete the captcha</p>
+      errorCaptcha && (
+        <Alert
+          type="danger"
+          content="<p><strong>Sorry, there was an error with your submission.</strong> Please make sure the captcha has been completed and try again.</p>"
+        />
+      )
     const slugDir = this.props.slug.replace(/^\/+|/g, ``)
 
     return (
