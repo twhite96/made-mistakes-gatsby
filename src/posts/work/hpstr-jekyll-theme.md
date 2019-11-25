@@ -33,11 +33,11 @@ They say three times the charm, so here is another free Jekyll blog theme for yo
 * Support for Pygments and Coderay syntax highlighting to make your code examples look snazzy.
 * Grunt and Rake tasks for easier site development.
 
-<p class="browser-frame">
+<div class="browser-frame">
   <a href="https://mmistakes.github.io/hpstr-jekyll-theme/" title="View demo of HPSTR">
     <img src="../../images/hpstr-jekyll-theme-preview.jpg" alt="HPSTR Jekyll theme screenshot">
   </a>
-</p>
+</div>
 
 <p>
   <a href="https://mmistakes.github.io/jekyll-theme-hpstr/theme-setup/" class="btn">Setup guide</a>

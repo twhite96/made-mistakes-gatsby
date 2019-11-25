@@ -31,17 +31,17 @@ Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as 
   <a href="https://mmistakes.github.io/jekyll-theme-basically-basic/" onclick="ga('send', 'event', 'link', 'click', 'Preview Basically Basic');" class="btn">Theme demo</a>
 </p>
 
-<p class="browser-frame">
+<div class="browser-frame">
   <img src="../../images/basically-basic-theme-menu.png" alt="Screenshot of page with off-canvas menu">
-</p>
+</div>
 
-<p class="browser-frame">
+<div class="browser-frame">
   <img src="../../images/basically-basic-theme-cv.png" alt="Screenshot of CV/Resume page">
-</p>
+</div>
 
-<p class="browser-frame">
+<div class="browser-frame">
   <img src="../../images/basically-basic-theme-alternate-skin.jpg" alt="Screenshot of alternate theme skin">
-</p>
+</div>
 
 ## Usage
 

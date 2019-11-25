@@ -281,9 +281,9 @@ After ditching Disqus last year to [roll my own static-based solution](/articles
 
 With some research I determined a continuous integration[^ci] platform like **Travis CI**[^ci-platforms] that integrates with GitHub was what I needed.
 
-<p class="browser-frame">
+<div class="browser-frame">
   <img src="../../images/mm-travis-ci-screenshot.png" alt="Travis CI interface screenshot">
-</p>
+</div>
 
 [^ci]: Continuous integration is a DevOps software development practice where developers regularly merge their code changes into a central repository, after which automated builds and tests are run.
 
