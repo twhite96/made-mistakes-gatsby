@@ -74,7 +74,7 @@ const HomePage = ({ data }) => {
           <h2 className={style.subHeading}>Explore more on this site</h2>
           <div>
             <ul className={`${style.gridListExpanded} ${style.navList}`}>
-              <li>
+              <li key="articles">
                 <Entry
                   key="articles-home-link"
                   title="Articles"
@@ -82,7 +82,7 @@ const HomePage = ({ data }) => {
                   excerpt="<p>Long form writing mostly about design and web development.</p>"
                 />
               </li>
-              <li>
+              <li key="notes">
                 <Entry
                   key="notes-home-link"
                   title="Notes"
@@ -90,7 +90,7 @@ const HomePage = ({ data }) => {
                   excerpt="<p>Thoughts, inspiration, mistakes, and other minutia you&rsquo;d find in a blog.</p>"
                 />
               </li>
-              <li>
+              <li key="works">
                 <Entry
                   key="works-home-link"
                   title="Works"
@@ -99,7 +99,7 @@ const HomePage = ({ data }) => {
                   and developed.</p>"
                 />
               </li>
-              <li>
+              <li key="mastering-paper">
                 <Entry
                   key="mastering-paper-home-link"
                   title="Mastering Paper"
@@ -108,7 +108,7 @@ const HomePage = ({ data }) => {
                 Paper</p>"
                 />
               </li>
-              <li>
+              <li key="contact">
                 <Entry
                   key="contact-home-link"
                   title="Contact"
@@ -117,7 +117,7 @@ const HomePage = ({ data }) => {
                   love letters to me.</p>"
                 />
               </li>
-              <li>
+              <li key="support">
                 <Entry
                   key="support-home-link"
                   title="Show your support"
@@ -125,7 +125,7 @@ const HomePage = ({ data }) => {
                   excerpt="<p>Give thanks for the free open source goodies I provide.</p>"
                 />
               </li>
-              <li>
+              <li key="faqs">
                 <Entry
                   key="faqs-home-link"
                   title="Frequently asked questions"
@@ -133,7 +133,7 @@ const HomePage = ({ data }) => {
                   excerpt="<p>There&rsquo;s no such thing as a dumb question&hellip;</p>"
                 />
               </li>
-              <li>
+              <li key="topics">
                 <Entry
                   key="topics-home-link"
                   title="All topics"
