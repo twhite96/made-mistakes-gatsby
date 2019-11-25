@@ -395,13 +395,11 @@ Usage:
 }
 
 .browser-frame {
-  --browser-window-height: 30px;
-
   position: relative;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1.5rem;
-  padding: var(--browser-window-height) 0 0;
+  padding: 30px 0 0;
   max-width: var(--text-width);
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
@@ -419,15 +417,15 @@ Usage:
     top: 0;
     left: 0;
     width: 100%;
-    height: var(--browser-window-height);
+    height: 30px;
     margin: 0;
-    padding: calc(0.5 * var(--browser-window-height)) 0;
+    padding: calc(0.5 * 30px) 0;
     background: var(--border-color);
     color: color-mod(var(--text-color) tint(25%));
     font-family: var(--monospace-font);
-    font-size: var(--browser-window-height);
+    font-size: 30px;
     line-height: 0;
-    text-indent: calc(0.5 * var(--browser-window-height));
+    text-indent: calc(0.5 * 30px);
   }
 }
 
