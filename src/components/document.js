@@ -88,13 +88,13 @@ const Document = ({
       )}
 
       {toc && (
-        <nav className={style.tocWrap}>
-          <h2 className={style.tocTitle}>Table of contents</h2>
+        <details className={style.tocWrap}>
+          <summary className={style.tocTitle}>Table of contents</summary>
           <div
             className={style.toc}
             dangerouslySetInnerHTML={{ __html: tableOfContents }}
           />
-        </nav>
+        </details>
       )}
 
       <div
