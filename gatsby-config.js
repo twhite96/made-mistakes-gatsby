@@ -229,10 +229,6 @@ module.exports = {
               maxWidth: 1100,
               quality: 75,
               disableBgImage: true,
-              // tracedSVG: {
-              //   color: '#111',
-              //   background: '#fff',
-              // },
               linkImagesToOriginal: false,
             },
           },
@@ -244,6 +240,7 @@ module.exports = {
               align: 'center',
             },
           },
+          'gatsby-remark-lazy-load',
           'gatsby-remark-copy-linked-files',
           {
             resolve: 'gatsby-remark-smartypants',
