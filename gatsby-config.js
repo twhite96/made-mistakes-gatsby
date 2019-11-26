@@ -299,12 +299,7 @@ module.exports = {
       resolve: 'gatsby-plugin-sitemap',
       options: {
         output: '/sitemap.xml',
-        exclude: [
-          '/dev-404-page',
-          '/404',
-          '/404.html',
-          '/offline-plugin-app-shell-fallback',
-        ],
+        exclude: ['/dev-404-page', '/404', '/404.html'],
         createLinkInHead: true,
         query: `
           {
@@ -594,6 +589,5 @@ module.exports = {
         icon: site.favicon,
       },
     },
-    'gatsby-plugin-offline',
   ],
 }
