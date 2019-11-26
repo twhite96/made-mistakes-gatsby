@@ -229,6 +229,7 @@ module.exports = {
               maxWidth: 1100,
               quality: 75,
               disableBgImage: true,
+              loading: 'auto',
               linkImagesToOriginal: false,
             },
           },

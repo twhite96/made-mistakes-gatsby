@@ -41,7 +41,6 @@
     "gatsby-remark-custom-blocks": "^2.1.2",
     "gatsby-remark-embed-video": "^1.7.1",
     "gatsby-remark-images": "^3.1.11",
-    "gatsby-remark-lazy-load": "^1.0.2",
     "gatsby-remark-numbered-footnotes": "^1.0.0",
     "gatsby-remark-prismjs": "^3.3.5",
     "gatsby-remark-responsive-iframe": "^2.2.23",
