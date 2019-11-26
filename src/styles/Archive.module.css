@@ -192,6 +192,11 @@
     grid-column-gap: var(--col-gap);
     grid-row-gap: var(--col-gap);
     margin-bottom: var(--col-gap);
+
+    @media (--medium-up) {
+      margin-left: 0;
+      margin-right: 0;
+    }
   }
 
   > * {
