@@ -224,7 +224,11 @@ module.exports = {
             options: {
               maxWidth: 1100,
               quality: 75,
-              disableBgImage: true,
+              disableBgImage: false,
+              tracedSVG: {
+                color: '#111',
+                background: '#fff',
+              },
               loading: 'auto',
               linkImagesToOriginal: false,
             },
