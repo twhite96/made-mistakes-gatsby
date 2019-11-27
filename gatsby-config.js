@@ -8,6 +8,10 @@ const cssnano = require('cssnano')
 
 const site = require('./config/site')
 
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     siteUrl: `${site.url}/`,
@@ -94,7 +98,7 @@ module.exports = {
     {
       resolve: `gatsby-source-github-api`,
       options: {
-        token: site.githubApiToken,
+        token: process.env.GITHUB_API_TOKEN,
         graphQLQuery: site.githubApiQuery,
         variables: site.githubApiVariables,
       },
