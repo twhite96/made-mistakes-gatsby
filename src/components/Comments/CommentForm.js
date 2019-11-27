@@ -37,8 +37,6 @@ class CommentForm extends React.Component {
 
   componentDidMount() {
     if (this.captcha) {
-      console.log('Started reCaptcha...')
-      console.log('Captcha is valid:', this.state.isCaptchaValid)
       this.captcha.reset()
     }
   }
@@ -114,11 +112,10 @@ class CommentForm extends React.Component {
     })
   }
 
-  verifyCallback(response) {
+  verifyCallback() {
     this.setState({
       isCaptchaValid: true,
     })
-    console.log('Captcha is valid:', this.state.isCaptchaValid)
   }
 
   render() {

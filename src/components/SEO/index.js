@@ -13,6 +13,7 @@ const SEO = ({
   article,
   datePublished,
   dateModified,
+  showRecaptcha,
 }) => {
   const { site } = useStaticQuery(query)
 
@@ -140,6 +141,13 @@ const SEO = ({
             {JSON.stringify(schemaArticle)}
           </script>
         )}
+        {showRecaptcha && (
+          <script
+            src="https://www.google.com/recaptcha/api.js?&render=explicit"
+            async
+            defer
+          />
+        )}
       </Helmet>
       <OpenGraph
         description={seo.description}
@@ -174,6 +182,7 @@ SEO.propTypes = {
   }),
   path: PropTypes.string,
   article: PropTypes.bool,
+  showRecaptcha: PropTypes.bool,
 }
 
 SEO.defaultProps = {
@@ -184,6 +193,7 @@ SEO.defaultProps = {
   metaImage: null,
   path: null,
   article: false,
+  showRecaptcha: false,
 }
 
 const query = graphql`
