@@ -15,7 +15,7 @@ toc: true
 
 Two years ago I felt inspired to start the [**PaperFaces Project**](/notes/paperfaces-ipad-portrait-project/) as a way to improve drawing skills that had laid dormant for a decade or so. With an iPad, a stylus, and the [Paper by FiftyThree app](https://fiftythree.com), I set out to draw as many portraits as possible before boring of the idea.
 
-<figure class="2-column">
+<figure class="two-column">
   <img alt="first PaperFaces portrait" src="../../images/paperfaces-veganwendy-twitter.jpg">
   <img alt="last PaperFaces portrait?" src="../../images/paperfaces-veganwendy-2-twitter.jpg">
   <figcaption><p>What a difference two years made.</p></figcaption>

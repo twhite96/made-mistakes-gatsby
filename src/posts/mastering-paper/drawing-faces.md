@@ -165,7 +165,7 @@ A variation of gray can also be effective for darkening areas. The important con
 [[notice | ProTip: paint inwards]]
 | Work your glazes from the outside in, moving faster to produce soft transitions --- **speed and direction matter!**
 
-<figure class="2-column">
+<figure class="two-column">
   <img alt="painting shadows on a face" src="../../images/paper-53-faceless-shadows-1-lg.jpg">
   <img alt="painting shadows on a face" src="../../images/paper-53-faceless-shadows-2-lg.jpg">
   <figcaption><p>To build up a realistic skin tone it may take numerous layers of varying colors. It's not uncommon to mix in blue and green.</p></figcaption>

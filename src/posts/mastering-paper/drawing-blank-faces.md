@@ -31,7 +31,7 @@ I decided on a square frame for [my project](/paperfaces/ "PaperFaces iPad Portr
 
 ## Apply a background
 
-<figure class="2-column">
+<figure class="two-column">
   <img alt="Drawing a background with Paper 53" src="../../images/paper-53-draw-background-lg.jpg">
   <img alt="Detailing the background with Paper 53" src="../../images/paper-53-detail-background-lg.jpg">
   <figcaption><p>Paint from light to dark with watercolors and add detail with a pencil.</p></figcaption>
@@ -51,7 +51,7 @@ Whether I'm working on clouds, a landscape, or a face, I follow the same process
 
 The background should be nice and heavy now. Using a white pencil, outline the face or blob it out with watercolor instead. On the rare chance the background is really light, use flesh tones (light brown/pink/orange) instead. The marker or fountain pen are appropriate for face lightening, but you can't layer them as much. Watercolor allows you to progressively lighten and soften edges, which helps enhance the realism.
 
-<figure class="3-column">
+<figure class="three-column">
   <img alt="Outline the figure with Paper 53" src="../../images/paper-53-pencil-outline-figure-lg.jpg">
   <img alt="Begin lighting the figure with Paper 53" src="../../images/paper-53-lighten-figure-1-lg.jpg">
   <img alt="Continue lighting the figure with Paper 53" src="../../images/paper-53-lighten-figure-2-lg.jpg">
@@ -64,7 +64,7 @@ A white mixed with a hint of orange or yellow works great too. Experiment with t
 
 The trick here is to gradually apply smooth layers of a light color using the watercolor brush. First few layers are to fill the entire face with whatever skin color you're trying to match. For areas that are in shadow, mix in a dull (almost gray) red or blue and then quickly paint half of the face. Shape really matters --- if you don't get it right just two finger rewind and try again. Move fast and avoid lingering in one spot to keep your edges soft and avoid going too dark.
 
-<figure class="2-column">
+<figure class="two-column">
   <img alt="Use light watercolors to build up a face with Paper 53" src="../../images/paper-53-build-face-watercolor-1-lg.jpg">
   <img alt="Use dull colors to shade a face with Paper 53" src="../../images/paper-53-build-face-watercolor-2-lg.jpg">
   <figcaption><p>Move quick and deliberate with watercolor.</p></figcaption>

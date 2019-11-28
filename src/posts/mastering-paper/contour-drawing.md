@@ -26,7 +26,7 @@ Pay close attention to how the form's contour and shape relate to each other mak
 
 When you observe a shadow or a dark division, move your stylus faster to produce a thicker line. For highlights and lighter areas move slowly to draw a thinner line.
 
-<figure class="2-column">
+<figure class="two-column">
   <img alt="blind contour drawing of a hand drawn with a Pogo Connect" src="../../images/paper-53-contour-hand-pogo-lg.jpg">
   <img alt="blind contour drawing of a hand drawn with a Pencil by 53" src="../../images/paper-53-contour-hand-pencil-lg.jpg">
   <figcaption><p>I find drawing with a Pogo Connect allows for greater control over the line's weight.</p>

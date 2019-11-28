@@ -491,7 +491,7 @@ The challenge has been finding ways to surface related content and displaying th
 
 Archive page layouts I've designed over the years have gone through several incarnations. I went from plain text lists, to thumbnail images, to listings with a short excerpt, to something that combined them all.
 
-<figure class="2-column">
+<figure class="two-column">
   <img alt="Plain text post list" src="../../images/mm-text-teasers.png">
   <img alt="Visual post list" src="../../images/mm-visual-teasers.png">
   <figcaption><p>Title/excerpt versus image/date/title/excerpt post lists.</p></figcaption>

@@ -30,7 +30,7 @@ With the base sky color mixed, select the pencil tool and draw a line across the
 
 Prep work complete, now you can start the actual painting of the sky. What you're trying to accomplish with this step is a smooth coat that gradually fades to white as you approach the horizon line. The easiest way to do this is with the watercolor brush, starting from the top of the composition, working down in a slight zig zag pattern.
 
-<figure class="2-column">
+<figure class="two-column">
   <img alt="screenshot showing sky stroke direction with arrows" src="../../images/paper-53-sky-stroke-direction-arrows.jpg">
   <img alt="screenshot showing sky stroke direction desired result" src="../../images/paper-53-sky-stroke-direction.jpg">
   <figcaption><p>Direction your stroke should follow. Back and forth, top to bottom.</p></figcaption>
@@ -59,7 +59,7 @@ No need to overdo it with the wisps, just a few light crosshatches is all that's
 
 Don't be afraid to go back into the clouds with the blue color we initially painted the sky with. The same "streaky" pencil pattern used to draw wisps (see above) can be used to add subtle cloud shadows. I often flip flop between blue and white to get the detail just right.
 
-<figure class="2-column">
+<figure class="two-column">
   <img alt="screenshot adding blue shadows to clouds" src="../../images/paper-53-cloud-blue-shadow-lg.jpg">
   <img alt="screenshot the finished cloud" src="../../images/paper-53-clouds-lg.jpg">
   <figcaption><p>Adding subtle blue shadows to the larger fluffy clouds and the finished result.</p></figcaption>

@@ -170,7 +170,7 @@ Examples of gesture drawings created with Pencil and Surface Pressure:
 
 To get the most out of this technique you're going to want to hold Pencil differently than you're accustomed to. Instead of a [tripod grip](https://www.ot-mom-learning-activities.com/correct-pencil-grasp.html) you'll want to wrap your fingers around Pencil and rest your thumb just below (or on) the tip.
 
-<figure class="2-column">
+<figure class="two-column">
   <img alt="holding Pencil with a traditional writing grip" src="../../images/pencil-tripod-grip.jpg">
   <img alt="holding Pencil with a palm grip" src="../../images/pencil-palm-grip.jpg">
   <figcaption><p>Tripod grip on the left (good for writing), palm grip on the right (good for gesture drawing).</p></figcaption>

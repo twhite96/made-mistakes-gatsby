@@ -138,7 +138,7 @@ After receiving a Pogo Connect as a birthday gift from my wife years ago, one of
 
 Starting out as a digital illustration virgin I wanted to ease in with something that felt familiar to the "real" tools I was used to. Paper by FiftyThree fit this criteria perfectly, making the transition from analog art to digital easier. I did experiment with Procreate at the same time, but was never really happy with the results since I didn't understand the medium yet.
 
-<figure class="2-column">
+<figure class="two-column">
   <img alt="Wendy's portrait painted in Procreate with a Pogo Connect stylus" src="../../images/wendy-rose-procreate.jpg">
   <img alt="Figure drawing experiments in Procreate" src="../../images/grunge-figure-drawing-procreate-lg.jpg">
   <figcaption><p>My early attempts with Procreate weren't all that great. It took me some time to figure out the paint engine as it felt less organic than what I was used to with traditional media.</p></figcaption>
@@ -152,7 +152,7 @@ Trading simplicity and minimalism for options and power felt extremely rewarding
 
 It's this single purpose that allows Procreate to excel at the sorts of things digital artists require in a workflow. In the five short hours I spent with the app I created a realistic portrait that probably would have taken me 10 hours in Paper. It almost felt like I was cheating by exploiting all of Procreate's hallmark features this easily!
 
-<figure class="2-column">
+<figure class="two-column">
   <img alt="Layers in Procreate" src="../../images/mr-allan-procreate-layers.jpg">
   <img alt="Blending modes in Procreate" src="../../images/mr-allan-procreate-blending-modes.jpg">
   <figcaption><p>Layers, and blending modes, and time lapse recording, oh my!</p></figcaption>
