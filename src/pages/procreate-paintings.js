@@ -69,7 +69,9 @@ class Gallery extends React.Component {
         <main className={style.document}>
           <div className={style.title}>
             <h1 className={style.heading}>
-              <span><span>Procreate iPad paintings</span></span>
+              <span>
+                <span>Procreate iPad paintings</span>
+              </span>
             </h1>
           </div>
           {this.props.data.file.childImageSharp.fluid && (
@@ -102,7 +104,10 @@ class Gallery extends React.Component {
                   return (
                     <div key={post.id} className={style.gridItem}>
                       <Link to={post.frontmatter.path}>
-                        <Img fluid={image.childImageSharp.fluid} />
+                        <Img
+                          fadeIn={false}
+                          fluid={image.childImageSharp.fluid}
+                        />
                       </Link>
                     </div>
                   )
