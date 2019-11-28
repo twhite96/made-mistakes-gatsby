@@ -24,16 +24,6 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-            var iframes = document.querySelectorAll('.embedVideo-iframe');
-            for (var i = 0; i < iframes.length; i++) {
-              iframes[i].classList.add('lazyload');
-            }
-            `,
-          }}
-        />
       </body>
     </html>
   )
