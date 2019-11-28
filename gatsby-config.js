@@ -217,6 +217,13 @@ module.exports = {
             options: {
               related: false,
               noIframeBorder: true,
+              urlOverrides: [
+                {
+                  id: 'youtube',
+                  embedURL: videoId =>
+                    `https://www.youtube-nocookie.com/embed/${videoId}`,
+                },
+              ],
             },
           },
           {
