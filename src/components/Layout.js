@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { useStaticQuery, graphql } from 'gatsby'
+import useSiteMetadata from './useSiteMetadata'
 
 import Header from './Header'
 import Footer from './Footer'
@@ -9,30 +9,6 @@ import '../styles/Layout.module.css'
 import style from '../styles/Grid.module.css'
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-          defaultTheme
-          twitterUrl
-          githubUrl
-          instagramUrl
-          feedUrl
-          copyrights
-          mainMenu {
-            title
-            path
-          }
-          footerMenu {
-            title
-            path
-          }
-          menuMoreText
-        }
-      }
-    }
-  `)
   const {
     title,
     defaultTheme,
@@ -44,7 +20,7 @@ const Layout = ({ children }) => {
     instagramUrl,
     feedUrl,
     copyrights,
-  } = data.site.siteMetadata
+  } = useSiteMetadata()
 
   return (
     <div className={style.wrapper}>

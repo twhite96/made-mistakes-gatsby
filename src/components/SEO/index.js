@@ -1,11 +1,11 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
-import { useStaticQuery, graphql } from 'gatsby'
+import useSiteMetadata from '../useSiteMetadata'
 import OpenGraph from './OpenGraph'
 import TwitterCard from './TwitterCard'
 
-const SEO = ({
+function SEO({
   title,
   description,
   metaImage,
@@ -14,9 +14,7 @@ const SEO = ({
   datePublished,
   dateModified,
   showRecaptcha,
-}) => {
-  const { site } = useStaticQuery(query)
-
+}) {
   const {
     buildTime,
     siteMetadata: {
@@ -34,7 +32,7 @@ const SEO = ({
       twitter,
       facebook,
     },
-  } = site
+  } = useSiteMetadata()
 
   const seo = {
     title: title || defaultTitle,
@@ -196,30 +194,30 @@ SEO.defaultProps = {
   showRecaptcha: false,
 }
 
-const query = graphql`
-  query SEO {
-    site {
-      buildTime(formatString: "YYYY-MM-DD")
-      siteMetadata {
-        siteUrl
-        defaultTitle: title
-        defaultDescription: description
-        defaultBanner: image {
-          src
-        }
-        siteLanguage
-        ogLanguage
-        pingbackUrl
-        webmentionUrl
-        micropubUrl
-        coilUrl
-        author {
-          name
-          url
-        }
-        twitter
-        facebook
-      }
-    }
-  }
-`
+// const query = graphql`
+//   query SEO {
+//     site {
+//       buildTime(formatString: "YYYY-MM-DD")
+//       siteMetadata {
+//         siteUrl
+//         defaultTitle: title
+//         defaultDescription: description
+//         defaultBanner: image {
+//           src
+//         }
+//         siteLanguage
+//         ogLanguage
+//         pingbackUrl
+//         webmentionUrl
+//         micropubUrl
+//         coilUrl
+//         author {
+//           name
+//           url
+//         }
+//         twitter
+//         facebook
+//       }
+//     }
+//   }
+// `
