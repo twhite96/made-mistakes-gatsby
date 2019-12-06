@@ -14,16 +14,19 @@ const metaImage = site.image
 
 // This would normally be in a Redux store or some other global data store.
 if (typeof window !== `undefined`) {
-  window.postsToShow = 32
+  window.postsToShow = 20
 }
 
 class Gallery extends React.Component {
   constructor() {
     super()
-    const postsToShow = 32
+    let postsToShow = 20
+    if (typeof window !== `undefined`) {
+      postsToShow = window.postsToShow
+    }
 
     this.state = {
-      showingMore: postsToShow > 32,
+      showingMore: postsToShow > 20,
       postsToShow,
     }
   }
@@ -47,15 +50,16 @@ class Gallery extends React.Component {
   update() {
     const distanceToBottom =
       document.documentElement.offsetHeight -
-      (window.scrollY + window.innerHeight)
+      (window.pageYOffset + window.innerHeight)
     if (this.state.showingMore && distanceToBottom < 100) {
-      this.setState(prevState => ({ postsToShow: prevState.postsToShow + 32 }))
+      this.setState(prevState => ({ postsToShow: prevState.postsToShow + 20 }))
     }
     this.ticking = false
   }
 
   render() {
     const posts = this.props.data.allMarkdownRemark.edges.map(e => e.node)
+    const postsSize = this.props.data.allMarkdownRemark.edges.length
 
     return (
       <Layout>
@@ -114,21 +118,22 @@ class Gallery extends React.Component {
                 })}
               </Masonry>
             ))}
-            {!this.state.showingMore && (
-              <button
-                type="button"
-                data-testid="load-more"
-                className={style.loadMore}
-                onClick={() => {
-                  this.setState(prevState => ({
-                    postsToShow: prevState.postsToShow + 32,
-                    showingMore: true,
-                  }))
-                }}
-              >
-                Load more
-              </button>
-            )}
+            {postsSize <= this.postsToShow ||
+              (!this.state.showingMore && (
+                <button
+                  type="button"
+                  data-testid="load-more"
+                  className={style.loadMore}
+                  onClick={() => {
+                    this.setState({
+                      postsToShow: this.state.postsToShow + 20,
+                      showingMore: true,
+                    })
+                  }}
+                >
+                  Load more
+                </button>
+              ))}
           </div>
         </main>
       </Layout>
