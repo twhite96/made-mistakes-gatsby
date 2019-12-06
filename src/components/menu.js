@@ -9,7 +9,12 @@ const MainMenu = ({ mainMenu }) => {
 
   const items = menu.map((menuItem, index) => (
     <li key={index} className={style.primaryMenuItem}>
-      <Link to={menuItem.path} itemProp="url">
+      <Link
+        to={menuItem.path}
+        itemProp="url"
+        activeStyle={{ textDecoration: 'line-through', cursor: 'default' }}
+        partiallyActive
+      >
         {menuItem.title}
       </Link>
     </li>
