@@ -1,0 +1,4 @@
+[submodule "images"]
+	path = src/images
+	url = https://github.com/mmistakes/made-mistakes-content-images.git
+	branch = master
