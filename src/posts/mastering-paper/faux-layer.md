@@ -88,10 +88,7 @@ Tap **Clear Page Color** and watch as the background and rough sketch disappear,
 
 Now you can continue adding to page by drawing and painting on top of what remains. I think you'll find this method is so much faster than having to carefully [erase or Blend away lines](/mastering-paper/erasing/) from an "under-drawing."
 
-<figure>
-  <img alt="faux layer trick process animation" src="../../images/paper-53-faux-layers-process.gif">
-  <figcaption><p>Here is how the faux layer trick for Paper by FiftyThree looks in sequence.</p></figcaption>
-</figure>
+![faux layer trick process animation](../../images/paper-53-faux-layers-process.gif)
 
 ## Other uses
 
