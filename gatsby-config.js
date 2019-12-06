@@ -8,6 +8,10 @@ const cssnano = require('cssnano')
 
 const site = require('./config/site')
 
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     siteUrl: `${site.url}/`,
