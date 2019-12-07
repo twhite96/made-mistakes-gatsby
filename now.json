@@ -1,0 +1,12 @@
+{
+  "env": {
+    "GITHUB_API_TOKEN": "@github-api-token",
+    "NODE_ENV": "production"
+  },
+  "build": {
+    "env": {
+      "GITHUB_API_TOKEN": "@github-api-token",
+      "NODE_ENV": "production"
+    }
+  }
+}
