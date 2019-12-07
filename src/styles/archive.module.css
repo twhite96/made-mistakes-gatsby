@@ -1,4 +1,4 @@
-@import './Icon.module.css';
+@import './icon.module.css';
 
 .title {
   @media (--medium-down) {
