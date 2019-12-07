@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Comment from './Comment'
+import Comment from './comment'
 
 import style from '../../styles/comments-list.module.css'
 
