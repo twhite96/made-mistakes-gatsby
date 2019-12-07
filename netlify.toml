@@ -1,12 +1,11 @@
 [build]
-  command = "CI=false gatsby build"
+  command = "gatsby build"
   publish = "public"
 
 [build.environment]
   NODE_VERSION = "12"
   YARN_VERSION = "1.2.1"
   YARN_FLAGS = "--pure-lockfile --verbose"
-  CI = false
 
 [[plugins]]
 type = "netlify-plugin-gatsby-cache"
