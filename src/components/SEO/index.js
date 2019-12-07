@@ -1,11 +1,11 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
-import useSiteMetadata from '../useSiteMetadata'
+import { useStaticQuery, graphql } from 'gatsby'
 import OpenGraph from './OpenGraph'
 import TwitterCard from './TwitterCard'
 
-function SEO({
+const SEO = ({
   title,
   description,
   metaImage,
@@ -14,7 +14,9 @@ function SEO({
   datePublished,
   dateModified,
   showRecaptcha,
-}) {
+}) => {
+  const { site } = useStaticQuery(query)
+
   const {
     buildTime,
     siteMetadata: {
@@ -32,7 +34,7 @@ function SEO({
       twitter,
       facebook,
     },
-  } = useSiteMetadata()
+  } = site
 
   const seo = {
     title: title || defaultTitle,
@@ -166,6 +168,8 @@ function SEO({
   )
 }
 
+export default SEO
+
 SEO.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
@@ -192,32 +196,30 @@ SEO.defaultProps = {
   showRecaptcha: false,
 }
 
-// const query = graphql`
-//   query SEO {
-//     site {
-//       buildTime(formatString: "YYYY-MM-DD")
-//       siteMetadata {
-//         siteUrl
-//         defaultTitle: title
-//         defaultDescription: description
-//         defaultBanner: image {
-//           src
-//         }
-//         siteLanguage
-//         ogLanguage
-//         pingbackUrl
-//         webmentionUrl
-//         micropubUrl
-//         coilUrl
-//         author {
-//           name
-//           url
-//         }
-//         twitter
-//         facebook
-//       }
-//     }
-//   }
-// `
-
-export default SEO
+const query = graphql`
+  query SEO {
+    site {
+      buildTime(formatString: "YYYY-MM-DD")
+      siteMetadata {
+        siteUrl
+        defaultTitle: title
+        defaultDescription: description
+        defaultBanner: image {
+          src
+        }
+        siteLanguage
+        ogLanguage
+        pingbackUrl
+        webmentionUrl
+        micropubUrl
+        coilUrl
+        author {
+          name
+          url
+        }
+        twitter
+        facebook
+      }
+    }
+  }
+`
