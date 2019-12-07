@@ -100,7 +100,7 @@ module.exports = {
       options: {
         name: 'images',
         path: `${__dirname}/src/images`,
-        ignore: [/\/(node_modules|\.git)\//],
+        // ignore: [/\/(node_modules|\.git)\//],
       },
     },
     {
