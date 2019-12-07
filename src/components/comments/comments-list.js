@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Comment from './Comment'
 
-import style from '../../styles/CommentsList.module.css'
+import style from '../../styles/comments-list.module.css'
 
 const Comments = data => {
   const {

@@ -1,12 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
-import Layout from '../components/Layout'
-import SEO from '../components/SEO'
-import Entry from '../components/Entry'
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import Entry from '../components/entry'
 
-import style from '../styles/Archive.module.css'
+import style from '../styles/archive.module.css'
 
 import site from '../../config/site'
 

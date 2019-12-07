@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { ReCaptcha } from 'react-recaptcha-google'
-import Alert from '../Alert'
+import Alert from '../alert'
 
 import site from '../../../config/site'
 
-import style from '../../styles/CommentForm.module.css'
+import style from '../../styles/comment-form.module.css'
 
 class CommentForm extends React.Component {
   constructor(props, context) {

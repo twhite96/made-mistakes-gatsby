@@ -1,14 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import SEO from '../components/SEO'
-import Layout from '../components/Layout'
-import Entry from '../components/Entry'
-import Pagination from '../components/Pagination'
+import SEO from '../components/seo'
+import Layout from '../components/layout'
+import Entry from '../components/entry'
+import Pagination from '../components/pagination'
 
 import site from '../../config/site'
 
-import style from '../styles/Archive.module.css'
+import style from '../styles/archive.module.css'
 
 const _ = require('lodash-addons')
 

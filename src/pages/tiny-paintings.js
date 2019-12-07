@@ -4,11 +4,11 @@ import Masonry from 'react-masonry-component'
 import Img from 'gatsby-image'
 import PropTypes from 'prop-types'
 import { graphql, Link } from 'gatsby'
-import SEO from '../components/SEO'
-import Layout from '../components/Layout'
+import SEO from '../components/seo'
+import Layout from '../components/layout'
 
 import site from '../../config/site'
-import style from '../styles/Document.module.css'
+import style from '../styles/document.module.css'
 
 const metaImage = site.image
 

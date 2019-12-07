@@ -1,12 +1,12 @@
 import { graphql, Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
-import Layout from '../components/Layout'
-import SEO from '../components/SEO'
+import Layout from '../components/layout'
+import SEO from '../components/seo'
 
 import site from '../../config/site'
 
-import style from '../styles/Archive.module.css'
+import style from '../styles/archive.module.css'
 
 const _ = require('lodash-addons')
 

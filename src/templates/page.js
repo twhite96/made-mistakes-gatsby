@@ -2,9 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
-import SEO from '../components/SEO'
-import Layout from '../components/Layout'
-import Document from '../components/Document'
+import SEO from '../components/seo'
+import Layout from '../components/layout'
+import Document from '../components/document'
 import site from '../../config/site'
 
 const PageTemplate = ({ data }) => {

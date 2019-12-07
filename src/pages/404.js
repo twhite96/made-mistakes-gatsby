@@ -1,6 +1,6 @@
 import React from 'react'
-import Layout from '../components/Layout'
-import SEO from '../components/SEO'
+import Layout from '../components/layout'
+import SEO from '../components/seo'
 
 import site from '../../config/site'
 
