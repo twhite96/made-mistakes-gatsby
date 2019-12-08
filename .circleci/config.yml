@@ -19,14 +19,14 @@ commands:
             - ./node_modules
       - restore_cache:
           keys:
-            - gatsby-public-cache-{{ .Branch }}
+            - gatsby-public-images-cache-{{ .Environment.CACHE_VERSION }}
       - run:
           name: Gatsby Build
           command: GATSBY_CPU_COUNT=2 yarn build
       - save_cache:
-          key: gatsby-public-cache-{{ .Branch }}
+          key: gatsby-public-images-cache-{{ .Environment.CACHE_VERSION }}
           paths:
-            - ./public
+            - ./public/images
 workflows:
   version: 2
   build-deploy:
