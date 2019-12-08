@@ -15,6 +15,7 @@ breadcrumbs:
     url: /work/jekyll-themes/
 support: true
 comments: false
+hide_meta: true
 toc: true
 order: 7
 ---

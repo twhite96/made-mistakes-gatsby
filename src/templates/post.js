@@ -25,6 +25,7 @@ const PostTemplate = ({ data, pageContext }) => {
       toc,
       comments: commentsEnabled,
       comments_locked: commentsLocked,
+      hide_meta: hideMeta,
     },
     excerpt: autoExcerpt,
     timeToRead,
@@ -56,6 +57,7 @@ const PostTemplate = ({ data, pageContext }) => {
       <Document
         key={id}
         title={title}
+        hideMeta={hideMeta}
         datePublished={date}
         dateModified={last_modified_at}
         path={path}
@@ -137,6 +139,7 @@ export const pageQuery = graphql`
         toc
         comments
         comments_locked
+        hide_meta
       }
       id
       html

@@ -9,6 +9,7 @@ categories: [work]
 tags: [Jekyll, web development, design, open source, GitHub]
 comments: false
 comments_locked: true
+hide_meta: true
 ---
 
 Below are the Jekyll starters I've developed and open sourced. Each theme contains the `_layouts`, `_includes`, Sass/CSS, JavaScript, and other sample files needed to build and host a site or blog. 

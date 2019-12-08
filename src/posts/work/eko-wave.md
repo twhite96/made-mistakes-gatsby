@@ -8,6 +8,7 @@ image: ../../images/eko-wave-feature.jpg
 categories: [work]
 tags: [design]
 comments: false
+hide_meta: true
 published: true
 ---
 

@@ -9,6 +9,7 @@ categories: [work]
 tags: [design]
 published: true
 comments: false
+hide_meta: true
 ---
 
 Eko Wave, a company started by [two](https://twitter.com/endonend) [pals](https://twitter.com/bjpmba) and myself, just took the wraps off our first app --- **Relic Scout**. Last week we launched a teaser site and couldn't be prouder of the work that we've done so far.

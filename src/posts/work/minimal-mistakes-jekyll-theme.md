@@ -14,6 +14,7 @@ breadcrumbs:
   - label: "Jekyll themes"
     url: /work/jekyll-themes/
 comments: false
+hide_meta: true
 toc: true
 support: true
 order: 8

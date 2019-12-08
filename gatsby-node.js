@@ -191,6 +191,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       featured: Boolean
       comments: Boolean
       comments_locked: Boolean
+      hide_meta: Boolean
       _parent: String!
     }
 
