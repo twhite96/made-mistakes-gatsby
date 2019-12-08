@@ -586,6 +586,12 @@ module.exports = {
     },
     'gatsby-plugin-netlify',
     {
+      resolve: 'gatsby-plugin-netlify-cache',
+      options: {
+        cachePublic: true,
+      },
+    },
+    {
       resolve: 'gatsby-plugin-manifest',
       options: {
         name: site.title,

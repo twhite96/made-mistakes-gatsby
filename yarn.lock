@@ -5595,6 +5595,14 @@ gatsby-plugin-manifest@^2.2.5:
     semver "^5.7.1"
     sharp "^0.23.3"
 
+gatsby-plugin-netlify-cache@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify-cache/-/gatsby-plugin-netlify-cache-1.2.0.tgz#e68db9c5bd4ae103b4589f9be2a3cb9958750788"
+  integrity sha512-unt4mAVpC0JzwZSo8KQV4P/trDHkr3PeTWDF5Hijw9jGfNQIWXbcj9nYljAVg7HCich6E6b27Q+zuf53InwpDQ==
+  dependencies:
+    babel-runtime "^6.26.0"
+    fs-extra "^7.0.0"
+
 gatsby-plugin-netlify@^2.1.27:
   version "2.1.27"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-2.1.27.tgz#8ab012eb19dc5efab44e0abd71934830d501b099"
@@ -8945,13 +8953,6 @@ neon-js@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/neon-js/-/neon-js-1.1.2.tgz#af85d8e2bb8099cfc7f6fe256a896a5464b00623"
   integrity sha1-r4XY4ruAmc/H9v4laolqVGSwBiM=
-
-netlify-plugin-gatsby-cache@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/netlify-plugin-gatsby-cache/-/netlify-plugin-gatsby-cache-0.2.0.tgz#ca13da9ea5158b2fd29bb22b48fd4efbcf6b7edd"
-  integrity sha512-zW92RwXYXCpH9wjPFCBL5osU9F0OiswB592tntPLYq8O67LZ7U9XYG/oYMImWZfYsy7o37EJmqDWG2M1RTz5Zg==
-  dependencies:
-    fs-extra "^8.1.0"
 
 next-tick@^1.0.0:
   version "1.0.0"

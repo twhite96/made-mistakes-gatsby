@@ -2,5 +2,5 @@
   command = "gatsby build"
   publish = "public"
 
-[[plugins]]
-type = "netlify-plugin-gatsby-cache"
+# [[plugins]]
+# type = "netlify-plugin-gatsby-cache"
