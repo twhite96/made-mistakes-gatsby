@@ -215,7 +215,7 @@ figure {
 figcaption {
   position: relative;
   margin: 0.75em 0;
-  font-size: var(--text-sm);
+  font-size: var(--text-xs);
 }
 
 img {
