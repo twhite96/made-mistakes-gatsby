@@ -84,11 +84,7 @@ const Document = ({
       </div>
 
       {image && (
-        <Img
-          fluid={image.childImageSharp.fluid}
-          className={style.cover}
-          backgroundColor="var(--input-background-color)"
-        />
+        <Img fluid={image.childImageSharp.fluid} className={style.cover} />
       )}
 
       {toc && (

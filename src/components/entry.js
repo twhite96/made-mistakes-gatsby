@@ -22,11 +22,7 @@ const Entry = ({
     <>
       <article className={`${style.entry} h-entry`}>
         {image && (
-          <Img
-            fluid={image.childImageSharp.fluid}
-            className={style.cover}
-            backgroundColor="var(--input-background-color)"
-          />
+          <Img fluid={image.childImageSharp.fluid} className={style.cover} />
         )}
         <h2 className={`${style.title} p-name`}>
           <Link to={path}>{title}</Link>

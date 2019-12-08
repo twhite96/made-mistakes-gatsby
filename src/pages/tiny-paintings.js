@@ -79,7 +79,6 @@ class Gallery extends React.Component {
             <Img
               fluid={this.props.data.file.childImageSharp.fluid}
               className={style.cover}
-              backgroundColor="var(--input-background-color)"
             />
           )}
           <div className={style.content}>
@@ -157,8 +156,12 @@ export const pageQuery = graphql`
     }
     file(relativePath: { eq: "tiny-paintings.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 1100, quality: 75) {
-          ...GatsbyImageSharpFluid_noBase64
+        fluid(
+          maxWidth: 1100
+          quality: 75
+          traceSVG: { background: "#fff", color: "#111" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
         }
         fixed(width: 1100, quality: 75) {
           src
@@ -179,15 +182,23 @@ export const pageQuery = graphql`
             path
             image {
               childImageSharp {
-                fluid(maxHeight: 400, quality: 75) {
-                  ...GatsbyImageSharpFluid_noBase64
+                fluid(
+                  maxHeight: 400
+                  quality: 75
+                  traceSVG: { background: "#fff", color: "#111" }
+                ) {
+                  ...GatsbyImageSharpFluid_tracedSVG
                 }
               }
             }
             thumbnail {
               childImageSharp {
-                fluid(maxHeight: 400, quality: 75) {
-                  ...GatsbyImageSharpFluid_noBase64
+                fluid(
+                  maxHeight: 400
+                  quality: 75
+                  traceSVG: { background: "#fff", color: "#111" }
+                ) {
+                  ...GatsbyImageSharpFluid_tracedSVG
                 }
               }
             }

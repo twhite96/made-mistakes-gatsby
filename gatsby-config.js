@@ -232,9 +232,11 @@ module.exports = {
             options: {
               maxWidth: 1100,
               quality: 75,
-              disableBgImage: true,
-              backgroundColor: 'var(--input-background-color)',
-              wrapperStyle: 'background-color: var(--input-background-color);',
+              disableBgImage: false,
+              tracedSVG: {
+                color: '#111',
+                background: '#fff',
+              },
               loading: 'auto',
               linkImagesToOriginal: false,
             },
