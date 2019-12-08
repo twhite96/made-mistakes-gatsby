@@ -124,13 +124,13 @@ module.exports = {
         path: `${__dirname}/src/posts/notes`,
       },
     },
-    // {
-    //   resolve: 'gatsby-source-filesystem',
-    //   options: {
-    //     name: 'paperfaces',
-    //     path: `${__dirname}/src/posts/paperfaces`,
-    //   },
-    // },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'paperfaces',
+        path: `${__dirname}/src/posts/paperfaces`,
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
