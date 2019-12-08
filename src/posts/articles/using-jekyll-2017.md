@@ -2,7 +2,7 @@
 title: "How I'm using Jekyll in 2017"
 date: 2017-08-30
 path: /articles/using-jekyll-2017/
-excerpt: "Lessons learned from building, optimizing, and deploying a huge static site powered by everyone's favorite SSG --- Jekyll."
+excerpt: "Lessons learned from building, optimizing, and deploying a huge static site powered by everyone's favorite SSG — Jekyll."
 image: ../../images/using-jekyll-2017-feature.jpg
 categories: [articles]
 tags: [Jekyll, web development, GitHub, open source, tutorial]
@@ -10,7 +10,7 @@ comments: true
 comments_locked: true
 toc: true
 featured: true
-last_modified_at: 2019-02-13T14:42:25-05:00
+last_modified_at: 2019-12-08T10:40:38-05:00
 ---
 
 Not going to lie --- I love [Jekyll](/tag/jekyll/), but huge static sites like mine take forever to build. What used to take seconds now go on for over 30 minutes, as thousands of files are generated and optimized.
