@@ -142,12 +142,8 @@ export const postsQuery = graphql`
             excerpt
             image {
               childImageSharp {
-                fluid(
-                  maxWidth: 760
-                  quality: 75
-                  traceSVG: { background: "#fff", color: "#111" }
-                ) {
-                  ...GatsbyImageSharpFluid_tracedSVG
+                fluid(maxWidth: 760, quality: 75) {
+                  ...GatsbyImageSharpFluid_noBase64
                 }
               }
             }

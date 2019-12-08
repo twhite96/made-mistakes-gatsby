@@ -120,12 +120,8 @@ export const pageQuery = graphql`
         tags
         image {
           childImageSharp {
-            fluid(
-              maxWidth: 1100
-              quality: 75
-              traceSVG: { background: "#fff", color: "#111" }
-            ) {
-              ...GatsbyImageSharpFluid_tracedSVG
+            fluid(maxWidth: 1100, quality: 75) {
+              ...GatsbyImageSharpFluid_noBase64
             }
             fixed(width: 1100, quality: 75) {
               src
