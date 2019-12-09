@@ -1,7 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
-import Gravatar from 'react-gravatar'
 
 import style from '../../styles/comment.module.css'
 
@@ -10,16 +9,7 @@ const Comment = props => {
 
   return (
     <div className={style.comment}>
-      <div className={style.avatar}>
-        <Gravatar
-          size={60}
-          md5={email}
-          email={name}
-          default="mm"
-          rating="pg"
-          loading="lazy"
-        />
-      </div>
+      <div className={style.avatar} />
       <div className={style.main}>
         <header className={style.meta}>
           <strong className={`${style.name} "h-card"`}>{name}</strong> on{' '}
