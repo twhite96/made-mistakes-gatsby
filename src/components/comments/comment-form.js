@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { ReCaptcha } from 'react-recaptcha-google'
+import { loadReCaptcha, ReCaptcha } from 'react-recaptcha-google'
 import Alert from '../alert'
 
 import site from '../../../config/site'
@@ -36,6 +36,7 @@ class CommentForm extends React.Component {
   }
 
   componentDidMount() {
+    loadReCaptcha()
     if (this.captcha) {
       this.captcha.reset()
     }

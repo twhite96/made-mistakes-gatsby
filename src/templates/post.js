@@ -40,7 +40,6 @@ const PostTemplate = ({ data, pageContext }) => {
   const previousLabel = previous && previous.frontmatter.title
   const nextPath = next && next.frontmatter.path
   const nextLabel = next && next.frontmatter.title
-  const showRecaptcha = !!(commentsEnabled && !commentsLocked)
 
   return (
     <Layout>
@@ -52,7 +51,6 @@ const PostTemplate = ({ data, pageContext }) => {
         description={excerpt || autoExcerpt}
         metaImage={metaImage}
         article
-        showRecaptcha={showRecaptcha}
       />
       <Document
         key={id}
