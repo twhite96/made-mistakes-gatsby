@@ -293,18 +293,6 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-prefetch-google-fonts',
-      options: {
-        fonts: [
-          {
-            family: 'DM Serif Display',
-            subsets: ['latin'],
-            variants: ['400', '400i'],
-          },
-        ],
-      },
-    },
-    {
       resolve: 'gatsby-plugin-sitemap',
       options: {
         output: '/sitemap.xml',

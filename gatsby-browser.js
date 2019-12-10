@@ -1,6 +1,8 @@
 import 'lazysizes'
 
 require('./src/styles/global.css')
+require('./src/styles/inter.css')
+require('typeface-dm-serif-display')
 require('./src/styles/prism.css')
 
 export const onClientEntry = () => {

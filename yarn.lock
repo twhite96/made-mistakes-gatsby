@@ -15311,6 +15311,11 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+typeface-dm-serif-display@^0.0.76:
+  version "0.0.76"
+  resolved "https://registry.yarnpkg.com/typeface-dm-serif-display/-/typeface-dm-serif-display-0.0.76.tgz#ab79d698652e20f70d76b5ea0c434f78cc72ddcc"
+  integrity sha512-/NRAQrlqNOez9hiVEHByTqcOoqAR4rCK0JkaD9kNXBNJyGioIpmhDpA+N/FYRQMv3Ke0523MI4PpIf0Mk5UgUQ==
+
 typescript@^3.6.4:
   version "3.7.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.3.tgz#b36840668a16458a7025b9eabfad11b66ab85c69"
