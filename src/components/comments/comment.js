@@ -9,7 +9,14 @@ const Comment = props => {
 
   return (
     <div className={style.comment}>
-      <div className={style.avatar} />
+      <div className={style.avatar}>
+        <img
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          data-srcset={`https://www.gravatar.com/avatar/${email}?d=mm&s=60 1x, https://www.gravatar.com/avatar/${email}?d=mm&s=120 2x`}
+          alt=""
+          className="lazyload"
+        />
+      </div>
       <div className={style.main}>
         <header className={style.meta}>
           <strong className={`${style.name} "h-card"`}>{name}</strong> on{' '}
