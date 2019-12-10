@@ -66,7 +66,15 @@ const Tags = ({
                 id,
                 excerpt: autoExcerpt,
                 timeToRead,
-                frontmatter: { title, date, path, author, image, excerpt },
+                frontmatter: {
+                  title,
+                  date,
+                  date_pretty,
+                  path,
+                  author,
+                  image,
+                  excerpt,
+                },
               } = node
 
               return (
@@ -74,6 +82,7 @@ const Tags = ({
                   key={id}
                   title={title}
                   date={date}
+                  datePretty={date_pretty}
                   path={path}
                   author={author || siteAuthor}
                   timeToRead={timeToRead}
