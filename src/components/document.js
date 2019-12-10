@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
-import { formatDistance } from 'date-fns'
 
 import style from '../styles/document.module.css'
 
@@ -13,6 +12,8 @@ const Document = ({
   hideMeta,
   datePublished,
   dateModified,
+  dateFromNow,
+  dateModifiedFromNow,
   image,
   author,
   timeToRead,
@@ -42,9 +43,7 @@ const Document = ({
               <span style={{ display: dateModified && `none` }}>
                 {' '}
                 <time className="dt-published" dateTime={datePublished}>
-                  {formatDistance(new Date(datePublished), new Date(), {
-                    addSuffix: true,
-                  })}
+                  {dateFromNow}
                 </time>
               </span>
             )}
@@ -52,9 +51,7 @@ const Document = ({
               <>
                 {' '}
                 <time className="dt-updated" dateTime={dateModified}>
-                  {formatDistance(new Date(dateModified), new Date(), {
-                    addSuffix: true,
-                  })}
+                  {dateModifiedFromNow}
                 </time>
               </>
             )}
@@ -109,7 +106,9 @@ Document.propTypes = {
   title: PropTypes.string,
   hideMeta: PropTypes.bool,
   datePublished: PropTypes.string,
+  dateFromNow: PropTypes.string,
   dateModified: PropTypes.string,
+  dateModifiedFromNow: PropTypes.string,
   image: PropTypes.object,
   author: PropTypes.object,
   timeToRead: PropTypes.number,

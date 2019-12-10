@@ -54,7 +54,15 @@ const HomePage = ({ data }) => {
                 id,
                 excerpt: autoExcerpt,
                 timeToRead,
-                frontmatter: { title, date, path, author, image, excerpt },
+                frontmatter: {
+                  title,
+                  date,
+                  date_pretty,
+                  path,
+                  author,
+                  image,
+                  excerpt,
+                },
               } = node
 
               return (
@@ -62,6 +70,7 @@ const HomePage = ({ data }) => {
                   key={id}
                   title={title}
                   date={date}
+                  datePretty={date_pretty}
                   path={path}
                   author={author || siteAuthor}
                   timeToRead={timeToRead}
@@ -183,7 +192,8 @@ export const pageQuery = graphql`
           timeToRead
           frontmatter {
             title
-            date(formatString: "MMMM DD, YYYY")
+            date
+            date_pretty: date(formatString: "MMMM Do, YYYY")
             path
             author
             excerpt

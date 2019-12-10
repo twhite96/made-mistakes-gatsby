@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
-import { format } from 'date-fns'
 
 import style from '../styles/entry.module.css'
 
@@ -11,6 +10,7 @@ const _ = require('lodash-addons')
 const Entry = ({
   title,
   date,
+  datePretty,
   path,
   image,
   author,
@@ -40,7 +40,7 @@ const Entry = ({
             <>
               {' '}
               <time className={`${style.date} dt-published`} dateTime={date}>
-                {format(new Date(date), 'MMMM eo, yyyy')}
+                {datePretty}
               </time>
             </>
           )}
@@ -75,6 +75,7 @@ const Entry = ({
 Entry.propTypes = {
   title: PropTypes.string,
   date: PropTypes.string,
+  datePretty: PropTypes.string,
   path: PropTypes.string,
   image: PropTypes.object,
   author: PropTypes.object,

@@ -17,7 +17,10 @@ const PostTemplate = ({ data, pageContext }) => {
     frontmatter: {
       title,
       date,
+      date_pretty,
+      date_from_now,
       last_modified_at,
+      last_modified_at_from_now,
       path,
       image,
       excerpt,
@@ -58,6 +61,9 @@ const PostTemplate = ({ data, pageContext }) => {
         hideMeta={hideMeta}
         datePublished={date}
         dateModified={last_modified_at}
+        datePretty={date_pretty}
+        dateFromNow={date_from_now}
+        dateModifiedFromNow={last_modified_at_from_now}
         path={path}
         author={site.author}
         timeToRead={timeToRead}
@@ -113,7 +119,10 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date
+        date_pretty: date(formatString: "MMMM Do, YYYY")
+        date_from_now: date(fromNow: true)
         last_modified_at
+        last_modified_at_from_now: last_modified_at(fromNow: true)
         path
         author
         excerpt

@@ -70,7 +70,15 @@ const Categories = ({
                 id,
                 excerpt: autoExcerpt,
                 timeToRead,
-                frontmatter: { title, date, path, author, image, excerpt },
+                frontmatter: {
+                  title,
+                  date,
+                  date_pretty,
+                  path,
+                  author,
+                  image,
+                  excerpt,
+                },
               } = node
 
               return (
@@ -78,6 +86,7 @@ const Categories = ({
                   key={id}
                   title={title}
                   date={date}
+                  datePretty={date_pretty}
                   path={path}
                   author={author || siteAuthor}
                   timeToRead={timeToRead}
@@ -144,7 +153,9 @@ export const postsQuery = graphql`
           timeToRead
           frontmatter {
             title
-            date(formatString: "MMMM DD, YYYY")
+            date
+            date_pretty: date(formatString: "MMMM Do, YYYY")
+            date_from_now: date(fromNow: true)
             path
             author
             excerpt

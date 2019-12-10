@@ -1,5 +1,4 @@
 import React from 'react'
-import chunk from 'lodash/chunk'
 import Masonry from 'react-masonry-component'
 import Img from 'gatsby-image'
 import PropTypes from 'prop-types'
@@ -94,30 +93,21 @@ class Gallery extends React.Component {
             </p>
           </div>
           <div className={style.gallery}>
-            {chunk(
-              posts.slice(0, this.state.postsToShow),
-              this.state.postsToShow
-              // eslint-disable-next-line no-shadow
-            ).map((chunk, i) => (
-              <Masonry className={style.grid} key={`chunk-${i}`}>
-                {chunk.map(post => {
-                  const image = post.frontmatter.thumbnail
-                    ? post.frontmatter.thumbnail
-                    : post.frontmatter.image
+            <Masonry className={style.grid}>
+              {posts.slice(0, this.state.postsToShow).map(post => {
+                const image = post.frontmatter.thumbnail
+                  ? post.frontmatter.thumbnail
+                  : post.frontmatter.image
 
-                  return (
-                    <div key={post.id} className={style.gridItem}>
-                      <Link to={post.frontmatter.path}>
-                        <Img
-                          fadeIn={false}
-                          fluid={image.childImageSharp.fluid}
-                        />
-                      </Link>
-                    </div>
-                  )
-                })}
-              </Masonry>
-            ))}
+                return (
+                  <div key={post.id} className={style.gridItem}>
+                    <Link to={post.frontmatter.path}>
+                      <Img fadeIn={false} fluid={image.childImageSharp.fluid} />
+                    </Link>
+                  </div>
+                )
+              })}
+            </Masonry>
             {postsSize <= this.postsToShow ||
               (!this.state.showingMore && (
                 <button
@@ -180,23 +170,15 @@ export const pageQuery = graphql`
             path
             image {
               childImageSharp {
-                fluid(
-                  maxHeight: 400
-                  quality: 75
-                  traceSVG: { background: "#fff", color: "#111" }
-                ) {
-                  ...GatsbyImageSharpFluid_tracedSVG
+                fluid(maxHeight: 400, quality: 75) {
+                  ...GatsbyImageSharpFluid_noBase64
                 }
               }
             }
             thumbnail {
               childImageSharp {
-                fluid(
-                  maxHeight: 400
-                  quality: 75
-                  traceSVG: { background: "#fff", color: "#111" }
-                ) {
-                  ...GatsbyImageSharpFluid_tracedSVG
+                fluid(maxHeight: 400, quality: 75) {
+                  ...GatsbyImageSharpFluid_noBase64
                 }
               }
             }

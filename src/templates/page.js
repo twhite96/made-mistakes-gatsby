@@ -9,7 +9,17 @@ import site from '../../config/site'
 
 const PageTemplate = ({ data }) => {
   const {
-    frontmatter: { title, date, last_modified_at, path, image, excerpt },
+    frontmatter: {
+      title,
+      date,
+      date_pretty,
+      date_from_now,
+      last_modified_at,
+      last_modified_at_from_now,
+      path,
+      image,
+      excerpt,
+    },
     excerpt: autoExcerpt,
     id,
     html,
@@ -33,6 +43,9 @@ const PageTemplate = ({ data }) => {
         hideMeta
         datePublished={date}
         dateModified={last_modified_at}
+        datePretty={date_pretty}
+        dateFromNow={date_from_now}
+        dateModifiedFromNow={last_modified_at_from_now}
         path={path}
         image={image}
         html={html}
@@ -54,7 +67,10 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date
+        date_pretty: date(formatString: "MMMM Do, YYYY")
+        date_from_now: date(fromNow: true)
         last_modified_at
+        last_modified_at_from_now: last_modified_at(fromNow: true)
         path
         excerpt
         image {

@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql, Link } from 'gatsby'
-import Img from 'gatsby-image'
+import { graphql } from 'gatsby'
 import Octicon, { MarkGithub } from '@githubprimer/octicons-react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -137,18 +136,13 @@ export const pageQuery = graphql`
     githubData {
       data {
         viewer {
-          name
-          avatarUrl
-          isHireable
           repositories {
             nodes {
               name
               description
               homepageUrl
               resourcePath
-              forkCount
-              createdAt
-              updatedAt
+              updatedAt(formatString: "YYYY-MM-DD")
               languages {
                 edges {
                   node {

@@ -1,6 +1,5 @@
 import React from 'react'
 import Octicon, { Law, Star } from '@githubprimer/octicons-react'
-import GitHubButton from 'react-github-btn'
 
 import style from '../styles/repository.module.css'
 
@@ -16,14 +15,6 @@ const RepositoryHeader = ({ repo }) => {
           {repo.name}
         </a>
       </h3>
-      <GitHubButton
-        href={`https://github.com${repo.resourcePath}`}
-        data-icon="octicon-star"
-        data-size="large"
-        aria-label="Star repo on GitHub"
-      >
-        Star
-      </GitHubButton>
     </div>
   )
 }
@@ -34,16 +25,7 @@ const FooterItem = ({ children }) => (
 
 const RepositoryFooter = ({ repo }) => {
   const language = repo.languages.edges[0].node
-  const timeAgo = new Date(repo.updatedA) - new Date()
-  const daysAgo = Math.floor(timeAgo / (1000 * 60 * 60 * 24)) // ms to days
-  let updatedAt = repo.updatedAt.slice(0, 10)
 
-  if (daysAgo > -21) {
-    updatedAt = new Intl.RelativeTimeFormat('en', { style: 'narrow' }).format(
-      daysAgo,
-      'day'
-    )
-  }
   return (
     <div className={style.footer}>
       <FooterItem>
@@ -65,7 +47,7 @@ const RepositoryFooter = ({ repo }) => {
           {repo.licenseInfo.name}
         </FooterItem>
       )}
-      <FooterItem>Updated: {updatedAt}</FooterItem>
+      <FooterItem>Updated: {repo.updatedAt}</FooterItem>
     </div>
   )
 }

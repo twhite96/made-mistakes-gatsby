@@ -136,7 +136,9 @@ export const postsQuery = graphql`
           timeToRead
           frontmatter {
             title
-            date(formatString: "MMMM DD, YYYY")
+            date
+            date_pretty: date(formatString: "MMMM Do, YYYY")
+            date_from_now: date(fromNow: true)
             path
             author
             excerpt

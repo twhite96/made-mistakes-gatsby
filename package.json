@@ -20,7 +20,6 @@
   "dependencies": {
     "@githubprimer/octicons-react": "^8.5.0",
     "@weknow/gatsby-remark-twitter": "^0.2.3",
-    "date-fns": "^2.2.1",
     "gatsby": "^2.18.4",
     "gatsby-awesome-pagination": "^0.3.5",
     "gatsby-image": "^2.2.34",
@@ -65,7 +64,6 @@
     "rambdax": "^2.13.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-github-btn": "^1.1.1",
     "react-helmet": "^5.2.1",
     "react-masonry-component": "^6.2.1",
     "react-recaptcha-google": "^1.1.1",
