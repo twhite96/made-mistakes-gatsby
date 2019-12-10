@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Alert from './components/alert'
 
 export default function HTML(props) {
   return (
@@ -16,7 +17,10 @@ export default function HTML(props) {
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
         <noscript key="noscript" id="gatsby-noscript">
-          This website works best with JavaScript enabled.
+          <Alert
+            content="<p><strong>Heads up!</strong> This website works best with JavaScript enabled.</p>"
+            align="center"
+          />
         </noscript>
         <div
           key={`body`}
