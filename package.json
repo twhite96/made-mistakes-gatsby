@@ -66,8 +66,7 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "react-masonry-component": "^6.2.1",
-    "react-recaptcha-google": "^1.1.1",
-    "smooth-scroll": "^16.1.0"
+    "react-recaptcha-google": "^1.1.1"
   },
   "devDependencies": {
     "@babel/plugin-proposal-nullish-coalescing-operator": "^7.4.4",
