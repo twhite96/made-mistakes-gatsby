@@ -11,9 +11,6 @@ cache:
     - node_modules
     - public/static
 
-env:
-  - CI=false
-
 before_script:
   - npm i -g gatsby-cli
   - yarn
