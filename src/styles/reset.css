@@ -139,7 +139,6 @@ pre {
 
 a {
   background-color: transparent; /* 1 */
-  text-decoration-skip: ink;
   text-decoration-skip-ink: auto;
 }
 
