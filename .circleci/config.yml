@@ -17,14 +17,17 @@ commands:
           key: yarn-cache-{{ checksum "yarn.lock" }}
           paths:
             - ./node_modules
+      - run: |
+          echo $(find ./public/static -type f -exec md5sum {} \; | md5sum | cut -d' ' -f1)  >> STATIC_CACHE_KEY
+      - run: cat STATIC_CACHE_KEY
       - restore_cache:
           keys:
-            - gatsby-public-images-cache-{{ .Environment.CACHE_VERSION }}
+            - gatsby-static-cache-
       - run:
           name: Gatsby Build
           command: GATSBY_CPU_COUNT=2 yarn build
       - save_cache:
-          key: gatsby-public-images-cache-{{ .Environment.CACHE_VERSION }}
+          key: gatsby-static-cache-{{ checksum "STATIC_CACHE_KEY" }}
           paths:
             - ./public/static
 workflows:
