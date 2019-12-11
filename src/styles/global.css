@@ -27,7 +27,7 @@
   display: inline-block;
   padding: 0.5em 1em;
   font-family: var(--monospace-font);
-  font-size: var(--text-base);
+  font-size: var(--text-sm);
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -38,7 +38,7 @@
   cursor: pointer;
 
   &:hover {
-    background-color: color-mod(var(--secondary-color) tint(25%));
+    background-color: color-mod(var(--button-background-color) tint(25%));
     color: #fff;
     text-decoration: none;
   }

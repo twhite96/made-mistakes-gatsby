@@ -240,7 +240,7 @@
   margin: 1rem auto;
   padding: 1em;
   font-family: var(--monospace-font);
-  font-size: var(--text-base);
+  font-size: var(--text-sm);
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -251,12 +251,12 @@
   cursor: pointer;
 
   &:hover {
-    background-color: color-mod(var(--secondary-color) tint(25%));
-    color: #fff;
+    background-color: color-mod(var(--button-background-color) tint(25%));
+    color: var(--button-text-color);
     text-decoration: none;
   }
 
   &:visited {
-    color: #fff;
+    color: var(--button-text-color);
   }
 }
