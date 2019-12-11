@@ -9,6 +9,7 @@ branches:
 cache:
   directories:
     - node_modules
+    - public/static
 
 env:
   - CI=true
