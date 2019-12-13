@@ -277,11 +277,11 @@ As you blend the background pay careful attention not to cut too far into the fo
 
 Here's a few [Paper portraits](/paperfaces/) I used Pencil and Blend to draw. In the second drawing I purposely smudged the figure's hand instead of the background to mix things up. Have fun and experiment with focal points!
 
-![Thomas D. portrait](../../images/paperfaces-thomas-d-twitter-sq-950.jpg)
+![Thomas D. portrait](../../images/paperfaces-thomas-d-twitter.jpg)
 
-![hjalle portrait](../../images/paperfaces-hjalle-twitter-sq-950.jpg)
+![hjalle portrait](../../images/paperfaces-hjalle-twitter.jpg)
 
-![Rene D. portrait](../../images/paperfaces-rene-d-twitter-sq-950.jpg)
+![Rene D. portrait](../../images/paperfaces-rene-d-twitter.jpg)
 
 This technique of blurring the background doesn't have to be used with just portraiture. In the following example it can be used to simulate macro photography, focusing on one object and throwing the rest out of focus.
 
