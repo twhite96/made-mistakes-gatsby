@@ -9,7 +9,8 @@ branches:
 cache:
   directories:
     - node_modules
-    - public/static
+    - public
+    - .cache
 
 before_script:
   - npm i -g gatsby-cli
