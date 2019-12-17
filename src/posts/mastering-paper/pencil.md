@@ -3,7 +3,7 @@ title: "Mastering Pencil by FiftyThree"
 date: 2015-06-24
 path: /mastering-paper/pencil/
 last_modified_at: 2019-09-13T13:11:32-04:00
-excerpt: "Learn how to use Pencil by FiftyThree and features like Blend and Surface Pressure to pull off impressive effects and techniques in Paper for iPad and iPhone."
+excerpt: "Learn how to use Pencil by FiftyThree and features like Blend and Surface Pressure to pull off impressive effects in Paper for iOS."
 categories: [mastering-paper]
 tags: [Paper for iOS, Pencil by 53, tutorial, Apple]
 image: ../../images/mastering-pencil-feature.jpg
