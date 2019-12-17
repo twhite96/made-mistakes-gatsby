@@ -76,7 +76,7 @@ Pressing the 1 button on the Wiimote takes a screenshot and then you can transfe
 
 ## To the city
 
-For the most part the City is a :zzz: fest. You can visit Dr. Shrunk and pay 800 bells to learn a new emotion (you can hold up to four at a time).
+For the most part the City is a 💤 fest. You can visit Dr. Shrunk and pay 800 bells to learn a new emotion (you can hold up to four at a time).
 
 Go to Gracie's and get ripped off on some furniture or 'trendy' clothing. Guess this changes depending on the season, so maybe something cool will pop up and I'll feel like spending 140,000 on a table... or not.
 

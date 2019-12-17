@@ -77,4 +77,4 @@ While not as readable as a pure Markdown solution, it gets the job done.
 
 From what I understand [**Pandoc**](http://pandoc.org/) and [**RedCarpet**](https://github.com/vmg/redcarpet) have better support for this sort of thing if you want to use their [flavor of Markdown](http://jekyllrb.com/docs/configuration/#markdown-options).
 
-Since Kramdown is the default renderer used by Jekyll I think I'll just suck it up and stick with this workaround for now :expressionless:.
+Since Kramdown is the default renderer used by Jekyll I think I'll just suck it up and stick with this workaround for now.

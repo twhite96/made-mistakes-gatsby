@@ -22,7 +22,7 @@ Yes, you've read correctly --- Paper is now a universal iOS app that works on bo
 
 Much like the complete UI overhaul in [version 1.6.1](http://news.fiftythree.com/post/79379441335/the-paper-ios-7-update-is-here-brighter-fresher), I got the sense that the team at FiftyThree re-evaluated every bit of the app for 3.0. Even if that meant modifying Paper's defining characteristics[^changes] to make the experience more intuitive and fluid.
 
-[^changes]: Yes the journal book view and zoom loupe have gone away. Change is good, deal with it :sunglasses:.
+[^changes]: Yes the journal book view and zoom loupe have gone away. Change is good, deal with it.
 
 ![Paper 3.0 App Store screenshot](../../images/paper-3-store.jpg)
 

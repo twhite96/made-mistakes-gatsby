@@ -24,6 +24,6 @@ Well there is. Under **Settings** there is a drop-down menu under **GitHub Pages
 
 ![GitHub Pages Sources](../../images/github-pages-options.jpg)
 
-Flip the source to **master branch /docs folder**, move contents of `gh-pages` into **/docs** on `master`, and boom :tada:!
+Flip the source to **master branch /docs folder**, move contents of `gh-pages` into **/docs** on `master`, and boom!
 
-Source code and documentation in a single branch. No more switching branches and ":cherries: cherry picking" for me :thumbsup:.
+Source code and documentation in a single branch. No more switching branches and "cherry picking" for me.

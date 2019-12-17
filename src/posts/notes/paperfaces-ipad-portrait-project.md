@@ -19,7 +19,7 @@ The lastest batch of [PaperFaces drawings](/paperfaces/) along with in process s
 
 ### Will you draw me?
 
-Unfortunately I am no longer taking volunteers for the project. <s>If you'd like to commission me to illustrate your Twitter avatar, recreate a photograph in my PaperFaces™ style, draw your pet dinosaur, or whatever, follow the link below.</s> I'm currently taking a break from drawing portraits as well. :disappointed:
+Unfortunately I am no longer taking volunteers for the project. <s>If you'd like to commission me to illustrate your Twitter avatar, recreate a photograph in my PaperFaces™ style, draw your pet dinosaur, or whatever, follow the link below.</s> I'm currently taking a break from drawing portraits as well.
 
 ### What is PaperFaces?
 

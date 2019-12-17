@@ -186,7 +186,7 @@ Next I nested a modified copy of the "top-level comment" loop from before inside
 
 Unfortunately the `where_exp` filter proved troublesome yet again, causing Jekyll to error out with: `Liquid Exception: Liquid error (line 47): Nesting too deep in /_layouts/page.html`.
 
-After brief thoughts of the movie **Inception**, I applied an `inspect` filter to help troubleshoot the `replies` loop. I determined that the `where_exp` condition was failing[^integer-string] because I was trying to compare an integer against a string :flushed:.
+After brief thoughts of the movie **Inception**, I applied an `inspect` filter to help troubleshoot the `replies` loop. I determined that the `where_exp` condition was failing[^integer-string] because I was trying to compare an integer against a string.
 
 [^integer-string]: `15` is not the same as `'15'`. Those single quotes make a world of difference...
 
@@ -420,6 +420,6 @@ Example of a Staticman **New reply** email notification:
 
 ---
 
-Well there you have it, a static-based commenting system done up in Jekyll that handles nested comments and reply notifications. Now if I could only shave a minute of my build time to get new comments merged in quicker :frowning:.
+Well there you have it, a static-based commenting system done up in Jekyll that handles nested comments and reply notifications. Now if I could only shave a minute of my build time to get new comments merged in quicker.
 
 *[CSS]: Cascading Style Sheets
