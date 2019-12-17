@@ -14,14 +14,11 @@ cache:
 
 before_script:
   - npm i -g gatsby-cli
+  - npm install netlify-cli -g
   - yarn
 
 script:
   - travis_wait 30 gatsby build
-
-before_deploy:
-  - npm install netlify-cli -g
-  - npm run build
 
 deploy:
   provider: script
