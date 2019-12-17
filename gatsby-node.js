@@ -22,8 +22,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
     {
       posts: allMarkdownRemark(
         filter: {
-          fileAbsolutePath: { regex: "/posts/" }
-          fields: { sourceName: { ne: "comments" } }
+          fields: { sourceName: { eq: "posts" } }
           frontmatter: { published: { ne: false }, output: { ne: false } }
         }
         sort: { fields: [frontmatter___date], order: DESC }
@@ -42,8 +41,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
       }
       pages: allMarkdownRemark(
         filter: {
-          fileAbsolutePath: { regex: "/pages/" }
-          fields: { sourceName: { ne: "comments" } }
+          fields: { sourceName: { eq: "pages" } }
           frontmatter: { published: { ne: false } }
         }
       ) {

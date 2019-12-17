@@ -106,50 +106,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'articles',
-        path: `${__dirname}/src/posts/articles`,
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'mastering-paper',
-        path: `${__dirname}/src/posts/mastering-paper`,
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'notes',
-        path: `${__dirname}/src/posts/notes`,
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'paperfaces',
-        path: `${__dirname}/src/posts/paperfaces`,
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'procreate',
-        path: `${__dirname}/src/posts/procreate-paintings`,
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'tiny-paintings',
-        path: `${__dirname}/src/posts/tiny-paintings`,
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'work',
-        path: `${__dirname}/src/posts/work`,
+        name: 'posts',
+        path: `${__dirname}/src/posts`,
       },
     },
     {
@@ -237,7 +195,7 @@ module.exports = {
                 color: '#111',
                 background: '#fff',
               },
-              loading: 'auto',
+              loading: 'lazy',
               linkImagesToOriginal: false,
             },
           },
