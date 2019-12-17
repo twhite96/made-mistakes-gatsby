@@ -21,9 +21,6 @@ const Entry = ({
   return (
     <>
       <article className={`${style.entry} h-entry`}>
-        {image && (
-          <Img fluid={image.childImageSharp.fluid} className={style.cover} />
-        )}
         <h2 className={`${style.title} p-name`}>
           <Link to={path}>{title}</Link>
         </h2>
@@ -62,6 +59,10 @@ const Entry = ({
             </div>
           ) : null}
         </div>
+
+        {image && (
+          <Img fluid={image.childImageSharp.fluid} className={style.cover} />
+        )}
 
         <div
           className={`${style.excerpt} p-summary`}
