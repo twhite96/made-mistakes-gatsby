@@ -58,10 +58,10 @@ const Footer = ({
       )}
       {feed && (
         <li>
-          <Link to={feed}>
+          <a href={feed}>
             <RSSIcon />
             <span className={style.iconLabel}>RSS feed</span>
-          </Link>
+          </a>
         </li>
       )}
     </ul>
