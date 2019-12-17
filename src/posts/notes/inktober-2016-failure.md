@@ -12,7 +12,9 @@ last_modified_at: 2019-02-15T14:08:07-05:00
 Similar to previous years, I started out with the best of intentions for [**Inktober**](http://mrjakeparker.com/inktober) and then quickly lose steam...
 
 ![Girl in sunglasses ink wash portrait in process detail](../../images/inktober-2016-wash-portrait-process-1.jpg)
+
 ![Detail of nose and mouth ink wash portrait](../../images/inktober-2016-wash-portrait-process-2.jpg)
+
 ![Ink wash and blue masking tape detail](../../images/inktober-2016-wash-portrait-process-3.jpg)
 
 After taking a few days to complete a single ink wash --- I was spent. Working digitally has spoiled me to the point that sitting at a desk instead of the sofa, cleaning brushes, and dealing with messes is just too much work to bother with.
@@ -28,5 +30,7 @@ October is half over and I suppose there's still time for me to knock out anothe
 **Inktober pieces from the past:**
 
 ![Blind contour drawing of a figure in a robe](../../images/inktober-past-1.jpg)
+
 ![Grid paper ink sketches of females](../../images/inktober-past-2.jpg)
+
 ![Blind contour ink sketch of a nude woman](../../images/inktober-past-3.jpg)
