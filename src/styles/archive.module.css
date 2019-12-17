@@ -12,7 +12,7 @@
     }
   }
 
-  @media (--medium-up) {
+  @media (--large-up) {
     width: calc(100% - 2rem);
     max-width: var(--container-width);
     margin-left: auto;
@@ -77,11 +77,16 @@
 
 .intro {
   max-width: var(--text-width);
-  font-size: var(--text-xl);
+  font-size: var(--text-base);
+
+  @media (--small-up) {
+    font-size: var(--text-lg);
+  }
 
   @media (--medium-up) {
     grid-column-start: 2;
     padding-right: 5%;
+    font-size: var(--text-xl);
   }
 }
 
