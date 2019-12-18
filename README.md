@@ -14,8 +14,24 @@ Call-out text. Accepts the following types: `info`, `danger`, `warning`, and `su
 Default structure:
 
 ```bash
-├── src                       # => source Jekyll files and assets
-├── ...
+├── config                      
+|   └──site.js             # => site wide config
+├── src
+|   ├── comments           # => comments content
+|   ├── components
+|   ├── data
+|   |   └── taxonomy.yml   # => taxonomy content
+|   ├── images
+|   ├── pages
+|   ├── posts
+|   ├── styles
+|   ├── templates
+|   └── html.js
+├── .travis.yml
+├── gatsby-browser.js
+├── gatsby-config.js
+├── gatsby.node.js
+└── staticman.yml
 ```
 
 ## TODO Getting started
