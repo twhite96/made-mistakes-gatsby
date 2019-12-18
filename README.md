@@ -1,20 +1,9 @@
 # [Made Mistakes](https://mademistakes.com) Source Code
 
 This is the source code of Made Mistakes, a personal blog and portfolio built 
-with [Gatsby](https://www.gatsbyjs.org/) and [Netlify](https://www.netlify.com/).
-
-*Please note: Made Mistakes hasn't been "themed" like some of my other 
-[Jekyll repos](https://mademistakes.com/work/jekyll-themes/) and isn't compatible 
-with the "default" GitHub Pages workflow without substantial alterations.*
+with [Gatsby](https://www.gatsbyjs.org/), [Travis CI](https://travis-ci.org/),  and [Netlify](https://www.netlify.com/).
 
 ### TODO Plugins used
-
-### Images
-
-[Made Mistakes](https://mademistakes.com) has a lot of image assets. 
-`src/images/` has been split into its [own repo](https://github.com/mmistakes/made-mistakes-images) and included as a Git submodule.
-
-### TODO Content helpers
 
 #### Notices
 
@@ -37,6 +26,8 @@ Default structure:
 
 Commenting is disabled by default. To enable add `comments: true` to the YAML 
 Front Matter. To lock a comment thread add `comments_locked: true`.
+
+### TODO Taxonomy Data File
 
 ## License
 
