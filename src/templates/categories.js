@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import SEO from '../components/seo'
 import Layout from '../components/layout'
 import Entry from '../components/entry'
@@ -31,7 +31,7 @@ const Categories = ({
       excerpt: taxonomyExcerpt,
       html: taxonomyHtml,
     },
-    allMarkdownRemark: { edges: posts },
+    allMarkdownRemark: { group, edges: posts },
   } = data
   const paginationTitle =
     humanPageNumber === 1
@@ -64,6 +64,19 @@ const Categories = ({
           )}
         </div>
         <div className={style.content}>
+          <h2 className={style.subHeading}>Browse by topic</h2>
+          <div className={style.columnList} style={{ marginBottom: '3rem' }}>
+            <ul>
+              {group.map(tag => (
+                <li key={tag.fieldValue}>
+                  <Link to={`/tag/${_.slugify(tag.fieldValue)}/`}>
+                    <strong>{tag.fieldValue}</strong>{' '}
+                    <span className={style.count}>{tag.totalCount}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
           <div className={style.list}>
             {posts.map(({ node }) => {
               const {
@@ -146,6 +159,10 @@ export const postsQuery = graphql`
       limit: $limit
       skip: $skip
     ) {
+      group(field: frontmatter___tags) {
+        fieldValue
+        totalCount
+      }
       edges {
         node {
           id
