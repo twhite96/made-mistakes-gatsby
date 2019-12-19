@@ -41,15 +41,7 @@ It vaguely has something to do with that whole happy accident thing, where a mis
 
 In May of 2004 I purchased **mademistakes.com**, and threw up a Macromedia Flash splash screen (hey remember those?) while I worked on building out my portfolio. For the next couple of years I would experiment with various content management systems ([Movable Type](http://www.movabletype.org/) → [Textpattern](http://textpattern.com/) → [Wordpress](http://wordpress.org/) → [Indexhibit](http://www.indexhibit.org/)), developing minimalistic themes and learning what I could about HTML, CSS, JavaScript, PHP, and MySQL databases.
 
-I've since decided to abandon using a CMS in favor of black magick and [Jekyll](http://jekyllrb.com/) to [generate flat files](/articles/going-static/) for improved performance and security. Building layouts, stylesheets, feeds, and assets from scratch was challenging at first, but the knowledge gained made it all worth it.
-
-## How to support Made Mistakes
-
-I write tutorials and maintain a few [open source projects](https://github.com/mmistakes?utf8=%E2%9C%93&tab=repositories&q=&type=source&language=) for fun. If you've found any of them useful, here's how you can show thanks:
-
-1.  Follow me on [Twitter](https://twitter.com/mmistakes) or subscribe to one of my [RSS feeds](/support/#subscribe-to-the-feeds).
-2.  Buy anything at Amazon using [this link](https://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS) and I'll earn a small commission.
-3.  Send a donation via [PayPal](https://www.paypal.me/mmistakes) or [Square Cash](https://cash.me/$mmistakes).
+I've since decided to abandon using a CMS in favor of black magick and [Gatsby](https://www.gatsbyjs.org/) to [generate flat files](/articles/going-static/) for improved performance and security. Building layouts, stylesheets, feeds, and assets from scratch was challenging at first, but the knowledge gained made it all worth it.
 
 ## Selected interviews
 
@@ -60,5 +52,21 @@ I write tutorials and maintain a few [open source projects](https://github.com/m
 
 - [**22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An iPad**](http://www.businessinsider.com/gorgeous-ipad-art-2015-1?op=1) --- Business Insider
 - [**This Summer We Learned About PaperFaces**](http://madewithpaper.fiftythree.com/post/36767754768/this-summer-we-learned-about-paper-faces-by) --- FiftyThree
+
+## Follow me on the internets
+
+I'm not all that active on social media, so no risk of me junking up your feeds.
+
+- Twitter
+- GitHub
+  Open source goodies.
+- Instagram
+  Infrequent pics of my beard and kids.
+- Nintento Switch
+  Friend code: 
+- Xbox Live
+  Long history of achievements from the 360 days, not so much now.
+- Playstation Network
+  Platinuming what I can on a slim PS4.
 
 *[CMS]: Content Management System
