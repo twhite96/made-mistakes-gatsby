@@ -84,7 +84,7 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
     "lodash-addons": "^2.0.1",
-    "netlify-cli": "^2.21.0",
+    "netlify-cli": "^2.25.0",
     "prettier": "^1.18.2"
   },
   "browserslist": [
