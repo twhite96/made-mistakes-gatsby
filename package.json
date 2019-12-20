@@ -52,7 +52,7 @@
     "gatsby-transformer-sharp": "^2.3.7",
     "gatsby-transformer-yaml": "^2.2.20",
     "intersection-observer": "^0.7.0",
-    "lazysizes": "^5.2.0-beta1",
+    "lazysizes": "^5.2.0",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
     "postcss-mixins": "^6.2.2",
