@@ -158,6 +158,8 @@
     color: var(--text-color);
     background-color: var(--background-color);
     font-size: 0.5em;
+    line-height: 2;
+    text-transform: uppercase;
   }
 }
 

@@ -1,5 +1,6 @@
 .title {
   font-size: var(--text-3xl);
+  font-family: var(--serif-font);
 
   &::before {
     margin-top: 3em;
