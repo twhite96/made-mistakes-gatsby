@@ -25,7 +25,7 @@
     "gatsby-image": "^2.2.37",
     "gatsby-plugin-catch-links": "^2.1.9",
     "gatsby-plugin-css-customs": "^0.3.0",
-    "gatsby-plugin-feed": "^2.3.13",
+    "gatsby-plugin-feed": "^2.3.25",
     "gatsby-plugin-manifest": "^2.2.33",
     "gatsby-plugin-netlify": "^2.1.30",
     "gatsby-plugin-postcss": "^2.1.18",
