@@ -36,10 +36,9 @@ You are limited to one photo per idea --- but you can scale it, rotate it, and e
 
 I'm excited to use this feature as a sketching aid --- drawing directly on reference images I've imported into Paper. There's no way to toggle this layer off yet (*psst... FiftyThree engineers if you're reading*), but it's easy enough to remove if you want to leave behind just what you've drawn or painted.
 
-<figure>
-  <img alt="Clear Photo layer animation" src="../../images/paper-3-clear-photo.gif">
-  <figcaption><p>Tap and hold on the Eraser tool, tap <strong>Clear Photo</strong>, and poof!</p></figcaption>
-</figure>
+![Clear Photo layer animation](../../images/paper-3-clear-photo.gif)
+
+Tap and hold on the Eraser tool, tap **Clear Photo**, and poof!
 
 ## Rotating ideas
 

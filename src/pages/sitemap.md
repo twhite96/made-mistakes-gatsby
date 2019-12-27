@@ -15,7 +15,6 @@ A hierarchical breakdown of all the sections and pages found on the site. For yo
 - [Frequently asked questions](/faqs/)
 - [Show your support](/support/)
 - [Terms and policies](/terms/)
-- [Style guide](/style-guide/)
 - [Tag index](/tag/)
 
 ## [Articles](/articles/)

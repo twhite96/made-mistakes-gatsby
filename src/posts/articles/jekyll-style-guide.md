@@ -2,7 +2,7 @@
 title: "Building a style guide with Jekyll"
 date: 2015-02-10
 path: /articles/jekyll-style-guide/
-last_modified_at: 2017-12-13T10:40:39-05:00
+last_modified_at: 2019-12-23T12:32:17-05:00
 excerpt: "How I used collections with Jekyll to build a style guide and pattern library for Made Mistakes."
 categories: [articles]
 tags: [Jekyll, open source, web development, GitHub, tutorial]
@@ -28,7 +28,6 @@ So with that I bumped around GitHub and Google to see what sort of solutions exi
 * [Boilerplate for Jekyll Styleguide](https://github.com/jeromecoupe/jekyllstyleguide)
 * [Pattern Lab Jekyll Port](https://github.com/karissademi/patternlab-jekyll)
 * [Pattern Primer Jekyll](https://github.com/opattison/Pattern-Primer-Jekyll)
-{:.fl}
 
 Out of the bunch, [Jérôme Coupé's](http://www.webstoemp.com/) approach resonated with me the most since it meshed well with my current Jekyll site setup. By leveraging **collections**[^collections] I could avoid littering my `_posts` folder with components, color palettes, and other snippets while being able to iterate over them and output individual pages if needed.
 
@@ -42,7 +41,6 @@ To start I took a quick survey of all the Sass partials in my `_assets/styleshee
 * **Typography** (headings, paragraphs, lists, and inline elements)
 * **Media elements** (images, figures, videos, etc.)
 * **Patterns** (buttons, badges, table of contents, etc.)
-{:.fl}
 
 [^jekyll-assets]: I'm using the excellent [Jekyll 3 Assets](https://github.com/jekyll/jekyll-assets) plugin for a Rails-like asset pipeline to run [AutoPrefixer](https://github.com/postcss/autoprefixer), minify and MD5 fingerprint CSS/JavaScript assets, and some other useful stuff.
 
@@ -242,7 +240,7 @@ To achieve this I used a [SassScript map](https://github.com/sass/sass/blob/mast
 
 ## Maintaining the style guide
 
-Updating and adding components to the [style guide](/style-guide/) should be as simple as creating a new Markdown file and placing it in the `_components` folder. In a perfect world I would never have to touch the `.md` files of existing components. Cosmetic changes made to Sass files should ripple throughout the site without my intervention. Unfortunately, for those components that undergo markup changes, I'll have repeat myself and edit two files... something that shouldn't happen too frequently.
+Updating and adding components to the style guide should be as simple as creating a new Markdown file and placing it in the `_components` folder. In a perfect world I would never have to touch the `.md` files of existing components. Cosmetic changes made to Sass files should ripple throughout the site without my intervention. Unfortunately, for those components that undergo markup changes, I'll have repeat myself and edit two files... something that shouldn't happen too frequently.
 
 As always [my code is available on GitHub](https://github.com/mmistakes/made-mistakes-jekyll/) for download and forking. The Style Guide is integrated with the rest of Made Mistakes so you may have to rip out some stuff if you end up using it. 
 

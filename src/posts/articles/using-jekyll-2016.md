@@ -49,7 +49,7 @@ For now the best I can do is use the new **Liquid Profiler**[^profiler] to ident
 
 [^profiler]: The profiler can be enabled with the `--profile` flag (eg. `jekyll build --profile`).
 
-```shell
+```
 jekyll build --profile
 
 Configuration file: _config.yml
@@ -107,7 +107,7 @@ Content that doesn't need to be ordered chronologically or grouped in any way be
 
 An architecture like this helps centralize the content so you're not poking around trying to locate files. Meaningfully naming files should be the goal. Avoid patterns like `/about/index.md` as it makes distinguishing between multiple `index.md` files harder.
 
-```bash
+```
 project-name/
 ├── _assets/
 ├── _data/
@@ -222,7 +222,7 @@ Prior to Jekyll natively supporting Sass I used Grunt plugins to pre-process `.l
 
 These days I use Grunt solely for optimizing images and SVGs with the following plugins:
 
-```js
+```javascript
 // Grunt plugins in package.json
 "devDependencies": {
   "grunt": "~0.4.2",
@@ -444,7 +444,7 @@ picture:
       source_default:
 ```
 
-Now when a high resolution image is placed in `/images/_originals/` and `
+Now when a high resolution image is placed in `/images/_originals/` and `feature: /assets/images/image.jpg` added to the YAML Front Matter of a page, this markup spits out automatically:
 
 ```html
 <picture>
@@ -475,6 +475,7 @@ The one big drawback I've experienced using this plugin has been an increase in 
 Showcasing a post or page's content is still the primary goal of the layouts I designed years ago. It's been a balancing act as I've tried to incorporate navigation systems (*main menu*, *table of contents*, *page breadcrumbs*, *tag archives*), reader submitted comments, related posts, and social sharing links in complimenting and responsive ways.
 
 ![Jekyll post layout then](../../images/mm-jekyll-post-then.jpg)
+
 ![Jekyll post layout now](../../images/mm-jekyll-post-now.jpg)
 
 The core elements have remained unchanged since I originally launched the site:

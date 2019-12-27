@@ -59,7 +59,7 @@ Thankfully I didn't have to start from scratch as I was able to draw inspiration
 
 ### Building the form
 
-I set my gaze on squaring away the "Leave a comment" submission form first. Seemed like an easy target as the styling of various [form elements](/style-guide/#guide-forms) like `<input>`, `<label>`, `<textarea>` and [buttons](/style-guide/#guide-buttons) were already done as part of my [living style guide](/articles/jekyll-style-guide/). 
+I set my gaze on squaring away the "Leave a comment" submission form first. Seemed like an easy target as the styling of various form elements like `<input>`, `<label>`, `<textarea>` and buttons] were already done as part of my [living style guide](/articles/jekyll-style-guide/). 
 
 All it really needed for completion was a decision on what fields I wanted to capture, and a little bit of JavaScript for events handling and submission. Arriving at this for my [`post__comments.html`](https://github.com/mmistakes/made-mistakes-jekyll/blob/10.2.0/_includes/post__comments.html) include (`class` names and Liquid removed for brevity).
 
@@ -122,7 +122,7 @@ To avoid disrupting the flow too much I went with inline alert messaging directl
 
 And to improve the user experience upon submission the submit button's text changes to `Loading...`, becomes disabled, and an animated SVG icon inserted for bit of extra flare.
 
-```js
+```javascript
 $(form).addClass('disabled');
 $('#comment-form-submit').html('<svg class="icon spin"><use xlink:href="#icon-loading"></use></svg> Loading...');
 ```
@@ -284,7 +284,7 @@ Hitting the Staticman endpoint should trigger the **success** and **error** mess
 
 For example if all of the required fields aren't filled out an error like this could hit the console:
 
-```js
+```javascript
 Object {readyState: 4, responseText: "[{"code":"MISSING_REQUIRED_FIELDS","data":["name","email","message"]}]", responseJSON: Array[1], status: 500, statusText: "error"}
 ```
 

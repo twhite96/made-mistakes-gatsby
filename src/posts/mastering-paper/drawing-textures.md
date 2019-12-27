@@ -208,20 +208,29 @@ Depending on the color of this _harmonizing layer_, the highlights and shadows f
 
 Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project](/paperfaces/). Below are a few finished pieces to show what is possible by varying the color and composition.
 
-<ul class="gallery-thumbnails">
-  <li><a href="/paperfaces/rob-jayne-portrait/"><img src="../../images/paperfaces-rob-jayne-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/padulantonio-portrait/"><img src="../../images/paperfaces-padulantonio-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/idpro-portrait/"><img src="../../images/paperfaces-idpro-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/imhobson-portrait/"><img src="../../images/paperfaces-imhobson-twitter-150.jpg" alt="thumb" /></a></li>  
-  <li><a href="/paperfaces/thebrendanbrown-portrait/"><img src="../../images/paperfaces-thebrendanbrown-twitter-150.jpg" alt="thumb" /></a></li>  
-  <li><a href="/paperfaces/annekoehler-portrait/"><img src="../../images/paperfaces-annekoehler-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/seanblezard-portrait/"><img src="../../images/paperfaces-seanblezard-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/thatmiddleway-portrait/"><img src="../../images/paperfaces-thatmiddleway-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/talksinmath-portrait/"><img src="../../images/paperfaces-talksinmath-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/rt44man-portrait/"><img src="../../images/paperfaces-rt44man-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/chappers-ma-portrait/"><img src="../../images/paperfaces-chappers-ma-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/andrewbrewer-portrait/"><img src="../../images/paperfaces-andrewbrewer-twitter-150.jpg" alt="thumb" /></a></li>
-</ul>
+[![](../../images/paperfaces-rob-jayne.jpg)](/paperfaces/rob-jayne-portrait/)
+
+[![](../../images/paperfaces-padulantonio-twitter.jpg)](/paperfaces/padulantonio-portrait/)
+
+[![](../../images/paperfaces-idpro-twitter.jpg)](/paperfaces/idpro-portrait/)
+
+[![](../../images/paperfaces-imhobson-twitter.jpg)](/paperfaces/imhobson-portrait/)
+
+[![](../../images/paperfaces-thebrendanbrown-twitter.jpg)](/paperfaces/thebrendanbrown-portrait/)
+
+[![](../../images/paperfaces-annekoehler-twitter.jpg)](/paperfaces/annekoehler-portrait/)
+
+[![](../../images/paperfaces-seanblezard-twitter.jpg)](/paperfaces/seanblezard-portrait/)
+  
+[![](./../images/paperfaces-thatmiddleway-twitter.jpg)](/paperfaces/thatmiddleway-portrait/)
+
+[![](../../images/paperfaces-talksinmath-twitter.jpg)](/paperfaces/talksinmath-portrait/)
+
+[![](../../images/paperfaces-rt44man-twitter.jpg)](/paperfaces/rt44man-portrait/)
+
+[![](../../images/paperfaces-chappers-ma-twitter.jpg)](/paperfaces/chappers-ma-portrait/)
+
+[![](../../images/paperfaces-andrewbrewer-twitter.jpg)](/paperfaces/andrewbrewer-portrait/)
 
 ---
 

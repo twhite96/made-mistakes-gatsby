@@ -26,7 +26,9 @@ Two years ago I felt inspired to start the [**PaperFaces Project**](/notes/paper
 I'm not going to lie, finding the motivation to create something every day is incredibly difficult. Even with the proper motivation, making yourself available can be even more challenging. I'm proof that it can be done while working a full time job, fulfilling husbandly duties, caring for a set of twins, and maintaining healthy eating and sleeping habits.
 
 ![The 2 little rosebuds](../../images/paperfaces-retro-03.jpg)
+
 ![Tools of the trade](../../images/paperfaces-retro-02.jpg)
+
 ![Drawing Everly with Pencil by 53](../../images/paperfaces-retro-01.jpg)
 
 ### Start a routine
@@ -44,9 +46,9 @@ Making my project and efforts public was another huge reason I kept at it for so
 
 On their own these faceless drawings weren't all that interesting, but assembled together like **Voltron** in [Moleskine book](/mastering-paper/moleskine-book/) and [gallery](/paperfaces/) forms they became *something stronger*. A quality that is easy to miss when you have your head down, focused only on the drawing at hand.
 
-[![Photograph of a PaperFaces drawing](../../images/paper-53-book-wendy.jpg)](../../images/paper-53-book-wendy-lg.jpg)
+![Photograph of a PaperFaces drawing](../../images/paper-53-book-wendy-lg.jpg)
 
-Having my work printed helped give it substance instead of just being 1's and 0's I carried around on a tablet.
+Having my work printed helped give it substance instead of being 1's and 0's I carried around on a tablet.
 
 ### Keep it fun
 
@@ -82,47 +84,47 @@ Here's a breakdown of the various types of portraits I've completed.
 | Type                                       | No. of Portraits[^portraits]                |
 |------------------------------------------- | ------------------------------------------- |
 | Faceless                                   | 522                                         |
-| [Star Wars](/tag/star-wars/) | 12                                          |
-| [Bearded Dudes](/tag/beard/) | 113                |
+| [Star Wars](/tag/star-wars/)               | 12                                          |
+| [Bearded Dudes](/tag/beard/)               | 113                                         |
 | Animals and Creatures                      | 17                                          |
-| **Total**                                  | **886** |
+| **Total**                                  | **886**                                     |
 
 [^portraits]: For the purpose of keeping things consistent I consider a portrait a single drawing regardless if it includes multiple faces. If I was to count the amount of faces I've drawn the numbers would be much, much higher.
 
 And for the curious here's the various styli I've used over the two years and some quick impressions.
 
-| Stylus | My Quick Impressions
-|---
-| [*Just-Mobile AluPen*][alupen-stylus] | Lasted me a few months before wearing out. Tips aren't replaceable.
-| [*LunaTik Alloy Touch Pen*][lunatik-stylus] | My trusted sidekick for a long long time. Tip took some serious abuse.
-| [*Ten One Design Pogo Connect*][pogo-stylus] | Most of my drawings are done with a Pogo Connect now. Two broke due to bad hardware design. Wore through about four R2 tips. Connectivity issues are maddening.
-| [*Pencil by FiftyThree*][pencil-stylus] | Super reliable when I'm not wearing out tips in a few days. Flirting with it again after recent Paper update that scales tools when zoomed in.
-| [*ZEN 3 in 1*][zen-stylus] | Precision disc tip dead on arrival. Rubber nib still going strong.
-| [*Universal Touch Screen Pen*][cheap-stylus] | Cheap, small, light, and pretty crappy. Comes in a 3 pack that I have as a backup if I ever lose my other styli.
-
-[alupen-stylus]: http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0042U9AT6&linkCode=as2&tag=mademist-20&linkId=RWJ5A43BF46FLB36
-[lunatik-stylus]: http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00821TR7G
-[pogo-stylus]: /mastering-paper/pogo-connect-smart-pen/
-[pencil-stylus]: /mastering-paper/pencil-53-review/
-[zen-stylus]: https://www.kickstarter.com/projects/zenwriting/zen-next-generation-of-modern-writing-instrument
-[cheap-stylus]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20
+| Stylus | Quick Impressions |
+| ------ | ----------------- |
+| [**Just-Mobile AluPen**][alupen-stylus] | Lasted me a few months before wearing out. Tips aren't replaceable. |
+| [**LunaTik Alloy Touch Pen**][lunatik-stylus] | My trusted sidekick for a long long time. Tip took some serious abuse. |
+| [**Ten One Design Pogo Connect**][pogo-stylus] | Most of my drawings are done with a Pogo Connect now. Two broke due to bad hardware design. Wore through about four R2 tips. Connectivity issues are maddening. |
+| [**Pencil by FiftyThree**][pencil-stylus] | Super reliable when I'm not wearing out tips in a few days. Flirting with it again after recent Paper update that scales tools when zoomed in. |
+| [**ZEN 3 in 1**][zen-stylus] | Precision disc tip dead on arrival. Rubber nib still going strong. |
+| [**Universal Touch Screen Pen**][cheap-stylus] | Cheap, small, light, and pretty crappy. Comes in a 3 pack that I have as a backup if I ever lose my other styli. |
 
 ## The strange and the unique
 
-When my project was picked up by a few high profile designers and developers it spread pretty far through those circles. Drawing as  many bearded dudes in flannel shirts as I have, any time something different came up I was thrilled. Here's a small sampling of my favorites from the last two years:
+When my project was picked up by a few high profile designers and developers it spread pretty far through those circles. Drawing as many bearded dudes in flannel shirts as I have, any time something different came up I was thrilled. Here's a small sampling of my favorites from the last two years:
 
-<ul class="gallery-thumbnails">
-  <li><a href="/paperfaces/mike-ftw-portrait/"><img src="../../images/paperfaces-mike-ftw-twitter-150.jpg" alt=""></a></li>
-  <li><a href="/paperfaces/andrew-shaw23-portrait/"><img src="../../images/paperfaces-andrew-shaw23-twitter-150.jpg" alt=""></a></li>
-  <li><a href="/paperfaces/f5point6-portrait/"><img src="../../images/paperfaces-f5point6-twitter-150.jpg" alt=""></a></li>
-  <li><a href="/paperfaces/studioprisoner-portrait/"><img src="../../images/paperfaces-studioprisoner-twitter-150.jpg" alt=""></a></li>
-  <li><a href="/paperfaces/pappyshannon-portrait/"><img src="../../images/paperfaces-pappyshannon-twitter-150.jpg" alt=""></a></li>
-  <li><a href="/paperfaces/thenimesh-portrait/"><img src="../../images/paperfaces-thenimesh-twitter-150.jpg" alt=""></a></li>
-  <li><a href="/paperfaces/matt-s-portrait/"><img src="../../images/paperfaces-matt-s-150.jpg" alt=""></a></li>
-  <li><a href="/paperfaces/barelolk-portrait/"><img src="../../images/paperfaces-barelolk-twitter-150.jpg" alt=""></a></li>
-  <li><a href="/paperfaces/vlad-s-portrait/"><img src="../../images/paperfaces-vlad-s-150.jpg" alt=""></a></li>
-  <li><a href="/paperfaces/marie-a-portrait/"><img src="../../images/paperfaces-marie-a-150.jpg" alt=""></a></li>
-</ul>
+[![blue goat man](../../images/paperfaces-mike-ftw-twitter.jpg)](/paperfaces/mike-ftw-portrait/)
+
+[![wolf man](../../images/paperfaces-andrew-shaw23-twitter.jpg)](/paperfaces/andrew-shaw23-portrait/)
+
+[![colander head](../../images/paperfaces-f5point6-twitter.jpg)](/paperfaces/f5point6-portrait/)
+
+[![horse headed man drinking a beer](../../images/paperfaces-studioprisoner-twitter.jpg)](/paperfaces/studioprisoner-portrait/)
+
+[![pipe smoking velociraptor](../../images/paperfaces-pappyshannon-twitter.jpg)](/paperfaces/pappyshannon-portrait/)
+
+[![glitched out portrait](../../images/paperfaces-thenimesh-twitter.jpg)](/paperfaces/thenimesh-portrait/)
+
+[![guy freaked out by a sheep](../../images/paperfaces-matt-s.jpg)](/paperfaces/matt-s-portrait/)
+
+[![2001 iPhone portrait trickery](../../images/paperfaces-barelolk-twitter.jpg)](/paperfaces/barelolk-portrait/)
+
+[![Goat slaying high priestess](../../images/paperfaces-vlad-s.jpg)](/paperfaces/vlad-s-portrait/)
+
+[![Girl covering her face with hair](../../images/paperfaces-marie-a.jpg)](/paperfaces/marie-a-portrait/)
 
 ## What's next
 
@@ -143,3 +145,10 @@ The positive support I've received in the form of retweets, favs, likes, hearts,
 [^support-thanks]: Big ups to each of these fine humans. Jason D., Leif S., Julio C., Kenn W., Brady R., Sascha G., THe SKuLL, Robin B., Dan K., Kevin K., Kristen L., Kevin W., Kristen L., Ted W., Joss V., Oleksiy C., Amy H., Michael S., Daniel W., Ruth G., Leah S., Alfred K., Richard K., Matt H., Jennifer M., Toropchin A., Carlos F., Paul J., Benjamin M., Liam D., Joel M., Dave B., Christopher K., Jacob L., Zach F., Braden R., Eberth M., Chet Y., Heikki H., Tom B., Brooks S., Graciela H., Ben M., Stef S., Rob L., Michael G., Francesco C., Miguel M., Adeirra A., Jason C., Aaron R., Raúl A, Tim M., Ryan D., Jameson R., Andrew B., Bridget D., Juan R., Kyle K., Nick A., James O., Janis R., Vasileios M., Aaron M., James G,. Ruth P., Ryan F., Chistianna M., Vanessa T., Alexander M., Glenn S., Jessica P., Maria G., Bobby H., Jose A., Nicole D., Wesley F., Peter J., Michael M., Sailesh P., Jayne W., Antonio M., Wakes M., Liese A., Miguel R., Jonathan H., Adam M., Artem T., Glen N., Diako M., Nimesh R., Cherie P., Hristian K., Jens T., Mark E., Bryan C., Matteo F., Lorenzo R., Bill L., Antonio C., Thomas D., Lisa O., Ruben H., Leanne V., Dean M., Jeffrey M., Hoon S., Mieng-Ly S., Arno S., Umberto A., Isabelle V., Marcus E., Matt D., David M., Matthew B., Andi S., Andrew E., Yousef K., Jonas C., Peter B., Patricia H., Daniel-Ray V., Lita S., Charlotte H., David S., Richard M., Stefano D., Christie N., Ronald J., Janet R., Paula L., Angelic P., Chris S., Liesse A., Mary D., Jane D., Ed G., and Elizabeth G. I hope I didn't forget anyone...
 
 <small>Post contains affiliate and/or referral links. For more details read my <a href="/terms/#disclosure-policy">disclosure policy</a>.</small>
+
+[alupen-stylus]: http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0042U9AT6&linkCode=as2&tag=mademist-20&linkId=RWJ5A43BF46FLB36
+[lunatik-stylus]: http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00821TR7G
+[pogo-stylus]: /mastering-paper/pogo-connect-smart-pen/
+[pencil-stylus]: /mastering-paper/pencil-53-review/
+[zen-stylus]: https://www.kickstarter.com/projects/zenwriting/zen-next-generation-of-modern-writing-instrument
+[cheap-stylus]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20

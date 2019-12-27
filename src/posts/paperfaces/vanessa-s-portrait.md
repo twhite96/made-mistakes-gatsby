@@ -11,9 +11,9 @@ tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]
 
 PaperFaces portrait of Vanessa S. inspired by a [photograph on Sktchy](https://sktchy.com/NjZR3H).
 
-![Work in process screenshot](../../images/paperfaces-vanessa-s-process-1-600.jpg)](../../images/paperfaces-vanessa-s-process-1-lg.jpg)
+![Work in process screenshot](../../images/paperfaces-vanessa-s-process-1-lg.jpg)
 
-![Work in process screenshot](../../images/paperfaces-vanessa-s-process-2-600.jpg)](../../images/paperfaces-vanessa-s-process-2-lg.jpg)
+![Work in process screenshot](../../images/paperfaces-vanessa-s-process-2-lg.jpg)
 
 **Tools used:**
 
