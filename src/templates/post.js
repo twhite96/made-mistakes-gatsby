@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 
 import SEO from '../components/seo'
 import Layout from '../components/layout'
@@ -84,7 +84,7 @@ const PostTemplate = ({ data, pageContext }) => {
                 <div className="custom-block-heading">Comments are closed</div>
                 <div className="custom-block-body">
                   If you have a question concerning the content of this page,
-                  please feel free to contact me.
+                  please feel free to <Link to="/contact/">contact me</Link>.
                 </div>
               </div>
             ) : (
