@@ -256,7 +256,7 @@ class CommentForm extends React.Component {
                 disabled={submitting}
                 style={{ marginTop: '1rem' }}
               >
-                {submitting ? 'Submitting...' : 'Send comment'}
+                {submitting ? 'Sending. Please wait...' : 'Send comment'}
               </button>
             </form>
           </>
