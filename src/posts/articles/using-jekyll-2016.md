@@ -434,24 +434,29 @@ picture:
         itemprop: "image"
       ppi: [1]
       source_1600:
-        media: "(min-
+        media: "(min-width: 1600px)"
+        width: "1600"
       source_1024:
-        media: "(min-
+        media: "(min-width: 1024px)"
+        width: "1024"
       source_768:
-        media: "(min-
+        media: "(min-width: 768px)"
+        width: "768"
       source_600:
-        media: "(min-
+        media: "(min-width: 600px)"
+        width: "600"
       source_default:
+        width: "320"
 ```
 
 Now when a high resolution image is placed in `/images/_originals/` and `feature: /assets/images/image.jpg` added to the YAML Front Matter of a page, this markup spits out automatically:
 
 ```html
 <picture>
-  <source srcset="image-1600.jpg" media="(min-
-  <source srcset="image-1024.jpg" media="(min-
-  <source srcset="image-768.jpg" media="(min-
-  <source srcset="image-600.jpg" media="(min-
+  <source srcset="image-1600.jpg" media="(min-width: 1600px)">
+  <source srcset="image-1024.jpg" media="(min-width: 1024px)">
+  <source srcset="image-768.jpg" media="(min-width: 768px)">
+  <source srcset="image-600.jpg" media="(min-width: 600px)">
   <source srcset="image-320.jpg">
   <img src="image-320.jpg" class="page__hero-image" itemprop="image" alt="">
 </picture>

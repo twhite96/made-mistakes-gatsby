@@ -25,11 +25,11 @@ Two years ago I felt inspired to start the [**PaperFaces Project**](/notes/paper
 
 I'm not going to lie, finding the motivation to create something every day is incredibly difficult. Even with the proper motivation, making yourself available can be even more challenging. I'm proof that it can be done while working a full time job, fulfilling husbandly duties, caring for a set of twins, and maintaining healthy eating and sleeping habits.
 
-![The 2 little rosebuds](../../images/paperfaces-retro-03.jpg)
+![The 2 little rosebuds @ 3 months](../../images/two-little-rosebuds-3-months.jpg)
 
 ![Tools of the trade](../../images/paperfaces-retro-02.jpg)
 
-![Drawing Everly with Pencil by 53](../../images/paperfaces-retro-01.jpg)
+![Drawing Everly with Pencil by 53](../../images/drawing-everly-pencil-53-zoom-loupe.jpg)
 
 ### Start a routine
 
