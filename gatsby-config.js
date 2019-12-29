@@ -171,6 +171,7 @@ module.exports = {
       options: {
         excerpt_separator: `<!--more-->`,
         plugins: [
+          'gatsby-remark-copy-linked-files',
           {
             resolve: 'gatsby-remark-embed-video',
             options: {
@@ -208,7 +209,6 @@ module.exports = {
             },
           },
           'gatsby-remark-lazy-load',
-          'gatsby-remark-copy-linked-files',
           {
             resolve: 'gatsby-remark-smartypants',
             options: {
