@@ -262,6 +262,39 @@
   }
 }
 
+/* Thumbnail Gallery */
+
+.gallery-thumbnails {
+  clear: both;
+  padding-left: 0;
+
+  @supports (display: grid) {
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+
+  li {
+    float: left;
+    list-style: none;
+    margin: 0.25em;
+
+    @supports (display: grid) {
+      margin: 0;
+    }
+
+    a {
+      display: block;
+    }
+
+    img {
+      height: auto;
+      min-height: 100px;
+      width: 100%;
+    }
+  }
+}
+
 /* 2 column gallery */
 
 .two-column {
