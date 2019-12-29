@@ -31,7 +31,7 @@ Starting with a drawing I completed months ago, I was able to give it new life b
 
 [^bokeh]: In photography, bokeh is the blur, or the aesthetic quality of the blur, in out-of-focus areas of an image.
 
-<figure>
+<figure class="two-column">
   <img alt="Paper painting of Wendy without Pencil and blending" src="../../images/paper-53-wendy-forest-lg.jpg">
   <img alt="Paper painting of Wendy with bokeh background" src="../../images/paper-53-wendy-forest-blend-lg.jpg">
   <figcaption><p>A little before and after for your eyeballs.</p></figcaption>

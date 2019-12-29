@@ -18,20 +18,11 @@ Unfortunately something like this doesn't work:
 | ------------- | ------------- | ------------------ |
 | Bananas       | $1.34         | - built-in wrapper |
 |               |               | - bright color     |
-| ------------- | ------------- | ------------------ |
 | Oranges       | $2.10         | - cures scurvy     |
 |               |               | - tasty            |
 ```
 
-**Kramdown** treats each new line as a row and doesn't render the bullet lists properly in the Banana and Oranges rows as can be seen below.
-
-| Fruit         | Price         | Advantages         |
-| ------------- | ------------- | ------------------ |
-| Bananas       | $1.34         | - built-in wrapper |
-|               |               | - bright color     |
-| ------------- | ------------- | ------------------ |
-| Oranges       | $2.10         | - cures scurvy     |
-|               |               | - tasty            |
+**Kramdown** treats each new line as a row and doesn't render the bullet lists properly in the Banana and Oranges rows.
 
 Throwing HTML at the problem doesn't quite work either.
 
@@ -39,17 +30,10 @@ Throwing HTML at the problem doesn't quite work either.
 | Fruit         | Price         | Advantages         |
 | ------------- | ------------- | ------------------ |
 | Bananas       | $1.34         | <ul><li>built-in wrapper</li><li>bright color</li></ul> |
-| ------------- | ------------- | ------------------ |
 | Oranges       | $2.10         | <ul><li>cures scurvy</li><li>tasty</li></ul> |
 ```
 
 Instead of rendering the HTML, it is escaped and outputted as a single line of text.
-
-| Fruit         | Price         | Advantages         |
-| ------------- | ------------- | ------------------ |
-| Bananas       | $1.34         | <ul><li>built-in wrapper</li><li>bright color</li></ul> |
-| ------------- | ------------- | ------------------ |
-| Oranges       | $2.10         | <ul><li>cures scurvy</li><li>tasty</li></ul> |
 
 What is needed is a way of telling **Kramdown** to leave the HTML alone and output as is. Thankfully there is such a way using the [`nomarkdown` extension](http://kramdown.gettalong.org/syntax.html#extensions).
 
@@ -58,8 +42,7 @@ Simply wrap the HTML with `{::nomarkdown} ... {:/}` like so:
 ```markdown
 | Fruit         | Price         | Advantages         |
 | ------------- | ------------- | ------------------ |
-| Bananas       | $1.34         | {::nomarkdown}<ul><li>built-in wrapper</li><li>bright color</li></ul>{:/} |
-| ------------- | ------------- | ------------------ |
+| Bananas       | $1.34         | {::nomarkdown}<ul><li>built-in wrapper</li><li>bright color</li></ul>{:/}|
 | Oranges       | $2.10         | {::nomarkdown}<ul><li>cures scurvy</li><li>tasty</li></ul>{:/} |
 ```
 
@@ -69,9 +52,8 @@ And the table will output as expected[^cell-content].
 
 | Fruit         | Price         | Advantages         |
 | ------------- | ------------- | ------------------ |
-| Bananas       | $1.34         | {::nomarkdown}<ul><li>built-in wrapper</li><li>bright color</li></ul>{:/} |
-| ------------- | ------------- | ------------------ |
-| Oranges       | $2.10         | {::nomarkdown}<ul><li>cures scurvy</li><li>tasty</li></ul>{:/} |
+| Bananas       | $1.34         | <ul><li>built-in wrapper</li><li>bright color</li></ul> |
+| Oranges       | $2.10         | <ul><li>cures scurvy</li><li>tasty</li></ul> |
 
 While not as readable as a pure Markdown solution, it gets the job done.
 

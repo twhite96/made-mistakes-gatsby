@@ -29,6 +29,7 @@ Much like drawing skies, you can choose to mark a horizon line in pencil to act 
 
 [[notice | ProTip: smart cover ruler]]
 | An iPad smart cover placed on the screen can be used as a straight edge for drawing lines if you don't have a ruler handy.
+|
 | ![using an iPad smart cover as a ruler](../../images/paper-53-smart-cover-rule.jpg)
 
 ### Base coat for the water
@@ -120,14 +121,17 @@ Boom! And we're done. Combined with a blue sky from my previous guide and you'll
 
 Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project](/paperfaces/). Below are a few finished waterscapes to show what is possible by varying the color and composition.
 
-<ul class="gallery-thumbnails">
-  <li><a href="/paperfaces/andrewbrewer-portrait/"><img src="../../images/paperfaces-andrewbrewer-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/sbrolins-portrait/"><img src="../../images/paperfaces-sbrolins-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/bradersk8r-portrait/"><img src="../../images/paperfaces-bradersk8r-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/iron-man-portrait/"><img src="../../images/paperfaces-iron-man-3-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/agentkyle-portrait/"><img src="../../images/paperfaces-agentkyle-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/jamesonroot-portrait/"><img src="../../images/paperfaces-jamesonroot-twitter-150.jpg" alt="thumb" /></a></li>
-</ul>
+[![](../../images/paperfaces-andrewbrewer-twitter.jpg)](/paperfaces/andrewbrewer-portrait/)
+
+[![](../../images/paperfaces-sbrolins-twitter.jpg)](/paperfaces/sbrolins-portrait/)
+
+[![](../../images/paperfaces-bradersk8r-twitter.jpg)](/paperfaces/bradersk8r-portrait/)
+
+[![Portait of Iron Man in hero pose on water](../../images/paperfaces-iron-man-3.jpg)](/paperfaces/iron-man-portrait/)
+
+[![](../../images/paperfaces-agentkyle-twitter.jpg)](/paperfaces/agentkyle-portrait/)
+
+[![](../../images/paperfaces-jamesonroot-twitter.jpg)](/paperfaces/jamesonroot-portrait/)
 
 ---
 

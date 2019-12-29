@@ -3,18 +3,22 @@ title: "Drawing faces without faces with Paper for iOS"
 date: 2013-05-16
 path: /mastering-paper/drawing-blank-faces/
 excerpt: "Short on time? Here's the quick and fun way I draw portraits using Paper for iOS."
-last_modified_at: 2019-09-12T16:07:13-04:00
+last_modified_at: 2019-12-28T11:32:44-05:00
 image: ../../images/paper-53-draw-face-feature.jpg
 categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, portrait, Apple]
 toc: true
-comments: true
+comments: false
 comments_locked: true
 ---
 
-I hate cutting the grass because it's a chore, and chores suck. [Drawing a portrait every day](/notes/paperfaces-ipad-portrait-project/) for the last 10 months could have turned into a royal chore, but I kept it fun by setting a few restraints. These restrictions had a big effect on my style and time investment. Not exactly the most busy dude in the world, but working full time, tinkering with side projects, finding time for [my wife](https://2littlerosebuds.com/ "2 Little Rosebuds"), and helping to raise my twin girls doesn't leave much open.
+I hate cutting the grass because it's a chore, and chores suck. [Drawing a portrait every day](/notes/paperfaces-ipad-portrait-project/) for the last 10 months could have turned into a royal chore, but I kept it fun by setting a few restraints. 
 
-[Download a Drawing PaperFaces Guide](../../images/paperfaces-portrait-cheatsheet.jpg)
+These restrictions had a big effect on my style and time investment. Not exactly the most busy dude in the world, but working full time, tinkering with side projects, finding time for [my wife](https://2littlerosebuds.com/ "2 Little Rosebuds"), and helping to raise my twin girls doesn't leave much open.
+
+<p>
+  <a href="../../images/paperfaces-portrait-cheatsheet.jpg" class="btn">Download a Drawing PaperFaces Guide</a>
+</p>
 
 *I can't draw and I'm not an artist* --- that's the real reason most of my [PaperFaces illustrations](/paperfaces/) don't have facial features. Capturing a likeness is tough business yo! Omitting the trickiest part (the face) frees up all kinds of time, which circles back to how I've been able to maintain a daily drawing rhythm. A technically precise illustration that might have taken 8 hours is now squashed down to 30--60 minutes. Half an hour is fun, 10 hours is a chore!
 

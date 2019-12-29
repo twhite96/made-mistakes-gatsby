@@ -25,7 +25,7 @@ https://twitter.com/mmistakes/status/240601384477659136
 - Thank you for all the kind @replies, emails, comments, favorites, likes, and encouragement.
 - Thank you [**FiftyThree**](http://www.fiftythree.com/) for developing the app that made all this possible, fostering a [community of creators](http://madewithpaper.fiftythree.com/) who inspire me daily, and for supporting my project by featuring it in posts and tweets.
 
-<figure class="3-columns">
+<figure class="three-column">
   <img alt="PaperFaces portrait of a horsehead" src="../../images/paperfaces-studioprisoner-twitter.jpg">
   <img alt="PaperFaces portrait of a Go master" src="../../images/paperfaces-go-master.jpg">
   <img alt="PaperFaces portrait of long flowing hair" src="../../images/paperfaces-genevasands-twitter.jpg">

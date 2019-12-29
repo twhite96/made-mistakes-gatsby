@@ -54,15 +54,24 @@ So there you have it. Can't say that I was excited about the thought of paying a
 
 If you're looking for a more in-depth look at the Palm Pre, check out [Precentral's extensive review](https://web.archive.org/web/20100613121400/http://www.precentral.net/palm-pre-review). They cover every aspect of the phone with a detailed write-up, photos, and video walk-through.
 
-![Palm Pre lock screen](../../images/354.jpg)
-![Palm Pre closed](../../images/355.jpg)
-![Palm Pre open](../../images/356.jpg)
-![Palm Pre keyboard close up](../../images/357.jpg)
-![Palm Pre camera and mirror](../../images/358.jpg)
-![Palm Pre opened up](../../images/359.jpg)
-![Palm Pre and Palm Centro comparison](../../images/360.jpg)
-![Palm Pre and Palm Centro comparison](../../images/361.jpg)
-![Palm Pre Phone](../../images/362.jpg)
-![Palm Pre Music App](../../images/363.jpg)
-![Palm Pre Tweed App](../../images/364.jpg)
-![Palm Pre App Catalog](../../images/365.jpg)
+![Palm Pre lock screen](../../images/palm-pre-lock-screen.jpg)
+
+![Palm Pre open](../../images/palm-pre-open.jpg)
+
+![Palm Pre keyboard close up](../../images/palm-pre-keyboard.jpg)
+
+![Palm Pre camera and mirror](../../images/palm-pre-camera-mirror.jpg)
+
+![Palm Pre opened up](../../images/palm-pre-side-view.jpg)
+
+![Palm Pre and Palm Centro comparison](../../images/palm-pre-centro-thickness-comparison.jpg)
+
+![Palm Pre and Palm Centro comparison](../../images/palm-pre-centro-comparison.jpg)
+
+![Palm Pre Phone](../../images/palm-pre-phone-app.jpg)
+
+![Palm Pre Music App](../../images/palm-pre-music-app.jpg)
+
+![Palm Pre Tweed App](../../images/palm-pre-twitter-tweed-app.jpg)
+
+![Palm Pre App Catalog](../../images/palm-pre-app-catalog.jpg)

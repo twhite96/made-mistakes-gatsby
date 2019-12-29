@@ -1,5 +1,5 @@
 ---
-title: "Wendy's bird cage &amp; flying birds tattoos"
+title: "Wendy's bird cage & flying birds tattoos"
 date: 2009-03-29
 path: /notes/birds-bird-cage-tattoos/
 excerpt: "Put a bird on it. Photographs of Wendy's bird cage tattoos and some ink splat trees on my arms."
@@ -29,11 +29,11 @@ I didn't get much done... just some lines, ink splats, and squiggles to fill in 
 
 Birds flying around some tree branches.
 
-![Vegan tattoo and birds flying around some tree branches](../../images/bird-cage-tattoo-upper.jpg)
-
-Still in the process of healing.
-
-![Tattoo of birds breaking free, a key, and a lock](../../images/bird-cage-tattoo-lower.jpg)
+<figure class="two-column">
+  <img src="../../images/bird-cage-tattoo-upper.jpg" alt="Vegan tattoo and birds flying around some tree branches">
+  <img src="../../images/bird-cage-tattoo-lower.jpg" alt="Tattoo of birds breaking free, a key, and a lock">
+  <figcaption><p>Tattoos still in the process of healing.</p></figcaption>
+</figure>
 
 And here is my bird related tattoo...
 

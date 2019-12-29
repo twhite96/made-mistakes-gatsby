@@ -222,7 +222,7 @@ Using all of these techniques I was able to create a variety of backdrops for th
 
 [![](../../images/paperfaces-seanblezard-twitter.jpg)](/paperfaces/seanblezard-portrait/)
   
-[![](./../images/paperfaces-thatmiddleway-twitter.jpg)](/paperfaces/thatmiddleway-portrait/)
+[![](../../images/paperfaces-thatmiddleway-twitter.jpg)](/paperfaces/thatmiddleway-portrait/)
 
 [![](../../images/paperfaces-talksinmath-twitter.jpg)](/paperfaces/talksinmath-portrait/)
 

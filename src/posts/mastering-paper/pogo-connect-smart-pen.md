@@ -122,7 +122,8 @@ After complaining about it on Tumblr a friend messaged me to say that I needed t
 
 [[notice | Screen locking]]
 | Toggling iPad Cover Lock/Unlock to OFF in Settings will stop the Pogo from turning off your screen if you get to close to the edge.
-| ![iPad iOS 6 cover lock setting](../../images/iPad-cover-lock-setting.jpg)
+|
+| ![iPad iOS 6 cover lock setting](../../images/ipad-cover-lock-setting.jpg)
 
 Even with these hiccups I'm still a big fan of the Pogo Connect. Gives me hope that companies like [Ten One Design](https://www.tenonedesign.com) will continue to innovate in this space, giving digital creators tools that are even closer to the real thing.
 
@@ -144,7 +145,7 @@ I don't know if I can continue to recommend the product if it's prone to breakin
 
 And like that Ten One Design sent me a replacement pen with 2 extra tips free of charge. Excellent customer service if you ask me! Not sure if it's that new car smell effect, but this pen feels more sturdy and responsive than the last.
 
-Hoping that means the build quality has been improved and the tip sensor breaking apart is no longer an issue.
+Hoping that means the build quality has improved and the tip sensor breaking apart is no longer an issue.
 
 ## Update three months later
 

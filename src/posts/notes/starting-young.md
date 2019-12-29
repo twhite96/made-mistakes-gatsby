@@ -14,13 +14,11 @@ This *technology thing* has been both a blessing and a curse as my wife and I tr
 
 Shortly after our twin girls were born 19 months ago: moments were captured, milestones shared, feedings and diaper changes --- coordinated all from app enabled mobile phones. This is how technology saved us.
 
-<div class="align-right">
-  <img alt="Oh Trotro, oh Trotro" src="../../images/trotro.gif">
-</div>
+![Oh Trotro, oh Trotro](../../images/trotro.jpg)
 
 I didn't anticipate how quickly the *two little rosebuds* would become attracted to these glowing screens. When it wasn't the 4&#x2033; variety held tightly between our fingers, it was the 51&#x2033; wall hugger in our living room. On demand Netflix programming became the norm, and look out if their favorite French cartoon **[Trotro](http://thetvdb.com/?tab=series&id=108061)** buffers for a few seconds...
 
-Anyways, back to the point. For the last couple of months my wife and I have been trying to help the twins hit some of their milestones. They were born a few weeks premature so it's been a challenge motivating them to walk, eat on their own, use utensils, stack blocks, speak, etc.
+Anyways, back to the point. For the last couple of months my wife and I have been trying to help the twins hit some of their milestones. They were born a few weeks premature so it has been a challenge motivating them to walk, eat on their own, use utensils, stack blocks, speak, etc.
 
 Coloring is one milestone we never once considered they'd be ready for, but for whatever reason our doctor always brings it up first. So we try it, we work with them. Like most activities involving something the twins have to hold --- they chuck it across the room the second they grab it. Now it's not like we expect little Pablo Picasso's, but if they just held a crayon for more than a second --- we'd consider that a victory.
 

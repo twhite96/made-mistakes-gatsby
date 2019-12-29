@@ -5,8 +5,6 @@ path: /notes/using-ssi/
 excerpt: "In my never ending quest to micro-optimize the hell out of my site, I ran into a snag when trying to use SSI directives to improve the loading of critical CSS and cached stylesheets."
 categories: [notes]
 tags: [TIL, web development, Jekyll]
-comments: true
-support: true
 last_modified_at: 2019-11-05T14:50:51-05:00
 ---
 

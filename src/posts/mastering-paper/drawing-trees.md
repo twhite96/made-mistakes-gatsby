@@ -76,7 +76,7 @@ To finish, quick strokes of watercolor with either a light gray or light dull gr
 
 ![screenshot of subtle watercolor shadows](../../images/paper-53-dull-green-gradation.jpg)
 
-[[notice | ProTip: background cleanup
+[[notice | ProTip: background cleanup]]
 | Fill the pencil with a color that matches the background and use it to refine the tree's outline, cleaning up any watercolor that might have bled.
 |
 | This technique works great to "erase" any spots in the middle of the tree where the sky might be showing through leaves.
@@ -125,18 +125,23 @@ One final tip for creating depth is to paint over everything with light gray or 
 
 ## Variations on a theme
 
-Using all of these techniques on their own or in concert, I was able to create lush backgrounds for many of the portraits in my [PaperFaces Project](/paperfaces/). Below are a few tree and grass examples to show what is possible just by varying the color and composition.
+Using these techniques on their own or in concert, I was able to create lush backgrounds for many of the portraits in my [PaperFaces Project](/paperfaces/). Below are a few tree and grass examples to show what is possible by varying the color and composition.
 
-<ul class="gallery-thumbnails">
-  <li><a href="/paperfaces/isellsoap-portrait/"><img src="../../images/paperfaces-isellsoap-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/thatmiddleway-portrait/"><img src="../../images/paperfaces-thatmiddleway-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/lmichelleinc-portrait/"><img src="../../images/paperfaces-lmichelleinc-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/elektrojunge-portrait/"><img src="../../images/paperfaces-elektrojunge-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/jupiter909-portrait/"><img src="../../images/paperfaces-jupiter909-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/ryandawidjan-portrait/"><img src="../../images/paperfaces-ryandawidjan-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/quimeraimantada-portrait/"><img src="../../images/paperfaces-quimeraimantada-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/michael-rose-portrait/"><img src="../../images/paperfaces-michael-rose-150.jpg" alt="thumb" /></a></li>
-</ul>
+[![](../../images/paperfaces-isellsoap-twitter.jpg)](/paperfaces/isellsoap-portrait/)
+
+[![](../../images/paperfaces-thatmiddleway-twitter.jpg)](/paperfaces/thatmiddleway-portrait/)
+
+[![](../../images/paperfaces-lmichelleinc-twitter.jpg)](/paperfaces/lmichelleinc-portrait/)
+
+[![](../../images/paperfaces-elektrojunge-twitter.jpg)](/paperfaces/elektrojunge-portrait/)
+
+[![](../../images/paperfaces-jupiter909-twitter.jpg)](/paperfaces/jupiter909-portrait/)
+
+[![](../../images/paperfaces-ryandawidjan-twitter.jpg)](/paperfaces/ryandawidjan-portrait/)
+
+[![](../../images/paperfaces-quimeraimantada-twitter.jpg)](/paperfaces/quimeraimantada-portrait/)
+
+[![](../../images/paperfaces-michael-rose.jpg)](/paperfaces/michael-rose-portrait/)
 
 ---
 

@@ -26,7 +26,7 @@ Anyways. After cutting out all the pages I setup my JVC mini-DV camcorder and re
 
 ![Trimming pages printed out by the Rasterbator](../../images/rasterbator-trimming-pages.jpg)
 
-![First Rasterbator row assembled](../../images/rasterbator-firstrow-owl.jpg)
+![First Rasterbator row assembled](../../images/rasterbator-first-row-owl.jpg)
 
 ![Halfway assembled Rasterbator owl](../../images/rasterbator-halfway-owl.jpg)
 

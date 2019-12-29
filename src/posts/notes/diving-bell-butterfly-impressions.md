@@ -1,5 +1,5 @@
 ---
-title: "Seeing through blurred eyes --- The Diving Bell and The Butterfly"
+title: "Seeing through blurred eyes — The Diving Bell and The Butterfly"
 date: 2008-01-29
 path: /notes/diving-bell-butterfly-impressions/
 excerpt: "Quick impressions of the film, The Diving Bell and The Butterfly."

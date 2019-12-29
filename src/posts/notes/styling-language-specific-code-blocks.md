@@ -2,11 +2,12 @@
 title: "Styling language specific code blocks with Jekyll"
 date: 2017-05-16
 path: /notes/styling-language-specific-code-blocks/
+excerpt: Interesting styling possibilities with syntax highlighted code blocks.
 categories: [notes]
 tags: [TIL, web development, Jekyll]
 comments: true
 support: true
-last_modified_at: 2017-05-16T16:24:26-04:00
+last_modified_at: 2019-12-28T19:01:38-05:00
 ---
 
 While inspecting the markup of some syntax highlighted code blocks I noticed something I hadn't before, `language-lexer` classes:

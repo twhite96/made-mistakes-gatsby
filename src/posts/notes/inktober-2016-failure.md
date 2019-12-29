@@ -3,15 +3,15 @@ title: "Inktober failure"
 date: 2016-10-17
 path: /notes/inktober-2016-failure/
 excerpt: "Like previous years, I started out with the best of intentions for Inktober and then quickly lost steam..."
-image: ../../images/inktober-2016-wash-portrait.jpg
+image: ../../images/inktober-2016-wash-portrait-process-1.jpg
 categories: [notes]
 tags: [watercolor, portrait, illustration, Inktober]
-last_modified_at: 2019-02-15T14:08:07-05:00
+last_modified_at: 2019-12-28T19:28:12-05:00
 ---
 
 Similar to previous years, I started out with the best of intentions for [**Inktober**](http://mrjakeparker.com/inktober) and then quickly lose steam...
 
-![Girl in sunglasses ink wash portrait in process detail](../../images/inktober-2016-wash-portrait-process-1.jpg)
+![Girl in sunglasses ink wash portrait](../../images/inktober-2016-wash-portrait.jpg)
 
 ![Detail of nose and mouth ink wash portrait](../../images/inktober-2016-wash-portrait-process-2.jpg)
 

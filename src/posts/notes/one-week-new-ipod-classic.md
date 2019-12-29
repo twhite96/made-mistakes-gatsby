@@ -4,10 +4,9 @@ date: 2007-09-14
 path: /notes/one-week-new-ipod-classic/
 excerpt: "Quick impressions of the new iPod classic 60GB."
 last_modified_at: 2013-05-03
-image: ../../images/ipod-classic-feature.jpg
+image: ../../images/ipod-classic-packaging.jpg
 categories: [notes]
 tags: [Apple, review]
-toc: true
 ---
 
 Last week Apple finally unveiled a new generation of iPods. The last iPod I purchased was a 3rd generation model with 40GB of hard drive space and have been waiting for a decent successor. My iTunes Music Library has finally outgrown the 3rd gen so I decided this was the time to get a replacement. I figured an iPod that resembled the iPhone would be just around the corner and pleasantly surprised when the *iPod touch* was announced.
@@ -16,14 +15,21 @@ At 16GB the iPod touch doesn't meet my needs, so I decided to go with the new iP
 
 The classic has a few issues, but nothing that has given me buyer's remorse.
 
-![iPod classic syncing next to a 40GB iPod](../../images/80.jpg)
-![iPod classic thickness compared to an old 40GB iPod](../../images/81.jpg)
-![New interface menu](../../images/82.jpg)
-![iPod classic games screen](../../images/83.jpg)
-![iPod classic coverflow](../../images/84.jpg)
-![iPod classic coverflow flip](../../images/85.jpg)
-![iPod classic viewing your photos](../../images/86.jpg)
-![iPod classic search](../../images/87.jpg)
+![iPod classic syncing next to a 40GB iPod](../../images/ipod-classic-syncing.jpg)
+
+![iPod classic thickness compared to an old 40GB iPod](../../images/ipod-classic-thickness-comparison.jpg)
+
+![New interface menu](../../images/ipod-classic-user-interface.jpg)
+
+![iPod classic games screen](../../images/ipod-classic-games-menu.jpg)
+
+![iPod classic coverflow](../../images/ipod-classic-cover-flow.jpg)
+
+![iPod classic coverflow flip](../../images/ipod-classic-cover-flow-flip.jpg)
+
+![iPod classic viewing your photos](../../images/ipod-classic-photos.jpg)
+
+![iPod classic search](../../images/ipod-classic-search-interface.jpg)
 
 ## The pros
 

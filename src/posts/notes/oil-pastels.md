@@ -2,6 +2,7 @@
 title: "Oil pastels are not pencils"
 date: 2016-10-27
 path: /notes/oil-pastels/
+excerpt: Not to overstate the obvious here, but oil pastels do not behave like colored pencils...
 image: ../../images/oil-pastel-sunset-finished.jpg
 categories: [notes]
 tags: [TIL, illustration]
@@ -17,7 +18,9 @@ Made a slight recovery when I began using the tool like I would with oil paint. 
 Attempting to create form with precise strokes is totally not the way to approach oil pastels.
 
 ![Preliminary sketch and taped off paper](../../images/oil-pastels-process-1.jpg)
+
 ![Sketching out the sky](../../images/oil-pastels-process-2.jpg)
+
 ![The finished piece before removing the mask](../../images/oil-pastels-process-3.jpg)
 
 ## Tools Used

@@ -4,7 +4,7 @@ date: 2009-01-05
 path: /articles/animal-crossing-city-folk-impressions/
 excerpt: "A lengthy review of Animal Crossing City Folk for the Nintendo Wii, some things never change."
 last_modified_at: 2018-02-09T09:12:50-05:00
-image: ../../images/animal-crossing-stuck-in-hole.jpg
+image: ../../images/animal-crossing-city-folk-link.jpg
 categories: [articles]
 tags: [video games, review]
 toc: true
@@ -12,7 +12,7 @@ toc: true
 
 Some things get better and some things never change. Going in I knew **Animal Crossing: City Folk** (for the Nintendo Wii) would be remaining mostly unchanged from its predecessor AC: Wild World on the DS. But frankly I didn't care and wanted to try it out for myself even after reading a few lackluster reviews. What really surprised me after playing was how it was able to hook me in...again. Which is pretty admirable seeing how it's the same damn game I've played TWICE before.
 
-The *Animal Crossing* series has always been able to take boring tasks like paying a mortgage, picking weeds, making deliveries, planting flowers and trees, cleaning up trash, fishing, digging up fossils, catching bugs...and transform them into fun. The charm of the game is its ability to introduce new "carrots" along the way that encourage you to continue playing. Payoff your first mortgage to Tom Nook and you'll see exactly what I mean.
+The **Animal Crossing** series has always been able to take boring tasks like paying a mortgage, picking weeds, making deliveries, planting flowers and trees, cleaning up trash, fishing, digging up fossils, catching bugs...and transform them into fun. The charm of the game is its ability to introduce new "carrots" along the way that encourage you to continue playing. Payoff your first mortgage to Tom Nook and you'll see exactly what I mean.
 
 The following are some of the additions and changes to the series that have for the most part won me over.
 
@@ -24,7 +24,7 @@ In the Gamecube and DS versions, *time traveling* or TT was frowned upon. If you
 
 In City Folk I've been known to TT a day or so to catch events I missed. This time around Resetti doesn't bug you and the game itself makes it easy to change the time before entering your town. If you TT your turnips will wilt, you will get weeds, you can't gain interest (unless you change the Wii's clock in the system settings), and town folk may leave. But used in moderation I see no problem with going back a few hours so you can enter Nook's or catch special visitors.
 
-A cool addition is the ability to import your character from *Animal Crossing: Wild World* on the Nintendo DS. Everything you obtained in your catalog makes the move (with the exception of some rare items). You don't bring over the physical items, house expansions, or accumulated bells. But you can re-purchase any of these items from Nook by asking to see your item catalog.
+A cool addition is the ability to import your character from **Animal Crossing: Wild World** on the Nintendo DS. Everything you obtained in your catalog makes the move (with the exception of some rare items). You don't bring over the physical items, house expansions, or accumulated bells. But you can re-purchase any of these items from Nook by asking to see your item catalog.
 
 <figure>
   <img src="../../images/animal-crossing-me-wendy.jpg" alt="Wendy's Animal Crossing character lurking over me">
@@ -40,7 +40,7 @@ At first I thought you could transfer your save from the Wii to a SD card and vi
 For the most part everything functions and looks like it did in Wild World. The exceptions being you can now have a fountain, windmill (helps with perfect town status), or lighthouse (helps bring in rare fish) built by donating enough bells to the town fund.
 
 <figure>
-  <img src="../../images/animal-crossing-dharma-initiative.jpg" alt="Dharma flag from LOST in Animal Crossing">
+  <img src="../../images/animal-crossing-dharma-initiative-house.jpg" alt="Dharma flag from LOST in Animal Crossing">
   <figcaption><p>I created a Dharma Initiative flag from LOST.</p></figcaption>
 </figure>
 

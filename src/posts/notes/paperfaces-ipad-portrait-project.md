@@ -90,14 +90,14 @@ I've been completely humbled by all the support and attention coming my way sinc
   <li><a href="../../images/homage-missshrestha-rosebuds-lg.jpg"><img src="../../images/homage-missshrestha-rosebuds-150.jpg" alt="PaperFaces portrait of the twins drawn by @missshrestha on Instagram"></a></li>
   <li><a href="../../images/homage-morgantj-mmistakes-lg.jpg"><img src="../../images/homage-morgantj-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @morgantj"></a></li>
   <li><a href="../../images/homage-tortadecereja-mmistakes-lg.jpg"><img src="../../images/homage-tortadecereja-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @tortadecereja"></a></li>
-  <li><a href="https://www.instagram.com/p/W8WaxfAYmG/"><img src="../../images/homage-lindseyvail-art-1-150.jpg" alt="PaperFaces homage drawn by @lindseyvail_art on Instagram"></a></li>
-  <li><a href="http://instagram.com/p/W5r5EwgYge/"><img src="../../images/homage-lindseyvail-art-2-150.jpg" alt="PaperFaces homage drawn by @lindseyvail_art on Instagram"></a></li>
-  <li><a href="http://instagram.com/p/VQ4-6HklEU/"><img src="../../images/homage-m0im0i-150.jpg" alt="PaperFaces homage drawn by @m0im0i on Instagram"></a></li>
+  <li><a href="https://instagram.com/p/W8WaxfAYmG/"><img src="../../images/homage-lindseyvail-art-1-150.jpg" alt="PaperFaces homage drawn by @lindseyvail_art on Instagram"></a></li>
+  <li><a href="https://instagram.com/p/W5r5EwgYge/"><img src="../../images/homage-lindseyvail-art-2-150.jpg" alt="PaperFaces homage drawn by @lindseyvail_art on Instagram"></a></li>
+  <li><a href="https://instagram.com/p/VQ4-6HklEU/"><img src="../../images/homage-m0im0i-150.jpg" alt="PaperFaces homage drawn by @m0im0i on Instagram"></a></li>
   <li><a href="https://twitter.com/LovisasLife/status/314699959775662081"><img src="../../images/homage-lovisaslife-150.jpg" alt="PaperFaces homage drawn by @LovisasLife on Twitter"></a></li>
-  <li><a href="http://instagram.com/p/QTn7jWJkHj/"><img src="../../images/homage-ramesstudios-150.jpg" alt="PaperFaces homage drawn by @ramesstudios on Instagram"></a></li>
-  <li><a href="http://instagram.com/p/cHexhprrxf/"><img src="../../images/homage-konstnaren-150.jpg" alt="PaperFaces homage drawn by @konstnaren on Instagram"></a></li>
-  <li><a href="http://instagram.com/p/aVh8QOJ-uv/"><img src="../../images/homage-grumz-150.jpg" alt="PaperFaces homage drawn by @grumz on Instagram"></a></li>
-  <li><a href="http://eichan68.tumblr.com"><img src="../../images/homage-eichan68-150.jpg" alt="PaperFaces homage drawn by @eichan68 on Instagram"></a></li>
+  <li><a href="https://instagram.com/p/QTn7jWJkHj/"><img src="../../images/homage-ramesstudios-150.jpg" alt="PaperFaces homage drawn by @ramesstudios on Instagram"></a></li>
+  <li><a href="https://instagram.com/p/cHexhprrxf/"><img src="../../images/homage-konstnaren-150.jpg" alt="PaperFaces homage drawn by @konstnaren on Instagram"></a></li>
+  <li><a href="https://instagram.com/p/aVh8QOJ-uv/"><img src="../../images/homage-grumz-150.jpg" alt="PaperFaces homage drawn by @grumz on Instagram"></a></li>
+  <li><a href="https://eichan68.tumblr.com/"><img src="../../images/homage-eichan68-150.jpg" alt="PaperFaces homage drawn by @eichan68 on Instagram"></a></li>
 </ul>
 
 ## Featured on

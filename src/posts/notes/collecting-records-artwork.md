@@ -25,8 +25,6 @@ Thumbing through boxes of dusty hardcore and emo records, it's easy to see where
 
 Instead of embarrassing myself with examples of my early fumbles as a graphic designer --- I'd like to share inspirational fragments from my record collection. With over 500 LP's and 45's, I'm sure I can find plenty of material to critique and comment on.
 
-![Image of upcoming artwork to be critiqued](../../images/record-art-teaser-620x217.jpg)
-
 ## More to come
 
 Just finished capturing some photographs of artwork that ranges from black/white ink drawings, fancy die-cuts, to sleeves printed on vellum with metallic inks...

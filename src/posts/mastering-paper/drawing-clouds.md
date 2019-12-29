@@ -130,19 +130,24 @@ An added benefit of painting a sunset, is how it reacts with objects that are pl
 
 Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project](/paperfaces/). Below are a few finished skies and clouds to show what is possible just by varying the color and composition.
 
-<ul class="gallery-thumbnails">
-  <li><a href="/paperfaces/laramulady-portrait/"><img src="../../images/paperfaces-laramulady-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/tipican-portrait/"><img src="../../images/paperfaces-tipican-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/sbrolins-portrait/"><img src="../../images/paperfaces-sbrolins-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/technacity-portrait/"><img src="../../images/paperfaces-technacity-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/dismanntled-portrait/"><img src="../../images/paperfaces-dismanntled-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/suhairykz-portrait/"><img src="../../images/paperfaces-suhairykz-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/nick-aylward-portrait/"><img src="../../images/paperfaces-nick-aylward-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="/paperfaces/shinfu-portrait/"><img src="../../images/paperfaces-shinfu-twitter-150.jpg" alt="thumb" /></a></li>
-</ul>
+[![](../../images/paperfaces-laramulady-twitter.jpg)](/paperfaces/laramulady-portrait/)
+
+[![](../../images/paperfaces-tipican-twitter.jpg)](/paperfaces/tipican-portrait/)
+
+[![](../../images/paperfaces-sbrolins-twitter.jpg)](/paperfaces/sbrolins-portrait/)
+
+[![](../../images/paperfaces-technacity-twitter.jpg)](/paperfaces/technacity-portrait/)
+
+[![](../../images/paperfaces-dismanntled-twitter.jpg)](/paperfaces/dismanntled-portrait/)
+
+[![](../../images/paperfaces-suhairykz-twitter.jpg)](/paperfaces/suhairykz-portrait)
+
+[![](../../images/paperfaces-nick-aylward-twitter.jpg)](/paperfaces/nick-aylward-portrait/)
+
+[![](../../images/paperfaces-shinfu-twitter.jpg)](/paperfaces/shinfu-portrait/)
 
 ---
 
 Next up --- the perfect landscape compliment to happy trees and clouds, crashing waves and water.
 
-[^1]: Watching Bob Ross paint on his PBS show, [**The Joy of Painting**](http://en.wikipedia.org/wiki/The_Joy_of_Painting) was a huge influence on me during my high school years. Many of the techniques I use to paint with Paper by 53 have been adapted from him. RIP in you silly son of a gun.
+[^1]: Watching Bob Ross paint on his PBS show, [**The Joy of Painting**](http://en.wikipedia.org/wiki/The_Joy_of_Painting) was an influence on me during my high school years. The techniques I use to paint with Paper by 53 have been adapted from him. RIP in you silly son of a gun.
