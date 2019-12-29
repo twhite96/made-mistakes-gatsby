@@ -66,6 +66,20 @@
 }
 
 .tags {
+  margin-top: 0.25rem;
+
+  .tag {
+    padding: 0.125rem 0.25rem;
+    color: var(--muted-text-color);
+    background-color: var(--code-background-color);
+    text-decoration: none;
+    border-radius: var(--border-radius);
+
+    &:hover {
+      color: var(--code-text-color);
+    }
+  }
+
   .tag + .tag {
     margin-left: 0.75rem;
   }
