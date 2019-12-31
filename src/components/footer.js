@@ -31,7 +31,7 @@ const Footer = ({
     <ul className={style.menu}>
       <FooterMenu footerMenu={footerMenu} />
     </ul>
-    <ul className={`${style.menu} ${style.menuSocial}`}>
+    <ul className={style.menuSocial}>
       {twitter && (
         <li>
           <a href={twitter}>
