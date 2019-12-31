@@ -2,7 +2,7 @@
 title: "About Michael Rose"
 path: /about/
 date: 2016-08-26
-last_modified_at: 2018-03-22T10:19:56-04:00
+last_modified_at: 2019-12-31T15:36:56-05:00
 excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo New York."
 image: ../images/about-michael-collage-2016.jpg
 toc: true
