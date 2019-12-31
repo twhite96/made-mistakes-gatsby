@@ -57,7 +57,7 @@ const Categories = ({
         }
         metaImage={metaImage}
       />
-      <main className={style.main}>
+      <main id="main" className={style.main}>
         <div className={style.title}>
           <h1 className={style.heading}>
             <span>

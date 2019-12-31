@@ -37,20 +37,22 @@ const PageTemplate = ({ data }) => {
         metaImage={metaImage}
         article
       />
-      <Document
-        key={id}
-        title={title}
-        hideMeta
-        datePublished={date}
-        dateModified={last_modified_at}
-        datePretty={date_pretty}
-        dateFromNow={date_from_now}
-        dateModifiedFromNow={last_modified_at_from_now}
-        path={path}
-        image={image}
-        html={html}
-        author={site.author}
-      />
+      <main id="main">
+        <Document
+          key={id}
+          title={title}
+          hideMeta
+          datePublished={date}
+          dateModified={last_modified_at}
+          datePretty={date_pretty}
+          dateFromNow={date_from_now}
+          dateModifiedFromNow={last_modified_at_from_now}
+          path={path}
+          image={image}
+          html={html}
+          author={site.author}
+        />
+      </main>
     </Layout>
   )
 }

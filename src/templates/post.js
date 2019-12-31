@@ -55,44 +55,46 @@ const PostTemplate = ({ data, pageContext }) => {
         metaImage={metaImage}
         article
       />
-      <Document
-        key={id}
-        title={title}
-        hideMeta={hideMeta}
-        datePublished={date}
-        dateModified={last_modified_at}
-        datePretty={date_pretty}
-        dateFromNow={date_from_now}
-        dateModifiedFromNow={last_modified_at_from_now}
-        path={path}
-        author={site.author}
-        timeToRead={timeToRead}
-        toc={toc}
-        tableOfContents={tableOfContents}
-        image={image}
-        html={html}
-        tags={tags}
-        previousPost={previous}
-        nextPost={next}
-      />
-      <section className={style.comments}>
-        {commentsEnabled && (
-          <>
-            {comments && <CommentsList commentsList={comments} />}
-            {commentsLocked ? (
-              <div className="custom-block notice">
-                <div className="custom-block-heading">Comments are closed</div>
-                <div className="custom-block-body">
-                  If you have a question concerning the content of this page,
-                  please feel free to <Link to="/contact/">contact me</Link>.
+      <main id="main">
+        <Document
+          key={id}
+          title={title}
+          hideMeta={hideMeta}
+          datePublished={date}
+          dateModified={last_modified_at}
+          datePretty={date_pretty}
+          dateFromNow={date_from_now}
+          dateModifiedFromNow={last_modified_at_from_now}
+          path={path}
+          author={site.author}
+          timeToRead={timeToRead}
+          toc={toc}
+          tableOfContents={tableOfContents}
+          image={image}
+          html={html}
+          tags={tags}
+          previousPost={previous}
+          nextPost={next}
+        />
+        <section className={style.comments}>
+          {commentsEnabled && (
+            <>
+              {comments && <CommentsList commentsList={comments} />}
+              {commentsLocked ? (
+                <div className="custom-block notice">
+                  <div className="custom-block-heading">Comments are closed</div>
+                  <div className="custom-block-body">
+                    If you have a question concerning the content of this page,
+                    please feel free to <Link to="/contact/">contact me</Link>.
+                  </div>
                 </div>
-              </div>
-            ) : (
-              <CommentForm slug={path} />
-            )}
-          </>
-        )}
-      </section>
+              ) : (
+                <CommentForm slug={path} />
+              )}
+            </>
+          )}
+        </section>
+      </main>
       <Pagination
         previousPath={previousPath}
         previousLabel={previousLabel}

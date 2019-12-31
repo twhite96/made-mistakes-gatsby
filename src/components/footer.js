@@ -27,7 +27,7 @@ const Footer = ({
   feed,
   copyrights,
 }) => (
-  <footer className={style.footer}>
+  <footer id="footer" className={style.footer}>
     <ul className={style.menu}>
       <FooterMenu footerMenu={footerMenu} />
     </ul>

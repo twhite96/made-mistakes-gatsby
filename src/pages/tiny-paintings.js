@@ -68,7 +68,7 @@ class Gallery extends React.Component {
           description="Gallery of mini watercolor portraits painted at really small sizes."
           metaImage={metaImage}
         />
-        <main className={style.document}>
+        <main id="main" className={style.document}>
           <div className={style.title}>
             <h1 className={style.heading}>
               <span>Tiny paintings</span>

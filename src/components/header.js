@@ -34,6 +34,25 @@ const Header = props => {
           }`}
         />
       </Helmet>
+      <nav className={style.skipLinks}>
+        <ul>
+          <li>
+            <a href="#nav-primary" className={style.shortcut}>
+              Skip to primary navigation
+            </a>
+          </li>
+          <li>
+            <a href="#main" className={style.shortcut}>
+              Skip to content
+            </a>
+          </li>
+          <li>
+            <a href="#footer" className={style.shortcut}>
+              Skip to footer
+            </a>
+          </li>
+        </ul>
+      </nav>
       <header className={style.header}>
         <div className={style.name}>
           <Link to="/">{siteTitle}</Link>

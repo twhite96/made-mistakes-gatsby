@@ -23,7 +23,7 @@ const TagsPage = ({
       description="An archive of posts organized by topic."
       metaImage={metaImage}
     />
-    <main className={style.main}>
+    <main id="main" className={style.main}>
       <div className={style.title}>
         <h1 className={style.heading}>
           <span>All tags</span>

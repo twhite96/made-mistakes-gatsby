@@ -8,6 +8,52 @@
   font-size: var(--text-sm);
 }
 
+.skipLinks {
+  position: absolute;
+  width: 100%;
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+}
+
+.shortcut {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  overflow: hidden;
+
+  &:focus {
+    display: block;
+    top: 5px;
+    left: 5px;
+    width: auto;
+    height: auto;
+    padding: 0.75em 1em;
+    clip: auto !important;
+    border-radius: var(--border-radius);
+    background-color: var(--text-color);
+    color: var(--background-color);
+    font-weight: bold;
+    line-height: normal;
+    text-decoration: none;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    z-index: 100000;
+  }
+}
+
+.shortcut:focus {
+  width: auto;
+  height: auto;
+  clip: auto !important;
+  text-decoration: none;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  z-index: 100000;
+}
+
 .name {
   display: block;
   margin-right: 2rem;

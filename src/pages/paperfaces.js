@@ -69,7 +69,7 @@ class Gallery extends React.Component {
           iOS on an iPad. Find time lapse videos, in-process screenshots, and more."
           metaImage={metaImage}
         />
-        <main className={style.document}>
+        <main id="main" className={style.document}>
           <div className={style.title}>
             <h1 className={style.heading}>
               <span>PaperFaces iPad project</span>

@@ -27,7 +27,7 @@ const WorksPage = ({ data }) => {
         description="A selection of things I've designed, illustrated, and developed."
         metaImage={site.image}
       />
-      <main className={style.main}>
+      <main id="main" className={style.main}>
         <div className={style.title}>
           <h1 className={style.heading}>
             <span>Works</span>

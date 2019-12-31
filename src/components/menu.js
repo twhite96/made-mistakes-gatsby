@@ -33,6 +33,7 @@ const Menu = ({
   return (
     <>
       <nav
+        id="nav-primary"
         itemScope
         itemType="http://schema.org/SiteNavigationElement"
         aria-label="Primary navigation"
