@@ -29,7 +29,7 @@ Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as 
 - SEO best practices via [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/)
 
 <p>
-  <a href="https://mmistakes.github.io/jekyll-theme-basically-basic/" onclick="ga('send', 'event', 'link', 'click', 'Preview Basically Basic');" class="btn">Theme demo</a>
+  <a href="https://mmistakes.github.io/jekyll-theme-basically-basic/" class="btn">Live preview</a>
 </p>
 
 <div class="browser-frame">

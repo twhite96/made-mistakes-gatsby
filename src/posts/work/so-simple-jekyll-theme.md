@@ -28,8 +28,8 @@ After having so much fun creating and releasing [my first open source Jekyll the
 - SEO best practices via [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag).
 - Options to customize the theme and make it your own.
 
-<p markdown="0">
-  <a href="https://mmistakes.github.io/so-simple-theme/" onclick="ga('send', 'event', 'link', 'click', 'Preview So Simple');" class="btn">Live preview</a>
+<p>
+  <a href="https://mmistakes.github.io/so-simple-theme/" class="btn">Live preview</a>
 </p>
 
 ![post layout example](../../images/so-simple-post.png)

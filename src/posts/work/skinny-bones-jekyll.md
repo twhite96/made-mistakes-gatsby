@@ -26,7 +26,7 @@ This was a good excuse to learn Sass and figured starting a new repository to ex
 
 I like to think of Skinny Bones as a starter for building your own Jekyll powered site --- versus a theme you use as is. I've purposely kept the styling minimal and light to make adding your own flare and markup easier. If that's not your thing you can still use it without modification, but where is the fun in that?
 
-<p markdown="0">
+<p>
   <a href="https://mmistakes.github.io/jekyll-theme-skinny-bones/getting-started/" class="btn">Setup guide</a>
   <a href="https://mmistakes.github.io/jekyll-theme-skinny-bones/" class="btn">Live preview</a>
 </p>

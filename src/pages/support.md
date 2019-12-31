@@ -2,7 +2,7 @@
 title: "Show your support"
 path: /support/
 date: 2016-08-26
-last_modified_at: 2019-02-15T16:07:33-05:00
+last_modified_at: 2019-12-31T11:06:32-05:00
 excerpt: "If you like the free content I provide on Made Mistakes, here's how to show your thanks and motivate me to create more of it."
 toc: true
 ---
@@ -13,20 +13,16 @@ The tutorials, Jekyll themes, and other articles I publish have been a true labo
 
 If you'd like to support me so I can continue to provide free content and themes --- hit one of the buttons below. I accept PayPal, Square Cash, and Bitcoin: [`1KvHBVXcbeWhwcSRJQdcwVsUZBYnyH5enw`](../images/bitcoin-qr.png "Bitcoin QR code").
 
-<ul>
-  <li><a href="https://www.paypal.me/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send PayPal');">PayPal.me</a></li>
-  <li><a href="https://cash.me/$mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send Square Cash');">Square Cash</a></li>
-  <li><a href="../images/bitcoin-qr.png" onclick="ga('send', 'event', 'link', 'click', 'Send Bitcoin');" title="1KvHBVXcbeWhwcSRJQdcwVsUZBYnyH5enw">Bitcoin (BTC)</a></li>
-</ul>
+- [PayPal.me](https://www.paypal.me/mmistakes)
+- [Square Cash](https://cash.me/$mmistakes)
+- [Send Bitcoin QR Code](../images/bitcoin-qr.png)
 
 ## Buy something
 
 If you shop on [Amazon.com](https://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS), using my referral link below will earn me a small commission if you end up buying something. I also maintain an Amazon Wish List if you are feeling extra generous.
 
-<ul>
-  <li><a href="https://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS" onclick="ga('send', 'event', 'link', 'click', 'Shop Amazon');">Shop Amazon</a></li>
-  <li><a href="http://amzn.com/w/1K58RT2NS0SDP" onclick="ga('send', 'event', 'link', 'click', 'Amazon Wish List');">My Amazon Wish List</a></li>
-</ul>
+- [Shop Amazon](https://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS)
+- [My Amazon Wish List](http://amzn.com/w/1K58RT2NS0SDP)
 
 ## Spread the word
 
@@ -43,18 +39,10 @@ If these sorts of things interest you, follow along on:
 - [GitHub](https://github.com/mmistakes)
 - [YouTube](https://www.youtube.com/user/anotherjpeg)
 
-## Subscribe to the feeds
+## Subscribe to the feed
 
-The main feed[^feed] for everything on Made Mistakes.
+The main feed[^feed] for all posts on Made Mistakes.
 
 - Atom: [atom.xml](/atom.xml)
 
-### Feeds by topic
-
-- Blog articles: [articles.xml](/articles.xml)
-- Notes: [notes.xml](/notes.xml)
-- Paper for iOS tutorials: [mastering-paper.xml](/mastering-paper.xml)
-- PaperFaces iPad portraits: [paperfaces.xml](/paperfaces.xml)
-- Procreate iPad paintings: [procreate-paintings.xml](/procreate-paintings.xml)
-
-[^feed]: Right click any of the feed links found on this page and add to your feed reader of choice. My favorite is [feedly](https://feedly.com), which syncs your subscriptions across all browsers and mobile devices.
+[^feed]: Right click and add to your feed reader of choice. My favorite is [feedly](https://feedly.com), which syncs your subscriptions across all browsers and mobile devices.
