@@ -131,6 +131,16 @@ module.exports = {
       },
     },
     'gatsby-remark-source-name',
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-2011187-1',
+        head: false,
+        anonymize: true,
+        respectDNT: true,
+        cookieDomain: 'mademistakes.com',
+      },
+    },
     'gatsby-plugin-catch-links',
     {
       resolve: 'gatsby-plugin-postcss',
