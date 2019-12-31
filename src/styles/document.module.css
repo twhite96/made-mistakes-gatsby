@@ -72,6 +72,7 @@
   margin-top: 0.25rem;
 
   .tag {
+    display: inline-block;
     padding: 0.125rem 0.25rem;
     color: var(--muted-text-color);
     background-color: var(--code-background-color);
@@ -84,7 +85,8 @@
   }
 
   .tag + .tag {
-    margin-left: 0.75rem;
+    margin-top: 0.25rem;
+    margin-left: 0.5rem;
   }
 }
 

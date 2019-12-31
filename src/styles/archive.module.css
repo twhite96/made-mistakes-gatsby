@@ -293,9 +293,13 @@
     }
 
     .count {
+      padding: 0.125rem 0.5rem;
       color: var(--muted-text-color);
       font-family: var(--monospace-font);
-      font-size: var(--text-sm);
+      font-size: var(--text-xs);
+      text-decoration: none;
+      border-radius: var(--border-radius);
+      background-color: var(--code-background-color);
     }
   }
 }
