@@ -62,7 +62,7 @@
     monospace;
 
   /* Other */
-  --border-radius: 0.125em;
+  --border-radius: 0.125rem;
   --global-transition: all 0.4s ease;
   --avatar-size: 30px;
 }
