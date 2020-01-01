@@ -166,6 +166,7 @@
     margin-top: 2em;
     margin-bottom: 1em;
     font-family: var(--serif-font);
+    font-weight: 400;
   }
 
   > h2,
@@ -261,7 +262,7 @@
   padding: 1em;
   font-family: var(--monospace-font);
   font-size: var(--text-sm);
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
   text-decoration: none;
   color: var(--button-text-color);

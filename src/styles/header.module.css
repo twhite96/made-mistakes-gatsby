@@ -37,7 +37,7 @@
     border-radius: var(--border-radius);
     background-color: var(--text-color);
     color: var(--background-color);
-    font-weight: bold;
+    font-weight: 700;
     line-height: normal;
     text-decoration: none;
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
