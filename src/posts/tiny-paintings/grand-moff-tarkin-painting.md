@@ -3,8 +3,9 @@ title: "Charming to the last"
 date: 2015-10-16
 path: /tiny-paintings/grand-moff-tarkin-painting/
 excerpt: "Tiny portrait of a Grand Moff Tarkin painted with watercolor on hot press paper."
-last_modified_at: 2016-10-10T11:21:40-04:00
+last_modified_at: 2019-12-31T15:52:54-05:00
 image: ../../images/painting-grand-moff-tarkin.jpg
+thumbnail: ../../images/painting-grand-moff-tarkin-crop.jpg
 categories: [tiny-paintings]
 tags: [watercolor, portrait, illustration, Star Wars]
 ---

@@ -3,8 +3,9 @@ title: "Sexy Saxophone"
 date: 2015-10-16
 path: /tiny-paintings/bith-painting/
 excerpt: "Tiny portrait of a Bith painted with watercolor on hot press paper."
-last_modified_at: 2016-10-10T11:22:24-04:00
+last_modified_at: 2019-12-31T15:53:14-05:00
 image: ../../images/painting-bith.jpg
+thumbnail: ../../images/painting-bith-crop.jpg
 categories: [tiny-paintings]
 tags: [watercolor, portrait, illustration, Star Wars]
 ---

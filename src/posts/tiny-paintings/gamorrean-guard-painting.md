@@ -3,8 +3,9 @@ title: "Pig Lizard"
 date: 2015-10-16
 path: /tiny-paintings/gamorrean-guard-painting/
 excerpt: "Tiny portrait of a Gamorrean Guard from Return of the Jedi, painted with watercolor on hot press paper."
-last_modified_at: 2015-11-16T11:22:01-05:00
+last_modified_at: 2019-12-31T15:53:00-05:00
 image: ../../images/painting-gamorrean-guard.jpg
+thumbnail: ../../images/painting-gamorrean-guard-crop.jpg
 categories: [tiny-paintings]
 tags: [watercolor, portrait, illustration, Star Wars]
 ---
