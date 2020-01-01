@@ -172,6 +172,7 @@
     display: flex;
     width: 100%;
     overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
 
     > * {
       flex: 1 0 90%;
