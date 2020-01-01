@@ -2,19 +2,13 @@
 title: "Contact"
 path: /contact/
 date: 2016-08-26
-last_modified_at: 2019-11-08T16:09:07-05:00
+last_modified_at: 2019-12-31T19:24:48-05:00
 excerpt: "Preferred methods of sending your questions, inquires, messages, and love letters to me."
 ---
 
 Have a question for me? My direct messages are open [on Twitter](https://twitter.com/mmistakes) for short and succinct messages.
 
-Before sending, please read my [frequently asked questions section](/faqs/) first to make sure I haven't already answered it. For Jekyll and theme help it's best to submit an issue on the appropriate GitHub repo:
-
-- [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes/issues)
-- [So Simple Jekyll theme](https://github.com/mmistakes/so-simple-theme)
-- [Basically Basic Jekyll theme](https://github.com/mmistakes/jekyll-theme-basically-basic)
-
-For anything else, use the contact form below.
+Before sending, please read my [frequently asked questions section](/faqs/) first to make sure I haven't already answered it. For anything else use the form below.
 
 <form id="form1" name="form1" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://mademistakes.wufoo.com/forms/zr2w1zk1hbcjv0/#public">
   <div class="form-group">

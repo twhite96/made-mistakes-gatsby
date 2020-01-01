@@ -264,13 +264,13 @@
     display: block;
     box-sizing: border-box;
     width: 100%;
-    margin: 0;
+    margin: 0.25em 0 0 0;
     padding: 0.75em 0.5em;
     vertical-align: top;
     overflow: visible;
     color: var(--text-color);
     font-family: var(--sans-serif-font);
-    font-size: var(--text-sm);
+    font-size: var(--text-base);
     background: var(--input-background-color);
     border: 1px solid var(--input-background-color);
     border-radius: 0.25em;
