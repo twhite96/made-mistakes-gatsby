@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import { Helmet } from 'react-helmet'
+import MadeMistakesIcon from './icons/made-mistakes-icon'
 
 import Menu from './menu'
 
@@ -55,7 +56,10 @@ const Header = props => {
       </nav>
       <header className={style.header}>
         <div className={style.name}>
-          <Link to="/">{siteTitle}</Link>
+          <Link to="/">
+            <MadeMistakesIcon />
+            <span className={style.iconLabel}>{siteTitle}</span>
+          </Link>
         </div>
         <Menu
           mainMenu={mainMenu}
