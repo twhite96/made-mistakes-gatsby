@@ -136,7 +136,7 @@ Wide strokes made with the pencil tool overlap differently than the ink, marker,
 
 [^banding]: Abrupt changes between shades of the same color.
 
-<p><img src="../../images/pencil-surface-pressure-overlap.gif" alt="animation showing overlapping wide pencil strokes" loading="lazy"></p>
+![animation showing overlapping wide pencil stroke](../../images/pencil-surface-pressure-overlap.gif)
 
 [[notice | ProTip: shade in circles]]
 | Reduce color banding by holding Pencil on its side and moving in a circular motion to evenly fill things in.
@@ -424,9 +424,9 @@ The fog effect is achieved by covering the canvas in circular blend strokes to b
 
 Before Pencil and Blend were a thing you had to [get creative with white paint](/mastering-paper/basics/#lightening-with-white) to make lens flares and other glowing orbs of light. With a few quick swipes of your finger you can easily transform plain shapes and lines into lightsabers, auras, lightning, and more.
 
-<p><img src="../../images/pencil-53-blend-lightsaber.gif" alt="lightsaber - before/after blend animation" loading="lazy"></p>
+![lightsaber - before/after blend animation](../../images/pencil-53-blend-lightsaber.gif)
 
-<p><img src="../../images/pencil-53-blend-lightning.gif" alt="lightning - before/after blend animation" loading="lazy"></p>
+![lightning - before/after blend animation](../../images/pencil-53-blend-lightning.gif)
 
 #### Outer space scenes
 
