@@ -58,7 +58,7 @@ const Header = props => {
         <div className={style.name}>
           <Link to="/">
             <MadeMistakesIcon />
-            <span className={style.iconLabel}>{siteTitle}</span>
+            <span className={style.logoLabel}>{siteTitle}</span>
           </Link>
         </div>
         <Menu
